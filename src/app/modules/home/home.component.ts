@@ -10,7 +10,11 @@ import { filter, Subject, takeUntil } from 'rxjs';
 })
 export class HomeComponent implements OnInit, OnDestroy {
   private destroy$: Subject<void> = new Subject<void>();
-
+  private routeLanguageMap = {
+    '/': 'main',
+    '/bike': 'bike',
+    '/laptop': 'laptop'
+  };
   constructor(
     private translate: TranslateService,
     private router: Router
@@ -24,11 +28,8 @@ export class HomeComponent implements OnInit, OnDestroy {
     this.router.events.pipe(
       takeUntil(this.destroy$)
     ).subscribe((event: NavigationEnd) => {
-      if (event['routerEvent'].url === '/') {
-        this.translate.use('main');
-      } else if (event['routerEvent'].url === '/bike') {
-        this.translate.use('bike');
-      }
+      const language = this.routeLanguageMap[event['routerEvent'].url] || 'main';
+      this.translate.use(language);
     });
   }
 
