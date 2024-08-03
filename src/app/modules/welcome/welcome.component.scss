@@ -1,0 +1,186 @@
+.welcome {
+  height: 100%;
+
+  .header {
+    background-image: url('/assets/img/111111.jpg');
+    height: 100%;
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    display: flex;
+
+    .header_container {
+      max-width: 1500px;
+      width: 100%;
+      margin: 0 auto;
+
+      display: flex;
+      flex-direction: column;
+
+      @media (max-width: 1520px) {
+        width: 90%;
+      }
+
+      .header_inner {
+        padding: 30px 0 25px 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+
+        flex-direction: row;
+
+        justify-content: space-between;
+
+        .header_inner_navigation {
+
+          display: flex;
+          flex-direction: row;
+
+          .navigation_network {
+            width: 85px;
+          }
+
+          .navigation_network1 {
+            display: none;
+          }
+
+          .navigation_contact {
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .contact_inner {
+              font-size: 24px;
+              color: white;
+              text-decoration: none;
+            }
+
+            .contact_inner_city {
+              font-size: 20px;
+              color: white;
+              cursor: pointer;
+            }
+
+          }
+        }
+
+        .header_menu {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+          flex-direction: row;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+
+          .menu_img {
+            cursor: pointer;
+            width: 23px;
+            padding-right: 15px;
+          }
+
+          .menu_list {
+            font-size: 17px;
+            color: white;
+            cursor: pointer;
+          }
+        }
+      }
+
+      .header_link {
+        margin: 0px 0 50px 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+
+        .header_nav_main {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+          flex-direction: row;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between;
+
+          .nav_main_inner {
+            text-decoration: none;
+            color: white;
+            font-size: 17px;
+            margin-left: 35px;
+
+            &:hover {
+              border-bottom: 1px solid white;
+              padding: 5px 0;
+            }
+          }
+        }
+      }
+
+      .header_loft {
+        margin: 70px 0 0 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+
+        .loft_inner_log {
+          font-size: 32px;
+          color: white;
+          font-weight: 100;
+        }
+
+        .loft_inner_dop_log {
+          font-weight: 100;
+          font-size: 72px;
+          color: white;
+          font-style: normal;
+        }
+      }
+
+      .header_loft_btn {
+        margin-top: 300px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+
+        .header_loft_btn_inner {
+          width: auto;
+          font-size: 22px;
+          color: white;
+          background-color: #556865;
+          padding: 22px 95px;
+          text-decoration: none;
+          border-radius: 50px;
+        }
+      }
+    }
+  }
+}
