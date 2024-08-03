@@ -17,6 +17,8 @@ import { MatSliderModule } from '@angular/material/slider';
 import { MatStepperModule } from '@angular/material/stepper';
 import { CommonModule } from "@angular/common";
 import { SidebarComponent } from "../components/sidebar/sidebar.component";
+import { TranslateService } from "@ngx-translate/core";
+import { TranslateModule } from "@ngx-translate/core";
 
 
 @NgModule({
@@ -40,7 +42,8 @@ import { SidebarComponent } from "../components/sidebar/sidebar.component";
     MatFormFieldModule,
     MatDatepickerModule,
     MatSliderModule,
-    MatStepperModule
+    MatStepperModule,
+    TranslateModule
   ],
   exports: [
     MatListModule,
@@ -57,7 +60,8 @@ import { SidebarComponent } from "../components/sidebar/sidebar.component";
     MatDatepickerModule,
     MatSliderModule,
     MatStepperModule,
-    SidebarComponent
+    SidebarComponent,
+    TranslateModule
   ]
 })
 

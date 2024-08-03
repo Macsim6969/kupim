@@ -1,24 +1,25 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { WelcomeComponent } from './welcome.component';
 import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './home.component';
 import { ShareModule } from '../../shared/modules/share.module';
+import { WelcomeModule } from '../welcome/welcome.module';
 
 const routes: Routes = [
-  { path: '', component: WelcomeComponent }
+  { path: '', component: HomeComponent , children: [
+    {path: ':route', component: HomeComponent}
+  ]}
 ]
 
 @NgModule({
   declarations: [
-    WelcomeComponent
+    HomeComponent
   ],
   imports: [
     CommonModule,
     ShareModule,
+    WelcomeModule,
     RouterModule.forChild(routes)
-  ],
-  exports: [
-    WelcomeComponent
   ]
 })
-export class WelcomeModule { }
+export class HomeModule { }

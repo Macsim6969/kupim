@@ -1,1 +1,10 @@
-{}
+{
+  "dashboard": {
+    "state": "State of Florida",
+    "title": "Bicycle buyback in any condition",
+    "location": "(All States)",
+    "description": "We'll buy your bike at the best price!",
+    "image": "/assets/img/bike/bike.png",
+    "bgImage": "bike"
+  }
+}

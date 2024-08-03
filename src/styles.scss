@@ -22,6 +22,7 @@ $kupim-theme: mat.define-theme((color: (theme-type: light,
 }
 
 @import url('./styles/fonts.scss');
+@import url('./styles/welcomeBg.scss');
 
 *,
 h1,
