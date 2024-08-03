@@ -4,6 +4,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home.component';
 import { ShareModule } from '../../shared/modules/share.module';
 import { WelcomeModule } from '../welcome/welcome.module';
+import { ProdInfoModule } from '../prod-info/prod-info.module';
+import { EasyStepsModule } from '../easy-steps/easy-steps.module';
 
 const routes: Routes = [
   {
@@ -21,6 +23,8 @@ const routes: Routes = [
     CommonModule,
     ShareModule,
     WelcomeModule,
+    ProdInfoModule,
+    EasyStepsModule,
     RouterModule.forChild(routes)
   ]
 })

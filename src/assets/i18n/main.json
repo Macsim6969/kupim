@@ -1,3 +1,28 @@
 {
-  "title": "Main"
+  "dashboard": {
+    "state": "State of Florida",
+    "title": "Bicycle buyback in any condition",
+    "location": "(All States)",
+    "description": "We'll buy your bike at the best price!",
+    "image": "/assets/img/bike/bike.png",
+    "bgImage": "bike"
+  },
+  "prodInfo": {
+    "title": "Bike",
+    "text": "we buy back across all US states",
+    "content": [
+      {
+        "img": "/assets/img/laptop/info-dtp.svg"
+      },
+      {
+        "img": "/assets/img/laptop/info-credit.svg"
+      },
+      {
+        "img": "/assets/img/laptop/info-legal.svg"
+      },
+      {
+        "img": "/assets/img/laptop/info-ip.svg"
+      }
+    ]
+  }
 }

@@ -2,9 +2,8 @@
   height: 100%;
 
   .header {
-
-    height: 895px;
-    padding: 75px 0 0 0;
+    height: -webkit-fill-available;
+    padding: 75px 0 90px 0;
 
     .header___container {
       max-width: 1720px;

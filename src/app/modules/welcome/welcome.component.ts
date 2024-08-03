@@ -1,6 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { SidebarServcie } from '../../shared/services/sidebar.service';
-import { Subject, takeUntil } from 'rxjs';
+import { Subject, take, takeUntil } from 'rxjs';
 import { TranslateService } from '@ngx-translate/core';
 import { Welcome } from './shared/interfaces/welcome.interface';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -22,13 +22,17 @@ export class WelcomeComponent implements OnInit, OnDestroy {
   ) { }
   ngOnInit(): void {
     this.streamDashboardDataFromJson();
-    this.route.queryParams.subscribe((data) => this.state = this.capitalizeFirstLetter(data['state']))
+    this.getQueryData();
   }
 
   private streamDashboardDataFromJson() {
     this.translate.stream('dashboard').pipe(takeUntil(this.destroy$)).subscribe((data: Welcome) => {
       this.welcomeDataPage = data;
     })
+  }
+
+  private getQueryData() {
+    this.route.queryParams.pipe(take(1)).subscribe((data) => this.state = this.capitalizeFirstLetter(data['state']));
   }
 
   private capitalizeFirstLetter(value: string): string {
@@ -41,6 +45,7 @@ export class WelcomeComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
-
+    this.destroy$.next();
+    this.destroy$.complete();
   }
 }

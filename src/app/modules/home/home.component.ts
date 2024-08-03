@@ -24,6 +24,11 @@ export class HomeComponent implements OnInit, OnDestroy {
   ) { }
 
   ngOnInit(): void {
+    this.setUpQueryParamsData();
+    this.streamRoute();
+  }
+
+  private setUpQueryParamsData() {
     const queryParams = { state: 'florida' };
     const urlTree = this.router.createUrlTree([], {
       relativeTo: this.route,
@@ -31,7 +36,6 @@ export class HomeComponent implements OnInit, OnDestroy {
       queryParamsHandling: 'merge'
     });
     this.location.replaceState(this.router.serializeUrl(urlTree));
-    this.streamRoute();
   }
 
   private streamRoute() {
