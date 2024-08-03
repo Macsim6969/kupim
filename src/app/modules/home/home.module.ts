@@ -6,9 +6,11 @@ import { ShareModule } from '../../shared/modules/share.module';
 import { WelcomeModule } from '../welcome/welcome.module';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent , children: [
-    {path: ':route', component: HomeComponent}
-  ]}
+  {
+    path: '', component: HomeComponent, children: [
+      { path: ':route', component: HomeComponent }
+    ]
+  }
 ]
 
 @NgModule({
