@@ -56,7 +56,8 @@ import { SidebarComponent } from "../components/sidebar/sidebar.component";
     MatFormFieldModule,
     MatDatepickerModule,
     MatSliderModule,
-    MatStepperModule
+    MatStepperModule,
+    SidebarComponent
   ]
 })
 
