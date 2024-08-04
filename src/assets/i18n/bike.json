@@ -24,5 +24,65 @@
         "img": "/assets/img/laptop/info-ip.svg"
       }
     ]
+  },
+  "easySteps": {
+    "title": "3 simple steps",
+    "text": "to sell a laptop fast",
+    "style": "bike",
+    "contentStep1": {
+      "step": "Step 1",
+      "stepText": "Send photos and characteristics of the laptop to Telegram, Messenge",
+      "contact": "CONNECT"
+    },
+    "contentStep2": {
+      "step": "Step 2",
+      "stepText": "Make an appointment for a sale at your nearest office or order a no obligation sale"
+    },
+    "contentStep3": {
+      "step": "Step 3",
+      "stepText": "Receive instant payouts in a form that is convenient for you"
+    }
+  },
+  "aboutInfo": {
+    "title": "We buy back laptops in Florida",
+    "text": "and all the states",
+    "list": [
+      {
+        "src": "/assets/img/laptop/about/car.svg",
+        "title": "Buy a laptop in any condition"
+      },
+      {
+        "src": "/assets/img/laptop/about/sack.svg",
+        "title": "Day-of-communication sale"
+      },
+      {
+        "src": "/assets/img/laptop/about/lock.svg",
+        "title": "It's all confidential."
+      },
+      {
+        "src": "/assets/img/laptop/about/bank.svg",
+        "title": "Traid-In"
+      },
+      {
+        "src": "/assets/img/laptop/about/time.svg",
+        "title": "Online or on-site appraisal"
+      },
+      {
+        "src": "/assets/img/laptop/about/thumbs-up.svg",
+        "title": "Pricing more expensive than the competition"
+      },
+      {
+        "src": "/assets/img/laptop/about/flag.svg",
+        "title": "We buy out all the states in the U.S."
+      },
+      {
+        "src": "/assets/img/laptop/about/bills.svg",
+        "title": "Instant disbursement of money in a form convenient for you"
+      },
+      {
+        "src": "/assets/img/laptop/about/chain.svg",
+        "title": "We work with complex cases (collateral, credit)"
+      }
+    ]
   }
 }

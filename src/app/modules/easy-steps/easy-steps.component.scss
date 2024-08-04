@@ -158,9 +158,16 @@
   }
 }
 
-.linear{
-  background: #739588;
-  background: linear-gradient(86deg, #eb996c 0%, #eb996c 36%, #202227 100%);
+.linear {
   width: 100%;
   height: 136px;
+
+  &.laptop {
+    background: linear-gradient(86deg, #eb996c 0%, #eb996c 36%, #202227 100%);
+  }
+
+  &.bike {
+    background: linear-gradient(86deg, #ae8c64 0%, #ae8c64 36%, #202227 100%);
+  }
+
 }

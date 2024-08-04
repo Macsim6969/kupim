@@ -1,6 +1,7 @@
 export interface EasySteps {
   title: string
   text: string
+  style: string
   contentStep1: Steps
   contentStep2: Steps
   contentStep3: Steps
