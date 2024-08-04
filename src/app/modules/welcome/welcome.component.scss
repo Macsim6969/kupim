@@ -70,6 +70,14 @@
             align-items: center;
             justify-content: center;
 
+            &.phone{
+              display: none;
+              @media (max-width: 720px) {
+                display: block;
+                width: 80px;
+              }
+            }
+
             @media (max-width: 620px) {
               margin: 0;
             }
