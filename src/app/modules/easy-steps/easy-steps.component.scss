@@ -42,8 +42,13 @@
 
     .about_inner {
       margin: 0 0 150px 0px;
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
+      // display: grid;
+      // grid-template-columns: repeat(5, 1fr);
+      // justify-content: space-between;
+
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
       justify-content: space-between;
 
       .about_inner_step1 {

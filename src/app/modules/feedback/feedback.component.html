@@ -1,0 +1,24 @@
+<div class="review">
+    <div class="review_cont">
+        <h2 class="review_titile">{{testimonialsData.title}}</h2>
+        <div class="review_inner">
+            <div class="inner_comment" *ngFor="let feedback of testimonialsData.feedback">
+                <div class="comment_title">{{feedback.content}}</div>
+                <div class="comment_staff">
+
+                    <div class="staff_inner">
+                        <div class="inner_info">{{feedback.name}}</div>
+                        <div class="inner_underinfo">{{feedback.prod}} </div>
+                    </div>
+                    <img class="comment_staff_img" src="/assets/img/laptop/feedback/google-maps.svg" alt="Google Maps">
+                </div>
+                <img class="review_stars" src="/assets/img/laptop/feedback/stars.png" alt="stars">
+                <div class="review_starss">{{feedback.feedbackMap}}</div>
+            </div>
+        </div>
+        <div class="review_btn">
+            <a class="review_btn_inner" href="#">{{testimonialsData.content}}</a>
+            <a href=""><img class="review__btn_inner" src="/assets/img/laptop/feedback/arrow.png" alt=""></a>
+        </div>
+    </div>
+</div>

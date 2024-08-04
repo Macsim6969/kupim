@@ -84,5 +84,29 @@
         "title": "We work with complex cases (collateral, credit)"
       }
     ]
+  },
+  "testimonials": {
+    "title": "Customer feedback",
+    "feedback": [
+      {
+        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
+        "name": "Андрей",
+        "prod": "Sold the Gt Zaskar bike",
+        "feedbackMap": "Отзыв с Google Карт"
+      },
+      {
+        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
+        "name": "Андрей",
+        "prod": "Sold the Gt Zaskar bike",
+        "feedbackMap": "Отзыв с Google Карт"
+      },
+      {
+        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
+        "name": "Андрей",
+        "prod": "Sold the Gt Zaskar bike",
+        "feedbackMap": "Отзыв с Google Карт"
+      }
+    ],
+    "content": "View Testimonials on Google Maps"
   }
 }
