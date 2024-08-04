@@ -9,6 +9,8 @@ import { EasyStepsModule } from '../easy-steps/easy-steps.module';
 import { AboutInfoModule } from '../about-info/about-info.module';
 import { InformationModule } from '../information/information.module';
 import { FeedbackModule } from '../feedback/feedback.module';
+import { QuestionsComponent } from '../questions/questions.component';
+import { QuestionsModule } from '../questions/questions.module';
 
 const routes: Routes = [
   {
@@ -31,6 +33,7 @@ const routes: Routes = [
     AboutInfoModule,
     InformationModule,
     FeedbackModule,
+    QuestionsModule,
     RouterModule.forChild(routes)
   ]
 })
