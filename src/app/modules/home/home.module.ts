@@ -7,6 +7,7 @@ import { WelcomeModule } from '../welcome/welcome.module';
 import { ProdInfoModule } from '../prod-info/prod-info.module';
 import { EasyStepsModule } from '../easy-steps/easy-steps.module';
 import { AboutInfoModule } from '../about-info/about-info.module';
+import { InformationModule } from '../information/information.module';
 
 const routes: Routes = [
   {
@@ -27,6 +28,7 @@ const routes: Routes = [
     ProdInfoModule,
     EasyStepsModule,
     AboutInfoModule,
+    InformationModule,
     RouterModule.forChild(routes)
   ]
 })
