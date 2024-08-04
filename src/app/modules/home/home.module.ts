@@ -6,6 +6,7 @@ import { ShareModule } from '../../shared/modules/share.module';
 import { WelcomeModule } from '../welcome/welcome.module';
 import { ProdInfoModule } from '../prod-info/prod-info.module';
 import { EasyStepsModule } from '../easy-steps/easy-steps.module';
+import { AboutInfoModule } from '../about-info/about-info.module';
 
 const routes: Routes = [
   {
@@ -25,6 +26,7 @@ const routes: Routes = [
     WelcomeModule,
     ProdInfoModule,
     EasyStepsModule,
+    AboutInfoModule,
     RouterModule.forChild(routes)
   ]
 })
