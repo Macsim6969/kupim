@@ -5,6 +5,10 @@
     height: -webkit-fill-available;
     padding: 75px 0 90px 0;
 
+    @media (max-width: 620px) {
+      padding: 40px 0 90px 0;
+    }
+
     .header___container {
       max-width: 1720px;
       width: 100%;
@@ -315,11 +319,6 @@
           padding: 0 0 20px 25px;
         }
 
-
-        @media (max-width: 620px) {
-          padding: 0 0 110px 25px;
-        }
-
         .loft_inner {
           color: white;
           font-size: 36px;
@@ -347,6 +346,10 @@
         display: flex;
         width: 100%;
         justify-content: center;
+
+        @media (max-width: 620px) {
+          display: none;
+        }
 
         img {
           width: 38px;
