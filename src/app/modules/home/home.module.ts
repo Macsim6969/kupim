@@ -11,6 +11,7 @@ import { InformationModule } from '../information/information.module';
 import { FeedbackModule } from '../feedback/feedback.module';
 import { QuestionsComponent } from '../questions/questions.component';
 import { QuestionsModule } from '../questions/questions.module';
+import { FooterModule } from '../footer/footer.module';
 
 const routes: Routes = [
   {
@@ -34,6 +35,7 @@ const routes: Routes = [
     InformationModule,
     FeedbackModule,
     QuestionsModule,
+    FooterModule,
     RouterModule.forChild(routes)
   ]
 })
