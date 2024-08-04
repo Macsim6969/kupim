@@ -19,6 +19,10 @@
         width: 90%;
       }
 
+      @media (max-width: 620px) {
+        width: 75%;
+      }
+
       .header_inner {
         padding: 30px 30px 25px 30px;
         display: -webkit-box;
@@ -32,6 +36,11 @@
         -ms-flex-pack: justify;
         justify-content: space-between;
 
+        @media (max-width: 720px) {
+          padding: 0px 14px 25px 0px;
+          align-items: flex-start;
+        }
+
 
         .header_inner_navigation {
           display: -webkit-box;
@@ -42,6 +51,11 @@
           -ms-flex-direction: row;
           flex-direction: row;
 
+          @media (max-width: 720px) {
+            flex-direction: column;
+            align-items: center;
+          }
+
           .icon {
             background-color: white;
             border-radius: 10px;
@@ -51,6 +65,10 @@
             display: flex;
             align-items: center;
             justify-content: center;
+
+            @media (max-width: 620px) {
+              margin: 0;
+            }
 
             img {
               width: 80%;
@@ -77,6 +95,10 @@
             flex-direction: column;
             -ms-flex-pack: distribute;
             justify-content: space-around;
+
+            @media (max-width: 720px) {
+              display: none;
+            }
 
             .contact_inner {
               font-size: 24px;
@@ -109,12 +131,21 @@
             cursor: pointer;
             width: 23px;
             padding-right: 15px;
+
+            @media (max-width: 720px) {
+              padding: 15px 0 0 0;
+              width: 36px;
+            }
           }
 
           .menu_list {
             font-size: 17px;
             color: white;
             cursor: pointer;
+
+            @media (max-width: 720px) {
+              display: none;
+            }
           }
         }
       }
@@ -134,6 +165,10 @@
         -webkit-box-pack: end;
         -ms-flex-pack: end;
         justify-content: flex-end;
+
+        @media (max-width: 720px) {
+          display: none;
+        }
 
         .header_nav_main {
           display: -webkit-box;
@@ -170,6 +205,12 @@
           padding: 0 0 0 10%;
         }
 
+        @media (max-width: 620px) {
+          grid-template-columns: 1fr;
+          justify-items: center;
+          padding: 0;
+        }
+
         .header_home {
           width: auto;
           height: 500px;
@@ -178,6 +219,10 @@
           @media (max-width: 1250px) {
             width: 350px;
             height: auto;
+          }
+
+          @media (max-width: 792px) {
+            width: 275px;
           }
         }
 
@@ -188,6 +233,15 @@
           flex-direction: column;
           align-items: center;
           max-width: 550px;
+
+          @media (max-width: 792px) {
+            margin: 35px 0 0 0;
+          }
+
+          @media (max-width: 620px) {
+            max-width: 320px;
+            align-items: flex-start;
+          }
 
           .header_title_inner {
             display: -webkit-box;
@@ -200,6 +254,14 @@
             font-size: 61px;
             color: #ae8c64;
             font-weight: bolder;
+
+            @media (max-width: 720px) {
+              font-size: 42px;
+            }
+
+            @media (max-width: 620px) {
+              font-size: 32px;
+            }
           }
 
           .header_title__inner1 {
@@ -213,6 +275,10 @@
             font-size: 61px;
             margin-left: 0px;
             font-weight: bolder;
+
+            @media (max-width: 720px) {
+              font-size: 42px;
+            }
           }
 
           .header_title_inner2 {
@@ -226,6 +292,10 @@
             font-size: 32px;
             color: #ae8c64;
             font-weight: 400;
+
+            @media (max-width: 720px) {
+              font-size: 22px;
+            }
           }
         }
 
@@ -241,11 +311,25 @@
         flex-direction: column;
         padding: 0 0 20px 60px;
 
+        @media (max-width: 720px) {
+          padding: 0 0 20px 25px;
+        }
+
+
+        @media (max-width: 620px) {
+          padding: 0 0 110px 25px;
+        }
+
         .loft_inner {
           color: white;
           font-size: 36px;
           font-weight: 100;
           max-width: 350px;
+
+          @media (max-width: 972px) {
+            font-size: 26px;
+            max-width: 220px;
+          }
         }
 
 
@@ -257,13 +341,14 @@
         }
       }
 
-      .gif{
+      .gif {
         position: absolute;
         bottom: 25px;
         display: flex;
         width: 100%;
         justify-content: center;
-        img{
+
+        img {
           width: 38px;
           object-fit: cover;
         }
