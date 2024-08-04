@@ -14,16 +14,17 @@
     }
 
     .asq_inner_title {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
       justify-content: center;
       color: #535050;
       font-size: 50px;
       font-weight: 600;
       margin: 90px auto 20px 0px;
+      text-align: center;
+
+      @media (max-width: 720px) {
+        font-size: 42px;
+      }
     }
 
     .asq_inner_dop_title {
@@ -36,6 +37,10 @@
       color: #646464;
       font-size: 26px;
       margin: 0 auto 75px 0px;
+
+      @media (max-width: 720px) {
+        font-size: 24px;
+      }
     }
 
     .asq_bl {
@@ -52,7 +57,8 @@
 
       .asq_bnt {
         border-top: 1px solid #e1e1e1;
-        width: 900px;
+        max-width: 900px;
+        width: 100%;
         margin: 0 0 50px 0px;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -74,6 +80,7 @@
         -ms-flex-pack: center;
         justify-content: center;
         margin: 0 0 25px 0px;
+        width: 100%;
       }
 
       .dopp__inner {
@@ -88,6 +95,11 @@
         -ms-flex-pack: center;
         justify-content: center;
         margin: 0 0 25px 0px;
+        width: 100%;
+
+        .dopp____inner {
+          width: 100%;
+        }
 
         .dopp_collaps {
           font-size: 20px;
@@ -98,6 +110,10 @@
           outline: none;
           margin: 0 0 20px 0;
           background-color: white;
+
+          @media (max-width: 720px) {
+            font-size: 18px;
+          }
 
           &::after {
             content: "";
@@ -156,6 +172,10 @@
     .last_info {
       font-size: 20px;
       margin: 15px 0px;
+
+      @media (max-width: 720px) {
+        font-size: 18px;
+      }
     }
   }
 }
