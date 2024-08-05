@@ -6,7 +6,7 @@ import { AppComponent } from "./app.component";
 import { AppRoutingModule } from "./app-routing.module";
 import { HttpClient, HttpClientModule } from "@angular/common/http";
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
-import { SidebarServcie } from "./shared/services/sidebar.service";
+import { sidebarService } from "./shared/services/sidebar.service";
 import { ShareModule } from "./shared/modules/share.module";
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
@@ -37,7 +37,7 @@ export function HttpLoaderFactory(http: HttpClient) {
   bootstrap: [AppComponent],
   providers: [
     provideAnimationsAsync(),
-    SidebarServcie
+    sidebarService
   ]
 })
 

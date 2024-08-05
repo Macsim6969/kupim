@@ -1,5 +1,5 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { SidebarServcie } from '../../shared/services/sidebar.service';
+import { sidebarService } from '../../shared/services/sidebar.service';
 import { Observable, Subject, take, takeUntil } from 'rxjs';
 import { TranslateService } from '@ngx-translate/core';
 import { Welcome } from './shared/interfaces/welcome.interface';
@@ -16,9 +16,10 @@ export class WelcomeComponent implements OnInit, OnDestroy {
   public welcomeDataPage: Welcome;
   public state: string
   constructor(
-    private sidebarService: SidebarServcie,
+    private sidebarService: sidebarService,
     private translate: TranslateService,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private router: Router
   ) { }
   ngOnInit(): void {
     this.streamDashboardDataFromJson();
@@ -43,6 +44,10 @@ export class WelcomeComponent implements OnInit, OnDestroy {
   private capitalizeFirstLetter(value: string): string {
     if (!value) return value;
     return value.charAt(0).toUpperCase() + value.slice(1);
+  }
+
+  public useRoute(url) {
+    this.router.navigate([url], { queryParamsHandling: 'merge', relativeTo: this.route }).then();
   }
 
   public openMenu() {

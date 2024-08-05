@@ -1,5 +1,5 @@
-<section class="welcome">
-  <div class="header {{welcomeDataPage.bgImage}}">
+<section class="welcome" *ngIf="welcomeDataPage">
+  <div class="header {{welcomeDataPage?.bgImage}}">
     <div class="header___container">
       <div class="header_inner">
         <div class="header_inner_navigation">
@@ -27,7 +27,7 @@
       <div class="header_link">
         <div class="header_nav_main">
           <nav><a class="nav_main_inner">Main</a></nav>
-          <nav><a class="nav_main_inner">Contacts</a></nav>
+          <nav><a class="nav_main_inner" (click)="useRoute('/contacts')" >Contacts</a></nav>
           <nav><a class="nav_main_inner">Testimonials</a></nav>
         </div>
       </div>

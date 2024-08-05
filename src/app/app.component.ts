@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { SidebarServcie } from './shared/services/sidebar.service';
+import { sidebarService } from './shared/services/sidebar.service';
 import { Observable } from 'rxjs';
+import { Router } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -8,15 +10,39 @@ import { Observable } from 'rxjs';
   styleUrl: './app.component.scss'
 })
 export class AppComponent implements OnInit{
-
+  private routeLanguageMap = {
+    '/': 'main',
+    '/bike': 'bike',
+    '/laptop': 'laptop',
+    '/contacts': 'contacts'
+  };
   public isOpenSidebar$: Observable<boolean>;
 
   constructor(
-    private sidebarService: SidebarServcie
+    private sidebarService: sidebarService,
+    private router: Router,
+    private translate: TranslateService
   ){}
 
   ngOnInit(): void {
     this.setObservableData();
+    this.streamRoute();
+  
+  }
+
+  private streamRoute() {
+    this.router.events.subscribe((event) => {
+      const url = event['routerEvent']?.url;
+      if (url) {
+        const language = this.routeLanguageMap[url.split('?')[0]];
+
+        if (language) {
+          this.translate.use(language);
+        } else {
+          this.router.navigate(['/'], { queryParamsHandling: 'merge' }).then();
+        }
+      }
+    });
   }
 
   private setObservableData(){

@@ -4,7 +4,7 @@ import { BehaviorSubject } from "rxjs";
 
 @Injectable()
 
-export class SidebarServcie {
+export class sidebarService {
   private isOpenSidebarSubject: BehaviorSubject<boolean> = new BehaviorSubject<boolean>(false);
 
   set _isSidebarOpen(value: boolean) {

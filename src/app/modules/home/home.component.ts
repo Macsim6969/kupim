@@ -1,7 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
-import { TranslateService } from '@ngx-translate/core';
-import { filter, Subject, take, takeUntil } from 'rxjs';
+import { ActivatedRoute, Router } from '@angular/router';
+import { Subject } from 'rxjs';
 import { Location } from '@angular/common';
 
 @Component({
@@ -11,13 +10,8 @@ import { Location } from '@angular/common';
 })
 export class HomeComponent implements OnInit, OnDestroy {
   private destroy$: Subject<void> = new Subject<void>();
-  private routeLanguageMap = {
-    '/': 'main',
-    '/bike': 'bike',
-    '/laptop': 'laptop'
-  };
+
   constructor(
-    private translate: TranslateService,
     private router: Router,
     private route: ActivatedRoute,
     private location: Location
@@ -25,7 +19,6 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     this.setUpQueryParamsData();
-    this.streamRoute();
   }
 
   private setUpQueryParamsData() {
@@ -38,22 +31,6 @@ export class HomeComponent implements OnInit, OnDestroy {
     this.location.replaceState(this.router.serializeUrl(urlTree));
   }
 
-  private streamRoute() {
-    this.router.events.pipe(
-      takeUntil(this.destroy$)
-    ).subscribe((event) => {
-      const url = event['routerEvent']?.url;
-      if (url) {
-        const language = this.routeLanguageMap[url.split('?')[0]];
-
-        if (language) {
-          this.translate.use(language);
-        } else {
-          this.router.navigate(['/'], { queryParamsHandling: 'merge' }).then();
-        }
-      }
-    });
-  }
 
   ngOnDestroy(): void {
     this.destroy$.next();

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { SidebarServcie } from '../../../shared/services/sidebar.service';
+import { sidebarService } from '../../../shared/services/sidebar.service';
 @Component({
   selector: 'app-sidebar',
   templateUrl: './sidebar.component.html',
@@ -9,7 +9,7 @@ export class SidebarComponent {
 
 
   constructor(
-    private sidebarService: SidebarServcie
+    private sidebarService: sidebarService
   ){}
 
   public closeMenu(): void{
