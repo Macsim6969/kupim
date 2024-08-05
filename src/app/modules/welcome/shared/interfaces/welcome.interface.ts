@@ -6,4 +6,5 @@ export interface Welcome {
   image: string
   bgImage: string
   class: string
+  styleClass?: string
 }

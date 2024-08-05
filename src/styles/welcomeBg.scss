@@ -12,6 +12,15 @@
   background: linear-gradient(to right, #60a47d 50%, #202227 50%);
 }
 
-.laptop_text{
+.laptop_text {
   color: #60a47d !important;
+}
+
+.contacts {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #e4e4e4), color-stop(50%, #251f25));
+  background: linear-gradient(to right, #e4e4e4 50%, #251f25 50%);
+}
+
+.contacts_text {
+  color: #e4e4e4 !important;
 }

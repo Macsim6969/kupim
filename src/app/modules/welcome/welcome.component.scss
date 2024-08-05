@@ -119,6 +119,10 @@
               font-size: 24px;
               color: white;
               text-decoration: none;
+
+              &.contactss {
+                color: #47494d;
+              }
             }
 
             .contact_inner_city {
@@ -254,6 +258,8 @@
           align-items: center;
           max-width: 550px;
 
+          position: relative;
+
           @media (max-width: 792px) {
             margin: 35px 0 0 0;
           }
@@ -323,6 +329,24 @@
               color: white !important;
             }
           }
+
+          .gif {
+            display: none;
+
+            &.contacts_text {
+              display: block;
+              width: auto;
+
+              @media (max-width: 1250px) {
+                bottom: -90px;
+              }
+
+              @media (max-width: 1250px) {
+                display: none;
+              }
+            }
+          }
+
         }
 
       }
@@ -368,6 +392,10 @@
         display: flex;
         width: 100%;
         justify-content: center;
+
+        &.contacts_text {
+          display: none;
+        }
 
         @media (max-width: 920px) {
           bottom: 15px;
