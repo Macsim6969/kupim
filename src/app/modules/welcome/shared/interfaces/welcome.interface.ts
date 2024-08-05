@@ -5,4 +5,5 @@ export interface Welcome {
   description: string
   image: string
   bgImage: string
+  class: string
 }

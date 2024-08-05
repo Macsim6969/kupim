@@ -5,7 +5,8 @@
     "location": "(All States)",
     "description": "Buy your laptop at the best price",
     "image": "/assets/img/laptop/laptop.png",
-    "bgImage": "laptop"
+    "bgImage": "laptop",
+    "class": "laptop_text"
   },
   "prodInfo": {
     "title": "Laptops",
