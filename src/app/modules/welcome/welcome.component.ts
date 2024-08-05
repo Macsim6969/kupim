@@ -40,8 +40,9 @@ export class WelcomeComponent implements OnInit, OnDestroy {
     return value.charAt(0).toUpperCase() + value.slice(1);
   }
 
-  public openSidebar() {
+  public openMenu() {
     this.sidebarService._isSidebarOpen = true;
+    document.body.style.overflow = 'hidden';
   }
 
   ngOnDestroy(): void {
