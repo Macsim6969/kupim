@@ -272,7 +272,6 @@
             justify-content: center;
             margin: 0px 0 5px 0px;
             font-size: 61px;
-            color: #ae8c64;
             font-weight: bolder;
 
             @media (max-width: 720px) {
@@ -281,6 +280,7 @@
 
             @media (max-width: 620px) {
               font-size: 32px;
+              color: white !important;
             }
           }
 
@@ -291,13 +291,16 @@
             -webkit-box-pack: center;
             -ms-flex-pack: center;
             justify-content: center;
-            color: #ae8c64;
             font-size: 61px;
             margin-left: 0px;
             font-weight: bolder;
 
             @media (max-width: 720px) {
               font-size: 42px;
+            }
+
+            @media (max-width: 620px) {
+              color: white !important;
             }
           }
 
@@ -310,11 +313,14 @@
             justify-content: flex-end;
             margin: 0 0 10px 0px;
             font-size: 32px;
-            color: #ae8c64;
             font-weight: 400;
 
             @media (max-width: 720px) {
               font-size: 22px;
+            }
+
+            @media (max-width: 620px) {
+              color: white !important;
             }
           }
         }
