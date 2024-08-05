@@ -1,6 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { SidebarServcie } from '../../shared/services/sidebar.service';
-import { Subject, take, takeUntil } from 'rxjs';
+import { Observable, Subject, take, takeUntil } from 'rxjs';
 import { TranslateService } from '@ngx-translate/core';
 import { Welcome } from './shared/interfaces/welcome.interface';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -12,7 +12,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class WelcomeComponent implements OnInit, OnDestroy {
   private destroy$: Subject<void> = new Subject<void>();
-
+  public isSidebar$: Observable<boolean>;
   public welcomeDataPage: Welcome;
   public state: string
   constructor(
@@ -23,6 +23,7 @@ export class WelcomeComponent implements OnInit, OnDestroy {
   ngOnInit(): void {
     this.streamDashboardDataFromJson();
     this.getQueryData();
+    this.setUpObservableDate();
   }
 
   private streamDashboardDataFromJson() {
@@ -33,6 +34,10 @@ export class WelcomeComponent implements OnInit, OnDestroy {
 
   private getQueryData() {
     this.route.queryParams.pipe(take(1)).subscribe((data) => this.state = this.capitalizeFirstLetter(data['state']));
+  }
+
+  private setUpObservableDate() {
+    this.isSidebar$ = this.sidebarService._isSidebarOpen$;
   }
 
   private capitalizeFirstLetter(value: string): string {
