@@ -6,6 +6,7 @@ import { ShareModule } from '../../shared/modules/share.module';
 import { WelcomeModule } from '../welcome/welcome.module';
 import { AddressDataComponent } from './shared/components/address-data/address-data.component';
 import { FooterModule } from '../footer/footer.module';
+import { WelcomeComponent } from '../welcome/welcome.component';
 
 const routes: Routes = [
   { path: '', component: ContactsComponent }
@@ -18,10 +19,9 @@ const routes: Routes = [
   ],
   imports: [
     CommonModule,
-    RouterModule.forChild(routes),
-    ShareModule,
     WelcomeModule,
-    FooterModule
+    RouterModule.forChild(routes),
+    ShareModule
   ]
 })
 export class ContactsModule { }
