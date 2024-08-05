@@ -218,6 +218,7 @@
 
         @media (max-width: 1250px) {
           padding: 0 0 0 10%;
+          align-items: center;
         }
 
         @media (max-width:720px) {
@@ -232,7 +233,7 @@
 
         .header_home {
           width: auto;
-          height: 500px;
+          height: 440px;
           object-fit: cover;
 
           @media (max-width: 1250px) {
