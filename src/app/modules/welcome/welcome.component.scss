@@ -60,8 +60,18 @@
             align-items: center;
           }
 
+          a {
+            &:hover {
+              transform: scale(1.07);
+            }
+          }
+
           .phone {
             display: none;
+
+            &:hover {
+              transform: scale(1.07);
+            }
 
             @media (max-width: 720px) {
               display: block;
@@ -79,7 +89,9 @@
             align-items: center;
             justify-content: center;
 
-
+            &:hover {
+              transform: scale(1.07);
+            }
 
             @media (max-width: 620px) {
               margin: 0;
@@ -146,6 +158,10 @@
           -ms-flex-align: center;
           align-items: center;
 
+          &:hover{
+            transform: scale(1.07);
+          }
+
           .menu_img {
             cursor: pointer;
             width: 23px;
@@ -206,6 +222,7 @@
             color: white;
             font-size: 17px;
             margin-left: 35px;
+            cursor: pointer;
 
             &:hover {
               border-bottom: 1px solid white;
