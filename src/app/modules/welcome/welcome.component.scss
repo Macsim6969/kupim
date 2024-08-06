@@ -6,7 +6,7 @@
     padding: 75px 0 90px 0;
 
     @media (max-width: 620px) {
-      padding: 40px 0 90px 0;
+      padding: 0;
     }
 
     .header___container {
@@ -25,6 +25,8 @@
 
       @media (max-width: 620px) {
         width: 75%;
+        
+        height: -webkit-fill-available;
       }
 
       .header_inner {
@@ -158,7 +160,7 @@
           -ms-flex-align: center;
           align-items: center;
 
-          &:hover{
+          &:hover {
             transform: scale(1.07);
           }
 

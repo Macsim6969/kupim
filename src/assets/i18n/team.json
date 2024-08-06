@@ -4,7 +4,7 @@
     "title": "Contacts",
     "location": "",
     "description": "",
-    "image": "/assets/img/contacts/contacts.svg",
+    "image": "/assets/img/teams/team.svg",
     "bgImage": "contacts",
     "class": "contacts_text",
     "styleClass": "contactss"

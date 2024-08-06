@@ -13,11 +13,8 @@
   padding: 22px 35px;
   z-index: 10;
   overflow-x: hidden;
-  background-color: white;
   border-radius: 45px;
   transition: all 1s ease-in;
-  box-shadow: 0 0 750px 1200px rgba(36, 35, 35, 0.7);
-
   animation: animator 0.5s;
 
   .popup_header {
@@ -29,7 +26,7 @@
     .headerr__inner {
       font-size: 25px;
       text-decoration: none;
-      color: #202227;
+      color: white;
     }
 
     .popup_close {
@@ -56,7 +53,7 @@
         margin: 0 20px 0 30px;
         font-size: 25px;
         text-decoration: none;
-        color: #202227;
+        color: white;
       }
     }
   }
@@ -65,12 +62,22 @@
     margin: 30px 0;
     padding: 2px 16px;
     display: flex;
+    justify-content: center;
 
     .block__innner {
       text-decoration: none;
       display: flex;
       justify-content: center;
       flex-direction: row;
+
+      &.phone,
+      &.facebook {
+        display: none;
+
+        @media (max-width: 720px) {
+          display: block;
+        }
+      }
 
       .block_inner {
         display: flex;
