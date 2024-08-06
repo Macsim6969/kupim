@@ -14,7 +14,8 @@ export class AppComponent implements OnInit{
     '/': 'main',
     '/bike': 'bike',
     '/laptop': 'laptop',
-    '/contacts': 'contacts'
+    '/contacts': 'contacts',
+    '/team': 'team'
   };
   public isOpenSidebar$: Observable<boolean>;
 

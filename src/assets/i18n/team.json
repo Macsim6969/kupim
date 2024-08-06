@@ -1,0 +1,12 @@
+{
+  "dashboard": {
+    "state": "Our Team",
+    "title": "Contacts",
+    "location": "",
+    "description": "",
+    "image": "/assets/img/contacts/contacts.svg",
+    "bgImage": "contacts",
+    "class": "contacts_text",
+    "styleClass": "contactss"
+  }
+}

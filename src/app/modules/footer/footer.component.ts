@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { take } from 'rxjs';
 
 @Component({
@@ -11,7 +11,8 @@ export class FooterComponent implements OnInit {
   public state: string;
   public date: number = new Date().getFullYear();
   constructor(
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private rotuer: Router
   ) { }
 
   ngOnInit(): void {
@@ -20,6 +21,10 @@ export class FooterComponent implements OnInit {
 
   private getQueryData() {
     this.route.queryParams.pipe(take(1)).subscribe((data) => this.state = this.capitalizeFirstLetter(data['state']));
+  }
+
+  public openPage(url: string){
+    this.rotuer.navigate([url], {queryParamsHandling: 'merge'}).then();
   }
 
   private capitalizeFirstLetter(value: string): string {

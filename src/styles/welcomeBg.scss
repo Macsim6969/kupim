@@ -24,3 +24,12 @@
 .contacts_text {
   color: #e4e4e4 !important;
 }
+
+.contacts {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #e4e4e4), color-stop(50%, #202722));
+  background: linear-gradient(to right, #e4e4e4 50%, #202722 50%);
+}
+
+.contacts_text {
+  color: #e4e4e4 !important;
+}
