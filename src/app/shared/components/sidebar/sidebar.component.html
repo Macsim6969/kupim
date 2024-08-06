@@ -1,17 +1,17 @@
 <div class="sidebar">
   <div class="popup">
     <div class="popup_header">
-      <span class="popup_close" (click)="closeMenu()"><img class="close" src="/assets/img/34.png" alt=""></span>
+      <span class="popup_close" (click)="closeMenu()"><img class="close" src="/assets/img/menu_close.svg" alt=""></span>
     </div>
     <div class="popup_body">
-      <div class="bd"><a class="body__inner" href="../">Main</a></div>
-      <div class="bd"><a href="./ourcomand/" class="body__inner">Contacts</a></div>
-      <div class="bd"><a href="./reviews/" class="body__inner">Testimonials</a></div>
-      <div class="bd"><a href="./transport/" class="body__inner">Online evaluation</a></div>
-      <div class="bd"><a href="./politic/" class="body__inner">Our team</a></div>
-      <div class="bd"><a href="./politic/" class="body__inner">Blog</a></div>
-      <div class="bd"><a href="./politic/" class="body__inner">About Us</a></div>
-      <div class="bd"><a href="./politic/" class="body__inner">Legal Info</a></div>
+      <div class="bd"><a class="body__inner" (click)="openPage('/')">Main</a></div>
+      <div class="bd"><a class="body__inner" (click)="openPage('/contacts')">Contacts</a></div>
+      <div class="bd"><a class="body__inner" (click)="openPage('/feedback')">Testimonials</a></div>
+      <div class="bd"><a class="body__inner" (click)="openPage('/evaluation')">Online evaluation</a></div>
+      <div class="bd"><a class="body__inner" (click)="openPage('/team')">Our team</a></div>
+      <div class="bd"><a class="body__inner" (click)="openPage('/blog')">Blog</a></div>
+      <div class="bd"><a class="body__inner" (click)="openPage('/about-us')">About Us</a></div>
+      <div class="bd"><a class="body__inner" (click)="openPage('/info')">Legal Info</a></div>
     </div>
     <div class="popup_footer">
 

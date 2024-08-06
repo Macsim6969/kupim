@@ -2,18 +2,13 @@
   <div class="firm_container">
       <div class="cont_left">
         <div class="left_work_time">Address</div>
-          <div class="left_local">12805 SW 6th St, Miami, FL 33184, United States</div>
+          <div class="left_local">{{infoData.address}}</div>
           <div class="left_work_time">Work schedule</div>
-          <div class="left_time">Monday - 09:00 - 19:00</div>
-          <div class="left_time">Tuesday - 09:00 - 19:00</div>
-          <div class="left_time">Wednesday - 09:00 - 19:00</div>
-          <div class="left_time">Thursday - 09:00 - 19:00</div>
-          <div class="left_time">Friday - 09:00 - 19:00</div>
-          <div class="left_time">Saturday - 09:00 - 19:00</div>
-          <div class="left_time">Sunday - Closed</div>
+          <div class="left_time" *ngFor="let day of infoData.dayWork">{{day.title}}</div>
+          
           <div class="left_contact">Contacts</div>
-          <div class="left_number">Tel: +1 727 732 9785 </div>
-          <div class="ima_inner">Email: namegmail.com</div>
+          <div class="left_number">{{infoData.telNumber}}</div>
+          <div class="ima_inner">{{infoData.email}}</div>
           <a class="block__innner" href="https://t.me/kupimUA">
               <nav class="block_inner">
                   <img class="inner_img" src="/assets/img/global/messanger.svg" alt="Messenger">

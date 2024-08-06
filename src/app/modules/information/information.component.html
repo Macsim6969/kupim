@@ -6,22 +6,16 @@
             <div class="blog_left">
                 <div class="left_log">KUPIM.COM.UA</div>
                 <div class="inner_day_work_log">Adress</div>
-                <div class="inner_local">12805 SW 6th St, Miami, FL 33184, United States</div>
+                <div class="inner_local">{{infoData.address}}</div>
                 <div class="inner_day_work_log">WORK SCHEDULE</div>
-                <div class="inner_day_work">Monday - 09:00 - 19:00</div>
-                <div class="inner_day_work">Tuesday - 09:00 - 19:00</div>
-                <div class="inner_day_work">Wednesday - 09:00 - 19:00</div>
-                <div class="inner_day_work">Thursday - 09:00 - 19:00</div>
-                <div class="inner_day_work">Friday - 09:00 - 19:00</div>
-                <div class="inner_day_work">Saturday - 09:00 - 19:00</div>
-                <div class="inner_day_work">Sunday - Close</div>
+                <div class="inner_day_work" *ngFor="let day of infoData.dayWork">{{day.title}}</div>
             </div>
             <div class="blog_right">
 
                 <div class="right_mn">EVALUATOR</div>
                 <div class="right_name">Bohdan</div>
                 <div class="right_direct">Contacts</div>
-                <div class="right_direct_tel">Tel: +1 727 732 9785 </div>
+                <div class="right_direct_tel">{{infoData.telNumber}}</div>
                 <a class="block__innner" href="https://t.me/kupimUA">
                     <nav class="block_inner">
                         <img class="inner_img" src="/assets/img/global/messanger.svg" alt="">

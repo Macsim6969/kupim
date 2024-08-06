@@ -7,6 +7,7 @@ import { WelcomeModule } from '../welcome/welcome.module';
 import { AddressDataComponent } from './shared/components/address-data/address-data.component';
 import { FooterModule } from '../footer/footer.module';
 import { WelcomeComponent } from '../welcome/welcome.component';
+import { InformationService } from '../../shared/services/information.service';
 
 const routes: Routes = [
   { path: '', component: ContactsComponent }
@@ -23,6 +24,9 @@ const routes: Routes = [
     FooterModule,
     RouterModule.forChild(routes),
     ShareModule
+  ],
+  providers: [
+    InformationService
   ]
 })
 export class ContactsModule { }
