@@ -1,0 +1,3 @@
+User-agent: *
+Host: https://flkup-6c8a5.web.app/
+Sitemap: https://flkup-6c8a5.web.app/sitemap.xml
