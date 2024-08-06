@@ -217,8 +217,9 @@
 
       .header_home_title {
         display: grid;
-        grid-template-columns: 0.8fr 1fr;
-        padding: 0 0 0 14.5%;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 0 0 7%;
+        justify-content: space-between;
 
         @media (max-width: 1250px) {
           padding: 0 0 0 10%;
