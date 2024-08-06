@@ -20,6 +20,7 @@ const routes: Routes = [
   imports: [
     CommonModule,
     WelcomeModule,
+    FooterModule,
     RouterModule.forChild(routes),
     ShareModule
   ]
