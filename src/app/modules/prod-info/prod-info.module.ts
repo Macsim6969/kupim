@@ -2,11 +2,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ProdInfoComponent } from './prod-info.component';
 import { ShareModule } from '../../shared/modules/share.module';
-import { RouterModule, Routes } from '@angular/router';
-
-const routes: Routes = [
-  {path: '', component: ProdInfoComponent}
-]
 
 @NgModule({
   declarations: [
@@ -14,8 +9,7 @@ const routes: Routes = [
   ],
   imports: [
     CommonModule,
-    ShareModule,
-    RouterModule.forChild(routes)
+    ShareModule
   ],
   exports: [
     ProdInfoComponent

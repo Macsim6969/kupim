@@ -11,14 +11,15 @@ export class SidebarComponent {
   constructor(
     private sidebarService: sidebarService,
     private router: Router
-  ){}
+  ) { }
 
-  public closeMenu(): void{
+  public closeMenu(): void {
     this.sidebarService._isSidebarOpen = false;
     document.body.style.overflow = '';
   }
 
-  public openPage(url: string){
-    this.router.navigate([url], {queryParamsHandling: 'merge'}).then();
+  public openPage(url: string) {
+    this.router.navigate([url], { queryParamsHandling: 'merge' }).then();
+    this.closeMenu();
   }
 }

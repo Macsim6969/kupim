@@ -41,6 +41,7 @@ export class AppComponent implements OnInit{
           this.translate.use(language);
         } else {
           this.router.navigate(['/'], { queryParamsHandling: 'merge' }).then();
+          this.translate.use('main');
         }
       }
     });
