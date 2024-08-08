@@ -1,24 +1,34 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { AfterViewInit, ChangeDetectorRef, Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Subject } from 'rxjs';
+import { Subject, takeUntil } from 'rxjs';
 import { Location } from '@angular/common';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
-export class HomeComponent implements OnInit, OnDestroy {
+export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
   private destroy$: Subject<void> = new Subject<void>();
+  public key: string;
 
   constructor(
     private router: Router,
     private route: ActivatedRoute,
-    private location: Location
+    private location: Location,
+    private translate: TranslateService,
+    private cd: ChangeDetectorRef
   ) { }
 
   ngOnInit(): void {
     this.setUpQueryParamsData();
+  }
+
+  ngAfterViewInit(): void {
+    this.streamKeyDataFromJson();
+    this.cd.detectChanges();
+
   }
 
   private setUpQueryParamsData() {
@@ -29,6 +39,15 @@ export class HomeComponent implements OnInit, OnDestroy {
       queryParamsHandling: 'merge'
     });
     this.location.replaceState(this.router.serializeUrl(urlTree));
+  }
+
+  private streamKeyDataFromJson() {
+    console.log('Streaming translation for key:', 'key');
+    this.translate.stream('key').pipe(takeUntil(this.destroy$))
+      .subscribe((data: string) => {
+        this.key = data || '';
+        console.log(this.key)
+      });
   }
 
 

@@ -11,12 +11,14 @@ import { InformationModule } from '../information/information.module';
 import { FeedbackModule } from '../feedback/feedback.module';
 import { QuestionsModule } from '../questions/questions.module';
 import { FooterModule } from '../footer/footer.module';
+import { NeedDocsModule } from '../need-docs/need-docs.module';
 
 const routes: Routes = [
   {
     path: '', component: HomeComponent, children: [
       { path: 'laptop', component: HomeComponent },
-      { path: 'bike', component: HomeComponent }
+      { path: 'bike', component: HomeComponent },
+      { path: 'motorbike', component: HomeComponent }
     ]
   }
 ]
@@ -31,6 +33,7 @@ const routes: Routes = [
     WelcomeModule,
     ProdInfoModule,
     EasyStepsModule,
+    NeedDocsModule,
     AboutInfoModule,
     InformationModule,
     FeedbackModule,
