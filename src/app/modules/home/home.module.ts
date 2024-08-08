@@ -12,6 +12,7 @@ import { FeedbackModule } from '../feedback/feedback.module';
 import { QuestionsModule } from '../questions/questions.module';
 import { FooterModule } from '../footer/footer.module';
 import { NeedDocsModule } from '../need-docs/need-docs.module';
+import { ChoiceProductsModule } from '../choice-products/choice-products.module';
 
 const routes: Routes = [
   {
@@ -31,6 +32,7 @@ const routes: Routes = [
     CommonModule,
     ShareModule,
     WelcomeModule,
+    ChoiceProductsModule,
     ProdInfoModule,
     EasyStepsModule,
     NeedDocsModule,

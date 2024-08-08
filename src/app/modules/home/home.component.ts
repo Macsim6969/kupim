@@ -42,7 +42,6 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   private streamKeyDataFromJson() {
-    console.log('Streaming translation for key:', 'key');
     this.translate.stream('key').pipe(takeUntil(this.destroy$))
       .subscribe((data: string) => {
         this.key = data || '';

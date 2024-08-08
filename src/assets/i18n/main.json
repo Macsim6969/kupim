@@ -1,4 +1,5 @@
 {
+  "key": "choice",
   "dashboard": {
     "state": "State of Florida",
     "title": "Main Page",
@@ -7,6 +8,16 @@
     "image": "/assets/img/laptop/laptop.png",
     "bgImage": "laptop",
     "class": "laptop_text"
+  },
+  "choiceProducts": {
+    "title": "Select transportation",
+    "text": "for sale",
+    "products": [
+      {
+        "url": "laptop",
+        "img": ""
+      }
+    ]
   },
   "prodInfo": {
     "title": "Laptops",

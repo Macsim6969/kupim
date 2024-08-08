@@ -1,0 +1,10 @@
+<div class="choice_trans">
+  <div class="choice_trans_cont">
+    <div class="choice_trans_log">{{choiceProdData.title}}</div>
+    <div class="choice_trans_undelog">{{choiceProdData.text}}</div>
+    <div class="choice_transpot_inner">
+      <a *ngFor="let prod of choiceProdData.products" (click)="openPage(prod.url)"><img class="transport_inner_view"
+          [src]="prod.url" alt="Авто"></a>
+    </div>
+  </div>
+</div>
