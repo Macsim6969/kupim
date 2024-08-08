@@ -3,12 +3,12 @@
   <div class="asq_container">
     <h2 class="asq_inner_title">{{qustionsData.title}}</h2>
     <div class="asq_inner_dop_title">{{qustionsData.descr}}</div>
-    <div class="asq_bl" *ngFor="let list of qustionsData.listAsq">
+    <div class="asq_bl" *ngFor="let list of qustionsData.listAsq;index as i">
       <div class="asq_bnt"></div>
       <div class="dopp__inner">
         <div class="dopp____inner">
-          <button type="button" class="dopp_collaps">{{list.title}}</button>
-          <div class="dopp_content">{{list.content}}</div>
+          <button (click)="openTab(i+1)" type="button" class="dopp_collaps">{{list.title}}</button>
+          <div [ngClass]="{'active': isOpenTab[i+1]}" class="dopp_content">{{list.content}}</div>
         </div>
       </div>
     </div>

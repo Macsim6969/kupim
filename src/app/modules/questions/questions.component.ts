@@ -11,6 +11,7 @@ import { Questions } from './shared/interfaces/questions.interface';
 export class QuestionsComponent implements OnInit, OnDestroy {
   private destroy$: Subject<void> = new Subject<void>();
   public qustionsData: Questions;
+  public isOpenTab: boolean[] = [];
   constructor(
     private translate: TranslateService
   ) { }
@@ -24,6 +25,11 @@ export class QuestionsComponent implements OnInit, OnDestroy {
       .subscribe((data: Questions) => {
         this.qustionsData = data;
       })
+  }
+
+  public openTab(id: number) {
+    this.isOpenTab = [];
+    this.isOpenTab[id] = true;
   }
 
   ngOnDestroy(): void {

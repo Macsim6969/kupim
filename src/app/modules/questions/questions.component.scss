@@ -149,6 +149,10 @@
           transition: max-height 0.2s ease-in-out;
           color: #2b2b2b;
           width: 750px;
+
+          &.active{
+            max-height: 100%;
+          }
         }
 
         .list_btn {
