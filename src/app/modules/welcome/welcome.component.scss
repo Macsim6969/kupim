@@ -261,14 +261,10 @@
           width: auto;
           height: 440px;
           object-fit: cover;
-
-          &.laptop {
-            background: transparent;
-          }
+          background: transparent;
 
           &.boat {
             height: auto;
-            background: transparent;
           }
 
           @media (max-width: 1250px) {
