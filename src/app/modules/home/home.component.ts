@@ -28,7 +28,6 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
   ngAfterViewInit(): void {
     this.streamKeyDataFromJson();
     this.cd.detectChanges();
-
   }
 
   private setUpQueryParamsData() {
@@ -45,8 +44,9 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
     this.translate.stream('key').pipe(takeUntil(this.destroy$))
       .subscribe((data: string) => {
         this.key = data || '';
-        console.log(this.key)
       });
+
+    console.log(this.translate.getTranslation('kick_skooter'));
   }
 
 

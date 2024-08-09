@@ -45,6 +45,7 @@
       .transport_inner_view {
         width: 300px;
         transition: 0.3s ease;
+        cursor: pointer;
 
         &:hover {
           transform: scale(1.08);

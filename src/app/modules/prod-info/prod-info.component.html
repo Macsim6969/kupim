@@ -1,12 +1,12 @@
-<section>
-  <div class="prod_info">
-      <h2 class="prod_info_h">
-          <span class="info_title">{{prodInfo.title}}</span>
-          <span class="info_undelog">{{prodInfo.text}}</span>
-      </h2>
-      <div class="prod_info_content">
-          <img *ngFor="let image of prodInfo.content" class="car_find_img" [src]="image.img" alt="">
-         
-      </div>
-  </div>
+<section [ngClass]="{'hide': prodInfo === 'prodInfo'}">
+    <div class="prod_info">
+        <h2 class="prod_info_h">
+            <span class="info_title">{{prodInfo['title']}}</span>
+            <span class="info_undelog">{{prodInfo['text']}}</span>
+        </h2>
+        <div class="prod_info_content">
+            <img *ngFor="let image of prodInfo['content']" class="car_find_img" [src]="image.img" alt="">
+
+        </div>
+    </div>
 </section>

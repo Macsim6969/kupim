@@ -19,7 +19,8 @@ const routes: Routes = [
     path: '', component: HomeComponent, children: [
       { path: 'laptop', component: HomeComponent },
       { path: 'bike', component: HomeComponent },
-      { path: 'motorbike', component: HomeComponent }
+      { path: 'motorbike', component: HomeComponent },
+      { path: 'kick_skooter', component: HomeComponent }
     ]
   }
 ]

@@ -10,7 +10,7 @@ import { ProdInfo } from './shared/interfaces/prodInfo.interface';
 })
 export class ProdInfoComponent implements OnInit, OnDestroy {
   private destroy$: Subject<void> = new Subject<void>();
-  public prodInfo: ProdInfo;
+  public prodInfo: ProdInfo | string;
 
   constructor(
     private translate: TranslateService
@@ -22,13 +22,18 @@ export class ProdInfoComponent implements OnInit, OnDestroy {
 
   private getProdInfoDataFromJson() {
     this.translate.stream('prodInfo').pipe(takeUntil(this.destroy$))
-      .subscribe((data: ProdInfo) => {
-        this.prodInfo = data;
+      .subscribe((data: ProdInfo | string) => {
+        if(data === 'prodInfo'){
+          this.prodInfo = 'prodInfo';
+        } else {
+          this.prodInfo = data;
+        }
       })
   }
 
   ngOnDestroy(): void {
-
+    this.destroy$.next();
+    this.destroy$.complete();
   }
 
 }
