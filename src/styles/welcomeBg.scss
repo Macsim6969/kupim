@@ -42,3 +42,12 @@
 .scooter_text {
   color: #8eb1d2  !important;
 }
+
+.boat {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #739588  ), color-stop(50%, #202722));
+  background: linear-gradient(to right, #739588   50%, #202722 50%);
+}
+
+.boat_text {
+  color: #739588   !important;
+}

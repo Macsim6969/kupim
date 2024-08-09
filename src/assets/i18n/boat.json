@@ -1,0 +1,169 @@
+{
+  "key": "boat",
+  "dashboard": {
+    "state": "State of Florida",
+    "title": "Redemption boats and launches",
+    "location": "(All States)",
+    "description": "We'll buy your car at the best price!",
+    "image": "/assets/img/boat/boat.png",
+    "bgImage": "boat",
+    "class": "boat_text"
+  },
+  "prodInfo": {
+    "title": "Boats",
+    "text": "we buy back across all US states",
+    "content": [
+      {
+        "img": "/assets/img/laptop/info-dtp.svg"
+      },
+      {
+        "img": "/assets/img/laptop/info-credit.svg"
+      },
+      {
+        "img": "/assets/img/laptop/info-legal.svg"
+      },
+      {
+        "img": "/assets/img/laptop/info-ip.svg"
+      }
+    ]
+  },
+  "easySteps": {
+    "title": "3 simple steps",
+    "text": "to sell a laptop fast",
+    "style": "laptop",
+    "contentStep1": {
+      "step": "Step 1",
+      "stepText": "Send photos and characteristics of the laptop to Telegram, Messenge",
+      "contact": "CONNECT"
+    },
+    "contentStep2": {
+      "step": "Step 2",
+      "stepText": "Make an appointment for a sale at your nearest office or order a no obligation sale"
+    },
+    "contentStep3": {
+      "step": "Step 3",
+      "stepText": "Receive instant payouts in a form that is convenient for you"
+    }
+  },
+  "need-docs": {
+    "title": "To sell your boat you will need",
+    "docs": [
+      {
+        "title": "Passport of a citizen of Ukraine",
+        "img": "/assets/img/motorbike/passport.svg"
+      },
+      {
+        "title": "Taxpayer Identification Number",
+        "img": "/assets/img/motorbike/taxpayer_number.svg"
+      },
+      {
+        "title": "Vehicle registration certificate",
+        "img": "/assets/img/motorbike/motorbike.svg"
+      }
+    ]
+  },
+  "aboutInfo": {
+    "title": "We buy back motorbike in Florida",
+    "text": "and all the states",
+    "list": [
+      {
+        "src": "/assets/img/laptop/about/car.svg",
+        "title": "Buy transportation in any condition"
+      },
+      {
+        "src": "/assets/img/laptop/about/sack.svg",
+        "title": "Day-of-communication sale"
+      },
+      {
+        "src": "/assets/img/laptop/about/lock.svg",
+        "title": "It's all confidential."
+      },
+      {
+        "src": "/assets/img/laptop/about/bank.svg",
+        "title": "Scooters for sale on commission"
+      },
+      {
+        "src": "/assets/img/laptop/about/time.svg",
+        "title": "Inspection and registration in 2 hours"
+      },
+      {
+        "src": "/assets/img/laptop/about/thumbs-up.svg",
+        "title": "Priced higher than the competition"
+      },
+      {
+        "src": "/assets/img/laptop/about/flag.svg",
+        "title": "We buy out all the states in the U.S."
+      },
+      {
+        "src": "/assets/img/laptop/about/bills.svg",
+        "title": "Instant disbursement of money in a form convenient for you"
+      },
+      {
+        "src": "/assets/img/laptop/about/chain.svg",
+        "title": "We work with complex cases (bail, ban, credit)"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Customer feedback",
+    "feedback": [
+      {
+        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
+        "name": "Андрей",
+        "prod": "Sold the Gt Zaskar bike",
+        "feedbackMap": "Отзыв с Google Карт"
+      },
+      {
+        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
+        "name": "Андрей",
+        "prod": "Sold the Gt Zaskar bike",
+        "feedbackMap": "Отзыв с Google Карт"
+      },
+      {
+        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
+        "name": "Андрей",
+        "prod": "Sold the Gt Zaskar bike",
+        "feedbackMap": "Отзыв с Google Карт"
+      }
+    ],
+    "content": "View Testimonials on Google Maps"
+  },
+  "questions": {
+    "title": "Any questions?",
+    "descr": "We'd be happy to answer",
+    "listAsq": [
+      {
+        "title": "What kind of motorcycles do you buy?",
+        "content": "Absolutely any: motorcycles, mopeds, scooters, motorcycles, ATVs. Mark, year of manufacture, mileage, condition do not matter. We buy out credit, as well as with fines. We work with individuals and legal entities, buy out corporate motoparks."
+      },
+      {
+        "title": "Can I leave the bike for you to sell?",
+        "content": "Yes. We will put your motorized vehicle on commission at our showroom."
+      },
+      {
+        "title": "You're buying up undocumented?",
+        "content": "Yes, we do. We accept motorcycles without documents and in any condition. We will pick up faulty transportation from anywhere in Kiev and Ukraine."
+      },
+      {
+        "title": "What kind of information do you need?",
+        "content": "Before the sale, be prepared to provide the following information about your vehicle: make, model, VIN or frame number, year of manufacture on the PTS, the name of the organization (issued the PTS), whether it was registered ON YOU, as the owner of the motorcycle, mileage, your assessment of the condition of the engine and gearbox, what parts are painted or replaced by non-original, whether some tuning is installed."
+      },
+      {
+        "title": "I want to sell for as much as possible!",
+        "content": "To increase the buyback price by 10%, wash the motorcycle, bring a second set of tires and keys. In 90% of cases, the valuation will be higher than other motorcycle buybacks."
+      },
+      {
+        "title": "I'll sell the scooter for more!",
+        "content": "No problem! We just want to save you from wasting your time. Pre-sale preparation, photo shoots, registration on profile sites, paying for advertisements, answering the phone and traveling to meetings at inconvenient times - this is the least you will have to face."
+      }
+    ],
+    "listBottom1": {
+      "title": "Urgent Redemption of boats",
+      "text": "During the existence of the company, we have redemptioned a large number of used vehicles of different makes and models. We have learned to approach the issues of car Redemption with intelligence: cars are de-registered and all transactions are legally correct. <br/><br/> We offer car redemption services in all districts of Kiev (Kiev region) and Ukraine. Those who do not want to spend time and effort to find a client, it is better to use the service 'autoRedemption'. Of course you will not get the maximum value for the car, but 90-95% of the market value we guarantee you!<br/><br/> However, if you decide to sell a used car on your own, it is recommended to be patient. Selling a car on your own can take months. At the same time, without understanding the market, it is difficult to set a price that will suit both you and the potential buyer. As a result, you will waste your time and efforts."
+    },
+    "listBottom2": {
+      "title": "Boat buying in Kiev",
+      "text": "Everything is simple! Send us a photo of the vehicle in a convenient messenger (viber, telegram, instagram). Within 4-5 minutes appraiser Vladimir will write the cost of Redemption. Having come to an agreement, we will immediately come to you! That you would not have traveled in vain, we will come to you ourselves, absolutely free, without any claims if you refuse our services. We value the reputation and time of our customers!"
+    }
+  }
+}

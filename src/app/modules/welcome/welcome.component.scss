@@ -25,7 +25,7 @@
 
       @media (max-width: 620px) {
         width: 75%;
-        
+
         height: -webkit-fill-available;
       }
 
@@ -240,6 +240,7 @@
         grid-template-columns: 1fr 1fr;
         padding: 0 0 0 7%;
         justify-content: space-between;
+        align-items: center;
 
         @media (max-width: 1250px) {
           padding: 0 0 0 10%;
@@ -260,6 +261,15 @@
           width: auto;
           height: 440px;
           object-fit: cover;
+
+          &.laptop {
+            background: transparent;
+          }
+
+          &.boat {
+            height: auto;
+            background: transparent;
+          }
 
           @media (max-width: 1250px) {
             width: 350px;
@@ -355,8 +365,7 @@
           .gif {
             width: auto;
             position: absolute;
-            bottom: 0;
-
+            bottom: -70px;
 
             @media (max-width: 1250px) {
               bottom: -90px;
