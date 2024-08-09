@@ -216,8 +216,12 @@
     background: linear-gradient(86deg, #739588 0%, #739588 36%, #202227 100%);
   }
 
-  &.tractor{
+  &.tractor {
     background: linear-gradient(86deg, #6E7851 0%, #6E7851 36%, #202227 100%);
+  }
+
+  &.trailer {
+    background: linear-gradient(86deg, #8fb2d2 0%, #8fb2d2 36%, #202227 100%);
   }
 
   @media (max-width: 720px) {

@@ -45,8 +45,6 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
       .subscribe((data: string) => {
         this.key = data || '';
       });
-
-    console.log(this.translate.getTranslation('kick_skooter'));
   }
 
 

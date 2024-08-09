@@ -54,9 +54,18 @@
 
 .tractor {
   background: -webkit-gradient(linear, left top, right top, color-stop(50%, #739588), color-stop(50%, #202722));
-  background: linear-gradient(to right, #6E7851 50%, #202722 50%);
+  background: linear-gradient(to right, #739588 50%, #202722 50%);
 }
 
 .tractor_text {
   color: #6E7851 !important;
+}
+
+.trailer {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #8fb2d2 ), color-stop(50%, #202722));
+  background: linear-gradient(to right, #8fb2d2  50%, #202722 50%);
+}
+
+.trailer_text {
+  color: #8fb2d2 !important;
 }

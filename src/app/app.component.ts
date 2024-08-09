@@ -9,7 +9,7 @@ import { TranslateService } from '@ngx-translate/core';
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
-export class AppComponent implements OnInit{
+export class AppComponent implements OnInit {
   private routeLanguageMap = {
     '/': 'main',
     '/bike': 'bike',
@@ -19,7 +19,8 @@ export class AppComponent implements OnInit{
     '/motorbike': 'motorbike',
     '/kick_skooter': 'kick_skooter',
     '/boat': 'boat',
-    '/tractor': 'tractor'
+    '/tractor': 'tractor',
+    '/trailer': 'trailer'
   };
   public isOpenSidebar$: Observable<boolean>;
 
@@ -27,12 +28,12 @@ export class AppComponent implements OnInit{
     private sidebarService: sidebarService,
     private router: Router,
     private translate: TranslateService
-  ){}
+  ) { }
 
   ngOnInit(): void {
     this.setObservableData();
     this.streamRoute();
-  
+
   }
 
   private streamRoute() {
@@ -51,7 +52,7 @@ export class AppComponent implements OnInit{
     });
   }
 
-  private setObservableData(){
+  private setObservableData() {
     this.isOpenSidebar$ = this.sidebarService._isSidebarOpen$;
   }
 }

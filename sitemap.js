@@ -28,7 +28,6 @@ const generateSitemap = () => {
     sitemap += `</urlset>`;
 
     fs.writeFileSync(path.join(DIST_FOLDER, 'sitemap.xml'), sitemap);
-    console.log('Sitemap generated successfully!');
 };
 
 generateSitemap();
