@@ -37,7 +37,7 @@
         <img class="header_home" [src]="welcomeDataPage.image" alt="">
 
         <div class="header_title">
-          <h1 class="header_title_inner {{welcomeDataPage.class}}">{{welcomeDataPage.title}}</h1>
+          <h1 class="header_title_inner {{welcomeDataPage.class}}" [innerHTML]="welcomeDataPage.title"></h1>
           <span class="header_title_inner2 {{welcomeDataPage.class}}"> (State {{state}})</span>
           <div class="gif {{welcomeDataPage.class}}">
             <img src="/assets/img/global/slide.gif" alt="Slide">

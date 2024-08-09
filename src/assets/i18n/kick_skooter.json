@@ -8,7 +8,7 @@
     "bgImage": "scooter",
     "class": "scooter_text"
   },
-  "easySteps": {
+  "easySteps": { 
     "title": "3 simple steps",
     "text": "to sell a scooter in three or four hours",
     "style": "skooter",
@@ -67,5 +67,67 @@
         "title": "We work with complex cases (collateral, credit)"
       }
     ]
+  },
+  "testimonials": {
+    "title": "Customer feedback",
+    "feedback": [
+      {
+        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
+        "name": "Андрей",
+        "prod": "Sold the Gt Zaskar bike", 
+        "feedbackMap": "Отзыв с Google Карт"
+      },
+      {
+        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
+        "name": "Андрей",
+        "prod": "Sold the Gt Zaskar bike",
+        "feedbackMap": "Отзыв с Google Карт"
+      },
+      {
+        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
+        "name": "Андрей",
+        "prod": "Sold the Gt Zaskar bike",
+        "feedbackMap": "Отзыв с Google Карт"
+      }
+    ],
+    "content": "View Testimonials on Google Maps"
+  },
+  "questions": {
+    "title": "Any questions?",
+    "descr": "We'd be happy to answer",
+    "listAsq": [
+      {
+        "title": "What kind of cars do you buy?",
+        "content": "Absolutely any: whole, after the accident, not customs clearance, on tp. Mark, year release, mileage, condition do not matter. Redemptionaem credit cars, as well as cars with penalties. We work with legal entities and individuals, Redemption of car fleets."
+      },
+      {
+        "title": "Can I leave the car for you to sell?",
+        "content": "Yes. We will put your vehicle on consignment at our dealership."
+      },
+      {
+        "title": "How long does the sale last?",
+        "content": "The sale of the car takes place in 2-3 hours."
+      },
+      {
+        "title": "Do you buy only in Kiev?",
+        "content": "No, we redemption cars all over Ukraine. In most cases. Redemption in Ukraine occurs on the day of communication."
+      },
+      {
+        "title": "I want to sell for as much as possible!",
+        "content": "To increase Redemption's price by 10%, wash the car, grab a a second set of tires and keys. In 90% of cases the valuation will be higher than other car Redemption."
+      },
+      {
+        "title": "I'll sell the car for more!",
+        "content": "No problem! We just want to save you from wasting your time. Pre-sale preparation, photo shoots, registration on profile sites, pay for advertising. ads, answering phones and traveling to appointments at inconvenient times is the least of what you're gonna to deal with."
+      }
+    ],
+    "listBottom1": {
+      "title": "Urgent buyback of scooters",
+      "text": "During the existence of the company, we have bought out a large number of used vehicles of different makes and models. We have learned to approach the issues of car buyout with intelligence: cars are de-registered, and all transactions are legally correct.<bt/><br/> We offer car buying services in all districts of Kiev (Kiev region) and Ukraine. Those who do not want to spend time and effort to find a client, it is better to use the service 'auto buyout'. Of course you will not get the maximum value for the car, but 90-95% of the market value we guarantee you!<br/><br/> However, if you decide to sell a used car on your own, it is recommended to be patient. Selling a car on your own can take months. At the same time, without understanding the market, it is difficult to set a price that will suit both you and the potential buyer. As a result, you will waste your time and efforts."
+    },
+    "listBottom2": {
+      "title": "Scooter buying in Kiev",
+      "text": "Everything is simple! Send us a photo of the vehicle in a convenient messenger (viber, telegram, instagram). Within 4-5 minutes, the appraiser Vladimir will write the cost of redemption. Having come to an agreement, we will immediately go to you! That you would not have traveled in vain, we will come to you ourselves, absolutely free, without any claims if you refuse our services. We value the reputation and time of our customers!"
+    }
   }
 }
