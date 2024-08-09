@@ -1,0 +1,12 @@
+<div class="select" [ngClass]="{'hide': markCarsData=== 'choiceMarkCar'}">
+  <div class="select_mark">{{markCarsData['title']}}</div>
+
+  <div *ngFor="let cars of markCarsData['allCars']">
+    <div class="select_brend">{{cars.title}}</div>
+    <div class="brend_inner">
+      <a class="inner_serf" *ngFor="let img of cars.lists" (click)="openPage(img.url)"><img class="inner_cont"
+          [src]="img.img" [alt]="img.title"></a>
+
+    </div>
+  </div>
+</div>

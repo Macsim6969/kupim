@@ -13,6 +13,7 @@ import { QuestionsModule } from '../questions/questions.module';
 import { FooterModule } from '../footer/footer.module';
 import { NeedDocsModule } from '../need-docs/need-docs.module';
 import { ChoiceProductsModule } from '../choice-products/choice-products.module';
+import { ChoiceMarkCarModule } from '../choice-mark-car/choice-mark-car.module';
 
 const routes: Routes = [
   {
@@ -24,7 +25,11 @@ const routes: Routes = [
       { path: 'boat', component: HomeComponent },
       { path: 'tractor', component: HomeComponent },
       { path: 'trailer', component: HomeComponent },
-      { path: 'car', component: HomeComponent }
+      {
+        path: 'car', component: HomeComponent, children: [
+          { path: 'bmw', component: HomeComponent }
+        ]
+      }
     ]
   }
 ]
@@ -43,6 +48,7 @@ const routes: Routes = [
     NeedDocsModule,
     AboutInfoModule,
     InformationModule,
+    ChoiceMarkCarModule,
     FeedbackModule,
     QuestionsModule,
     FooterModule,

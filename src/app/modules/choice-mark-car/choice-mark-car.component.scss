@@ -1,0 +1,46 @@
+.select {
+  height: auto;
+  padding: 0 50px;
+
+  &.hide {
+    display: none;
+  }
+
+  .select_mark {
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    color: #535050;
+    padding: 50px 0;
+  }
+
+  .select_brend {
+    font-size: 30px;
+    color: #454444;
+    padding: 10px 0 30px 0;
+  }
+
+  .brend_inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .inner_serf {
+      width: 190px;
+      margin-right: 35px;
+
+      &:hover {
+        .inner_cont {
+          -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+        }
+      }
+    }
+
+    .inner_cont {
+      width: 190px;
+      transition: 0.3s ease;
+    }
+  }
+}
