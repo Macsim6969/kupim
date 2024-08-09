@@ -2,17 +2,17 @@
   "key": "yes",
   "dashboard": {
     "state": "State of Florida",
-    "title": "Car buyout BMW",
+    "title": "Car buyout Audi",
     "location": "(All States)",
-    "description": "Buy your bmw at the best price!",
+    "description": "Buy your audi at the best price!",
     "image": "/assets/img/car/car_bmw.png",
-    "bgImage": "bmw",
-    "class": "bmw_text"
+    "bgImage": "audi",
+    "class": "audi_text"
   },
   "easySteps": {
     "title": "3 simple steps",
     "text": "to sell a car fast",
-    "style": "bmw",
+    "style": "audi",
     "contentStep1": {
       "step": "Step 1",
       "stepText": "Send photos and characteristics of the laptop to Telegram, Messenge",

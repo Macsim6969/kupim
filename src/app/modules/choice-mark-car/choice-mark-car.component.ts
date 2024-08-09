@@ -30,7 +30,12 @@ export class ChoiceMarkCarComponent implements OnInit, OnDestroy {
   }
 
   public openPage(url: string) {
-    this.router.navigate([url], { queryParamsHandling: 'merge' }).then();
+    this.router.navigate([url], { queryParamsHandling: 'merge' }).then(() => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
   }
 
   ngOnDestroy(): void {

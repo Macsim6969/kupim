@@ -228,6 +228,14 @@
     background: linear-gradient(86deg, #2abbaa 0%, #2abbaa 36%, #202227 100%);
   }
 
+  &.bmw {
+    background: linear-gradient(86deg, #71988a 0%, #71988a 36%, #2c2d32 100%);
+  }
+
+  &.audi {
+    background: linear-gradient(86deg, #6d7750 0%, #6d7750 36%, #2c2d32 100%);
+  }
+
   @media (max-width: 720px) {
     height: 72px;
   }

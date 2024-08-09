@@ -22,7 +22,8 @@ export class AppComponent implements OnInit {
     '/tractor': 'tractor',
     '/trailer': 'trailer',
     '/car': 'car',
-    '/car/bmw': 'bmw'
+    '/car/bmw': 'bmw',
+    '/car/audi': 'audi'
   };
   public isOpenSidebar$: Observable<boolean>;
 

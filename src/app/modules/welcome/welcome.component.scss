@@ -263,6 +263,8 @@
           object-fit: cover;
           background: transparent;
 
+          &.audi,
+          &.bmw,
           &.car,
           &.trailer,
           &.boat {

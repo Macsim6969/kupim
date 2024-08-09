@@ -27,7 +27,8 @@ const routes: Routes = [
       { path: 'trailer', component: HomeComponent },
       {
         path: 'car', component: HomeComponent, children: [
-          { path: 'bmw', component: HomeComponent }
+          { path: 'bmw', component: HomeComponent },
+          { path: 'audi', component: HomeComponent }
         ]
       }
     ]
