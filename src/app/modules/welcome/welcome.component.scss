@@ -262,7 +262,12 @@
           height: 440px;
           object-fit: cover;
           background: transparent;
-
+          
+          &.volkswagen,
+          &.porshe,
+          &.smart,
+          &.opel,
+          &.mercedes,
           &.audi,
           &.bmw,
           &.car,

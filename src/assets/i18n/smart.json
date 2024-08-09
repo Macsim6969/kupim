@@ -2,17 +2,17 @@
   "key": "yes",
   "dashboard": {
     "state": "State of Florida",
-    "title": "Car buyout",
+    "title": "Car buyout Smart",
     "location": "(All States)",
-    "description": "We'll buy your car at the best price!",
-    "image": "/assets/img/car/car_main.png",
-    "bgImage": "car",
-    "class": "car_text"
+    "description": "Buy your smart at the best price!",
+    "image": "/assets/img/car/car_Smart.png",
+    "bgImage": "smart",
+    "class": "smart_text"
   },
   "easySteps": {
     "title": "3 simple steps",
-    "text": "to sell a laptop fast",
-    "style": "car",
+    "text": "to sell a car fast",
+    "style": "smart",
     "contentStep1": {
       "step": "Step 1",
       "stepText": "Send photos and characteristics of the laptop to Telegram, Messenge",
@@ -102,51 +102,6 @@
       {
         "src": "/assets/img/laptop/about/chain.svg",
         "title": "We work with complex cases (bail, ban, credit)"
-      }
-    ]
-  },
-  "choiceMarkCar": {
-    "title": "Select the make of the vehicle",
-    "allCars": [
-      {
-        "title": "German",
-        "lists": [
-          {
-            "img": "/assets/img/car/Audi.svg",
-            "title": "Audi",
-            "url": "/car/audi"
-          },
-          {
-            "img": "/assets/img/car/BMW.svg",
-            "title": "BMW",
-            "url": "/car/bmw"
-          },
-          {
-            "img": "/assets/img/car/Mercedes_Benz.svg",
-            "title": "Mercedes Benz",
-            "url": "/car/mercedes"
-          },
-          {
-            "img": "/assets/img/car/Opel.svg",
-            "title": "Opel",
-            "url": "/car/opel"
-          },
-          {
-            "img": "/assets/img/car/Porsche.svg",
-            "title": "Porsche",
-            "url": "/car/porshe"
-          },
-          {
-            "img": "/assets/img/car/Smart.svg",
-            "title": "Smart",
-            "url": "/car/smart"
-          },
-          {
-            "img": "/assets/img/car/Volkswagen.svg",
-            "title": "Volkswagen",
-            "url": "/car/volkswagen"
-          }
-        ]
       }
     ]
   },

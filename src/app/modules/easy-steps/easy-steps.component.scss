@@ -236,6 +236,26 @@
     background: linear-gradient(86deg, #6d7750 0%, #6d7750 36%, #2c2d32 100%);
   }
 
+  &.mercedes {
+    background: linear-gradient(86deg, #92b7d8 0%, #92b7d8 36%, #2c2d32 100%);
+  }
+
+  &.opel {
+    background: linear-gradient(86deg, #ac7d5a 0%, #ac7d5a 36%, #2c2d32 100%);
+  }
+
+  &.porshe {
+    background: linear-gradient(86deg, #ac7d5a 0%, #ac7d5a 36%, #2c2d32 100%);
+  }
+
+  &.smart {
+    background: linear-gradient(86deg, #9e9699 0%, #9e9699 36%, #2c2d32 100%);
+  }
+
+  &.volkswagen {
+    background: linear-gradient(86deg, #9bb9c7 0%, #9bb9c7 36%, #2c2d32 100%);
+  }
+
   @media (max-width: 720px) {
     height: 72px;
   }

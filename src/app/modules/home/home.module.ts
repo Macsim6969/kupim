@@ -28,7 +28,12 @@ const routes: Routes = [
       {
         path: 'car', component: HomeComponent, children: [
           { path: 'bmw', component: HomeComponent },
-          { path: 'audi', component: HomeComponent }
+          { path: 'audi', component: HomeComponent },
+          { path: 'mercedes', component: HomeComponent },
+          { path: 'opel', component: HomeComponent },
+          { path: 'porshe', component: HomeComponent },
+          { path: 'smart', component: HomeComponent },
+          { path: 'volkswagen', component: HomeComponent }
         ]
       }
     ]
