@@ -224,6 +224,10 @@
     background: linear-gradient(86deg, #8fb2d2 0%, #8fb2d2 36%, #202227 100%);
   }
 
+  &.car {
+    background: linear-gradient(86deg, #2abbaa 0%, #2abbaa 36%, #202227 100%);
+  }
+
   @media (max-width: 720px) {
     height: 72px;
   }

@@ -62,10 +62,19 @@
 }
 
 .trailer {
-  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #8fb2d2 ), color-stop(50%, #202722));
-  background: linear-gradient(to right, #8fb2d2  50%, #202722 50%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #8fb2d2), color-stop(50%, #202722));
+  background: linear-gradient(to right, #8fb2d2 50%, #202722 50%);
 }
 
 .trailer_text {
   color: #8fb2d2 !important;
+}
+
+.car {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #2abbaa), color-stop(50%, #202722));
+  background: linear-gradient(to right, #2abbaa 50%, #202722 50%);
+}
+
+.car_text {
+  color: #2abbaa !important;
 }

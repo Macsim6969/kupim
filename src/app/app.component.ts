@@ -20,7 +20,8 @@ export class AppComponent implements OnInit {
     '/kick_skooter': 'kick_skooter',
     '/boat': 'boat',
     '/tractor': 'tractor',
-    '/trailer': 'trailer'
+    '/trailer': 'trailer',
+    '/car': 'car'
   };
   public isOpenSidebar$: Observable<boolean>;
 
