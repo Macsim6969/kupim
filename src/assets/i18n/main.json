@@ -14,8 +14,49 @@
     "text": "for sale",
     "products": [
       {
-        "url": "laptop",
-        "img": ""
+        "url": "/car",
+        "img": "/assets/img/main_page/car.svg",
+        "title": "Laptop"
+      },
+      {
+        "url": "/motorbike",
+        "img": "/assets/img/main_page/moto.svg",
+        "title": "Motorbike"
+      },
+      {
+        "url": "/bike",
+        "img": "/assets/img/main_page/bike.svg",
+        "title": "Bike"
+      },
+      {
+        "url": "/kick_skooter",
+        "img": "/assets/img/main_page/scooter.svg",
+        "title": "Kick Skooter"
+      },
+      {
+        "url": "/boat",
+        "img": "/assets/img/main_page/boat.svg",
+        "title": "Boat"
+      },
+      {
+        "url": "/tractor",
+        "img": "/assets/img/main_page/tractor.svg",
+        "title": "Tractor"
+      },
+      {
+        "url": "/trailer",
+        "img": "/assets/img/main_page/trailer.svg",
+        "title": "Trailer"
+      },
+      {
+        "url": "/laptop",
+        "img": "/assets/img/main_page/other.svg",
+        "title": "Laptop"
+      },
+      {
+        "url": "/other",
+        "img": "/assets/img/main_page/other.svg",
+        "title": "Other"
       }
     ]
   },

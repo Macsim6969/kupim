@@ -4,7 +4,7 @@
     <div class="choice_trans_undelog">{{choiceProdData.text}}</div>
     <div class="choice_transpot_inner">
       <a *ngFor="let prod of choiceProdData.products" (click)="openPage(prod.url)"><img class="transport_inner_view"
-          [src]="prod.url" alt="Авто"></a>
+          [src]="prod.img" [alt]="prod.title"></a>
     </div>
   </div>
 </div>

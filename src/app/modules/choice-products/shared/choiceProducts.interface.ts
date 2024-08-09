@@ -7,4 +7,5 @@ export interface ChoiceProductsInterface {
 export interface ProductsInterface {
   img: string
   url: string
+  title: string
 }
