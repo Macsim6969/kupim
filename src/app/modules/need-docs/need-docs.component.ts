@@ -11,6 +11,7 @@ import { NeedDocsArrayInterface, NeedDocsInterface } from './shared/interfaces/n
 export class NeedDocsComponent implements OnInit, OnDestroy {
   private destroy$: Subject<void> = new Subject<void>();
   public needDocsData: NeedDocsInterface;
+  public isOpenTab: boolean[] = [];
   constructor(
     private translate: TranslateService
   ) { }
@@ -24,6 +25,11 @@ export class NeedDocsComponent implements OnInit, OnDestroy {
       .subscribe((data: NeedDocsInterface) => {
         this.needDocsData = data;
       })
+  }
+
+  public openTab(id: number) {
+    this.isOpenTab = [];
+    this.isOpenTab[id] = true;
   }
 
   ngOnDestroy(): void {

@@ -5,7 +5,7 @@
     "title": "Car buyout",
     "location": "(All States)",
     "description": "We'll buy your car at the best price!",
-    "image": "/assets/img/car/car_main.png.png",
+    "image": "/assets/img/car/car_main.png",
     "bgImage": "car",
     "class": "car_text"
   },
@@ -41,6 +41,25 @@
       {
         "title": "Vehicle registration certificate",
         "img": "/assets/img/motorbike/motorbike.svg"
+      }
+    ],
+    "need-docs-asq": "Additional paperwork will be required if the auto...",
+    "listAsq": [
+      {
+        "title": "in another name",
+        "content": "- General power of attorney for the right to sell a car"
+      },
+      {
+        "title": "credited",
+        "content": "- Credit agreement with the Bank<br/><br/>- Certificate of debt balance (date of issuance of the certificate not later than 4 days before the sale)"
+      },
+      {
+        "title": "corporate",
+        "content": "- Certificate of state registration of a legal entity (certificate of entry in the Unified State Register of Legal Entities for organizations registered before 2002)<br/>- Certificate of registration with the tax authority<br/>- Extract from the Unified State Register of Legal Entities (USRYUL), obtained from the Federal Tax Service, with up-to-date data at the time of contract conclusion<br/>- Articles of Association<br/>- Licenses for the right to carry out the relevant type of activity (if such licenses are required for the conclusion of the contract in accordance with the legislation of the Russian Federation or a foreign state)<br/>- Certificate of self-regulatory organization (SRO) on admission to perform works (if available)<br/>- Document confirming the powers of the representative of the legal entity, including power of attorney, seal<br/>- Documents confirming the powers of the sole executive body<br/>- Documents confirming that the legal entity complies with"
+      },
+      {
+        "title": "sole proprietor",
+        "content": "- General power of attorney for the right to sell a car<br/>- TAXPAYER IDENTIFICATION NUMBER<br/>- Notification from the tax inspectorate on the<br/>- application of taxation<br/>- OGRNIPv<br/>- Order on appointment of the chief accountant (if the chief accountant signs closing documents)<br/>- Order on appointment of the General Director<br/>- Seal of the organization<br/>- Legal Entity Card"
       }
     ]
   },

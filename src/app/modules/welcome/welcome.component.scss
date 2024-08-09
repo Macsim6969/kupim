@@ -263,6 +263,7 @@
           object-fit: cover;
           background: transparent;
 
+          &.car,
           &.trailer,
           &.boat {
             height: auto;
