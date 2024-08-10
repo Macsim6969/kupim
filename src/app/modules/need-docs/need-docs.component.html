@@ -10,16 +10,16 @@
         </div>
     </div>
 </section>
-
+ 
 <div class="dopp_doccument" [ngClass]="{'hide': !needDocsData.listAsq}">
     <div class="dopp_container">
         <div class="dopp_doccument_title">{{needDocsData['need-docs-asq']}}</div>
-        <div *ngFor="let asq of needDocsData.listAsq;index as i">
+        <div class="container" *ngFor="let asq of needDocsData.listAsq;index as i">
             <div class="dopp_doccument_brd"></div>
             <div class="dopp__inner">
                 <div class="dopp____inner">
                     <button [ngClass]="{'active': isOpenTab[i+1]}" type="button" class="dopp_collaps" (click)="openTab(i+1)">{{asq.title}}</button>
-                    <div [ngClass]="{'active': isOpenTab[i+1]}" class="dopp_content">{{asq.content}}</div>
+                    <div [ngClass]="{'active': isOpenTab[i+1]}" class="dopp_content" [innerHTML]="asq.content"></div>
                 </div>
             </div>
         </div>
