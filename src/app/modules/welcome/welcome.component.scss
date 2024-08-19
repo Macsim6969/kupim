@@ -49,13 +49,9 @@
 
 
         .header_inner_navigation {
-          display: -webkit-box;
-          display: -ms-flexbox;
           display: flex;
-          -webkit-box-orient: horizontal;
-          -webkit-box-direction: normal;
-          -ms-flex-direction: row;
           flex-direction: row;
+          gap: 15px;
 
           @media (max-width: 720px) {
             display: grid;
@@ -115,15 +111,9 @@
 
 
           .navigation_contact {
-            padding: 15px;
-            display: -webkit-box;
-            display: -ms-flexbox;
+            padding: 15px 15px 15px 0;
             display: flex;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-            -ms-flex-direction: column;
             flex-direction: column;
-            -ms-flex-pack: distribute;
             justify-content: space-around;
 
             @media (max-width: 720px) {
@@ -262,7 +252,7 @@
           height: 440px;
           object-fit: cover;
           background: transparent;
-          
+
           &.volkswagen,
           &.porshe,
           &.smart,
