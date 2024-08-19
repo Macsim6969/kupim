@@ -14,16 +14,19 @@
     "text": "we buy back across all US states",
     "content": [
       {
-        "img": "/assets/img/laptop/info-dtp.svg"
+        "img": "/assets/img/motorbike/after_an_accident.svg"
       },
       {
-        "img": "/assets/img/laptop/info-credit.svg"
+        "img": "/assets/img/motorbike/credit.svg"
       },
       {
-        "img": "/assets/img/laptop/info-legal.svg"
+        "img": "/assets/img/motorbike/motorcycle.svg"
       },
       {
-        "img": "/assets/img/laptop/info-ip.svg"
+        "img": "/assets/img/motorbike/scooter.svg"
+      },
+      {
+        "img": "/assets/img/motorbike/under_repair.svg"
       }
     ]
   },

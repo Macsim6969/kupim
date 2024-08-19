@@ -14,16 +14,19 @@
     "text": "we buy back across all US states",
     "content": [
       {
-        "img": "/assets/img/laptop/info-dtp.svg"
+        "img": "/assets/img/boat/Boat.svg"
       },
       {
-        "img": "/assets/img/laptop/info-credit.svg"
+        "img": "/assets/img/boat/Inflatable_boat.svg"
       },
       {
-        "img": "/assets/img/laptop/info-legal.svg"
+        "img": "/assets/img/boat/Jet_Ski.svg"
       },
       {
-        "img": "/assets/img/laptop/info-ip.svg"
+        "img": "/assets/img/boat/Kayak.svg"
+      },
+      {
+        "img": "/assets/img/boat/Outboard_motor.svg"
       }
     ]
   },
