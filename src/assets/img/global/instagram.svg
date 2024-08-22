@@ -1,3 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="38" viewBox="0 0 38 38">
-  <image id="Слой_19" data-name="Слой 19" width="38" height="38" xlink:href="data:img/png;base64,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"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="512px" height="512px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.84;fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+	.st2{fill:#FFFFFF;}
+</style>
+<radialGradient id="SVGID_1_" cx="256" cy="257.617" r="243.8943" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#878787"/>
+	<stop  offset="1" style="stop-color:#616160;stop-opacity:0"/>
+</radialGradient>
+<rect x="7.3" y="18.6" class="st0" width="497.3" height="478.1"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="103.1454" y1="408.7012" x2="408.0571" y2="103.7896">
+	<stop  offset="1.104800e-03" style="stop-color:#FBE189"/>
+	<stop  offset="0.1602" style="stop-color:#FBBB46"/>
+	<stop  offset="0.3899" style="stop-color:#EA5275"/>
+	<stop  offset="0.7249" style="stop-color:#D23B8E"/>
+	<stop  offset="1" style="stop-color:#6E4796"/>
+</linearGradient>
+<path class="st1" d="M368.1,425.2H143.1c-31.2,0-56.4-25.3-56.4-56.4V143.7c0-31.2,25.3-56.4,56.4-56.4h225.1
+	c31.2,0,56.4,25.3,56.4,56.4v225.1C424.6,400,399.3,425.2,368.1,425.2z"/>
+<circle class="st2" cx="323.4" cy="189" r="15"/>
+<path class="st2" d="M256.7,193.2c-34.8,0-63,28.3-63,63s28.3,63,63,63s63-28.3,63-63S291.4,193.2,256.7,193.2z M256.7,296.6
+	c-22.3,0-40.4-18.1-40.4-40.4c0-22.3,18.1-40.4,40.4-40.4c22.3,0,40.4,18.1,40.4,40.4C297,278.5,278.9,296.6,256.7,296.6z"/>
+<path class="st2" d="M306.7,384.2H204.5c-42.4,0-76.9-34.5-76.9-76.9V205.1c0-42.4,34.5-76.9,76.9-76.9h102.2
+	c42.4,0,76.9,34.5,76.9,76.9v102.2C383.6,349.7,349.1,384.2,306.7,384.2z M204.5,152.3c-29.1,0-52.8,23.7-52.8,52.8v102.2
+	c0,29.1,23.7,52.8,52.8,52.8h102.2c29.1,0,52.8-23.7,52.8-52.8V205.1c0-29.1-23.7-52.8-52.8-52.8H204.5z"/>
 </svg>
