@@ -74,7 +74,16 @@
 
             @media (max-width: 720px) {
               display: block;
-              width: 80px;
+              width: 55px;
+              height: 55px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              img {
+
+                object-fit: cover;
+              }
             }
           }
 
