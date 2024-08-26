@@ -144,6 +144,16 @@
             -webkit-box-shadow: 0 0 12px 5px #cfcfcf;
             box-shadow: 0 0 12px 5px #cfcfcf;
 
+            .inner_img {
+              width: 45px;
+              object-fit: cover;
+            }
+
+            .inner_img_tp {
+              width: 55px;
+              object-fit: cover;
+            }
+
             .block_inner {
               &:hover {
                 .inner_title {
@@ -153,6 +163,7 @@
 
               .inner_img {
                 width: 45px;
+                object-fit: cover;
               }
 
               .inner_title {
