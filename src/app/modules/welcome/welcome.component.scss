@@ -52,6 +52,7 @@
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             padding: 20px 0 0 0;
+            justify-items: center;
           }
 
           a {
@@ -69,8 +70,8 @@
 
             @media (max-width: 720px) {
               display: block;
-              width: 73px;
-              height: 73px;
+              width: 71px;
+              height: 71px;
               display: flex;
               align-items: center;
               justify-content: center;
