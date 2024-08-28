@@ -1,22 +1,20 @@
 <section class="question">
-
   <div class="asq_container">
-    <h2 class="asq_inner_title">{{qustionsData.title}}</h2>
-    <div class="asq_inner_dop_title">{{qustionsData.descr}}</div>
-    <div class="asq_bl" *ngFor="let list of qustionsData.listAsq;index as i">
+    <h2 class="asq_inner_title">{{qustionsData?.title}}</h2>
+    <div class="asq_inner_dop_title">{{qustionsData?.descr}}</div>
+    <div class="asq_bl" *ngFor="let list of qustionsData?.listAsq; index as i">
       <div class="asq_bnt"></div>
       <div class="dopp__inner">
         <div class="dopp____inner">
-          <button [ngClass]="{'active': isOpenTab[i+1]}" (click)="openTab(i+1)" type="button" class="dopp_collaps">{{list.title}}</button>
-          <div [ngClass]="{'active': isOpenTab[i+1]}" class="dopp_content">{{list.content}}</div>
+          <button [ngClass]="{'active': isOpenTab[i]}" (click)="openTab(i)" type="button" class="dopp_collaps">{{list.title}}</button>
+          <div #doppContent [style.maxHeight]="isOpenTab[i] ? getContentMaxHeight(i) : '0'" [ngClass]="{'active': isOpenTab[i]}" class="dopp_content">{{list.content}}</div>
         </div>
       </div>
     </div>
 
-    <h3 class="last_info_h">{{qustionsData.listBottom1?.title}}</h3>
-    <div class="last_info" [innerHTML]="qustionsData.listBottom1?.text"></div>
-    <h3 class="last_info_h">{{qustionsData.listBottom2?.title}}</h3>
-    <div class="last_info" [innerHTML]="qustionsData.listBottom2?.text"></div>
+    <h3 class="last_info_h">{{qustionsData?.listBottom1?.title}}</h3>
+    <div class="last_info" [innerHTML]="qustionsData?.listBottom1?.text"></div>
+    <h3 class="last_info_h">{{qustionsData?.listBottom2?.title}}</h3>
+    <div class="last_info" [innerHTML]="qustionsData?.listBottom2?.text"></div>
   </div>
-
 </section>
