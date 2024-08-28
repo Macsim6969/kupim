@@ -14,19 +14,24 @@
     "text": "we buy back across all US states",
     "content": [
       {
-        "img": "/assets/img/main_page/Transport.svg"
+        "img": "/assets/img/main_page/Transport.svg",
+        "route": "/car"
       },
       {
-        "img": "/assets/img/main_page/Furniture.svg"
+        "img": "/assets/img/main_page/Furniture.svg",
+        "route": ""
       },
       {
-        "img": "/assets/img/main_page/Electronics.svg"
+        "img": "/assets/img/main_page/Electronics.svg",
+        "route": ""
       },
       {
-        "img": "/assets/img/main_page/Real_estate.svg"
+        "img": "/assets/img/main_page/Real_estate.svg",
+        "route": ""
       },
       {
-        "img": "/assets/img/main_page/Others.svg"
+        "img": "/assets/img/main_page/Others.svg",
+        "route": ""
       }
     ]
   },

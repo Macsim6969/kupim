@@ -72,6 +72,17 @@
       row-gap: 0;
     }
 
+    button {
+      outline: none;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+
     img {
       width: 280px;
       height: 100%;

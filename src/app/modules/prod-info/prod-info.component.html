@@ -5,7 +5,10 @@
             <span class="info_undelog">{{prodInfo['text']}}</span>
         </h2>
         <div class="prod_info_content">
-            <img *ngFor="let image of prodInfo['content']" class="car_find_img" [src]="image.img" alt="">
+            <button class="btn" *ngFor="let image of prodInfo['content']" (click)="openPage(image.route)">
+                <img class="car_find_img" [src]="image.img" alt="">
+            </button>
+
 
         </div>
     </div>

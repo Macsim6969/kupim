@@ -2,6 +2,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { Subject, takeUntil } from 'rxjs';
 import { ProdInfo } from './shared/interfaces/prodInfo.interface';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-prod-info',
@@ -13,7 +14,8 @@ export class ProdInfoComponent implements OnInit, OnDestroy {
   public prodInfo: ProdInfo | string;
 
   constructor(
-    private translate: TranslateService
+    private translate: TranslateService,
+    private router: Router
   ) { }
 
   ngOnInit(): void {
@@ -23,12 +25,16 @@ export class ProdInfoComponent implements OnInit, OnDestroy {
   private getProdInfoDataFromJson() {
     this.translate.stream('prodInfo').pipe(takeUntil(this.destroy$))
       .subscribe((data: ProdInfo | string) => {
-        if(data === 'prodInfo'){
+        if (data === 'prodInfo') {
           this.prodInfo = 'prodInfo';
         } else {
           this.prodInfo = data;
         }
       })
+  }
+
+  public openPage(route: string) {
+    this.router.navigate([route], { queryParamsHandling: 'merge' }).then();
   }
 
   ngOnDestroy(): void {
