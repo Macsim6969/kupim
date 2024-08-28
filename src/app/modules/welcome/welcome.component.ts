@@ -54,7 +54,7 @@ export class WelcomeComponent implements OnInit, OnDestroy {
   public openMenu() {
     this.isOpenPopup = !this.isOpenPopup;
     this.sidebarService._isSidebarOpen = this.isOpenPopup;
-    document.body.style.overflow = 'hidden';
+    document.body.style.overflow =  this.isOpenPopup  ? 'hidden' : '';
   }
 
   ngOnDestroy(): void {
