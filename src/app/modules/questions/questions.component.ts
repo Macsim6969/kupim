@@ -31,9 +31,11 @@ export class QuestionsComponent implements OnInit, OnDestroy {
   }
 
   openTab(id: number) {
-    this.isOpen = !this.isOpen;
-    this.isOpenTab = [];
-    this.isOpenTab[id] = this.isOpen;
+    if (this.isOpenTab[id] === undefined) {
+      this.isOpenTab[id] = true;
+    } else {
+      this.isOpenTab[id] = !this.isOpenTab[id];
+    }
   }
 
   getContentMaxHeight(index: number): string {
