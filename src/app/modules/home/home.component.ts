@@ -1,8 +1,9 @@
 import { AfterViewInit, ChangeDetectorRef, Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Subject, takeUntil } from 'rxjs';
+import { Subject, take, takeUntil, timer } from 'rxjs';
 import { Location } from '@angular/common';
 import { TranslateService } from '@ngx-translate/core';
+import { StoreService } from '../../shared/services/store.service';
 
 @Component({
   selector: 'app-home',
@@ -12,22 +13,38 @@ import { TranslateService } from '@ngx-translate/core';
 export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
   private destroy$: Subject<void> = new Subject<void>();
   public key: string;
+  public isLoading: boolean;
 
   constructor(
     private router: Router,
     private route: ActivatedRoute,
     private location: Location,
     private translate: TranslateService,
-    private cd: ChangeDetectorRef
+    private cd: ChangeDetectorRef,
+    private store: StoreService
   ) { }
 
   ngOnInit(): void {
+    this.checkToChangePage();
     this.setUpQueryParamsData();
   }
 
   ngAfterViewInit(): void {
     this.streamKeyDataFromJson();
     this.cd.detectChanges();
+  }
+
+  private checkToChangePage() {
+    this.store._activePage$.pipe(takeUntil(this.destroy$)).subscribe((data) => {
+      this.isLoading = true;
+      if (data) {
+        this.translate.stream(data).pipe(takeUntil(this.destroy$)).subscribe((data) => {
+          timer(0).pipe(take(1)).subscribe(() => {
+            data ? this.isLoading = false : this.isLoading = true;
+          })
+        })
+      }
+    })
   }
 
   private setUpQueryParamsData() {

@@ -10,6 +10,7 @@ import { sidebarService } from "./shared/services/sidebar.service";
 import { ShareModule } from "./shared/modules/share.module";
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { StoreService } from "./shared/services/store.service";
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/');
@@ -37,7 +38,8 @@ export function HttpLoaderFactory(http: HttpClient) {
   bootstrap: [AppComponent],
   providers: [
     provideAnimationsAsync(),
-    sidebarService
+    sidebarService,
+    StoreService
   ]
 })
 

@@ -14,6 +14,7 @@ import { FooterModule } from '../footer/footer.module';
 import { NeedDocsModule } from '../need-docs/need-docs.module';
 import { ChoiceProductsModule } from '../choice-products/choice-products.module';
 import { ChoiceMarkCarModule } from '../choice-mark-car/choice-mark-car.module';
+import { LoadingComponent } from '../../shared/components/loading/loading.component';
 
 const routes: Routes = [
   {
@@ -42,7 +43,8 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [
-    HomeComponent
+    HomeComponent,
+    LoadingComponent
   ],
   imports: [
     CommonModule,

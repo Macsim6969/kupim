@@ -3,6 +3,7 @@ import { sidebarService } from './shared/services/sidebar.service';
 import { Observable } from 'rxjs';
 import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
+import { StoreService } from './shared/services/store.service';
 
 @Component({
   selector: 'app-root',
@@ -35,7 +36,8 @@ export class AppComponent implements OnInit {
   constructor(
     private sidebarService: sidebarService,
     private router: Router,
-    private translate: TranslateService
+    private translate: TranslateService,
+    private store: StoreService
   ) { }
 
   ngOnInit(): void {
@@ -52,9 +54,11 @@ export class AppComponent implements OnInit {
 
         if (language) {
           this.translate.use(language);
+          this.store._activePage = language;
         } else {
           this.router.navigate(['/'], { queryParamsHandling: 'merge' }).then();
           this.translate.use('main');
+          this.store._activePage = 'main';
         }
       }
     });
