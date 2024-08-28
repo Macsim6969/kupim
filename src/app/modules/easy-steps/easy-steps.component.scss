@@ -127,7 +127,7 @@
           .block_inner {
             max-width: 200px;
             margin: 0 0 -8px 0;
-            height: 55px;
+            height: 75px;
 
             display: flex;
 
@@ -136,14 +136,15 @@
             justify-content: space-around;
             border-radius: 15px;
             box-shadow: 0 0 12px 5px #cfcfcf;
+            overflow: hidden;
 
             .inner_img {
-              width: 55px;
+              width: 77px;
               object-fit: cover;
             }
 
             .inner_img_tp {
-              width: 46px;
+              width: 65px;
               object-fit: cover;
             }
 

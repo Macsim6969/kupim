@@ -166,16 +166,10 @@
         .block_inner {
           max-width: 130px;
           margin: 0 0 0px 0;
-          height: 55px;
-          display: -webkit-box;
-          display: -ms-flexbox;
+          height: 75px;
           display: flex;
-          -webkit-box-orient: horizontal;
-          -webkit-box-direction: normal;
-          -ms-flex-direction: row;
           flex-direction: row;
-          -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
+          align-items: center;
           justify-content: space-between;
           border-radius: 15px;
 
@@ -186,12 +180,12 @@
           }
 
           .inner_img {
-            width: 45px;
+            width: 75px;
             margin: 4px 13px 0 2px;
           }
 
           .inner_img1 {
-            width: 53px;
+            width: 75px;
             margin: 0px 10px 0 -2px;
           }
 
