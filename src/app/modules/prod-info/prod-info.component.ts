@@ -34,7 +34,12 @@ export class ProdInfoComponent implements OnInit, OnDestroy {
   }
 
   public openPage(route: string) {
-    this.router.navigate([route], { queryParamsHandling: 'merge' }).then();
+    this.router.navigate([route], { queryParamsHandling: 'merge' }).then(() => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
   }
 
   ngOnDestroy(): void {
