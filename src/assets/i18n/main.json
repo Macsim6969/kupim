@@ -5,63 +5,12 @@
     "title": "Main Page",
     "location": "(All States)",
     "description": "Buy your laptop at the best price",
-    "image": "/assets/img/laptop/laptop.png",
+    "image": "",
     "bgImage": "laptop",
     "class": "laptop_text"
   },
-  "choiceProducts": {
-    "title": "Select transportation",
-    "text": "for sale",
-    "products": [
-      {
-        "url": "/car",
-        "img": "/assets/img/main_page/car.svg",
-        "title": "Laptop"
-      },
-      {
-        "url": "/motorbike",
-        "img": "/assets/img/main_page/moto.svg",
-        "title": "Motorbike"
-      },
-      {
-        "url": "/bike",
-        "img": "/assets/img/main_page/bike.svg",
-        "title": "Bike"
-      },
-      {
-        "url": "/kick_skooter",
-        "img": "/assets/img/main_page/scooter.svg",
-        "title": "Kick Skooter"
-      },
-      {
-        "url": "/boat",
-        "img": "/assets/img/main_page/boat.svg",
-        "title": "Boat"
-      },
-      {
-        "url": "/tractor",
-        "img": "/assets/img/main_page/tractor.svg",
-        "title": "Tractor"
-      },
-      {
-        "url": "/trailer",
-        "img": "/assets/img/main_page/trailer.svg",
-        "title": "Trailer"
-      },
-      {
-        "url": "/laptop",
-        "img": "/assets/img/main_page/other.svg",
-        "title": "Laptop"
-      },
-      {
-        "url": "/other",
-        "img": "/assets/img/main_page/other.svg",
-        "title": "Other"
-      }
-    ]
-  },
   "prodInfo": {
-    "title": "Laptops",
+    "title": "Test",
     "text": "we buy back across all US states",
     "content": [
       {
@@ -82,8 +31,8 @@
     ]
   },
   "easySteps": {
-    "title": "3 simple steps",
-    "text": "to sell a laptop fast",
+    "title": "Test",
+    "text": "tests",
     "style": "laptop",
     "contentStep1": {
       "step": "Step 1",

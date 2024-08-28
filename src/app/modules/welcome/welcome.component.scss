@@ -15,7 +15,10 @@
       margin: 0 auto;
       -webkit-box-shadow: 0px 0px 80px 1px #221414;
       box-shadow: 0px 0px 80px 1px #221414;
-
+      height: calc(100vh - 170px);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
       position: relative;
 
 
@@ -138,16 +141,11 @@
         }
 
         .header_menu {
-          display: -webkit-box;
-          display: -ms-flexbox;
           display: flex;
-          -webkit-box-orient: horizontal;
-          -webkit-box-direction: normal;
-          -ms-flex-direction: row;
           flex-direction: row;
-          -webkit-box-align: center;
-          -ms-flex-align: center;
           align-items: center;
+          position: relative;
+          z-index: 9999;
 
           &:hover {
             transform: scale(1.07);

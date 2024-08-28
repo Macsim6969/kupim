@@ -12,6 +12,7 @@ export class QuestionsComponent implements OnInit, OnDestroy {
   private destroy$: Subject<void> = new Subject<void>();
   public qustionsData: Questions;
   public isOpenTab: boolean[] = [];
+  private isOpen: boolean;
   constructor(
     private translate: TranslateService
   ) { }
@@ -28,8 +29,9 @@ export class QuestionsComponent implements OnInit, OnDestroy {
   }
 
   public openTab(id: number) {
+    this.isOpen = !this.isOpen;
     this.isOpenTab = [];
-    this.isOpenTab[id] = true;
+    this.isOpenTab[id] = this.isOpen;
   }
 
   ngOnDestroy(): void {

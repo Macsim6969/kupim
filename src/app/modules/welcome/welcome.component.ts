@@ -15,6 +15,7 @@ export class WelcomeComponent implements OnInit, OnDestroy {
   public isSidebar$: Observable<boolean>;
   public welcomeDataPage: Welcome;
   public state: string
+  private isOpenPopup: boolean;
   constructor(
     private sidebarService: sidebarService,
     private translate: TranslateService,
@@ -51,7 +52,8 @@ export class WelcomeComponent implements OnInit, OnDestroy {
   }
 
   public openMenu() {
-    this.sidebarService._isSidebarOpen = true;
+    this.isOpenPopup = !this.isOpenPopup;
+    this.sidebarService._isSidebarOpen = this.isOpenPopup;
     document.body.style.overflow = 'hidden';
   }
 

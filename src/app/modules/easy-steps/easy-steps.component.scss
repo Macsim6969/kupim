@@ -128,29 +128,22 @@
             max-width: 200px;
             margin: 0 0 -8px 0;
             height: 55px;
-            display: -webkit-box;
-            display: -ms-flexbox;
+
             display: flex;
-            -webkit-box-orient: horizontal;
-            -webkit-box-direction: normal;
-            -ms-flex-direction: row;
+
             flex-direction: row;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
             align-items: center;
-            -ms-flex-pack: distribute;
             justify-content: space-around;
             border-radius: 15px;
-            -webkit-box-shadow: 0 0 12px 5px #cfcfcf;
             box-shadow: 0 0 12px 5px #cfcfcf;
 
             .inner_img {
-              width: 45px;
+              width: 55px;
               object-fit: cover;
             }
 
             .inner_img_tp {
-              width: 55px;
+              width: 46px;
               object-fit: cover;
             }
 
