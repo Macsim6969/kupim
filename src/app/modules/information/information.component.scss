@@ -161,7 +161,11 @@
         display: block;
         margin: 15px 0 0 0px;
         border: 1px solid white;
-        border-radius: 5px;
+        border-radius: 15px;
+        padding: 0 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
 
         .block_inner {
           max-width: 130px;
@@ -180,12 +184,12 @@
           }
 
           .inner_img {
-            width: 75px;
+            width: 45px;
             margin: 4px 13px 0 2px;
           }
 
           .inner_img1 {
-            width: 75px;
+            width: 60px;
             margin: 0px 10px 0 -2px;
           }
 

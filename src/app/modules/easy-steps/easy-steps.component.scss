@@ -128,7 +128,6 @@
             max-width: 200px;
             margin: 0 0 -8px 0;
             height: 75px;
-
             display: flex;
 
             flex-direction: row;
@@ -139,12 +138,12 @@
             overflow: hidden;
 
             .inner_img {
-              width: 77px;
+              width: 45px;
               object-fit: cover;
             }
 
             .inner_img_tp {
-              width: 65px;
+              width: 60px;
               object-fit: cover;
             }
 

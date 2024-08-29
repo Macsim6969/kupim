@@ -13,6 +13,10 @@
       width: 90%;
     }
 
+    @media (max-width: 768px) {
+      width: 85%;
+    }
+
     .asq_inner_title {
       display: flex;
       justify-content: center;
