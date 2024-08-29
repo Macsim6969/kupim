@@ -127,23 +127,25 @@
           .block_inner {
             max-width: 200px;
             margin: 0 0 -8px 0;
-            height: 75px;
+            height: 55px;
+            padding: 0 10px;
             display: flex;
 
             flex-direction: row;
             align-items: center;
-            justify-content: space-around;
+            gap: 30px;
             border-radius: 15px;
             box-shadow: 0 0 12px 5px #cfcfcf;
             overflow: hidden;
 
-            .inner_img {
-              width: 45px;
-              object-fit: cover;
+            &:hover{
+              .inner_img{
+                transform: scale(1.1);
+              }
             }
 
-            .inner_img_tp {
-              width: 60px;
+            .inner_img {
+              width: 45px;
               object-fit: cover;
             }
 

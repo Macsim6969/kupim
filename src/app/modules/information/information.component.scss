@@ -170,27 +170,27 @@
         .block_inner {
           max-width: 130px;
           margin: 0 0 0px 0;
-          height: 75px;
+          height: 55px;
           display: flex;
           flex-direction: row;
           align-items: center;
           justify-content: space-between;
           border-radius: 15px;
+          gap: 30px;
 
           &:hover {
             .inner_title {
               color: #757373;
             }
+
+            .inner_img{
+              transform: scale(1.1);
+            }
           }
 
           .inner_img {
             width: 45px;
-            margin: 4px 13px 0 2px;
-          }
-
-          .inner_img1 {
-            width: 60px;
-            margin: 0px 10px 0 -2px;
+            margin: 0px 13px 0 2px;
           }
 
           .inner_title {
