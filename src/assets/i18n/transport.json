@@ -9,29 +9,54 @@
     "bgImage": "laptop",
     "class": "laptop_text"
   },
-  "prodInfo": {
-    "title": "Test",
-    "text": "we buy back across all US states",
-    "content": [
+  "choiceProducts": {
+    "title": "Select transportation",
+    "text": "for sale",
+    "products": [
       {
-        "img": "/assets/img/main_page/Transport.svg",
-        "route": "/car"
+        "url": "/car",
+        "img": "/assets/img/main_page/car.svg",
+        "title": "Laptop"
       },
       {
-        "img": "/assets/img/main_page/Furniture.svg",
-        "route": ""
+        "url": "/motorbike",
+        "img": "/assets/img/main_page/moto.svg",
+        "title": "Motorbike"
       },
       {
-        "img": "/assets/img/main_page/Electronics.svg",
-        "route": ""
+        "url": "/bike",
+        "img": "/assets/img/main_page/bike.svg",
+        "title": "Bike"
       },
       {
-        "img": "/assets/img/main_page/Real_estate.svg",
-        "route": ""
+        "url": "/kick_skooter",
+        "img": "/assets/img/main_page/scooter.svg",
+        "title": "Kick Skooter"
       },
       {
-        "img": "/assets/img/main_page/Others.svg",
-        "route": ""
+        "url": "/boat",
+        "img": "/assets/img/main_page/boat.svg",
+        "title": "Boat"
+      },
+      {
+        "url": "/tractor",
+        "img": "/assets/img/main_page/tractor.svg",
+        "title": "Tractor"
+      },
+      {
+        "url": "/trailer",
+        "img": "/assets/img/main_page/trailer.svg",
+        "title": "Trailer"
+      },
+      {
+        "url": "/laptop",
+        "img": "/assets/img/main_page/other.svg",
+        "title": "Laptop"
+      },
+      {
+        "url": "/other",
+        "img": "/assets/img/main_page/other.svg",
+        "title": "Other"
       }
     ]
   },
