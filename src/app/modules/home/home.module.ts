@@ -19,6 +19,7 @@ import { LoadingComponent } from '../../shared/components/loading/loading.compon
 const routes: Routes = [
   {
     path: '', component: HomeComponent, children: [
+      { path: 'transport', component: HomeComponent },
       { path: 'laptop', component: HomeComponent },
       { path: 'bike', component: HomeComponent },
       { path: 'motorbike', component: HomeComponent },
