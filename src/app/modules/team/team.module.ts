@@ -5,6 +5,7 @@ import { TeamComponent } from './team.component';
 import { RouterModule, Routes } from '@angular/router';
 import { WelcomeModule } from "../welcome/welcome.module";
 import { TeamInfoComponent } from './shared/components/team-info/team-info.component';
+import { FooterModule } from "../footer/footer.module";
 
 const routes: Routes = [
   { path: '', component: TeamComponent }
@@ -19,7 +20,8 @@ const routes: Routes = [
     CommonModule,
     ShareModule,
     RouterModule.forChild(routes),
-    WelcomeModule
+    WelcomeModule,
+    FooterModule
 ]
 })
 export class TeamModule { }

@@ -29,7 +29,7 @@
 
       .left_local {
         font-size: 20px;
-        padding-bottom: 20px;
+        padding-bottom: 25px;
       }
 
       .left_work_time {
@@ -41,11 +41,11 @@
       .left_time {
         font-size: 20px;
         padding-bottom: 8px;
-        padding-left: 12px;
+        padding-left: 15px;
       }
 
       .left_contact {
-        padding-top: 10px;
+        padding-top: 15px;
         font-size: 20px;
         color: #605f6e;
         padding-bottom: 10px;
@@ -71,29 +71,26 @@
         text-decoration: none;
         width: 200px;
         display: block;
-        margin: 25px 0 0 0px;
+        margin: 25px 0 10px 0px;
 
         .block_inner {
           max-width: 200px;
           margin: 0 0 -8px 0;
           height: 55px;
-          display: -webkit-box;
-          display: -ms-flexbox;
+          padding: 0 10px;
           display: flex;
-          -webkit-box-orient: horizontal;
-          -webkit-box-direction: normal;
-          -ms-flex-direction: row;
           flex-direction: row;
-          -webkit-box-align: center;
-          -ms-flex-align: center;
           align-items: center;
-          -ms-flex-pack: distribute;
-          justify-content: space-around;
+          gap: 30px;
           border-radius: 15px;
-          -webkit-box-shadow: 0 0 12px 5px #cfcfcf;
           box-shadow: 0 0 12px 5px #cfcfcf;
+          overflow: hidden;
 
           &:hover {
+            .inner_img {
+              transform: scale(1.1);
+            }
+
             .inner_title {
               color: #757373;
             }
@@ -101,11 +98,10 @@
 
           .inner_img {
             width: 45px;
+            object-fit: cover;
           }
 
-          .inner_img1 {
-            width: 55px;
-          }
+      
 
           .inner_title {
             font-size: 16px;
@@ -115,47 +111,6 @@
         }
       }
 
-      .dop_info_direct {
-        margin-top: 45px;
-        font-size: 20px;
-        color: #605f6e;
-        padding-bottom: 10px;
-        padding-top: 45px;
-
-        right: 50px;
-        position: absolute;
-        bottom: 135px;
-
-        @media (max-width: 1525px) {
-          position: unset;
-        }
-
-      }
-
-      .dop_info_loft {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-        flex-direction: row;
-        padding-bottom: 50px;
-
-        right: 50px;
-        position: absolute;
-        bottom: 0;
-
-        @media (max-width: 1525px) {
-          position: unset;
-        }
-      }
-
-      a {
-        .dop_info_sails {
-          width: 70px;
-        }
-      }
     }
 
     .cont_right {

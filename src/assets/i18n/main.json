@@ -2,16 +2,16 @@
   "key": "",
   "dashboard": {
     "state": "State of Florida",
-    "title": "Transport Page",
+    "title": "Scroll down to see what we buy",
     "location": "(All States)",
-    "description": "Buy your laptop at the best price",
+    "description": "Cash for your trash!",
     "image": "",
     "bgImage": "laptop",
     "class": "laptop_text"
   },
   "prodInfo": {
-    "title": "Test",
-    "text": "we buy back across all US states",
+    "title": "Pick",
+    "text": "what you wanna sell",
     "content": [
       {
         "img": "/assets/img/main_page/Transport.svg",
@@ -36,21 +36,21 @@
     ]
   },
   "easySteps": {
-    "title": "Test",
-    "text": "tests",
+    "title": "3 quick steps",
+    "text": "to get an online quote",
     "style": "laptop",
     "contentStep1": {
       "step": "Step 1",
-      "stepText": "Send photos and characteristics of the laptop to Telegram, Messenge",
+      "stepText": "Shoot us a picture or the details on any messaging app",
       "contact": "SEND"
     },
     "contentStep2": {
       "step": "Step 2",
-      "stepText": "Make an appointment for a sale at your nearest office or order a no obligation sale"
+      "stepText": "Schedule an in-office sales appointment or request an appraiser to visit your home"
     },
     "contentStep3": {
       "step": "Step 3",
-      "stepText": "Receive instant payouts in a form that is convenient for you"
+      "stepText": "Receive an instant payout in the form that's convenient for you"
     }
   },
   "aboutInfo": {
@@ -59,69 +59,69 @@
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
-        "title": "Buy a laptop in any condition"
+        "title": "We’ll buy anything you’ve got."
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
-        "title": "Day-of-communication sale"
+        "title": "Same-Day Purchase"
       },
       {
         "src": "/assets/img/laptop/about/lock.svg",
-        "title": "It's all confidential."
+        "title": "Every Sale is Confidential"
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "Traid-In"
+        "title": "Trade-In"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
-        "title": "Online or on-site appraisal"
+        "title": "Appraisal Time via Messenger - 7 Minutes"
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
-        "title": "Pricing more expensive than the competition"
+        "title": "We Offer Higher Prices Than Our Competitors"
       },
       {
         "src": "/assets/img/laptop/about/flag.svg",
-        "title": "We buy out all the states in the U.S."
+        "title": "Operating Across All U.S. States"
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
-        "title": "Instant disbursement of money in a form convenient for you"
+        "title": "Instant Payment"
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
-        "title": "We work with complex cases (collateral, credit)"
+        "title": "We Handle Complex Cases (Collateral, Loans)"
       }
     ]
   },
   "testimonials": {
-    "title": "Customer feedback",
+    "title": "Customer Reviews",
     "feedback": [
       {
         "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
         "name": "Андрей",
         "prod": "Sold the Gt Zaskar bike",
-        "feedbackMap": "Отзыв с Google Карт"
+        "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
         "name": "Андрей",
         "prod": "Sold the Gt Zaskar bike",
-        "feedbackMap": "Отзыв с Google Карт"
+        "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
         "name": "Андрей",
         "prod": "Sold the Gt Zaskar bike",
-        "feedbackMap": "Отзыв с Google Карт"
+        "feedbackMap": "Review from Google Maps"
       }
     ],
-    "content": "View Testimonials on Google Maps"
+    "content": "Open Google Maps"
   },
   "questions": {
-    "title": "Any questions?",
-    "descr": "We'd be happy to answer",
+    "title": "Have Questions?",
+    "descr": "We're Happy to Help",
     "listAsq": [
       {
         "title": "What kind of cars do you buy?",

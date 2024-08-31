@@ -142,6 +142,10 @@
               .inner_img{
                 transform: scale(1.1);
               }
+
+              .inner_title {
+                color: #757373;
+              }
             }
 
             .inner_img {
@@ -150,11 +154,7 @@
             }
 
             .block_inner {
-              &:hover {
-                .inner_title {
-                  color: #757373;
-                }
-              }
+              
 
               .inner_img {
                 width: 45px;
@@ -260,6 +260,10 @@
 
   &.volkswagen {
     background: linear-gradient(86deg, #9bb9c7 0%, #9bb9c7 36%, #2c2d32 100%);
+  }
+
+  &.transport {
+    background: linear-gradient(86deg, #54b9ab 0%, #54b9ab 36%, #2c2d32 100%);
   }
 
   @media (max-width: 720px) {

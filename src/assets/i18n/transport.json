@@ -2,12 +2,12 @@
   "key": "choice",
   "dashboard": {
     "state": "State of Florida",
-    "title": "Main Page",
-    "location": "(All States)",
-    "description": "Buy your laptop at the best price",
+    "title": "TransportScroll down to select your vehicle",
+    "location": "(State Florida)",
+    "description": "Fast Cash for Your Vehicle!",
     "image": "",
-    "bgImage": "laptop",
-    "class": "laptop_text"
+    "bgImage": "transport",
+    "class": "transport_text"
   },
   "choiceProducts": {
     "title": "Select transportation",
@@ -63,7 +63,7 @@
   "easySteps": {
     "title": "Test",
     "text": "tests",
-    "style": "laptop",
+    "style": "transport",
     "contentStep1": {
       "step": "Step 1",
       "stepText": "Send photos and characteristics of the laptop to Telegram, Messenge",
@@ -84,69 +84,69 @@
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
-        "title": "Buy a laptop in any condition"
+        "title": "We buy vehicles in any condition."
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
-        "title": "Day-of-communication sale"
+        "title": "Same-Day Purchase"
       },
       {
         "src": "/assets/img/laptop/about/lock.svg",
-        "title": "It's all confidential."
+        "title": "Every Sale is Confidential"
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "Traid-In"
+        "title": "Trade-In (Exchange for a New Vehicle)"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
-        "title": "Online or on-site appraisal"
+        "title": "Appraisal Time via Messenger - 7 Minutes"
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
-        "title": "Pricing more expensive than the competition"
+        "title": "We Offer Higher Prices Than Our Competitors"
       },
       {
         "src": "/assets/img/laptop/about/flag.svg",
-        "title": "We buy out all the states in the U.S."
+        "title": "Operating Across All U.S. States"
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
-        "title": "Instant disbursement of money in a form convenient for you"
+        "title": "Instant Payment"
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
-        "title": "We work with complex cases (collateral, credit)"
+        "title": "We Handle Complex Cases (Collateral, Loans, after Accidents)"
       }
     ]
   },
   "testimonials": {
-    "title": "Customer feedback",
+    "title": "Customer Reviews",
     "feedback": [
       {
         "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
         "name": "Андрей",
         "prod": "Sold the Gt Zaskar bike",
-        "feedbackMap": "Отзыв с Google Карт"
+        "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
         "name": "Андрей",
         "prod": "Sold the Gt Zaskar bike",
-        "feedbackMap": "Отзыв с Google Карт"
+        "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
         "name": "Андрей",
         "prod": "Sold the Gt Zaskar bike",
-        "feedbackMap": "Отзыв с Google Карт"
+        "feedbackMap": "Review from Google Maps"
       }
     ],
-    "content": "View Testimonials on Google Maps"
+    "content": "Open Google Maps"
   },
   "questions": {
-    "title": "Any questions?",
-    "descr": "We'd be happy to answer",
+    "title": "Have Questions?",
+    "descr": "We're Happy to Help",
     "listAsq": [
       {
         "title": "What kind of cars do you buy?",
