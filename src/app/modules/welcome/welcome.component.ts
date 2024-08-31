@@ -35,7 +35,7 @@ export class WelcomeComponent implements OnInit, OnDestroy {
   }
 
   private getQueryData() {
-    this.route.queryParams.pipe(take(1)).subscribe((data) => this.state = this.capitalizeFirstLetter(data['state']));
+    this.route.queryParams.pipe(takeUntil(this.destroy$)).subscribe((data) => this.state = this.capitalizeFirstLetter(data['state']));
   }
 
   private setUpObservableDate() {

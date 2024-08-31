@@ -28,7 +28,7 @@
 
       @media (max-width: 620px) {
         width: 75%;
-        
+
 
         height: -webkit-fill-available;
       }
@@ -74,8 +74,8 @@
 
             @media (max-width: 720px) {
               display: block;
-              width: 72px;
-              height: 72px;
+              width: 76px;
+              height: 76px;
               display: flex;
               align-items: center;
               justify-content: center;
@@ -93,6 +93,11 @@
 
             &:hover {
               transform: scale(1.07);
+            }
+
+            @media (max-width: 720px) {
+              width: 80px;
+              height: 80px;
             }
 
             @media (max-width: 620px) {
@@ -279,7 +284,7 @@
           display: flex;
           flex-direction: column;
           align-items: center;
-          max-width: 550px;
+          max-width: 750px;
 
           position: relative;
 
@@ -294,15 +299,17 @@
           }
 
           .header_title_inner {
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            justify-content: center;
+
             margin: 0px 0 5px 0px;
             font-size: 61px;
             font-weight: bolder;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+
+            ::ng-deep span {
+              font-size: 32px;
+            }
 
             @media (max-width: 720px) {
               font-size: 42px;
@@ -382,14 +389,9 @@
       }
 
       .header_loft {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
         flex-direction: column;
-        padding: 0 0 20px 60px;
+        padding: 0 0 35px 60px;
 
         @media (max-width: 720px) {
           display: none;
@@ -399,7 +401,7 @@
           color: white;
           font-size: 36px;
           font-weight: 100;
-          max-width: 350px;
+          max-width: 500px;
 
           @media (max-width: 972px) {
             font-size: 26px;
