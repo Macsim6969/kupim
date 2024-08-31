@@ -28,17 +28,12 @@
     }
 
     .review_inner {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: row;
+    
       flex-direction: row;
-      -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
+    
       justify-content: space-between;
-      gap: 15px;
+      gap: 45px;
 
       @media (max-width: 920px) {
         flex-direction: column;

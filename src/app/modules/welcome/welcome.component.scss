@@ -37,11 +37,12 @@
         padding: 30px 30px 25px 20px;
 
         display: flex;
-
         flex-direction: row;
-
         justify-content: space-between;
 
+        @media (max-width: 1000px) {
+          align-items: flex-start;
+        }
         @media (max-width: 720px) {
           padding: 0px 14px 25px 0px;
           align-items: flex-start;
@@ -51,6 +52,21 @@
         .header_inner_navigation {
           display: flex;
           flex-direction: row;
+
+          @media (max-width: 1000px) {
+            flex-direction: column;
+          }
+
+          .icon_row {
+            display: flex;
+            flex-direction: row;
+
+            @media (max-width: 720px) {
+              display: grid;
+              grid-template-columns: repeat(2, 1fr);
+              justify-items: center;
+            }
+          }
 
           @media (max-width: 720px) {
             display: grid;
