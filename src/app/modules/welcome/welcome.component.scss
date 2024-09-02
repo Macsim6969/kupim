@@ -43,6 +43,7 @@
         @media (max-width: 1000px) {
           align-items: flex-start;
         }
+
         @media (max-width: 720px) {
           padding: 0px 14px 25px 0px;
           align-items: flex-start;
@@ -318,6 +319,7 @@
 
             margin: 0px 0 5px 0px;
             font-size: 61px;
+            font-weight: 700;
             font-weight: bolder;
             text-align: center;
             display: flex;
@@ -358,11 +360,8 @@
           }
 
           .header_title_inner2 {
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-pack: end;
-            -ms-flex-pack: end;
+          
             justify-content: flex-end;
             margin: 0 0 10px 0px;
             font-size: 32px;
