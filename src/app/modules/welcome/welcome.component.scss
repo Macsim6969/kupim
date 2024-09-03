@@ -319,11 +319,12 @@
 
             margin: 0px 0 5px 0px;
             font-size: 61px;
-            font-weight: 700;
-            font-weight: bolder;
+            font-weight: 900;
             text-align: center;
             display: flex;
             flex-direction: column;
+            text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.5);
+            -webkit-font-smoothing: antialiased;
 
             ::ng-deep span {
               font-size: 32px;
@@ -361,7 +362,7 @@
 
           .header_title_inner2 {
             display: flex;
-          
+
             justify-content: flex-end;
             margin: 0 0 10px 0px;
             font-size: 32px;
