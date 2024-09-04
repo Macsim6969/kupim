@@ -6,8 +6,8 @@
     "location": "(All States)",
     "description": "Cash for your trash!",
     "image": "/assets/img/main_page/main.svg",
-    "bgImage": "laptop",
-    "class": "laptop_text"
+    "bgImage": "main",
+    "class": "main_text"
   },
   "prodInfo": {
     "title": "Pick",

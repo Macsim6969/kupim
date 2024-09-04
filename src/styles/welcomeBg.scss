@@ -1,3 +1,11 @@
+.main {
+  background: linear-gradient(86deg, #5cb8aa 0%, #5cb8aa 36%, #202227 100%);
+}
+
+.main_text {
+  color: white;
+}
+
 .bike {
   background: linear-gradient(86deg, #ae8c64 0%, #ae8c64 36%, #202227 100%);
   //background: linear-gradient(to right, #ae8c64 50%, #202227 50%);
@@ -129,7 +137,7 @@
   //  background: linear-gradient(to right, #9e9699 50%, #2c2d32 50%);
 }
 
-.smart_text {
+з .smart_text {
   color: #9e9699 !important;
 }
 
