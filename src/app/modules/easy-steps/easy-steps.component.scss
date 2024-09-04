@@ -131,8 +131,8 @@
             box-shadow: 0 0 12px 5px #cfcfcf;
             overflow: hidden;
 
-            &:hover{
-              .inner_img{
+            &:hover {
+              .inner_img {
                 transform: scale(1.1);
               }
 
@@ -147,7 +147,7 @@
             }
 
             .block_inner {
-              
+
 
               .inner_img {
                 width: 45px;
@@ -198,6 +198,10 @@
 .linear {
   width: 100%;
   height: 136px;
+
+  &.laptop {
+    background: linear-gradient(86deg, #5cb8aa 0%, #5cb8aa 36%, #202227 100%);
+  }
 
   &.laptop {
     background: linear-gradient(86deg, #237261 0%, #60a47d 36%, #202227 100%);

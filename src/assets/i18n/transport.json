@@ -49,6 +49,21 @@
         "title": "Trailer"
       },
       {
+        "url": "/airplane",
+        "img": "/assets/img/transport/Airplane.svg",
+        "title": "Airplane"
+      },
+      {
+        "url": "/helicopter",
+        "img": "/assets/img/transport/Helicopter.svg",
+        "title": "Helicopter"
+      },
+      {
+        "url": "/wheelchair",
+        "img": "/assets/img/transport/Wheelchair.svg",
+        "title": "Wheelchair"
+      },
+      {
         "url": "/laptop",
         "img": "/assets/img/main_page/other.svg",
         "title": "Laptop"
