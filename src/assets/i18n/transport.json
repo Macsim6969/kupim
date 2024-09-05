@@ -4,14 +4,14 @@
     "state": "State of Florida",
     "title": "Scroll down <span>to select your vehicle</span>",
     "location": "(State Florida)",
-    "description": "Fast Cash for Your Vehicle!",
+    "description": "Quick cash for your vehicle!",
     "image": "/assets/img/transport/transport_logo.svg",
     "bgImage": "transport",
     "class": "transport_text"
   },
   "choiceProducts": {
-    "title": "Select transportation",
-    "text": "for sale",
+    "title": "Select the transport",
+    "text": "you want to sell",
     "products": [
       {
         "url": "/car",
@@ -64,11 +64,6 @@
         "title": "Wheelchair"
       },
       {
-        "url": "/laptop",
-        "img": "/assets/img/main_page/other.svg",
-        "title": "Laptop"
-      },
-      {
         "url": "/other",
         "img": "/assets/img/main_page/other.svg",
         "title": "Other"
@@ -76,8 +71,8 @@
     ]
   },
   "easySteps": {
-    "title": "Test",
-    "text": "tests",
+    "title": "3 easy steps",
+    "text": "to appraise your vehicle online",
     "style": "transport",
     "contentStep1": {
       "step": "Step 1",
@@ -94,44 +89,44 @@
     }
   },
   "aboutInfo": {
-    "title": "We buy back laptops in Florida",
-    "text": "and all the states",
+    "title": "Why we are",
+    "text": "your best bet",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
-        "title": "We buy vehicles in any condition."
+        "title": "We buy vehicles in any condition"
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
-        "title": "Same-Day Purchase"
+        "title": "Same-day purchase"
       },
       {
         "src": "/assets/img/laptop/about/lock.svg",
-        "title": "Every Sale is Confidential"
+        "title": "Each sale is confidential"
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "Trade-In (Exchange for a New Vehicle)"
+        "title": "Trade-In available (exchange for a new vehicle)"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
-        "title": "Appraisal Time via Messenger - 7 Minutes"
+        "title": "Appraisal time via Messenger - 7 minutes"
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
-        "title": "We Offer Higher Prices Than Our Competitors"
+        "title": "We offer higher prices than our competitors"
       },
       {
         "src": "/assets/img/laptop/about/flag.svg",
-        "title": "Operating Across All U.S. States"
+        "title": "We operate in all U.S. states"
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
-        "title": "Instant Payment"
+        "title": "Instant cash payout"
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
-        "title": "We Handle Complex Cases (Collateral, Loans, after Accidents)"
+        "title": "We handle complex cases (Collateral, Loans, After Accident)"
       }
     ]
   },

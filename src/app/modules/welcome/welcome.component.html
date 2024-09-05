@@ -18,11 +18,11 @@
           <div class="navigation_contact">
             <nav><a class="contact_inner {{welcomeDataPage.styleClass}}" href="tel: +38 097 931-46-81 ">+1 727 732
                 9785</a></nav>
-            <nav class="contact_inner {{welcomeDataPage.styleClass}}">{{welcomeDataPage.state}}</nav>
+            <nav class="contact_inner {{welcomeDataPage.styleClass}}">{{welcomeDataPage.state ? welcomeDataPage.state : 'Florida' }}</nav>
 
           </div>
         </div>
-        <div class="header_menu" id="burger" (click)="openMenu()">
+        <div class="header_menu {{(isSidebar$ | async) ? 'active' : ''}}" id="burger" (click)="openMenu()">
           <img *ngIf="!(isSidebar$ | async)" class="menu_img" src="/assets/img/menu.svg" alt="menu">
           <img *ngIf="(isSidebar$ | async)" class="menu_img" src="/assets/img/close_menu.png" alt="menu">
           <div class="menu_list">MENU</div>
@@ -42,7 +42,7 @@
         <div class="header_title">
         
           <h1 class="header_title_inner {{welcomeDataPage.class}}" [innerHTML]="welcomeDataPage.title"></h1>
-          <span class="header_title_inner2 {{welcomeDataPage.class}}"> (State {{state}})</span>
+          <span class="header_title_inner2 {{welcomeDataPage.class}}"> (State {{state ? state : 'Florida'}})</span>
           <div class="gif {{welcomeDataPage.class}}">
             <img src="/assets/img/global/slide.gif" alt="Slide">
           </div>
