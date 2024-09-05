@@ -2,16 +2,16 @@
   "key": "yes",
   "dashboard": {
     "state": "State of Florida",
-    "title": "Redemption boats and launches",
+    "title": "Sell my boat",
     "location": "(All States)",
-    "description": "We'll buy your car at the best price!",
+    "description": "Quick cash for your boat at the best price!",
     "image": "/assets/img/boat/boat.png",
     "bgImage": "boat",
     "class": "boat_text"
   },
   "prodInfo": {
-    "title": "Boats",
-    "text": "we buy back across all US states",
+    "title": "Boats that we purchase",
+    "text": "across all states in the U.S.",
     "content": [
       {
         "img": "/assets/img/boat/Boat.svg"
@@ -31,47 +31,47 @@
     ]
   },
   "easySteps": {
-    "title": "3 simple steps",
-    "text": "to sell a laptop fast",
+    "title": "3 easy steps",
+    "text": "to appraise your boat online",
     "style": "boat",
     "contentStep1": {
       "step": "Step 1",
-      "stepText": "Send photos and characteristics of the laptop to Telegram, Messenge",
+      "stepText": "Shoot us a picture or the details on any messaging app",
       "contact": "CONNECT"
     },
     "contentStep2": {
       "step": "Step 2",
-      "stepText": "Make an appointment for a sale at your nearest office or order a no obligation sale"
+      "stepText": "Schedule an in-office sales appointment or request an appraiser to visit your home"
     },
     "contentStep3": {
       "step": "Step 3",
-      "stepText": "Receive instant payouts in a form that is convenient for you"
+      "stepText": "Receive an instant payout in the form that's convenient for you"
     }
   },
   "need-docs": {
-    "title": "To sell your boat you will need",
+    "title": "To successfully sell a watercraft, you will need to:",
     "docs": [
       {
-        "title": "Passport of a citizen of Ukraine",
+        "title": "Passport (?)",
         "img": "/assets/img/motorbike/passport.svg"
       },
       {
-        "title": "Taxpayer Identification Number",
+        "title": "Number (?)",
         "img": "/assets/img/motorbike/taxpayer_number.svg"
       },
       {
-        "title": "Vehicle registration certificate",
+        "title": "Registration certificate (?)",
         "img": "/assets/img/motorbike/motorbike.svg"
       }
     ]
   },
   "aboutInfo": {
-    "title": "We buy back motorbike in Florida",
-    "text": "and all the states",
+    "title": "Why we are",
+    "text": "your best bet",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
-        "title": "Buy transportation in any condition"
+        "title": "We buy watercraft in any condition"
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
@@ -83,27 +83,27 @@
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "Scooters for sale on commission"
+        "title": "Trade-In available (exchange for a new watercraft)"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
-        "title": "Inspection and registration in 2 hours"
+        "title": "Appraisal time via Messenger - 7 minutes"
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
-        "title": "Priced higher than the competition"
+        "title": "We offer higher prices than our competitors"
       },
       {
         "src": "/assets/img/laptop/about/flag.svg",
-        "title": "Operating Across All U.S. States"
+        "title": "We operate in all U.S. states"
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
-        "title": "Instant Payment"
+        "title": "Instant cash payout"
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
-        "title": "We work with complex cases (bail, ban, credit)"
+        "title": "We handle complex cases (Collateral, Loans, After Accident)"
       }
     ]
   },
