@@ -6,10 +6,6 @@
   }
 }
 
-.main_text {
-  color: white;
-}
-
 .bike {
   background: linear-gradient(86deg, #ae8c64 0%, #ae8c64 36%, #202227 100%);
   //background: linear-gradient(to right, #ae8c64 50%, #202227 50%);
@@ -28,22 +24,13 @@
   color: #237261 !important;
 }
 
-.contacts {
-  background: linear-gradient(86deg, #e4e4e4 0%, #e4e4e4 36%, #251f25 100%);
-  //  background: linear-gradient(to right, #e4e4e4 50%, #251f25 50%);
-}
 
-.contacts_text {
-  color: #e4e4e4 !important;
-}
 
 .contacts {
-  background: linear-gradient(86deg, #e4e4e4 0%, #e4e4e4 36%, #202227 100%);
-  //  background: linear-gradient(to right, #e4e4e4 50%, #202722 50%);
-}
-
-.contacts_text {
-  color: #e4e4e4 !important;
+  background: linear-gradient(86deg, #b0ede1 0%, #b0ede1 20%, #202227 97%);
+  @media (max-width: 620px) {
+    background: linear-gradient(90deg, #b0ede1 0%, #b0ede1 11%, #202227 100%);
+  }
 }
 
 .scooter {
@@ -141,7 +128,7 @@
   //  background: linear-gradient(to right, #9e9699 50%, #2c2d32 50%);
 }
 
-з .smart_text {
+.smart_text {
   color: #9e9699 !important;
 }
 
@@ -155,10 +142,9 @@
 }
 
 .transport {
-  background: linear-gradient(86deg, #54b9ab 0%, #54b9ab 36%, #2c2d32 100%);
-  //  background: linear-gradient(to right, #54b9ab 50%, #2c2d32 50%);
-}
+  background: linear-gradient(86deg, #95b0cf 0%, #95b0cf 20%, #202227 97%);
 
-.transport_text {
-  color: #54b9ab !important;
+  @media (max-width: 620px) {
+    background: linear-gradient(90deg, #95b0cf 0%, #95b0cf 11%, #202227 100%);
+  }
 }
