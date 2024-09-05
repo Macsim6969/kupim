@@ -1,5 +1,8 @@
 {
-  "key": "yes",
+  "key": [
+    "yes",
+    "prod"
+  ],
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell my boat",

@@ -78,6 +78,12 @@
       background-color: transparent;
       cursor: pointer;
 
+      &.hide_anim{
+        &:hover{
+          transform: none;
+          cursor: auto;
+        }
+      }
       &:hover {
         transform: scale(1.1);
       }

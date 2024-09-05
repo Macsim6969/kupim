@@ -12,7 +12,7 @@ import { StoreService } from '../../shared/services/store.service';
 })
 export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
   private destroy$: Subject<void> = new Subject<void>();
-  public key: string;
+  public key: string[];
   public isLoading: boolean;
 
   constructor(
@@ -59,8 +59,9 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
 
   private streamKeyDataFromJson() {
     this.translate.stream('key').pipe(takeUntil(this.destroy$))
-      .subscribe((data: string) => {
-        this.key = data || '';
+      .subscribe((data: string[]) => {
+        this.key = data || [];
+        
       });
   }
 

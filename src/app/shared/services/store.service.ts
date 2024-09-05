@@ -10,7 +10,7 @@ export class StoreService {
     this.activePageSubject.next(newValue);
   }
 
-  get _activePage$(): Observable<string> {
+  get _activePage$(){
     return this.activePageSubject;
   }
 }
