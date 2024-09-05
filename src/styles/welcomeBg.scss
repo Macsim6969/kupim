@@ -1,95 +1,52 @@
 .main {
   background: linear-gradient(90deg, #5ab2a5 0%, #5ab2a5 36%, #202227 100%);
 
-  // @media (max-width: 620px) {
-  //   background: linear-gradient(90deg, #5ab2a5 0%, #5ab2a5 11%, #202227 100%);
-  // }
 }
 
 .bike {
   background: linear-gradient(86deg, #ae8c64 0%, #ae8c64 36%, #202227 100%);
-  //background: linear-gradient(to right, #ae8c64 50%, #202227 50%);
 }
 
-.bike_text {
-  color: #ae8c64;
-}
 
 .laptop {
   background: linear-gradient(86deg, #237261 0%, #237261 36%, #202227 100%);
-  //background: linear-gradient(to right, #237261 50%, #202227 50%);
 }
-
-.laptop_text {
-  color: #237261 !important;
-}
-
 
 
 .contacts {
   background: linear-gradient(86deg, #b0ede1 0%, #b0ede1 36%, #202227 100%);
-  @media (max-width: 620px) {
-    background: linear-gradient(90deg, #b0ede1 0%, #b0ede1 11%, #202227 100%);
-  }
 }
 
 .scooter {
   background: linear-gradient(86deg, #8eb1d2 0%, #8eb1d2 36%, #202227 100%);
-  //  background: linear-gradient(to right, #8eb1d2 50%, #202722 50%);
 }
 
-.scooter_text {
-  color: #8eb1d2 !important;
-}
 
 .boat {
   background: linear-gradient(86deg, #739588 0%, #739588 36%, #202227 100%);
-  // background: linear-gradient(to right, #739588 50%, #202722 50%);
 }
 
-.boat_text {
-  color: #739588 !important;
-}
 
 .tractor {
   background: linear-gradient(86deg, #739588 0%, #739588 36%, #202227 100%);
-  //background: linear-gradient(to right, #739588 50%, #202722 50%);
-}
-
-.tractor_text {
-  color: #6E7851 !important;
 }
 
 .trailer {
   background: linear-gradient(86deg, #8fb2d2 0%, #8fb2d2 36%, #202227 100%);
-  //background: linear-gradient(to right, #8fb2d2 50%, #202722 50%);
 }
 
-.trailer_text {
-  color: #8fb2d2 !important;
-}
 
 .car {
   background: linear-gradient(86deg, #71988a 0%, #71988a 36%, #2c2d32 100%);
-  //background: linear-gradient(to right, #71988a 50%, #2c2d32 50%);
-}
-
-.car_text {
-  color: #2abbaa !important;
 }
 
 .bmw {
   background: linear-gradient(86deg, #71988a 0%, #71988a 36%, #2c2d32 100%);
-  //background: linear-gradient(to right, #71988a 50%, #2c2d32 50%);
 }
 
-.bmw_text {
-  color: #71988a !important;
-}
 
 .audi {
   background: linear-gradient(86deg, #6d7750 0%, #6d7750 36%, #2c2d32 100%);
-  //  background: linear-gradient(to right, #6d7750 50%, #2c2d32 50%);
 }
 
 .audi_text {
@@ -98,7 +55,6 @@
 
 .mercedes {
   background: linear-gradient(86deg, #92b7d8 0%, #92b7d8 36%, #2c2d32 100%);
-  // background: linear-gradient(to right, #92b7d8 50%, #2c2d32 50%);
 }
 
 .mercedes_text {
@@ -107,12 +63,8 @@
 
 .opel {
   background: linear-gradient(86deg, #ac7d5a 0%, #ac7d5a 36%, #2c2d32 100%);
-  // background: linear-gradient(to right, #ac7d5a 50%, #2c2d32 50%);
 }
 
-.opel_text {
-  color: #ac7d5a !important;
-}
 
 .porshe {
   background: linear-gradient(86deg, #ac7d5a 0%, #ac7d5a 36%, #2c2d32 100%);
