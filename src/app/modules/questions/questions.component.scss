@@ -48,11 +48,11 @@
     }
 
     .asq_bl {
-     
+
       display: flex;
-  
+
       flex-direction: column;
-  
+
       align-items: center;
 
       .asq_bnt {
@@ -63,33 +63,33 @@
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-       
+
         justify-content: center;
       }
 
       .dopp__inner {
-      
+
         display: flex;
-      
+
         flex-direction: row;
-       
+
         justify-content: center;
         margin: 0 0 25px 0px;
         width: 100%;
       }
 
       .dopp__inner {
-     
+
         display: flex;
-     
+
         flex-direction: row;
-     
+
         justify-content: center;
         margin: 0 0 25px 0px;
         width: 100%;
 
         .dopp____inner {
-          
+
           @media (max-width: 972px) {
             width: 100%;
           }
@@ -109,8 +109,8 @@
             font-size: 18px;
           }
 
-          &.active{
-            &::after{
+          &.active {
+            &::after {
               transform: rotate(180deg);
               transition: all 0.6s;
             }
@@ -130,10 +130,13 @@
           }
 
           &:hover {
-            font-size: 20px;
             color: #969696;
             font-weight: bolder;
             cursor: pointer;
+
+            @media (max-width: 720px) {
+              font-size: 18px;
+            }
           }
         }
 
@@ -143,21 +146,21 @@
           max-height: 0;
           font-size: 20px;
           overflow: hidden;
-          white-space: wrap;
           transition: max-height 0.2s ease-in-out;
           color: #2b2b2b;
-          max-width: 750px;
-          width: 100%;
+          width: 750px;
           transition: all 0.2s ease;
 
-          @media (max-width: 720px) {
+          @media (max-width: 920px) {
             width: 90%;
           }
-          &.active{
+
+          &.active {
             max-height: 100%;
             transition: all 0.75s ease;
           }
         }
+
 
         .list_btn {
           width: 25px;

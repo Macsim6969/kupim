@@ -84,6 +84,10 @@
           a {
             &:hover {
               transform: scale(1.07);
+
+              @media (max-width: 920px) {
+                transform: none;
+              }
             }
           }
 
@@ -92,6 +96,10 @@
 
             &:hover {
               transform: scale(1.07);
+
+              @media (max-width: 920px) {
+                transform: none;
+              }
             }
 
             @media (max-width: 720px) {
@@ -115,6 +123,10 @@
 
             &:hover {
               transform: scale(1.07);
+
+              @media (max-width: 920px) {
+                transform: none;
+              }
             }
 
             @media (max-width: 720px) {
@@ -191,6 +203,7 @@
 
           &:hover {
             transform: scale(1.07);
+
             @media (max-width: 620px) {
               transform: none;
             }
