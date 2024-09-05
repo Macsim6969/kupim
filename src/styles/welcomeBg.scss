@@ -1,9 +1,9 @@
 .main {
-  background: linear-gradient(90deg, #5ab2a5 0%, #5ab2a5 20%, #202227 97%);
+  background: linear-gradient(90deg, #5ab2a5 0%, #5ab2a5 36%, #202227 100%);
 
-  @media (max-width: 620px) {
-    background: linear-gradient(90deg, #5ab2a5 0%, #5ab2a5 11%, #202227 100%);
-  }
+  // @media (max-width: 620px) {
+  //   background: linear-gradient(90deg, #5ab2a5 0%, #5ab2a5 11%, #202227 100%);
+  // }
 }
 
 .bike {
@@ -27,7 +27,7 @@
 
 
 .contacts {
-  background: linear-gradient(86deg, #b0ede1 0%, #b0ede1 20%, #202227 97%);
+  background: linear-gradient(86deg, #b0ede1 0%, #b0ede1 36%, #202227 100%);
   @media (max-width: 620px) {
     background: linear-gradient(90deg, #b0ede1 0%, #b0ede1 11%, #202227 100%);
   }
@@ -142,9 +142,9 @@
 }
 
 .transport {
-  background: linear-gradient(86deg, #95b0cf 0%, #95b0cf 20%, #202227 97%);
+  background: linear-gradient(86deg, #95b0cf 0%, #95b0cf 36%, #202227 100%);
 
-  @media (max-width: 620px) {
-    background: linear-gradient(90deg, #95b0cf 0%, #95b0cf 11%, #202227 100%);
-  }
+  // @media (max-width: 620px) {
+  //   background: linear-gradient(90deg, #95b0cf 0%, #95b0cf 11%, #202227 100%);
+  // }
 }
