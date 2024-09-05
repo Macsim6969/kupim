@@ -43,7 +43,7 @@
         }
 
         @media (max-width: 720px) {
-          padding: 0px 0 25px 0px;
+          padding: 0px 0 50px 0px;
           align-items: flex-start;
         }
 
@@ -191,6 +191,9 @@
 
           &:hover {
             transform: scale(1.07);
+            @media (max-width: 620px) {
+              transform: none;
+            }
           }
 
           .menu_img {

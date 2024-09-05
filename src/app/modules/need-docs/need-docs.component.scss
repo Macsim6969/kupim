@@ -149,11 +149,14 @@
         max-height: 0;
         font-size: 20px;
         overflow: hidden;
-        -webkit-transition: max-height 0.2s ease-in-out;
         transition: max-height 0.2s ease-in-out;
         color: #2b2b2b;
         max-width: 680px;
         width: 100%;
+
+        @media (max-width: 720px) {
+          width: 90%;
+        }
 
         @media (max-width: 720px) {
           margin: 10px 0 20px 0;
