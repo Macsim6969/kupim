@@ -5,7 +5,7 @@
     "title": "Scroll down <span>to select your vehicle</span>",
     "location": "(State Florida)",
     "description": "Fast Cash for Your Vehicle!",
-    "image": "",
+    "image": "/assets/img/transport/transport_logo.svg",
     "bgImage": "transport",
     "class": "transport_text"
   },
