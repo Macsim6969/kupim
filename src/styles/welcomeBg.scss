@@ -1,5 +1,9 @@
 .main {
   background: linear-gradient(90deg, #5ab2a5 0%, #5ab2a5 20%, #202227 97%);
+
+  @media (max-width: 620px) {
+    background: linear-gradient(90deg, #5ab2a5 0%, #5ab2a5 11%, #202227 100%);
+  }
 }
 
 .main_text {
