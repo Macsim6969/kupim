@@ -68,35 +68,33 @@
 
 .porshe {
   background: linear-gradient(86deg, #ac7d5a 0%, #ac7d5a 36%, #2c2d32 100%);
-  //background: linear-gradient(to right, #ac7d5a 50%, #2c2d32 50%);
 }
 
-.porshe_text {
-  color: #ac7d5a !important;
-}
+
 
 .smart {
   background: linear-gradient(86deg, #9e9699 0%, #9e9699 36%, #2c2d32 100%);
-  //  background: linear-gradient(to right, #9e9699 50%, #2c2d32 50%);
 }
 
-.smart_text {
-  color: #9e9699 !important;
-}
+
 
 .volkswagen {
   background: linear-gradient(86deg, #9bb9c7 0%, #9bb9c7 36%, #2c2d32 100%);
-  //background: linear-gradient(to right, #9bb9c7 50%, #2c2d32 50%);
 }
 
-.volkswagen_text {
-  color: #9bb9c7 !important;
-}
 
 .transport {
   background: linear-gradient(86deg, #95b0cf 0%, #95b0cf 36%, #202227 100%);
 
-  // @media (max-width: 620px) {
-  //   background: linear-gradient(90deg, #95b0cf 0%, #95b0cf 11%, #202227 100%);
-  // }
+}
+
+
+.legal_text {
+  @media (max-width: 1000px) {
+    font-size: 42px !important;
+  }
+
+  @media (max-width: 620px) {
+    font-size: 32px !important;
+  }
 }

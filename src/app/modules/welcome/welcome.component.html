@@ -4,10 +4,10 @@
       <div class="header_inner">
         <div class="header_inner_navigation">
           <div class="icon_row">
-            <a class="icon" href="tel: +38 097 931-46-81"><img class="navigation_network" src="/assets/img/WhatsApp.webp"
-                alt="WhatsApp"></a>
-                <a class="phone" href="tel: +38 097 931-46-81 "><img class="navigation_network"
-                    src="/assets/img/global/Phone.webp" alt="Phone"></a>
+            <a class="icon" href="tel: +38 097 931-46-81"><img class="navigation_network"
+                src="/assets/img/WhatsApp.webp" alt="WhatsApp"></a>
+            <a class="phone" href="tel: +38 097 931-46-81 "><img class="navigation_network"
+                src="/assets/img/global/Phone.webp" alt="Phone"></a>
             <a class="icon" href="https://t.me/kupimUA"><img class="navigation_network" src="/assets/img/Telegram.webp"
                 alt="telegram"></a>
             <a class="icon" href="viber://chat?number=0979314681"><img src="/assets/img/global/Facebook.webp"
@@ -18,7 +18,8 @@
           <div class="navigation_contact">
             <nav><a class="contact_inner {{welcomeDataPage.styleClass}}" href="tel: +38 097 931-46-81 ">+1 727 732
                 9785</a></nav>
-            <nav class="contact_inner {{welcomeDataPage.styleClass}}">{{welcomeDataPage.state ? welcomeDataPage.state : 'Florida' }}</nav>
+            <nav class="contact_inner {{welcomeDataPage.styleClass}}">{{welcomeDataPage.state ? welcomeDataPage.state :
+              'Florida' }}</nav>
 
           </div>
         </div>
@@ -40,9 +41,14 @@
         <img class="header_home {{welcomeDataPage.bgImage}}" [src]="welcomeDataPage.image" alt="">
 
         <div class="header_title">
-        
+
           <h1 class="header_title_inner {{welcomeDataPage.class}}" [innerHTML]="welcomeDataPage.title"></h1>
-          <span class="header_title_inner2 {{welcomeDataPage.class}}"> (State {{state ? state : 'Florida'}})</span>
+          <span *ngIf="welcomeDataPage.location;else noInfo" class="header_title_inner2 {{welcomeDataPage.class}}">
+            (State {{state ? state : 'Florida'}})</span>
+          <ng-template #noInfo>
+            <span class="header_title_inner2 {{welcomeDataPage.class}}"></span>
+          </ng-template>
+
           <div class="gif {{welcomeDataPage.class}}">
             <img src="/assets/img/global/slide.gif" alt="Slide">
           </div>

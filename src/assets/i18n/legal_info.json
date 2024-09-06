@@ -1,0 +1,12 @@
+{
+  "dashboard": {
+    "state": "State of Florida",
+    "title": "Legal Information",
+    "location": null,
+    "description": "",
+    "image": "/assets/img/legal-info/Legal_info.svg",
+    "bgImage": "contacts",
+    "class": "legal_text",
+    "styleClass": "contactss"
+  }
+}

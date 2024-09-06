@@ -6,7 +6,6 @@ import { ShareModule } from '../../shared/modules/share.module';
 import { WelcomeModule } from '../welcome/welcome.module';
 import { AddressDataComponent } from './shared/components/address-data/address-data.component';
 import { FooterModule } from '../footer/footer.module';
-import { WelcomeComponent } from '../welcome/welcome.component';
 import { InformationService } from '../../shared/services/information.service';
 
 const routes: Routes = [
