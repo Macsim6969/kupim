@@ -55,6 +55,10 @@
         &:hover {
           transform: scale(1.08);
         }
+
+        @media (max-width: 720px) {
+          width: 220px;
+        }
       }
     }
   }
