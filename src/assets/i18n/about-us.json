@@ -1,0 +1,12 @@
+{
+  "dashboard": {
+    "state": "State of Florida",
+    "title": "About Us",
+    "location": null,
+    "description": "",
+    "image": "/assets/img/About-Us/About-Us.svg",
+    "bgImage": "contacts",
+    "class": "legal_text",
+    "styleClass": "contactss"
+  }
+}

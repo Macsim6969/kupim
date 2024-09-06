@@ -23,8 +23,13 @@ export class FooterComponent implements OnInit {
     this.route.queryParams.pipe(take(1)).subscribe((data) => this.state = this.capitalizeFirstLetter(data['state']));
   }
 
-  public openPage(url: string){
-    this.rotuer.navigate([url], {queryParamsHandling: 'merge'}).then();
+  public openPage(url: string) {
+    this.rotuer.navigate([url], { queryParamsHandling: 'merge' }).then(() => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
   }
 
   private capitalizeFirstLetter(value: string): string {

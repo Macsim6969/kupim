@@ -1,0 +1,12 @@
+{
+  "dashboard": {
+    "state": "State of Florida",
+    "title": "Online Appraisal",
+    "location": null,
+    "description": "",
+    "image": "/assets/img/online-appraisal/Online_Appraisal.svg",
+    "bgImage": "contacts",
+    "class": "legal_text",
+    "styleClass": "contactss"
+  }
+}

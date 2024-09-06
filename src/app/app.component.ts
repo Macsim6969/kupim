@@ -31,8 +31,12 @@ export class AppComponent implements OnInit {
     '/car/porshe': 'porshe',
     '/car/smart': 'smart',
     '/car/volkswagen': 'volkswagen',
-    '/legal-information': 'legal_info'
-  };
+    '/legal-information': 'legal_info',
+    '/review': 'review',
+    '/online-appraisal': 'online-appraisal',
+    '/about-us': 'about-us',
+    '/blog': 'blog'
+  }
   public isOpenSidebar$: Observable<boolean>;
 
   constructor(

@@ -50,6 +50,7 @@
 
         .dop_inner {
           display: flex;
+
           .dop_inner_img {
             width: 75px;
           }
@@ -134,8 +135,7 @@
           text-decoration: none;
           color: black;
           text-transform: uppercase;
-
-
+          cursor: pointer;
 
           &:hover {
             color: #5f5c5c;

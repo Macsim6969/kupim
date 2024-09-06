@@ -1,0 +1,12 @@
+{
+  "dashboard": {
+    "state": "State of Florida",
+    "title": "Blog",
+    "location": null,
+    "description": "",
+    "image": "/assets/img/blog/Blog.svg",
+    "bgImage": "contacts",
+    "class": "legal_text",
+    "styleClass": "contactss"
+  }
+}

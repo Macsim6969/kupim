@@ -1,0 +1,12 @@
+{
+  "dashboard": {
+    "state": "State of Florida",
+    "title": "Reviews",
+    "location": null,
+    "description": "",
+    "image": "/assets/img/review/review.svg",
+    "bgImage": "contacts",
+    "class": "legal_text",
+    "styleClass": "contactss"
+  }
+}
