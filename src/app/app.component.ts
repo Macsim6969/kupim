@@ -38,7 +38,8 @@ export class AppComponent implements OnInit {
     '/review': 'review',
     '/online-appraisal': 'online-appraisal',
     '/about-us': 'about-us',
-    '/blog': 'blog'
+    '/blog': 'blog',
+    '/others': 'others',
   }
   public isOpenSidebar$: Observable<boolean>;
 
