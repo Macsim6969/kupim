@@ -126,7 +126,7 @@
 
               @media (max-width: 920px) {
                 transform: none;
-            }
+              }
             }
 
             @media (max-width: 720px) {
@@ -293,6 +293,14 @@
           justify-items: center;
           padding: 0;
           flex-direction: column-reverse;
+        }
+
+        &.boat_text {
+          min-height: 350px;
+
+          @media (max-width: 720px) {
+            min-height: 280px;
+          }
         }
 
         .header_home {

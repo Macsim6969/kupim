@@ -39,7 +39,7 @@
       },
       {
         "img": "/assets/img/main_page/Others.svg",
-        "route": ""
+        "route": "/others"
       }
     ]
   },
