@@ -19,14 +19,14 @@
         "title": "Laptop"
       },
       {
-        "url": "/motorbike",
+        "url": "/bike",
         "img": "/assets/img/main_page/moto.svg",
-        "title": "Motorbike"
+        "title": "Bike"
       },
       {
-        "url": "/bike",
+        "url": "/bicycle",
         "img": "/assets/img/main_page/bike.svg",
-        "title": "Bike"
+        "title": "Bicycle"
       },
       {
         "url": "/kick_skooter",

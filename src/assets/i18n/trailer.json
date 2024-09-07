@@ -1,5 +1,8 @@
 {
-  "key": "yes",
+  "key": [
+    "yes",
+    "prod"
+  ],
   "dashboard": {
     "state": "State of Florida",
     "title": "Trailer buyback",
@@ -8,6 +11,21 @@
     "image": "/assets/img/trailer/trailer.png",
     "bgImage": "trailer",
     "class": "trailer_text"
+  },
+  "prodInfo": {
+    "title": "Trailer",
+    "text": "we buy back across all US states",
+    "content": [
+      {
+        "img": "/assets/img/trailer/trailer.svg"
+      },
+      {
+        "img": "/assets/img/trailer/Travel-trailer.svg"
+      },
+      {
+        "img": "/assets/img/trailer/Utility-trailer.svg"
+      }
+    ]
   },
   "easySteps": {
     "title": "3 simple steps",

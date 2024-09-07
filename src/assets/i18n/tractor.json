@@ -1,5 +1,8 @@
 {
-  "key": "yes",
+  "key": [
+    "yes",
+    "prod"
+  ],
   "dashboard": {
     "state": "State of Florida",
     "title": "Tractor buyback",
@@ -18,6 +21,9 @@
       },
       {
         "img": "/assets/img/tractor/Monoblocks.svg"
+      },
+      {
+        "img": "/assets/img/tractor/Tractor.svg"
       }
     ]
   },

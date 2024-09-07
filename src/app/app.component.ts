@@ -13,12 +13,15 @@ import { StoreService } from './shared/services/store.service';
 export class AppComponent implements OnInit {
   private routeLanguageMap = {
     '/': 'main',
+    '/airplane': 'airplane',
+    '/helicopter': 'helicopter',
+    '/wheelchair': 'wheelchair',
     '/transport': 'transport',
-    '/bike': 'bike',
+    '/bicycle': 'bicycle',
     '/laptop': 'laptop',
     '/contacts': 'contacts',
     '/team': 'team',
-    '/motorbike': 'motorbike',
+    '/bike': 'bike',
     '/kick_skooter': 'kick_skooter',
     '/boat': 'boat',
     '/tractor': 'tractor',
