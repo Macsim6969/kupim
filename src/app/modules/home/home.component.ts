@@ -39,12 +39,40 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
       this.isLoading = true;
       if (data) {
         this.translate.stream(data).pipe(takeUntil(this.destroy$)).subscribe((data) => {
-          timer(0).pipe(take(1)).subscribe(() => {
-            data ? this.isLoading = false : this.isLoading = true;
-          })
-        })
+          
+          timer(50).pipe(take(1)).subscribe(() => {
+            if (data) {
+              this.checkImagesLoaded().then(() => {
+                this.isLoading = false;
+              }).catch(() => {
+                this.isLoading = true; 
+              });
+            } else {
+              this.isLoading = true;
+            }
+          });
+        });
       }
-    })
+    });
+  }
+
+  private checkImagesLoaded(): Promise<void> {
+    const images = Array.from(document.images);
+    const imageLoadPromises = images.map((img) => {
+      return new Promise<void>((resolve, reject) => {
+        if (img.complete && img.naturalHeight !== 0) {
+        
+          resolve();
+        } else {
+          img.addEventListener('load', () => resolve());
+          img.addEventListener('error', () => reject());
+        }
+      });
+    });
+
+    return Promise.all(imageLoadPromises).then(() => {
+      // Все изображения успешно загружены
+    });
   }
 
   private setUpQueryParamsData() {
@@ -61,7 +89,7 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
     this.translate.stream('key').pipe(takeUntil(this.destroy$))
       .subscribe((data: string[]) => {
         this.key = data || [];
-        
+
       });
   }
 

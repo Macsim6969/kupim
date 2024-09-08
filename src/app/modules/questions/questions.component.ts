@@ -30,7 +30,7 @@ export class QuestionsComponent implements OnInit, OnDestroy {
       })
   }
 
-  openTab(id: number) {
+  public openTab(id: number) {
     if (this.isOpenTab[id] === undefined) {
       this.isOpenTab[id] = true;
     } else {

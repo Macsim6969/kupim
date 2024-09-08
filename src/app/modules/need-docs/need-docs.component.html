@@ -10,7 +10,7 @@
         </div>
     </div>
 </section>
- 
+
 <div class="dopp_doccument" [ngClass]="{'hide': !needDocsData.listAsq}">
     <div class="dopp_container">
         <div class="dopp_doccument_title">{{needDocsData['need-docs-asq']}}</div>
@@ -18,8 +18,10 @@
             <div class="dopp_doccument_brd"></div>
             <div class="dopp__inner">
                 <div class="dopp____inner">
-                    <button [ngClass]="{'active': isOpenTab[i+1]}" type="button" class="dopp_collaps" (click)="openTab(i+1)">{{asq.title}}</button>
-                    <div [ngClass]="{'active': isOpenTab[i+1]}" class="dopp_content" [innerHTML]="asq.content"></div>
+                    <button (click)="openTab(i)" [ngClass]="{'active': isOpenTab[i]}" type="button"
+                        class="dopp_collaps">{{asq.title}}</button>
+                    <div #doppContent [style.maxHeight]="isOpenTab[i] ? getContentMaxHeight(i) : '0'"
+                        [ngClass]="{'active': isOpenTab[i]}" class="dopp_content" [innerHTML]="asq.content"></div>
                 </div>
             </div>
         </div>
