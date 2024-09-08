@@ -104,8 +104,8 @@
 
             @media (max-width: 720px) {
               display: block;
-              width: 65px;
-              height: 65px;
+              width: 68px;
+              height: 68px;
               display: flex;
               align-items: center;
               justify-content: center;
@@ -130,8 +130,8 @@
             }
 
             @media (max-width: 720px) {
-              width: 65px;
-              height: 65px;
+              width: 68px;
+              height: 68px;
             }
 
             @media (max-width: 620px) {
@@ -216,7 +216,7 @@
 
             @media (max-width: 720px) {
 
-              width: 28px;
+              width: 33px;
               padding: 10px 25px;
             }
           }
@@ -278,10 +278,10 @@
         padding: 0 0 0 7%;
         justify-content: space-between;
         align-items: center;
+        margin: auto 0;
 
         @media (max-width: 1250px) {
           padding: 0 0 0 10%;
-          align-items: center;
         }
 
         @media (max-width:720px) {
@@ -293,14 +293,6 @@
           justify-items: center;
           padding: 0;
           flex-direction: column-reverse;
-        }
-
-        &.boat_text {
-          min-height: 350px;
-
-          @media (max-width: 720px) {
-            min-height: 280px;
-          }
         }
 
         .header_home {
@@ -337,13 +329,16 @@
         }
 
         .header_title {
-          margin: 10px 0 0 0;
+          margin: -25px 0 0 0;
           display: flex;
           flex-direction: column;
           align-items: center;
           max-width: 750px;
-
           position: relative;
+
+          @media (max-width: 1250px) {
+            margin: 0;
+          }
 
           @media (max-width: 792px) {
             margin: 35px 0 0 0;
@@ -443,8 +438,7 @@
       .header_loft {
         display: flex;
         flex-direction: column;
-        padding: 40px 0 0 60px;
-        margin: auto 0;
+        padding: 40px 0 30px 60px;
 
         @media (max-width: 720px) {
           display: none;
