@@ -4,6 +4,7 @@ import { Observable } from 'rxjs';
 import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { StoreService } from './shared/services/store.service';
+import { RoutePageService } from './shared/services/routePage.service';
 
 @Component({
   selector: 'app-root',
@@ -11,43 +12,15 @@ import { StoreService } from './shared/services/store.service';
   styleUrl: './app.component.scss'
 })
 export class AppComponent implements OnInit {
-  private routeLanguageMap = {
-    '/': 'main',
-    '/airplane': 'airplane',
-    '/helicopter': 'helicopter',
-    '/wheelchair': 'wheelchair',
-    '/transport': 'transport',
-    '/bicycle': 'bicycle',
-    '/laptop': 'laptop',
-    '/contacts': 'contacts',
-    '/team': 'team',
-    '/bike': 'bike',
-    '/kick_skooter': 'kick_skooter',
-    '/boat': 'boat',
-    '/tractor': 'tractor',
-    '/trailer': 'trailer',
-    '/car': 'car',
-    '/car/bmw': 'bmw',
-    '/car/audi': 'audi',
-    '/car/mercedes': 'mercedes',
-    '/car/opel': 'opel',
-    '/car/porshe': 'porshe',
-    '/car/smart': 'smart',
-    '/car/volkswagen': 'volkswagen',
-    '/legal-information': 'legal_info',
-    '/review': 'review',
-    '/online-appraisal': 'online-appraisal',
-    '/about-us': 'about-us',
-    '/blog': 'blog',
-    '/others': 'others',
-  }
+
   public isOpenSidebar$: Observable<boolean>;
 
   constructor(
     private sidebarService: sidebarService,
     private router: Router,
     private translate: TranslateService,
-    private store: StoreService
+    private store: StoreService,
+    private routePage: RoutePageService
   ) { }
 
   ngOnInit(): void {
@@ -60,7 +33,7 @@ export class AppComponent implements OnInit {
     this.router.events.subscribe((event) => {
       const url = event['routerEvent']?.url;
       if (url) {
-        const language = this.routeLanguageMap[url.split('?')[0]];
+        const language = this.routePage._routeLanguageMap[url.split('?')[0]];
 
         if (language) {
           this.translate.use(language);

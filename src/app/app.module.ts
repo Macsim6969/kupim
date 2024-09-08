@@ -11,6 +11,7 @@ import { ShareModule } from "./shared/modules/share.module";
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { StoreService } from "./shared/services/store.service";
+import { RoutePageService } from "./shared/services/routePage.service";
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/');
@@ -39,7 +40,8 @@ export function HttpLoaderFactory(http: HttpClient) {
   providers: [
     provideAnimationsAsync(),
     sidebarService,
-    StoreService
+    StoreService,
+    RoutePageService
   ]
 })
 
