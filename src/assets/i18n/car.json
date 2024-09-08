@@ -5,7 +5,7 @@
   ],
   "dashboard": {
     "state": "State of Florida",
-    "title": "Car buyout",
+    "title": "Scroll down<span>to see what we buy</span>",
     "location": "(All States)",
     "description": "We'll buy your car at the best price!",
     "image": "/assets/img/car/car_main.png",

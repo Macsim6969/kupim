@@ -362,10 +362,10 @@
 
             ::ng-deep span {
               font-size: 32px;
+              font-weight: 400;
 
               @media (max-width: 620px) {
                 font-size: 22px;
-                font-weight: 400;
               }
             }
 
