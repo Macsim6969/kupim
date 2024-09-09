@@ -2,16 +2,16 @@
   "key": ["motorbike", "prod"],
   "dashboard": {
     "state": "State of Florida",
-    "title": "BUYOUT MOTOR<wbr/>CYCLES",
+    "title": "Sell my bike",
     "location": "(All States)",
-    "description": "We will buy your motorcycle equipment at the best price!",
+    "description": "Quick cash for your motorcycle!",
     "image": "/assets/img/motorbike/motorbike.png",
     "bgImage": "laptop",
     "class": "laptop_text"
   },
   "prodInfo": {
-    "title": "Motorbike",
-    "text": "we buy back across all US states",
+    "title": "Bike that we purchase",
+    "text": "across all states in the U.S.",
     "content": [
       {
         "img": "/assets/img/motorbike/after_an_accident.svg"
@@ -31,21 +31,21 @@
     ]
   },
   "easySteps": {
-    "title": "3 simple steps",
-    "text": "to sell a laptop fast",
+    "title": "3 easy steps",
+    "text": "to appraise your motorcycle online",
     "style": "laptop",
     "contentStep1": {
       "step": "Step 1",
-      "stepText": "Send photos and characteristics of the laptop to Telegram, Messenge",
-      "contact": "CONNECT"
+      "stepText": "Shoot us a picture or the details on any messaging app",
+      "contact": "SEND"
     },
     "contentStep2": {
       "step": "Step 2",
-      "stepText": "Make an appointment for a sale at your nearest office or order a no obligation sale"
+      "stepText": "Schedule an in-office sales appointment or request an appraiser to visit your home"
     },
     "contentStep3": {
       "step": "Step 3",
-      "stepText": "Receive instant payouts in a form that is convenient for you"
+      "stepText": "Receive an instant payout in the form that's convenient for you"
     }
   },
   "need-docs":{
@@ -66,12 +66,12 @@
     ]
   },
   "aboutInfo": {
-    "title": "We buy back motorbike in Florida",
-    "text": "and all the states",
+    "title": "Why we are",
+    "text": "your best bet",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
-        "title": "Buy transportation in any condition"
+        "title": "We buy bike in any condition"
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
@@ -83,15 +83,15 @@
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "Scooters for sale on commission"
+        "title": "Trade-In available (exchange for a new motorcycle)"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
-        "title": "Inspection and registration in 2 hours"
+        "title": "Appraisal Time via Messenger - 7 Minutes"
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
-        "title": "Priced higher than the competition"
+        "title": "We Offer Higher Prices Than Our Competitors"
       },
       {
         "src": "/assets/img/laptop/about/flag.svg",
@@ -99,11 +99,11 @@
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
-        "title": "Instant Payment"
+        "title": "Instant cash payout"
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
-        "title": "We work with complex cases (bail, ban, credit)"
+        "title": "We handle complex cases (Collateral, Loans, After Accident)"
       }
     ]
   },
@@ -111,21 +111,21 @@
     "title": "Customer Reviews",
     "feedback": [
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Man, selling my Harley to these dudes was a breeze. They came out to check the bike, no fuss, no muss. Offered me a fair price right on the spot. Didn't try to lowball me like some other jokers. Paperwork was quick, and they hauled it away same day. Honestly, couldn't have asked for an easier way to offload my ride. Solid outfit.",
+        "name": "Brock M",
+        "prod": "Sold the Harley-Davidson Road King",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Decent experience selling my wrecked bike. Bit of back-and-forth on the price, but we got there. Wish they'd been quicker with the paperwork. Still, glad to get it off my hands.",
+        "name": "Mike T.",
+        "prod": "Sold the Yamaha R6",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "These folks bought my scooter no prob. Showed up on time, cash in hand. No BS, straight to the point. Would use again if I had another ride to sell.",
+        "name": "Sarah L.",
+        "prod": "Sold the Honda PCX150",
         "feedbackMap": "Review from Google Maps"
       }
     ],
@@ -136,37 +136,37 @@
     "descr": "We're Happy to Help",
     "listAsq": [
       {
-        "title": "What kind of motorcycles do you buy?",
-        "content": "Absolutely any: motorcycles, mopeds, scooters, motorcycles, ATVs. Mark, year of manufacture, mileage, condition do not matter. We buy out credit, as well as with fines. We work with individuals and legal entities, buy out corporate motoparks."
+        "title": "What types of motorcycles do you buy?",
+        "content": "We purchase a wide range of powersports vehicles, including: motorcycles, scooters, mopeds, dirt bikes, sport bikes, cruisers, touring bikes, choppers, trikes, ATVs, UTVs, personal watercraft, and snowmobiles. We accept all makes and models."
       },
       {
-        "title": "Can I leave the bike for you to sell?",
-        "content": "Yes. We will put your motorized vehicle on commission at our showroom."
+        "title": "How does your valuation process work?",
+        "content": "Our online valuation process is streamlined for your convenience. Simply reach out to us via any messaging platform (Telegram, WhatsApp, Facebook Messenger) or social media network (Instagram, Facebook) and send us photos and specifications of your vehicle. Within 5-7 minutes, you'll receive a competitive offer and a step-by-step plan for a quick sale."
       },
       {
-        "title": "You're buying up undocumented?",
-        "content": "Yes, we do. We accept motorcycles without documents and in any condition. We will pick up faulty transportation from anywhere in Kiev and Ukraine."
+        "title": "Do you offer free pickup services?",
+        "content": "We offer two options for vehicle handover: you can either bring the motorcycle to our office, or we can dispatch an appraiser to your location. Both services are provided at no cost to you."
       },
       {
-        "title": "What kind of information do you need?",
-        "content": "Before the sale, be prepared to provide the following information about your vehicle: make, model, VIN or frame number, year of manufacture on the PTS, the name of the organization (issued the PTS), whether it was registered ON YOU, as the owner of the motorcycle, mileage, your assessment of the condition of the engine and gearbox, what parts are painted or replaced by non-original, whether some tuning is installed."
+        "title": "What documentation do I need to sell my motorcycle?",
+        "content": "To complete the sale, please provide the following essential documents: Title, Bill of Sale, and Registration. In some cases, additional documentation may be required, such as: Release of Lien, Odometer Disclosure Statement, Safety Inspection Certificate, and Emissions Test Certificate."
       },
       {
-        "title": "I want to sell for as much as possible!",
-        "content": "To increase the buyback price by 10%, wash the motorcycle, bring a second set of tires and keys. In 90% of cases, the valuation will be higher than other motorcycle buybacks."
+        "title": "How quickly can I get paid for my motorcycle?",
+        "content": "We pride ourselves on same-day payments. Transactions can be completed on the day of inquiry, provided it's within business hours and the distance between us is reasonable."
       },
       {
-        "title": "I'll sell the scooter for more!",
-        "content": "No problem! We just want to save you from wasting your time. Pre-sale preparation, photo shoots, registration on profile sites, paying for advertisements, answering the phone and traveling to meetings at inconvenient times - this is the least you will have to face."
+        "title": "Do you buy motorcycles with mechanical issues or accident damage?",
+        "content": "Yes, we purchase powersports vehicles in all conditions. While we offer online assessments, for the most accurate valuation of vehicles with mechanical issues or accident damage, we recommend scheduling an in-person appraisal."
       }
     ],
     "listBottom1": {
-      "title": "Urgent buyout of motorcycles in Kiev and throughout Ukraine",
-      "text": "Any owner of motorized transport faces a situation when it is necessary to sell his means of transportation. Often, you need to sell your moped as quickly as possible. We strongly advise you to beware of underground buyouts. When money is needed urgently, it is so easy to let your guard down and fall victim to scammers. That won't happen with us! Check out our reviews and compare terms - our deals are legally correct and all vehicles are deregistered. <br/><br/> For those who do not want to spend time and effort to find a buyer, it is better to use the MotoBuyout service. Of course you will not get the maximum value, but we guarantee 90-95% of the market price!<br/><br/> We give preference to such brands: Honda, Suzuki, Yamaha, Kawasaki, BMW, KTM, Ducati, Triumph, Aprilia, as well as Chinese models. We offer redemption of sports, tourist, cruisers, choppers, classic, off-road, enduro, supermoto, dragster, motard, cross motorcycles."
+      "title": "Title1",
+      "text": "Text1"
     },
     "listBottom2": {
-      "title": "How do I sell a used motorcycle?",
-      "text": "Everything is simple! Send us a photo of the vehicle in a convenient messenger (viber, telegram, instagram). Within 4-5 minutes appraiser Vladimir will write the cost of goods. Having come to an agreement, we will immediately go to you! That you would not have traveled in vain, we will come to you ourselves, absolutely free, without any claims if you refuse our services. We value the reputation and time of our customers!"
+      "title": "Title2",
+      "text": "Text2"
     }
   }
 }
