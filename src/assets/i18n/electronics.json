@@ -1,11 +1,13 @@
 {
-  "key": ["prod"],
+  "key": [
+    "prod"
+  ],
   "dashboard": {
     "state": "State of Florida",
     "title": "Scroll down <span>to see what we buy</span>",
     "location": "(All States)",
     "description": "Cash for your trash!",
-    "image": "/assets/img/main_page/main_logo.svg",
+    "image": "/assets/img/electronics/electronics.svg",
     "bgImage": "main",
     "class": "main_text"
   },
@@ -14,28 +16,84 @@
     "text": "what you wanna sell",
     "content": [
       {
-        "img": "/assets/img/main_page/Transport.svg",
-        "route": "/transport"
+        "img": "/assets/img/electronics/Air_conditioner.svg",
+        "route": "/air-conditioner"
       },
       {
-        "img": "/assets/img/main_page/Furniture.svg",
-        "route": ""
+        "img": "/assets/img/electronics/Building_tool.svg",
+        "route": "/building-tool"
       },
       {
-        "img": "/assets/img/main_page/Electronics.svg",
-        "route": "/electronics"
+        "img": "/assets/img/electronics/Camera.svg",
+        "route": "/camera"
       },
       {
-        "img": "/assets/img/main_page/Real_estate.svg",
-        "route": ""
+        "img": "/assets/img/electronics/Coffee_maker.svg",
+        "route": "/coffee-maker"
       },
       {
-        "img": "/assets/img/main_page/Estate.svg",
-        "route": ""
+        "img": "/assets/img/electronics/Computer.svg",
+        "route": "/computer"
       },
       {
-        "img": "/assets/img/main_page/Gear.svg",
-        "route": "/gear"
+        "img": "/assets/img/electronics/Drone.svg",
+        "route": "/drone"
+      },
+      {
+        "img": "/assets/img/electronics/Fridge.svg",
+        "route": "/fridge"
+      },
+      {
+        "img": "/assets/img/electronics/Gaming_consoles.svg",
+        "route": "/gaming-consoles"
+      },
+      {
+        "img": "/assets/img/electronics/Headphones.svg",
+        "route": "/headphones"
+      },
+      {
+        "img": "/assets/img/electronics/Laptop.svg",
+        "route": "/laptop"
+      },
+      {
+        "img": "/assets/img/electronics/Laptop.svg",
+        "route": "/laptop"
+      },
+      {
+        "img": "/assets/img/electronics/Lawn_mower.svg",
+        "route": "/lawn-mower"
+      },
+      {
+        "img": "/assets/img/electronics/Lens.svg",
+        "route": "/lens"
+      },
+      {
+        "img": "/assets/img/electronics/Phone.svg",
+        "route": "/phone"
+      },
+      {
+        "img": "/assets/img/electronics/Smartwatch.svg",
+        "route": "/smartwatch"
+      },
+      {
+        "img": "/assets/img/electronics/Tablets.svg",
+        "route": "/tablets"
+      },
+      {
+        "img": "/assets/img/electronics/TV.svg",
+        "route": "/tv"
+      },
+      {
+        "img": "/assets/img/electronics/Vacuum_cleaner.svg",
+        "route": "/cacuum-cleaner"
+      },
+      {
+        "img": "/assets/img/electronics/VR_headsets.svg",
+        "route": "/vr-headsets"
+      },
+      {
+        "img": "/assets/img/electronics/Washing_machine.svg",
+        "route": "/washing-machine"
       },
       {
         "img": "/assets/img/main_page/Others.svg",

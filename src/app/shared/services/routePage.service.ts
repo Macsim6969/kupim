@@ -38,7 +38,8 @@ export class RoutePageService {
     '/exercise-machines': 'exercise-machines',
     '/skis': 'skis',
     '/snowboard': 'snowboard',
-    '/surfboard': 'surfboard'
+    '/surfboard': 'surfboard',
+    '/electronics': 'electronics'
   }
 
   get _routeLanguageMap(): {[key: string] : string} {
