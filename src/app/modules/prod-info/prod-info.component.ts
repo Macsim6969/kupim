@@ -15,6 +15,8 @@ export class ProdInfoComponent implements OnInit, OnDestroy {
   public prodInfo: ProdInfo | string;
   public activePage: string;
 
+  public isPageRoute: string[] = ['gear', 'main', 'transport'];
+
   constructor(
     private translate: TranslateService,
     private router: Router,

@@ -34,6 +34,11 @@ export class RoutePageService {
     '/about-us': 'about-us',
     '/blog': 'blog',
     '/others': 'others',
+    '/gear': 'gear',
+    '/exercise-machines': 'exercise-machines',
+    '/skis': 'skis',
+    '/snowboard': 'snowboard',
+    '/surfboard': 'surfboard'
   }
 
   get _routeLanguageMap(): {[key: string] : string} {

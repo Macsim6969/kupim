@@ -1,47 +1,13 @@
 {
-  "key": ["prod"],
+
   "dashboard": {
     "state": "State of Florida",
     "title": "Scroll down <span>to see what we buy</span>",
     "location": "(All States)",
     "description": "Cash for your trash!",
     "image": "/assets/img/main_page/main_logo.svg",
-    "bgImage": "main",
-    "class": "main_text"
-  },
-  "prodInfo": {
-    "title": "Pick",
-    "text": "what you wanna sell",
-    "content": [
-      {
-        "img": "/assets/img/main_page/Transport.svg",
-        "route": "/transport"
-      },
-      {
-        "img": "/assets/img/main_page/Furniture.svg",
-        "route": ""
-      },
-      {
-        "img": "/assets/img/main_page/Electronics.svg",
-        "route": ""
-      },
-      {
-        "img": "/assets/img/main_page/Real_estate.svg",
-        "route": ""
-      },
-      {
-        "img": "/assets/img/main_page/Estate.svg",
-        "route": ""
-      },
-      {
-        "img": "/assets/img/main_page/Gear.svg",
-        "route": "/gear"
-      },
-      {
-        "img": "/assets/img/main_page/Others.svg",
-        "route": "/others"
-      }
-    ]
+    "bgImage": "skis",
+    "class": "skis_text"
   },
   "easySteps": {
     "title": "3 quick steps",

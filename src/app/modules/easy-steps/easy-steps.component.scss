@@ -263,6 +263,22 @@
     background: linear-gradient(86deg, #95b0cf 0%, #95b0cf 36%, #202227 100%);
   }
 
+  &.exercise-machines {
+    background: linear-gradient(86deg, #3fccc7 0%, #3fccc7 36%, #20242b 100%);
+  }
+
+  &.skis {
+    background: linear-gradient(86deg, #cc3f64 0%, #cc3f64 36%, #20242b 100%);
+  }
+
+  &.snowboard{
+    background: linear-gradient(86deg, #dbb73a 0%, #dbb73a 36%, #20242b 100%);
+  }
+
+  &.surfboard{
+    background: linear-gradient(86deg, #3ab3db 0%, #3ab3db 36%, #20242b 100%);
+  }
+
   @media (max-width: 720px) {
     height: 72px;
   }

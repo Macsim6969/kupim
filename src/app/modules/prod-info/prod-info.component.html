@@ -5,8 +5,8 @@
             <span class="info_undelog">{{prodInfo['text']}}</span>
         </h2>
         <div class="prod_info_content">
-            <button class="btn" [ngClass]="{'hide_anim': activePage !== 'main' && 'transport'}"
-                [disabled]="activePage !== 'main' && 'transport'" *ngFor=" let image of
+            <button class="btn" [ngClass]="{'hide_anim': !isPageRoute.includes(activePage)}"
+                [disabled]="!isPageRoute.includes(activePage)" *ngFor=" let image of
                 prodInfo['content']" (click)="openPage(image.route)">
                 <img class="car_find_img" [src]="image.img" alt="">
             </button>

@@ -30,6 +30,11 @@ const routes: Routes = [
       { path: 'boat', component: HomeComponent },
       { path: 'tractor', component: HomeComponent },
       { path: 'trailer', component: HomeComponent },
+      { path: 'gear', component: HomeComponent },
+      { path: 'exercise-machines', component: HomeComponent },
+      { path: 'skis', component: HomeComponent },
+      { path: 'snowboard', component: HomeComponent },
+      { path: 'surfboard', component: HomeComponent },
       {
         path: 'car', component: HomeComponent, children: [
           { path: 'bmw', component: HomeComponent },

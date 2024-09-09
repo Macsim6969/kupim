@@ -6,36 +6,28 @@
     "location": "(All States)",
     "description": "Cash for your trash!",
     "image": "/assets/img/main_page/main_logo.svg",
-    "bgImage": "main",
-    "class": "main_text"
+    "bgImage": "gear",
+    "class": "gear_text"
   },
   "prodInfo": {
     "title": "Pick",
     "text": "what you wanna sell",
     "content": [
       {
-        "img": "/assets/img/main_page/Transport.svg",
-        "route": "/transport"
+        "img": "/assets/img/gear/Exercise-machines.svg",
+        "route": "/exercise-machines"
       },
       {
-        "img": "/assets/img/main_page/Furniture.svg",
-        "route": ""
+        "img": "/assets/img/gear/Skis.svg",
+        "route": "/skis"
       },
       {
-        "img": "/assets/img/main_page/Electronics.svg",
-        "route": ""
+        "img": "/assets/img/gear/Snowboard.svg",
+        "route": "/snowboard"
       },
       {
-        "img": "/assets/img/main_page/Real_estate.svg",
-        "route": ""
-      },
-      {
-        "img": "/assets/img/main_page/Estate.svg",
-        "route": ""
-      },
-      {
-        "img": "/assets/img/main_page/Gear.svg",
-        "route": "/gear"
+        "img": "/assets/img/gear/Surfboard.svg",
+        "route": "/surfboard"
       },
       {
         "img": "/assets/img/main_page/Others.svg",
