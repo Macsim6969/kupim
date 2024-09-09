@@ -7,7 +7,7 @@
       <div class="dopp__inner">
         <div class="dopp____inner">
           <button [ngClass]="{'active': isOpenTab[i]}" (click)="openTab(i)" type="button" class="dopp_collaps">{{list.title}}</button>
-          <div #doppContent [style.maxHeight]="isOpenTab[i] ? getContentMaxHeight(i) : '0'" [ngClass]="{'active': isOpenTab[i]}" class="dopp_content">{{list.content}}</div>
+          <div #doppContent [style.maxHeight]="isOpenTab[i] ? getContentMaxHeight(i) : '0'" [ngClass]="{'active': isOpenTab[i]}" class="dopp_content" [innerHTML]="list.content"></div>
         </div>
       </div>
     </div>

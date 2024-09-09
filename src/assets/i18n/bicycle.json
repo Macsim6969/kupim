@@ -5,16 +5,16 @@
   ],
   "dashboard": {
     "state": "State of Florida",
-    "title": "Bike buyback",
+    "title": "Sell my bicycle",
     "location": "(All States)",
-    "description": "Buy your bike at the best price",
+    "description": "Quick cash for your bicycle!",
     "image": "/assets/img/bike/bike.png",
     "bgImage": "bike",
     "class": "bike_text"
   },
   "prodInfo": {
-    "title": "Laptops",
-    "text": "we buy back across all US states",
+    "title": "Bicycle that we purchase",
+    "text": "across all states in the U.S.",
     "content": [
       {
         "img": "/assets/img/bike/electric.svg"
@@ -34,30 +34,30 @@
     ]
   },
   "easySteps": {
-    "title": "3 simple steps",
-    "text": "to sell a bike fast",
+    "title": "3 easy steps",
+    "text": "to appraise your velo-bike online",
     "style": "bike",
     "contentStep1": {
       "step": "Step 1",
-      "stepText": "Send photos and characteristics of the laptop to Telegram, Messenge",
-      "contact": "CONNECT"
+      "stepText": "Shoot us a picture or the details on any messaging app",
+      "contact": "SEND"
     },
     "contentStep2": {
       "step": "Step 2",
-      "stepText": "Make an appointment for a sale at your nearest office or order a no obligation sale"
+      "stepText": "Schedule an in-office sales appointment or request an appraiser to visit your home"
     },
     "contentStep3": {
       "step": "Step 3",
-      "stepText": "Receive instant payouts in a form that is convenient for you"
+      "stepText": "Receive an instant payout in the form that's convenient for you"
     }
   },
   "aboutInfo": {
-    "title": "We buy back bike in Florida",
-    "text": "and all the states",
+    "title": "Why we are",
+    "text": "your best bet",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
-        "title": "We’ll buy anything you’ve got."
+        "title": "We buy bicycle in any condition"
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
@@ -69,7 +69,7 @@
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "Trade-In"
+        "title": "Trade-In available (exchange for a new bicycle)"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
@@ -85,11 +85,11 @@
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
-        "title": "Instant Payment"
+        "title": "Instant cash payout"
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
-        "title": "We Handle Complex Cases (Collateral, Loans)"
+        "title": "We handle complex cases (Collateral, Loans, After Accident)"
       }
     ]
   },
@@ -97,21 +97,21 @@
     "title": "Customer Reviews",
     "feedback": [
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Quick and easy! Got a fair price for my Giant bike. These guys know their stuff. In and out in no time. Thumbs up!",
+        "name": "John D.",
+        "prod": "Sold the Giant bike",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Decent deal on my bike. Process was smooth, but price was a bit lower than expected. Still, saved me a lot of hassle.",
+        "name": "Mike T.",
+        "prod": "Sold a Cube mountain bike",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
+        "content": "Needed to sell my Bulls fast before moving. These folks delivered! Great service, fair price. Would use again.",
         "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "prod": "Sold road bike",
         "feedbackMap": "Review from Google Maps"
       }
     ],
@@ -122,37 +122,37 @@
     "descr": "We're Happy to Help",
     "listAsq": [
       {
-        "title": "What kind of cars do you buy?",
-        "content": "Absolutely any: whole, after the accident, not customs clearance, on tp. Mark, year release, mileage, condition do not matter. Redemptionaem credit cars, as well as cars with penalties. We work with legal entities and individuals, Redemption of car fleets."
+        "title": "What types of bicycles do you buy?",
+        "content": "Our company purchases a wide range of bicycles, including: Mountain, road, hybrid, city, BMX, fat bike, cruiser, folding, triathlon, electric, yclocross, touring, kids', tandem, and track bikes. We work with most well-known brands such as Giant, Trek, Specialized, Cannondale, Scott, Merida, Santa Cruz, Bianchi, Kona, Cube, Orbea, GT Bicycles, Norco, Focus, Cervélo, and others. The only factors that may affect our ability to purchase a bike are its condition and age."
       },
       {
-        "title": "Can I leave the car for you to sell?",
-        "content": "Yes. We will put your vehicle on consignment at our dealership."
+        "title": "How does the bike evaluation process work?",
+        "content": "We offer a convenient online evaluation process: <ol><li>Choose your preferred messaging app (Telegram, WhatsApp, Facebook Messenger) or social network (Instagram, Facebook).</li><li>Send us photos and technical specifications of your bicycle.</li><li>Within 5-7 minutes, you'll receive a price offer and a detailed plan for a quick sale.</li></ol>"
       },
       {
-        "title": "How long does the sale last?",
-        "content": "The sale of the car takes place in 2-3 hours."
+        "title": "Do you buy damaged or malfunctioning bicycles?",
+        "content": "Yes, we consider purchasing damaged or malfunctioning bicycles. Each case is evaluated individually. For a quick assessment, please send us photos of your bicycle."
       },
       {
-        "title": "Do you buy only in Kiev?",
-        "content": "No, we redemption cars all over Ukraine. In most cases. Redemption in Ukraine occurs on the day of communication."
+        "title": "What documents are required to sell a bicycle?",
+        "content": "Documentation is not mandatory for the sale. We purchase bicycles both with and without papers. However, if you have documentation for your bicycle, we welcome its inclusion."
       },
       {
-        "title": "I want to sell for as much as possible!",
-        "content": "To increase Redemption's price by 10%, wash the car, grab a a second set of tires and keys. In 90% of cases the valuation will be higher than other car Redemption."
+        "title": "Do you provide bicycle transportation services?",
+        "content": "We offer three transportation options: <ol><li>You can deliver the bicycle to our office yourself.</li>We can send our employee to your location for evaluation and transportation.<li></li><li>You have the option to ship the bicycle by mail.</li></ol> "
       },
       {
-        "title": "I'll sell the car for more!",
-        "content": "No problem! We just want to save you from wasting your time. Pre-sale preparation, photo shoots, registration on profile sites, pay for advertising. ads, answering phones and traveling to appointments at inconvenient times is the least of what you're gonna to deal with."
+        "title": "Do you operate throughout the entire United States?",
+        "content": "Currently, our network doesn't cover the entire United States. However, we are interested in working with customers from various regions and are willing to arrange pickup or postal delivery of the bicycle if necessary."
       }
     ],
     "listBottom1": {
-      "title": "Urgent Redemption of boats",
-      "text": "Over the course of the company's existence, we've redemptionized a large number of used  vehicles of various makes and models. We've learned to be smart about Redemption: the vehicles      are de-registered and all transactions are legally correct. <br/> We offer services on car buying in all districts of Kiev (Kiev region) and Ukraine. Those who do not want to spend time and effort to find a client, it is better to use the service 'autoRedemption'. Of course you will not get the maximum value for the car, but 90-95% of the market value, we guarantee you! value we guarantee you!<br/> Still, if you decide to sell a used car on your own, it is recommended to be patient. patience. Selling a car on your own can take months. And without an understanding of the market. it is difficult to set a price that will suit both you and the potential buyer. You'll end up wasting your time and effort for nothing."
+      "title": "Maximize Your Bike's Value: Premier Buyback Service in Florida and Nationwide",
+      "text": "Looking to sell your bike in Florida or across the USA? Our top-tier bike buyback service offers competitive prices and unmatched convenience for cyclists nationwide."
     },
     "listBottom2": {
-      "title": "Boat buying in Kiev",
-      "text": "Everything is simple! Send us a photo of the vehicle in a convenient messenger (viber, telegram, instagram). Within 4-5 minutes appraiser Vladimir will write the cost of Redemption. Having come to an agreement, we will immediately go to the You! That you would not have traveled in vain, we will come to you ourselves, absolutely free, without any or claims if you refuse our services. We value the reputation and time of our customers!"
+      "title": "Florida's Leading Bike Buyback Option",
+      "text": "Florida cyclists, selling your bike is now effortless. Whether you're in Miami, Orlando, or Tampa, we provide instant online quotes and expert evaluation for all bike brands. Our streamlined process ensures you get the best value for your bicycle."
     }
   }
 }
