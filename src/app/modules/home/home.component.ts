@@ -38,11 +38,11 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
     this.store._activePage$.pipe(takeUntil(this.destroy$)).subscribe((data) => {
       if (data) {
         this.isLoading = true;
-        this.translate.stream(data).pipe(takeUntil(this.destroy$)).subscribe((data) => {
-
+        this.translate.stream(data).pipe(takeUntil(this.destroy$)).subscribe((translationData) => {
+  
           timer(300).pipe(takeUntil(this.destroy$)).subscribe(() => {
-            if (data) {
-              this.checkImagesLoaded().then(() => {
+            if (translationData) {
+              this.checkPageLoaded().then(() => {
                 this.isLoading = false;
               }).catch(() => {
                 this.isLoading = true;
@@ -53,13 +53,28 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
       }
     });
   }
-
-  private checkImagesLoaded(): Promise<void> {
+  
+  private checkPageLoaded(): Promise<void> {
+    const imagesLoaded = this.checkImagesLoaded();
+  
+    const pageLoaded = new Promise<void>((resolve) => {
+      if (document.readyState === 'complete') {
+        resolve();
+      } else {
+        window.addEventListener('load', () => resolve());
+      }
+    });
+  
+    return Promise.all([imagesLoaded, pageLoaded]).then(() => {
+  
+    });
+  }
+  
+  private checkImagesLoaded(): Promise<void[]> {
     const images = Array.from(document.images);
     const imageLoadPromises = images.map((img) => {
       return new Promise<void>((resolve, reject) => {
         if (img.complete && img.naturalHeight !== 0) {
-
           resolve();
         } else {
           img.addEventListener('load', () => resolve());
@@ -67,10 +82,8 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
         }
       });
     });
-
-    return Promise.all(imageLoadPromises).then(() => {
-      // Все изображения успешно загружены
-    });
+  
+    return Promise.all(imageLoadPromises);
   }
 
   private setUpQueryParamsData() {
