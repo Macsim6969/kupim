@@ -35,42 +35,43 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   private checkToChangePage() {
-    this.store._activePage$.pipe(takeUntil(this.destroy$)).subscribe((data) => {
-      if (data) {
-        this.isLoading = true;
-        this.translate.stream(data).pipe(takeUntil(this.destroy$)).subscribe((translationData) => {
-  
-          timer(300).pipe(takeUntil(this.destroy$)).subscribe(() => {
-            if (translationData) {
-              this.checkPageLoaded().then(() => {
-                this.isLoading = false;
-              }).catch(() => {
-                this.isLoading = true;
-              });
-            }
-          });
-        });
-      }
-    });
+    this.store._activePage$
+      .pipe(takeUntil(this.destroy$))
+      .subscribe((data) => {
+        if (data) {
+          this.isLoading = true;
+          this.translate.stream(data)
+            .pipe(takeUntil(this.destroy$))
+            .subscribe((translationData) => {
+
+              timer(300)
+                .pipe(takeUntil(this.destroy$))
+                .subscribe(() => {
+                  if (translationData) {
+                    this.checkPageLoaded()
+                      .then(() => {
+                        this.isLoading = false;
+                      })
+                      .catch(() => {
+                        // При ошибке сохраняем загрузочный индикатор
+                        this.isLoading = true;
+                      });
+                  }
+                });
+            });
+        }
+      });
   }
-  
+
   private checkPageLoaded(): Promise<void> {
-    const imagesLoaded = this.checkImagesLoaded();
-  
-    const pageLoaded = new Promise<void>((resolve) => {
-      if (document.readyState === 'complete') {
-        resolve();
-      } else {
-        window.addEventListener('load', () => resolve());
-      }
-    });
-  
-    return Promise.all([imagesLoaded, pageLoaded]).then(() => {
-  
-    });
+    // Ждем загрузки всех изображений и самой страницы
+    return Promise.all([this.checkImagesLoaded(), this.waitForPageLoad()])
+      .then(() => {
+        console.log('Страница полностью загружена');
+      });
   }
-  
-  private checkImagesLoaded(): Promise<void[]> {
+
+  private checkImagesLoaded() {
     const images = Array.from(document.images);
     const imageLoadPromises = images.map((img) => {
       return new Promise<void>((resolve, reject) => {
@@ -78,12 +79,28 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
           resolve();
         } else {
           img.addEventListener('load', () => resolve());
-          img.addEventListener('error', () => reject());
+          img.addEventListener('error', () => reject(`Ошибка загрузки изображения: ${img.src}`));
         }
       });
     });
-  
-    return Promise.all(imageLoadPromises);
+
+    return Promise.all(imageLoadPromises)
+      .then(() => {
+        console.log('Все изображения загружены');
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  }
+
+  private waitForPageLoad(): Promise<void> {
+    return new Promise<void>((resolve) => {
+      if (document.readyState === 'complete') {
+        resolve();
+      } else {
+        window.addEventListener('load', () => resolve());
+      }
+    });
   }
 
   private setUpQueryParamsData() {
