@@ -36,19 +36,17 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
 
   private checkToChangePage() {
     this.store._activePage$.pipe(takeUntil(this.destroy$)).subscribe((data) => {
-      this.isLoading = true;
       if (data) {
+        this.isLoading = true;
         this.translate.stream(data).pipe(takeUntil(this.destroy$)).subscribe((data) => {
-          
-          timer(200).pipe(take(1)).subscribe(() => {
+
+          timer(300).pipe(takeUntil(this.destroy$)).subscribe(() => {
             if (data) {
               this.checkImagesLoaded().then(() => {
                 this.isLoading = false;
               }).catch(() => {
-                this.isLoading = true; 
+                this.isLoading = true;
               });
-            } else {
-              this.isLoading = true;
             }
           });
         });
@@ -61,7 +59,7 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
     const imageLoadPromises = images.map((img) => {
       return new Promise<void>((resolve, reject) => {
         if (img.complete && img.naturalHeight !== 0) {
-        
+
           resolve();
         } else {
           img.addEventListener('load', () => resolve());
