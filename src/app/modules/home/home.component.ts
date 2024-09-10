@@ -40,7 +40,7 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
       if (data) {
         this.translate.stream(data).pipe(takeUntil(this.destroy$)).subscribe((data) => {
           
-          timer(50).pipe(take(1)).subscribe(() => {
+          timer(200).pipe(take(1)).subscribe(() => {
             if (data) {
               this.checkImagesLoaded().then(() => {
                 this.isLoading = false;

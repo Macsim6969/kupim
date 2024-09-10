@@ -56,10 +56,6 @@
         "route": "/laptop"
       },
       {
-        "img": "/assets/img/electronics/Laptop.svg",
-        "route": "/laptop"
-      },
-      {
         "img": "/assets/img/electronics/Lawn_mower.svg",
         "route": "/lawn-mower"
       },

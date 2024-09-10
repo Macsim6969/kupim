@@ -15,7 +15,7 @@ export class ProdInfoComponent implements OnInit, OnDestroy {
   public prodInfo: ProdInfo | string;
   public activePage: string;
 
-  public isPageRoute: string[] = ['gear', 'main', 'transport'];
+  public isPageRoute: string[] = ['gear', 'main', 'transport', 'electronics'];
 
   constructor(
     private translate: TranslateService,
@@ -46,8 +46,6 @@ export class ProdInfoComponent implements OnInit, OnDestroy {
   }
 
   public openPage(route: string) {
-
-    console.log(1);
     this.router.navigate([route], { queryParamsHandling: 'merge' }).then(() => {
       window.scrollTo({
         top: 0,
