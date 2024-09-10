@@ -39,10 +39,11 @@ export class RoutePageService {
     '/skis': 'skis',
     '/snowboard': 'snowboard',
     '/surfboard': 'surfboard',
-    '/electronics': 'electronics'
+    '/electronics': 'electronics',
+    '/real-estate': 'real-estate'
   }
 
-  get _routeLanguageMap(): {[key: string] : string} {
+  get _routeLanguageMap(): { [key: string]: string } {
     return this.routeLanguageMap;
   }
 }

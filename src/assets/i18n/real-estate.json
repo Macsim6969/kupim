@@ -6,36 +6,40 @@
     "location": "(All States)",
     "description": "Cash for your trash!",
     "image": "/assets/img/main_page/main_logo.svg",
-    "bgImage": "main",
-    "class": "main_text"
+    "bgImage": "real-estate",
+    "class": "real-estate_text"
   },
   "prodInfo": {
     "title": "Pick",
     "text": "what you wanna sell",
     "content": [
       {
-        "img": "/assets/img/main_page/Transport.svg",
-        "route": "/transport"
+        "img": "/assets/img/real-estate/Apartment.svg",
+        "route": "/apartment"
       },
       {
-        "img": "/assets/img/main_page/Furniture.svg",
-        "route": ""
+        "img": "/assets/img/real-estate/Garage.svg",
+        "route": "/garage"
       },
       {
-        "img": "/assets/img/main_page/Electronics.svg",
-        "route": "/electronics"
+        "img": "/assets/img/real-estate/House.svg",
+        "route": "/house"
       },
       {
-        "img": "/assets/img/main_page/Real_estate.svg",
-        "route": "/real-estate"
+        "img": "/assets/img/real-estate/Land-lots.svg",
+        "route": "/land-lots"
       },
       {
-        "img": "/assets/img/main_page/Estate.svg",
-        "route": ""
+        "img": "/assets/img/real-estate/Restaurant-Cafe.svg",
+        "route": "/restaurant-cafe"
       },
       {
-        "img": "/assets/img/main_page/Gear.svg",
-        "route": "/gear"
+        "img": "/assets/img/real-estate/Townhouse.svg",
+        "route": "/townhouse"
+      },
+      {
+        "img": "/assets/img/real-estate/Warehouse-Facilities.svg",
+        "route": "/warehouse-facilities"
       },
       {
         "img": "/assets/img/main_page/Others.svg",
