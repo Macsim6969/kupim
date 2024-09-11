@@ -43,24 +43,36 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
           this.translate.stream(data)
             .pipe(takeUntil(this.destroy$))
             .subscribe((translationData) => {
-
-              timer(300)
-                .pipe(takeUntil(this.destroy$))
-                .subscribe(() => {
-                  if (translationData) {
-                    this.checkPageLoaded()
-                      .then(() => {
-                        this.isLoading = false;
-                      })
-                      .catch(() => {
-                        // При ошибке сохраняем загрузочный индикатор
-                        this.isLoading = true;
-                      });
-                  }
-                });
+              if (translationData) {
+                this.checkPageLoaded()
+                  .then(() => this.loadImages())
+                  .then(() => {
+                    this.isLoading = false;
+                  })
+                  .catch(() => {
+                    // При ошибке сохраняем загрузочный индикатор
+                    this.isLoading = true;
+                  });
+              }
             });
         }
       });
+  }
+
+  private loadImages(): Promise<void> {
+    const images = Array.from(document.images) as HTMLImageElement[];
+    const imagePromises = images.map(image => {
+      return new Promise<void>((resolve, reject) => {
+        if (image.complete && image.naturalHeight !== 0) {
+          resolve();
+        } else {
+          image.onload = () => resolve();
+          image.onerror = () => reject();
+        }
+      });
+    });
+
+    return Promise.all(imagePromises).then(() => { });
   }
 
   private checkPageLoaded(): Promise<void> {
