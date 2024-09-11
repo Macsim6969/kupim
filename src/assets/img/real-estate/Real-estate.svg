@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name=" Слой 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 524 524">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#_Безымянный_градиент_7);
+      }
+
+      .cls-2 {
+        fill: url(#_Безымянный_градиент_40);
+      }
+
+      .cls-3 {
+        fill: url(#_Безымянный_градиент_45);
+      }
+
+      .cls-4 {
+        fill: url(#_Безымянный_градиент_47);
+      }
+
+      .cls-5 {
+        fill: url(#_Безымянный_градиент_9);
+      }
+
+      .cls-6 {
+        fill: url(#_Безымянный_градиент_36);
+      }
+
+      .cls-7 {
+        fill: url(#_Безымянный_градиент_58);
+      }
+
+      .cls-8 {
+        fill: url(#_Безымянный_градиент_22);
+      }
+
+      .cls-9 {
+        fill: url(#_Безымянный_градиент_53);
+      }
+
+      .cls-10 {
+        fill: #656262;
+      }
+
+      .cls-11 {
+        fill: url(#_Безымянный_градиент_44);
+      }
+
+      .cls-12 {
+        opacity: .44;
+      }
+
+      .cls-13 {
+        fill: url(#_Безымянный_градиент_18);
+      }
+
+      .cls-14 {
+        fill: url(#_Безымянный_градиент_24);
+      }
+
+      .cls-15 {
+        fill: url(#_Безымянный_градиент);
+      }
+
+      .cls-16 {
+        fill: url(#_Безымянный_градиент_56);
+      }
+
+      .cls-17 {
+        fill: url(#_Безымянный_градиент_34);
+      }
+
+      .cls-18 {
+        fill: url(#_Безымянный_градиент_26);
+      }
+
+      .cls-19 {
+        fill: url(#_Безымянный_градиент_17);
+      }
+
+      .cls-20 {
+        stroke: #e24d40;
+        stroke-width: 8.97px;
+      }
+
+      .cls-20, .cls-21, .cls-22, .cls-23, .cls-24 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-20, .cls-23, .cls-24 {
+        fill: none;
+      }
+
+      .cls-25 {
+        fill: url(#_Безымянный_градиент_19);
+      }
+
+      .cls-26 {
+        isolation: isolate;
+      }
+
+      .cls-27 {
+        fill: url(#_Безымянный_градиент_6);
+      }
+
+      .cls-28 {
+        fill: url(#_Безымянный_градиент_13);
+      }
+
+      .cls-29 {
+        fill: url(#_Безымянный_градиент_50);
+      }
+
+      .cls-30 {
+        fill: url(#_Безымянный_градиент_8);
+      }
+
+      .cls-31 {
+        fill: url(#_Безымянный_градиент_59);
+      }
+
+      .cls-32 {
+        fill: url(#_Безымянный_градиент_35);
+      }
+
+      .cls-33 {
+        fill: url(#_Безымянный_градиент_29);
+      }
+
+      .cls-34 {
+        fill: url(#_Безымянный_градиент_37);
+      }
+
+      .cls-35 {
+        fill: url(#_Безымянный_градиент_20);
+      }
+
+      .cls-36 {
+        fill: url(#_Безымянный_градиент_54);
+      }
+
+      .cls-37 {
+        fill: url(#_Безымянный_градиент_61);
+      }
+
+      .cls-38 {
+        fill: #706253;
+      }
+
+      .cls-39 {
+        fill: url(#_Безымянный_градиент_39);
+      }
+
+      .cls-40 {
+        fill: #b28e6d;
+      }
+
+      .cls-41 {
+        fill: url(#_Безымянный_градиент_2);
+      }
+
+      .cls-21 {
+        fill: url(#_Безымянный_градиент_60);
+        stroke: #b28e6d;
+      }
+
+      .cls-21, .cls-22, .cls-23 {
+        stroke-width: 3.59px;
+      }
+
+      .cls-42 {
+        fill: url(#_Безымянный_градиент_10);
+      }
+
+      .cls-43 {
+        fill: url(#_Безымянный_градиент_57);
+      }
+
+      .cls-44 {
+        fill: #555253;
+      }
+
+      .cls-45 {
+        fill: url(#_Безымянный_градиент_23);
+      }
+
+      .cls-46 {
+        fill: url(#_Безымянный_градиент_38);
+      }
+
+      .cls-47 {
+        fill: url(#_Безымянный_градиент_25);
+      }
+
+      .cls-48 {
+        fill: #95928b;
+      }
+
+      .cls-49 {
+        fill: url(#_Безымянный_градиент_32);
+      }
+
+      .cls-50 {
+        fill: url(#_Безымянный_градиент_52);
+        stroke: #c5c7c7;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-50, .cls-24 {
+        stroke-width: 1.79px;
+      }
+
+      .cls-51 {
+        fill: url(#_Безымянный_градиент_30);
+      }
+
+      .cls-52 {
+        fill: url(#_Безымянный_градиент_15);
+      }
+
+      .cls-53 {
+        fill: #213c4e;
+      }
+
+      .cls-54 {
+        fill: url(#_Безымянный_градиент_41);
+      }
+
+      .cls-55 {
+        fill: url(#_Безымянный_градиент_51);
+      }
+
+      .cls-56 {
+        fill: #e8e6e5;
+      }
+
+      .cls-57 {
+        fill: url(#_Безымянный_градиент_49);
+      }
+
+      .cls-22 {
+        fill: url(#_Безымянный_градиент_62);
+        stroke: #7b533f;
+      }
+
+      .cls-58 {
+        fill: url(#_Безымянный_градиент_28);
+      }
+
+      .cls-59 {
+        fill: url(#_Безымянный_градиент_48);
+      }
+
+      .cls-60 {
+        fill: #8c8e8c;
+      }
+
+      .cls-61 {
+        fill: url(#_Безымянный_градиент_14);
+      }
+
+      .cls-62 {
+        fill: url(#_Безымянный_градиент_55);
+      }
+
+      .cls-63 {
+        fill: url(#_Безымянный_градиент_4);
+      }
+
+      .cls-64 {
+        fill: url(#_Безымянный_градиент_12);
+      }
+
+      .cls-65 {
+        fill: url(#_Безымянный_градиент_21);
+      }
+
+      .cls-23 {
+        stroke: #262a29;
+      }
+
+      .cls-66 {
+        fill: #ce8c42;
+      }
+
+      .cls-67 {
+        fill: url(#_Безымянный_градиент_46);
+      }
+
+      .cls-68 {
+        fill: url(#_Безымянный_градиент_5);
+      }
+
+      .cls-69 {
+        fill: url(#_Безымянный_градиент_3);
+      }
+
+      .cls-70 {
+        fill: url(#_Безымянный_градиент_33);
+      }
+
+      .cls-71 {
+        fill: #806b59;
+      }
+
+      .cls-72 {
+        fill: url(#_Безымянный_градиент_43);
+      }
+
+      .cls-24 {
+        stroke: #5e6163;
+      }
+
+      .cls-73 {
+        fill: url(#_Безымянный_градиент_11);
+      }
+
+      .cls-74 {
+        fill: url(#_Безымянный_градиент_42);
+      }
+
+      .cls-75 {
+        fill: url(#_Безымянный_градиент_27);
+      }
+
+      .cls-76 {
+        fill: url(#_Безымянный_градиент_31);
+      }
+
+      .cls-77 {
+        fill: url(#_Безымянный_градиент_16);
+      }
+    </style>
+    <linearGradient id="_Безымянный_градиент" data-name="Безымянный градиент" x1="269.38" y1="1415.25" x2="268.26" y2="1122.28" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7a7a7a"/>
+      <stop offset=".47" stop-color="#c9c8c5"/>
+      <stop offset=".92" stop-color="#f0e7d9"/>
+      <stop offset="1" stop-color="#a19d98"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_2" data-name="Безымянный градиент 2" x1="269.23" y1="1120.34" x2="268.43" y2="1095.32" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset=".24" stop-color="#585451"/>
+      <stop offset=".77" stop-color="#9d9a96"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_3" data-name="Безымянный градиент 3" x1="188.62" y1="1100.89" x2="187.95" y2="1080.13" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b8b3b0"/>
+      <stop offset=".88" stop-color="#ccc3b6"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_4" data-name="Безымянный градиент 4" x1="127.39" y1="1171.77" x2="126.35" y2="1138.61" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_5" data-name="Безымянный градиент 5" x1="162.65" y1="1171.77" x2="161.61" y2="1138.61" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_6" data-name="Безымянный градиент 6" x1="197.92" y1="1171.75" x2="196.86" y2="1138.59" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_7" data-name="Безымянный градиент 7" x1="233.18" y1="1171.75" x2="232.12" y2="1138.59" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_8" data-name="Безымянный градиент 8" x1="268.44" y1="1171.75" x2="267.38" y2="1138.59" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_9" data-name="Безымянный градиент 9" x1="303.7" y1="1171.75" x2="302.64" y2="1138.59" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_10" data-name="Безымянный градиент 10" x1="338.97" y1="1171.77" x2="337.93" y2="1138.61" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_11" data-name="Безымянный градиент 11" x1="374.23" y1="1171.77" x2="373.19" y2="1138.61" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_12" data-name="Безымянный градиент 12" x1="409.5" y1="1171.75" x2="408.44" y2="1138.59" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_13" data-name="Безымянный градиент 13" x1="127.39" y1="1217.51" x2="126.35" y2="1184.35" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_14" data-name="Безымянный градиент 14" x1="162.65" y1="1217.51" x2="161.61" y2="1184.35" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_15" data-name="Безымянный градиент 15" x1="197.92" y1="1217.49" x2="196.86" y2="1184.33" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_16" data-name="Безымянный градиент 16" x1="233.18" y1="1217.49" x2="232.12" y2="1184.33" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_17" data-name="Безымянный градиент 17" x1="268.44" y1="1217.49" x2="267.38" y2="1184.33" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_18" data-name="Безымянный градиент 18" x1="303.7" y1="1217.49" x2="302.64" y2="1184.33" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_19" data-name="Безымянный градиент 19" x1="338.97" y1="1217.51" x2="337.93" y2="1184.35" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_20" data-name="Безымянный градиент 20" x1="374.23" y1="1217.51" x2="373.19" y2="1184.35" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_21" data-name="Безымянный градиент 21" x1="409.5" y1="1217.49" x2="408.44" y2="1184.33" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_22" data-name="Безымянный градиент 22" x1="127.39" y1="1263.25" x2="126.35" y2="1230.11" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_23" data-name="Безымянный градиент 23" x1="162.65" y1="1263.25" x2="161.61" y2="1230.11" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_24" data-name="Безымянный градиент 24" x1="197.92" y1="1263.23" x2="196.86" y2="1230.09" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_25" data-name="Безымянный градиент 25" x1="233.18" y1="1263.23" x2="232.12" y2="1230.09" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_26" data-name="Безымянный градиент 26" x1="268.44" y1="1263.23" x2="267.38" y2="1230.09" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_27" data-name="Безымянный градиент 27" x1="303.7" y1="1263.23" x2="302.64" y2="1230.09" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_28" data-name="Безымянный градиент 28" x1="338.97" y1="1263.25" x2="337.93" y2="1230.11" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_29" data-name="Безымянный градиент 29" x1="374.24" y1="1263.23" x2="373.18" y2="1230.09" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_30" data-name="Безымянный градиент 30" x1="409.5" y1="1263.23" x2="408.44" y2="1230.09" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_31" data-name="Безымянный градиент 31" x1="127.39" y1="1309" x2="126.35" y2="1275.84" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_32" data-name="Безымянный градиент 32" x1="162.65" y1="1309" x2="161.61" y2="1275.84" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_33" data-name="Безымянный градиент 33" x1="197.92" y1="1308.99" x2="196.86" y2="1275.83" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_34" data-name="Безымянный градиент 34" x1="233.18" y1="1308.99" x2="232.12" y2="1275.83" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_35" data-name="Безымянный градиент 35" x1="268.44" y1="1308.99" x2="267.38" y2="1275.83" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_36" data-name="Безымянный градиент 36" x1="303.7" y1="1308.99" x2="302.64" y2="1275.83" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_37" data-name="Безымянный градиент 37" x1="338.97" y1="1309" x2="337.93" y2="1275.84" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_38" data-name="Безымянный градиент 38" x1="374.23" y1="1309" x2="373.19" y2="1275.84" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_39" data-name="Безымянный градиент 39" x1="409.5" y1="1308.99" x2="408.44" y2="1275.83" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_40" data-name="Безымянный градиент 40" x1="127.39" y1="1354.74" x2="126.35" y2="1321.58" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_41" data-name="Безымянный градиент 41" x1="162.65" y1="1354.74" x2="161.61" y2="1321.58" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_42" data-name="Безымянный градиент 42" x1="374.23" y1="1354.74" x2="373.19" y2="1321.58" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_43" data-name="Безымянный градиент 43" x1="409.5" y1="1354.72" x2="408.44" y2="1321.56" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_44" data-name="Безымянный градиент 44" x1="127.39" y1="1400.5" x2="126.35" y2="1367.34" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_45" data-name="Безымянный градиент 45" x1="162.65" y1="1400.5" x2="161.61" y2="1367.34" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_46" data-name="Безымянный градиент 46" x1="374.23" y1="1400.5" x2="373.19" y2="1367.34" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_47" data-name="Безымянный градиент 47" x1="409.5" y1="1400.48" x2="408.44" y2="1367.32" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a7c9a"/>
+      <stop offset="1" stop-color="#1c394a"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_48" data-name="Безымянный градиент 48" x1="224.09" y1="1419.05" x2="224.81" y2="1344" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#223640"/>
+      <stop offset=".74" stop-color="#304a5b"/>
+      <stop offset="1" stop-color="#182e39"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_49" data-name="Безымянный градиент 49" x1="269.5" y1="1419.05" x2="270.21" y2="1344" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#223640"/>
+      <stop offset=".74" stop-color="#304a5b"/>
+      <stop offset="1" stop-color="#182e39"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_50" data-name="Безымянный градиент 50" x1="314.88" y1="1419.05" x2="315.6" y2="1344" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#223640"/>
+      <stop offset=".74" stop-color="#304a5b"/>
+      <stop offset="1" stop-color="#182e39"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_51" data-name="Безымянный градиент 51" x1="112.42" y1="1469.64" x2="108.16" y2="1335.65" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset=".24" stop-color="#acafae"/>
+      <stop offset=".66" stop-color="#979999"/>
+      <stop offset="1" stop-color="#494849"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_52" data-name="Безымянный градиент 52" x1="109" y1="1364.69" x2="108.13" y2="1337.58" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset=".24" stop-color="#acafae"/>
+      <stop offset=".66" stop-color="#979999"/>
+      <stop offset="1" stop-color="#494849"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_53" data-name="Безымянный градиент 53" x1="109.39" y1="1400.41" x2="109.63" y2="1459.5" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7d531b"/>
+      <stop offset=".2" stop-color="#d49c35"/>
+      <stop offset=".66" stop-color="#f8cf4c"/>
+      <stop offset="1" stop-color="#f3bf3f"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_54" data-name="Безымянный градиент 54" x1="56.47" y1="1353.27" x2="52.47" y2="1344.21" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#515050"/>
+      <stop offset=".55" stop-color="#a8a7a7"/>
+      <stop offset="1" stop-color="#abacac"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_55" data-name="Безымянный градиент 55" x1="159.46" y1="1353.67" x2="164.16" y2="1343.74" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#515050"/>
+      <stop offset=".55" stop-color="#a8a7a7"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_56" data-name="Безымянный градиент 56" x1="390.9" y1="1329.46" x2="390.8" y2="1282.28" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4d221c"/>
+      <stop offset=".55" stop-color="#a3392d"/>
+      <stop offset="1" stop-color="#bc4239"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_57" data-name="Безымянный градиент 57" x1="511.98" y1="1453.47" x2="498.99" y2="1432.62" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2e4b19"/>
+      <stop offset=".55" stop-color="#78a546"/>
+      <stop offset="1" stop-color="#7eac49"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_58" data-name="Безымянный градиент 58" x1="-4447.1" y1="1453.5" x2="-4460.07" y2="1432.65" gradientTransform="translate(-4092.84 -1018) rotate(-180) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2e4b19"/>
+      <stop offset=".55" stop-color="#78a546"/>
+      <stop offset="1" stop-color="#7eac49"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_59" data-name="Безымянный градиент 59" x1="434.32" y1="1455.85" x2="433.91" y2="1293.99" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e6d1ad"/>
+      <stop offset=".55" stop-color="#f0d8b2"/>
+      <stop offset="1" stop-color="#f7e2ba"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_60" data-name="Безымянный градиент 60" x1="463.26" y1="1409.89" x2="463.07" y2="1369.37" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#86a5ba"/>
+      <stop offset=".55" stop-color="#6dabd4"/>
+      <stop offset="1" stop-color="#7cb9dc"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_61" data-name="Безымянный градиент 61" x1="403.73" y1="1401.36" x2="403.62" y2="1376.96" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#86a5ba"/>
+      <stop offset=".55" stop-color="#6dabd4"/>
+      <stop offset="1" stop-color="#7cb9dc"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_62" data-name="Безымянный градиент 62" x1="404.3" y1="1444.55" x2="403.71" y2="1369.85" gradientTransform="translate(0 -1018)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5f2a1a"/>
+      <stop offset=".55" stop-color="#823a1e"/>
+      <stop offset="1" stop-color="#752f17"/>
+    </linearGradient>
+  </defs>
+  <rect class="cls-15" x="100.13" y="97.75" width="337.38" height="305.62"/>
+  <rect class="cls-41" x="93.46" y="81.85" width="350.73" height="15.88"/>
+  <rect class="cls-69" x="130.31" y="63.12" width="115.95" height="18.75"/>
+  <rect class="cls-63" x="115.63" y="119.58" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="115.63" y="119.58" width="22.48" height="6.52"/>
+  <rect class="cls-68" x="150.89" y="119.58" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="150.89" y="119.58" width="22.48" height="6.52"/>
+  <rect class="cls-27" x="186.15" y="119.58" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="186.15" y="119.58" width="22.48" height="6.52"/>
+  <rect class="cls-1" x="221.41" y="119.58" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="221.41" y="119.58" width="22.48" height="6.52"/>
+  <rect class="cls-30" x="256.67" y="119.58" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="256.67" y="119.58" width="22.48" height="6.52"/>
+  <rect class="cls-5" x="291.93" y="119.58" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="291.93" y="119.58" width="22.48" height="6.52"/>
+  <rect class="cls-42" x="327.21" y="119.58" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="327.21" y="119.58" width="22.48" height="6.52"/>
+  <rect class="cls-73" x="362.47" y="119.58" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="362.47" y="119.58" width="22.48" height="6.52"/>
+  <rect class="cls-64" x="397.73" y="119.58" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="397.73" y="119.58" width="22.48" height="6.52"/>
+  <rect class="cls-28" x="115.63" y="165.33" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="115.63" y="165.33" width="22.48" height="6.52"/>
+  <rect class="cls-61" x="150.89" y="165.33" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="150.89" y="165.33" width="22.48" height="6.52"/>
+  <rect class="cls-52" x="186.15" y="165.33" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="186.15" y="165.33" width="22.48" height="6.52"/>
+  <rect class="cls-77" x="221.41" y="165.33" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="221.41" y="165.33" width="22.48" height="6.52"/>
+  <rect class="cls-19" x="256.67" y="165.33" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="256.67" y="165.33" width="22.48" height="6.52"/>
+  <rect class="cls-13" x="291.93" y="165.33" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="291.93" y="165.33" width="22.48" height="6.52"/>
+  <rect class="cls-25" x="327.21" y="165.33" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="327.21" y="165.33" width="22.48" height="6.52"/>
+  <rect class="cls-35" x="362.47" y="165.33" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="362.47" y="165.33" width="22.48" height="6.52"/>
+  <rect class="cls-65" x="397.73" y="165.33" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="397.73" y="165.33" width="22.48" height="6.52"/>
+  <rect class="cls-8" x="115.63" y="211.08" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="115.63" y="211.08" width="22.48" height="6.52"/>
+  <rect class="cls-45" x="150.89" y="211.08" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="150.89" y="211.08" width="22.48" height="6.52"/>
+  <rect class="cls-14" x="186.15" y="211.08" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="186.15" y="211.08" width="22.48" height="6.52"/>
+  <rect class="cls-47" x="221.41" y="211.08" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="221.41" y="211.08" width="22.48" height="6.52"/>
+  <rect class="cls-18" x="256.67" y="211.08" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="256.67" y="211.08" width="22.48" height="6.52"/>
+  <rect class="cls-75" x="291.93" y="211.08" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="291.93" y="211.08" width="22.48" height="6.52"/>
+  <rect class="cls-58" x="327.21" y="211.08" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="327.21" y="211.08" width="22.48" height="6.52"/>
+  <rect class="cls-33" x="362.47" y="211.08" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="362.47" y="211.08" width="22.48" height="6.52"/>
+  <rect class="cls-51" x="397.73" y="211.08" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="397.73" y="211.08" width="22.48" height="6.52"/>
+  <rect class="cls-76" x="115.63" y="256.82" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="115.63" y="256.82" width="22.48" height="6.52"/>
+  <rect class="cls-49" x="150.89" y="256.82" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="150.89" y="256.82" width="22.48" height="6.52"/>
+  <rect class="cls-70" x="186.15" y="256.82" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="186.15" y="256.82" width="22.48" height="6.52"/>
+  <rect class="cls-17" x="221.41" y="256.82" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="221.41" y="256.82" width="22.48" height="6.52"/>
+  <rect class="cls-32" x="256.67" y="256.82" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="256.67" y="256.82" width="22.48" height="6.52"/>
+  <rect class="cls-6" x="291.93" y="256.82" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="291.93" y="256.82" width="22.48" height="6.52"/>
+  <rect class="cls-34" x="327.21" y="256.82" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="327.21" y="256.82" width="22.48" height="6.52"/>
+  <rect class="cls-46" x="362.47" y="256.82" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="362.47" y="256.82" width="22.48" height="6.52"/>
+  <rect class="cls-39" x="397.73" y="256.82" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="397.73" y="256.82" width="22.48" height="6.52"/>
+  <rect class="cls-2" x="115.63" y="302.56" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="115.63" y="302.56" width="22.48" height="6.52"/>
+  <rect class="cls-54" x="150.89" y="302.56" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="150.89" y="302.56" width="22.48" height="6.52"/>
+  <rect class="cls-74" x="362.47" y="302.56" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="362.47" y="302.56" width="22.48" height="6.52"/>
+  <rect class="cls-72" x="397.73" y="302.56" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="397.73" y="302.56" width="22.48" height="6.52"/>
+  <rect class="cls-11" x="115.63" y="348.33" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="115.63" y="348.33" width="22.48" height="6.52"/>
+  <rect class="cls-3" x="150.89" y="348.33" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="150.89" y="348.33" width="22.48" height="6.52"/>
+  <rect class="cls-67" x="362.47" y="348.33" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="362.47" y="348.33" width="22.48" height="6.52"/>
+  <rect class="cls-4" x="397.73" y="348.33" width="22.48" height="35.1"/>
+  <rect class="cls-53" x="397.73" y="348.33" width="22.48" height="6.52"/>
+  <rect class="cls-10" x="191.46" y="299.54" width="156.77" height="23.98"/>
+  <rect class="cls-59" x="206.71" y="323.54" width="35.49" height="79.44"/>
+  <rect class="cls-57" x="252.11" y="323.54" width="35.49" height="79.44"/>
+  <rect class="cls-29" x="297.49" y="323.54" width="35.49" height="79.44"/>
+  <polygon class="cls-55" points="16.58 352.84 16.58 453.87 205.3 453.87 205.3 356.03 109.35 312.2 16.58 352.84"/>
+  <path class="cls-50" d="m95.21,346.25h27.33s2.15-26.69-13.69-26.69-13.63,26.69-13.63,26.69h-.01Z"/>
+  <line class="cls-24" x1="35.49" y1="380.19" x2="182.42" y2="380.19"/>
+  <line class="cls-24" x1="40.35" y1="379.21" x2="40.35" y2="453.24"/>
+  <line class="cls-24" x1="178.76" y1="379.73" x2="178.76" y2="453.24"/>
+  <rect class="cls-44" x="16.11" y="441.65" width="190.92" height="12.71"/>
+  <rect class="cls-60" x="9.76" y="454.36" width="203" height="6.52"/>
+  <rect class="cls-9" x="41.12" y="381.13" width="136.77" height="60.52"/>
+  <polygon class="cls-36" points="108.2 300.95 108.2 313.65 4.68 358.86 0 358.86 0 348.17 108.2 300.95"/>
+  <polygon class="cls-62" points="216.34 348.17 216.09 358.86 211.64 358.86 108.27 313.72 108.27 300.98 216.34 348.17"/>
+  <rect class="cls-56" x="34.52" y="372.56" width="149.94" height="6.67"/>
+  <rect class="cls-16" x="375.66" y="262.77" width="30.38" height="49.51"/>
+  <path class="cls-43" d="m492.51,415.84c0-6.65,9.69-6.32,16.33-6.32s14.04,7.52,14.04,14.16-6.7,13.78-13.33,14.09c-31.45,1.4-17.05-15.32-17.05-21.93h0Z"/>
+  <path class="cls-7" d="m373.75,415.84c0-6.65-9.69-6.32-16.33-6.32s-14.04,7.52-14.04,14.16,6.7,13.78,13.33,14.09c31.4,1.4,17.05-15.32,17.05-21.93h0Z"/>
+  <polyline class="cls-20" points="361.58 331.9 434.65 270.59 506.77 329.68"/>
+  <polyline class="cls-23" points="358.66 326.55 434.65 262.8 509.54 324.65"/>
+  <polygon class="cls-31" points="368.73 331.9 434.19 275.99 499.63 329.68 499.63 437.68 368.73 437.68 368.73 331.9"/>
+  <g class="cls-12">
+    <image class="cls-26" width="145" height="107" transform="translate(305.57 211.89) scale(1.78)" xlink:href="data:image/png;base64,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"/>
+  </g>
+  <rect class="cls-38" x="443.35" y="352.84" width="45.85" height="44.32"/>
+  <rect class="cls-21" x="442.55" y="350.63" width="41.24" height="42.73"/>
+  <rect class="cls-37" x="390.8" y="358.53" width="25.75" height="25.75"/>
+  <rect class="cls-38" x="499.31" y="349.2" width="3.17" height="41.3"/>
+  <rect class="cls-71" x="425.75" y="349.2" width="3.17" height="79.26"/>
+  <rect class="cls-22" x="383.87" y="351.14" width="40.27" height="77.32"/>
+  <circle class="cls-66" cx="415.51" cy="401.68" r="3.76"/>
+  <rect class="cls-48" x="378.27" y="428.46" width="53.98" height="6.55"/>
+  <rect class="cls-48" x="375.76" y="435.03" width="58.96" height="6.55"/>
+  <rect class="cls-40" x="365.55" y="350.01" width="3.5" height="39.55"/>
+</svg>
