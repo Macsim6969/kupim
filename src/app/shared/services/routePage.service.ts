@@ -58,7 +58,14 @@ export class RoutePageService {
     '/tv': 'tv',
     '/vr-headsets': 'vr-headsets',
     '/washing-machine': 'washing-machine',
-    '/real-estate': 'real-estate'
+    '/real-estate': 'real-estate',
+    '/apartment': 'apartment',
+    '/garage': 'garage',
+    '/house': 'house',
+    '/land-lots': 'land-lots',
+    '/restaurant-cafe': 'restaurant-cafe',
+    '/townhouse': 'townhouse',
+    '/warehouse-facilities': 'warehouse-facilities',
   }
 
   get _routeLanguageMap(): { [key: string]: string } {

@@ -55,7 +55,13 @@ const routes: Routes = [
       { path: 'vr-headsets', component: HomeComponent },
       { path: 'washing-machine', component: HomeComponent },
       { path: 'real-estate', component: HomeComponent },
-      { path: 'real-estate', component: HomeComponent },
+      { path: 'apartment', component: HomeComponent },
+      { path: 'garage', component: HomeComponent },
+      { path: 'house', component: HomeComponent },
+      { path: 'land-lots', component: HomeComponent },
+      { path: 'restaurant-cafe', component: HomeComponent },
+      { path: 'townhouse', component: HomeComponent },
+      { path: 'warehouse-facilities', component: HomeComponent },
       {
         path: 'car', component: HomeComponent, children: [
           { path: 'bmw', component: HomeComponent },
