@@ -1,4 +1,4 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { AfterViewInit, ChangeDetectorRef, Component, OnDestroy, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { Subject, takeUntil } from 'rxjs';
 import { ProdInfo } from './shared/interfaces/prodInfo.interface';
@@ -10,23 +10,30 @@ import { StoreService } from '../../shared/services/store.service';
   templateUrl: './prod-info.component.html',
   styleUrl: './prod-info.component.scss'
 })
-export class ProdInfoComponent implements OnInit, OnDestroy {
+export class ProdInfoComponent implements OnInit, AfterViewInit, OnDestroy {
   private destroy$: Subject<void> = new Subject<void>();
   public prodInfo: ProdInfo | string;
   public activePage: string;
   public content: [{ img: string }];
   public isLoading: boolean;
   public isPageRoute: string[] = ['gear', 'main', 'transport', 'electronics', 'real-estate'];
+  public version: string;
 
   constructor(
     private translate: TranslateService,
     private router: Router,
-    private store: StoreService
+    private store: StoreService,
+    private cdRef: ChangeDetectorRef
   ) { }
 
   ngOnInit(): void {
     this.getProdInfoDataFromJson();
     this.streamStoreActivePage();
+    this.version = new Date().getTime().toString();
+  }
+
+  ngAfterViewInit(): void {
+    this.cdRef.detectChanges();
   }
 
   private streamStoreActivePage() {
