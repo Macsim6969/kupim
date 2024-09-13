@@ -38,19 +38,82 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
     this.store._activePage$
       .pipe(takeUntil(this.destroy$))
       .subscribe((data) => {
+        this.isLoading = true;
         if (data) {
-          this.isLoading = true;
           this.translate.stream(data)
             .pipe(takeUntil(this.destroy$))
             .subscribe((translationData) => {
               if (translationData) {
-                timer(300).pipe(take(1)).subscribe(() => {
-                  this.isLoading = false;
-                })
+                this.checkPageLoaded()
+                  .then(() => this.loadImages())
+                  .then(() => {
+                    timer(150).pipe(take(1))
+                      .subscribe(() => {
+                        this.isLoading = false;
+                      })
+                  })
+                  .catch(() => {
+                    this.isLoading = true;
+                  });
               }
             });
         }
       });
+   
+  }
+
+  private loadImages(): Promise<void> {
+    const images = Array.from(document.images) as HTMLImageElement[];
+    const imagePromises = images.map(image => {
+      return new Promise<void>((resolve, reject) => {
+        if (image.complete && image.naturalHeight !== 0) {
+          resolve();
+        } else {
+          image.onload = () => resolve();
+          image.onerror = () => reject();
+        }
+      });
+    });
+
+    return Promise.all(imagePromises).then(() => { });
+  }
+
+  private checkPageLoaded(): Promise<void> {
+    // Ждем загрузки всех изображений и самой страницы
+    return Promise.all([this.checkImagesLoaded(), this.waitForPageLoad()])
+      .then(() => {
+      });
+  }
+
+  private checkImagesLoaded() {
+    const images = Array.from(document.images);
+    const imageLoadPromises = images.map((img) => {
+      return new Promise<void>((resolve, reject) => {
+        if (img.complete && img.naturalHeight !== 0) {
+          resolve();
+        } else {
+          img.addEventListener('load', () => resolve());
+          img.addEventListener('error', () => reject(`Ошибка загрузки изображения: ${img.src}`));
+        }
+      });
+    });
+
+    return Promise.all(imageLoadPromises)
+      .then(() => {
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  }
+
+  private waitForPageLoad(): Promise<void> {
+    return new Promise<void>((resolve) => {
+      if (document.readyState === 'complete') {
+        resolve();
+      } else {
+        window.addEventListener('load', () => resolve());
+      }
+    });
   }
 
   private setUpQueryParamsData() {

@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
 })
 export class ChoiceProductsComponent implements OnInit, OnDestroy {
   private destroy$: Subject<void> = new Subject<void>();
-  public choiceProdData: ChoiceProductsInterface;
+  public choiceProdData: ChoiceProductsInterface | string;
   constructor(
     private translate: TranslateService,
     private router: Router

@@ -37,11 +37,7 @@ export class ProdInfoComponent implements OnInit, OnDestroy {
   private getProdInfoDataFromJson() {
     this.translate.stream('prodInfo').pipe(takeUntil(this.destroy$))
       .subscribe((data: ProdInfo | string) => {
-        if (data === 'prodInfo') {
-          this.prodInfo = 'prodInfo';
-        } else {
-          this.prodInfo = data;
-        }
+        this.prodInfo = data;
       })
   }
 
