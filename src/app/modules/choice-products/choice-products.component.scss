@@ -47,14 +47,26 @@
 
       flex-wrap: wrap;
 
-      .transport_inner_view {
-        width: 300px;
-        transition: 0.3s ease;
-        cursor: pointer;
+      button {
+        outline: none;
+        border: none;
+        background-color: transparent;
 
         &:hover {
           transform: scale(1.08);
         }
+
+        &.hide_anim {
+          &:hover {
+            transform: none;
+            cursor: auto;
+          }
+        }
+
+      }
+
+      .transport_inner_view {
+        width: 300px;
 
         @media (max-width: 720px) {
           width: 220px;

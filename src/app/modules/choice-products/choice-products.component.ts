@@ -3,6 +3,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { Subject, takeUntil } from 'rxjs';
 import { ChoiceProductsInterface } from './shared/choiceProducts.interface';
 import { Router } from '@angular/router';
+import { StoreService } from '../../shared/services/store.service';
 
 @Component({
   selector: 'app-choice-products',
@@ -12,13 +13,17 @@ import { Router } from '@angular/router';
 export class ChoiceProductsComponent implements OnInit, OnDestroy {
   private destroy$: Subject<void> = new Subject<void>();
   public choiceProdData: ChoiceProductsInterface | string;
+  public isPageRoute: string[] = ['gear', 'main', 'transport', 'electronics', 'real-estate'];
+  public activePage: string;
   constructor(
     private translate: TranslateService,
-    private router: Router
+    private router: Router,
+    private store: StoreService
   ) { }
 
   ngOnInit(): void {
     this.streamChoiceProductsDataFromJson();
+    this.streamStoreActivePage();
   }
 
   private streamChoiceProductsDataFromJson() {
@@ -26,6 +31,12 @@ export class ChoiceProductsComponent implements OnInit, OnDestroy {
       .subscribe((data: ChoiceProductsInterface) => {
         this.choiceProdData = data;
       })
+  }
+
+  private streamStoreActivePage() {
+    this.store._activePage$.subscribe((data: string) => {
+      this.activePage = data;
+    });
   }
 
   public openPage(url: string) {
