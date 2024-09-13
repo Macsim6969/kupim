@@ -19,11 +19,13 @@ import { CommonModule } from "@angular/common";
 import { SidebarComponent } from "../components/sidebar/sidebar.component";
 import { TranslateService } from "@ngx-translate/core";
 import { TranslateModule } from "@ngx-translate/core";
+import { LoadingComponent } from "../components/loading/loading.component";
 
 
 @NgModule({
   declarations: [
-    SidebarComponent
+    SidebarComponent,
+    LoadingComponent
   ],
   imports: [
     CommonModule,
@@ -61,7 +63,8 @@ import { TranslateModule } from "@ngx-translate/core";
     MatSliderModule,
     MatStepperModule,
     SidebarComponent,
-    TranslateModule
+    TranslateModule,
+    LoadingComponent
   ]
 })
 

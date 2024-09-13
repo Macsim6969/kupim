@@ -79,8 +79,7 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [
-    HomeComponent,
-    LoadingComponent
+    HomeComponent
   ],
   imports: [
     CommonModule,

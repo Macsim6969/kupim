@@ -4,12 +4,16 @@
             <span class="info_title">{{prodInfo['title']}}</span>
             <span class="info_undelog">{{prodInfo['text']}}</span>
         </h2>
-        <div class="prod_info_content">
+        <div class="prod_info_content" *ngIf="content; else loading">
             <button class="btn" [ngClass]="{'hide_anim': !isPageRoute.includes(activePage)}"
                 [disabled]="!isPageRoute.includes(activePage)" *ngFor=" let image of
                 prodInfo['content']" (click)="openPage(image.route)">
                 <img class="car_find_img" [src]="image.img" alt="">
             </button>
         </div>
+        <ng-template #loading>
+            <app-loading></app-loading>
+        </ng-template>
+        
     </div>
 </section>

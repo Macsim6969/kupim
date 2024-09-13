@@ -14,7 +14,8 @@ export class ProdInfoComponent implements OnInit, OnDestroy {
   private destroy$: Subject<void> = new Subject<void>();
   public prodInfo: ProdInfo | string;
   public activePage: string;
-
+  public content: [{ img: string }];
+  public isLoading: boolean;
   public isPageRoute: string[] = ['gear', 'main', 'transport', 'electronics', 'real-estate'];
 
   constructor(
@@ -37,6 +38,13 @@ export class ProdInfoComponent implements OnInit, OnDestroy {
   private getProdInfoDataFromJson() {
     this.translate.stream('prodInfo').pipe(takeUntil(this.destroy$))
       .subscribe((data: ProdInfo | string) => {
+        console.log(data);
+        if (data['content']) {
+          this.content = data['content'];
+          this.isLoading = false;
+        } else {
+          this.isLoading = true;
+        }
         this.prodInfo = data;
       })
   }
