@@ -1,7 +1,6 @@
 {
   "key": [
-    "yes",
-    "prod"
+    "yes"
   ],
   "dashboard": {
     "state": "State of Florida",
@@ -11,6 +10,29 @@
     "image": "/assets/img/car/car_main.png",
     "bgImage": "car",
     "class": "car_text"
+  },
+  "choiceProducts": {
+    "title": "Select the transport",
+    "text": "you want to sell",
+    "products": [
+      {
+        "img": "/assets/img/car/After-an--accident.png"
+
+      },
+      {
+        "img": "/assets/img/car/Credit.png"
+      },
+      {
+        "img": "/assets/img/car/Legal-entity.png"
+
+      },
+      {
+        "img": "/assets/img/car/New-Whole.png"
+      },
+      {
+        "img": "/assets/img/car/Taxi.png"
+      }
+    ]
   },
   "prodInfo": {
     "title": "Car",
@@ -34,7 +56,7 @@
     ]
   },
   "easySteps": {
-    "title": "3 simple steps",
+    "title": "3 simple steps", 
     "text": "to sell a laptop fast",
     "style": "car",
     "contentStep1": {
