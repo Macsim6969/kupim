@@ -67,6 +67,7 @@
 
       .transport_inner_view {
         width: 300px;
+        height: auto;
 
         @media (max-width: 720px) {
           width: 220px;

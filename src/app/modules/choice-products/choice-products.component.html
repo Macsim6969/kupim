@@ -3,8 +3,13 @@
     <div class="choice_trans_log">{{choiceProdData['title']}}</div>
     <div class="choice_trans_undelog">{{choiceProdData['text']}}</div>
     <div class="choice_transpot_inner">
-      <button   [ngClass]="{'hide_anim': !isPageRoute.includes(activePage)}" [disabled]="!isPageRoute.includes(activePage)" *ngFor="let prod of choiceProdData['products']" (click)="openPage(prod.url)"><img class="transport_inner_view"
-          [src]="prod.img" [alt]="prod.title"></button>
+      <button [ngClass]="{'hide_anim': !isPageRoute.includes(activePage)}"
+        [disabled]="!isPageRoute.includes(activePage)" *ngFor="let prod of choiceProdData['products']"
+        (click)="openPage(prod.url)">
+        <mat-icon class="transport_inner_view" [svgIcon]="prod.title"></mat-icon>
+        <!-- <img class="transport_inner_view"
+          [src]="prod.img" [alt]="prod.title"> -->
+      </button>
     </div>
   </div>
 </div>

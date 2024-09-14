@@ -1,7 +1,7 @@
 <section *ngIf="!isLoading;else loading">
   <app-welcome></app-welcome>
-  <app-choice-products></app-choice-products>
-  <app-prod-info ></app-prod-info>
+  <app-choice-products  *ngIf="key && key.includes('choice')"></app-choice-products>
+  <app-prod-info  *ngIf="key && key.includes('prod')"></app-prod-info>
   <app-easy-steps></app-easy-steps>
   <app-need-docs *ngIf="key && key.includes('yes')"></app-need-docs>
   <app-about-info></app-about-info>

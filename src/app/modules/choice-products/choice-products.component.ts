@@ -4,6 +4,7 @@ import { Subject, take, takeUntil, timer } from 'rxjs';
 import { ChoiceProductsInterface } from './shared/choiceProducts.interface';
 import { Router } from '@angular/router';
 import { StoreService } from '../../shared/services/store.service';
+import { ChoiceIconService } from './shared/services/ChoiceIcon.service';
 
 @Component({
   selector: 'app-choice-products',
@@ -18,7 +19,8 @@ export class ChoiceProductsComponent implements OnInit, OnDestroy {
   constructor(
     private translate: TranslateService,
     private router: Router,
-    private store: StoreService
+    private store: StoreService,
+    private ChoiceIconService: ChoiceIconService
   ) { }
 
   ngOnInit(): void {
@@ -40,14 +42,7 @@ export class ChoiceProductsComponent implements OnInit, OnDestroy {
   }
 
   public openPage(url: string) {
-    this.router.navigate([url], { queryParamsHandling: 'merge' }).then(() => {
-      // timer(500).pipe(take(1)).subscribe(() => {
-      //   window.scrollTo({
-      //     top: this.store._OldScrollY,
-      //     behavior: 'smooth'
-      //   });
-      // })
-    });
+    this.router.navigate([url], { queryParamsHandling: 'merge' }).then();
   }
 
   ngOnDestroy(): void {
