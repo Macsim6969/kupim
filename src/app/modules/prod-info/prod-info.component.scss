@@ -90,9 +90,9 @@
       }
     }
 
-    img {
+    .car_find_img {
       width: 280px;
-      height: 100%;
+      height: auto;
       object-fit: cover;
 
       @media (max-width: 720px) {

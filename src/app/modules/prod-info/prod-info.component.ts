@@ -4,6 +4,7 @@ import { Subject, take, takeUntil, timer } from 'rxjs';
 import { ProdInfo } from './shared/interfaces/prodInfo.interface';
 import { Router } from '@angular/router';
 import { StoreService } from '../../shared/services/store.service';
+import { ProdIconService } from './shared/services/ChoiceIcon.service';
 
 @Component({
   selector: 'app-prod-info',
@@ -23,7 +24,8 @@ export class ProdInfoComponent implements OnInit, AfterViewInit, OnDestroy {
     private translate: TranslateService,
     private router: Router,
     private store: StoreService,
-    private cdRef: ChangeDetectorRef
+    private cdRef: ChangeDetectorRef,
+    private ProdIconService: ProdIconService
   ) { }
 
   ngOnInit(): void {
@@ -56,14 +58,7 @@ export class ProdInfoComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   public openPage(route: string) {
-    this.router.navigate([route], { queryParamsHandling: 'merge' }).then(() => {
-      // timer(500).pipe(take(1)).subscribe(() => {
-      //   window.scrollTo({
-      //     top: this.store._OldScrollY,
-      //     behavior: 'smooth'
-      //   });
-      // })
-    });
+    this.router.navigate([route], { queryParamsHandling: 'merge' }).then();
 
 
   }

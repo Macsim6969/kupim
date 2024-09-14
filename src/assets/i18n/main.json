@@ -14,31 +14,31 @@
     "text": "what you wanna sell",
     "content": [
       {
-        "img": "/assets/img/main_page/Transport.svg",
+        "img": "Transport",
         "route": "/transport"
       },
       {
-        "img": "/assets/img/main_page/Furniture.svg",
+        "img": "Furniture",
         "route": ""
       },
       {
-        "img": "/assets/img/main_page/Electronics.svg",
+        "img": "Electronics",
         "route": "/electronics"
       },
       {
-        "img": "/assets/img/main_page/Real_estate.svg",
+        "img": "Real_estate",
         "route": "/real-estate"
       },
       {
-        "img": "/assets/img/main_page/Estate.svg",
+        "img": "Estate",
         "route": ""
       },
       {
-        "img": "/assets/img/main_page/Gear.svg",
+        "img": "Gear",
         "route": "/gear"
       },
       {
-        "img": "/assets/img/main_page/Others.svg",
+        "img": "Others",
         "route": "/others"
       }
     ]
