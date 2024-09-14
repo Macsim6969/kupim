@@ -33,12 +33,12 @@ export class ChoiceMarkCarComponent implements OnInit, OnDestroy {
 
   public openPage(url: string) {
     this.router.navigate([url], { queryParamsHandling: 'merge' }).then(() => {
-      timer(1000).pipe(take(1)).subscribe(() => {
-        window.scrollTo({
-          top: this.store._ScrollY$.getValue(),
-          behavior: 'smooth'
-        });
-      })
+      // timer(500).pipe(take(1)).subscribe(() => {
+      //   window.scrollTo({
+      //     top: this.store._OldScrollY,
+      //     behavior: 'smooth'
+      //   });
+      // })
     });
   }
 

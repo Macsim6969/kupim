@@ -58,6 +58,12 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
                     timer(150).pipe(take(1))
                       .subscribe(() => {
                         this.isLoading = false;
+
+                        window.scrollTo({
+                          top: this.store._ScrollY$.getValue(),
+                          behavior: 'smooth'
+                        });
+
                       })
                   })
                   .catch(() => {
