@@ -1,6 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
-import { Subject, takeUntil } from 'rxjs';
+import { Subject, take, takeUntil, timer } from 'rxjs';
 import { ChoiceProductsInterface } from './shared/choiceProducts.interface';
 import { Router } from '@angular/router';
 import { StoreService } from '../../shared/services/store.service';
@@ -41,10 +41,12 @@ export class ChoiceProductsComponent implements OnInit, OnDestroy {
 
   public openPage(url: string) {
     this.router.navigate([url], { queryParamsHandling: 'merge' }).then(() => {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
+      timer(1000).pipe(take(1)).subscribe(() => {
+        window.scrollTo({
+          top: this.store._ScrollY$.getValue(),
+          behavior: 'smooth'
+        });
+      })
     });
   }
 

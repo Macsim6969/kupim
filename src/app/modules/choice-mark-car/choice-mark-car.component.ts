@@ -2,7 +2,8 @@ import { MarkCarInterface } from './shared/mark-car.interface';
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
-import { Subject, takeUntil } from 'rxjs';
+import { Subject, take, takeUntil, timer } from 'rxjs';
+import { StoreService } from '../../shared/services/store.service';
 
 @Component({
   selector: 'app-choice-mark-car',
@@ -15,7 +16,8 @@ export class ChoiceMarkCarComponent implements OnInit, OnDestroy {
 
   constructor(
     private translate: TranslateService,
-    private router: Router
+    private router: Router,
+    private store: StoreService
   ) { }
 
   ngOnInit(): void {
@@ -31,10 +33,12 @@ export class ChoiceMarkCarComponent implements OnInit, OnDestroy {
 
   public openPage(url: string) {
     this.router.navigate([url], { queryParamsHandling: 'merge' }).then(() => {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
+      timer(1000).pipe(take(1)).subscribe(() => {
+        window.scrollTo({
+          top: this.store._ScrollY$.getValue(),
+          behavior: 'smooth'
+        });
+      })
     });
   }
 

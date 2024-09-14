@@ -1,6 +1,6 @@
 import { AfterViewInit, ChangeDetectorRef, Component, OnDestroy, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
-import { Subject, takeUntil } from 'rxjs';
+import { Subject, take, takeUntil, timer } from 'rxjs';
 import { ProdInfo } from './shared/interfaces/prodInfo.interface';
 import { Router } from '@angular/router';
 import { StoreService } from '../../shared/services/store.service';
@@ -45,7 +45,6 @@ export class ProdInfoComponent implements OnInit, AfterViewInit, OnDestroy {
   private getProdInfoDataFromJson() {
     this.translate.stream('prodInfo').pipe(takeUntil(this.destroy$))
       .subscribe((data: ProdInfo | string) => {
-        console.log(data);
         if (data['content']) {
           this.content = data['content'];
           this.isLoading = false;
@@ -58,10 +57,12 @@ export class ProdInfoComponent implements OnInit, AfterViewInit, OnDestroy {
 
   public openPage(route: string) {
     this.router.navigate([route], { queryParamsHandling: 'merge' }).then(() => {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
+      timer(1000).pipe(take(1)).subscribe(() => {
+        window.scrollTo({
+          top: this.store._ScrollY$.getValue(),
+          behavior: 'smooth'
+        });
+      })
     });
 
 

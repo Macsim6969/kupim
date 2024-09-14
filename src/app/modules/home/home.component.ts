@@ -1,4 +1,4 @@
-import { AfterViewInit, ChangeDetectorRef, Component, OnDestroy, OnInit } from '@angular/core';
+import { AfterViewInit, ChangeDetectorRef, Component, HostListener, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Subject, take, takeUntil, timer } from 'rxjs';
 import { Location } from '@angular/common';
@@ -24,9 +24,17 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
     private store: StoreService
   ) { }
 
+  @HostListener('window:scroll', ['$event'])
+  onScroll() {
+    if (window.scrollY !== 0) {
+      this.store._ScrollY = window.scrollY;
+    };
+  }
+
   ngOnInit(): void {
     this.checkToChangePage();
     this.setUpQueryParamsData();
+    this.onScroll();
   }
 
   ngAfterViewInit(): void {
@@ -59,7 +67,7 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
             });
         }
       });
-   
+
   }
 
   private loadImages(): Promise<void> {

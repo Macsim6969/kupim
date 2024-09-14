@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { take } from 'rxjs';
+import { take, timer } from 'rxjs';
+import { StoreService } from '../../shared/services/store.service';
 
 @Component({
   selector: 'app-footer',
@@ -12,7 +13,8 @@ export class FooterComponent implements OnInit {
   public date: number = new Date().getFullYear();
   constructor(
     private route: ActivatedRoute,
-    private rotuer: Router
+    private rotuer: Router,
+    private store: StoreService
   ) { }
 
   ngOnInit(): void {
@@ -25,10 +27,12 @@ export class FooterComponent implements OnInit {
 
   public openPage(url: string) {
     this.rotuer.navigate([url], { queryParamsHandling: 'merge' }).then(() => {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
+      timer(1000).pipe(take(1)).subscribe(() => {
+        window.scrollTo({
+          top: this.store._ScrollY$.getValue(),
+          behavior: 'smooth'
+        });
+      })
     });
   }
 
