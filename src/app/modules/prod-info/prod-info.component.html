@@ -8,8 +8,8 @@
             <button class="btn" [ngClass]="{'hide_anim': !isPageRoute.includes(activePage)}"
                 [disabled]="!isPageRoute.includes(activePage)" *ngFor=" let image of
                 prodInfo['content']" (click)="openPage(image.route)">
-                 <mat-icon class="car_find_img" [svgIcon]="image.img"></mat-icon>
-                <!-- <img class="car_find_img"[src]="image.img + '?v=' + version" alt=""> -->
+                 <!-- <mat-icon class="car_find_img" [svgIcon]="image.img"></mat-icon> -->
+                <img class="car_find_img"[src]="image.img + '?v=' + version" alt="">
             </button>
         </div>
         <ng-template #loading>

@@ -29,7 +29,7 @@ export class ChoiceIconService {
 
     matIconRegistry.addSvgIcon('Helicopter', domSanitizer.bypassSecurityTrustResourceUrl('/assets/img/transport/Helicopter.svg'));
 
-    matIconRegistry.addSvgIcon('Wheelchair', domSanitizer.bypassSecurityTrustResourceUrl('/assets/img/transport/Wheelchair.svg'));
+  matIconRegistry.addSvgIcon('Wheelchair', domSanitizer.bypassSecurityTrustResourceUrl('/assets/img/transport/Wheelchair.svg'));
 
     matIconRegistry.addSvgIcon('Other', domSanitizer.bypassSecurityTrustResourceUrl('/assets/img/main_page/other.svg'));
 

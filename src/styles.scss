@@ -52,3 +52,18 @@ body {
   margin: 0;
   font-family: "GothamPro", sans-serif;
 }
+
+::ng-deep {
+
+  svg,
+  defs,
+  g,
+  line,
+  polyline,
+  circle,
+  path,
+  .mat-icon {
+    fill: currentColor;
+  }
+
+}
