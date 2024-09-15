@@ -4,7 +4,6 @@ import { Subject, take, takeUntil, timer } from 'rxjs';
 import { ProdInfo } from './shared/interfaces/prodInfo.interface';
 import { Router } from '@angular/router';
 import { StoreService } from '../../shared/services/store.service';
-import { ProdIconService } from './shared/services/ChoiceIcon.service';
 
 @Component({
   selector: 'app-prod-info',
@@ -24,8 +23,7 @@ export class ProdInfoComponent implements OnInit, AfterViewInit, OnDestroy {
     private translate: TranslateService,
     private router: Router,
     private store: StoreService,
-    private cdRef: ChangeDetectorRef,
-    private ProdIconService: ProdIconService
+    private cdRef: ChangeDetectorRef
   ) { }
 
   ngOnInit(): void {

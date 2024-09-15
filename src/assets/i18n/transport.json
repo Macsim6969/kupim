@@ -1,5 +1,5 @@
 {
-  "key": "choice",
+  "key": ["choice"],
   "dashboard": {
     "state": "State of Florida",
     "title": "Scroll down <span>to select your vehicle</span>",

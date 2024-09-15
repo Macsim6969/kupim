@@ -1,30 +1,29 @@
 {
   "key": [
-    "yes"
+    "yes",
+    "choice"
   ],
   "dashboard": {
     "state": "State of Florida",
-    "title": "Scroll down<span>to see what we buy</span>",
+    "title": "Sell my car",
     "location": "(All States)",
-    "description": "We'll buy your car at the best price!",
+    "description": "Quick cash for your car!",
     "image": "/assets/img/car/car_main.png",
     "bgImage": "car",
     "class": "car_text"
   },
   "choiceProducts": {
-    "title": "Select the transport",
-    "text": "you want to sell",
+    "title": "Сar that we purchase",
+    "text": "across all states in the U.S.",
     "products": [
       {
         "img": "/assets/img/car/After-an--accident.png"
-
       },
       {
         "img": "/assets/img/car/Credit.png"
       },
       {
         "img": "/assets/img/car/Legal-entity.png"
-
       },
       {
         "img": "/assets/img/car/New-Whole.png"
@@ -35,8 +34,8 @@
     ]
   },
   "easySteps": {
-    "title": "3 simple steps", 
-    "text": "to sell a laptop fast",
+    "title": "3 easy steps",
+    "text": "to appraise your vehicle online  ",
     "style": "car",
     "contentStep1": {
       "step": "Step 1",
@@ -53,48 +52,48 @@
     }
   },
   "need-docs": {
-    "title": "To sell your car, you will need",
+    "title": "To sell your car, you will need:",
     "docs": [
       {
-        "title": "Passport of a citizen of Ukraine",
+        "title": "Vehicle title",
         "img": "/assets/img/motorbike/passport.svg"
       },
       {
-        "title": "Taxpayer Identification Number",
+        "title": "Valid driver's license",
         "img": "/assets/img/motorbike/taxpayer_number.svg"
       },
       {
-        "title": "Vehicle registration certificate",
+        "title": "Current vehicle registration",
         "img": "/assets/img/motorbike/motorbike.svg"
       }
     ],
-    "need-docs-asq": "Additional paperwork will be required if the auto...",
+    "need-docs-asq": "Additional paperwork will be required if the auto is:",
     "listAsq": [
       {
-        "title": "in another name",
-        "content": "- General power of attorney for the right to sell a car"
+        "title": "Credited:",
+        "content": "<ul><li>Loan payoff information</li><li>Account number and lender's contact information</li></ul>"
       },
       {
-        "title": "credited",
-        "content": "- Credit agreement with the Bank<br/><br/>- Certificate of debt balance (date of issuance of the certificate not later than 4 days before the sale)"
+        "title": "Corporate:",
+        "content": "<ul><li>Articles of incorporation or business license</li><li>Letter authorizing the sale on company letterhead</li><li>Employer Identification Number (EIN)</li></ul>"
       },
       {
-        "title": "corporate",
-        "content": "- Certificate of state registration of a legal entity (certificate of entry in the Unified State Register of Legal Entities for organizations registered before 2002)<br/>- Certificate of registration with the tax authority<br/>- Extract from the Unified State Register of Legal Entities (USRYUL), obtained from the Federal Tax Service, with up-to-date data at the time of contract conclusion<br/>- Articles of Association<br/>- Licenses for the right to carry out the relevant type of activity (if such licenses are required for the conclusion of the contract in accordance with the legislation of the Russian Federation or a foreign state)<br/>- Certificate of self-regulatory organization (SRO) on admission to perform works (if available)<br/>- Document confirming the powers of the representative of the legal entity, including power of attorney, seal<br/>- Documents confirming the powers of the sole executive body<br/>- Documents confirming that the legal entity complies with"
+        "title": "Younger than 10 years old:",
+        "content": "<ul><li>Odometer disclosure statement</li></ul>"
       },
       {
-        "title": "sole proprietor",
-        "content": "- General power of attorney for the right to sell a car<br/>- TAXPAYER IDENTIFICATION NUMBER<br/>- Notification from the tax inspectorate on the<br/>- application of taxation<br/>- OGRNIPv<br/>- Order on appointment of the chief accountant (if the chief accountant signs closing documents)<br/>- Order on appointment of the General Director<br/>- Seal of the organization<br/>- Legal Entity Card"
+        "title": "Other scenarios that may require additional documentation:",
+        "content": "<ul><li>Leased: Lease buyout information and lessor's permission</li> <li>Co-owned: Signatures from all owners listed on the title</li> <li>Inherited: Probate court documents or letters testamentary</li> <li>Out-of-state: Proof of vehicle inspection and emissions testing</li> <li>Salvage title: Salvage certificate and repair documentation</li> <li>Modified: Documentation of significant modifications or aftermarket parts</li> <li>Classic or antique: Historical vehicle registration (if applicable)</li></ul>"
       }
     ]
   },
   "aboutInfo": {
-    "title": "We buy back trailer in Florida",
-    "text": "and all the states",
+    "title": "Why we are",
+    "text": "your best bet",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
-        "title": "Buy transportation in any condition"
+        "title": "We buy сar in any condition"
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
@@ -106,7 +105,7 @@
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "Scooters for sale on commission"
+        "title": "Trade-In available (exchange for a new vehicle)"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
@@ -179,21 +178,21 @@
     "title": "Customer Reviews",
     "feedback": [
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Just sold my Toyota Tundra to these folks in Tampa. They were straight shooters, no BS. Got a fair price and the whole deal was wrapped up in no time. Smooth sailing all the way. Only wish they had a coffee machine in the office, hence the 4 stars.",
+        "name": "Jake S.",
+        "prod": "(Sold the Toyota Tundra)",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Had a fender bender with my BMW 3 Series. These guys in Miami came through big time! Their offer was way better than I expected for a banged-up ride. The process was slick, and they handled all the paperwork. Couldn't be happier!",
+        "name": "Emily R.",
+        "prod": "(Sold the BMW 3 Series)",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "After years of Uber driving, my car was on its last legs. These folks gave me a decent price considering the mileage. The transaction was quick and professional. Appreciate the no-nonsense approach and fair valuation.",
+        "name": "Michael T.",
+        "prod": "(Sold the Toyota Camry)",
         "feedbackMap": "Review from Google Maps"
       }
     ],
@@ -204,28 +203,28 @@
     "descr": "We're Happy to Help",
     "listAsq": [
       {
-        "title": "What kind of motorcycles do you buy?",
-        "content": "Absolutely any: motorcycles, mopeds, scooters, motorcycles, ATVs. Mark, year of manufacture, mileage, condition do not matter. We buy out credit, as well as with fines. We work with individuals and legal entities, buy out corporate motoparks."
+        "title": "What types of cars do you buy?",
+        "content": "Our company specializes in purchasing all types of vehicles, from everyday sedans to luxury sports cars. We buy cars, trucks, SUVs, vans, and everything in between, regardless of their condition or history. Whether your vehicle is brand new, gently used, or has seen better days, we're interested. We even purchase cars with complex histories, including accident-involved, repossessed, flood-damaged, or those with legal complications.<br/>We are interested in all makes and models."
       },
       {
-        "title": "Can I leave the bike for you to sell?",
-        "content": "Yes. We will put your motorized vehicle on commission at our showroom."
+        "title": "How do you determine the car's value?",
+        "content": "Our online valuation process is streamlined for your convenience. Simply contact us through any messaging platform (Telegram, WhatsApp, Facebook Messenger) or social network (Instagram, Facebook) and send us photos along with a brief description (specifications, details, modifications). Within 5-7 minutes, you'll receive a competitive offer and a step-by-step plan for a quick sale."
       },
       {
-        "title": "You're buying up undocumented?",
-        "content": "Yes, we do. We accept motorcycles without documents and in any condition. We will pick up faulty transportation from anywhere in Kiev and Ukraine."
+        "title": "Can you buy my financed car?",
+        "content": "Absolutely! We specialize in handling complex financial situations. Whether your car is financed, leased, or even if you're upside down on your loan, we have solutions. Our team of financial experts can work with your lender to pay off your loan and still put cash in your pocket."
       },
       {
-        "title": "What kind of information do you need?",
-        "content": "Before the sale, be prepared to provide the following information about your vehicle: make, model, VIN or frame number, year of manufacture on the PTS, the name of the organization (issued the PTS), whether it was registered ON YOU, as the owner of the motorcycle, mileage, your assessment of the condition of the engine and gearbox, what parts are painted or replaced by non-original, whether some tuning is installed."
+        "title": "Do you purchase damaged or non-running cars?",
+        "content": "Yes, we buy cars in any condition. From totaled vehicles to cars that won't start, we see value where others don't. Our nationwide network of buyers allows us to find the best use for every vehicle, ensuring you get a fair price regardless of its condition."
       },
       {
-        "title": "I want to sell for as much as possible!",
-        "content": "To increase the buyback price by 10%, wash the motorcycle, bring a second set of tires and keys. In 90% of cases, the valuation will be higher than other motorcycle buybacks."
+        "title": "How quickly can I get paid?",
+        "content": "We pride ourselves on our same-day payment guarantee. Once we agree on a price, we can complete the transaction and have cash in your hand within hours. We offer various payment methods to suit your preferences, including instant bank transfers, cashier's checks, or even cash for certain transactions."
       },
       {
-        "title": "I'll sell the scooter for more!",
-        "content": "No problem! We just want to save you from wasting your time. Pre-sale preparation, photo shoots, registration on profile sites, paying for advertisements, answering the phone and traveling to meetings at inconvenient times - this is the least you will have to face."
+        "title": "Do you operate throughout the entire United States?",
+        "content": "While our physical network doesn't cover every corner of the U.S., our innovative approach allows us to serve customers nationwide. We utilize a combination of local agents, partner networks, and cutting-edge logistics solutions to ensure we can buy your car no matter where you're located. For most locations, we can have an appraiser at your door within 24-48 hours."
       }
     ],
     "listBottom1": {

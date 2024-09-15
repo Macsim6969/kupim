@@ -6,9 +6,9 @@
       <button [ngClass]="{'hide_anim': !isPageRoute.includes(activePage)}"
         [disabled]="!isPageRoute.includes(activePage)" *ngFor="let prod of choiceProdData['products']"
         (click)="openPage(prod.url)">
-        <mat-icon class="transport_inner_view" [svgIcon]="prod.title"></mat-icon>
-        <!-- <img class="transport_inner_view"
-          [src]="prod.img" [alt]="prod.title"> -->
+        <!-- <mat-icon class="transport_inner_view" [svgIcon]="prod.title"></mat-icon> -->
+        <img class="transport_inner_view"
+          [src]="prod.img" [alt]="prod.title">
       </button>
     </div>
   </div>

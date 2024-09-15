@@ -4,7 +4,6 @@ import { Subject, take, takeUntil, timer } from 'rxjs';
 import { ChoiceProductsInterface } from './shared/choiceProducts.interface';
 import { Router } from '@angular/router';
 import { StoreService } from '../../shared/services/store.service';
-import { ChoiceIconService } from './shared/services/ChoiceIcon.service';
 
 @Component({
   selector: 'app-choice-products',
@@ -19,8 +18,7 @@ export class ChoiceProductsComponent implements OnInit, OnDestroy {
   constructor(
     private translate: TranslateService,
     private router: Router,
-    private store: StoreService,
-    private ChoiceIconService: ChoiceIconService
+    private store: StoreService
   ) { }
 
   ngOnInit(): void {
