@@ -15,57 +15,57 @@
     "products": [
       {
         "url": "/car",
-        "img": "/assets/img/main_page/car.svg",
+        "img": "/assets/img/transport/Car.png",
         "title": "Laptop"
       },
       {
         "url": "/bike",
-        "img": "/assets/img/main_page/moto.svg",
+        "img": "/assets/img/transport/Moto.png",
         "title": "Bike"
       },
       {
         "url": "/bicycle",
-        "img": "/assets/img/main_page/bike.svg",
+        "img": "/assets/img/transport/Bicycle.png",
         "title": "Bicycle"
       },
       {
         "url": "/kick_skooter",
-        "img": "/assets/img/main_page/scooter.svg",
+        "img": "/assets/img/transport/Scooter.png",
         "title": "Kick Skooter"
       },
       {
         "url": "/boat",
-        "img": "/assets/img/main_page/boat.svg",
+        "img": "/assets/img/transport/Boat.png",
         "title": "Boat"
       },
       {
         "url": "/tractor",
-        "img": "/assets/img/main_page/tractor.svg",
+        "img": "/assets/img/transport/Tractor.png",
         "title": "Tractor"
       },
       {
         "url": "/trailer",
-        "img": "/assets/img/main_page/trailer.svg",
+        "img": "/assets/img/transport/Trailer.png",
         "title": "Trailer"
       },
       {
         "url": "/airplane",
-        "img": "/assets/img/transport/Airplane.svg",
+        "img": "/assets/img/transport/Airplane.png",
         "title": "Airplane"
       },
       {
         "url": "/helicopter",
-        "img": "/assets/img/transport/Helicopter.svg",
+        "img": "/assets/img/transport/Helicopter.png",
         "title": "Helicopter"
       },
       {
         "url": "/wheelchair",
-        "img": "/assets/img/transport/Wheelchair.svg",
+        "img": "/assets/img/transport/Wheelchair.png",
         "title": "Wheelchair"
       },
       {
         "url": "/others",
-        "img": "/assets/img/main_page/other.svg",
+        "img": "/assets/img/main_page/Others.png",
         "title": "Other"
       }
     ]
