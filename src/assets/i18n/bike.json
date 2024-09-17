@@ -1,5 +1,8 @@
 {
-  "key": ["motorbike", "prod"],
+  "key": [
+    "motorbike",
+    "prod"
+  ],
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell my bike",
@@ -14,19 +17,19 @@
     "text": "across all states in the U.S.",
     "content": [
       {
-        "img": "/assets/img/motorbike/after_an_accident.svg"
+        "img": "/assets/img/motorbike/after_an_accident.png"
       },
       {
-        "img": "/assets/img/motorbike/credit.svg"
+        "img": "/assets/img/motorbike/Credit.png"
       },
       {
-        "img": "/assets/img/motorbike/motorcycle.svg"
+        "img": "/assets/img/motorbike/motorcycle.png"
       },
       {
-        "img": "/assets/img/motorbike/scooter.svg"
+        "img": "/assets/img/motorbike/Scooter.png"
       },
       {
-        "img": "/assets/img/motorbike/under_repair.svg"
+        "img": "/assets/img/motorbike/under_repair.png"
       }
     ]
   },
@@ -48,20 +51,35 @@
       "stepText": "Receive an instant payout in the form that's convenient for you"
     }
   },
-  "need-docs":{
-    "title": "To sell your motorcycle you will need",
+  "need-docs": {
+    "title": "To sell your motorcycle, you will need:",
     "docs": [
       {
-        "title": "Passport of a citizen of Ukraine",
+        "title": "Vehicle title",
         "img": "/assets/img/motorbike/passport.svg"
       },
       {
-        "title": "Taxpayer Identification Number",
+        "title": "Valid driver's license or state-issued ID",
         "img": "/assets/img/motorbike/taxpayer_number.svg"
       },
       {
-        "title": "Vehicle registration certificate",
+        "title": "Current vehicle registration",
         "img": "/assets/img/motorbike/motorbike.svg"
+      }
+    ],
+    "need-docs-asq": "Additional paperwork will be required if the motorcycle is:",
+    "listAsq": [
+      {
+        "title": "Credited:",
+        "content": "<ul><li>Loan payoff information</li><li>Account number and lender's contact information</li></ul>"
+      },
+      {
+        "title": "Corporate:",
+        "content": "<ul><li>Articles of incorporation or business license</li><li>Letter authorizing the sale on company letterhead</li><li>Employer Identification Number (EIN)</li></ul>"
+      },
+      {
+        "title": "Younger than 10 years old:",
+        "content": "<ul><li>Odometer disclosure statement</li></ul>"
       }
     ]
   },
@@ -111,21 +129,21 @@
     "title": "Customer Reviews",
     "feedback": [
       {
-        "content": "Man, selling my Harley to these dudes was a breeze. They came out to check the bike, no fuss, no muss. Offered me a fair price right on the spot. Didn't try to lowball me like some other jokers. Paperwork was quick, and they hauled it away same day. Honestly, couldn't have asked for an easier way to offload my ride. Solid outfit.",
-        "name": "Brock M",
-        "prod": "Sold the Harley-Davidson Road King",
+        "content": "Yo, these dudes in Florida hooked me up when I was selling my old Honda Dio. Cash in hand, no drama. The whole thing was chill AF. If you're looking to unload your ride without the hassle, hit 'em up!",
+        "name": "Tyler K.",
+        "prod": "(Sold the Honda Dio scooter)",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Decent experience selling my wrecked bike. Bit of back-and-forth on the price, but we got there. Wish they'd been quicker with the paperwork. Still, glad to get it off my hands.",
-        "name": "Mike T.",
-        "prod": "Sold the Yamaha R6",
+        "content": "Selling my beloved Kawasaki Ninja was bittersweet, but these professionals made it painless. Their offer was competitive, and the process was efficient. Appreciated their knowledge of high-performance bikes. A pleasant experience overall.",
+        "name": "Samantha L.",
+        "prod": "(Sold the Kawasaki Ninja)",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "These folks bought my scooter no prob. Showed up on time, cash in hand. No BS, straight to the point. Would use again if I had another ride to sell.",
-        "name": "Sarah L.",
-        "prod": "Sold the Honda PCX150",
+        "content": "Needed to part ways with my dirt bike. These guys were okay, but the initial quote was a bit low. After some negotiation, we reached a fair price. The pickup was prompt, though. Solid service, just be ready to haggle a little.",
+        "name": "Alex M.",
+        "prod": "(Sold the Yamaha YZ250F)",
         "feedbackMap": "Review from Google Maps"
       }
     ],
@@ -136,28 +154,28 @@
     "descr": "We're Happy to Help",
     "listAsq": [
       {
-        "title": "What types of motorcycles do you buy?",
-        "content": "We purchase a wide range of powersports vehicles, including: motorcycles, scooters, mopeds, dirt bikes, sport bikes, cruisers, touring bikes, choppers, trikes, ATVs, UTVs, personal watercraft, and snowmobiles. We accept all makes and models."
+        "title": "What types of motorcycles do you purchase?",
+        "content": "Our company is actively seeking to purchase a variety of motorcycle-related vehicles, including motorcycles, scooters, mopeds, dirt bikes, sport bikes, cruisers, touring bikes, choppers, trikes, and all other types of motorcycles. We accept all makes and models."
       },
       {
-        "title": "How does your valuation process work?",
-        "content": "Our online valuation process is streamlined for your convenience. Simply reach out to us via any messaging platform (Telegram, WhatsApp, Facebook Messenger) or social media network (Instagram, Facebook) and send us photos and specifications of your vehicle. Within 5-7 minutes, you'll receive a competitive offer and a step-by-step plan for a quick sale."
+        "title": "How do you value a motorcycle?",
+        "content": "Our online valuation process is streamlined for your convenience. Simply contact us through any messaging platform (Telegram, WhatsApp, Facebook Messenger) or social network (Instagram, Facebook) and send us photos along with a brief description (specifications, details, modifications). Within 5-7 minutes, you'll receive a competitive offer and a step-by-step plan for a quick sale."
       },
       {
-        "title": "Do you offer free pickup services?",
-        "content": "We offer two options for vehicle handover: you can either bring the motorcycle to our office, or we can dispatch an appraiser to your location. Both services are provided at no cost to you."
+        "title": "Can I sell a financed motorcycle?",
+        "content": "Yes, our company is interested in acquiring motorcycles that have been financed through credit or leasing arrangements. We are prepared to consider financed bikes at any stage of the loan repayment process and leased bikes both still under active lease agreements and those that have completed their lease terms."
       },
       {
-        "title": "What documentation do I need to sell my motorcycle?",
-        "content": "To complete the sale, please provide the following essential documents: Title, Bill of Sale, and Registration. In some cases, additional documentation may be required, such as: Release of Lien, Odometer Disclosure Statement, Safety Inspection Certificate, and Emissions Test Certificate."
+        "title": "Do you buy damaged motorcycles?",
+        "content": "Yes, we are prepared to make an offer on motorcycles in any condition."
       },
       {
-        "title": "How quickly can I get paid for my motorcycle?",
-        "content": "We pride ourselves on same-day payments. Transactions can be completed on the day of inquiry, provided it's within business hours and the distance between us is reasonable."
+        "title": "Do you offer pickup services?",
+        "content": "We offer two options for vehicle transfer: you can either bring the motorcycle to our office, or we can dispatch an appraiser to your location. Both services are provided at no cost to you."
       },
       {
-        "title": "Do you buy motorcycles with mechanical issues or accident damage?",
-        "content": "Yes, we purchase powersports vehicles in all conditions. While we offer online assessments, for the most accurate valuation of vehicles with mechanical issues or accident damage, we recommend scheduling an in-person appraisal."
+        "title": "Do you operate throughout the entire United States?",
+        "content": "While our network doesn't currently cover the entire United States, we are interested in working with customers from various regions and are willing to arrange pickup of the motorcycle if necessary. Please note that for more distant locations, the waiting time for our appraiser's arrival may increase by 1-2 days. We strive to provide quality service to every customer, regardless of location."
       }
     ],
     "listBottom1": {

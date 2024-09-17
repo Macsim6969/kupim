@@ -17,19 +17,19 @@
     "text": "across all states in the U.S.",
     "content": [
       {
-        "img": "/assets/img/bike/electric.svg"
+        "img": "/assets/img/bike/electric.png"
       },
       {
-        "img": "/assets/img/bike/new.svg"
+        "img": "/assets/img/bike/new.png"
       },
       {
-        "img": "/assets/img/bike/parts.svg"
+        "img": "/assets/img/bike/parts.png"
       },
       {
-        "img": "/assets/img/bike/under_repair.svg"
+        "img": "/assets/img/bike/under_repair.png"
       },
       {
-        "img": "/assets/img/bike/whole.svg"
+        "img": "/assets/img/bike/whole.png"
       }
     ]
   },
@@ -97,21 +97,21 @@
     "title": "Customer Reviews",
     "feedback": [
       {
-        "content": "Quick and easy! Got a fair price for my Giant bike. These guys know their stuff. In and out in no time. Thumbs up!",
-        "name": "John D.",
-        "prod": "Sold the Giant bike",
+        "content": "Parting with my Giant was tough, but these guys made it easier. They knew their stuff about high-end bikes, which I appreciated. The offer was fair, and the process was quick. Glad my bike's going to a good home.",
+        "name": "Oliver P.",
+        "prod": "(Sold the Giant Defy)",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Decent deal on my bike. Process was smooth, but price was a bit lower than expected. Still, saved me a lot of hassle.",
-        "name": "Mike T.",
-        "prod": "Sold a Cube mountain bike",
+        "content": "Sold my road bike to these folks in Tampa. They were professional and gave a competitive offer. The only hiccup was scheduling the pickup, hence 4 stars. Overall, a reliable service for cyclists looking to upgrade.",
+        "name": "Rachel W.",
+        "prod": "(Sold the Specialized Tarmac)",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Needed to sell my Bulls fast before moving. These folks delivered! Great service, fair price. Would use again.",
-        "name": "Андрей",
-        "prod": "Sold road bike",
+        "content": "These guys in Miami bought my e-bike, and I'm stoked with how it went down! They recognized the value of my Cube and offered a price that beat other local shops. The whole process was a breeze. Highly recommend!",
+        "name": "David L.",
+        "prod": "(Sold the Cube Reaction Hybrid)",
         "feedbackMap": "Review from Google Maps"
       }
     ],
@@ -123,27 +123,27 @@
     "listAsq": [
       {
         "title": "What types of bicycles do you buy?",
-        "content": "Our company purchases a wide range of bicycles, including: Mountain, road, hybrid, city, BMX, fat bike, cruiser, folding, triathlon, electric, yclocross, touring, kids', tandem, and track bikes. We work with most well-known brands such as Giant, Trek, Specialized, Cannondale, Scott, Merida, Santa Cruz, Bianchi, Kona, Cube, Orbea, GT Bicycles, Norco, Focus, Cervélo, and others. The only factors that may affect our ability to purchase a bike are its condition and age."
+        "content": "Our company is in the market for a diverse range of bicycles, such as mountain, road, hybrid, city, BMX, fat bike, cruiser, folding, triathlon, electric, cyclocross, touring, kids', tandem, and track bikes. We work with most well-known brands including Giant, Trek, Specialized, Cannondale, Scott, Merida, Santa Cruz, Bianchi, Kona, Cube, Orbea, GT Bicycles, Norco, Focus, Cervélo, and others. Condition and age are the primary factors we consider."
       },
       {
         "title": "How does the bike evaluation process work?",
-        "content": "We offer a convenient online evaluation process: <ol><li>Choose your preferred messaging app (Telegram, WhatsApp, Facebook Messenger) or social network (Instagram, Facebook).</li><li>Send us photos and technical specifications of your bicycle.</li><li>Within 5-7 minutes, you'll receive a price offer and a detailed plan for a quick sale.</li></ol>"
+        "content": "Our online valuation process is streamlined for your convenience. Simply contact us through any messaging platform (Telegram, WhatsApp, Facebook Messenger) or social network (Instagram, Facebook) and send us photos along with a brief description (specifications, details, modifications). Within 5-7 minutes, you'll receive a competitive offer and a step-by-step plan for a quick sale."
       },
       {
         "title": "Do you buy damaged or malfunctioning bicycles?",
-        "content": "Yes, we consider purchasing damaged or malfunctioning bicycles. Each case is evaluated individually. For a quick assessment, please send us photos of your bicycle."
+        "content": "Yes, we are prepared to make an offer on bicycles in any condition."
       },
       {
         "title": "What documents are required to sell a bicycle?",
-        "content": "Documentation is not mandatory for the sale. We purchase bicycles both with and without papers. However, if you have documentation for your bicycle, we welcome its inclusion."
+        "content": "Documentation is not mandatory for the sale. We purchase bicycles both with and without papers. However, if you have documentation, we welcome its inclusion."
       },
       {
         "title": "Do you provide bicycle transportation services?",
-        "content": "We offer three transportation options: <ol><li>You can deliver the bicycle to our office yourself.</li>We can send our employee to your location for evaluation and transportation.<li></li><li>You have the option to ship the bicycle by mail.</li></ol> "
+        "content": "We offer three convenient transportation options: you can deliver the bicycle to our office yourself, we can send our employee to your location for evaluation and transportation, or you have the option to ship the bicycle by mail. All of these services are provided at no additional cost to you."
       },
       {
         "title": "Do you operate throughout the entire United States?",
-        "content": "Currently, our network doesn't cover the entire United States. However, we are interested in working with customers from various regions and are willing to arrange pickup or postal delivery of the bicycle if necessary."
+        "content": "While our network doesn't currently cover the entire United States, we are interested in working with customers from various regions and are willing to arrange pickup or postal delivery of the bicycle if necessary. Please note that for more distant locations, the waiting time for our appraiser's arrival may increase by 1-2 days. We strive to provide quality service to every customer, regardless of location."
       }
     ],
     "listBottom1": {

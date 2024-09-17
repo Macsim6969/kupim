@@ -34,9 +34,9 @@
         "title": "Kick Skooter"
       },
       {
-        "url": "/boat",
-        "img": "/assets/img/transport/Boat.png",
-        "title": "Boat"
+        "url": "/watercraft",
+        "img": "/assets/img/transport/Watercraft.png",
+        "title": "Watercraft"
       },
       {
         "url": "/tractor",

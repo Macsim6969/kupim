@@ -46,6 +46,21 @@ body {
 html,
 body {
   height: 100%;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    width: 6px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    width: 6px;
+    background-color: gray;
+    border-radius: 6px;
+  }
 }
 
 body {

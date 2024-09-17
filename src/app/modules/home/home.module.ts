@@ -27,7 +27,7 @@ const routes: Routes = [
       { path: 'wheelchair', component: HomeComponent },
       { path: 'bike', component: HomeComponent },
       { path: 'kick_skooter', component: HomeComponent },
-      { path: 'boat', component: HomeComponent },
+      { path: 'watercraft', component: HomeComponent },
       { path: 'tractor', component: HomeComponent },
       { path: 'trailer', component: HomeComponent },
       { path: 'gear', component: HomeComponent },
