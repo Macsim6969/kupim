@@ -2,16 +2,16 @@
   "key": ["prod"],
   "dashboard": {
     "state": "State of Florida",
-    "title": "Scooter buyback",
+    "title": "Sell my scooter",
     "location": "(All States)",
-    "description": "We'll buy your bike at the best price!",
+    "description": "Quick cash for your scooter!",
     "image": "/assets/img/scooter/scooter.png",
     "bgImage": "scooter",
     "class": "scooter_text"
   },
   "easySteps": { 
-    "title": "3 simple steps",
-    "text": "to sell a scooter in three or four hours",
+    "title": "3 easy steps",
+    "text": "to appraise your scooter online",
     "style": "skooter",
     "contentStep1": {
       "step": "Step 1",
@@ -28,12 +28,12 @@
     }
   },
   "aboutInfo": {
-    "title": "We buy back laptops in Florida",
-    "text": "and all the states",
+    "title": "Why we are",
+    "text": "your best bet",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
-        "title": "We’ll buy anything you’ve got."
+        "title": "We buy scooter in any condition."
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
@@ -45,7 +45,7 @@
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "Trade-In"
+        "title": "Trade-In available (exchange for a new scooter)"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
@@ -73,21 +73,21 @@
     "title": "Customer Reviews",
     "feedback": [
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike", 
+        "content": "Sold my e-scooter to these folks, and it was a breeze! They offered a fair price and picked it up the same day. Super convenient for busy professionals like me. Thumbs up!",
+        "name": "Sarah M.",
+        "prod": "(Sold the Xiaomi Mi Electric Scooter)", 
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "These guys in Florida know their e-scooters. Got a decent offer for my old ride. The process was straightforward, but I wish they had more flexible pickup times. Still, a solid option if you're upgrading.",
+        "name": "Chris B.",
+        "prod": "(Sold the Segway Ninebot MAX)",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Y'all, if you're in Tampa and wanna offload your e-scooter, hit these folks up! They gave me cash on the spot for my beat-up old scooter. No fuss, no muss. Just easy peasy lemon squeezy! ",
+        "name": "Zoe K.",
+        "prod": "(Sold the Gotrax GXL V2)",
         "feedbackMap": "Review from Google Maps"
       }
     ],
@@ -98,28 +98,28 @@
     "descr": "We're Happy to Help",
     "listAsq": [
       {
-        "title": "What kind of cars do you buy?",
-        "content": "Absolutely any: whole, after the accident, not customs clearance, on tp. Mark, year release, mileage, condition do not matter. Redemptionaem credit cars, as well as cars with penalties. We work with legal entities and individuals, Redemption of car fleets."
+        "title": "How do you value scooters?",
+        "content": "Our online valuation process is streamlined for your convenience. Simply contact us through any messaging platform (Telegram, WhatsApp, Facebook Messenger) or social network (Instagram, Facebook) and send us photos along with a brief description (specifications, details, modifications). Within 5-7 minutes, you'll receive a competitive offer and a step-by-step plan for a quick sale."
       },
       {
-        "title": "Can I leave the car for you to sell?",
-        "content": "Yes. We will put your vehicle on consignment at our dealership."
+        "title": "Can I sell a damaged scooter?",
+        "content": "Yes, we are prepared to make an offer on scooters in any condition."
       },
       {
-        "title": "How long does the sale last?",
-        "content": "The sale of the car takes place in 2-3 hours."
+        "title": "What paperwork is needed?",
+        "content": "Documentation is not mandatory for the sale. We purchase scooters both with and without papers. However, if you have documentation, we welcome its inclusion."
       },
       {
-        "title": "Do you buy only in Kiev?",
-        "content": "No, we redemption cars all over Ukraine. In most cases. Redemption in Ukraine occurs on the day of communication."
+        "title": "Do you operate throughout the entire United States?",
+        "content": "While our network doesn't currently cover the entire United States, we are interested in working with customers from various regions. We're willing to arrange pickup or postal delivery of the scooter if necessary. Please note that for more distant locations, the waiting time for our appraiser's arrival may increase by 1-2 days. We strive to provide quality service to every customer, regardless of location."
       },
       {
-        "title": "I want to sell for as much as possible!",
-        "content": "To increase Redemption's price by 10%, wash the car, grab a a second set of tires and keys. In 90% of cases the valuation will be higher than other car Redemption."
+        "title": "Do you offer pickup services?",
+        "content": "We offer three convenient transportation options for your scooter. You can deliver it to our office yourself, we can send our employee to your location for evaluation and transportation, or you have the option to ship the scooter by mail. All of these services are provided at no additional cost to you."
       },
       {
-        "title": "I'll sell the car for more!",
-        "content": "No problem! We just want to save you from wasting your time. Pre-sale preparation, photo shoots, registration on profile sites, pay for advertising. ads, answering phones and traveling to appointments at inconvenient times is the least of what you're gonna to deal with."
+        "title": "How does the inspection process work?",
+        "content": "The final verification occurs during the appraiser's visit or upon receipt of the scooter. If you accurately disclosed all details during the initial assessment via messenger, the price typically remains unchanged upon inspection. Payment is processed immediately following this step."
       }
     ],
     "listBottom1": {
