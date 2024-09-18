@@ -1,5 +1,5 @@
 {
-  "key": "yes",
+  "key": ["yes", "easy-step"],
   "dashboard": {
     "state": "State of Florida",
     "title": "Car buyout Porshe",

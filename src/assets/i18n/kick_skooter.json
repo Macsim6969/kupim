@@ -1,5 +1,5 @@
 {
-  "key": ["prod"],
+  "key": ["prod", "easy-step"],
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell my scooter",

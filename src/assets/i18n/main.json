@@ -43,27 +43,10 @@
       }
     ]
   },
-  "easySteps": {
-    "title": "3 quick steps",
-    "text": "to get an online quote",
-    "style": "main",
-    "contentStep1": {
-      "step": "Step 1",
-      "stepText": "Shoot us a picture or the details on any messaging app",
-      "contact": "SEND"
-    },
-    "contentStep2": {
-      "step": "Step 2",
-      "stepText": "Schedule an in-office sales appointment or request an appraiser to visit your home"
-    },
-    "contentStep3": {
-      "step": "Step 3",
-      "stepText": "Receive an instant payout in the form that's convenient for you"
-    }
-  },
+  
   "aboutInfo": {
-    "title": "We buy back",
-    "text": "laptops in Florida",
+    "title": "Why we are",
+    "text": "your best bet",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
