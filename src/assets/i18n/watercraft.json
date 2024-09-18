@@ -9,7 +9,7 @@
     "title": "Sell my watercraft",
     "location": "(All States)",
     "description": "Quick cash for your watercraft",
-    "image": "/assets/img/boat/boat.png",
+    "image": "/assets/img/boat/Watercraft.svg",
     "bgImage": "boat",
     "class": "boat_text"
   },
@@ -18,7 +18,7 @@
     "text": "across all states in the U.S.",
     "content": [
       {
-        "img": "/assets/img/boat/Boat.svg"
+        "img": "/assets/img/boat/boat.png"
       },
       {
         "img": "/assets/img/boat/Inflatable_boat.svg"
