@@ -1,6 +1,6 @@
 import { AfterViewInit, ChangeDetectorRef, Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Subject, takeUntil } from 'rxjs';
+import { Subject, take, takeUntil, timer } from 'rxjs';
 import { Location } from '@angular/common';
 import { TranslateService } from '@ngx-translate/core';
 import { StoreService } from '../../shared/services/store.service';
@@ -47,10 +47,12 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
                 this.checkPageLoaded()
                   .then(() => this.loadImages())
                   .then(() => {
-                    this.isLoading = false
-                    window.scrollTo({
-                      top: 0,
-                      behavior: 'smooth'
+                    timer(150).pipe(take(1)).subscribe(() => {
+                      this.isLoading = false
+                      window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                      })
                     })
                   })
                   .catch(() => {
