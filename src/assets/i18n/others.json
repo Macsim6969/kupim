@@ -1,12 +1,118 @@
 {
   "dashboard": {
     "state": "",
-    "title": "Others",
+    "title": "Scroll down <span> to sell other types of vehicles</span>",
     "location": "",
-    "description": "",
+    "description": "Quick cash for your vehicle!",
     "image": "/assets/img/teams/team.svg",
-    "bgImage": "contacts",
-    "class": "contacts_text",
-    "styleClass": "contactss"
+    "bgImage": "others",
+    "class": "",
+    "styleClass": ""
+  },
+  "easySteps": {
+    "title": "3 easy steps",
+    "text": "to appraise your vehicle online",
+    "style": "main",
+    "contentStep1": {
+      "step": "Step 1",
+      "stepText": "Shoot us a picture or the details on any messaging app",
+      "contact": "SEND"
+    },
+    "contentStep2": {
+      "step": "Step 2",
+      "stepText": "Schedule an in-office sales appointment or request an appraiser to visit your home"
+    },
+    "contentStep3": {
+      "step": "Step 3",
+      "stepText": "Receive an instant payout in the form that's convenient for you"
+    }
+  },
+  "aboutInfo": {
+    "title": "We buy back",
+    "text": "laptops in Florida",
+    "list": [
+      {
+        "src": "/assets/img/laptop/about/car.svg",
+        "title": "We’ll buy anything you’ve got."
+      },
+      {
+        "src": "/assets/img/laptop/about/sack.svg",
+        "title": "Same-Day Purchase"
+      },
+      {
+        "src": "/assets/img/laptop/about/lock.svg",
+        "title": "Every Sale is Confidential"
+      },
+      {
+        "src": "/assets/img/laptop/about/bank.svg",
+        "title": "Trade-In"
+      },
+      {
+        "src": "/assets/img/laptop/about/time.svg",
+        "title": "Appraisal Time via Messenger - 7 Minutes"
+      },
+      {
+        "src": "/assets/img/laptop/about/thumbs-up.svg",
+        "title": "We Offer Higher Prices Than Our Competitors"
+      },
+      {
+        "src": "/assets/img/laptop/about/flag.svg",
+        "title": "Operating Across All U.S. States"
+      },
+      {
+        "src": "/assets/img/laptop/about/bills.svg",
+        "title": "Instant Payment"
+      },
+      {
+        "src": "/assets/img/laptop/about/chain.svg",
+        "title": "We Handle Complex Cases (Collateral, Loans)"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Customer Reviews",
+    "feedback": [
+      {
+        "content": "Selling my Segway Ninebot was a breeze with these guys. They really know their e-scooters and offered a fair price right off the bat. The pick-up was super convenient - they came to my office during lunch. Awesome service for urban commuters looking to switch up their ride.",
+        "name": "Mike T.",
+        "prod": "(Sold the Segway Ninebot Max)",
+        "feedbackMap": "Review from Google Maps"
+      },
+      {
+        "content": "Had some doubts about selling my hoverboard online, but this company put those to rest. The rep I dealt with was patient and answered all my questions. The offer was decent, though I hoped for a bit more. Still, the process was smooth, and payment was prompt. Good experience overall.",
+        "name": "Sarah K.",
+        "prod": "(Sold the Razor Hovertrax 2.0)",
+        "feedbackMap": "Review from Google Maps"
+      },
+      {
+        "content": "Parting with my EUC wasn't easy, but these folks made it painless. They clearly knew the InMotion V11 specs inside out, which was impressive. The offer exceeded my expectations, considering the device's age. Only giving 4 stars because the initial response took a couple of days. Otherwise, top-notch service for tech enthusiasts.",
+        "name": "Alex M.",
+        "prod": "(Sold the InMotion V11 Electric Unicycle",
+        "feedbackMap": "Review from Google Maps"
+      }
+    ],
+    "content": "Open Google Maps"
+  },
+  "questions": {
+    "title": "Have Questions?",
+    "descr": "We're Happy to Help",
+    "listAsq": [
+      {
+        "title": "How does our product evaluation process work?",
+        "content": "Our online valuation process is designed for your convenience. Simply reach out to us via any messaging platform (Telegram, WhatsApp, Facebook Messenger) or social network (Instagram, Facebook) and send us photos along with a brief description (specifications, details, modifications). Within 5-7 minutes, you'll receive a competitive offer and a step-by-step plan for a quick sale."
+      },
+      {
+        "title": "Do you provide product pickup services?",
+        "content": "We offer three convenient options: you can deliver the item to our office yourself, we can send our representative to your location for evaluation and pickup, or you have the option to ship the item by mail. All of these services are provided at no additional cost to you."
+      },
+      {
+        "title": "Do you operate throughout the entire United States?",
+        "content": "While our network doesn't currently cover the entire United States, we are interested in working with customers from various regions and are willing to arrange pickup or postal delivery of the item if necessary. Please note that for more distant locations, the waiting time for our appraiser's arrival may increase by 1-2 days. We strive to provide quality service to every customer, regardless of location."
+      },
+      {
+        "title": "Can I sell a vehicle not listed on your website?",
+        "content": "Our website doesn't list every vehicle we accept. This page exists because we buy a wide range of vehicles, even those not shown online. If you don't see your vehicle listed, please contact us. We're ready to evaluate and make an offer on virtually any vehicle."
+      }
+    ]
   }
 }

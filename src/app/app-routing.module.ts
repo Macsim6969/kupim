@@ -9,7 +9,8 @@ const routes: Routes = [
   { path: 'online-appraisal', loadChildren: () => import('./modules/page-in-work/page-in-work.module').then(m => m.PageInWorkModule) },
   { path: 'about-us', loadChildren: () => import('./modules/page-in-work/page-in-work.module').then(m => m.PageInWorkModule) },
   { path: 'blog', loadChildren: () => import('./modules/page-in-work/page-in-work.module').then(m => m.PageInWorkModule) },
-  { path: 'others', loadChildren: () => import('./modules/page-in-work/page-in-work.module').then(m => m.PageInWorkModule) },
+  // { path: 'others', loadChildren: () => import('./modules/page-in-work/page-in-work.module').then(m => m.PageInWorkModule) },
+  { path: 'others', loadChildren: () => import('./modules/home/home.module').then(m => m.HomeModule) },
   { path: '', loadChildren: () => import('./modules/home/home.module').then(m => m.HomeModule) },
 ]
 
