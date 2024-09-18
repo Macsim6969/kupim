@@ -5,16 +5,16 @@
   ],
   "dashboard": {
     "state": "State of Florida",
-    "title": "Wheelchair buyback",
+    "title": "Sell my wheelchair",
     "location": "(All States)",
-    "description": "Buy your bike at the best price",
+    "description": "Quick cash for your wheelchair",
     "image": "/assets/img/wheelchair/Wheelchair.png",
-    "bgImage": "bike",
-    "class": "bike_text"
+    "bgImage": "wheelchair",
+    "class": "wheelchair_text"
   },
   "easySteps": {
-    "title": "3 simple steps",
-    "text": "to sell a bike fast",
+    "title": "3 easy steps",
+    "text": "to appraise your wheelchair online",
     "style": "bike",
     "contentStep1": {
       "step": "Step 1",
@@ -76,21 +76,21 @@
     "title": "Customer Reviews",
     "feedback": [
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Sold my power wheelchair to these folks in Tampa. They were knowledgeable about mobility equipment and offered a fair price. The transaction was smooth, and they were respectful throughout. Great service!",
+        "name": "Patricia R.",
+        "prod": "(Sold the Permobil F3 Corpus)",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "These guys bought my electric wheelchair. The offer was reasonable, and they were accommodating with the pickup. Process was straightforward, but I wish they had more info upfront about their valuation method.",
+        "name": "Robert J.",
+        "prod": "(Sold the Quickie Q700 M)",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Sold my manual wheelchair to this company. They were professional, offered a decent price, and picked it up promptly. Appreciated their efficient service and understanding of different wheelchair types.",
+        "name": "Susan M.",
+        "prod": "(Sold the Sunrise Medical Quickie 2)",
         "feedbackMap": "Review from Google Maps"
       }
     ],
@@ -101,28 +101,28 @@
     "descr": "We're Happy to Help",
     "listAsq": [
       {
-        "title": "What kind of cars do you buy?",
-        "content": "Absolutely any: whole, after the accident, not customs clearance, on tp. Mark, year release, mileage, condition do not matter. Redemptionaem credit cars, as well as cars with penalties. We work with legal entities and individuals, Redemption of car fleets."
+        "title": "What types of wheelchairs do you purchase?",
+        "content": "Our company is interested in purchasing various types of wheelchairs, including: manual, electric, folding, transport, and multifunctional models. We consider all brands and conditions."
       },
       {
-        "title": "Can I leave the car for you to sell?",
-        "content": "Yes. We will put your vehicle on consignment at our dealership."
+        "title": "How do you determine a wheelchair's value?",
+        "content": "Our online valuation process is streamlined for your convenience. Simply contact us through any messaging platform (Telegram, WhatsApp, Facebook Messenger) or social network (Instagram, Facebook) and send us photos along with a brief description (specifications, details, modifications). Within 5-7 minutes, you'll receive a competitive offer and a step-by-step plan for a quick sale."
       },
       {
-        "title": "How long does the sale last?",
-        "content": "The sale of the car takes place in 2-3 hours."
+        "title": "Do you purchase specialized, custom, or electric wheelchairs?",
+        "content": "Yes, we purchase specialized, custom, and electric wheelchairs. Our program covers a wide range of mobility devices, including those with custom modifications and advanced features. For a detailed assessment of your specific wheelchair, please contact our appraisal team for a fair valuation."
       },
       {
-        "title": "Do you buy only in Kiev?",
-        "content": "No, we redemption cars all over Ukraine. In most cases. Redemption in Ukraine occurs on the day of communication."
+        "title": "How does the payment process work?",
+        "content": "The final stage of verification occurs after the appraiser's visit. If you accurately disclosed all details during the initial assessment via messenger, the price typically remains unchanged upon inspection. Payment is processed immediately following this step."
       },
       {
-        "title": "I want to sell for as much as possible!",
-        "content": "To increase Redemption's price by 10%, wash the car, grab a a second set of tires and keys. In 90% of cases the valuation will be higher than other car Redemption."
+        "title": "Do you offer pickup services?",
+        "content": "Yes, we offer pickup services. We provide multiple transportation options for your convenience. You can either deliver the wheelchair to our office yourself, or we can send our employee to your location for evaluation and transportation. Additionally, we offer the option to ship the wheelchair by mail if that better suits your needs."
       },
       {
-        "title": "I'll sell the car for more!",
-        "content": "No problem! We just want to save you from wasting your time. Pre-sale preparation, photo shoots, registration on profile sites, pay for advertising. ads, answering phones and traveling to appointments at inconvenient times is the least of what you're gonna to deal with."
+        "title": "Do you operate throughout the entire United States?",
+        "content": "While our network doesn't currently cover the entire United States, we are committed to serving customers from various regions. We can arrange pickup or postal delivery of wheelchairs as necessary. Please note that for more distant locations, the waiting time for our appraiser may increase by 1-2 days. We strive to provide quality service to every customer, regardless of location."
       }
     ],
     "listBottom1": {

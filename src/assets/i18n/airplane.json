@@ -1,19 +1,20 @@
 {
   "key": [
-    "yes"
+    "yes",
+     "easy-step"
   ],
   "dashboard": {
     "state": "State of Florida",
-    "title": "Airplane buyback",
+    "title": "Sell my airplan",
     "location": "(All States)",
-    "description": "Buy your bike at the best price",
+    "description": "Quick cash for your airplan",
     "image": "/assets/img/airplane/Airplane.png",
-    "bgImage": "bike",
+    "bgImage": "airplane",
     "class": "bike_text"
   },
   "easySteps": {
-    "title": "3 simple steps",
-    "text": "to sell a bike fast",
+    "title": "3 easy steps",
+    "text": "to appraise your airplane online",
     "style": "bike",
     "contentStep1": {
       "step": "Step 1",
@@ -28,6 +29,38 @@
       "step": "Step 3",
       "stepText": "Receive instant payouts in a form that is convenient for you"
     }
+  },
+  "need-docs": {
+    "title": "To sell your airplane, you will need:",
+    "docs": [
+      {
+        "title": "Aircraft registration certificate",
+        "img": "/assets/img/motorbike/passport.svg"
+      },
+      {
+        "title": "Valid pilot's license or state-issued ID",
+        "img": "/assets/img/motorbike/taxpayer_number.svg"
+      },
+      {
+        "title": "Airworthiness certificate",
+        "img": "/assets/img/motorbike/motorbike.svg"
+      }
+    ],
+    "need-docs-asq": "Additional paperwork will be required if the airplane is:",
+    "listAsq": [
+      {
+        "title": "Credited:",
+        "content": "<ul><li>Loan payoff information</li><li>Account number and lender's contact information</li></ul>"
+      },
+      {
+        "title": "Corporate:",
+        "content": "<ul><li>Articles of incorporation or business license</li><li>Letter authorizing the sale on company letterhead</li><li>Employer Identification Number (EIN)</li></ul>"
+      },
+      {
+        "title": "Younger than 10 years old:",
+        "content": "<ul><li>Odometer disclosure statement</li></ul>"
+      }
+    ]
   },
   "aboutInfo": {
     "title": "We buy back bike in Florida",
@@ -75,21 +108,21 @@
     "title": "Customer Reviews",
     "feedback": [
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Parting with my private jet was a big decision, but these professionals made it easier. They were knowledgeable about the market and offered a competitive price. The process was discreet and efficient. Highly recommend for high-end aircraft sales.",
+        "name": "William T.",
+        "prod": "(Sold the Cessna Citation CJ4)",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Sold my small plane to these folks in Florida. They knew their stuff about general aviation and gave a fair offer. The paperwork took a bit longer than expected, hence 4 stars, but overall a good experience.",
+        "name": "Amanda G.",
+        "prod": "(Sold the Piper PA-28 Cherokee)",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "These guys bought my light aircraft, and I'm impressed with their service. They offered a good price and handled all the complex paperwork. The whole process was smooth from start to finish.",
+        "name": "Daniel F.",
+        "prod": "(Sold the Cirrus SR22)",
         "feedbackMap": "Review from Google Maps"
       }
     ],
@@ -100,28 +133,32 @@
     "descr": "We're Happy to Help",
     "listAsq": [
       {
-        "title": "What kind of cars do you buy?",
-        "content": "Absolutely any: whole, after the accident, not customs clearance, on tp. Mark, year release, mileage, condition do not matter. Redemptionaem credit cars, as well as cars with penalties. We work with legal entities and individuals, Redemption of car fleets."
+        "title": "What types of aircraft do you purchase?",
+        "content": "Our company actively acquires a diverse range of aircraft, including ultralight aircraft, light single-engine aircraft, twin-engine piston aircraft, light turboprop aircraft, light jets, medium business jets, and large business jets. We work with all major manufacturers such as Cessna, Beechcraft, Cirrus, Embraer, Bombardier, Gulfstream, and others."
       },
       {
-        "title": "Can I leave the car for you to sell?",
-        "content": "Yes. We will put your vehicle on consignment at our dealership."
+        "title": "How do you determine an aircraft's value?",
+        "content": "Our valuation process is comprehensive and data-driven. We consider factors such as the aircraft's make, model, year of manufacture, total time on airframe and engines, avionics package, maintenance status (including time remaining until major inspections), and current market trends. Our team utilizes industry-leading valuation tools and databases to ensure we provide a fair and competitive offer."
       },
       {
-        "title": "How long does the sale last?",
-        "content": "The sale of the car takes place in 2-3 hours."
+        "title": "Can I sell a financed aircraft?",
+        "content": "Yes, we have extensive experience in purchasing aircraft with existing financial commitments. We can work with financed aircraft at any stage of the loan repayment process, as well as leased aircraft both under active agreements and those that have completed their lease terms. Our team is adept at managing these complex transactions to ensure a smooth process for all parties involved."
       },
       {
-        "title": "Do you buy only in Kiev?",
-        "content": "No, we redemption cars all over Ukraine. In most cases. Redemption in Ukraine occurs on the day of communication."
+        "title": "What documentation is required?",
+        "content": "To facilitate a seamless transaction, we typically require the following documentation:<br/><ul><li>Aircraft registration certificate</li><li>Airworthiness certificate</li><li>Logbooks (airframe, engine, and propeller if applicable)</li><li>Maintenance records</li><li>Avionics log</li><li>Weight and balance information</li><li>Any Supplemental Type Certificates (STCs) or modifications</li><li>Bill of sale</li><li>Lease or finance agreements (if applicable) Our team will guide you through the documentation process to ensure all necessary paperwork is in order.</li></ul>"
       },
       {
-        "title": "I want to sell for as much as possible!",
-        "content": "To increase Redemption's price by 10%, wash the car, grab a a second set of tires and keys. In 90% of cases the valuation will be higher than other car Redemption."
+        "title": "Do you handle transportation after purchase?",
+        "content": "Yes, we offer comprehensive post-purchase transportation services. Depending on the aircraft type and location, we can arrange for professional ferry pilots to fly the aircraft to its new destination, or we can coordinate ground transportation for smaller aircraft. All transportation is handled by qualified professionals and fully insured."
       },
       {
-        "title": "I'll sell the car for more!",
-        "content": "No problem! We just want to save you from wasting your time. Pre-sale preparation, photo shoots, registration on profile sites, pay for advertising. ads, answering phones and traveling to appointments at inconvenient times is the least of what you're gonna to deal with."
+        "title": "How does the inspection process work?",
+        "content": "Our inspection process is thorough and conducted by certified aircraft inspectors. It typically includes:<br/><ul><li>A detailed review of all aircraft records and logbooks</li><li>A comprehensive physical inspection of the airframe, engines, and avionics</li><li>Operational checks of all systems</li><li>A test flight (when possible) We strive to complete the inspection efficiently while ensuring no detail is overlooked. Our team will coordinate with you to minimize any disruption to your operations during this process.</li></ul>"
+      },
+      {
+        "title": "Do you operate throughout the entire United States?",
+        "content": "While our primary network doesn't cover the entire United States, we have established partnerships that enable us to work with customers nationwide. We can arrange for the inspection and acquisition of aircraft from any location in the country. For more distant locations, please allow an additional 1-2 days for our team to make necessary arrangements. We are dedicated to providing exceptional service to every customer, regardless of their location."
       }
     ],
     "listBottom1": {

@@ -6,9 +6,9 @@
   ],
   "dashboard": {
     "state": "State of Florida",
-    "title": "Tractor buyback",
+    "title": "Sell my tractor",
     "location": "(All States)",
-    "description": "Buy your tractor at the best price!",
+    "description": "Quick cash for your tractor",
     "image": "/assets/img/tractor/tractor.png",
     "bgImage": "tractor",
     "class": "tractor_text"
@@ -29,8 +29,8 @@
     ]
   },
   "easySteps": {
-    "title": "3 simple steps",
-    "text": "to sell a laptop fast",
+    "title": "3 easy steps",
+    "text": "to appraise your tractor online",
     "style": "tractor",
     "contentStep1": {
       "step": "Step 1",
@@ -47,19 +47,30 @@
     }
   },
   "need-docs": {
-    "title": "To sell your tractor you will need",
+    "title": "To sell your tractor, you will need:",
     "docs": [
       {
-        "title": "Passport of a citizen of Ukraine",
+        "title": "Vehicle title or MSO (Manufacturer's Statement of Origin)",
         "img": "/assets/img/motorbike/passport.svg"
       },
       {
-        "title": "Taxpayer Identification Number",
+        "title": "Valid driver's license or state-issued ID",
         "img": "/assets/img/motorbike/taxpayer_number.svg"
       },
       {
-        "title": "Vehicle registration certificate",
+        "title": "Current registration (if applicable)",
         "img": "/assets/img/motorbike/motorbike.svg"
+      }
+    ],
+    "need-docs-asq": "Additional paperwork will be required if the tractor is:",
+    "listAsq": [
+      {
+        "title": "Credited:",
+        "content": "<ul><li>Loan payoff information</li><li>Account number and lender's contact information</li></ul>"
+      },
+      {
+        "title": "Corporate:",
+        "content": "<ul><li>Articles of incorporation or business license</li><li>Letter authorizing the sale on company letterhead</li><li>Employer Identification Number (EIN)</li></ul>"
       }
     ]
   },
@@ -109,21 +120,21 @@
     "title": "Customer Reviews",
     "feedback": [
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Sold my old tractor attachment to these guys. They knew their stuff about farm equipment and gave a fair price. The pickup was prompt, and they were careful with the equipment. Solid service for farmers looking to upgrade.",
+        "name": "John D.",
+        "prod": "(Sold the John Deere Backhoe attachment)",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "These folks bought my tractor in Tampa. They were professional and offered a competitive price. The process took a bit longer than expected, hence 4 stars, but overall a reliable service for heavy equipment.",
+        "name": "Mary B.",
+        "prod": "(Sold the Kubota L3901 tractor)",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Sold my trusty old rototiller to this company. They were straightforward, offered a decent price, and picked it up on time. No complaints here - they made selling used equipment a breeze!",
+        "name": "Tom W.",
+        "prod": "(Sold the Honda FRC800 Rear Tine Tiller)",
         "feedbackMap": "Review from Google Maps"
       }
     ],
@@ -134,28 +145,28 @@
     "descr": "We're Happy to Help",
     "listAsq": [
       {
-        "title": "What kind of motorcycles do you buy?",
-        "content": "Absolutely any: motorcycles, mopeds, scooters, motorcycles, ATVs. Mark, year of manufacture, mileage, condition do not matter. We buy out credit, as well as with fines. We work with individuals and legal entities, buy out corporate motoparks."
+        "title": "What types of tractors do you buy?",
+        "content": "Our company specializes in purchasing tractors for both agricultural and forestry applications. We consider all types, makes, and models."
       },
       {
-        "title": "Can I leave the bike for you to sell?",
-        "content": "Yes. We will put your motorized vehicle on commission at our showroom."
+        "title": "How do you value tractors?",
+        "content": "We offer a streamlined online valuation process for your convenience. Simply contact us through any of our messaging platforms (Telegram, WhatsApp, Facebook Messenger) or social networks (Instagram, Facebook) and provide photos along with a brief description (including specifications, details, and modifications). Within 5-7 minutes, you'll receive a competitive offer and a step-by-step plan for a quick sale."
       },
       {
-        "title": "You're buying up undocumented?",
-        "content": "Yes, we do. We accept motorcycles without documents and in any condition. We will pick up faulty transportation from anywhere in Kiev and Ukraine."
+        "title": "Do you purchase tractor attachments?",
+        "content": "Yes, we purchase a wide range of tractor attachments. Our program includes various equipment such as plows, harrows, cultivators, seeders, sprayers, mowers, balers, front loaders, backhoes, rotary tillers, rakes, post hole diggers, snow blowers, and spreaders. For a detailed evaluation of your specific equipment, please contact our appraisal team."
       },
       {
-        "title": "What kind of information do you need?",
-        "content": "Before the sale, be prepared to provide the following information about your vehicle: make, model, VIN or frame number, year of manufacture on the PTS, the name of the organization (issued the PTS), whether it was registered ON YOU, as the owner of the motorcycle, mileage, your assessment of the condition of the engine and gearbox, what parts are painted or replaced by non-original, whether some tuning is installed."
+        "title": "Do you offer pickup services?",
+        "content": "We offer two options for tractor transfer: you may either bring the tractor to our office, or we can dispatch an appraiser to your location. Both services are provided at no cost to you."
       },
       {
-        "title": "I want to sell for as much as possible!",
-        "content": "To increase the buyback price by 10%, wash the motorcycle, bring a second set of tires and keys. In 90% of cases, the valuation will be higher than other motorcycle buybacks."
+        "title": "How does the inspection work?",
+        "content": "The final verification occurs during the appraiser's visit. If you accurately disclosed all details during the initial assessment via messenger, the price typically remains unchanged upon inspection. Payment is processed immediately following this step."
       },
       {
-        "title": "I'll sell the scooter for more!",
-        "content": "No problem! We just want to save you from wasting your time. Pre-sale preparation, photo shoots, registration on profile sites, paying for advertisements, answering the phone and traveling to meetings at inconvenient times - this is the least you will have to face."
+        "title": "Do you operate throughout the entire United States?",
+        "content": "While our network doesn't currently cover the entire United States, we are interested in working with customers from various regions and are willing to arrange pickup of the tractor if necessary. Please note that for more distant locations, the waiting time for our appraiser's arrival may increase by 1-2 days. We strive to provide quality service to every customer, regardless of location."
       }
     ],
     "listBottom1": {

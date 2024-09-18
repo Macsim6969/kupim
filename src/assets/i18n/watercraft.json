@@ -6,9 +6,9 @@
   ],
   "dashboard": {
     "state": "State of Florida",
-    "title": "Sell my boat",
+    "title": "Sell my watercraft",
     "location": "(All States)",
-    "description": "Quick cash for your boat at the best price!",
+    "description": "Quick cash for your watercraft",
     "image": "/assets/img/boat/boat.png",
     "bgImage": "boat",
     "class": "boat_text"
@@ -36,7 +36,7 @@
   },
   "easySteps": {
     "title": "3 easy steps",
-    "text": "to appraise your boat online",
+    "text": "to appraise your watercraft online",
     "style": "boat",
     "contentStep1": {
       "step": "Step 1",
@@ -53,19 +53,30 @@
     }
   },
   "need-docs": {
-    "title": "To successfully sell a watercraft, you will need to:",
+    "title": "To sell your watercraft, you will need:",
     "docs": [
       {
-        "title": "Passport (?)",
+        "title": "Vessel title or registration (clear and in your name)",
         "img": "/assets/img/motorbike/passport.svg"
       },
       {
-        "title": "Number (?)",
+        "title": "Valid driver's license or state-issued ID",
         "img": "/assets/img/motorbike/taxpayer_number.svg"
       },
       {
-        "title": "Registration certificate (?)",
+        "title": "Current vessel registration",
         "img": "/assets/img/motorbike/motorbike.svg"
+      }
+    ],
+    "need-docs-asq": "Additional paperwork will be required if the watercraft is:",
+    "listAsq": [
+      {
+        "title": "Credited:",
+        "content": "<ul><li>Loan payoff information</li><li>Account number and lender's contact information</li></ul>"
+      },
+      {
+        "title": "Corporate:",
+        "content": "<ul><li>Articles of incorporation or business license</li><li>Letter authorizing the sale on company letterhead</li><li>Employer Identification Number (EIN)</li></ul>"
       }
     ]
   },
@@ -115,21 +126,21 @@
     "title": "Customer Reviews",
     "feedback": [
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Sold my fishing yacht to these professionals. They were knowledgeable about marine vessels and offered a competitive price. The transaction was smooth, and they handled all the paperwork efficiently. A trustworthy service for boat owners.",
+        "name": "George H.",
+        "prod": "(Sold the Boston Whaler 345 Conquest)",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "These guys bought my outboard motor in Miami. The offer was fair, and they were flexible with pickup times. Only gave 4 stars because the initial response was a bit slow, but overall a good experience.",
+        "name": "Linda F.",
+        "prod": "(Sold the Mercury 150 HP outboard motor)",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Needed to sell my inflatable boat quickly, and these folks came through! Their offer was reasonable, and they picked it up the same day. No hassle, no fuss. Perfect for when you need a quick sale.",
+        "name": "Mark D.",
+        "prod": "(Sold the Intex Excursion inflatable boat)",
         "feedbackMap": "Review from Google Maps"
       }
     ],
@@ -140,37 +151,37 @@
     "descr": "We're Happy to Help",
     "listAsq": [
       {
-        "title": "What kind of motorcycles do you buy?",
-        "content": "Absolutely any: motorcycles, mopeds, scooters, motorcycles, ATVs. Mark, year of manufacture, mileage, condition do not matter. We buy out credit, as well as with fines. We work with individuals and legal entities, buy out corporate motoparks."
+        "title": "What types of watercraft do you purchase?",
+        "content": "Our company specializes in acquiring various types of watercraft, including yachts, motorboats, sailboats, personal watercraft, fishing vessels, outboard motors, kayaks, inflatable boats, and others. We consider all makes and models."
       },
       {
-        "title": "Can I leave the bike for you to sell?",
-        "content": "Yes. We will put your motorized vehicle on commission at our showroom."
+        "title": "How do you determine a boat's value?",
+        "content": "We offer a streamlined online valuation process for your convenience. Simply contact us through any of our messaging platforms (Telegram, WhatsApp, Facebook Messenger) or social networks (Instagram, Facebook) and provide photos along with a brief description (including specifications, details, and modifications). Within 5-7 minutes, you'll receive a competitive offer and a step-by-step plan for a quick sale."
       },
       {
-        "title": "You're buying up undocumented?",
-        "content": "Yes, we do. We accept motorcycles without documents and in any condition. We will pick up faulty transportation from anywhere in Kiev and Ukraine."
+        "title": "Do you buy damaged boats?",
+        "content": "Yes, we are prepared to make an offer on watercraft in any condition."
       },
       {
-        "title": "What kind of information do you need?",
-        "content": "Before the sale, be prepared to provide the following information about your vehicle: make, model, VIN or frame number, year of manufacture on the PTS, the name of the organization (issued the PTS), whether it was registered ON YOU, as the owner of the motorcycle, mileage, your assessment of the condition of the engine and gearbox, what parts are painted or replaced by non-original, whether some tuning is installed."
+        "title": "How does the payment process work?",
+        "content": "The final verification occurs during the appraiser's visit. If you accurately disclosed all details during the initial assessment via messenger, the price typically remains unchanged upon inspection. Payment is processed immediately following this step."
       },
       {
-        "title": "I want to sell for as much as possible!",
-        "content": "To increase the buyback price by 10%, wash the motorcycle, bring a second set of tires and keys. In 90% of cases, the valuation will be higher than other motorcycle buybacks."
+        "title": "Can I sell a financed boat?",
+        "content": "Yes, our company is interested in acquiring watercraft that have been financed through credit or leasing arrangements. We are prepared to consider:<br/> <ul><li>Financed watercraft: at any stage of the loan repayment process.</li><li>Leased watercraft: both those still under active lease agreements and those that have completed their lease terms.</li></ul>"
       },
       {
-        "title": "I'll sell the scooter for more!",
-        "content": "No problem! We just want to save you from wasting your time. Pre-sale preparation, photo shoots, registration on profile sites, paying for advertisements, answering the phone and traveling to meetings at inconvenient times - this is the least you will have to face."
+        "title": "Do you operate throughout the entire United States?",
+        "content": "While our network doesn't currently cover the entire United States, we are interested in working with customers from various regions and are willing to arrange pickup of the watercraft if necessary. Please note that for more distant locations, the waiting time for our appraiser's arrival may increase by 1-2 days. We strive to provide quality service to every customer, regardless of location."
       }
     ],
     "listBottom1": {
-      "title": "Urgent Redemption of boats",
-      "text": "During the existence of the company, we have redemptioned a large number of used vehicles of different makes and models. We have learned to approach the issues of car Redemption with intelligence: cars are de-registered and all transactions are legally correct. <br/><br/> We offer car redemption services in all districts of Kiev (Kiev region) and Ukraine. Those who do not want to spend time and effort to find a client, it is better to use the service 'autoRedemption'. Of course you will not get the maximum value for the car, but 90-95% of the market value we guarantee you!<br/><br/> However, if you decide to sell a used car on your own, it is recommended to be patient. Selling a car on your own can take months. At the same time, without understanding the market, it is difficult to set a price that will suit both you and the potential buyer. As a result, you will waste your time and efforts."
+      "title": "Title 1",
+      "text": "Title 1"
     },
     "listBottom2": {
-      "title": "Boat buying in Kiev",
-      "text": "Everything is simple! Send us a photo of the vehicle in a convenient messenger (viber, telegram, instagram). Within 4-5 minutes appraiser Vladimir will write the cost of Redemption. Having come to an agreement, we will immediately come to you! That you would not have traveled in vain, we will come to you ourselves, absolutely free, without any claims if you refuse our services. We value the reputation and time of our customers!"
+      "title": "Title 2",
+      "text": "Title 2"
     }
   }
 }

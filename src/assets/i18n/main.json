@@ -1,5 +1,7 @@
 {
-  "key": ["prod"],
+  "key": [
+    "prod"
+  ],
   "dashboard": {
     "state": "State of Florida",
     "title": "Scroll down <span>to see what we buy</span>",
@@ -43,7 +45,6 @@
       }
     ]
   },
-  
   "aboutInfo": {
     "title": "Why we are",
     "text": "your best bet",
@@ -90,21 +91,21 @@
     "title": "Customer Reviews",
     "feedback": [
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Had a fender bender with my BMW 3 Series. These guys in Miami came through big time! Their offer was way better than I expected for a banged-up ride. The process was slick, and they handled all the paperwork. Couldn't be happier!",
+        "name": "Emily R.",
+        "prod": "(Sold the BMW 3 Series)",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Needed to part ways with my dirt bike. These guys were okay, but the initial quote was a bit low. After some negotiation, we reached a fair price. The pickup was prompt, though. Solid service, just be ready to haggle a little.",
+        "name": "Alex M.",
+        "prod": "(Sold the Yamaha YZ250F)",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Sold my old tractor attachment to these guys. They knew their stuff about farm equipment and gave a fair price. The pickup was prompt, and they were careful with the equipment. Solid service for farmers looking to upgrade.",
+        "name": "John D.",
+        "prod": "(Sold the John Deere Backhoe attachment)",
         "feedbackMap": "Review from Google Maps"
       }
     ],
@@ -115,28 +116,28 @@
     "descr": "We're Happy to Help",
     "listAsq": [
       {
-        "title": "What kind of cars do you buy?",
-        "content": "Absolutely any: whole, after the accident, not customs clearance, on tp. Mark, year release, mileage, condition do not matter. Redemptionaem credit cars, as well as cars with penalties. We work with legal entities and individuals, Redemption of car fleets."
+        "title": "Do you offer free item pickup??",
+        "content": "Yes, we offer free item pickup. We can send our representative to your location for evaluation and transportation at no additional cost to you. Alternatively, if you prefer, you can deliver the item to our office yourself or ship it by mail, both options also free of charge."
       },
       {
-        "title": "Can I leave the car for you to sell?",
-        "content": "Yes. We will put your vehicle on consignment at our dealership."
+        "title": "Do you offer online valuation, or is an in-person inspection required?",
+        "content": "We offer online valuation, which doesn't require an in-person inspection. Our process is simple: contact us through any messaging platform or social network, send us photos and a brief description of your item, and we'll provide a competitive offer within 5-7 minutes. This online approach allows for quick and convenient valuation without the need for physical inspection in most cases."
       },
       {
-        "title": "How long does the sale last?",
-        "content": "The sale of the car takes place in 2-3 hours."
+        "title": "Do you operate throughout the entire United States?",
+        "content": "No, we don't currently operate throughout the entire United States. However, we work with customers from many regions across the country. For areas outside our immediate network, we can arrange pickup or postal delivery of items. Keep in mind that for more distant locations, there might be a slight delay of 1-2 days in our response or appraisal process. Despite these limitations, we're committed to providing quality service to all customers, regardless of their location."
       },
       {
-        "title": "Do you buy only in Kiev?",
-        "content": "No, we redemption cars all over Ukraine. In most cases. Redemption in Ukraine occurs on the day of communication."
+        "title": "How do you ensure the security of personal data and the confidentiality of transactions?",
+        "content": "We take data security and transaction confidentiality very seriously. All personal information and transaction details are kept strictly confidential and are never shared with third parties. We employ industry-standard encryption protocols to protect your data, and our staff undergoes regular training on privacy practices. Our privacy policy, which outlines our commitment to data protection, is available for review on our website."
       },
       {
-        "title": "I want to sell for as much as possible!",
-        "content": "To increase Redemption's price by 10%, wash the car, grab a a second set of tires and keys. In 90% of cases the valuation will be higher than other car Redemption."
+        "title": "What payment methods do you offer?",
+        "content": "We offer a variety of payment methods to accommodate your preferences: сash payment on-site, certified check, electronic bank transfer (ACH), wire transfer for larger transactions.All payment methods are secure and can be processed quickly to ensure you receive your funds as soon as possible after the transaction is complete."
       },
       {
-        "title": "I'll sell the car for more!",
-        "content": "No problem! We just want to save you from wasting your time. Pre-sale preparation, photo shoots, registration on profile sites, pay for advertising. ads, answering phones and traveling to appointments at inconvenient times is the least of what you're gonna to deal with."
+        "title": "How long does the entire process typically take, from submitting an application to receiving payment?",
+        "content": "We pride ourselves on our efficient process and same-day payment capability. Once we agree on a price, we can usually complete the transaction and provide payment within hours. However, please note that the timeline may extend slightly if you're located far from our nearest office or if the item for sale requires special handling or evaluation. In such cases, it might take an additional 1-2 business days to finalize the process. Rest assured, we always strive to complete transactions as quickly as possible while maintaining our high standards of service."
       }
     ],
     "listBottom1": {

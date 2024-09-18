@@ -76,16 +76,16 @@
     "style": "transport",
     "contentStep1": {
       "step": "Step 1",
-      "stepText": "Send photos and characteristics of the laptop to Telegram, Messenge",
+      "stepText": "Shoot us a picture or the details on any messaging app",
       "contact": "SEND"
     },
     "contentStep2": {
       "step": "Step 2",
-      "stepText": "Make an appointment for a sale at your nearest office or order a no obligation sale"
+      "stepText": "Schedule an in-office sales appointment or request an appraiser to visit your home"
     },
     "contentStep3": {
       "step": "Step 3",
-      "stepText": "Receive instant payouts in a form that is convenient for you"
+      "stepText": "Receive an instant payout in the form that's convenient for you"
     }
   },
   "aboutInfo": {
@@ -134,21 +134,21 @@
     "title": "Customer Reviews",
     "feedback": [
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Just sold my Toyota Tundra to these folks in Tampa. They were straight shooters, no BS. Got a fair price and the whole deal was wrapped up in no time. Smooth sailing all the way. Only wish they had a coffee machine in the office, hence the 4 stars.",
+        "name": "Jake S.",
+        "prod": "(Sold the Toyota Tundra)",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Needed to get rid of my utility trailer, and these guys came through. Fair price, quick pickup, no hassle. If you need a no-fuss way to sell your trailer in Florida, give 'em a shot!",
+        "name": "Mike S.",
+        "prod": "(Sold the Carry-On 6X12 Utility Trailer)",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Yo, these dudes in Florida hooked me up when I was selling my old Honda Dio. Cash in hand, no drama. The whole thing was chill AF. If you're looking to unload your ride without the hassle, hit 'em up!",
+        "name": "Tyler K.",
+        "prod": "(Sold the Honda Dio scooter)",
         "feedbackMap": "Review from Google Maps"
       }
     ],
@@ -159,37 +159,37 @@
     "descr": "We're Happy to Help",
     "listAsq": [
       {
-        "title": "What kind of cars do you buy?",
-        "content": "Absolutely any: whole, after the accident, not customs clearance, on tp. Mark, year release, mileage, condition do not matter. Redemptionaem credit cars, as well as cars with penalties. We work with legal entities and individuals, Redemption of car fleets."
+        "title": "Is a complimentary vehicle inspection and appraisal available?",
+        "content": "Yes, we offer free vehicle inspection and evaluation. Our representative can come to your location for assessment and transportation at no additional cost. Alternatively, you can bring the vehicle to our office yourself, which is also free of charge."
       },
       {
-        "title": "Can I leave the car for you to sell?",
-        "content": "Yes. We will put your vehicle on consignment at our dealership."
+        "title": "Do you offer remote vehicle valuation?",
+        "content": "We offer online valuation that doesn't require an in-person inspection. Simply contact us through any messaging platform or social network, send photos and a brief description of your vehicle, and we'll provide a competitive offer within 5-7 minutes."
       },
       {
-        "title": "How long does the sale last?",
-        "content": "The sale of the car takes place in 2-3 hours."
+        "title": "What is your service coverage area in the United States?",
+        "content": "We don't operate throughout the entire United States, but we serve customers from many regions across the country. For remote areas, we can arrange vehicle pickup or postal delivery. Please note that for distant locations, there might be a slight delay of 1-2 days in our evaluation process."
       },
       {
-        "title": "Do you buy only in Kiev?",
-        "content": "No, we redemption cars all over Ukraine. In most cases. Redemption in Ukraine occurs on the day of communication."
+        "title": "How do you ensure data security and transaction privacy?",
+        "content": "We take data security and transaction confidentiality very seriously. All personal information and transaction details are kept strictly confidential. We use state-of-the-art encryption protocols to protect your data."
       },
       {
-        "title": "I want to sell for as much as possible!",
-        "content": "To increase Redemption's price by 10%, wash the car, grab a a second set of tires and keys. In 90% of cases the valuation will be higher than other car Redemption."
+        "title": "What are the available payment options?",
+        "content": "We offer various payment methods: cash on-site, certified check, electronic bank transfer (ACH), wire transfer for larger transactions. All payment methods are secure and can be processed quickly."
       },
       {
-        "title": "I'll sell the car for more!",
-        "content": "No problem! We just want to save you from wasting your time. Pre-sale preparation, photo shoots, registration on profile sites, pay for advertising. ads, answering phones and traveling to appointments at inconvenient times is the least of what you're gonna to deal with."
+        "title": "What is the typical timeline from initial inquiry to payment completion?",
+        "content": "We pride ourselves on our efficient process and same-day payment capability. Usually, we can complete the transaction and provide payment within hours after agreeing on a price. For remote locations or special vehicles, the process might take an additional 1-2 business days."
       }
     ],
     "listBottom1": {
-      "title": "Urgent Redemption of boats",
-      "text": "Over the course of the company's existence, we've redemptionized a large number of used  vehicles of various makes and models. We've learned to be smart about Redemption: the vehicles      are de-registered and all transactions are legally correct. <br/> We offer services on car buying in all districts of Kiev (Kiev region) and Ukraine. Those who do not want to spend time and effort to find a client, it is better to use the service 'autoRedemption'. Of course you will not get the maximum value for the car, but 90-95% of the market value, we guarantee you! value we guarantee you!<br/> Still, if you decide to sell a used car on your own, it is recommended to be patient. patience. Selling a car on your own can take months. And without an understanding of the market. it is difficult to set a price that will suit both you and the potential buyer. You'll end up wasting your time and effort for nothing."
+      "title": "Title 1",
+      "text": "Text 1."
     },
     "listBottom2": {
-      "title": "Boat buying in Kiev",
-      "text": "Everything is simple! Send us a photo of the vehicle in a convenient messenger (viber, telegram, instagram). Within 4-5 minutes appraiser Vladimir will write the cost of Redemption. Having come to an agreement, we will immediately go to the You! That you would not have traveled in vain, we will come to you ourselves, absolutely free, without any or claims if you refuse our services. We value the reputation and time of our customers!"
+      "title": "Title 2",
+      "text": "Text 2"
     }
   }
 }

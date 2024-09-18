@@ -5,16 +5,16 @@
   ],
   "dashboard": {
     "state": "State of Florida",
-    "title": "Helicopter buyback",
+    "title": "Sell my helicopter",
     "location": "(All States)",
-    "description": "Buy your bike at the best price",
+    "description": "Quick cash for your helicopter",
     "image": "/assets/img/helicopter/Helicopter.png",
-    "bgImage": "bike",
-    "class": "bike_text"
+    "bgImage": "helicopter",
+    "class": "helicopter_text"
   },
   "easySteps": {
-    "title": "3 simple steps",
-    "text": "to sell a bike fast",
+    "title": "3 easy steps",
+    "text": "to appraise your helicopter online",
     "style": "bike",
     "contentStep1": {
       "step": "Step 1",
@@ -29,6 +29,34 @@
       "step": "Step 3",
       "stepText": "Receive instant payouts in a form that is convenient for you"
     }
+  },
+  "need-docs": {
+    "title": "To sell your helicopter, you will need:",
+    "docs": [
+      {
+        "title": "Aircraft registration certificate",
+        "img": "/assets/img/motorbike/passport.svg"
+      },
+      {
+        "title": "Valid pilot's license or state-issued ID",
+        "img": "/assets/img/motorbike/taxpayer_number.svg"
+      },
+      {
+        "title": "Airworthiness certificate",
+        "img": "/assets/img/motorbike/motorbike.svg"
+      }
+    ],
+    "need-docs-asq": "Additional paperwork will be required if the helicopter is:",
+    "listAsq": [
+      {
+        "title": "Credited:",
+        "content": "<ul><li>Loan payoff information</li><li>Account number and lender's contact information</li></ul>"
+      },
+      {
+        "title": "Corporate:",
+        "content": "<ul><li>Articles of incorporation or business license</li><li>Letter authorizing the sale on company letterhead</li><li>Employer Identification Number (EIN)</li></ul>"
+      }
+    ]
   },
   "aboutInfo": {
     "title": "We buy back bike in Florida",
@@ -76,21 +104,21 @@
     "title": "Customer Reviews",
     "feedback": [
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Sold my private helicopter to this company in Miami. They were professional, offered a competitive price, and managed all the details. Appreciated their expertise in the rotorcraft market. A top-notch service!",
+        "name": "Elizabeth C.",
+        "prod": "(Sold the Bell 429)",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "These folks bought my small helicopter. The offer was fair, and they were flexible with the inspection and pickup. Only giving 4 stars because the initial response was a bit slow, but otherwise a smooth transaction.",
+        "name": "James H. ",
+        "prod": "(Sold the Robinson R44)",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Parting with my chopper was bittersweet, but these guys made it easier. They knew their stuff about helicopters and offered a good price. The whole process was efficient and hassle-free. Thumbs up!",
+        "name": "Laura M.",
+        "prod": "(Sold the Airbus H125)",
         "feedbackMap": "Review from Google Maps"
       }
     ],
@@ -101,28 +129,32 @@
     "descr": "We're Happy to Help",
     "listAsq": [
       {
-        "title": "What kind of cars do you buy?",
-        "content": "Absolutely any: whole, after the accident, not customs clearance, on tp. Mark, year release, mileage, condition do not matter. Redemptionaem credit cars, as well as cars with penalties. We work with legal entities and individuals, Redemption of car fleets."
+        "title": "What types of helicopters do you buy?",
+        "content": "Our company specializes in purchasing a wide range of helicopters, including ultralight helicopters, light single-engine helicopters, medium single-engine helicopters, multi-engine helicopters (medium and heavy), and helicopters designed for VIP and corporate transportation. We consider all makes and models from major manufacturers such as Bell, Airbus Helicopters, Sikorsky, Leonardo, Robinson, and others."
       },
       {
-        "title": "Can I leave the car for you to sell?",
-        "content": "Yes. We will put your vehicle on consignment at our dealership."
+        "title": "How do you value helicopters",
+        "content": "Our valuation process is comprehensive and takes into account multiple factors. We consider the helicopter's make, model, year, total time on airframe and engine(s), avionics suite, maintenance history, and current market conditions. Our team of experienced appraisers uses industry-standard valuation tools and current market data to provide a fair and competitive offer."
       },
       {
-        "title": "How long does the sale last?",
-        "content": "The sale of the car takes place in 2-3 hours."
+        "title": "Can I sell a financed helicopter?",
+        "content": "Yes, we are experienced in purchasing helicopters with existing financial obligations. We can work with financed helicopters at any stage of the loan repayment process, as well as leased helicopters both under active agreements and those that have completed their lease terms. Our team is skilled in navigating the complexities of these transactions to ensure a smooth process for all parties involved."
       },
       {
-        "title": "Do you buy only in Kiev?",
-        "content": "No, we redemption cars all over Ukraine. In most cases. Redemption in Ukraine occurs on the day of communication."
+        "title": "What paperwork is needed?",
+        "content": "To facilitate a smooth transaction, we typically require the following documentation:<br/><ul><li>Aircraft registration certificate</li><li>Airworthiness certificate</li><li>Logbooks (airframe, engine, and rotor)</li><li>Maintenance records</li><li>Any Supplemental Type Certificates (STCs) or modifications</li><li>Bill of sale</li><li>Lease or finance agreements (if applicable) Our team can guide you through the documentation process to ensure all necessary paperwork is in order.</li></ul>"
       },
       {
-        "title": "I want to sell for as much as possible!",
-        "content": "To increase Redemption's price by 10%, wash the car, grab a a second set of tires and keys. In 90% of cases the valuation will be higher than other car Redemption."
+        "title": "How quickly can the sale be completed?",
+        "content": "The timeline can vary depending on the complexity of the transaction, but we strive for efficiency. Once we've agreed on a price and all documentation is in order, we can typically complete the transaction within 5-7 business days. In some cases, we can expedite the process if needed."
       },
       {
-        "title": "I'll sell the car for more!",
-        "content": "No problem! We just want to save you from wasting your time. Pre-sale preparation, photo shoots, registration on profile sites, pay for advertising. ads, answering phones and traveling to appointments at inconvenient times is the least of what you're gonna to deal with."
+        "title": "How does the inspection process work?",
+        "content": "Our inspection process is thorough yet efficient. We dispatch a qualified aviation inspector to conduct an on-site evaluation of the helicopter. This includes a detailed examination of the airframe, engines, avionics, and a review of all maintenance records. We also perform a test flight when possible. Our goal is to complete the inspection with minimal disruption to your operations."
+      },
+      {
+        "title": "Do you operate throughout the entire United States?",
+        "content": "While our primary network doesn't cover the entire United States, we have strategic partnerships that allow us to work with customers across the country. We can arrange for the inspection and pickup of the helicopter from any location. For more distant locations, please allow an additional 1-2 days for our team to make necessary arrangements. We are committed to providing high-quality service to every customer, regardless of their location."
       }
     ],
     "listBottom1": {

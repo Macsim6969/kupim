@@ -23,7 +23,7 @@
 
 
 .boat {
-  background: linear-gradient(86deg, #739588 0%, #739588 36%, #202227 100%);
+  background: linear-gradient(86deg, #48ab87 0%, #48ab87 36%, #20242b 100%);
 }
 
 
@@ -110,6 +110,17 @@
   background: linear-gradient(86deg, #b2e696 0%, #b2e696 36%, #20242b 100%);
 }
 
+.airplane {
+  background: linear-gradient(86deg, #5b8486 0%, #5b8486 36%, #20242b 100%);
+}
+
+.helicopter{
+  background: linear-gradient(86deg, #dfb3db 0%, #dfb3db 36%, #20242b 100%);
+}
+
+.wheelchair{
+  background: linear-gradient(86deg, #f5c08b 0%, #f5c08b 36%, #20242b 100%);
+}
 
 .legal_text {
   @media (max-width: 1000px) {

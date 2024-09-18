@@ -246,15 +246,9 @@
         }
 
         .header_nav_main {
-          display: -webkit-box;
-          display: -ms-flexbox;
           display: flex;
-          -webkit-box-orient: horizontal;
-          -webkit-box-direction: normal;
-          -ms-flex-direction: row;
+         
           flex-direction: row;
-          -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
           justify-content: space-between;
 
           .nav_main_inner {
@@ -316,6 +310,14 @@
           &.trailer,
           &.boat {
             height: auto;
+          }
+          
+          &.helicopter{
+            height: 220px;
+          }
+
+          &.wheelchair{
+            height: 420px;
           }
 
           @media (max-width: 1250px) {

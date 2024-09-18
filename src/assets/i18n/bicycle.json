@@ -1,7 +1,8 @@
 {
   "key": [
     "yes",
-    "prod"
+    "prod",
+    "easy-step"
   ],
   "dashboard": {
     "state": "State of Florida",
@@ -35,7 +36,7 @@
   },
   "easySteps": {
     "title": "3 easy steps",
-    "text": "to appraise your velo-bike online",
+    "text": "to appraise your bicycle online",
     "style": "bike",
     "contentStep1": {
       "step": "Step 1",
@@ -147,12 +148,12 @@
       }
     ],
     "listBottom1": {
-      "title": "Maximize Your Bike's Value: Premier Buyback Service in Florida and Nationwide",
-      "text": "Looking to sell your bike in Florida or across the USA? Our top-tier bike buyback service offers competitive prices and unmatched convenience for cyclists nationwide."
+      "title": "Title 1",
+      "text": "Text 1"
     },
     "listBottom2": {
-      "title": "Florida's Leading Bike Buyback Option",
-      "text": "Florida cyclists, selling your bike is now effortless. Whether you're in Miami, Orlando, or Tampa, we provide instant online quotes and expert evaluation for all bike brands. Our streamlined process ensures you get the best value for your bicycle."
+      "title": "Title 2",
+      "text": "Text 2"
     }
   }
 }

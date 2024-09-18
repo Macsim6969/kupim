@@ -6,9 +6,9 @@
   ],
   "dashboard": {
     "state": "State of Florida",
-    "title": "Trailer buyback",
+    "title": "Sell my trailer",
     "location": "(All States)",
-    "description": "We'll buy your trailer at the best price!",
+    "description": "Quick cash for your trailer",
     "image": "/assets/img/trailer/trailer.png",
     "bgImage": "trailer",
     "class": "trailer_text"
@@ -29,8 +29,8 @@
     ]
   },
   "easySteps": {
-    "title": "3 simple steps",
-    "text": "to sell a laptop fast",
+    "title": "3 easy steps",
+    "text": "to appraise your trailer online",
     "style": "trailer",
     "contentStep1": {
       "step": "Step 1",
@@ -47,19 +47,30 @@
     }
   },
   "need-docs": {
-    "title": "To sell your tractor you will need",
+    "title": "To sell your trailer, you will need:",
     "docs": [
       {
-        "title": "Passport of a citizen of Ukraine",
+        "title": "Trailer title (clear and in your name)",
         "img": "/assets/img/motorbike/passport.svg"
       },
       {
-        "title": "Taxpayer Identification Number",
+        "title": "Valid driver's license or state-issued ID",
         "img": "/assets/img/motorbike/taxpayer_number.svg"
       },
       {
-        "title": "Vehicle registration certificate",
+        "title": "Current trailer registration",
         "img": "/assets/img/motorbike/motorbike.svg"
+      }
+    ],
+    "need-docs-asq": "Additional paperwork will be required if the trailer is:",
+    "listAsq": [
+      {
+        "title": "Credited:",
+        "content": "<ul><li>Loan payoff information</li><li>Account number and lender's contact information</li></ul>"
+      },
+      {
+        "title": "Corporate:",
+        "content": "<ul><li>Articles of incorporation or business license</li><li>Letter authorizing the sale on company letterhead</li><li>Employer Identification Number (EIN)</li></ul>"
       }
     ]
   },
@@ -109,21 +120,21 @@
     "title": "Customer Reviews",
     "feedback": [
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Sold my motorcycle with its trailer to these guys in one go. They offered a fair package deal and made the whole process smooth. Appreciated their flexibility and knowledge of both bikes and trailers.",
+        "name": "Ryan K.",
+        "prod": "(Sold the Harley-Davidson with Trailer)",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "These folks in Miami bought my travel trailer. The offer was decent, and they handled all the paperwork. Only giving 4 stars because the pickup was delayed by a day, but otherwise a good experience.",
+        "name": "Jessica L.",
+        "prod": "(Sold the Airstream Flying Cloud)",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Needed to get rid of my utility trailer, and these guys came through. Fair price, quick pickup, no hassle. If you need a no-fuss way to sell your trailer in Florida, give 'em a shot!",
+        "name": "Mike S.",
+        "prod": "(Sold the Carry-On 6X12 Utility Trailer)",
         "feedbackMap": "Review from Google Maps"
       }
     ],
@@ -134,28 +145,24 @@
     "descr": "We're Happy to Help",
     "listAsq": [
       {
-        "title": "What kind of motorcycles do you buy?",
-        "content": "Absolutely any: motorcycles, mopeds, scooters, motorcycles, ATVs. Mark, year of manufacture, mileage, condition do not matter. We buy out credit, as well as with fines. We work with individuals and legal entities, buy out corporate motoparks."
+        "title": "What types of trailers do you purchase?",
+        "content": "Our company is looking to acquire a wide range of trailers, including: passenger car trailers, cargo trailers, single-axle, tandem-axle, flatbed trailers, enclosed trailers, boat trailers, livestock trailers, travel trailers (caravans), refrigerated trailers, motorcycle trailers, tank trailers, dump trailers, and logging trailers."
       },
       {
-        "title": "Can I leave the bike for you to sell?",
-        "content": "Yes. We will put your motorized vehicle on commission at our showroom."
+        "title": "How do you determine a trailer's value?",
+        "content": "Our online valuation process is streamlined for your convenience. Simply contact us through any messaging platform (Telegram, WhatsApp, Facebook Messenger) or social network (Instagram, Facebook) and send us photos along with a brief description (specifications, details, modifications). Within 5-7 minutes, you'll receive a competitive offer and a step-by-step plan for a quick sale."
       },
       {
-        "title": "You're buying up undocumented?",
-        "content": "Yes, we do. We accept motorcycles without documents and in any condition. We will pick up faulty transportation from anywhere in Kiev and Ukraine."
+        "title": "How does the payment process work?",
+        "content": "The final stage of verification occurs after the appraiser's visit. If you accurately disclosed all details during the initial assessment via messenger, the price typically remains unchanged upon inspection. Payment is processed immediately following this step."
       },
       {
-        "title": "What kind of information do you need?",
-        "content": "Before the sale, be prepared to provide the following information about your vehicle: make, model, VIN or frame number, year of manufacture on the PTS, the name of the organization (issued the PTS), whether it was registered ON YOU, as the owner of the motorcycle, mileage, your assessment of the condition of the engine and gearbox, what parts are painted or replaced by non-original, whether some tuning is installed."
+        "title": "Do you offer pickup services?",
+        "content": "We offer two options for trailer transfer: you can either bring the tractor to our office, or we can dispatch an appraiser to your location. Both services are provided at no cost to you."
       },
       {
-        "title": "I want to sell for as much as possible!",
-        "content": "To increase the buyback price by 10%, wash the motorcycle, bring a second set of tires and keys. In 90% of cases, the valuation will be higher than other motorcycle buybacks."
-      },
-      {
-        "title": "I'll sell the scooter for more!",
-        "content": "No problem! We just want to save you from wasting your time. Pre-sale preparation, photo shoots, registration on profile sites, paying for advertisements, answering the phone and traveling to meetings at inconvenient times - this is the least you will have to face."
+        "title": "Do you operate throughout the entire United States?",
+        "content": "Currently, our network doesn't cover the entire United States. However, we are interested in working with customers from various regions and are willing to arrange pickup of the trailer if necessary. Please note that for more distant locations, the waiting time for our appraiser's arrival may increase by 1-2 days. We strive to provide quality service to every customer, regardless of location."
       }
     ],
     "listBottom1": {

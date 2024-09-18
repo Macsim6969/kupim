@@ -216,7 +216,7 @@
   }
 
   &.boat {
-    background: linear-gradient(86deg, #739588 0%, #739588 36%, #202227 100%);
+    background: linear-gradient(86deg, #48ab87 0%, #48ab87 36%, #20242b 100%);
   }
 
   &.tractor {
@@ -271,16 +271,20 @@
     background: linear-gradient(86deg, #cc3f64 0%, #cc3f64 36%, #20242b 100%);
   }
 
-  &.snowboard{
+  &.snowboard {
     background: linear-gradient(86deg, #dbb73a 0%, #dbb73a 36%, #20242b 100%);
   }
 
-  &.surfboard{
+  &.surfboard {
     background: linear-gradient(86deg, #3ab3db 0%, #3ab3db 36%, #20242b 100%);
   }
 
   &.real-estate {
     background: linear-gradient(86deg, #3ab3db 0%, #3ab3db 36%, #20242b 100%);
+  }
+
+  &.wheelchair {
+    background: linear-gradient(86deg, #f5c08b 0%, #f5c08b 36%, #20242b 100%);
   }
 
   @media (max-width: 720px) {

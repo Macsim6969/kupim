@@ -15,16 +15,16 @@
     "style": "skooter",
     "contentStep1": {
       "step": "Step 1",
-      "stepText": "Send photos and characteristics of the laptop to Telegram, Messenge",
+      "stepText": "Shoot us a picture or the details on any messaging app",
       "contact": "CONNECT"
     },
     "contentStep2": {
       "step": "Step 2",
-      "stepText": "Make an appointment for a sale at your nearest office or order a no obligation sale"
+      "stepText": "Schedule an in-office sales appointment or request an appraiser to visit your home"
     },
     "contentStep3": {
       "step": "Step 3",
-      "stepText": "Receive instant payouts in a form that is convenient for you"
+      "stepText": "Receive an instant payout in the form that's convenient for you"
     }
   },
   "aboutInfo": {
@@ -123,12 +123,12 @@
       }
     ],
     "listBottom1": {
-      "title": "Urgent buyback of scooters",
-      "text": "During the existence of the company, we have bought out a large number of used vehicles of different makes and models. We have learned to approach the issues of car buyout with intelligence: cars are de-registered, and all transactions are legally correct.<bt/><br/> We offer car buying services in all districts of Kiev (Kiev region) and Ukraine. Those who do not want to spend time and effort to find a client, it is better to use the service 'auto buyout'. Of course you will not get the maximum value for the car, but 90-95% of the market value we guarantee you!<br/><br/> However, if you decide to sell a used car on your own, it is recommended to be patient. Selling a car on your own can take months. At the same time, without understanding the market, it is difficult to set a price that will suit both you and the potential buyer. As a result, you will waste your time and efforts."
+      "title": "Title 1",
+      "text": "Text 1"
     },
     "listBottom2": {
-      "title": "Scooter buying in Kiev",
-      "text": "Everything is simple! Send us a photo of the vehicle in a convenient messenger (viber, telegram, instagram). Within 4-5 minutes, the appraiser Vladimir will write the cost of redemption. Having come to an agreement, we will immediately go to you! That you would not have traveled in vain, we will come to you ourselves, absolutely free, without any claims if you refuse our services. We value the reputation and time of our customers!"
+      "title": "Title 2",
+      "text": "Text 2"
     }
   }
 }
