@@ -1,5 +1,5 @@
 import { AfterViewInit, ChangeDetectorRef, Component, HostListener, OnDestroy, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 import { Subject, take, takeUntil, timer } from 'rxjs';
 import { Location } from '@angular/common';
 import { TranslateService } from '@ngx-translate/core';
@@ -15,6 +15,10 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
   public key: string[];
   public isLoading: boolean;
 
+  private previousUrl: string | null = null;
+  private currentUrl: string | null = null;
+  private scrollPositions: { [url: string]: number } = {};
+
   constructor(
     private router: Router,
     private route: ActivatedRoute,
@@ -26,15 +30,43 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
 
   @HostListener('window:scroll', ['$event'])
   onScroll() {
-    if (window.scrollY !== 0) {
-      this.store._ScrollY = window.scrollY;
-    };
+    if (window.scrollY !== 0 && this.currentUrl) {
+      this.scrollPositions[this.currentUrl] = window.scrollY; // Сохраняем позицию скролла для текущего URL
+    }
   }
 
   ngOnInit(): void {
     this.checkToChangePage();
     this.setUpQueryParamsData();
-    this.onScroll();
+    
+    this.router.events.subscribe(event => {
+      if (event instanceof NavigationEnd) {
+        const isBackNavigation = this.previousUrl === event.urlAfterRedirects;
+        
+        this.previousUrl = this.currentUrl;
+        this.currentUrl = event.urlAfterRedirects;
+
+  
+        if (isBackNavigation) {
+          this.restoreScrollPosition(this.previousUrl); 
+        }
+      }
+    });
+  }
+
+  private restoreScrollPosition(url: string | null): void {
+    if (url && this.scrollPositions[url] !== undefined) {
+      const savedScrollY = this.scrollPositions[url]; 
+
+      timer(150).pipe(take(1)).subscribe(() => {
+        this.isLoading = false;
+
+        window.scrollTo({
+          top: savedScrollY,  
+          behavior: 'smooth'
+        });
+      });
+    }
   }
 
   ngAfterViewInit(): void {
@@ -54,18 +86,7 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
               if (translationData) {
                 this.checkPageLoaded()
                   .then(() => this.loadImages())
-                  .then(() => {
-                    timer(150).pipe(take(1))
-                      .subscribe(() => {
-                        this.isLoading = false;
-
-                        window.scrollTo({
-                          top: this.store._ScrollY$.getValue(),
-                          behavior: 'smooth'
-                        });
-
-                      })
-                  })
+                  .then(() => this.isLoading = false)
                   .catch(() => {
                     this.isLoading = true;
                   });

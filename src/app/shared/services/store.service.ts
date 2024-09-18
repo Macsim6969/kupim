@@ -6,18 +6,18 @@ import { BehaviorSubject, Observable } from "rxjs";
 export class StoreService {
   private activePageSubject: BehaviorSubject<string> = new BehaviorSubject<string>('');
   private lastScrollY: BehaviorSubject<number> = new BehaviorSubject<number>(0);
-  private oldScrollY: number;
+  private lastActivePageSubject: BehaviorSubject<string> = new BehaviorSubject<string>('');
 
   set _activePage(newValue: string) {
     this.activePageSubject.next(newValue);
   }
 
   get _activePage$() {
+    this._oldActivePage = this.activePageSubject.getValue();
     return this.activePageSubject;
   }
 
   set _ScrollY(newValue: number) {
-    this.oldScrollY = this.lastScrollY.getValue();
     this.lastScrollY.next(newValue);
   }
 
@@ -25,7 +25,11 @@ export class StoreService {
     return this.lastScrollY;
   }
 
-  get _OldScrollY(): number {
-    return this.oldScrollY
+  set _oldActivePage(newValue: string) {
+    this.lastActivePageSubject.next(newValue);
+  }
+
+  get _oldActivePage() {
+    return this.lastActivePageSubject.getValue();
   }
 }
