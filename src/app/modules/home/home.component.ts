@@ -18,6 +18,7 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
   private previousUrl: string | null = null;
   private currentUrl: string | null = null;
   private scrollPositions: { [url: string]: number } = {};
+  private isBackNavigation: boolean;
 
   constructor(
     private router: Router,
@@ -31,42 +32,61 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
   @HostListener('window:scroll', ['$event'])
   onScroll() {
     if (window.scrollY !== 0 && this.currentUrl) {
-      this.scrollPositions[this.currentUrl] = window.scrollY; // Сохраняем позицию скролла для текущего URL
+      this.scrollPositions[this.currentUrl] = window.scrollY;
     }
   }
 
   ngOnInit(): void {
     this.checkToChangePage();
     this.setUpQueryParamsData();
-    
+    this.checkOpenPagge();
+    this.previousUrl = this.router.url;
+    this.currentUrl = this.router.url;
+    this.isBackNavigation = false;
+  }
+
+  private checkOpenPagge() {
     this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
-        const isBackNavigation = this.previousUrl === event.urlAfterRedirects;
-        
+        const isGoingBack = this.isBackNavigation;
+        this.isBackNavigation = false;
+  
         this.previousUrl = this.currentUrl;
         this.currentUrl = event.urlAfterRedirects;
-
   
-        if (isBackNavigation) {
-          this.restoreScrollPosition(this.previousUrl); 
+        if (isGoingBack) {
+          this.restoreScrollPosition(this.previousUrl);
+        } else {
+          this.scrollToTop();
         }
       }
     });
+  
+    this.location.subscribe(() => {
+      this.isBackNavigation = true;
+    });
   }
-
+  
   private restoreScrollPosition(url: string | null): void {
     if (url && this.scrollPositions[url] !== undefined) {
-      const savedScrollY = this.scrollPositions[url]; 
-
+      const savedScrollY = this.scrollPositions[url];
+  
       timer(150).pipe(take(1)).subscribe(() => {
-        this.isLoading = false;
-
         window.scrollTo({
-          top: savedScrollY,  
+          top: savedScrollY,
           behavior: 'smooth'
         });
       });
     }
+  }
+  
+  private scrollToTop(): void {
+    timer(150).pipe(take(1)).subscribe(() => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
   }
 
   ngAfterViewInit(): void {
