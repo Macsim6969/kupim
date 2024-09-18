@@ -128,7 +128,7 @@
         "content": "No, we don't currently operate throughout the entire United States. However, we work with customers from many regions across the country. For areas outside our immediate network, we can arrange pickup or postal delivery of items. Keep in mind that for more distant locations, there might be a slight delay of 1-2 days in our response or appraisal process. Despite these limitations, we're committed to providing quality service to all customers, regardless of their location."
       },
       {
-        "title": "How do you ensure the security of personal data and the confidentiality of transactions?",
+        "title": "How do you ensure data security and transaction privacy?",
         "content": "We take data security and transaction confidentiality very seriously. All personal information and transaction details are kept strictly confidential and are never shared with third parties. We employ industry-standard encryption protocols to protect your data, and our staff undergoes regular training on privacy practices. Our privacy policy, which outlines our commitment to data protection, is available for review on our website."
       },
       {
@@ -136,17 +136,17 @@
         "content": "We offer a variety of payment methods to accommodate your preferences: сash payment on-site, certified check, electronic bank transfer (ACH), wire transfer for larger transactions.All payment methods are secure and can be processed quickly to ensure you receive your funds as soon as possible after the transaction is complete."
       },
       {
-        "title": "How long does the entire process typically take, from submitting an application to receiving payment?",
+        "title": "How long does the process take from application to payment?",
         "content": "We pride ourselves on our efficient process and same-day payment capability. Once we agree on a price, we can usually complete the transaction and provide payment within hours. However, please note that the timeline may extend slightly if you're located far from our nearest office or if the item for sale requires special handling or evaluation. In such cases, it might take an additional 1-2 business days to finalize the process. Rest assured, we always strive to complete transactions as quickly as possible while maintaining our high standards of service."
       }
     ],
     "listBottom1": {
-      "title": "Urgent Redemption of boats",
-      "text": "Over the course of the company's existence, we've redemptionized a large number of used  vehicles of various makes and models. We've learned to be smart about Redemption: the vehicles      are de-registered and all transactions are legally correct. <br/> We offer services on car buying in all districts of Kiev (Kiev region) and Ukraine. Those who do not want to spend time and effort to find a client, it is better to use the service 'autoRedemption'. Of course you will not get the maximum value for the car, but 90-95% of the market value, we guarantee you! value we guarantee you!<br/> Still, if you decide to sell a used car on your own, it is recommended to be patient. patience. Selling a car on your own can take months. And without an understanding of the market. it is difficult to set a price that will suit both you and the potential buyer. You'll end up wasting your time and effort for nothing."
+      "title": "Title 1",
+      "text": "Text 1"
     },
     "listBottom2": {
-      "title": "Boat buying in Kiev",
-      "text": "Everything is simple! Send us a photo of the vehicle in a convenient messenger (viber, telegram, instagram). Within 4-5 minutes appraiser Vladimir will write the cost of Redemption. Having come to an agreement, we will immediately go to the You! That you would not have traveled in vain, we will come to you ourselves, absolutely free, without any or claims if you refuse our services. We value the reputation and time of our customers!"
+      "title": "Title 2",
+      "text": "Text 2"
     }
   }
 }
