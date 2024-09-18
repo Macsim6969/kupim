@@ -1,6 +1,6 @@
-import { AfterViewInit, ChangeDetectorRef, Component, HostListener, OnDestroy, OnInit } from '@angular/core';
-import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
-import { Subject, take, takeUntil, timer } from 'rxjs';
+import { AfterViewInit, ChangeDetectorRef, Component, OnDestroy, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { Subject, takeUntil } from 'rxjs';
 import { Location } from '@angular/common';
 import { TranslateService } from '@ngx-translate/core';
 import { StoreService } from '../../shared/services/store.service';
@@ -15,11 +15,6 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
   public key: string[];
   public isLoading: boolean;
 
-  private previousUrl: string | null = null;
-  private currentUrl: string | null = null;
-  private scrollPositions: { [url: string]: number } = {};
-  private isBackNavigation: boolean;
-
   constructor(
     private router: Router,
     private route: ActivatedRoute,
@@ -29,64 +24,9 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
     private store: StoreService
   ) { }
 
-  @HostListener('window:scroll', ['$event'])
-  onScroll() {
-    if (window.scrollY !== 0 && this.currentUrl) {
-      this.scrollPositions[this.currentUrl] = window.scrollY;
-    }
-  }
-
   ngOnInit(): void {
     this.checkToChangePage();
     this.setUpQueryParamsData();
-    this.checkOpenPagge();
-    this.previousUrl = this.router.url;
-    this.currentUrl = this.router.url;
-    this.isBackNavigation = false;
-  }
-
-  private checkOpenPagge() {
-    this.router.events.subscribe(event => {
-      if (event instanceof NavigationEnd) {
-        const isGoingBack = this.isBackNavigation;
-        this.isBackNavigation = false;
-  
-        this.previousUrl = this.currentUrl;
-        this.currentUrl = event.urlAfterRedirects;
-  
-        if (isGoingBack) {
-          this.restoreScrollPosition(this.previousUrl);
-        } else {
-          this.scrollToTop();
-        }
-      }
-    });
-  
-    this.location.subscribe(() => {
-      this.isBackNavigation = true;
-    });
-  }
-  
-  private restoreScrollPosition(url: string | null): void {
-    if (url && this.scrollPositions[url] !== undefined) {
-      const savedScrollY = this.scrollPositions[url];
-  
-      timer(150).pipe(take(1)).subscribe(() => {
-        window.scrollTo({
-          top: savedScrollY,
-          behavior: 'smooth'
-        });
-      });
-    }
-  }
-  
-  private scrollToTop(): void {
-    timer(150).pipe(take(1)).subscribe(() => {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      });
-    });
   }
 
   ngAfterViewInit(): void {
@@ -106,7 +46,13 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
               if (translationData) {
                 this.checkPageLoaded()
                   .then(() => this.loadImages())
-                  .then(() => this.isLoading = false)
+                  .then(() => {
+                    this.isLoading = false
+                    window.scrollTo({
+                      top: 0,
+                      behavior: 'smooth'
+                    })
+                  })
                   .catch(() => {
                     this.isLoading = true;
                   });
@@ -134,7 +80,6 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   private checkPageLoaded(): Promise<void> {
-    // Ждем загрузки всех изображений и самой страницы
     return Promise.all([this.checkImagesLoaded(), this.waitForPageLoad()])
       .then(() => {
       });
@@ -188,7 +133,6 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
 
       });
   }
-
 
   ngOnDestroy(): void {
     this.destroy$.next();
