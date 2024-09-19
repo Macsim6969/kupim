@@ -332,6 +332,10 @@
           @media (max-width: 792px) {
             width: 275px;
           }
+
+          @media (max-height: 750px)  {
+            height: 300px;
+          }
         }
 
         .header_title {
