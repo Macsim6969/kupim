@@ -3,7 +3,8 @@
 
   .header {
     height: -webkit-fill-available;
-    padding: 75px 0 90px 0;
+    // padding: 75px 0 90px 0;
+    padding: 4.955% 0 6% 0;
 
     @media (max-width: 620px) {
       padding: 0;
@@ -14,7 +15,7 @@
       width: 100%;
       margin: 0 auto;
       box-shadow: 0px 0px 80px 1px #221414;
-      height: calc(100vh - 170px);
+      // height: calc(100vh - 170px);
       display: flex;
       flex-direction: column;
       position: relative;
@@ -247,7 +248,7 @@
 
         .header_nav_main {
           display: flex;
-         
+
           flex-direction: row;
           justify-content: space-between;
 
@@ -311,12 +312,12 @@
           &.boat {
             height: auto;
           }
-          
-          &.helicopter{
+
+          &.helicopter {
             height: 220px;
           }
 
-          &.wheelchair{
+          &.wheelchair {
             height: 420px;
           }
 
