@@ -42,7 +42,7 @@
         "route": "/warehouse-facilities"
       },
       {
-        "img": "/assets/img/main_page/Others.svg",
+        "img": "/assets/img/main_page/Others.png",
         "route": "/others"
       }
     ]
