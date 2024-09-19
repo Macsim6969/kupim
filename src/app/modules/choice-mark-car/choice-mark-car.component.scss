@@ -2,6 +2,10 @@
   height: auto;
   padding: 0 50px;
 
+  @media (max-width: 720px) {
+    padding: 0 16px;
+  }
+
   &.hide {
     display: none;
   }
@@ -26,9 +30,20 @@
     flex-direction: row;
     flex-wrap: wrap;
 
+    @media (max-width: 720px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+    }
+
     .inner_serf {
       width: 190px;
       margin-right: 35px;
+
+      @media (max-width: 720px) {
+        margin-right: 0;
+        width: 140px;
+      }
 
       &:hover {
         .inner_cont {
@@ -41,6 +56,11 @@
     .inner_cont {
       width: 190px;
       transition: 0.3s ease;
+      object-fit: cover;
+
+      @media (max-width: 720px) {
+        width: 100%;
+      }
     }
   }
 }
