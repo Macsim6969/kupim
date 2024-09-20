@@ -6,13 +6,13 @@
     "location": "(All States)",
     "description": "Cash for your trash!",
     "image": "/assets/img/real-estate/Warehouse_Facilities_main.svg",
-    "bgImage": "real-estate",
-    "class": "real-estate_text"
+    "bgImage": "warehouse-facilities",
+    "class": "warehouse-facilities_text"
   },
   "easySteps": {
     "title": "3 easy steps",
     "text": "to appraise your warehouse-facilities online",
-    "style": "main",
+    "style": "warehouse-facilities",
     "contentStep1": {
       "step": "Step 1",
       "stepText": "Shoot us a picture or the details on any messaging app",
