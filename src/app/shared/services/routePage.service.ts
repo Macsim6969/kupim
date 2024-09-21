@@ -66,6 +66,7 @@ export class RoutePageService {
     '/restaurant-cafe': 'restaurant-cafe',
     '/townhouse': 'townhouse',
     '/warehouse-facilities': 'warehouse-facilities',
+    '/real-estate-others': 'others-estate'
   }
 
   get _routeLanguageMap(): { [key: string]: string } {

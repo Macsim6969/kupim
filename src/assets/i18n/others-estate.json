@@ -1,0 +1,129 @@
+{
+  "key": [
+    "easy-step"
+  ],
+  "dashboard": {
+    "state": "",
+    "title": "Scroll down <span> to sell other types of vehicles</span>",
+    "location": "",
+    "description": "Quick cash for your vehicle!",
+    "image": "/assets/img/others/others.svg",
+    "bgImage": "others",
+    "class": "",
+    "styleClass": ""
+  },
+  "easySteps": {
+    "title": "3 easy steps",
+    "text": "to appraise your vehicle online",
+    "style": "main",
+    "contentStep1": {
+      "step": "Step 1",
+      "stepText": "Shoot us a picture or the details on any messaging app",
+      "contact": "SEND"
+    },
+    "contentStep2": {
+      "step": "Step 2",
+      "stepText": "Schedule an in-office sales appointment or request an appraiser to visit your home"
+    },
+    "contentStep3": {
+      "step": "Step 3",
+      "stepText": "Receive an instant payout in the form that's convenient for you"
+    }
+  },
+  "aboutInfo": {
+    "title": "We buy back",
+    "text": "laptops in Florida",
+    "list": [
+      {
+        "src": "/assets/img/laptop/about/car.svg",
+        "title": "We’ll buy anything you’ve got."
+      },
+      {
+        "src": "/assets/img/laptop/about/sack.svg",
+        "title": "Same-Day Purchase"
+      },
+      {
+        "src": "/assets/img/laptop/about/lock.svg",
+        "title": "Every Sale is Confidential"
+      },
+      {
+        "src": "/assets/img/laptop/about/bank.svg",
+        "title": "Trade-In"
+      },
+      {
+        "src": "/assets/img/laptop/about/time.svg",
+        "title": "Appraisal Time via Messenger - 7 Minutes"
+      },
+      {
+        "src": "/assets/img/laptop/about/thumbs-up.svg",
+        "title": "We Offer Higher Prices Than Our Competitors"
+      },
+      {
+        "src": "/assets/img/laptop/about/flag.svg",
+        "title": "Operating Across All U.S. States"
+      },
+      {
+        "src": "/assets/img/laptop/about/bills.svg",
+        "title": "Instant Payment"
+      },
+      {
+        "src": "/assets/img/laptop/about/chain.svg",
+        "title": "We Handle Complex Cases (Collateral, Loans)"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Customer Reviews",
+    "feedback": [
+      {
+        "content": "Selling my Segway Ninebot was a breeze with these guys. They really know their e-scooters and offered a fair price right off the bat. The pick-up was super convenient - they came to my office during lunch. Awesome service for urban commuters looking to switch up their ride.",
+        "name": "Mike T.",
+        "prod": "(Sold the Segway Ninebot Max)",
+        "feedbackMap": "Review from Google Maps"
+      },
+      {
+        "content": "Had some doubts about selling my hoverboard online, but this company put those to rest. The rep I dealt with was patient and answered all my questions. The offer was decent, though I hoped for a bit more. Still, the process was smooth, and payment was prompt. Good experience overall.",
+        "name": "Sarah K.",
+        "prod": "(Sold the Razor Hovertrax 2.0)",
+        "feedbackMap": "Review from Google Maps"
+      },
+      {
+        "content": "Parting with my EUC wasn't easy, but these folks made it painless. They clearly knew the InMotion V11 specs inside out, which was impressive. The offer exceeded my expectations, considering the device's age. Only giving 4 stars because the initial response took a couple of days. Otherwise, top-notch service for tech enthusiasts.",
+        "name": "Alex M.",
+        "prod": "(Sold the InMotion V11 Electric Unicycle",
+        "feedbackMap": "Review from Google Maps"
+      }
+    ],
+    "content": "Open Google Maps"
+  },
+  "questions": {
+    "title": "Have Questions?",
+    "descr": "We're Happy to Help",
+    "listAsq": [
+      {
+        "title": "What additional types of properties do you acquire beyond those listed on your main pages?",
+        "content": "Our acquisition portfolio extends far beyond our primary categories. We routinely purchase a diverse range of properties, including but not limited to: office buildings, retail spaces, industrial facilities, self-storage units, parking lots, mobile home parks, hotels and motels, medical facilities, educational institutions, religious buildings, agricultural properties.<br/>Regardless of the property type, we have the expertise and resources to evaluate and acquire unique or specialized real estate assets."
+      },
+      {
+        "title": "How can I obtain an online valuation for my property if it's not in your main categories?",
+        "content": "We offer a streamlined online valuation process for all property types. To receive a preliminary assessment, please provide:<br/><ul><li>High-quality photographs of the property</li><li>Key specifications (e.g., square footage, lot size, number of units)</li><li>Any additional relevant information (e.g., recent renovations, unique features)</li></ul><br/>Submit these details through our secure online portal, and our expert team will promptly analyze the information to provide you with a competitive offer."
+      },
+      {
+        "title": "What is your approach to acquiring unique or specialized properties?",
+        "content": "Our acquisition strategy is highly adaptable, allowing us to evaluate and purchase properties across the entire real estate spectrum. We employ a team of diverse industry experts who can accurately assess the value and potential of even the most unique assets. Our due diligence process is thorough, ensuring we understand the specific nuances and opportunities associated with each property type."
+      },
+      {
+        "title": "Can you handle complex transactions involving multiple property types?",
+        "content": "Absolutely. We specialize in managing complex, multi-faceted real estate transactions. Whether you're looking to sell a mixed-use development, a portfolio of diverse properties, or a large-scale commercial complex, our experienced team can structure deals that address the unique aspects of each property component while streamlining the overall transaction process."
+      },
+      {
+        "title": "How do you determine the value of properties that don't fit traditional valuation models?",
+        "content": "For properties that fall outside conventional valuation parameters, we employ a comprehensive approach that considers:<br/><ul><li>Comparable sales data from similar unique properties</li><li>Income potential and cash flow projections</li><li>Replacement cost analysis</li><li>Highest and best use assessments</li><li>Local market trends and economic factors</li></ul><br/>Our valuation experts leverage their extensive experience and proprietary data to ensure accurate and fair valuations for even the most unconventional properties."
+      },
+      {
+        "title": "What should I expect in terms of the acquisition process for non-standard properties?",
+        "content": "While each transaction is unique, our general process includes:<br/><ul><li>Initial consultation to understand your property and goals</li><li>Comprehensive property evaluation and market analysis</li><li>Presentation of a fair, no-obligation offer</li><li>Due diligence period, including necessary inspections and assessments</li><li>Closing process managed by our experienced transaction team</li></ul><br/>Throughout the process, we maintain clear communication and are committed to addressing any property-specific considerations. Our goal is to ensure a smooth, efficient transaction regardless of the property type or complexity."
+      }
+    ]
+  }
+}

@@ -11,6 +11,7 @@ const routes: Routes = [
   { path: 'blog', loadChildren: () => import('./modules/page-in-work/page-in-work.module').then(m => m.PageInWorkModule) },
   // { path: 'others', loadChildren: () => import('./modules/page-in-work/page-in-work.module').then(m => m.PageInWorkModule) },
   { path: 'others', loadChildren: () => import('./modules/home/home.module').then(m => m.HomeModule) },
+  { path: 'real-estate-others', loadChildren: () => import('./modules/home/home.module').then(m => m.HomeModule) },
   { path: '', loadChildren: () => import('./modules/home/home.module').then(m => m.HomeModule) },
 ]
 
