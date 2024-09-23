@@ -2,70 +2,70 @@
   "key": ["prod", "easy-step"],
   "dashboard": {
     "state": "State of Florida",
-    "title": "Scroll down <span>to see what we buy</span>",
+    "title": "Sell my <span>Apartment</span>",
     "location": "(All States)",
-    "description": "Cash for your trash!",
+    "description": "Quick cash offer for your Apartment!",
     "image": "/assets/img/real-estate/Apartment_main.svg",
     "bgImage": "apartment",
     "class": "apartment_text"
   },
   "easySteps": {
     "title": "3 easy steps",
-    "text": "to appraise your apartment online",
-    "style": "apartment",
+    "text": "to get an online",
+    "style": "main",
     "contentStep1": {
       "step": "Step 1",
-      "stepText": "Shoot us a picture or the details on any messaging app",
+      "stepText": "Submit (real estate, house, apartment, garage, land, restaurant, townhouse, warehouse) photos, key specifications, and additional information (if available) via your preferred messaging app.",
       "contact": "SEND"
     },
     "contentStep2": {
       "step": "Step 2",
-      "stepText": "Schedule an in-office sales appointment or request an appraiser to visit your home"
+      "stepText": "If the price is suitable, schedule a free appraiser inspection."
     },
     "contentStep3": {
       "step": "Step 3",
-      "stepText": "Receive an instant payout in the form that's convenient for you"
+      "stepText": "Receive an instant payout in the form that's convenient for you."
     }
   },
   "aboutInfo": {
-    "title": "We buy back",
-    "text": "laptops in Florida",
+    "title": "Why We're Your Top",
+    "text": "Choice in Real Estate",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
-        "title": "We’ll buy anything you’ve got."
+        "title": "We buy (real estate, houses, apartments, garages, land, restaurants, townhouses, warehouse) in any condition"
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
-        "title": "Same-Day Purchase"
+        "title": "Fast closing on all deals."
       },
       {
         "src": "/assets/img/laptop/about/lock.svg",
-        "title": "Every Sale is Confidential"
+        "title": "We purchase (real estate, houses, apartments, garages, land, restaurants, townhouses, warehouse) with outstanding utility bills"
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "Trade-In"
+        "title": "We specialize in complex cases (e.g., (real estate, houses, apartments, garages, land, restaurants, townhouses, warehouse) in foreclosure)"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
-        "title": "Appraisal Time via Messenger - 7 Minutes"
+        "title": "We buy (real estate, houses, apartments, garages, land, restaurants, townhouses, warehouse) in need of major renovations"
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
-        "title": "We Offer Higher Prices Than Our Competitors"
+        "title": "We resolve issues with property liens"
       },
       {
         "src": "/assets/img/laptop/about/flag.svg",
-        "title": "Operating Across All U.S. States"
+        "title": "Expert handling of inheritance and title complications"
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
-        "title": "Instant Payment"
+        "title": "We cover all closing costs and fees"
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
-        "title": "We Handle Complex Cases (Collateral, Loans)"
+        "title": "We ensure fully legal and compliant transactions)"
       }
     ]
   },
@@ -73,21 +73,21 @@
     "title": "Customer Reviews",
     "feedback": [
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Needed to offload my Miami Beach apartment ASAP due to a job relo. These cash buyers were a lifesaver! Quick, fair offer, and we closed in under 3 weeks. No realtor fees was a sweet bonus!",
+        "name": "Jess M.",
+        "prod": "Sold Apartment",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "These guys bought my L.A. apartment when I thought I'd be stuck with it forever. The market was slow, but they came in with a fair cash offer. Closed in 2 weeks flat. Couldn't be happier!",
+        "name": "Alex P.",
+        "prod": "Sold Apartment",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Decent experience selling my apartment to these cash buyers. The offer was slightly lower than I hoped, but the convenience made up for it. No repairs or staging needed. Overall, pretty smooth.",
+        "name": "Rachel K.",
+        "prod": "Sold Apartment",
         "feedbackMap": "Review from Google Maps"
       }
     ],

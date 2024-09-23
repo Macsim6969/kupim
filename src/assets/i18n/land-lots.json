@@ -2,70 +2,70 @@
   "key": ["prod", "easy-step"],
   "dashboard": {
     "state": "State of Florida",
-    "title": "Scroll down <span>to see what we buy</span>",
+    "title": "Sell my <span>Land</span>",
     "location": "(All States)",
-    "description": "Cash for your trash!",
+    "description": "Quick cash offer for your Land!",
     "image": "/assets/img/real-estate/Land_Lots_main.png",
     "bgImage": "land-lots",
     "class": "land-lots_text"
   },
   "easySteps": {
     "title": "3 easy steps",
-    "text": "to appraise your land-lots online",
-    "style": "land-lots",
+    "text": "to get an online",
+    "style": "main",
     "contentStep1": {
       "step": "Step 1",
-      "stepText": "Shoot us a picture or the details on any messaging app",
+      "stepText": "Submit (real estate, house, apartment, garage, land, restaurant, townhouse, warehouse) photos, key specifications, and additional information (if available) via your preferred messaging app.",
       "contact": "SEND"
     },
     "contentStep2": {
       "step": "Step 2",
-      "stepText": "Schedule an in-office sales appointment or request an appraiser to visit your home"
+      "stepText": "If the price is suitable, schedule a free appraiser inspection."
     },
     "contentStep3": {
       "step": "Step 3",
-      "stepText": "Receive an instant payout in the form that's convenient for you"
+      "stepText": "Receive an instant payout in the form that's convenient for you."
     }
   },
   "aboutInfo": {
-    "title": "We buy back",
-    "text": "laptops in Florida",
+    "title": "Why We're Your Top",
+    "text": "Choice in Real Estate",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
-        "title": "We’ll buy anything you’ve got."
+        "title": "We buy (real estate, houses, apartments, garages, land, restaurants, townhouses, warehouse) in any condition"
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
-        "title": "Same-Day Purchase"
+        "title": "Fast closing on all deals."
       },
       {
         "src": "/assets/img/laptop/about/lock.svg",
-        "title": "Every Sale is Confidential"
+        "title": "We purchase (real estate, houses, apartments, garages, land, restaurants, townhouses, warehouse) with outstanding utility bills"
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "Trade-In"
+        "title": "We specialize in complex cases (e.g., (real estate, houses, apartments, garages, land, restaurants, townhouses, warehouse) in foreclosure)"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
-        "title": "Appraisal Time via Messenger - 7 Minutes"
+        "title": "We buy (real estate, houses, apartments, garages, land, restaurants, townhouses, warehouse) in need of major renovations"
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
-        "title": "We Offer Higher Prices Than Our Competitors"
+        "title": "We resolve issues with property liens"
       },
       {
         "src": "/assets/img/laptop/about/flag.svg",
-        "title": "Operating Across All U.S. States"
+        "title": "Expert handling of inheritance and title complications"
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
-        "title": "Instant Payment"
+        "title": "We cover all closing costs and fees"
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
-        "title": "We Handle Complex Cases (Collateral, Loans)"
+        "title": "We ensure fully legal and compliant transactions)"
       }
     ]
   },
@@ -73,21 +73,21 @@
     "title": "Customer Reviews",
     "feedback": [
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Inherited some land in rural Florida that I had no use for. This company made selling it a breeze. Their offer was fair, and they handled all the paperwork. Appreciate the hassle-free experience!",
+        "name": "Sarah L.",
+        "prod": "Sold Land",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Had a tough time selling my vacant lot in California until these folks came along. They gave me a solid cash offer and closed quickly. No realtor fees or lengthy negotiations. Just what I needed!",
+        "name": "Mike B.",
+        "prod": "Sold Land",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Decent experience overall. They bought my land in Miami for a fair price, but the process took a bit longer than expected. Still, beats the hassle of listing it on the open market.",
+        "name": "Emma R.",
+        "prod": "Sold Land",
         "feedbackMap": "Review from Google Maps"
       }
     ],

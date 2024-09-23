@@ -4,30 +4,30 @@
   ],
   "dashboard": {
     "state": "",
-    "title": "Scroll down <span> to sell other types of vehicles</span>",
+    "title": "Sell My Property",
     "location": "",
-    "description": "Quick cash for your vehicle!",
+    "description": "Quick Cash Offer for Your Property!",
     "image": "/assets/img/others/others.svg",
     "bgImage": "others",
     "class": "",
     "styleClass": ""
   },
   "easySteps": {
-    "title": "3 easy steps",
-    "text": "to appraise your vehicle online",
+    "title": "3 Easy Steps",
+    "text": "to Get an Online Property Valuation:",
     "style": "main",
     "contentStep1": {
       "step": "Step 1",
-      "stepText": "Shoot us a picture or the details on any messaging app",
+      "stepText": "Submit property photos, key specifications, and additional information (if available) via your preferred messaging app.",
       "contact": "SEND"
     },
     "contentStep2": {
       "step": "Step 2",
-      "stepText": "Schedule an in-office sales appointment or request an appraiser to visit your home"
+      "stepText": "If the price is suitable, schedule a free appraiser inspection."
     },
     "contentStep3": {
       "step": "Step 3",
-      "stepText": "Receive an instant payout in the form that's convenient for you"
+      "stepText": "Receive an instant payout in the form that's convenient for you."
     }
   },
   "aboutInfo": {
@@ -36,39 +36,39 @@
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
-        "title": "We’ll buy anything you’ve got."
+        "title": "We buy properties in any condition"
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
-        "title": "Same-Day Purchase"
+        "title": "Fast closing on all deals"
       },
       {
         "src": "/assets/img/laptop/about/lock.svg",
-        "title": "Every Sale is Confidential"
+        "title": "We purchase properties with outstanding utility bills"
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "Trade-In"
+        "title": "We specialize in complex cases (e.g., properties in foreclosure)"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
-        "title": "Appraisal Time via Messenger - 7 Minutes"
+        "title": "We buy properties in need of major renovations"
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
-        "title": "We Offer Higher Prices Than Our Competitors"
+        "title": "We resolve issues with property liens"
       },
       {
         "src": "/assets/img/laptop/about/flag.svg",
-        "title": "Operating Across All U.S. States"
+        "title": "Expert handling of inheritance and title complications"
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
-        "title": "Instant Payment"
+        "title": "We cover all closing costs and fees"
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
-        "title": "We Handle Complex Cases (Collateral, Loans)"
+        "title": "We ensure fully legal and compliant transactions"
       }
     ]
   },
