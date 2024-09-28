@@ -1,5 +1,8 @@
 {
-  "key": ["prod", "easy-step"],
+  "key": [
+    "prod",
+    "easy-step"
+  ],
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell my <span>Restaurant</span>",
@@ -15,7 +18,7 @@
     "style": "main",
     "contentStep1": {
       "step": "Step 1",
-      "stepText": "Submit (real estate, house, apartment, garage, land, restaurant, townhouse, warehouse) photos, key specifications, and additional information (if available) via your preferred messaging app.",
+      "stepText": "Submit restaurant photos, key specifications, and additional information (if available) via your preferred messaging app.",
       "contact": "SEND"
     },
     "contentStep2": {
@@ -33,7 +36,7 @@
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
-        "title": "We buy (real estate, houses, apartments, garages, land, restaurants, townhouses, warehouse) in any condition"
+        "title": "We buy restaurants in any condition"
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
@@ -41,15 +44,15 @@
       },
       {
         "src": "/assets/img/laptop/about/lock.svg",
-        "title": "We purchase (real estate, houses, apartments, garages, land, restaurants, townhouses, warehouse) with outstanding utility bills"
+        "title": "We purchase restaurants with outstanding utility bills"
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "We specialize in complex cases (e.g., (real estate, houses, apartments, garages, land, restaurants, townhouses, warehouse) in foreclosure)"
+        "title": "We specialize in complex cases (e.g., restaurants in foreclosure)"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
-        "title": "We buy (real estate, houses, apartments, garages, land, restaurants, townhouses, warehouse) in need of major renovations"
+        "title": "We buy restaurants in need of major renovations"
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",

@@ -15,7 +15,7 @@
     "style": "main",
     "contentStep1": {
       "step": "Step 1",
-      "stepText": "Submit (real estate, house, apartment, garage, land, restaurant, townhouse, warehouse) photos, key specifications, and additional information (if available) via your preferred messaging app.",
+      "stepText": "Submit garage photos, key specifications, and additional information (if available) via your preferred messaging app.",
       "contact": "SEND"
     },
     "contentStep2": {
@@ -33,7 +33,7 @@
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
-        "title": "We buy (real estate, houses, apartments, garages, land, restaurants, townhouses, warehouse) in any condition"
+        "title": "We buy garages in any condition"
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
@@ -41,15 +41,15 @@
       },
       {
         "src": "/assets/img/laptop/about/lock.svg",
-        "title": "We purchase (real estate, houses, apartments, garages, land, restaurants, townhouses, warehouse) with outstanding utility bills"
+        "title": "We purchase garages with outstanding utility bills"
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "We specialize in complex cases (e.g., (real estate, houses, apartments, garages, land, restaurants, townhouses, warehouse) in foreclosure)"
+        "title": "We specialize in complex cases (e.g., garages in foreclosure)"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
-        "title": "We buy (real estate, houses, apartments, garages, land, restaurants, townhouses, warehouse) in need of major renovations"
+        "title": "We buy garages in need of major renovations"
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
