@@ -333,6 +333,10 @@
             width: 275px;
           }
 
+          @media (max-width: 375px) {
+            width: 245px;
+          }
+
           @media (max-height: 750px)  {
             height: 300px;
           }
@@ -357,7 +361,7 @@
           @media (max-width: 620px) {
             max-width: 320px;
             align-items: center;
-            padding-bottom: 35px;
+            padding-bottom: 15px;
           }
 
           .header_title_inner {
@@ -371,8 +375,8 @@
             color: white;
 
             ::ng-deep span {
-              font-size: 32px;
-              font-weight: 400;
+              font-size: 61px;
+              font-weight: 700;
 
               @media (max-width: 620px) {
                 font-size: 22px;
