@@ -1,5 +1,5 @@
 {
-  "key": ["prod", "easy-step"],
+  "key": ["easy-step"],
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell my <span>Garage</span>",
