@@ -13,21 +13,21 @@
     "class": "wheelchair_text"
   },
   "easySteps": {
-    "title": "3 easy steps",
-    "text": "to appraise your wheelchair online",
+    "title": "3 Easy Steps",
+    "text": "to Appraise Your Wheelchair Online",
     "style": "bike",
     "contentStep1": {
       "step": "Step 1",
-      "stepText": "Send photos and characteristics of the laptop to Telegram, Messenge",
+      "stepText": "Send us photos and specifications of your wheelchair via your preferred messaging app.",
       "contact": "CONNECT"
     },
     "contentStep2": {
       "step": "Step 2",
-      "stepText": "Make an appointment for a sale at your nearest office or order a no obligation sale"
+      "stepText": "Schedule an in-office consultation or request an expert evaluation at your location."
     },
     "contentStep3": {
       "step": "Step 3",
-      "stepText": "Receive instant payouts in a form that is convenient for you"
+      "stepText": "Receive your appraisal and payment through your preferred method."
     }
   },
   "aboutInfo": {

@@ -18,7 +18,7 @@
     "text": "across all states in the U.S.",
     "content": [
       {
-        "img": "/assets/img/boat/boat.png"
+        "img": "/assets/img/boat/Boat.png"
       },
       {
         "img": "/assets/img/boat/Inflatable_boat.svg"
@@ -35,28 +35,28 @@
     ]
   },
   "easySteps": {
-    "title": "3 easy steps",
-    "text": "to appraise your watercraft online",
+    "title": "3 Easy Steps",
+    "text": "to Appraise Your Watercraft Online",
     "style": "boat",
     "contentStep1": {
       "step": "Step 1",
-      "stepText": "Shoot us a picture or the details on any messaging app",
+      "stepText": "Send us photos and specifications of your watercraft via your preferred messaging app.",
       "contact": "CONNECT"
     },
     "contentStep2": {
       "step": "Step 2",
-      "stepText": "Schedule an in-office sales appointment or request an appraiser to visit your home"
+      "stepText": "Schedule an in-office consultation or request an expert evaluation at your location."
     },
     "contentStep3": {
       "step": "Step 3",
-      "stepText": "Receive an instant payout in the form that's convenient for you"
+      "stepText": "Receive your appraisal and payment through your preferred method."
     }
   },
   "need-docs": {
     "title": "To sell your watercraft, you will need:",
     "docs": [
       {
-        "title": "Vessel title or registration (clear and in your name)",
+        "title": "Vessel title or registration",
         "img": "/assets/img/motorbike/passport.svg"
       },
       {
@@ -176,12 +176,12 @@
       }
     ],
     "listBottom1": {
-      "title": "Title 1",
-      "text": "Title 1"
+      "title": "",
+      "text": ""
     },
     "listBottom2": {
-      "title": "Title 2",
-      "text": "Title 2"
+      "title": "",
+      "text": ""
     }
   }
 }

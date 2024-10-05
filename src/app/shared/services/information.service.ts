@@ -35,7 +35,7 @@ export class InformationService {
         title: "Sunday - 09:00 - 19:00"
       }
     ],
-    telNumber: "Tel: +1 727 732 9785",
+    telNumber: "Tel: +1 727 509 14 49",
     email: "Email: namegmail.com"
   }
 
