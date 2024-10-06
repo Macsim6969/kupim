@@ -296,7 +296,7 @@
         .header_home {
           width: auto;
           height: 440px;
-          object-fit: cover;
+          object-fit: contain;
           background: transparent;
 
           @media (max-width: 620px) {
