@@ -1,89 +1,92 @@
 {
-  "key": ["easy-step"],
+  "key": ["easy-step", "prod"],
   "dashboard": {
     "state": "State of Florida",
-    "title": "Laptop buyback",
+    "title": "Sell my laptop",
     "location": "(All States)",
-    "description": "Buy your laptop at the best price",
-    "image": "/assets/img/laptop/laptop.png",
+    "description": "Quick cash for your laptop!",
+    "image": "/assets/img/laptop/laptop.webp",
     "bgImage": "laptop",
     "class": "laptop_text"
   },
   "prodInfo": {
     "title": "Laptops",
-    "text": "we buy back across all US states",
+    "text": "We Purchase Across All U.S. States",
     "content": [
       {
-        "img": "/assets/img/laptop/info-dtp.svg"
+        "img": "/assets/img/laptop/After_repair.png"
       },
       {
-        "img": "/assets/img/laptop/info-credit.svg"
+        "img": "/assets/img/laptop/New.png"
       },
       {
-        "img": "/assets/img/laptop/info-legal.svg"
+        "img": "/assets/img/laptop/Old.png"
       },
       {
-        "img": "/assets/img/laptop/info-ip.svg"
+        "img": "/assets/img/laptop/Purchased.png"
+      },
+      {
+        "img": "/assets/img/laptop/Under_repair.png"
       }
     ]
   },
   "easySteps": {
-    "title": "3 simple steps",
-    "text": "to appraise your laptop online",
+    "title": "3 Easy Steps",
+    "text": "to Get Your Laptop Appraised Online",
     "style": "laptop",
     "contentStep1": {
       "step": "Step 1",
-      "stepText": "Send photos and characteristics of the laptop to Telegram, Messenge",
-      "contact": "CONNECT"
+      "stepText": "Send photos and specifications of your laptop via any preferred messaging platform.",
+      "contact": "SEND"
     },
     "contentStep2": {
       "step": "Step 2",
-      "stepText": "Make an appointment for a sale at your nearest office or order a no obligation sale"
+      "stepText": "If you accept our offer, visit our office or schedule a free in-home evaluation with our expert."
     },
     "contentStep3": {
       "step": "Step 3",
-      "stepText": "Receive instant payouts in a form that is convenient for you"
+      "stepText": "Receive instant payment through your preferred method."
     }
   },
   "aboutInfo": {
-    "title": "We buy back laptops in Florida",
-    "text": "and all the states",
+    "title": "Why We Are Your Premier",
+    "text": "Choice in Laptop Acquisition",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
-        "title": "We’ll buy anything you’ve got."
+        "title": "We purchase laptops in any condition"
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
-        "title": "Same-Day Purchase"
+        "title": "Expedited processing of all transactions"
       },
       {
         "src": "/assets/img/laptop/about/lock.svg",
-        "title": "Every Sale is Confidential"
+        "title": "Operating across all US states"
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "Trade-In"
+        "title": "Specializing in challenging cases (laptops requiring repair, water damage, factory defects, non-functional units, physical damage)"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
-        "title": "Appraisal Time via Messenger - 7 Minutes"
+        "title": "Every transaction is strictly confidential"
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
-        "title": "We Offer Higher Prices Than Our Competitors"
+        "title": "We handle all warranty-related matters"
       },
       {
         "src": "/assets/img/laptop/about/flag.svg",
-        "title": "Operating Across All U.S. States"
+        "title": "Professional evaluation and functionality verification"
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
-        "title": "Instant Payment"
+        "title": "All processing and shipping costs covered"
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
-        "title": "We Handle Complex Cases (Collateral, Loans)"
+        "title": "We guarantee fully legal and transparent transactions"
       }
     ]
   },
@@ -91,22 +94,22 @@
     "title": "Customer Reviews",
     "feedback": [
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike", 
+        "content": "Finally decided to part with my 2019 MacBook Pro after upgrading. These guys made it super easy! Got an instant quote online, met up same day at their office. They did a quick check, and boom - cash in hand. Price was actually better than I expected for a laptop with a few dings. The whole process took maybe 30 minutes. They even securely wiped my data on the spot. 100% recommend!",
+        "name": "Alex T.",
+        "prod": "(Sold 2019 MacBook Pro)", 
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
+        "content": "Sold my Lenovo Legion 5 gaming laptop yesterday. Was kinda nervous about getting a fair price for a gaming laptop, but these folks knew their stuff. The guy actually explained how they evaluate gaming machines, which was cool. Only giving 4 stars because I had to drive across town, but the price was solid and they were super professional. In and out in 20 minutes.",
+        "name": "Chris R.",
+        "prod": "(Sold Lenovo Legion 5)",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
+        "content": "What a breeze! Had an ASUS ROG Strix gathering dust after building a desktop. These guys offered me a great price over the phone, and stuck to it when they saw the laptop. They even had the right equipment to test all the gaming features right there. No haggling, no fuss - just straightforward business. Got paid on the spot, and they threw in free data removal. Honestly couldn't have been easier!",
+        "name": "Mike D.",
         "prod": "Sold the Gt Zaskar bike",
-        "feedbackMap": "Review from Google Maps"
+        "feedbackMap": "(Sold ASUS ROG Strix)"
       }
     ],
     "content": "Open Google Maps"
