@@ -303,6 +303,11 @@
             order: 1;
           }
 
+          &.boat {
+            height: 460px;
+            object-fit: contain;
+          }
+
           &.volkswagen,
           &.porshe,
           &.smart,
@@ -311,7 +316,7 @@
           &.audi,
           &.bmw,
           &.car,
-          &.trailer{
+          &.trailer {
             height: auto;
           }
 
@@ -336,7 +341,7 @@
             width: 245px;
           }
 
-          @media (max-height: 750px)  {
+          @media (max-height: 750px) {
             height: 300px;
           }
         }
