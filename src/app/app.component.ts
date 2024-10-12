@@ -5,6 +5,7 @@ import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { StoreService } from './shared/services/store.service';
 import { RoutePageService } from './shared/services/routePage.service';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -20,13 +21,15 @@ export class AppComponent implements OnInit {
     private router: Router,
     private translate: TranslateService,
     private store: StoreService,
-    private routePage: RoutePageService
+    private routePage: RoutePageService,
+    private titleService: Title,
+    private metaService: Meta
   ) { }
 
   ngOnInit(): void {
     this.setObservableData();
     this.streamRoute();
-
+    this.updatesMateTags();
   }
 
   private streamRoute() {
@@ -49,5 +52,16 @@ export class AppComponent implements OnInit {
 
   private setObservableData() {
     this.isOpenSidebar$ = this.sidebarService._isSidebarOpen$;
+  }
+
+  private updatesMateTags() {
+    this.translate.stream('dashboard.meta').subscribe((data: { metaTitle: string, metaDescription: string, keywords: string }) => {
+      console.log(data);
+      this.titleService.setTitle(data.metaTitle);
+
+      this.metaService.updateTag({ name: 'description', content: data.metaDescription });
+      this.metaService.updateTag({ name: 'keywords', content: data.keywords})
+    })
+
   }
 }

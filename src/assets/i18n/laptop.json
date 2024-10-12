@@ -10,7 +10,12 @@
     "description": "Quick cash for laptop!",
     "image": "/assets/img/laptop/laptop.webp",
     "bgImage": "laptop",
-    "class": "laptop_text"
+    "class": "laptop_text",
+    "meta": {
+      "metaTitle": "Sell your used laptop for cash near me in Florida",
+      "metaDescription": "Get quick online estimates in 5 minutes. Sell your used laptop for cash near you today. Best place to get quick money. Safe data erasure on-spot. We buy new, old, and broken devices.",
+      "keywords": "sell laptop, where to sell laptop, Cash for laptop, sell laptop for cash, sell laptop near me, best place to sell laptop, place to sell laptop near me, sell laptop online, sell used laptop, selling my old laptop, Get rid of old laptop, Turn laptop into cash, Need money selling laptop, Quick laptop sale"
+    }
   },
   "prodInfo": {
     "title": "Laptops",
