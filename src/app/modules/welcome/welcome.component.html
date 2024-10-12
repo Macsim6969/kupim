@@ -44,7 +44,7 @@
 
           <h1 class="header_title_inner {{welcomeDataPage.class}}" [innerHTML]="welcomeDataPage.title"></h1>
           <span *ngIf="welcomeDataPage.location;else noInfo" class="header_title_inner2 {{welcomeDataPage.class}}">
-            (State {{state ? state : 'Florida'}})</span>
+            (State {{state ? state : 'Fl'}})</span>
           <ng-template #noInfo>
             <span class="header_title_inner2 {{welcomeDataPage.class}}"></span>
           </ng-template>
