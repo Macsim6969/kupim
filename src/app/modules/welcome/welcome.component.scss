@@ -303,12 +303,21 @@
             order: 1;
           }
 
-          &.laptop,
+
           &.boat {
             height: 460px;
             object-fit: contain;
           }
-          
+
+          &.laptop {
+            height: 500px;
+            object-fit: contain;
+
+            @media (max-width: 1010px) {
+              height: 420px;
+            }
+          }
+
           &.volkswagen,
           &.porshe,
           &.smart,

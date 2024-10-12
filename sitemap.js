@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const SITE_URL = 'https://flkup-6c8a5.web.app';
+const SITE_URL = 'https://buddy-cash.com/';
 const DIST_FOLDER = path.resolve(__dirname, 'dist/kupim/browser');
 
 // Список маршрутов вашего приложения
