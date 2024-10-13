@@ -11,7 +11,7 @@ const ROUTES = [
     '/laptop?state=florida',
     '/bike?state=florida',
     '/team'
-];
+]; 
 
 const generateSitemap = () => {
     let sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n`;
