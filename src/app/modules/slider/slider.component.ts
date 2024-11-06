@@ -95,20 +95,20 @@ export class SliderComponent implements OnInit, OnDestroy{
   private autoScrollInterval: any;
 
   ngOnInit() {
-    this.startAutoScroll();
+    // this.startAutoScroll();
   }
 
   startAutoScroll() {
     this.autoScrollInterval = setInterval(() => {
       this.ds.moveRight();
-    }, 2000); 
+    }, 2000);
   }
 
 
   changeIndex(index: any){
-    if(index >= this.sliderData.length - 3){
-      this.ds.moveTo(1);
-    }
+    // if(index >= this.sliderData.length - 3){
+    //   this.ds.moveTo(1);
+    // }
   }
 
   ngOnDestroy() {
