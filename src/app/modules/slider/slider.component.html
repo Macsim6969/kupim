@@ -1,0 +1,6 @@
+<div class="slider">
+  <drag-scroll #dragg (indexChanged)="changeIndex($event)">
+    <img *ngFor="let slie of sliderData" drag-scroll-item src="{{slie.img}}" alt="{{slie.title}}" />
+  </drag-scroll>
+
+</div>

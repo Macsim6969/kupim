@@ -1,0 +1,39 @@
+.slider {
+  width: 100%;
+  overflow: auto;
+
+  ::ng-deep {
+    drag-scroll {
+      .drag-scroll-content {
+        display: flex !important;
+        align-items: stretch;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100% !important;
+        height: 100% !important;
+        overflow: auto;
+        gap: 24px;
+
+        img{
+          width: 220px;
+          height: 220px;
+        }
+
+        &::-webkit-scrollbar {
+          height: 4px;
+        }
+      
+        &::-webkit-scrollbar-track {
+          height: 4px;
+          background-color: rgb(255, 255, 255);
+        }
+        
+        &::-webkit-scrollbar-thumb {
+          height: 4px;
+          background-color: gray;
+          border-radius: 6px;
+        }
+      }
+    }
+  }
+}
