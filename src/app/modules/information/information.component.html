@@ -5,7 +5,7 @@
         <div class="inform_blog">
             <div class="blog_left">
                 <div class="left_log">BUDDY-CASH.COM</div>
-                <div class="inner_day_work_log">Adress</div>
+                <div class="inner_day_work_log">ADDRESS</div>
                 <div class="inner_local">{{infoData.address}}</div> 
                 <div class="inner_day_work_log">WORK SCHEDULE</div>
                 <div class="inner_day_work" *ngFor="let day of infoData.dayWork">{{day.title}}</div>
@@ -14,25 +14,40 @@
 
                 <div class="right_mn">EVALUATOR</div>
                 <div class="right_name">Bohdan</div>
-                <div class="right_direct">Contacts</div>
+                <div class="right_direct">CONTACTS</div>
                 <div class="right_direct_tel"><a href="tel: {{infoData.telNumber}}">{{infoData.telNumber}}</a></div>
+                
+                <!-- Facebook Messenger -->
                 <a class="block__innner" target="_blank" href="http://m.me/buddycash01">
                     <nav class="block_inner">
-                        <img class="inner_img" src="/assets/img/base_icon/facebook-messenger-base.svg" alt="Messanger">
+                        <img class="inner_img" src="/assets/img/base_icon/facebook-messenger-base.svg" alt="Facebook Messenger">
                         <div class="inner_title">SEND</div>
                     </nav>
+                    <!-- Open Graph and Twitter Meta Tags -->
+                    <meta property="og:image" content="/assets/img/base_icon/facebook-messenger-base.svg">
+                    <meta name="twitter:image" content="/assets/img/base_icon/facebook-messenger-base.svg">
                 </a>
+                
+                <!-- Telegram -->
                 <a class="block__innner" href="https://t.me/buddy_cashFL">
                     <nav class="block_inner">
-                        <img class="inner_img" src="/assets/img/base_icon/telegram-base.svg" alt="Instagram">
+                        <img class="inner_img" src="/assets/img/base_icon/telegram-base.svg" alt="Telegram">
                         <div class="inner_title">SEND</div>
                     </nav>
+                    <!-- Open Graph and Twitter Meta Tags -->
+                    <meta property="og:image" content="/assets/img/base_icon/telegram-base.svg">
+                    <meta name="twitter:image" content="/assets/img/base_icon/telegram-base.svg">
                 </a>
+                
+                <!-- WhatsApp -->
                 <a class="block__innner" href="https://wa.me/7275091449">
                     <nav class="block_inner">
                         <img class="inner_img" src="/assets/img/base_icon/whatsapp-base.svg" alt="WhatsApp">
                         <div class="inner_title">SEND</div>
                     </nav>
+                    <!-- Open Graph and Twitter Meta Tags -->
+                    <meta property="og:image" content="/assets/img/base_icon/whatsapp-base.svg">
+                    <meta name="twitter:image" content="/assets/img/base_icon/whatsapp-base.svg">
                 </a>
             </div>
         </div>

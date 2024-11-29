@@ -8,7 +8,7 @@
     "title": "Scroll down <span>to see what we buy</span>",
     "location": "(All States)",
     "description": "Cash for your trash!",
-    "image": "/assets/img/main_page/main_logo.svg",
+    "image": "/assets/img/main_page/main_logo.png",
     "bgImage": "main",
     "class": "main_text"
   },
@@ -47,62 +47,62 @@
     ]
   },
   "easySteps": {
-    "title": "3 easy steps",
+    "title": "3 Simple Steps",
     "text": "to appraise your online",
-    "style": "laptop",
+    "style": "main",
     "contentStep1": {
       "step": "Step 1",
-      "stepText": "Shoot us a picture or the details on any messaging app",
+      "stepText": "Simply share photos and details through your preferred messaging platform",
       "contact": "SEND"
     },
     "contentStep2": {
       "step": "Step 2",
-      "stepText": "Schedule an in-office sales appointment or request an appraiser to visit your home"
+      "stepText": "Schedule a convenient in-person evaluation at our office or your location"
     },
     "contentStep3": {
       "step": "Step 3",
-      "stepText": "Receive an instant payout in the form that's convenient for you"
+      "stepText": "Receive immediate payment through your preferred method: cash, digital transfer, or check"
     }
   },
   "aboutInfo": {
-    "title": "Why we are",
-    "text": "your best bet",
+    "title": "What Sets",
+    "text": "Us Apart",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
-        "title": "We’ll buy anything you’ve got."
+        "title": "We purchase all types of assets"
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
-        "title": "Same-Day Purchase"
+        "title": "Same-day transaction guarantee"
       },
       {
         "src": "/assets/img/laptop/about/lock.svg",
-        "title": "Every Sale is Confidential"
+        "title": "Complete transaction privacy"
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "Trade-In"
+        "title": "Efficient trade-in process"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
-        "title": "Appraisal Time via Messenger - 7 Minutes"
+        "title": "Online appraisal in 5-10 minutes"
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
-        "title": "We Offer Higher Prices Than Our Competitors"
+        "title": "Market-leading purchase rates"
       },
       {
         "src": "/assets/img/laptop/about/flag.svg",
-        "title": "Operating Across All U.S. States"
+        "title": "Service available in all U.S. states"
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
-        "title": "Instant Payment"
+        "title": "Instant payment transfer"
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
-        "title": "We Handle Complex Cases (Collateral, Loans)"
+        "title": "Expert handling of complex assets & loans"
       }
     ]
   },
@@ -152,7 +152,7 @@
       },
       {
         "title": "What payment methods do you offer?",
-        "content": "We offer a variety of payment methods to accommodate your preferences: сash payment on-site, certified check, electronic bank transfer (ACH), wire transfer for larger transactions.All payment methods are secure and can be processed quickly to ensure you receive your funds as soon as possible after the transaction is complete."
+        "content": "We offer a variety of payment methods to accommodate your preferences: сash payment on-site, certified check, electronic bank transfer (ACH), wire transfer for larger transactions. All payment methods are secure and can be processed quickly to ensure you receive your funds as soon as possible after the transaction is complete."
       },
       {
         "title": "How long does the process take from application to payment?",
