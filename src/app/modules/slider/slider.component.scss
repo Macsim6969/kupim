@@ -14,9 +14,18 @@
         overflow: auto;
         gap: 24px;
 
+        @media (max-width: 720px) {
+          gap: 12px;
+        }
+
         img{
           width: 220px;
           height: 220px;
+
+          @media (max-width: 720px) {
+            width: 170px;
+            height: 170px;
+          }
         }
 
         &::-webkit-scrollbar {

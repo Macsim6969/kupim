@@ -1,3 +1,12 @@
+# Включаем механизм переписывания
 RewriteEngine On
+
+# Перенаправление с HTTP на HTTPS и удаление www
 RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://%{buddy-cash.com}%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTP_HOST} ^(www\.)?buddy-cash\.com$ [NC]
+RewriteRule ^ https://buddy-cash.com%{REQUEST_URI} [L,R=301]
+
+# Перенаправление с www на non-www для HTTPS запросов
+RewriteCond %{HTTPS} on
+RewriteCond %{HTTP_HOST} ^www\.buddy-cash\.com$ [NC]
+RewriteRule ^ https://buddy-cash.com%{REQUEST_URI} [L,R=301]

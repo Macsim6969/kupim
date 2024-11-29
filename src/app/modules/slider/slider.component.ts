@@ -6,7 +6,7 @@ import { DragScrollComponent } from 'ngx-drag-scroll';
   templateUrl: './slider.component.html',
   styleUrl: './slider.component.scss'
 })
-export class SliderComponent implements OnInit, OnDestroy{
+export class SliderComponent {
   @ViewChild('dragg', { read: DragScrollComponent }) ds: DragScrollComponent;
   public sliderData = [   
       {
@@ -91,34 +91,5 @@ export class SliderComponent implements OnInit, OnDestroy{
       }
   
   ]
-
-  private autoScrollInterval: any;
-
-  ngOnInit() {
-    // this.startAutoScroll();
-  }
-
-  startAutoScroll() {
-    this.autoScrollInterval = setInterval(() => {
-      this.ds.moveRight();
-    }, 2000);
-  }
-
-
-  changeIndex(index: any){
-    // if(index >= this.sliderData.length - 3){
-    //   this.ds.moveTo(1);
-    // }
-  }
-
-  ngOnDestroy() {
-    this.stopAutoScroll();
-  }
-
-  stopAutoScroll() {
-    if (this.autoScrollInterval) {
-      clearInterval(this.autoScrollInterval);
-    }
-  }
 
 }
