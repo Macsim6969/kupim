@@ -4,7 +4,7 @@
     "state": "State of Florida",
     "title": "Scroll down <span>to see what we buy</span>",
     "location": "(All States)",
-    "description": "Cash for your trash!",
+    "footerDescription": "Cash for your trash!",
     "image": "/assets/img/gear/Exercise_machines_logo.png",
     "bgImage": "exercise-machines",
     "class": "exercise-machines_text"

@@ -7,4 +7,12 @@ export interface Welcome {
   bgImage: string
   class: string
   styleClass?: string
+  footerDescription: string;
+  alt: string
+  keywords: string
+  ogTitle: string
+  ogDescription: string
+  ogType: string
+  ogUrl: string
+  ogImage: string
 }

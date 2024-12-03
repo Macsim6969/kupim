@@ -7,7 +7,7 @@
     "state": "State of Florida",
     "title": "Sell my wheelchair",
     "location": "(All States)",
-    "description": "Quick cash for your wheelchair",
+    "footerDescription": "Quick cash for your wheelchair",
     "image": "/assets/img/wheelchair/Wheelchair.png",
     "bgImage": "wheelchair",
     "class": "wheelchair_text"

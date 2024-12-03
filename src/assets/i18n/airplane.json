@@ -7,7 +7,7 @@
     "state": "State of Florida",
     "title": "Sell my airplan",
     "location": "(All States)",
-    "description": "Quick cash for your airplan",
+    "footerDescription": "Quick cash for your airplan",
     "image": "/assets/img/airplane/Airplane.svg",
     "bgImage": "airplane",
     "class": "bike_text"

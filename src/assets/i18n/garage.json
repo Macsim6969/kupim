@@ -4,7 +4,7 @@
     "state": "State of Florida",
     "title": "Sell my <span>Garage</span>",
     "location": "(All States)",
-    "description": "Quick cash offer for your Garage!",
+    "footerDescription": "Quick cash offer for your Garage!",
     "image": "/assets/img/real-estate/Garage_main.svg",
     "bgImage": "garage",
     "class": "garage_text"

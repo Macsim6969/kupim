@@ -4,7 +4,7 @@
     "state": "State of Florida",
     "title": "Scroll down <span>to see what we buy</span>",
     "location": "(All States)",
-    "description": "Cash for your trash!",
+    "footerDescription": "Cash for your trash!",
     "image": "/assets/img/gear/Snowboard_logo.png",
     "bgImage": "snowboard",
     "class": "snowboard_text"

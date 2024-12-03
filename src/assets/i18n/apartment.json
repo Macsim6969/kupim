@@ -4,7 +4,7 @@
     "state": "State of Florida",
     "title": "Sell my <span>Apartment</span>",
     "location": "(All States)",
-    "description": "Quick cash offer for your Apartment!",
+    "footerDescription": "Quick cash offer for your Apartment!",
     "image": "/assets/img/real-estate/Apartment_main.svg",
     "bgImage": "apartment",
     "class": "apartment_text"

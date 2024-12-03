@@ -3,7 +3,7 @@
     "state": "State of Florida",
     "title": "Blog",
     "location": null,
-    "description": "",
+    "footerDescription": "",
     "image": "/assets/img/blog/Blog.svg",
     "bgImage": "contacts",
     "class": "legal_text",

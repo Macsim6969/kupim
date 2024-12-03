@@ -7,7 +7,7 @@
     "state": "State of Florida",
     "title": "Scroll down <span>to see what we buy</span>",
     "location": "(All States)",
-    "description": "Cash for your trash!",
+    "footerDescription": "Cash for your trash!",
     "image": "/assets/img/electronics/electronics.svg",
     "bgImage": "main",
     "class": "main_text"

@@ -4,7 +4,7 @@
     "state": "State of Florida",
     "title": "Car buyout Mercedes",
     "location": "(All States)",
-    "description": "Buy your mercedes at the best price!",
+    "footerDescription": "Buy your mercedes at the best price!",
     "image": "/assets/img/car/car_Mercedes.png",
     "bgImage": "mercedes",
     "class": "mercedes_text"

@@ -5,12 +5,20 @@
   ],
   "dashboard": {
     "state": "State of Florida",
-    "title": "Scroll down <span>to see what we buy</span>",
+    "title": "Sell used items",
     "location": "(All States)",
-    "description": "Cash for your trash!",
-    "image": "/assets/img/main_page/main_logo.png",
+    "footerDescription": "Cash for used item Florida", 
+    "description": "Professional asset purchase services: Buy, sell, and trade vehicles, electronics, real estate, and furniture. Get money today. Free online valuation in 10 minutes.",
+    "keywords": "Sell used items Miami, Buddy cash, Buddy-cash",
+    "ogTitle": "Sell used items - Miami, Tampa, Orlando, Jacksonville, Fl - Buddy Cash",
+    "ogDescription": "Professional asset purchase services: Buy, sell, and trade vehicles, electronics, real estate, and furniture. Get money today. Free online valuation in 10 minutes.",
+    "ogType": "website",
+    "ogUrl": "https://buddy-cash.com/?state=florida",
+    "ogImage": "/assets/img/main_page/main_logo.svg",
+    "image": "/assets/img/main_page/main_logo.svg",
     "bgImage": "main",
-    "class": "main_text"
+    "class": "main_text",
+    "alt": "Sell used items"
   },
   "prodInfo": {
     "title": "Pick",
@@ -18,31 +26,38 @@
     "content": [
       {
         "img": "/assets/img/main_page/Transport.png",
-        "route": "/transport"
+        "route": "/transport",
+        "alt": "Sell used Transport"
       },
       {
         "img": "/assets/img/main_page/Furniture.png",
-        "route": ""
+        "route": "",
+        "alt": "Sell used Furniture"
       },
       {
         "img": "/assets/img/main_page/Electronics.png",
-        "route": "/electronics"
+        "route": "/electronics",
+        "alt": "Sell used Electronics"
       },
       {
         "img": "/assets/img/main_page/Real_estate.png",
-        "route": "/real-estate"
+        "route": "/real-estate",
+        "alt": "Sell used Real estate"
       },
       {
         "img": "/assets/img/main_page/Estate.png",
-        "route": ""
+        "route": "",
+        "alt": "Sell used Estate"
       },
       {
         "img": "/assets/img/main_page/Gear.png",
-        "route": "/gear"
+        "route": "/gear",
+        "alt": "Sell used Gear"
       },
       {
         "img": "/assets/img/main_page/Others.png",
-        "route": "/others"
+        "route": "/others",
+        "alt": "Sell used Others"
       }
     ]
   },

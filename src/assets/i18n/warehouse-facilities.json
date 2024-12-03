@@ -4,7 +4,7 @@
     "state": "State of Florida",
     "title": "Sell my <span>Warehouse</span>",
     "location": "(All States)",
-    "description": "Quick cash offer for your Warehouse!",
+    "footerDescription": "Quick cash offer for your Warehouse!",
     "image": "/assets/img/real-estate/Warehouse_Facilities_main.svg",
     "bgImage": "warehouse-facilities",
     "class": "warehouse-facilities_text"

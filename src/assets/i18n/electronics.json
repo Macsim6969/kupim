@@ -7,7 +7,7 @@
     "state": "State of Florida",
     "title": "Sell my <span>used electronics</span>",
     "location": "(All States)",
-    "description": "Quick cash for your devices!",
+    "footerDescription": "Quick cash for your devices!",
     "image": "/assets/img/electronics/electronics.svg",
     "bgImage": "main",
     "class": "main_text"

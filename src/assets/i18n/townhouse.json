@@ -6,7 +6,7 @@
     "state": "State of Florida",
     "title": "Sell my <span>Townhouse</span>",
     "location": "(All States)",
-    "description": "Quick cash offer for your Townhouse!",
+    "footerDescription": "Quick cash offer for your Townhouse!",
     "image": "/assets/img/real-estate/Townhouse_main.svg",
     "bgImage": "townhouse",
     "class": "townhouse_text"

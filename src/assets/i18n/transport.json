@@ -4,7 +4,7 @@
     "state": "State of Florida",
     "title": "Sell my vehicle <span>Cash for vehicle Florida</span>",
     "location": "(State Florida)",
-    "description": "Quick cash for your vehicle!",
+    "footerDescription": "Quick cash for your vehicle!",
     "image": "/assets/img/transport/transport_logo.svg",
     "bgImage": "transport",
     "class": "transport_text"
@@ -16,63 +16,63 @@
       {
         "url": "/car",
         "img": "/assets/img/transport/Car.png",
-        "title": "Laptop"
+        "title": "Sell my Laptop"
       },
       {
         "url": "/bike",
         "img": "/assets/img/transport/Moto.png",
-        "title": "Bike"
+        "title": "Sell my Bike"
       },
       {
         "url": "/bicycle",
         "img": "/assets/img/transport/Bicycle.png",
-        "title": "Bicycle"
+        "title": "Sell my Bicycle"
       },
       {
         "url": "/kick_skooter",
         "img": "/assets/img/transport/Scooter.png",
-        "title": "Kick Skooter"
+        "title": "Sell my Kick Skooter"
       },
       {
         "url": "/watercraft",
         "img": "/assets/img/transport/Watercraft.png",
-        "title": "Watercraft"
+        "title": "Sell my Watercraft"
       },
       {
         "url": "/tractor",
         "img": "/assets/img/transport/Tractor.png",
-        "title": "Tractor"
+        "title": "Sell my Tractor"
       },
       {
         "url": "/trailer",
         "img": "/assets/img/transport/Trailer.png",
-        "title": "Trailer"
+        "title": "Sell my Trailer"
       },
       {
         "url": "/airplane",
         "img": "/assets/img/transport/Airplane.png",
-        "title": "Airplane"
+        "title": "Sell my Airplane"
       },
       {
         "url": "/helicopter",
         "img": "/assets/img/transport/Helicopter.png",
-        "title": "Helicopter"
+        "title": "Sell my Helicopter"
       },
       {
         "url": "/wheelchair",
         "img": "/assets/img/transport/Wheelchair.png",
-        "title": "Wheelchair"
+        "title": "Sell my Wheelchair"
       },
       {
         "url": "/others",
         "img": "/assets/img/main_page/Others.png",
-        "title": "Other"
+        "title": "Sell my Other"
       }
     ]
   },
   "easySteps": {
-    "title": "3 Easy Steps",
-    "text": "to Appraise Your Vehicle Online",
+    "title": "Select Vehicle",
+    "text": "What You'd Like to Sell",
     "style": "transport",
     "contentStep1": {
       "step": "Step 1",
@@ -89,8 +89,8 @@
     }
   },
   "aboutInfo": {
-    "title": "Why we are",
-    "text": "your best bet",
+    "title": "What Sets",
+    "text": "Us Apart",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",

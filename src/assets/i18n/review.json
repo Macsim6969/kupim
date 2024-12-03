@@ -3,7 +3,7 @@
     "state": "State of Florida",
     "title": "Reviews",
     "location": null,
-    "description": "",
+    "footerDescription": "",
     "image": "/assets/img/review/review.svg",
     "bgImage": "contacts",
     "class": "legal_text",

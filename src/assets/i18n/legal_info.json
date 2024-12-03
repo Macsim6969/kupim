@@ -3,7 +3,7 @@
     "state": "State of Florida",
     "title": "Legal Information",
     "location": null,
-    "description": "",
+    "footerDescription": "",
     "image": "/assets/img/legal-info/Legal_info.svg",
     "bgImage": "contacts",
     "class": "legal_text",

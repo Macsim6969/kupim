@@ -9,7 +9,7 @@
     "state": "State of Florida",
     "title": "Sell my bike",
     "location": "(All States)",
-    "description": "Quick cash for your motorcycle!",
+    "footerDescription": "Quick cash for your motorcycle!",
     "image": "/assets/img/motorbike/motorbike.png",
     "bgImage": "laptop",
     "class": "laptop_text"

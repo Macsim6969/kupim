@@ -3,7 +3,7 @@
     "state": "State of Florida",
     "title": "Contacts",
     "location": "",
-    "description": "",
+    "footerDescription": "",
     "image": "/assets/img/contacts/contacts.svg",
     "bgImage": "contacts",
     "class": "contacts_text",

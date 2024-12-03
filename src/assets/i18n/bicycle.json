@@ -8,7 +8,7 @@
     "state": "State of Florida",
     "title": "Sell my bicycle",
     "location": "(All States)",
-    "description": "Quick cash for your bicycle!",
+    "footerDescription": "Quick cash for your bicycle!",
     "image": "/assets/img/bike/bike.png",
     "bgImage": "bike",
     "class": "bike_text"

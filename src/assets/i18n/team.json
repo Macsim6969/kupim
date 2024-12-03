@@ -3,7 +3,7 @@
     "state": "Our Team",
     "title": "Our Team",
     "location": "",
-    "description": "",
+    "footerDescription": "",
     "image": "/assets/img/teams/team.svg",
     "bgImage": "contacts",
     "class": "contacts_text",

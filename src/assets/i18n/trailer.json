@@ -8,7 +8,7 @@
     "state": "State of Florida",
     "title": "Sell my trailer",
     "location": "(All States)",
-    "description": "Quick cash for your trailer",
+    "footerDescription": "Quick cash for your trailer",
     "image": "/assets/img/trailer/trailer.png",
     "bgImage": "trailer",
     "class": "trailer_text"

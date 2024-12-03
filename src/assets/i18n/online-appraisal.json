@@ -3,7 +3,7 @@
     "state": "State of Florida",
     "title": "Online Appraisal",
     "location": null,
-    "description": "",
+    "footerDescription": "",
     "image": "/assets/img/online-appraisal/Online_Appraisal.svg",
     "bgImage": "contacts",
     "class": "legal_text",

@@ -9,10 +9,9 @@
             <a class="phone" href="tel: +17275091449"><img class="navigation_network"
                 src="/assets/img/global/Phone.webp" alt="Phone"></a>
             <a class="icon" href="https://t.me/buddy_cashFL"><img class="navigation_network" src="/assets/img/Telegram.webp"
-                alt="telegram"></a>
+                alt="Telegram"></a>
             <a class="icon" target="_blank" href="http://m.me/buddycash01"><img src="/assets/img/global/Facebook.webp"
                 alt="Messanger"></a>
-
           </div>
 
           <div class="navigation_contact">
@@ -24,8 +23,8 @@
           </div>
         </div>
         <div class="header_menu {{(isSidebar$ | async) ? 'active' : ''}}" id="burger" (click)="openMenu()">
-          <img *ngIf="!(isSidebar$ | async)" class="menu_img" src="/assets/img/menu.svg" alt="menu">
-          <img *ngIf="(isSidebar$ | async)" class="menu_img" src="/assets/img/close_menu.png" alt="menu">
+          <img *ngIf="!(isSidebar$ | async)" class="menu_img" src="/assets/img/menu.svg" alt="Menu">
+          <img *ngIf="(isSidebar$ | async)" class="menu_img" src="/assets/img/close_menu.png" alt="Menu">
           <div class="menu_list">MENU</div>
         </div>
       </div>
@@ -38,7 +37,7 @@
       </div>
       <div class="header_home_title {{welcomeDataPage.class}}">
 
-        <img class="header_home {{welcomeDataPage.bgImage}}" [src]="welcomeDataPage.image" alt="">
+        <img class="header_home {{welcomeDataPage.bgImage}}" [src]="welcomeDataPage.image" alt="{{welcomeDataPage.alt}}">
 
         <div class="header_title">
 
@@ -55,7 +54,7 @@
         </div>
       </div>
       <div class="header_loft">
-        <div class="loft_inner">{{welcomeDataPage.description}}</div>
+        <div class="loft_inner">{{welcomeDataPage.footerDescription}}</div>
       </div>
 
     </div>

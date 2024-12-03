@@ -4,7 +4,7 @@
     "state": "State of Florida",
     "title": "Car buyout Opel",
     "location": "(All States)",
-    "description": "Buy your opel at the best price!",
+    "footerDescription": "Buy your opel at the best price!",
     "image": "/assets/img/car/car_opel.png",
     "bgImage": "opel",
     "class": "opel_text"

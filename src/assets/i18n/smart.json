@@ -4,7 +4,7 @@
     "state": "State of Florida",
     "title": "Car buyout Smart",
     "location": "(All States)",
-    "description": "Buy your smart at the best price!",
+    "footerDescription": "Buy your smart at the best price!",
     "image": "/assets/img/car/car_Smart.png",
     "bgImage": "smart",
     "class": "smart_text"

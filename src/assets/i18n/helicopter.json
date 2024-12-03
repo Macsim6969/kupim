@@ -7,7 +7,7 @@
     "state": "State of Florida",
     "title": "Sell my helicopter",
     "location": "(All States)",
-    "description": "Quick cash for your helicopter",
+    "footerDescription": "Quick cash for your helicopter",
     "image": "/assets/img/helicopter/Helicopter.png",
     "bgImage": "helicopter",
     "class": "helicopter_text"

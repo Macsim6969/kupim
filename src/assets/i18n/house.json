@@ -4,7 +4,7 @@
     "state": "State of Florida",
     "title": "Sell my <span>House</span>",
     "location": "(All States)",
-    "description": "Quick cash offer for your House!",
+    "footerDescription": "Quick cash offer for your House!",
     "image": "/assets/img/real-estate/House_main.svg",
     "bgImage": "real-estate",
     "class": "real-estate_text"

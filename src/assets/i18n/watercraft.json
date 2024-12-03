@@ -8,7 +8,7 @@
     "state": "State of Florida", 
     "title": "Sell my watercraft",
     "location": "(All States)",
-    "description": "Quick cash for your watercraft",
+    "footerDescription": "Quick cash for your watercraft",
     "image": "/assets/img/boat/Watercraft.svg",
     "bgImage": "boat",
     "class": "boat_text"

@@ -4,7 +4,7 @@
     "state": "State of Florida",
     "title": "Sell my <span>Land</span>",
     "location": "(All States)",
-    "description": "Quick cash offer for your Land!",
+    "footerDescription": "Quick cash offer for your Land!",
     "image": "/assets/img/real-estate/Land_Lots_main.png",
     "bgImage": "land-lots",
     "class": "land-lots_text"
