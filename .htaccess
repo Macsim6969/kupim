@@ -10,3 +10,8 @@ RewriteRule ^ https://buddy-cash.com%{REQUEST_URI} [L,R=301]
 RewriteCond %{HTTPS} on
 RewriteCond %{HTTP_HOST} ^www\.buddy-cash\.com$ [NC]
 RewriteRule ^ https://buddy-cash.com%{REQUEST_URI} [L,R=301]
+
+# Перенаправление всех запросов на index.html, если файл или папка не существуют
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ /index.html [L]
