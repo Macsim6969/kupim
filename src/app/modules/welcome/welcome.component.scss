@@ -305,6 +305,10 @@
 
           &.transport {
             height: 500px;
+
+            @media (max-width: 1250px) {
+              height: auto;
+            }
           }
 
           &.boat {

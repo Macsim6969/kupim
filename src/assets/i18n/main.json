@@ -21,8 +21,8 @@
     "alt": "Sell used items"
   },
   "prodInfo": {
-    "title": "Pick",
-    "text": "what you wanna sell",
+    "title": "Select What You'd",
+    "text": "Like to Sell",
     "content": [
       {
         "img": "/assets/img/main_page/Transport.png",
