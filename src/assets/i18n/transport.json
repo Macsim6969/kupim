@@ -26,12 +26,12 @@
         "title": "Sell my Laptop"
       },
       {
-        "url": "/bike",
+        "url": "/bicycle",
         "img": "/assets/img/transport/Moto.png",
         "title": "Sell my Bike"
       },
       {
-        "url": "/bicycle",
+        "url": "/bike",
         "img": "/assets/img/transport/Bicycle.png",
         "title": "Sell my Bicycle"
       },

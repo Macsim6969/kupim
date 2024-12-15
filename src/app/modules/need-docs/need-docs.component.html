@@ -1,5 +1,5 @@
-<section class="about">
-    <div class="about_document_inner" *ngIf="needDocsData">
+<section class="about" [ngClass]="{'hide': !needDocsData.listAsq}">
+    <div class="about_document_inner"  *ngIf="needDocsData">
         <div class="document_inner_article">{{needDocsData.title}}</div>
         <div class="document_inner_article_info">
             <div class="article_info" *ngFor="let docs of needDocsData.docs">

@@ -1,93 +1,72 @@
 {
   "key": [
-    "motorbike",
-    "prod",
     "yes",
+    "prod",
     "easy-step"
   ],
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell my bike",
-    "location": "(All States)",
-    "footerDescription": "Quick cash for your motorcycle!",
-    "image": "/assets/img/motorbike/motorbike.png",
-    "bgImage": "laptop",
-    "class": "laptop_text"
+    "location": "Cash for bicycle<br/>near me - Florida",
+    "footerDescription": "Quick cash for bike Florida",
+    "description":"Professional bike purchasing services. Quick & Easy Online Appraisal - Cash Offer Today in Miami, Orlando, Tampa, Jacksonville. Trade in your old bike.",
+    "keywords":"Sell my bicycle, Sell my used bicycle, Buy used bicycle, Second-hand bicycle sales, Cash for bicycle, Cash for my used bicycle, Sell bike locally, Quick cash for bike, Sell bike online, Sell my bike fast, Sell old bike for cash",
+    "ogTitle":"Sell my used bike - Cash for bicycle near me - Buddy Cash",
+    "ogDescription": "Professional bike purchasing services. Quick & Easy Online Appraisal - Cash Offer Today in Miami, Orlando, Tampa, Jacksonville. Trade in your old bike - Buddy Cash",
+    "ogType": "website",
+    "ogUrl": "https://buddy-cash.com/bicycle?state=florida",
+    "ogImage": "/assets/img/bike/bike.png",
+    "image": "/assets/img/bike/bike.png",
+    "bgImage": "bike",
+    "class": "bike_text"
   },
   "prodInfo": {
-    "title": "Bike that we purchase",
+    "title": "Types of Bike We Purchase",
     "text": "across all states in the U.S.",
     "content": [
       {
-        "img": "/assets/img/motorbike/after_an_accident.png"
+        "img": "/assets/img/bike/electric.png",
+        "alt": "Sell used Electric" 
       },
       {
-        "img": "/assets/img/motorbike/Credit.png"
+        "img": "/assets/img/bike/new.png",
+        "alt": "Sell used New"
       },
       {
-        "img": "/assets/img/motorbike/motorcycle.png"
+        "img": "/assets/img/bike/parts.png",
+        "alt": "Sell used Parts"
       },
       {
-        "img": "/assets/img/motorbike/Scooter.png"
+        "img": "/assets/img/bike/under_repair.png",
+        "alt": "Sell used Under Repair"
       },
       {
-        "img": "/assets/img/motorbike/under_repair.png"
+        "img": "/assets/img/bike/whole.png",
+        "alt": "Sell used Whole"
       }
     ]
   },
   "easySteps": {
     "title": "3 Easy Steps",
-    "text": "to Appraise Your Motorcycle Online",
+    "text": "to Appraise Your Bicycle Online",
     "style": "bike",
     "contentStep1": {
       "step": "Step 1",
-      "stepText": "Send us photos and vehicle specifications via your preferred messaging app.",
+      "stepText": "Simply share photos and details through your preferred messaging platform",
       "contact": "SEND"
     },
     "contentStep2": {
       "step": "Step 2",
-      "stepText": "Schedule an in-office consultation or request an expert evaluation at your location."
+      "stepText": "Schedule a convenient in-person evaluation at our office or your location"
     },
     "contentStep3": {
       "step": "Step 3",
-      "stepText": "Receive your appraisal and payment through your preferred method."
+      "stepText": "Receive immediate payment through your preferred method: cash, digital transfer, or check"
     }
   },
-  "need-docs": {
-    "title": "To sell your motorcycle, you will need:",
-    "docs": [
-      {
-        "title": "Vehicle title",
-        "img": "/assets/img/motorbike/passport.svg"
-      },
-      {
-        "title": "Valid driver's license or state-issued ID",
-        "img": "/assets/img/motorbike/taxpayer_number.svg"
-      },
-      {
-        "title": "Current vehicle registration",
-        "img": "/assets/img/motorbike/motorbike.svg"
-      }
-    ],
-    "need-docs-asq": "Additional paperwork will be required if the motorcycle is:",
-    "listAsq": [
-      {
-        "title": "Credited:",
-        "content": "<ul><li>Loan payoff information</li><li>Account number and lender's contact information</li></ul>"
-      },
-      {
-        "title": "Corporate:",
-        "content": "<ul><li>Articles of incorporation or business license</li><li>Letter authorizing the sale on company letterhead</li><li>Employer Identification Number (EIN)</li></ul>"
-      },
-      {
-        "title": "Younger than 10 years old:",
-        "content": "<ul><li>Odometer disclosure statement</li></ul>"
-      }
-    ]
-  },
   "aboutInfo": {
-    "title": "Why we are",
-    "text": "your best bet",
+    "title": "What Sets ",
+    "text": "Us Apart",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
@@ -95,27 +74,27 @@
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
-        "title": "Same-Day Purchase"
+        "title": "Same-day purchase"
       },
       {
         "src": "/assets/img/laptop/about/lock.svg",
-        "title": "Every Sale is Confidential"
+        "title": "Every sale is confidential"
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "Trade-In available (exchange for a new motorcycle)"
+        "title": "Trade-in available (exchange for a new bicycle)"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
-        "title": "Appraisal Time via Messenger - 7 Minutes"
+        "title": "Appraisal time via messenger - 7-10 minutes"
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
-        "title": "We Offer Higher Prices Than Our Competitors"
+        "title": "We offer higher prices than our competitors"
       },
       {
         "src": "/assets/img/laptop/about/flag.svg",
-        "title": "Operating Across All U.S. States"
+        "title": "Operating across all U.S. states"
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
@@ -123,7 +102,7 @@
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
-        "title": "We handle complex cases (Collateral, Loans, After Accident)"
+        "title": "We handle complex cases (collateral, loans, after accident)"
       }
     ]
   },
@@ -131,21 +110,21 @@
     "title": "Customer Reviews",
     "feedback": [
       {
-        "content": "Yo, these dudes in Florida hooked me up when I was selling my old Honda Dio. Cash in hand, no drama. The whole thing was chill AF. If you're looking to unload your ride without the hassle, hit 'em up!",
-        "name": "Tyler K.",
-        "prod": "(Sold the Honda Dio scooter)",
+        "content": "Parting with my Giant was tough, but these guys made it easier. They knew their stuff about high-end bikes, which I appreciated. The offer was fair, and the process was quick. Glad my bike's going to a good home.",
+        "name": "Oliver P.",
+        "prod": "(Sold the Giant Defy)",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Selling my beloved Kawasaki Ninja was bittersweet, but these professionals made it painless. Their offer was competitive, and the process was efficient. Appreciated their knowledge of high-performance bikes. A pleasant experience overall.",
-        "name": "Samantha L.",
-        "prod": "(Sold the Kawasaki Ninja)",
+        "content": "Sold my road bike to these folks in Tampa. They were professional and gave a competitive offer. The only hiccup was scheduling the pickup, hence 4 stars. Overall, a reliable service for cyclists looking to upgrade.",
+        "name": "Rachel W.",
+        "prod": "(Sold the Specialized Tarmac)",
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Needed to part ways with my dirt bike. These guys were okay, but the initial quote was a bit low. After some negotiation, we reached a fair price. The pickup was prompt, though. Solid service, just be ready to haggle a little.",
-        "name": "Alex M.",
-        "prod": "(Sold the Yamaha YZ250F)",
+        "content": "These guys in Miami bought my e-bike, and I'm stoked with how it went down! They recognized the value of my Cube and offered a price that beat other local shops. The whole process was a breeze. Highly recommend!",
+        "name": "David L.",
+        "prod": "(Sold the Cube Reaction Hybrid)",
         "feedbackMap": "Review from Google Maps"
       }
     ],
@@ -156,28 +135,28 @@
     "descr": "We're Happy to Help",
     "listAsq": [
       {
-        "title": "What types of motorcycles do you purchase?",
-        "content": "Our company is actively seeking to purchase a variety of motorcycle-related vehicles, including motorcycles, scooters, mopeds, dirt bikes, sport bikes, cruisers, touring bikes, choppers, trikes, and all other types of motorcycles. We accept all makes and models."
+        "title": "What types of bicycles do you buy?",
+        "content": "Our company is in the market for a diverse range of bicycles, such as mountain, road, hybrid, city, BMX, fat bike, cruiser, folding, triathlon, electric, cyclocross, touring, kids', tandem, and track bikes. We work with most well-known brands including Giant, Trek, Specialized, Cannondale, Scott, Merida, Santa Cruz, Bianchi, Kona, Cube, Orbea, GT Bicycles, Norco, Focus, Cervélo, and others. Condition and age are the primary factors we consider."
       },
       {
-        "title": "How do you value a motorcycle?",
+        "title": "How does the bike evaluation process work?",
         "content": "Our online valuation process is streamlined for your convenience. Simply contact us through any messaging platform (Telegram, WhatsApp, Facebook Messenger) or social network (Instagram, Facebook) and send us photos along with a brief description (specifications, details, modifications). Within 5-7 minutes, you'll receive a competitive offer and a step-by-step plan for a quick sale."
       },
       {
-        "title": "Can I sell a financed motorcycle?",
-        "content": "Yes, our company is interested in acquiring motorcycles that have been financed through credit or leasing arrangements. We are prepared to consider financed bikes at any stage of the loan repayment process and leased bikes both still under active lease agreements and those that have completed their lease terms."
+        "title": "Do you buy damaged or malfunctioning bicycles?",
+        "content": "Yes, we are prepared to make an offer on bicycles in any condition."
       },
       {
-        "title": "Do you buy damaged motorcycles?",
-        "content": "Yes, we are prepared to make an offer on motorcycles in any condition."
+        "title": "What documents are required to sell a bicycle?",
+        "content": "Documentation is not mandatory for the sale. We purchase bicycles both with and without papers. However, if you have documentation, we welcome its inclusion."
       },
       {
-        "title": "Do you offer pickup services?",
-        "content": "We offer two options for vehicle transfer: you can either bring the motorcycle to our office, or we can dispatch an appraiser to your location. Both services are provided at no cost to you."
+        "title": "Do you provide bicycle transportation services?",
+        "content": "We offer three convenient transportation options: you can deliver the bicycle to our office yourself, we can send our employee to your location for evaluation and transportation, or you have the option to ship the bicycle by mail. All of these services are provided at no additional cost to you."
       },
       {
         "title": "Do you operate throughout the entire United States?",
-        "content": "While our network doesn't currently cover the entire United States, we are interested in working with customers from various regions and are willing to arrange pickup of the motorcycle if necessary. Please note that for more distant locations, the waiting time for our appraiser's arrival may increase by 1-2 days. We strive to provide quality service to every customer, regardless of location."
+        "content": "While our network doesn't currently cover the entire United States, we are interested in working with customers from various regions and are willing to arrange pickup or postal delivery of the bicycle if necessary. Please note that for more distant locations, the waiting time for our appraiser's arrival may increase by 1-2 days. We strive to provide quality service to every customer, regardless of location."
       }
     ],
     "listBottom1": {
