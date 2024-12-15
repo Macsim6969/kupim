@@ -56,7 +56,7 @@ export class AppComponent implements OnInit {
 
   private updatesMateTags() {
     this.translate.stream('dashboard').subscribe((data) => {
-      this.titleService.setTitle(data.ogTitle);
+      this.titleService.setTitle(data.metaTitle);
       this.metaService.addTags([
         { name: 'description', content: data.description },
         { name: 'keywords', content: data.keywords },

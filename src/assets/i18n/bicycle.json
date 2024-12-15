@@ -7,50 +7,63 @@
   ],
   "dashboard": {
     "state": "State of Florida",
-    "title": "Sell my bike",
+    "title": "Sell my motorcycle",
     "location": "(All States)",
-    "footerDescription": "Quick cash for your motorcycle!",
+    "footerDescription": "Quick cash for motorcycle Florida",
+    "metaTitle":"Sell my used Motorcycle - Miami, Orlando, Tampa, Jacksonville",
+    "description": "Quick & easy online appraisal - Cash for my used motorcycle near me. Trade in your old ride. Professional service for buying back In Florida",
+    "keywords": "Sell my motorcycle, Sell my used motorcycle, Buy used motorcycle, Second-hand motorcycle sales, Cash for motorcycle, Cash for my used motorcycle, Sell your motorcycle, Quick cash for motorcycle, Sell motorcycle online, Sell my motorcycle fast, Sell old motorcycle for cash.",
+    "ogTitle": "Sell my used Motorcycle - Miami, Orlando, Tampa, Jacksonville - Buddy Cash",
+    "ogDescription": "Quick & easy online appraisal - Cash for my used motorcycle near me. Trade in your old ride. Professional service for buying back In Florida - Buddy Cash",
+    "ogType": "website",
+    "ogUrl": "https://buddy-cash.com/motorcycle?state=floridaa",
+    "ogImage": "/assets/img/motorbike/motorbike.png",
     "image": "/assets/img/motorbike/motorbike.png",
     "bgImage": "laptop",
     "class": "laptop_text"
   },
   "prodInfo": {
-    "title": "Bike that we purchase",
-    "text": "across all states in the U.S.",
+    "title": "Types of Motorbikes",
+    "text": "We Purchase",
     "content": [
       {
-        "img": "/assets/img/motorbike/after_an_accident.png"
+        "img": "/assets/img/motorbike/after_an_accident.png",
+        "alt": "Sell used After an accident"
       },
       {
-        "img": "/assets/img/motorbike/Credit.png"
+        "img": "/assets/img/motorbike/Credit.png",
+        "alt": "Sell used Credit"
       },
       {
-        "img": "/assets/img/motorbike/motorcycle.png"
+        "img": "/assets/img/motorbike/motorcycle.png",
+        "alt": "Sell used Motorcycle"
       },
       {
-        "img": "/assets/img/motorbike/Scooter.png"
+        "img": "/assets/img/motorbike/Scooter.png",
+        "alt": "Sell used Scooter"
       },
       {
-        "img": "/assets/img/motorbike/under_repair.png"
+        "img": "/assets/img/motorbike/under_repair.png",
+        "alt": "Sell used Under repair"
       }
     ]
   },
   "easySteps": {
-    "title": "3 Easy Steps",
-    "text": "to Appraise Your Motorcycle Online",
-    "style": "bike",
+    "title": "Value your Motorcycle",
+    "text": "3 Simple Steps",
+    "style": "laptop  ",
     "contentStep1": {
       "step": "Step 1",
-      "stepText": "Send us photos and vehicle specifications via your preferred messaging app.",
+      "stepText": "Simply share photos and details through your preferred messaging platform",
       "contact": "SEND"
     },
     "contentStep2": {
       "step": "Step 2",
-      "stepText": "Schedule an in-office consultation or request an expert evaluation at your location."
+      "stepText": "Schedule a convenient in-person evaluation at our office or your location"
     },
     "contentStep3": {
       "step": "Step 3",
-      "stepText": "Receive your appraisal and payment through your preferred method."
+      "stepText": "Receive immediate payment through your preferred method: cash, digital transfer, or check"
     }
   },
   "need-docs": {
@@ -86,12 +99,12 @@
     ]
   },
   "aboutInfo": {
-    "title": "Why we are",
-    "text": "your best bet",
+    "title": "What Sets",
+    "text": "Us Apart",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
-        "title": "We buy bike in any condition"
+        "title": "We buy motorcycle in any condition"
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
@@ -107,7 +120,7 @@
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
-        "title": "Appraisal Time via Messenger - 7 Minutes"
+        "title": "Appraisal Time via messenger - 10 Minutes"
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
@@ -123,7 +136,7 @@
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
-        "title": "We handle complex cases (Collateral, Loans, After Accident)"
+        "title": "We handle complex cases (collateral, loans, post-accident)"
       }
     ]
   },

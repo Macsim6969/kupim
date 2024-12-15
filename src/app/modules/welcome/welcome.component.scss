@@ -320,8 +320,8 @@
             height: 500px;
             object-fit: contain;
 
-            @media (max-width: 1010px) {
-              height: 420px;
+            @media (max-width: 1250px) {
+              height: auto;
             }
 
             @media (max-width: 420px) {
