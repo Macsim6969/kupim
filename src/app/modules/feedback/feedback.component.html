@@ -12,7 +12,8 @@
                     </div>
                     <img class="comment_staff_img" src="/assets/img/laptop/feedback/google-maps.svg" alt="Google Maps">
                 </div>
-                <img class="review_stars" src="/assets/img/laptop/feedback/stars.png" alt="stars">
+                
+                <img class="review_stars" [src]="feedback.stars === 4 ? '/assets/img/laptop/feedback/Stars_4.svg' : '/assets/img/laptop/feedback/Stars_5.svg'" alt="stars">
                 <div class="review_starss">{{feedback.feedbackMap}}</div>
             </div>
         </div>

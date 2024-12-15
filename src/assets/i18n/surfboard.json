@@ -1,5 +1,7 @@
 {
-  "key": ["easy-step"],
+  "key": [
+    "easy-step"
+  ],
   "dashboard": {
     "state": "State of Florida",
     "title": "Scroll down <span>to see what we buy</span>",
@@ -76,18 +78,21 @@
         "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
         "name": "Андрей",
         "prod": "Sold the Gt Zaskar bike",
+        "stars": 4,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
         "name": "Андрей",
         "prod": "Sold the Gt Zaskar bike",
+        "stars": 5,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
         "name": "Андрей",
         "prod": "Sold the Gt Zaskar bike",
+        "stars": 4,
         "feedbackMap": "Review from Google Maps"
       }
     ],

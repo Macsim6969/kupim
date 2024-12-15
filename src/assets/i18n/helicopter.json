@@ -1,7 +1,7 @@
 {
   "key": [
     "yes",
-     "easy-step"
+    "easy-step"
   ],
   "dashboard": {
     "state": "State of Florida",
@@ -107,18 +107,21 @@
         "content": "Sold my private helicopter to this company in Miami. They were professional, offered a competitive price, and managed all the details. Appreciated their expertise in the rotorcraft market. A top-notch service!",
         "name": "Elizabeth C.",
         "prod": "(Sold the Bell 429)",
+        "stars": 4,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "These folks bought my small helicopter. The offer was fair, and they were flexible with the inspection and pickup. Only giving 4 stars because the initial response was a bit slow, but otherwise a smooth transaction.",
         "name": "James H. ",
         "prod": "(Sold the Robinson R44)",
+        "stars": 5,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "Parting with my chopper was bittersweet, but these guys made it easier. They knew their stuff about helicopters and offered a good price. The whole process was efficient and hassle-free. Thumbs up!",
         "name": "Laura M.",
         "prod": "(Sold the Airbus H125)",
+        "stars": 4,
         "feedbackMap": "Review from Google Maps"
       }
     ],

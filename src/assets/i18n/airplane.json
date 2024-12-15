@@ -1,7 +1,7 @@
 {
   "key": [
     "yes",
-     "easy-step"
+    "easy-step"
   ],
   "dashboard": {
     "state": "State of Florida",
@@ -111,18 +111,21 @@
         "content": "Parting with my private jet was a big decision, but these professionals made it easier. They were knowledgeable about the market and offered a competitive price. The process was discreet and efficient. Highly recommend for high-end aircraft sales.",
         "name": "William T.",
         "prod": "(Sold the Cessna Citation CJ4)",
+        "stars": 4,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "Sold my small plane to these folks in Florida. They knew their stuff about general aviation and gave a fair offer. The paperwork took a bit longer than expected, hence 4 stars, but overall a good experience.",
         "name": "Amanda G.",
         "prod": "(Sold the Piper PA-28 Cherokee)",
+        "stars": 5,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "These guys bought my light aircraft, and I'm impressed with their service. They offered a good price and handled all the complex paperwork. The whole process was smooth from start to finish.",
         "name": "Daniel F.",
         "prod": "(Sold the Cirrus SR22)",
+        "stars": 4,
         "feedbackMap": "Review from Google Maps"
       }
     ],

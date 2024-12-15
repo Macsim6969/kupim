@@ -1,5 +1,7 @@
 {
-  "key": ["easy-step"],
+  "key": [
+    "easy-step"
+  ],
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell my <span>Apartment</span>",
@@ -76,18 +78,21 @@
         "content": "Needed to offload my Miami Beach apartment ASAP due to a job relo. These cash buyers were a lifesaver! Quick, fair offer, and we closed in under 3 weeks. No realtor fees was a sweet bonus!",
         "name": "Jess M.",
         "prod": "Sold Apartment",
+        "stars": 4,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "These guys bought my L.A. apartment when I thought I'd be stuck with it forever. The market was slow, but they came in with a fair cash offer. Closed in 2 weeks flat. Couldn't be happier!",
         "name": "Alex P.",
         "prod": "Sold Apartment",
+        "stars": 5,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "Decent experience selling my apartment to these cash buyers. The offer was slightly lower than I hoped, but the convenience made up for it. No repairs or staging needed. Overall, pretty smooth.",
         "name": "Rachel K.",
         "prod": "Sold Apartment",
+        "stars": 4,
         "feedbackMap": "Review from Google Maps"
       }
     ],

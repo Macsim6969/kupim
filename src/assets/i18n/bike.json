@@ -9,10 +9,10 @@
     "title": "Sell my bike",
     "location": "(States Florida)",
     "footerDescription": "Quick cash for bike Florida",
-    "metaTitle":"Sell my used bike - Cash for bicycle near me",
-    "description":"Professional bike purchasing services. Quick & Easy Online Appraisal - Cash Offer Today in Miami, Orlando, Tampa, Jacksonville. Trade in your old bike.",
-    "keywords":"Sell my bicycle, Sell my used bicycle, Buy used bicycle, Second-hand bicycle sales, Cash for bicycle, Cash for my used bicycle, Sell bike locally, Quick cash for bike, Sell bike online, Sell my bike fast, Sell old bike for cash",
-    "ogTitle":"Sell my used bike - Cash for bicycle near me - Buddy Cash",
+    "metaTitle": "Sell my used bike - Cash for bicycle near me",
+    "description": "Professional bike purchasing services. Quick & Easy Online Appraisal - Cash Offer Today in Miami, Orlando, Tampa, Jacksonville. Trade in your old bike.",
+    "keywords": "Sell my bicycle, Sell my used bicycle, Buy used bicycle, Second-hand bicycle sales, Cash for bicycle, Cash for my used bicycle, Sell bike locally, Quick cash for bike, Sell bike online, Sell my bike fast, Sell old bike for cash",
+    "ogTitle": "Sell my used bike - Cash for bicycle near me - Buddy Cash",
     "ogDescription": "Professional bike purchasing services. Quick & Easy Online Appraisal - Cash Offer Today in Miami, Orlando, Tampa, Jacksonville. Trade in your old bike - Buddy Cash",
     "ogType": "website",
     "ogUrl": "https://buddy-cash.com/bicycle?state=florida",
@@ -27,7 +27,7 @@
     "content": [
       {
         "img": "/assets/img/bike/electric.png",
-        "alt": "Sell used Electric" 
+        "alt": "Sell used Electric"
       },
       {
         "img": "/assets/img/bike/new.png",
@@ -114,18 +114,21 @@
         "content": "Parting with my Giant was tough, but these guys made it easier. They knew their stuff about high-end bikes, which I appreciated. The offer was fair, and the process was quick. Glad my bike's going to a good home.",
         "name": "Oliver P.",
         "prod": "(Sold the Giant Defy)",
+        "stars": 4,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "Sold my road bike to these folks in Tampa. They were professional and gave a competitive offer. The only hiccup was scheduling the pickup, hence 4 stars. Overall, a reliable service for cyclists looking to upgrade.",
         "name": "Rachel W.",
         "prod": "(Sold the Specialized Tarmac)",
+        "stars": 5,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "These guys in Miami bought my e-bike, and I'm stoked with how it went down! They recognized the value of my Cube and offered a price that beat other local shops. The whole process was a breeze. Highly recommend!",
         "name": "David L.",
         "prod": "(Sold the Cube Reaction Hybrid)",
+        "stars": 4,
         "feedbackMap": "Review from Google Maps"
       }
     ],

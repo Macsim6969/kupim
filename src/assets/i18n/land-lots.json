@@ -1,5 +1,7 @@
 {
-  "key": ["easy-step"],
+  "key": [
+    "easy-step"
+  ],
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell my <span>Land</span>",
@@ -76,18 +78,21 @@
         "content": "Inherited some land in rural Florida that I had no use for. This company made selling it a breeze. Their offer was fair, and they handled all the paperwork. Appreciate the hassle-free experience!",
         "name": "Sarah L.",
         "prod": "Sold Land",
+        "stars": 4,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "Had a tough time selling my vacant lot in California until these folks came along. They gave me a solid cash offer and closed quickly. No realtor fees or lengthy negotiations. Just what I needed!",
         "name": "Mike B.",
         "prod": "Sold Land",
+        "stars": 5,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "Decent experience overall. They bought my land in Miami for a fair price, but the process took a bit longer than expected. Still, beats the hassle of listing it on the open market.",
         "name": "Emma R.",
         "prod": "Sold Land",
+        "stars": 4,
         "feedbackMap": "Review from Google Maps"
       }
     ],

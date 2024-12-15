@@ -5,8 +5,9 @@ export interface TestimonialsInterface{
 }
 
 export interface Feedback{
-  content: string
-  name: string
-  prod: string
-  feedbackMap: string
+  content: string;
+  name: string;
+  prod: string;
+  stars: number;
+  feedbackMap: string;
 }

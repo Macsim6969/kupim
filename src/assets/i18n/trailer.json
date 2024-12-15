@@ -123,18 +123,21 @@
         "content": "Sold my motorcycle with its trailer to these guys in one go. They offered a fair package deal and made the whole process smooth. Appreciated their flexibility and knowledge of both bikes and trailers.",
         "name": "Ryan K.",
         "prod": "(Sold the Harley-Davidson with Trailer)",
+        "stars": 4,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "These folks in Miami bought my travel trailer. The offer was decent, and they handled all the paperwork. Only giving 4 stars because the pickup was delayed by a day, but otherwise a good experience.",
         "name": "Jessica L.",
         "prod": "(Sold the Airstream Flying Cloud)",
+        "stars": 5,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "Needed to get rid of my utility trailer, and these guys came through. Fair price, quick pickup, no hassle. If you need a no-fuss way to sell your trailer in Florida, give 'em a shot!",
         "name": "Mike S.",
         "prod": "(Sold the Carry-On 6X12 Utility Trailer)",
+        "stars": 4,
         "feedbackMap": "Review from Google Maps"
       }
     ],

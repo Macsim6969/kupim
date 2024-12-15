@@ -1,5 +1,7 @@
 {
-  "key": ["easy-step"],
+  "key": [
+    "easy-step"
+  ],
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell my <span>Garage</span>",
@@ -76,18 +78,21 @@
         "content": "Had an old garage that was more trouble than it was worth. These guys took it off my hands, no questions asked. Process was quick, though I wish the offer was a bit higher. Still, can't complain!",
         "name": "Rick P.",
         "prod": "Sold Garage",
+        "stars": 4,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "Never thought I'd find a buyer for my standalone garage in Tampa. These folks made it happen! Fair price, quick close. No fuss, no muss. Exactly what I needed.",
         "name": "Sam T.",
         "prod": "Sold Garage",
+        "stars": 5,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "These cash buyers were a godsend when I needed to sell my garage quickly. They handled everything professionally and closed in just days. Couldn't have asked for a smoother process.",
         "name": "Lisa M.",
         "prod": "Sold Garage",
+        "stars": 4,
         "feedbackMap": "Review from Google Maps"
       }
     ],

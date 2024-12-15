@@ -5,7 +5,7 @@
     "easy-step"
   ],
   "dashboard": {
-    "state": "State of Florida", 
+    "state": "State of Florida",
     "title": "Sell my watercraft",
     "location": "(All States)",
     "footerDescription": "Quick cash for your watercraft",
@@ -129,18 +129,21 @@
         "content": "Sold my fishing yacht to these professionals. They were knowledgeable about marine vessels and offered a competitive price. The transaction was smooth, and they handled all the paperwork efficiently. A trustworthy service for boat owners.",
         "name": "George H.",
         "prod": "(Sold the Boston Whaler 345 Conquest)",
+        "stars": 4,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "These guys bought my outboard motor in Miami. The offer was fair, and they were flexible with pickup times. Only gave 4 stars because the initial response was a bit slow, but overall a good experience.",
         "name": "Linda F.",
         "prod": "(Sold the Mercury 150 HP outboard motor)",
+        "stars": 5,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "Needed to sell my inflatable boat quickly, and these folks came through! Their offer was reasonable, and they picked it up the same day. No hassle, no fuss. Perfect for when you need a quick sale.",
         "name": "Mark D.",
         "prod": "(Sold the Intex Excursion inflatable boat)",
+        "stars": 4,
         "feedbackMap": "Review from Google Maps"
       }
     ],

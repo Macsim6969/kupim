@@ -1,5 +1,7 @@
 {
-  "key": ["easy-step"],
+  "key": [
+    "easy-step"
+  ],
   "dashboard": {
     "state": "",
     "title": "Scroll down <span> to sell other types of vehicles</span>",
@@ -77,18 +79,21 @@
         "content": "Selling my Segway Ninebot was a breeze with these guys. They really know their e-scooters and offered a fair price right off the bat. The pick-up was super convenient - they came to my office during lunch. Awesome service for urban commuters looking to switch up their ride.",
         "name": "Mike T.",
         "prod": "(Sold the Segway Ninebot Max)",
+        "stars": 4,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "Had some doubts about selling my hoverboard online, but this company put those to rest. The rep I dealt with was patient and answered all my questions. The offer was decent, though I hoped for a bit more. Still, the process was smooth, and payment was prompt. Good experience overall.",
         "name": "Sarah K.",
         "prod": "(Sold the Razor Hovertrax 2.0)",
+        "stars": 5,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "Parting with my EUC wasn't easy, but these folks made it painless. They clearly knew the InMotion V11 specs inside out, which was impressive. The offer exceeded my expectations, considering the device's age. Only giving 4 stars because the initial response took a couple of days. Otherwise, top-notch service for tech enthusiasts.",
         "name": "Alex M.",
         "prod": "(Sold the InMotion V11 Electric Unicycle",
+        "stars": 4,
         "feedbackMap": "Review from Google Maps"
       }
     ],
