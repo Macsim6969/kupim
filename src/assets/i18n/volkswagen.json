@@ -7,7 +7,7 @@
     "state": "State of Florida",
     "title": "Car buyout Volkswagen",
     "location": "(All States)",
-    "footerDescription": "Buy your volkswagen at the best price!",
+    "footerDescription": "Cash for volkswagen at the best price!",
     "image": "/assets/img/car/Volkswagen.png",
     "bgImage": "volkswagen",
     "class": "volkswagen_text"
@@ -115,13 +115,6 @@
         "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
         "name": "Андрей",
         "prod": "Sold the Gt Zaskar bike",
-        "stars": 4,
-        "feedbackMap": "Review from Google Maps"
-      },
-      {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
         "stars": 5,
         "feedbackMap": "Review from Google Maps"
       },
@@ -130,6 +123,13 @@
         "name": "Андрей",
         "prod": "Sold the Gt Zaskar bike",
         "stars": 4,
+        "feedbackMap": "Review from Google Maps"
+      },
+      {
+        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
+        "name": "Андрей",
+        "prod": "Sold the Gt Zaskar bike",
+        "stars": 5,
         "feedbackMap": "Review from Google Maps"
       }
     ],

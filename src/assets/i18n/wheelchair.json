@@ -7,7 +7,7 @@
     "state": "State of Florida",
     "title": "Sell my wheelchair",
     "location": "(All States)",
-    "footerDescription": "Quick cash for your wheelchair",
+    "footerDescription": "Cash for your wheelchair",
     "image": "/assets/img/wheelchair/Wheelchair.png",
     "bgImage": "wheelchair",
     "class": "wheelchair_text"
@@ -79,21 +79,21 @@
         "content": "Sold my power wheelchair to these folks in Tampa. They were knowledgeable about mobility equipment and offered a fair price. The transaction was smooth, and they were respectful throughout. Great service!",
         "name": "Patricia R.",
         "prod": "(Sold the Permobil F3 Corpus)",
-        "stars": 4,
+        "stars": 5,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "These guys bought my electric wheelchair. The offer was reasonable, and they were accommodating with the pickup. Process was straightforward, but I wish they had more info upfront about their valuation method.",
         "name": "Robert J.",
         "prod": "(Sold the Quickie Q700 M)",
-        "stars": 5,
+        "stars": 4,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "Sold my manual wheelchair to this company. They were professional, offered a decent price, and picked it up promptly. Appreciated their efficient service and understanding of different wheelchair types.",
         "name": "Susan M.",
         "prod": "(Sold the Sunrise Medical Quickie 2)",
-        "stars": 4,
+        "stars": 5,
         "feedbackMap": "Review from Google Maps"
       }
     ],

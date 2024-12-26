@@ -8,7 +8,7 @@
     "state": "State of Florida",
     "title": "Sell my car",
     "location": "(All States)",
-    "footerDescription": "Quick cash for your car!",
+    "footerDescription": "Cash for your car!",
     "image": "/assets/img/car/car_main.png",
     "bgImage": "car",
     "class": "car_text"
@@ -242,21 +242,21 @@
         "content": "Just sold my Toyota Tundra to these folks in Tampa. They were straight shooters, no BS. Got a fair price and the whole deal was wrapped up in no time. Smooth sailing all the way. Only wish they had a coffee machine in the office, hence the 4 stars.",
         "name": "Jake S.",
         "prod": "(Sold the Toyota Tundra)",
-        "stars": 4,
+        "stars": 5,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "Had a fender bender with my BMW 3 Series. These guys in Miami came through big time! Their offer was way better than I expected for a banged-up ride. The process was slick, and they handled all the paperwork. Couldn't be happier!",
         "name": "Emily R.",
         "prod": "(Sold the BMW 3 Series)",
-        "stars": 5,
+        "stars": 4,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "After years of Uber driving, my car was on its last legs. These folks gave me a decent price considering the mileage. The transaction was quick and professional. Appreciate the no-nonsense approach and fair valuation.",
         "name": "Michael T.",
         "prod": "(Sold the Toyota Camry)",
-        "stars": 4,
+        "stars": 5,
         "feedbackMap": "Review from Google Maps"
       }
     ],

@@ -6,7 +6,7 @@
     "state": "State of Florida",
     "title": "Sell my <span>Warehouse</span>",
     "location": "(All States)",
-    "footerDescription": "Quick cash offer for your Warehouse!",
+    "footerDescription": "Cash for your Warehouse!",
     "image": "/assets/img/real-estate/Warehouse_Facilities_main.svg",
     "bgImage": "warehouse-facilities",
     "class": "warehouse-facilities_text"
@@ -78,21 +78,21 @@
         "content": "Had to liquidate my warehouse in Los Angeles due to bankruptcy. These investors stepped in with a fair cash offer. Process was quick and professional. Helped me out of a tough spot.",
         "name": "Tom K.",
         "prod": "Sold Warehouse",
-        "stars": 4,
+        "stars": 5,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "Needed to sell my warehouse in Miami fast due to divorce. These cash buyers came through clutch. Offer was slightly below market, but the speed and convenience made up for it. No regrets!",
         "name": "Maria R.",
         "prod": "Sold Warehouse",
-        "stars": 5,
+        "stars": 4,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "These folks bought my old warehouse in Tampa when nobody else would touch it. Fair price, fast close. They dealt with all the zoning issues too. Saved me a ton of headaches!",
         "name": "Frank D.",
         "prod": "Sold Warehouse",
-        "stars": 4,
+        "stars": 5,
         "feedbackMap": "Review from Google Maps"
       }
     ],

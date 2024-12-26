@@ -6,7 +6,7 @@
     "state": "State of Florida",
     "title": "Sell my <span>Townhouse</span>",
     "location": "(All States)",
-    "footerDescription": "Quick cash offer for your Townhouse!",
+    "footerDescription": "Cash for your Townhouse!",
     "image": "/assets/img/real-estate/Townhouse_main.svg",
     "bgImage": "townhouse",
     "class": "townhouse_text"
@@ -78,21 +78,21 @@
         "content": "When my business tanked, I had to unload my California townhouse fast. These cash buyers were my saving grace. No judgement, just a fair offer and quick close. Eternally grateful!",
         "name": "Alison W.",
         "prod": "Sold Townhouse",
-        "stars": 4,
+        "stars": 5,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "Y'all, if you need to sell your place in Tampa without the drama, hit these folks up! They bought my townhouse as-is, cash in hand. No repairs, no staging, no fuss. Solid deal!",
         "name": "Bobby J.",
         "prod": "Sold Townhouse",
-        "stars": 5,
+        "stars": 4,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "Sold my Miami townhouse to these cash buyers. Process was smooth, but I felt the offer could've been a bit higher. Still, the speed and convenience of the sale made it worthwhile.",
         "name": "Sophia L.",
         "prod": "Sold Townhouse",
-        "stars": 4,
+        "stars": 5,
         "feedbackMap": "Review from Google Maps"
       }
     ],

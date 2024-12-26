@@ -6,7 +6,7 @@
     "state": "State of Florida",
     "title": "Sell my <span>House</span>",
     "location": "(All States)",
-    "footerDescription": "Quick cash offer for your House!",
+    "footerDescription": "Cash for your House!",
     "image": "/assets/img/real-estate/House_main.svg",
     "bgImage": "real-estate",
     "class": "real-estate_text"
@@ -78,21 +78,21 @@
         "content": "When I needed to sell my house fast, these guys came through big time. They made a fair cash offer and closed in just 10 days. No hassle, no repairs needed. If you're in a pinch in Tampa, give 'em a call!",
         "name": "Mark S.",
         "prod": "Sold House",
-        "stars": 4,
+        "stars": 5,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "Selling my childhood home was emotional, but this team made it painless. They were professional, respectful, and got me a great price. The process was smooth from start to finish. Highly recommend!",
         "name": "Linda G.",
         "prod": "Sold House",
-        "stars": 5,
+        "stars": 4,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "I was skeptical about 'we buy houses' companies, but these folks changed my mind. They were transparent about their offer and didn't pressure me. Closed on my timeline. Solid experience overall.",
         "name": "Tony R.",
         "prod": "Sold House",
-        "stars": 4,
+        "stars": 5,
         "feedbackMap": "Review from Google Maps"
       }
     ],

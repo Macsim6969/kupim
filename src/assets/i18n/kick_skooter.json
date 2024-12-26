@@ -6,7 +6,7 @@
     "state": "State of Florida",
     "title": "Sell my scooter",
     "location": "(All States)",
-    "footerDescription": "Quick cash for your scooter!",
+    "footerDescription": "Cash for your scooter!",
     "image": "/assets/img/scooter/scooter.png",
     "bgImage": "scooter",
     "class": "scooter_text"
@@ -78,21 +78,21 @@
         "content": "Sold my e-scooter to these folks, and it was a breeze! They offered a fair price and picked it up the same day. Super convenient for busy professionals like me. Thumbs up!",
         "name": "Sarah M.",
         "prod": "(Sold the Xiaomi Mi Electric Scooter)",
-        "stars": 4,
+        "stars": 5,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "These guys in Florida know their e-scooters. Got a decent offer for my old ride. The process was straightforward, but I wish they had more flexible pickup times. Still, a solid option if you're upgrading.",
         "name": "Chris B.",
         "prod": "(Sold the Segway Ninebot MAX)",
-        "stars": 5,
+        "stars": 4,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "Y'all, if you're in Tampa and wanna offload your e-scooter, hit these folks up! They gave me cash on the spot for my beat-up old scooter. No fuss, no muss. Just easy peasy lemon squeezy! ",
         "name": "Zoe K.",
         "prod": "(Sold the Gotrax GXL V2)",
-        "stars": 4,
+        "stars": 5,
         "feedbackMap": "Review from Google Maps"
       }
     ],

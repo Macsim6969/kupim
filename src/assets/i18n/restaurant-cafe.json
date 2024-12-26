@@ -6,7 +6,7 @@
     "state": "State of Florida",
     "title": "Sell my <span>Restaurant</span>",
     "location": "(All States)",
-    "footerDescription": "Quick cash offer for your Restaurant!",
+    "footerDescription": "Cash for offer for your Restaurant!",
     "image": "/assets/img/real-estate/Restaurant _Cafe_main.svg",
     "bgImage": "restaurant-cafe",
     "class": "restaurant-cafe_text"
@@ -78,21 +78,21 @@
         "content": "As a retiring restaurateur in LA, I needed to sell my place quickly. These cash buyers came through. They understood the value of my location and equipment. Smooth transaction from start to finish.",
         "name": "Mike D.",
         "prod": "Sold Restaurant Chef",
-        "stars": 4,
+        "stars": 5,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "Running a restaurant in Miami ain't easy, and I needed out. These folks gave me a lifeline with their cash offer. Maybe coulda got more on the open market, but the speed and convenience were worth it.",
         "name": "Carlos G.",
         "prod": "Sold Restaurant",
-        "stars": 5,
+        "stars": 4,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "When my Florida beach town restaurant took a hit after the hurricane, these investors stepped in. Fair offer, quick close. They even helped with some of the cleanup. True professionals!",
         "name": "Diane F.",
         "prod": "Sold Restaurant",
-        "stars": 4,
+        "stars": 5,
         "feedbackMap": "Review from Google Maps"
       }
     ],

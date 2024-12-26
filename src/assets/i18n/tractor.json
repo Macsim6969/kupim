@@ -8,7 +8,7 @@
     "state": "State of Florida",
     "title": "Sell my tractor",
     "location": "(All States)",
-    "footerDescription": "Quick cash for your tractor",
+    "footerDescription": "Cash for your tractor",
     "image": "/assets/img/tractor/tractor.png",
     "bgImage": "tractor",
     "class": "tractor_text"
@@ -123,21 +123,21 @@
         "content": "Sold my old tractor attachment to these guys. They knew their stuff about farm equipment and gave a fair price. The pickup was prompt, and they were careful with the equipment. Solid service for farmers looking to upgrade.",
         "name": "John D.",
         "prod": "(Sold the John Deere Backhoe attachment)",
-        "stars": 4,
+        "stars": 5,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "These folks bought my tractor in Tampa. They were professional and offered a competitive price. The process took a bit longer than expected, hence 4 stars, but overall a reliable service for heavy equipment.",
         "name": "Mary B.",
         "prod": "(Sold the Kubota L3901 tractor)",
-        "stars": 5,
+        "stars": 4,
         "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "Sold my trusty old rototiller to this company. They were straightforward, offered a decent price, and picked it up on time. No complaints here - they made selling used equipment a breeze!",
         "name": "Tom W.",
         "prod": "(Sold the Honda FRC800 Rear Tine Tiller)",
-        "stars": 4,
+        "stars": 5,
         "feedbackMap": "Review from Google Maps"
       }
     ],
