@@ -7,8 +7,8 @@
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell my tractor",
-    "location": "(All States)",
-    "footerDescription": "Cash for your tractor",
+    "location": "(State Florida)",
+    "footerDescription": "Cash for your tractor Florida",
     "image": "/assets/img/tractor/tractor.png",
     "bgImage": "tractor",
     "class": "tractor_text"

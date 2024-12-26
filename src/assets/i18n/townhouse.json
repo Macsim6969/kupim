@@ -5,8 +5,8 @@
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell my <span>Townhouse</span>",
-    "location": "(All States)",
-    "footerDescription": "Cash for your Townhouse!",
+    "location": "(State Florida)",
+    "footerDescription": "Cash for your Townhouse Florida!",
     "image": "/assets/img/real-estate/Townhouse_main.svg",
     "bgImage": "townhouse",
     "class": "townhouse_text"

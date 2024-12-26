@@ -7,7 +7,7 @@
     "state": "State of Florida",
     "title": "Sell my vehicle <span>Cash for vehicle Florida</span>",
     "location": "(State Florida)",
-    "footerDescription": "Cash for your vehicle!",
+    "footerDescription": "Cash for your vehicle Florida!",
     "metaTitle": "Sell my vehicle - Miami, Tampa, Orlando, Jacksonville, Fl",
     "description": "Professional Vehicle Purchasing Services. Complete an online evaluation and receive cash for vehicle in Florida today. Free appraisal takes only 10 minutes!",
     "keywords": "Sell my used vehicle, Sell my vehicle, Cash for vehicle Florida, Sell your vehicle, Sell my transport, Cash for my transport",
@@ -40,9 +40,9 @@
         "title": "Sell my Bicycle"
       },
       {
-        "url": "/kick_skooter",
+        "url": "/scooter",
         "img": "/assets/img/transport/Scooter.png",
-        "title": "Sell my Kick Skooter"
+        "title": "Sell my Scooter"
       },
       {
         "url": "/watercraft",

@@ -5,11 +5,20 @@
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell my scooter",
-    "location": "(All States)",
-    "footerDescription": "Cash for your scooter!",
+    "location": "(State Florida)",
+    "footerDescription": "Cash for electric scooter Florida",
+    "metaTitle": "Sell my electric scooter - Cash for e-scooter near me - Florida",
+    "description": "Professional scooter buyback services. Quick & Easy Online Appraisal - Get cash for your old e-scooter today in Miami, Orlando, Tampa, and Jacksonville.",
+    "keywords": "Sell my scooter, Sell my used scooter, Buy used scooter, Second-hand scooter sales, Cash for scooter, Cash for my used scooter, Sell scooter locally, Quick cash for scooter, Sell scooter online, Sell my scooter fast, Sell old scooter for cash",
+    "ogTitle": "Sell my electric scooter - Cash for e-scooter near me - Buddy Cash",
+    "ogDescription": "Professional scooter buyback services. Quick & Easy Online Appraisal - Get cash for your old e-scooter today in Miami, Orlando, Tampa, and Jacksonville - Buddy Cash",
+    "ogType": "website",
+    "ogUrl": "https://buddy-cash.com/scooter?state=florida",
+    "ogImage": "/assets/img/main_page/main_logo.svg",
     "image": "/assets/img/scooter/scooter.png",
     "bgImage": "scooter",
-    "class": "scooter_text"
+    "class": "scooter_text",
+    "alt": "Sell used items"
   },
   "easySteps": {
     "title": "3 Easy Steps",
@@ -17,16 +26,16 @@
     "style": "skooter",
     "contentStep1": {
       "step": "Step 1",
-      "stepText": "Send us photos and specifications of your scooter via your preferred messaging app.",
-      "contact": "CONNECT"
+      "stepText": "Simply share photos and details through your preferred messaging platform",
+      "contact": "SEND"
     },
     "contentStep2": {
       "step": "Step 2",
-      "stepText": "Schedule an in-office consultation or request an expert evaluation at your location."
+      "stepText": "Schedule a convenient in-person evaluation at our office or your location"
     },
     "contentStep3": {
       "step": "Step 3",
-      "stepText": "Receive your appraisal and payment through your preferred method."
+      "stepText": "Receive immediate payment through your preferred method: cash, digital transfer, or check"
     }
   },
   "aboutInfo": {
@@ -35,39 +44,39 @@
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
-        "title": "We buy scooter in any condition."
+        "title": "We buy scooters in any condition"
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
-        "title": "Same-Day Purchase"
+        "title": "Fast same-day purchase"
       },
       {
         "src": "/assets/img/laptop/about/lock.svg",
-        "title": "Every Sale is Confidential"
+        "title": "Every sale is 100% confidential"
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "Trade-In available (exchange for a new scooter)"
+        "title": "Trade-in options available—exchange for a new scooter"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
-        "title": "Appraisal Time via Messenger - 7 Minutes"
+        "title": "Quick appraisal via messenger — 10 minutes or less"
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
-        "title": "We Offer Higher Prices Than Our Competitors"
+        "title": "We offer higher prices than competitors"
       },
       {
         "src": "/assets/img/laptop/about/flag.svg",
-        "title": "Operating Across All U.S. States"
+        "title": "Operating in all U.S. states"
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
-        "title": "Instant Payment"
+        "title": "Instant cash payout"
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
-        "title": "We Handle Complex Cases (Collateral, Loans)"
+        "title": "We handle complex cases: liens, loans, and post-accident"
       }
     ]
   },

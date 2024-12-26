@@ -7,8 +7,8 @@
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell my trailer",
-    "location": "(All States)",
-    "footerDescription": "Cash for your trailer",
+    "location": "(State Florida)",
+    "footerDescription": "Cash for your trailer Florida",
     "image": "/assets/img/trailer/trailer.png",
     "bgImage": "trailer",
     "class": "trailer_text"

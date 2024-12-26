@@ -5,8 +5,8 @@
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell my <span>Restaurant</span>",
-    "location": "(All States)",
-    "footerDescription": "Cash for offer for your Restaurant!",
+    "location": "(State Florida)",
+    "footerDescription": "Cash for offer for your Restaurant Florida!",
     "image": "/assets/img/real-estate/Restaurant _Cafe_main.svg",
     "bgImage": "restaurant-cafe",
     "class": "restaurant-cafe_text"

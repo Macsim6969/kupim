@@ -5,8 +5,8 @@
   "dashboard": {
     "state": "State of Florida",
     "title": "Scroll down <span>to see what we buy</span>",
-    "location": "(All States)",
-    "footerDescription": "Cash for your trash!",
+    "location": "(State Florida)",
+    "footerDescription": "Cash for your trash Florida!",
     "image": "/assets/img/gear/Exercise_machines_logo.png",
     "bgImage": "exercise-machines",
     "class": "exercise-machines_text"

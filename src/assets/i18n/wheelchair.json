@@ -6,8 +6,8 @@
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell my wheelchair",
-    "location": "(All States)",
-    "footerDescription": "Cash for your wheelchair",
+    "location": "(State Florida)",
+    "footerDescription": "Cash for your wheelchair Florida",
     "image": "/assets/img/wheelchair/Wheelchair.png",
     "bgImage": "wheelchair",
     "class": "wheelchair_text"

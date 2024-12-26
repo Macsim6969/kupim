@@ -1,9 +1,9 @@
 <section [ngClass]="{'hide': prodInfo === 'prodInfo'}">
     <div class="prod_info">
-        <h2 class="prod_info_h">
+        <h3 class="prod_info_h">
             <span class="info_title">{{prodInfo['title']}}</span>
             <span class="info_undelog">{{prodInfo['text']}}</span>
-        </h2>
+        </h3>
         <div class="prod_info_content" *ngIf="!isLoading && content; else loading">
             <button class="btn" [ngClass]="{'hide_anim': !isPageRoute.includes(activePage)}"
                 [disabled]="!isPageRoute.includes(activePage)" *ngFor=" let image of

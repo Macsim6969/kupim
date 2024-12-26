@@ -6,8 +6,8 @@
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell my <span>used electronics</span>",
-    "location": "(All States)",
-    "footerDescription": "Cash for your devices!",
+    "location": "(State Florida)",
+    "footerDescription": "Cash for your devices Florida!",
     "image": "/assets/img/electronics/electronics.svg",
     "bgImage": "main",
     "class": "main_text"

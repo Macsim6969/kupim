@@ -7,8 +7,8 @@
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell my car",
-    "location": "(All States)",
-    "footerDescription": "Cash for your car!",
+    "location": "(State Florida)",
+    "footerDescription": "Cash for your car Florida!",
     "image": "/assets/img/car/car_main.png",
     "bgImage": "car",
     "class": "car_text"

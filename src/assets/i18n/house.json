@@ -5,8 +5,8 @@
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell my <span>House</span>",
-    "location": "(All States)",
-    "footerDescription": "Cash for your House!",
+    "location": "(State Florida)",
+    "footerDescription": "Cash for your House Florida!",
     "image": "/assets/img/real-estate/House_main.svg",
     "bgImage": "real-estate",
     "class": "real-estate_text"

@@ -16,7 +16,7 @@ export class RoutePageService {
     '/contacts': 'contacts',
     '/team': 'team',
     '/bike': 'bike',
-    '/kick_skooter': 'kick_skooter',
+    '/scooter': 'scooter',
     '/watercraft': 'watercraft',
     '/tractor': 'tractor',
     '/trailer': 'trailer',

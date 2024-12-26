@@ -5,8 +5,8 @@
   "dashboard": {
     "state": "State of Florida",
     "title": "Scroll down <span>to see what we buy</span>",
-    "location": "(All States)",
-    "footerDescription": "Cash for your trash!",
+    "location": "(State Florida)",
+    "footerDescription": "Cash for your trash Florida!",
     "image": "/assets/img/gear/Skis_logo.png",
     "bgImage": "skis",
     "class": "skis_text"

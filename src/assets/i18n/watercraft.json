@@ -1,21 +1,29 @@
 {
   "key": [
     "yes",
-    "prod",
+    "prod", 
     "easy-step"
   ],
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell my watercraft",
-    "location": "(All States)",
-    "footerDescription": "Cash for your watercraft",
+    "location": "(State Florida)",
+    "footerDescription": "Сash for your watercraft Florida!",
+    "metaTitle": "Sell my watercraft - Cash Offer near Miami, Orlando, Tampa, Jacksonville",
+    "description": "Professional watercraft purchasing services. Quick & Easy Online Appraisal - Get cash for your old water vehicle today. Trade-in!",
+    "keywords": "Sell my watercraft, Sell my used watercraft, Buy used watercraft, Second-hand watercraft sales, Cash for watercraft, Cash for my used watercraft, Sell watercraft locally, Quick cash for watercraft, Sell watercraft online, Sell my watercraft fast, Sell old watercraft for cash",
+    "ogTitle": "Sell my watercraft - Cash Offer near Miami, Orlando, Tampa, Jacksonville - Buddy Cash",
+    "ogDescription": "Professional watercraft purchasing services. Quick & Easy Online Appraisal - Get cash for your old water vehicle today. Trade-in - Buddy Cash",
+    "ogType": "website",
+    "ogUrl": "https://buddy-cash.com/watercraft?state=florida",
+    "ogImage": "/assets/img/main_page/main_logo.svg",
     "image": "/assets/img/boat/Watercraft.svg",
     "bgImage": "boat",
     "class": "boat_text"
   },
   "prodInfo": {
-    "title": "Boats that we purchase",
-    "text": "across all states in the U.S.",
+    "title": "Types of Watercraft",
+    "text": "We Purchase",
     "content": [
       {
         "img": "/assets/img/boat/Boat.png"
@@ -35,21 +43,21 @@
     ]
   },
   "easySteps": {
-    "title": "3 Easy Steps",
-    "text": "to Appraise Your Watercraft Online",
+    "title": "Value your Watercraft:",
+    "text": "3 Simple Steps",
     "style": "boat",
     "contentStep1": {
       "step": "Step 1",
-      "stepText": "Send us photos and specifications of your watercraft via your preferred messaging app.",
+      "stepText": "Simply share photos and details through your preferred messaging platform",
       "contact": "SEND"
     },
     "contentStep2": {
       "step": "Step 2",
-      "stepText": "Schedule an in-office consultation or request an expert evaluation at your location."
+      "stepText": "Schedule a convenient in-person evaluation at our office or your location"
     },
     "contentStep3": {
       "step": "Step 3",
-      "stepText": "Receive your appraisal and payment through your preferred method."
+      "stepText": "Receive immediate payment through your preferred method: cash, digital transfer, or check"
     }
   },
   "need-docs": {
@@ -81,8 +89,8 @@
     ]
   },
   "aboutInfo": {
-    "title": "Why we are",
-    "text": "your best bet",
+    "title": "What Sets ",
+    "text": "Us Apart",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
@@ -90,27 +98,27 @@
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
-        "title": "Same-Day Purchase"
+        "title": "Fast same-day purchase"
       },
       {
         "src": "/assets/img/laptop/about/lock.svg",
-        "title": "Every Sale is Confidential"
+        "title": "Every sale is 100% confidential"
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "Trade-In available (exchange for a new watercraft)"
+        "title": "Trade-in options available—exchange for a new watercraft"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
-        "title": "Appraisal time via Messenger - 7 minutes"
+        "title": "Quick appraisal via messenger — 10 minutes or less"
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
-        "title": "We offer higher prices than our competitors"
+        "title": "We offer higher prices than competitors"
       },
       {
         "src": "/assets/img/laptop/about/flag.svg",
-        "title": "We operate in all U.S. states"
+        "title": "Operating in all U.S. states"
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
@@ -118,7 +126,7 @@
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
-        "title": "We handle complex cases (Collateral, Loans, After Accident)"
+        "title": "We handle complex cases: liens, loans, and post-accident"
       }
     ]
   },

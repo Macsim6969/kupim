@@ -5,8 +5,8 @@
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell my <span>Garage</span>",
-    "location": "(All States)",
-    "footerDescription": "Cash for your Garage!",
+    "location": "(State Florida)",
+    "footerDescription": "Cash for your Garage Florida!",
     "image": "/assets/img/real-estate/Garage_main.svg",
     "bgImage": "garage",
     "class": "garage_text"

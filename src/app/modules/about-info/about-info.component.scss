@@ -17,32 +17,40 @@
       width: 90%;
     }
 
-    .why_log {
+    .why_log_h {
       display: flex;
-      justify-content: space-around;
-      margin: 80px 0 30px 0px;
-      font-size: 50px;
-      color: #535050;
-      font-weight: 600;
-      text-align: center;
-
-      @media (max-width: 720px) {
-        font-size: 42px;
-      }
-    }
-
-    .why_undelog {
-      font-size: 28px;
-      color: #535050;
-      margin: 0 0 115px 0px;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
+      flex-direction: column;
+      align-items: center;
       justify-content: center;
 
-      @media (max-width: 720px) {
-        font-size: 24px;
-        margin-bottom: 55px;
+      .why_log{
+        display: flex;
+        justify-content: space-around;
+        margin: 80px 0 30px 0px;
+        font-size: 50px;
+        color: #535050;
+        font-weight: 600;
+        text-align: center;
+  
+        @media (max-width: 720px) {
+          font-size: 42px;
+        }
+      }
+
+      .why_undelog {
+        font-weight: 400;
+        font-size: 28px;
+        color: #535050;
+        margin: 0 0 115px 0px;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+  
+        @media (max-width: 720px) {
+          font-size: 24px;
+          margin-bottom: 55px;
+        }
       }
     }
 

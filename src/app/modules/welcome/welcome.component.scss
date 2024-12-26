@@ -312,7 +312,7 @@
           }
 
           &.boat {
-            height: 460px;
+            height: 500px;
             object-fit: contain;
           }
 
@@ -488,7 +488,7 @@
           color: white;
           font-size: 36px;
           font-weight: 100;
-          max-width: 500px;
+          max-width: 600px;
 
           @media (max-width: 972px) {
             font-size: 26px;

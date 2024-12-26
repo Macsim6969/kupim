@@ -6,8 +6,8 @@
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell my helicopter",
-    "location": "(All States)",
-    "footerDescription": "Cash for your helicopter",
+    "location": "(State Florida)",
+    "footerDescription": "Cash for your helicopter Florida",
     "image": "/assets/img/helicopter/Helicopter.png",
     "bgImage": "helicopter",
     "class": "helicopter_text"

@@ -6,8 +6,8 @@
   "dashboard": {
     "state": "State of Florida",
     "title": "Car buyout Volkswagen",
-    "location": "(All States)",
-    "footerDescription": "Cash for volkswagen at the best price!",
+    "location": "(State Florida)",
+    "footerDescription": "Cash for volkswagen at the best price Florida!",
     "image": "/assets/img/car/Volkswagen.png",
     "bgImage": "volkswagen",
     "class": "volkswagen_text"

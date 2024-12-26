@@ -1,7 +1,10 @@
 <div class="about">
     <div class="abour_container" *ngIf="easyStepData">
-        <div class="about_log">{{easyStepData.title}}</div>
-        <div class="about_undelog">{{easyStepData.text}}</div>
+        <h3 class="about_log_h">
+            <span class="about_log">{{easyStepData.title}}</span>
+            <span class="about_undelog">{{easyStepData.text}}</span>
+        </h3>
+    
         <div class="about_inner">
             <div class="about_inner_step1">
                 <img class="step1_img1" src="/assets/img/laptop/evaluate.svg" alt="{{easyStepData.contentStep1?.stepText}}">

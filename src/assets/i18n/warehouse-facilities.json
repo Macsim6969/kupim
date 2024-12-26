@@ -5,8 +5,8 @@
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell my <span>Warehouse</span>",
-    "location": "(All States)",
-    "footerDescription": "Cash for your Warehouse!",
+    "location": "(State Florida)",
+    "footerDescription": "Cash for your Warehouse Florida!",
     "image": "/assets/img/real-estate/Warehouse_Facilities_main.svg",
     "bgImage": "warehouse-facilities",
     "class": "warehouse-facilities_text"

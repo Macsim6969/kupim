@@ -6,8 +6,8 @@
   "dashboard": {
     "state": "State of Florida",
     "title": "Car buyout Porshe",
-    "location": "(All States)",
-    "footerDescription": "Cash for porshe at the best price!",
+    "location": "(State Florida)",
+    "footerDescription": "Cash for porshe at the best price Florida!",
     "image": "/assets/img/car/car_Porsche.png",
     "bgImage": "porshe",
     "class": "porshe_text"

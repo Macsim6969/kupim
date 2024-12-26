@@ -6,8 +6,8 @@
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell my airplan",
-    "location": "(All States)",
-    "footerDescription": "Cash for your airplan",
+    "location": "(State Florida)",
+    "footerDescription": "Cash for your airplan Florida",
     "image": "/assets/img/airplane/Airplane.svg",
     "bgImage": "airplane",
     "class": "bike_text"

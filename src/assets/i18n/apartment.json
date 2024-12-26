@@ -5,8 +5,8 @@
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell my <span>Apartment</span>",
-    "location": "(All States)",
-    "footerDescription": "Cash for your Apartment!",
+    "location": "(State Florida)",
+    "footerDescription": "Cash for your Apartment Florida!",
     "image": "/assets/img/real-estate/Apartment_main.svg",
     "bgImage": "apartment",
     "class": "apartment_text"

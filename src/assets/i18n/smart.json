@@ -6,8 +6,8 @@
   "dashboard": {
     "state": "State of Florida",
     "title": "Car buyout Smart",
-    "location": "(All States)",
-    "footerDescription": "Cash for smart at the best price!",
+    "location": "(State Florida)",
+    "footerDescription": "Cash for smart at the best price Florida!",
     "image": "/assets/img/car/car_Smart.png",
     "bgImage": "smart",
     "class": "smart_text"

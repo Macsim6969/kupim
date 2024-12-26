@@ -6,8 +6,8 @@
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell laptop <span>for cash Florida </span>",
-    "location": "(All States)",
-    "footerDescription": "Cash for laptop!",
+    "location": "(State Florida)",
+    "footerDescription": "Cash for laptop Florida!",
     "image": "/assets/img/laptop/laptop.svg",
     "bgImage": "laptop",
     "class": "laptop_text",

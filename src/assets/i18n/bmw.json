@@ -6,8 +6,8 @@
   "dashboard": {
     "state": "State of Florida",
     "title": "Car buyout BMW",
-    "location": "(All States)",
-    "footerDescription": "Cash for bmw at the best price!",
+    "location": "(State Florida)",
+    "footerDescription": "Cash for bmw at the best price Florida!",
     "image": "/assets/img/car/car_bmw.png",
     "bgImage": "bmw",
     "class": "bmw_text"

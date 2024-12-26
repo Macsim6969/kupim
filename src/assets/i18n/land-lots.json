@@ -5,8 +5,8 @@
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell my <span>Land</span>",
-    "location": "(All States)",
-    "footerDescription": "Cash for your Land!",
+    "location": "(State Florida)",
+    "footerDescription": "Cash for your Land Florida!",
     "image": "/assets/img/real-estate/Land_Lots_main.png",
     "bgImage": "land-lots",
     "class": "land-lots_text"
