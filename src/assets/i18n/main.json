@@ -28,37 +28,44 @@
       {
         "img": "/assets/img/main_page/Transport.png",
         "route": "/transport",
-        "alt": "Sell used Transport"
+        "alt": "Sell used Transport",
+        "isBlock": false
       },
       {
         "img": "/assets/img/main_page/Furniture.png",
         "route": "",
-        "alt": "Sell used Furniture"
+        "alt": "Sell used Furniture",
+        "isBlock": true
       },
       {
         "img": "/assets/img/main_page/Electronics.png",
         "route": "/electronics",
-        "alt": "Sell used Electronics"
+        "alt": "Sell used Electronics",
+        "isBlock": true
       },
       {
         "img": "/assets/img/main_page/Real_estate.png",
         "route": "/real-estate",
-        "alt": "Sell used Real estate"
+        "alt": "Sell used Real estate",
+        "isBlock": true
       },
       {
         "img": "/assets/img/main_page/Estate.png",
         "route": "",
-        "alt": "Sell used Estate"
+        "alt": "Sell used Estate",
+        "isBlock": true
       },
       {
         "img": "/assets/img/main_page/Gear.png",
         "route": "/gear",
-        "alt": "Sell used Gear"
+        "alt": "Sell used Gear",
+        "isBlock": true
       },
       {
         "img": "/assets/img/main_page/Others.png",
         "route": "/others",
-        "alt": "Sell used Others"
+        "alt": "Sell used Others",
+        "isBlock": true
       }
     ]
   },
