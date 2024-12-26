@@ -6,16 +6,24 @@
   ],
   "dashboard": {
     "state": "State of Florida",
-    "title": "Sell my trailer",
+    "title": "Cash for your trailer Florida",
     "location": "(State Florida)",
     "footerDescription": "Cash for your trailer Florida",
+    "metaTitle": "Sell my trailer- Cash offer near Miami, Orlando, Tampa, Jacksonville",
+    "description": "Professional trailer purchasing services. All types accepted. Quick & Easy Online Appraisal - Get a cash offer for your old trailer now! Trade-in",
+    "keywords": "Sell my trailer, Sell my used trailer, Buy used trailer, Second-hand trailer sales, Cash for trailer, Cash for my used trailer, Sell trailer locally, Quick cash for trailer, Sell trailer online, Sell my trailer fast, Sell old trailer for cash.",
+    "ogTitle": "Sell my trailer- Cash offer near Miami, Orlando, Tampa, Jacksonville - Buddy Cash",
+    "ogDescription": "Professional trailer purchasing services. All types accepted. Quick & Easy Online Appraisal - Get a cash offer for your old trailer now! Trade-in - Buddy Cash",
+    "ogType": "website",
+    "ogUrl": "https://buddy-cash.com/trailer?state=florida",
+    "ogImage": "/assets/img/main_page/Sell_my_trailer.jpg",
     "image": "/assets/img/trailer/trailer.png",
     "bgImage": "trailer",
     "class": "trailer_text"
   },
   "prodInfo": {
-    "title": "Trailer",
-    "text": "we buy back across all US states",
+    "title": "Types of Trailers",
+    "text": "We Purchase",
     "content": [
       {
         "img": "/assets/img/trailer/trailer.svg"
@@ -29,21 +37,21 @@
     ]
   },
   "easySteps": {
-    "title": "3 Easy Steps",
-    "text": "to Appraise Your Trailer Online",
+    "title": "Value your Trailer:",
+    "text": "3 Simple Steps",
     "style": "trailer",
     "contentStep1": {
       "step": "Step 1",
-      "stepText": "Send us photos and specifications of your trailer via your preferred messaging app.",
+      "stepText": "Simply share photos and details through your preferred messaging platform",
       "contact": "CONNECT"
     },
     "contentStep2": {
       "step": "Step 2",
-      "stepText": "Schedule an in-office consultation or request an expert evaluation at your location."
+      "stepText": "Schedule a convenient in-person evaluation at our office or your location"
     },
     "contentStep3": {
       "step": "Step 3",
-      "stepText": "Receive your appraisal and payment through your preferred method."
+      "stepText": "Receive immediate payment through your preferred method: cash, digital transfer, or check"
     }
   },
   "need-docs": {
@@ -75,44 +83,44 @@
     ]
   },
   "aboutInfo": {
-    "title": "We buy back trailer in Florida",
-    "text": "and all the states",
+    "title": "What Sets",
+    "text": "Us Apart",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
-        "title": "Buy transportation in any condition"
+        "title": "We buy trailers in any condition"
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
-        "title": "Same-Day Purchase"
+        "title": "Fast same-day purchase"
       },
       {
         "src": "/assets/img/laptop/about/lock.svg",
-        "title": "Every Sale is Confidential"
+        "title": "Every sale is 100% confidential"
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "Scooters for sale on commission"
+        "title": "Trade-in options available—exchange for a new trailer"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
-        "title": "Inspection and registration in 2 hours"
+        "title": "Quick appraisal via messenger — 10 minutes or less"
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
-        "title": "Priced higher than the competition"
+        "title": "We offer higher prices than competitors"
       },
       {
         "src": "/assets/img/laptop/about/flag.svg",
-        "title": "Operating Across All U.S. States"
+        "title": "Operating in all U.S. states"
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
-        "title": "Instant Payment"
+        "title": "Instant cash payout"
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
-        "title": "We work with complex cases (bail, ban, credit)"
+        "title": "We handle complex cases: liens, loans, and post-accident"
       }
     ]
   },
@@ -169,12 +177,12 @@
       }
     ],
     "listBottom1": {
-      "title": "Urgent buyout of cars with mileage",
-      "text": "During the existence of the company, we have bought out a large number of used vehicles of different makes and models. We have learned to approach the issues of car buyout with intelligence: cars are de-registered, and all transactions are legally correct. <br/><br/> We offer car buying services in all districts of Kiev (Kiev region) and Ukraine. Those who do not want to spend time and effort to find a client, it is better to use the service 'auto buyout. Of course you will not get the maximum value for the car, but 90-95% of the market value we guarantee you!<br/><br/> However, if you decide to sell a used car on your own, it is recommended to be patient. Selling a car on your own can take months. At the same time, without understanding the market, it is difficult to set a price that will suit both you and the potential buyer. As a result, you will waste your time and efforts."
+      "title": "",
+      "text": ""
     },
     "listBottom2": {
-      "title": "Buying trailers in Kiev",
-      "text": "Everything is simple! Send us a photo of the vehicle in a convenient messenger (viber, telegram, instagram). Within 4-5 minutes, the appraiser Vladimir will write the cost of redemption. Having come to an agreement, we will immediately go to you! That you would not have traveled in vain, we will come to you ourselves, absolutely free, without any claims if you refuse our services. We value the reputation and time of our customers!"
+      "title": "",
+      "text": ""
     }
   }
 }

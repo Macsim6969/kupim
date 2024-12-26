@@ -1,7 +1,7 @@
 {
   "key": [
     "prod",
-    "easy-step"
+    "easy-step" 
   ],
   "dashboard": {
     "state": "State of Florida",
@@ -15,7 +15,7 @@
     "ogDescription": "Professional asset purchase services: Buy, sell, and trade vehicles, electronics, real estate, and furniture. Get money today. Free online valuation in 10 minutes.",
     "ogType": "website",
     "ogUrl": "https://buddy-cash.com/?state=florida",
-    "ogImage": "/assets/img/main_page/main_logo.svg",
+    "ogImage": "/assets/img/main_page/Sell_used_item.png",
     "image": "/assets/img/main_page/main_logo.svg",
     "bgImage": "main",
     "class": "main_text",
