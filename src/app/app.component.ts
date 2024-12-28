@@ -29,7 +29,6 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     this.setObservableData();
     this.streamRoute();
-    this.updatesMateTags();
   }
 
   private streamRoute() {
@@ -54,22 +53,4 @@ export class AppComponent implements OnInit {
     this.isOpenSidebar$ = this.sidebarService._isSidebarOpen$;
   }
 
-  private updatesMateTags() {
-    this.translate.stream('dashboard').subscribe((data) => {
-      this.titleService.setTitle(data.metaTitle);
-      this.metaService.addTags([
-        { name: 'description', content: data.description },
-        { property: 'og:title', content: data.ogTitle },
-        { property: 'og:description', content: data.ogDescription},
-        { property: 'og:image', content: data.ogImage },
-        { property: 'og:url', content: data.ogUrl },
-        { property: 'og:type', content: 'website' },
-        { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: data.ogTitle },
-        { name: 'twitter:description', content: data.ogDescription },
-        { name: 'twitter:image', content: data.ogImage }
-      ]);
-      
-    })
-  }
 }
