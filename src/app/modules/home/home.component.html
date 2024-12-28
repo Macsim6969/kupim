@@ -4,7 +4,7 @@
   <app-prod-info  *ngIf="key && key.includes('prod')"></app-prod-info>
   <app-easy-steps *ngIf="key && key.includes('easy-step')"></app-easy-steps>
   <app-need-docs *ngIf="key && key.includes('yes')"></app-need-docs>
-  <app-about-info></app-about-info>
+  <app-about-info *ngIf="key && !key.includes('about')"></app-about-info>
   <app-information></app-information>
   <app-choice-mark-car></app-choice-mark-car>
   <app-feedback></app-feedback>

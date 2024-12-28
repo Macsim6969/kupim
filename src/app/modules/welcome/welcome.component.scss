@@ -342,11 +342,20 @@
           }
 
           &.helicopter {
-            height: 220px;
+            height: 250px;
           }
 
           &.wheelchair {
-            height: 420px;
+            height: 440px;
+            margin: auto;
+          }
+
+          &.airplane{
+            height: 500px;
+            margin: auto;
+            @media (max-width: 1250px) {
+            margin: unset;  
+            }
           }
 
           @media (max-width: 1250px) {

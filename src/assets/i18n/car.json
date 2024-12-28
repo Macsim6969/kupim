@@ -8,48 +8,61 @@
     "state": "State of Florida",
     "title": "Sell my car",
     "location": "(State Florida)",
-    "footerDescription": "Cash for your car Florida!",
+    "footerDescription": "Cash for your car Florida",
+    "metaTitle": "Sell my Сar - Cash offer near Miami, Orlando, Tampa, Jacksonville",
+    "description": "Quick & Easy online appraisal | Instant cash for your car in Miami, Orlando, Tampa, Jacksonville and throughout Florida. Professional purchasing services with free pickup. Trade your vehicle today",
+    "keywords": "Sell my car, Sell my used car, Buy used car, Second-hand car sales, Cash for car, Cash for my used car, Sell car locally, Quick cash for car, Sell car online, Sell my car fast, Sell old car for cash",
+    "ogTitle": "Sell my Сar - Cash offer near Miami, Orlando, Tampa, Jacksonville - Buddy Cash",
+    "ogDescription": "Quick & Easy online appraisal | Instant cash for your car in Miami, Orlando, Tampa, Jacksonville and throughout Florida. Professional purchasing services with free pickup. Trade your vehicle today - Buddy Cash",
+    "ogType": "website",
+    "ogUrl": "https://buddy-cash.com/car?state=florida",
+    "ogImage": "/assets/img/car/Sell_my_car.png",
     "image": "/assets/img/car/car_main.png",
     "bgImage": "car",
     "class": "car_text"
   },
   "choiceProducts": {
-    "title": "Сar that we purchase",
-    "text": "across all states in the U.S.",
+    "title": "Types of Car", 
+    "text": "We Purchase",
     "products": [
       {
-        "img": "/assets/img/car/After-an--accident.png"
+        "img": "/assets/img/car/After-an--accident.png",
+        "title": "After an accident"
       },
       {
-        "img": "/assets/img/car/Credit.png"
+        "img": "/assets/img/car/Credit.png",
+        "title": "Credit"
       },
       {
-        "img": "/assets/img/car/Legal-entity.png"
+        "img": "/assets/img/car/Legal-entity.png",
+        "title": "Legal entity"
       },
       {
-        "img": "/assets/img/car/New-Whole.png"
+        "img": "/assets/img/car/New-Whole.png",
+        "title": "New-Whole"
       },
       {
-        "img": "/assets/img/car/Taxi.png"
+        "img": "/assets/img/car/Taxi.png",
+        "title": "Taxi"
       }
     ]
   },
   "easySteps": {
-    "title": "3 Easy Steps",
-    "text": "to Appraise Your Car Online",
+    "title": "Value your Сar:",
+    "text": "3 Simple Steps",
     "style": "car",
     "contentStep1": {
       "step": "Step 1",
-      "stepText": "Send us photos and vehicle specifications via your preferred messaging app.",
-      "contact": "CONNECT"
+      "stepText": "Simply share photos and details through your preferred messaging platform",
+      "contact": "SEND"
     },
     "contentStep2": {
       "step": "Step 2",
-      "stepText": "Schedule an in-office consultation or request an expert evaluation at your location."
+      "stepText": "Schedule a convenient in-person evaluation at our office or your location"
     },
     "contentStep3": {
       "step": "Step 3",
-      "stepText": "Receive your appraisal and payment through your preferred method."
+      "stepText": "Receive immediate payment through your preferred method: cash, digital transfer, or check"
     }
   },
   "need-docs": {
@@ -89,44 +102,44 @@
     ]
   },
   "aboutInfo": {
-    "title": "Why we are",
-    "text": "your best bet",
+    "title": "What Sets",
+    "text": "Us Apart",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
-        "title": "We buy сar in any condition"
+        "title": "We buy cars in any condition"
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
-        "title": "Same-Day Purchase"
+        "title": "Fast same-day purchase"
       },
       {
         "src": "/assets/img/laptop/about/lock.svg",
-        "title": "Every Sale is Confidential"
+        "title": "Every sale is 100% confidential"
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "Trade-In available (exchange for a new vehicle)"
+        "title": "Trade-in options available—exchange for a new car"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
-        "title": "Inspection and registration in 2 hours"
+        "title": "Quick appraisal via messenger — 10 minutes or less"
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
-        "title": "Priced higher than the competition"
+        "title": "We offer higher prices than competitors"
       },
       {
         "src": "/assets/img/laptop/about/flag.svg",
-        "title": "Operating Across All U.S. States"
+        "title": "Operating in all U.S. states"
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
-        "title": "Instant Payment"
+        "title": "Instant cash payout"
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
-        "title": "We work with complex cases (bail, ban, credit)"
+        "title": "We handle complex cases: liens, loans, and post-accident"
       }
     ]
   },
@@ -239,16 +252,16 @@
     "title": "Customer Reviews",
     "feedback": [
       {
-        "content": "Just sold my Toyota Tundra to these folks in Tampa. They were straight shooters, no BS. Got a fair price and the whole deal was wrapped up in no time. Smooth sailing all the way. Only wish they had a coffee machine in the office, hence the 4 stars.",
-        "name": "Jake S.",
-        "prod": "(Sold the Toyota Tundra)",
+        "content": "Had a fender bender with my BMW 3 Series. These guys in Miami came through big time! Their offer was way better than I expected for a banged-up ride. The process was slick, and they handled all the paperwork. Couldn't be happier!",
+        "name": "Emily R.",
+        "prod": "(Sold the BMW 3 Series)",
         "stars": 5,
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Had a fender bender with my BMW 3 Series. These guys in Miami came through big time! Their offer was way better than I expected for a banged-up ride. The process was slick, and they handled all the paperwork. Couldn't be happier!",
-        "name": "Emily R.",
-        "prod": "(Sold the BMW 3 Series)",
+        "content": "Just sold my Toyota Tundra to these folks in Tampa. They were straight shooters, no BS. Got a fair price and the whole deal was wrapped up in no time. Smooth sailing all the way. Only wish they had a coffee machine in the office, hence the 4 stars.",
+        "name": "Jake S.",
+        "prod": "(Sold the Toyota Tundra)",
         "stars": 4,
         "feedbackMap": "Review from Google Maps"
       },

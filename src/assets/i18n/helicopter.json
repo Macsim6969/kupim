@@ -1,33 +1,42 @@
 {
   "key": [
     "yes",
-    "easy-step"
+    "easy-step",
+    "about"
   ],
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell my helicopter",
     "location": "(State Florida)",
-    "footerDescription": "Cash for your helicopter Florida",
+    "footerDescription": "Cash for your Helicopter Florida",
+    "metaTitle": "Sell my Helicopter - Cash offer near Miami, Orlando, Tampa, Jacksonville",
+    "description": "We buy pre-owned helicopters - Professional purchasing service. Get cash for your used helicopter in Miami, Orlando, Tampa Jacksonville and throughout Florida | Quick and Easy online appraisa",
+    "keywords": "Sell my helicopter, Sell my used helicopter, Buy used helicopter, Second-hand helicopter sales, Cash for helicopter, Cash for my used helicopter, Sell helicopter locally, Quick cash for helicopter, Sell helicopter online, Sell my helicopter fast, Sell old helicopter for cash",
+    "ogTitle": "Sell my Helicopter - Cash offer near Miami, Orlando, Tampa, Jacksonville - Buddy Cash",
+    "ogDescription": "We buy pre-owned helicopters - Professional purchasing service. Get cash for your used helicopter in Miami, Orlando, Tampa, Jacksonville and throughout Florida | Quick and Easy online appraisa - Buddy Cash",
+    "ogType": "website",
+    "ogUrl": "https://buddy-cash.com/helicopter?state=florida",
+    "ogImage": "/assets/img/helicopter/Sell_my_helicopter.jpg",
     "image": "/assets/img/helicopter/Helicopter.png",
     "bgImage": "helicopter",
     "class": "helicopter_text"
   },
   "easySteps": {
-    "title": "3 Easy Steps",
-    "text": "to Appraise Your Helicopter Online",
-    "style": "bike",
+    "title": "Value your Helicopter:",
+    "text": "3 Simple Steps",
+    "style": "helicopter",
     "contentStep1": {
       "step": "Step 1",
-      "stepText": "Send us photos and specifications of your helicopter via your preferred messaging app.",
-      "contact": "CONNECT"
+      "stepText": "Simply share photos and details through your preferred messaging platform",
+      "contact": "SEND"
     },
     "contentStep2": {
       "step": "Step 2",
-      "stepText": "Schedule an in-office consultation or request an expert evaluation at your location."
+      "stepText": "Schedule a convenient in-person evaluation at our office or your location"
     },
     "contentStep3": {
       "step": "Step 3",
-      "stepText": "Receive your appraisal and payment through your preferred method."
+      "stepText": "Receive immediate payment through your preferred method: cash, digital transfer, or check"
     }
   },
   "need-docs": {
@@ -55,48 +64,6 @@
       {
         "title": "Corporate:",
         "content": "<ul><li>Articles of incorporation or business license</li><li>Letter authorizing the sale on company letterhead</li><li>Employer Identification Number (EIN)</li></ul>"
-      }
-    ]
-  },
-  "aboutInfo": {
-    "title": "We buy back bike in Florida",
-    "text": "and all the states",
-    "list": [
-      {
-        "src": "/assets/img/laptop/about/car.svg",
-        "title": "We buy helicopters in any condition"
-      },
-      {
-        "src": "/assets/img/laptop/about/sack.svg",
-        "title": "Fast same-day purchase"
-      },
-      {
-        "src": "/assets/img/laptop/about/lock.svg",
-        "title": "Every sale is 100% confidential"
-      },
-      {
-        "src": "/assets/img/laptop/about/bank.svg",
-        "title": "Trade-in options available—exchange for a new helicopter"
-      },
-      {
-        "src": "/assets/img/laptop/about/time.svg",
-        "title": "Quick appraisal via messenger — 10 minutes or less"
-      },
-      {
-        "src": "/assets/img/laptop/about/thumbs-up.svg",
-        "title": "We offer higher prices than competitors"
-      },
-      {
-        "src": "/assets/img/laptop/about/flag.svg",
-        "title": "Operating in all U.S. states"
-      },
-      {
-        "src": "/assets/img/laptop/about/bills.svg",
-        "title": "Instant cash payout"
-      },
-      {
-        "src": "/assets/img/laptop/about/chain.svg",
-        "title": "We handle complex cases: liens, loans, and post-accident"
       }
     ]
   },
@@ -161,12 +128,12 @@
       }
     ],
     "listBottom1": {
-      "title": "Urgent Redemption of boats",
-      "text": "Over the course of the company's existence, we've redemptionized a large number of used  vehicles of various makes and models. We've learned to be smart about Redemption: the vehicles      are de-registered and all transactions are legally correct. <br/> We offer services on car buying in all districts of Kiev (Kiev region) and Ukraine. Those who do not want to spend time and effort to find a client, it is better to use the service 'autoRedemption'. Of course you will not get the maximum value for the car, but 90-95% of the market value, we guarantee you! value we guarantee you!<br/> Still, if you decide to sell a used car on your own, it is recommended to be patient. patience. Selling a car on your own can take months. And without an understanding of the market. it is difficult to set a price that will suit both you and the potential buyer. You'll end up wasting your time and effort for nothing."
+      "title": "",
+      "text": ""
     },
     "listBottom2": {
-      "title": "Boat buying in Kiev",
-      "text": "Everything is simple! Send us a photo of the vehicle in a convenient messenger (viber, telegram, instagram). Within 4-5 minutes appraiser Vladimir will write the cost of Redemption. Having come to an agreement, we will immediately go to the You! That you would not have traveled in vain, we will come to you ourselves, absolutely free, without any or claims if you refuse our services. We value the reputation and time of our customers!"
+      "title": "",
+      "text": ""
     }
   }
 }
