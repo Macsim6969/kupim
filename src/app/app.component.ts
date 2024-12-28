@@ -59,13 +59,17 @@ export class AppComponent implements OnInit {
       this.titleService.setTitle(data.metaTitle);
       this.metaService.addTags([
         { name: 'description', content: data.description },
-        { name: 'keywords', content: data.keywords },
         { property: 'og:title', content: data.ogTitle },
-        { property: 'og:description', content: data.ogDescription },
-        { property: 'og:type', content: 'website' },
+        { property: 'og:description', content: data.ogDescription},
+        { property: 'og:image', content: data.ogImage },
         { property: 'og:url', content: data.ogUrl },
-        { property: 'og:image', content: data.ogImage }
+        { property: 'og:type', content: 'website' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', content: data.ogTitle },
+        { name: 'twitter:description', content: data.ogDescription },
+        { name: 'twitter:image', content: data.ogImage }
       ]);
+      
     })
   }
 }

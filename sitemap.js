@@ -6,10 +6,10 @@ const DIST_FOLDER = path.resolve(__dirname, 'dist/kupim/browser');
 
 // Список маршрутов вашего приложения
 const ROUTES = [
-    '/?state=florida',
+    '/ ',
     '/contacts',
-    '/laptop?state=florida',
-    '/bike?state=florida',
+    '/laptop ',
+    '/bike ',
     '/team'
 ]; 
 
