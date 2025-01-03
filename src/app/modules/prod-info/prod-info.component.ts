@@ -52,7 +52,6 @@ export class ProdInfoComponent implements OnInit, AfterViewInit, OnDestroy {
           this.isLoading = true;
         }
         this.prodInfo = data;
-        console.log(this.prodInfo);
       })
   }
 

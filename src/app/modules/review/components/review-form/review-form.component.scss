@@ -33,6 +33,9 @@
           font-size: 1.6rem;
           height: 250px;
           color: #535050;
+          background-color: #F5F6FA;
+          border: 0;
+          resize: none;
         }
 
         input {
@@ -75,6 +78,8 @@
                 39% 35%);
             background: gray;
             transition: background 0.3s ease;
+
+            cursor: pointer;
 
             &:hover {
               background: gold;

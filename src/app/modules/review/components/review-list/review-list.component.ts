@@ -31,7 +31,6 @@ export class ReviewListComponent implements OnInit, OnDestroy {
         })
       )
       .subscribe((data: Review[]) => {
-        console.log(data);
         this.reviewList = data;
       });
   }
