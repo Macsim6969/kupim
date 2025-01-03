@@ -1,0 +1,13 @@
+<div class="review_list">
+  <h3 class="review_list_title">Review</h3>
+  <div class="list">
+    <div class="review" *ngFor="let review of reviewList">
+      <div class="review_title">{{ review.message }}</div>
+      <div class="review_name">{{ review.name }}</div>
+      <div class="review_email">{{ review.email }}</div>
+      <div class="stars">
+        <div class="star" *ngFor="let star of review.counterArray"></div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -13,4 +13,10 @@ export class ReviewService {
       data
     );
   }
+
+  public getReviewData(): Observable<Review[]> {
+    return this.httpClient.get<Review[]>(
+      'https://flkup-6c8a5-default-rtdb.firebaseio.com/review.json'
+    );
+  }
 }

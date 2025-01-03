@@ -3,4 +3,5 @@ export interface Review {
   name: string;
   email: string;
   countStars: number;
+  counterArray: number[];
 }

@@ -8,11 +8,12 @@ import { FooterModule } from '../footer/footer.module';
 import { ReviewFormComponent } from './components/review-form/review-form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ReviewService } from './services/review.service';
+import { ReviewListComponent } from './components/review-list/review-list.component';
 
 const routes: Routes = [{ path: '', component: ReviewComponent }];
 
 @NgModule({
-  declarations: [ReviewComponent, ReviewFormComponent],
+  declarations: [ReviewComponent, ReviewFormComponent, ReviewListComponent],
   imports: [
     CommonModule,
     ShareModule,

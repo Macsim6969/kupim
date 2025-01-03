@@ -32,20 +32,22 @@
           border-radius: 14px;
           font-size: 1.6rem;
           height: 250px;
+          color: #535050;
         }
 
         input {
           border: 0;
-          border-bottom: 1px solid gray;
+          border-bottom: 1px solid #535050;
           padding: 12px;
           font-size: 1.4rem;
+          color: #535050;
         }
 
         button {
           margin-top: 15px;
           font-size: 2rem;
           text-align: center;
-          color: gray;
+          color: #535050;
           font-weight: 400;
         }
 
@@ -92,6 +94,7 @@
           font-size: 1.6rem;
           transition: all 0.5s ease;
           text-align: center;
+          color: #535050;
         }
 
       }
@@ -106,6 +109,7 @@
       p {
         font-size: 1.6rem;
         text-align: center;
+        color: #535050;
       }
     }
   }
