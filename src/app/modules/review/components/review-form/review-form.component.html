@@ -1,0 +1,40 @@
+<div class="review_form">
+  <div class="review">
+    <div class="left">
+      <form class="left_form" [formGroup]="form" (ngSubmit)="sendData()">
+        <textarea formControlName="message" placeholder="Leave a review..."></textarea>
+        <input formControlName="name" type="text" placeholder="Name" />
+        <input
+          formControlName="email"
+          type="email"
+          placeholder="Email / Phone Number"
+        />
+        <div formControlName="countStars" class="stars">
+          <div
+            class="star"
+            *ngFor="let star of stars; index as i"
+            [ngClass]="{
+              highlighted: i <= hoveredIndex,
+              active: i <= selectedIndex
+            }"
+            (mouseenter)="setHoveredIndex(i)"
+            (mouseleave)="resetHoveredIndex()"
+            (click)="setSelectedIndex(i)"
+          ></div>
+        </div>
+        <button *ngIf="isConfirmed;else confirme" [disabled]="this.form.invalid" type="submit" mat-button>SEND</button>
+        <ng-template #confirme>
+          <p>{{confirmeText}}</p>
+        </ng-template>
+        
+      </form>
+    </div>
+    <div class="right">
+      <p>
+        We appreciate your feedback on our services, as it helps us enhance our
+        performance
+      </p>
+      <img src="" alt="" />
+    </div>
+  </div>
+</div>

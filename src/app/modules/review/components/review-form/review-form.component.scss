@@ -1,0 +1,113 @@
+.review_form {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 100px auto;
+
+  @media (max-width: 1250px) {
+    width: 90%;
+  }
+
+  .review {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      max-width: 450px;
+      width: 100%;
+
+      .left_form {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        width: 100%;
+
+        textarea {
+          padding: 15px;
+          border-radius: 14px;
+          font-size: 1.6rem;
+          height: 250px;
+        }
+
+        input {
+          border: 0;
+          border-bottom: 1px solid gray;
+          padding: 12px;
+          font-size: 1.4rem;
+        }
+
+        button {
+          margin-top: 15px;
+          font-size: 2rem;
+          text-align: center;
+          color: gray;
+          font-weight: 400;
+        }
+
+        .stars {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 5px;
+
+          .star {
+            position: relative;
+            display: block;
+            width: 40px;
+            height: 40px;
+            background-color: transparent;
+            clip-path: polygon(50% 0%,
+                61% 35%,
+                98% 35%,
+                68% 57%,
+                79% 91%,
+                50% 70%,
+                21% 91%,
+                32% 57%,
+                2% 35%,
+                39% 35%);
+            background: gray;
+            transition: background 0.3s ease;
+
+            &:hover {
+              background: gold;
+            }
+
+            &.highlighted {
+              background: gray;
+            }
+
+            &.active {
+              background: gold;
+            }
+          }
+        }
+
+        p{
+          font-size: 1.6rem;
+          transition: all 0.5s ease;
+          text-align: center;
+        }
+
+      }
+    }
+
+    .right {
+      display: flex;
+      flex-direction: column;
+      max-width: 450px;
+      gap: 40px;
+
+      p {
+        font-size: 1.6rem;
+        text-align: center;
+      }
+    }
+  }
+
+}
