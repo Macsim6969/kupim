@@ -1,0 +1,321 @@
+.about {
+  .abour_container {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    @media (max-width: 1520px) {
+      width: 90%;
+    }
+
+    .about_log_h {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+      .about_log{
+        font-size: 50px;
+        font-weight: 700 !important;
+        color: #535050;
+        margin: 70px 0 30px 0px;
+        display: flex;
+        justify-content: center;
+  
+        @media (max-width: 720px) {
+          font-size: 42px;
+          text-align: center;
+        }
+      }
+      .about_undelog {
+        font-weight: 400;
+        font-size: 28px;
+        color: #535050;
+        margin: 0 0 115px 0px;
+        display: flex;
+        justify-content: center;
+  
+        @media (max-width: 720px) {
+          font-size: 24px;
+          text-align: center;
+          margin: 0 0 55px 0;
+        }
+      }
+    }
+
+    .about_inner {
+      margin: 0 0 150px 0px;
+
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+
+      @media (max-width: 920px) {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .about_inner_step1 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+
+        .step1_img {
+          width: 275px;
+        }
+
+        .step1_img1 {
+          width: 220px;
+          margin: 10px 0 18px 0;
+        }
+
+        .step1_img2 {
+          width: 245px;
+          height: 242px;
+        }
+
+        .step1_img3 {
+          width: 245px;
+          height: 245px;
+        }
+
+        .step1_log {
+          font-weight: 500;
+          font-size: 30px;
+          margin: 15px 0 8px 0px;
+          color: #535050;
+        }
+
+        .step1_underlog {
+          width: 368px;
+          margin: 0 0 0 0px;
+          font-size: 26px;
+          text-align: center;
+
+          @media (max-width: 1320px) {
+            font-size: 22px;
+            width: 260px;
+          }
+
+          @media (max-width: 920px) {
+            width: 320px;
+          }
+
+        }
+
+        .block__innner {
+          text-decoration: none;
+          width: 200px;
+          display: block;
+          margin: 25px 0 0 0px;
+
+          .block_inner {
+            max-width: 200px;
+            margin: 0 0 -8px 0;
+            height: 55px;
+            padding: 0 10px;
+            display: flex;
+
+            flex-direction: row;
+            align-items: center;
+            gap: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 12px 5px #cfcfcf;
+            overflow: hidden;
+
+            &:hover {
+              .inner_img {
+                transform: scale(1.1);
+              }
+
+              .inner_title {
+                color: #757373;
+              }
+            }
+
+            .inner_img {
+              width: 45px;
+              object-fit: cover;
+            }
+
+            .block_inner {
+
+
+              .inner_img {
+                width: 45px;
+                object-fit: cover;
+              }
+
+              .inner_title {
+                font-size: 16px;
+                color: #535050;
+                font-weight: 500;
+              }
+            }
+          }
+        }
+
+        .step1_inderimg {
+          width: 240px;
+          position: absolute;
+          top: 2340px;
+          left: 147px;
+        }
+
+        .step2_inderimg {
+          width: 240px;
+          margin: 0px 0 10px 25px;
+        }
+      }
+
+      .about_inner_brd {
+        border-top: 2px solid #c6c5c5;
+        width: 121px;
+        margin: 135px 0 0 0;
+
+        @media (max-width: 920px) {
+          display: flex;
+          border-top: 0;
+          width: 0;
+          border-left: 2px solid #c6c5c5;
+          height: 121px;
+          margin: 35px 0 0 0;
+
+        }
+      }
+    }
+  }
+}
+
+.linear {
+  width: 100%;
+  height: 136px;
+
+  &.laptop {
+    background: linear-gradient(86deg, #b95988 0%, #b95988 36%, #202227 100%);
+  }
+
+  &.bike {
+    background: linear-gradient(86deg, #ae8c64 0%, #ae8c64 36%, #202227 100%);
+  }
+
+  &.skooter {
+    background: linear-gradient(86deg, #8eb1d2 0%, #8eb1d2 36%, #202227 100%);
+  }
+
+  &.boat {
+    background: linear-gradient(86deg, #48ab87 0%, #48ab87 36%, #20242b 100%);
+  }
+
+  &.tractor {
+    background: linear-gradient(86deg, #739588 0%, #739588 36%, #202227 100%);
+  }
+
+  &.trailer {
+    background: linear-gradient(86deg, #8fb2d2 0%, #8fb2d2 36%, #202227 100%);
+  }
+
+  &.car {
+    background: linear-gradient(86deg, #e06267 0%, #e06267 36%, #20242b 100%);
+  }
+
+  &.bmw {
+    background: linear-gradient(86deg, #71988a 0%, #71988a 36%, #2c2d32 100%);
+  }
+
+  &.audi {
+    background: linear-gradient(86deg, #6d7750 0%, #6d7750 36%, #2c2d32 100%);
+  }
+
+  &.mercedes {
+    background: linear-gradient(86deg, #92b7d8 0%, #92b7d8 36%, #2c2d32 100%);
+  }
+
+  &.opel {
+    background: linear-gradient(86deg, #ac7d5a 0%, #ac7d5a 36%, #2c2d32 100%);
+  }
+
+  &.porshe {
+    background: linear-gradient(86deg, #ac7d5a 0%, #ac7d5a 36%, #2c2d32 100%);
+  }
+
+  &.smart {
+    background: linear-gradient(86deg, #9e9699 0%, #9e9699 36%, #2c2d32 100%);
+  }
+
+  &.volkswagen {
+    background: linear-gradient(86deg, #9bb9c7 0%, #9bb9c7 36%, #2c2d32 100%);
+  }
+
+  &.transport {
+    background: linear-gradient(86deg, #48ab6f 0%, #48ab6f 36%, #20242b 100%);
+  }
+
+  &.exercise-machines {
+    background: linear-gradient(86deg, #3fccc7 0%, #3fccc7 36%, #20242b 100%);
+  }
+
+  &.skis {
+    background: linear-gradient(86deg, #cc3f64 0%, #cc3f64 36%, #20242b 100%);
+  }
+
+  &.snowboard {
+    background: linear-gradient(86deg, #dbb73a 0%, #dbb73a 36%, #20242b 100%);
+  }
+
+  &.surfboard {
+    background: linear-gradient(86deg, #3ab3db 0%, #3ab3db 36%, #20242b 100%);
+  }
+
+  &.real-estate {
+    background: linear-gradient(86deg, #48ab6f 0%, #48ab6f 36%, #20242b 100%);
+  }
+
+  &.wheelchair {
+    background: linear-gradient(86deg, #f5c08b 0%, #f5c08b 36%, #20242b 100%);
+  }
+
+  &.apartment {
+    background: linear-gradient(86deg, #c5ac6a 0%, #c5ac6a 36%, #20242b 100%);
+  }
+
+  &.garage {
+    background: linear-gradient(86deg, #659153 0%, #659153 36%, #20242b 100%);
+  }
+
+  &.warehouse-facilities{
+    background: linear-gradient(86deg, #55b5dd 0%, #55b5dd 36%, #20242b 100%);
+  }
+
+  &.land-lots{
+    background: linear-gradient(86deg, #92a660 0%, #92a660 36%, #20242b 100%);
+  }
+
+  &.restaurant-cafe{
+    background: linear-gradient(86deg, #dd769a 0%, #dd769a 36%, #20242b 100%);
+  }
+
+  &.townhouse {
+    background: linear-gradient(86deg, #95b35f 0%, #95b35f 36%, #20242b 100%);
+  }
+
+  @media (max-width: 720px) {
+    height: 72px;
+  }
+
+}

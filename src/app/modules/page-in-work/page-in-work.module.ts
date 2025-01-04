@@ -5,7 +5,6 @@ import { ShareModule } from '../../shared/modules/share.module';
 import { RouterModule, Routes } from '@angular/router';
 import { WelcomeModule } from '../welcome/welcome.module';
 import { FooterModule } from '../footer/footer.module';
-import { AttentionComponent } from './shared/attention/attention.component';
 
 const routes: Routes = [
   { path: '', component: PageInWorkComponent }
@@ -13,8 +12,7 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [
-    PageInWorkComponent,
-    AttentionComponent
+    PageInWorkComponent
   ],
   imports: [
     CommonModule,
