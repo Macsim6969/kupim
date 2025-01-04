@@ -6,6 +6,7 @@
     "state": "State of Florida",
     "title": "Sell my <span>Garage</span>",
     "location": "(State Florida)",
+    "index": false,
     "footerDescription": "Cash for your Garage Florida!",
     "image": "/assets/img/real-estate/Garage_main.svg",
     "bgImage": "garage",

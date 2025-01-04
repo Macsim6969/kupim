@@ -151,6 +151,7 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
   private updatesMateTags() {
     this.translate.stream('dashboard').subscribe((data) => {
       if (data) {
+        // Обновляем заголовок страницы
         this.titleService.setTitle(data.metaTitle);
   
         // Удаляем старые мета-теги
@@ -162,16 +163,16 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
           'og:url',
           'twitter:title',
           'twitter:description',
-          'twitter:image'
+          'twitter:image',
+          'robots' // Удаляем robots, чтобы избежать дублирования
         ];
-        tagNames.forEach(tagName => {
+        tagNames.forEach((tagName) => {
           this.metaService.removeTag(`name='${tagName}'`);
           this.metaService.removeTag(`property='${tagName}'`);
         });
-        
   
-        // Добавляем новые мета-теги
-        this.metaService.addTags([
+        // Добавляем мета-теги
+        const metaTags = [
           { name: 'description', content: data.description },
           { property: 'og:title', content: data.ogTitle },
           { property: 'og:description', content: data.ogDescription },
@@ -181,11 +182,20 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
           { name: 'twitter:card', content: 'summary_large_image' },
           { name: 'twitter:title', content: data.ogTitle },
           { name: 'twitter:description', content: data.ogDescription },
-          { name: 'twitter:image', content: data.ogImage },
-        ]);
+          { name: 'twitter:image', content: data.ogImage }
+        ];
+  
+        // Если index=false, добавляем meta robots: noindex
+        if (data.index === false) {
+          metaTags.push({ name: 'robots', content: 'noindex' });
+        }
+  
+        // Применяем новые мета-теги
+        this.metaService.addTags(metaTags);
       }
     });
   }
+  
 
   ngOnDestroy(): void {
     this.destroy$.next();

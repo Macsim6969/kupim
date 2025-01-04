@@ -6,6 +6,7 @@
     "state": "",
     "title": "Scroll down <span> to sell other types of vehicles</span>",
     "location": "",
+    "index": false,
     "footerDescription": "Cash for your vehicle Florida!",
     "image": "/assets/img/others/others.svg",
     "bgImage": "others",

@@ -358,6 +358,10 @@
             }
           }
 
+          &.trailer {
+            height: 350px;
+          }
+
           @media (max-width: 1250px) {
             width: 350px;
             height: auto;

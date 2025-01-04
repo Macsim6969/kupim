@@ -7,6 +7,7 @@
     "state": "State of Florida",
     "title": "Scroll down <span>to see what we buy</span>",
     "location": "(State Florida)",
+    "index": true,
     "footerDescription": "Cash for your trash Florida!",
     "image": "/assets/img/gear/Snowboard_main.svg",
     "bgImage": "gear",

@@ -4,6 +4,7 @@
     "title": "Legal Information",
     "location": null,
     "footerDescription": "",
+    "index": true,
     "image": "/assets/img/legal-info/Legal_info.svg",
     "bgImage": "contacts",
     "class": "legal_text",

@@ -7,6 +7,7 @@
     "state": "State of Florida",
     "title": "Sell my <span>Real Estate</span>",
     "location": "(State Florida)",
+    "index": true,
     "footerDescription": "Cash for offer for your Real Estate Florida!",
     "image": "/assets/img/real-estate/Real-estate.svg",
     "bgImage": "real-estate",

@@ -6,6 +6,7 @@
     "footerDescription": "",
     "image": "/assets/img/blog/Blog.svg",
     "metaTitle": "Blog - Buddy Cash",
+    "index": true,
     "description": "We share our team's wins, fails and stories - keeping everyone in the loop on what's happening at our company.",
     "keywords": "Blog",
     "ogTitle": "Blog  - Buddy Cash",

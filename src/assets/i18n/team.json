@@ -4,6 +4,7 @@
     "title": "Our Team",
     "location": "",
     "footerDescription": "",
+    "index": true,
     "image": "/assets/img/teams/team.svg",
     "bgImage": "contacts",
     "class": "contacts_text",

@@ -7,94 +7,115 @@
     "state": "State of Florida",
     "title": "Sell my <span>used electronics</span>",
     "location": "(State Florida)",
+    "index": false,
     "footerDescription": "Cash for your devices Florida!",
     "image": "/assets/img/electronics/electronics.svg",
     "bgImage": "main",
     "class": "main_text"
   },
-  "prodInfo": {
+  "prodInfo": { 
     "title": "Select the electronics",
     "text": "you want to sell",
     "content": [
       {
         "img": "/assets/img/electronics/Air_conditioner.svg",
-        "route": "/air-conditioner"
+        "route": "/air-conditioner",
+        "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Building_tool.svg",
-        "route": "/building-tool"
+        "route": "/building-tool",
+        "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Camera.svg",
-        "route": "/camera"
+        "route": "/camera",
+        "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Coffee_maker.svg",
-        "route": "/coffee-maker"
+        "route": "/coffee-maker",
+        "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Computer.svg",
-        "route": "/computer"
+        "route": "/computer",
+        "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Drone.svg",
-        "route": "/drone"
+        "route": "/drone",
+        "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Fridge.svg",
-        "route": "/fridge"
+        "route": "/fridge",
+        "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Gaming_consoles.svg",
-        "route": "/gaming-consoles"
+        "route": "/gaming-consoles",
+        "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Headphones.svg",
-        "route": "/headphones"
+        "route": "/headphones",
+        "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Laptop.svg",
-        "route": "/laptop"
+        "route": "/laptop",
+        "isBlock": false
       },
       {
         "img": "/assets/img/electronics/Lawn_mower.svg",
-        "route": "/lawn-mower"
+        "route": "/lawn-mower",
+        "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Lens.svg",
-        "route": "/lens"
+        "route": "/lens",
+        "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Phone.svg",
-        "route": "/phone"
+        "route": "/phone",
+        "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Smartwatch.svg",
-        "route": "/smartwatch"
+        "route": "/smartwatch",
+        "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Tablets.svg",
-        "route": "/tablets"
+        "route": "/tablets",
+        "isBlock": true
       },
       {
         "img": "/assets/img/electronics/TV.svg",
-        "route": "/tv"
+        "route": "/tv",
+        "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Vacuum_cleaner.svg",
-        "route": "/cacuum-cleaner"
+        "route": "/cacuum-cleaner",
+        "isBlock": true
       },
       {
         "img": "/assets/img/electronics/VR_headsets.svg",
-        "route": "/vr-headsets"
+        "route": "/vr-headsets",
+        "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Washing_machine.svg",
-        "route": "/washing-machine"
+        "route": "/washing-machine",
+        "isBlock": true
       },
       {
         "img": "/assets/img/main_page/Others.png",
-        "route": "/others"
+        "route": "/others",
+        "isBlock": true
       }
     ]
   },

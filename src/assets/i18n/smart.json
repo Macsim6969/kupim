@@ -7,6 +7,7 @@
     "state": "State of Florida",
     "title": "Car buyout Smart",
     "location": "(State Florida)",
+    "index": false,
     "footerDescription": "Cash for smart at the best price Florida!",
     "image": "/assets/img/car/car_Smart.png",
     "bgImage": "smart",

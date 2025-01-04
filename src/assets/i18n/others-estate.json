@@ -6,6 +6,7 @@
     "state": "",
     "title": "Sell My Property",
     "location": "",
+    "index": false,
     "footerDescription": "Cash for Your Property Florida!",
     "image": "/assets/img/others/others.svg",
     "bgImage": "others",

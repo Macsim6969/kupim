@@ -7,6 +7,7 @@
     "title": "Sell my <span>Apartment</span>",
     "location": "(State Florida)",
     "footerDescription": "Cash for your Apartment Florida!",
+    "index": false,
     "image": "/assets/img/real-estate/Apartment_main.svg",
     "bgImage": "apartment",
     "class": "apartment_text"

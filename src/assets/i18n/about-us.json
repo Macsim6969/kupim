@@ -3,6 +3,7 @@
     "state": "State of Florida",
     "title": "About Us",
     "location": null,
+    "index": true,
     "footerDescription": "",
     "image": "/assets/img/About-Us/About-Us.svg",
     "bgImage": "contacts",

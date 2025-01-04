@@ -6,6 +6,7 @@
     "state": "State of Florida",
     "title": "Sell my <span>Restaurant</span>",
     "location": "(State Florida)",
+    "index": false,
     "footerDescription": "Cash for offer for your Restaurant Florida!",
     "image": "/assets/img/real-estate/Restaurant _Cafe_main.svg",
     "bgImage": "restaurant-cafe",

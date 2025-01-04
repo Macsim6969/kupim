@@ -5,6 +5,7 @@
   ],
   "dashboard": {
     "state": "State of Florida",
+    "index": false,
     "title": "Scroll down <span>to see what we buy</span>",
     "location": "(State Florida)",
     "footerDescription": "Cash for your trash Florida!",

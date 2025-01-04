@@ -6,6 +6,7 @@
     "state": "State of Florida",
     "title": "Sell my <span>Land</span>",
     "location": "(State Florida)",
+    "index": false,
     "footerDescription": "Cash for your Land Florida!",
     "image": "/assets/img/real-estate/Land_Lots_main.png",
     "bgImage": "land-lots",

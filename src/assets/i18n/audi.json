@@ -8,6 +8,7 @@
     "title": "Car buyout Audi",
     "location": "(State Florida)",
     "footerDescription": "Cash for audi at the best price Florida!",
+    "index": false,
     "image": "/assets/img/car/car_bmw.png",
     "bgImage": "audi",
     "class": "audi_text"

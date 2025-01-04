@@ -4,6 +4,7 @@
     "title": "Contacts",
     "location": "",
     "footerDescription": "",
+    "index": true,
     "image": "/assets/img/contacts/contacts.svg",
     "bgImage": "contacts",
     "class": "contacts_text",
