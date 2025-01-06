@@ -304,7 +304,7 @@
           }
 
           &.transport {
-            height: 500px;
+            height: 350px;
 
             @media (max-width: 1250px) {
               height: auto;
@@ -312,7 +312,7 @@
           }
 
           &.boat {
-            height: 500px;
+            height: 375px;
             object-fit: contain;
           }
 
@@ -350,12 +350,21 @@
             margin: auto;
           }
 
-          &.airplane{
-            height: 500px;
+          &.airplane {
+            height: 275px;
             margin: auto;
+
             @media (max-width: 1250px) {
-            margin: unset;  
+              margin: unset;
             }
+          }
+
+          &.scooter {
+            width: auto;
+            height: 440px;
+            margin: auto;
+            object-fit: contain;
+            background: transparent;
           }
 
           &.trailer {

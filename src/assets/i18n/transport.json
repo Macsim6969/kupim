@@ -17,7 +17,7 @@
     "ogType": "website",
     "ogUrl": "https://buddy-cash.com/transport ",
     "ogImage": "/assets/img/transport/Sell_your_vehicle.jpg",
-    "image": "/assets/img/transport/transport_logo.svg",
+    "image": "/assets/img/transport/transport-logo.webp",
     "bgImage": "transport",
     "class": "transport_text"
   },
@@ -83,8 +83,8 @@
     ]
   },
   "easySteps": {
-    "title": "Select Vehicle",
-    "text": "What You'd Like to Sell",
+    "title": "Value Your Vehicle:",
+    "text": "3 Simple Steps",
     "style": "transport",
     "contentStep1": {
       "step": "Step 1",

@@ -18,7 +18,7 @@
     "ogType": "website",
     "ogUrl": "https://buddy-cash.com/watercraft ",
     "ogImage": "/assets/img/main_page/Sell_my_watercraft.jpg",
-    "image": "/assets/img/boat/Watercraft.svg",
+    "image": "/assets/img/boat/Watercraft.webp",
     "bgImage": "boat",
     "class": "boat_text"
   },
