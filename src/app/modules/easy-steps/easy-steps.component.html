@@ -1,49 +1,94 @@
 <div class="about">
-    <div class="abour_container" *ngIf="easyStepData">
-        <h3 class="about_log_h">
-            <span class="about_log">{{easyStepData.title}}</span>
-            <span class="about_undelog">{{easyStepData.text}}</span>
-        </h3>
-    
-        <div class="about_inner">
-            <div class="about_inner_step1">
-                <img class="step1_img1" src="/assets/img/laptop/evaluate.svg" alt="{{easyStepData.contentStep1?.stepText}}">
-                <div class="step1_log">{{easyStepData.contentStep1?.step}}</div>
-                <div class="step1_underlog">{{easyStepData.contentStep1?.stepText}}</div>
-                <a class="block__innner" target="_blank" href="http://m.me/buddycash01">
-                    <nav class="block_inner">
-                        <img class="inner_img" src="/assets/img/base_icon/facebook-messenger-base.svg" alt="Messenger Facebook Messenge">
-                        <div class="inner_title">{{easyStepData.contentStep1?.contact}}</div>
-                    </nav>
-                </a>
-                <a class="block__innner" href="https://t.me/buddy_cashFL">
-                    <nav class="block_inner">
-                        <img class="inner_img" src="/assets/img/base_icon/telegram-base.svg" alt="Messenger Telegram">
-                        <div class="inner_title">{{easyStepData.contentStep1?.contact}}</div>
-                    </nav>
-                </a>
-                <a class="block__innner" href="https://wa.me/7275091449">
-                    <nav class="block_inner">
-                        <img class="inner_img" src="/assets/img/base_icon/whatsapp-base.svg" alt="Messenger Whatsapp">
-                        <div class="inner_title">{{easyStepData.contentStep1?.contact}}</div>
-                    </nav>
-                </a>
-            </div>
-            <div class="about_inner_brd"></div>
-            <div class="about_inner_step1">
-                <img class="step1_img2" src="/assets/img/laptop/map.svg" alt="{{easyStepData.contentStep2?.stepText}}">
-                <div class="step1_log">{{easyStepData.contentStep2?.step}}</div>
-                <div class="step1_underlog">{{easyStepData.contentStep2?.stepText}}</div>
-            </div>
-            <div class="about_inner_brd"></div>
-            <div class="about_inner_step1">
-                <img class="step1_img3" src="/assets/img/laptop/deal.svg" alt="{{easyStepData.contentStep3?.stepText}}">
-                <div class="step1_log">{{easyStepData.contentStep3?.step}}</div>
-                <div class="step1_underlog">{{easyStepData.contentStep3?.stepText}}</div>
-            </div>
+  <div class="abour_container" *ngIf="easyStepData">
+    <h3 class="about_log_h">
+      <span class="about_log">{{ easyStepData.title }}</span>
+      <span class="about_undelog">{{ easyStepData.text }}</span>
+    </h3>
+
+    <div class="about_inner">
+      <div class="about_inner_step1">
+        <img
+          class="step1_img1"
+          src="/assets/img/laptop/evaluate.svg"
+          alt="{{ easyStepData.contentStep1?.stepText }}"
+        />
+        <div class="step1_log">{{ easyStepData.contentStep1?.step }}</div>
+        <div class="step1_underlog">
+          {{ easyStepData.contentStep1?.stepText }}
         </div>
+        <a class="block__innner" target="_blank" href="http://m.me/buddycash01">
+          <nav class="block_inner">
+            <img
+              class="inner_img"
+              src="/assets/img/base_icon/facebook-messenger-base.svg"
+              alt="Messenger Facebook Messenge"
+            />
+            <div class="inner_title">
+              {{ easyStepData.contentStep1?.contact }}
+            </div>
+          </nav>
+        </a>
+        <a class="block__innner" href="https://t.me/buddy_cashFL">
+          <nav class="block_inner">
+            <img
+              class="inner_img"
+              src="/assets/img/base_icon/telegram-base.svg"
+              alt="Messenger Telegram"
+            />
+            <div class="inner_title">
+              {{ easyStepData.contentStep1?.contact }}
+            </div>
+          </nav>
+        </a>
+        <a class="block__innner" href="https://wa.me/7275091449">
+          <nav class="block_inner">
+            <img
+              class="inner_img"
+              src="/assets/img/base_icon/whatsapp-base.svg"
+              alt="Messenger Whatsapp"
+            />
+            <div class="inner_title">
+              {{ easyStepData.contentStep1?.contact }}
+            </div>
+          </nav>
+        </a>
+      </div>
+      <div class="about_inner_brd"></div>
+      <div class="about_inner_step1">
+        <img
+          class="step1_img2"
+          src="/assets/img/laptop/map.svg"
+          alt="{{ easyStepData.contentStep2?.stepText }}"
+        />
+        <div class="step1_log">{{ easyStepData.contentStep2?.step }}</div>
+        <div class="step1_underlog">
+          {{ easyStepData.contentStep2?.stepText }}
+        </div>
+      </div>
+      <div class="about_inner_brd"></div>
+      <div class="about_inner_step1">
+        <img
+          class="step1_img3"
+          src="/assets/img/laptop/deal.svg"
+          alt="{{ easyStepData.contentStep3?.stepText }}"
+        />
+        <div class="step1_log">{{ easyStepData.contentStep3?.step }}</div>
+        <div class="step1_underlog">
+          {{ easyStepData.contentStep3?.stepText }}
+        </div>
+      </div>
     </div>
+  </div>
 </div>
 
-<div class="linear {{easyStepData.style}}">
+<div class="linear {{ easyStepData.style }}">
+  <img
+    src="/assets/img/easy-steps/Map_Florida.webp"
+    alt="Office Locations: Miami, Tampa, Orlando, Jacksonville."
+  />
+  <div class="linear_location">
+    <p class="linear_location_title">Office Locations:</p>
+    <p class="linear_location_city">Miami, Tampa, Orlando, Jacksonville.</p>
+    <p class="linear_location_text">Statewide pickup service available throughout Florida.</p>
+  </div>
 </div>
