@@ -35,7 +35,7 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
 
   ngOnInit(): void {
     this.checkToChangePage();
-    // this.setUpQueryParamsData();
+    this.setUpQueryParamsData();
     this.updatesMateTags();
   }
 
