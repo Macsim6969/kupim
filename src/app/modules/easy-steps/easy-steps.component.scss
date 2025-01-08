@@ -349,8 +349,26 @@
     background: linear-gradient(86deg, #95b35f 0%, #95b35f 36%, #20242b 100%);
   }
 
+  @media (max-width: 1280px) {
+    flex-direction: column;
+    gap: 10px;
+  }
+
   @media (max-width: 720px) {
-    height: 72px;
+    img{
+      width: 90%;
+      object-fit: cover;
+      height: 220px;
+    }
+
+    .linear_location{
+      width: 90%;
+      align-items: center;
+
+      p{
+        text-align: center;
+      }
+    }
   }
 
 }
