@@ -8,133 +8,161 @@
     "title": "Sell my <span>used electronics</span>",
     "location": "(State Florida)",
     "index": false,
-    "footerDescription": "Cash for your devices Florida!",
+    "footerDescription": "Cash for your device Florida!",
+    "metaTitle": "Sell my Electronics/Device - Miami, Orlando, Tampa, Jacksonville",
+    "description": "Cash for my used electronics in Florida | Quick & Easy Online Appraisal | Professional device buyback service near me | Trade in your old electronics",
+    "keywords": "Sell my electronics, Sell my device, Sell my used electronics, Buy used device, Second-hand electronics sales, Cash for my used device, Cash for my used electronics, Sell device locally, Quick cash for electronics, Sell device online, Sell my electronics fast, Sell old device for cash",
+    "ogTitle": "Sell my used electronics - Buddy Cash",
+    "ogDescription": "Professional device buyback service near me - Buddy Cash",
+    "ogType": "website",
+    "ogUrl": "https://buddy-cash.com/ ",
+    "ogImage": "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
     "image": "/assets/img/electronics/electronics.svg",
     "bgImage": "main",
     "class": "main_text"
   },
   "prodInfo": { 
-    "title": "Select the electronics",
+    "title": "Select the device",
     "text": "you want to sell",
     "content": [
       {
         "img": "/assets/img/electronics/Air_conditioner.svg",
         "route": "/air-conditioner",
+        "alt": "Air conditioner",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Building_tool.svg",
         "route": "/building-tool",
+        "alt": "Building tool",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Camera.svg",
         "route": "/camera",
+        "alt": "Camera",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Coffee_maker.svg",
         "route": "/coffee-maker",
+        "alt": "Coffee maker",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Computer.svg",
         "route": "/computer",
+        "alt": "Computer",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Drone.svg",
         "route": "/drone",
+        "alt": "Drone",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Fridge.svg",
         "route": "/fridge",
+        "alt": "Fridge",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Gaming_consoles.svg",
         "route": "/gaming-consoles",
+        "alt": "Gaming consoles",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Headphones.svg",
         "route": "/headphones",
+        "alt": "Headphones",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Laptop.svg",
         "route": "/laptop",
+        "alt": "Laptop",
         "isBlock": false
       },
       {
         "img": "/assets/img/electronics/Lawn_mower.svg",
         "route": "/lawn-mower",
+        "alt": "Lawn mower",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Lens.svg",
         "route": "/lens",
+        "alt": "Lens",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Phone.svg",
         "route": "/phone",
+        "alt": "Phone",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Smartwatch.svg",
         "route": "/smartwatch",
+        "alt": "Smartwatch",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Tablets.svg",
         "route": "/tablets",
+        "alt": "Tablets",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/TV.svg",
         "route": "/tv",
+        "alt": "TV",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Vacuum_cleaner.svg",
         "route": "/cacuum-cleaner",
+        "alt": "Vacuum cleaner",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/VR_headsets.svg",
         "route": "/vr-headsets",
+        "alt": "VR headsets",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Washing_machine.svg",
         "route": "/washing-machine",
+        "alt": "Washing machine",
         "isBlock": true
       },
       {
         "img": "/assets/img/main_page/Others.png",
         "route": "/others",
+        "alt": "Others",
         "isBlock": true
       }
     ]
   },
   "easySteps": {
-    "title": "3 Easy steps",
-    "text": "to get an online electronics appraisal",
+    "title": "Value your Electronics:",
+    "text": "3 Simple Steps",
     "style": "main",
     "contentStep1": {
       "step": "Step 1",
-      "stepText": "Send us photos and key details about your device via your preferred messaging app.",
+      "stepText": "Simply share photos and details through your preferred messaging platform",
       "contact": "SEND"
     },
     "contentStep2": {
       "step": "Step 2",
-      "stepText": "If you like our offer, schedule a free evaluation with our expert."
+      "stepText": "Schedule a convenient in-person evaluation at our office or your location"
     },
     "contentStep3": {
       "step": "Step 3",
-      "stepText": "Receive your payment instantly in a way that works best for you."
+      "stepText": "Receive immediate payment through your preferred method: cash, digital transfer, or check"
     }
   },
   "aboutInfo": {
@@ -211,28 +239,32 @@
     "descr": "We're Happy to Help",
     "listAsq": [
       {
-        "title": "What kind of cars do you buy?",
-        "content": "Absolutely any: whole, after the accident, not customs clearance, on tp. Mark, year release, mileage, condition do not matter. Redemptionaem credit cars, as well as cars with penalties. We work with legal entities and individuals, Redemption of car fleets."
+        "title": "Is my personal data safe?",
+        "content": "Do you help with data removal? Every device undergoes complete data erasure and factory reset at no cost, ensuring your privacy and security."
       },
       {
-        "title": "Can I leave the car for you to sell?",
-        "content": "Yes. We will put your vehicle on consignment at our dealership."
+        "title": "Do you purchase non-working, damaged, water-damaged, or older generation devices?",
+        "content": "Yes, we evaluate each device individually, regardless of condition. Many damaged or non-working electronics still hold value. Contact us for a quick online assessment – we'll provide a fair quote without wasting your time."
       },
       {
-        "title": "How long does the sale last?",
-        "content": "The sale of the car takes place in 2-3 hours."
+        "title": "What can I do to maximize the value of my electronics?",
+        "content": "To ensure the best possible value for your electronics:<ul><li>Clean your device thoroughly – dust-free devices allow for accurate condition assessment</li><br/><li>Remove any stickers or modifications – maintain original appearance</li><br/><li>Include original packaging and documentation – these significantly increase value</li><br/><li>Provide all available accessories – chargers, cables, and peripherals enhance the overall package value</li></ul>"
       },
       {
-        "title": "Do you buy only in Kiev?",
-        "content": "No, we redemption cars all over Ukraine. In most cases. Redemption in Ukraine occurs on the day of communication."
+        "title": "Can I get a price estimate by sending photos of my device?",
+        "content": "Visit our Online Evaluation section and choose your preferred communication method: phone, WhatsApp, Facebook Messenger, Telegram, Instagram, or email. For accurate pricing, please include detailed specifications and clear photos from multiple angles. Note: Please disclose any existing damage to ensure price consistency during physical inspection."
       },
       {
-        "title": "I want to sell for as much as possible!",
-        "content": "To increase Redemption's price by 10%, wash the car, grab a a second set of tires and keys. In 90% of cases the valuation will be higher than other car Redemption."
+        "title": "How quickly will I receive payment after selling my device?",
+        "content": "Cash payment available instantly. We offer multiple payment options: PayPal, Venmo, Cash App, Google Pay, Zelle, check, or bank transfer. In-person transactions receive immediate payment, whether at our office or during pickup. For mailed devices, payment is processed the same day we receive your device."
       },
       {
-        "title": "I'll sell the car for more!",
-        "content": "No problem! We just want to save you from wasting your time. Pre-sale preparation, photo shoots, registration on profile sites, pay for advertising. ads, answering phones and traveling to appointments at inconvenient times is the least of what you're gonna to deal with."
+        "title": "Is same-day pickup available for my electronics?",
+        "content": "Yes, we offer same-day pickup service throughout Florida. For valuable items, we can arrange pickup even during extended hours to accommodate your schedule."
+      },
+      {
+        "title": "Do you accept device by mail, and who covers the shipping costs?",
+        "content": "We handle all shipping logistics and costs, including full insurance coverage for your device. Our secure shipping process ensures safe delivery, and payment is processed the same day we receive your device."
       }
     ],
     "listBottom1": {

@@ -1,6 +1,7 @@
 .slider {
   width: 100%;
   overflow: auto;
+  margin-bottom: 50px;
 
   ::ng-deep {
     drag-scroll {

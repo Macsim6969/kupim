@@ -5,10 +5,18 @@
   ],
   "dashboard": {
     "state": "State of Florida",
-    "title": "Sell laptop <span>for cash Florida </span>",
+    "title": "Sell my laptop",
     "location": "(State Florida)",
     "index": true,
     "footerDescription": "Cash for laptop Florida!",
+    "metaTitle": "Sell my used Laptop - Miami, Orlando, Tampa, Jacksonville, Florida",
+    "description": "Cash for my old laptop near me | Quick & Easy Online Appraisal | Professional laptop buyback service | Trade in your notebook today",
+    "keywords": "Laptop, sell my laptop, sell my used laptop, buy used laptop, second-hand laptop sales, cash for my used laptop, cash for laptop, sell laptop locally, quick cash for laptop, sell laptop online, sell my laptop fast, sell old laptop for cash",
+    "ogTitle": "Sell my Laptop - Buddy Cash",
+    "ogDescription": "Cash for my old laptop near me | Quick & Easy Online Appraisal | Professional laptop buyback service | Trade in your notebook today - Buddy Cash",
+    "ogType": "website",
+    "ogUrl": "https://buddy-cash.com/ ",
+    "ogImage": "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
     "image": "/assets/img/laptop/laptop.svg",
     "bgImage": "laptop",
     "class": "laptop_text",
@@ -19,8 +27,8 @@
     }
   },
   "prodInfo": {
-    "title": "Laptops",
-    "text": "We Purchase Across All U.S. States",
+    "title": "Types of Laptops",
+    "text": "We Purchase",
     "content": [
       {
         "img": "/assets/img/laptop/After_repair.png",
@@ -45,21 +53,21 @@
     ]
   },
   "easySteps": {
-    "title": "3 Easy Steps ",
-    "text": "to Get Your Device Appraised Online",
+    "title": "Value your Laptop:",
+    "text": "3 Simple Steps",
     "style": "laptop",
     "contentStep1": {
       "step": "Step 1",
-      "stepText": "Send photos and specifications of your laptop via any preferred messaging platform.",
+      "stepText": "Simply share photos and details through your preferred messaging platform",
       "contact": "SEND"
     },
     "contentStep2": {
       "step": "Step 2",
-      "stepText": "If you accept our offer, visit our office or schedule a free in-home evaluation with our expert."
+      "stepText": "Schedule a convenient in-person evaluation at our office or your location"
     },
     "contentStep3": {
       "step": "Step 3",
-      "stepText": "Receive instant payment through your preferred method."
+      "stepText": "Receive immediate payment through your preferred method: cash, digital transfer, or check"
     }
   },
   "aboutInfo": {
