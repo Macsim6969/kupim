@@ -12,6 +12,7 @@ const routes: Routes = [
   // { path: 'others', loadChildren: () => import('./modules/page-in-work/page-in-work.module').then(m => m.PageInWorkModule) },
   { path: 'others', loadChildren: () => import('./modules/home/home.module').then(m => m.HomeModule) },
   { path: 'real-estate-others', loadChildren: () => import('./modules/home/home.module').then(m => m.HomeModule) },
+  { path: '404', loadChildren: () => import('./modules/not-found/not-found.module').then(m => m.NotFoundModule) },
   { path: '', loadChildren: () => import('./modules/home/home.module').then(m => m.HomeModule) },
 ]
 
