@@ -48,7 +48,7 @@
         "img": "/assets/img/main_page/Real_estate.png",
         "route": "/real-estate",
         "alt": "Sell used Real estate",
-        "isBlock": true
+        "isBlock": false
       },
       {
         "img": "/assets/img/main_page/Estate.png",

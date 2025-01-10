@@ -58,16 +58,8 @@ const routes: Routes = [
   },
   {
     path: '',
-    pathMatch: 'full',
     loadChildren: () =>
       import('./modules/home/home.module').then((m) => m.HomeModule),
-  },
-  {
-    path: '**',
-    loadChildren: () =>
-      import('./modules/not-found/not-found.module').then(
-        (m) => m.NotFoundModule
-      ),
   },
 ];
 

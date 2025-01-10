@@ -11,5 +11,5 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^ /index.html [L]
 
-# Настраиваем страницу 404 (для Angular обычно не нужна, но можно добавить для API или статики)
+# Настраиваем страницу 404 для статики (опционально)
 ErrorDocument 404 /index.html
