@@ -31,14 +31,14 @@
         "title": "Sell my Laptop"
       },
       {
-        "url": "/bicycle",
-        "img": "/assets/img/transport/Moto.png",
-        "title": "Sell my Bike"
+        "url": "/motorcycle",
+        "img": "/assets/img/transport/Choose_a_motorcycle.png",
+        "title": "Sell my Motorcycle"
       },
       {
         "url": "/bike",
-        "img": "/assets/img/transport/Bicycle.png",
-        "title": "Sell my Bicycle"
+        "img": "/assets/img/transport/Choose_a_bike.png",
+        "title": "Sell my Bike"
       },
       {
         "url": "/scooter",

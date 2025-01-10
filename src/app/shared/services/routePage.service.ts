@@ -11,7 +11,7 @@ export class RoutePageService {
     '/helicopter': 'helicopter',
     '/wheelchair': 'wheelchair',
     '/transport': 'transport',
-    '/bicycle': 'bicycle',
+    '/motorcycle': 'motorcycle',
     '/laptop': 'laptop',
     '/contacts': 'contacts',
     '/team': 'team',
