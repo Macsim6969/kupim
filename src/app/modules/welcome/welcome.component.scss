@@ -336,8 +336,7 @@
           &.mercedes,
           &.audi,
           &.bmw,
-          &.car,
-          &.trailer {
+          &.car{
             height: auto;
           }
 
@@ -368,7 +367,7 @@
           }
 
           &.trailer {
-            height: 350px;
+            height: 300px;
           }
 
           @media (max-width: 1250px) {
