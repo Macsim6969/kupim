@@ -26,6 +26,8 @@
     .review {
       display: flex;
       flex-direction: column;
+      max-width: 420px;
+      width: 100%;
 
       .review_title {
         background-color: #f4f5f8;
