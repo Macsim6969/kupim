@@ -1,7 +1,7 @@
 {
   "key": [
     "yes",
-    "prod", 
+    "prod",
     "easy-step"
   ],
   "dashboard": {
@@ -27,7 +27,7 @@
     "text": "We Purchase",
     "content": [
       {
-        "img": "/assets/img/boat/Boat.png"
+        "img": "/assets/img/boat/boat.png"
       },
       {
         "img": "/assets/img/boat/Inflatable_boat.svg"
