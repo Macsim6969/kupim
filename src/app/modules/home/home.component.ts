@@ -5,12 +5,12 @@ import {
   OnDestroy,
   OnInit,
 } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
-import { Subject, take, takeUntil, timer } from 'rxjs';
-import { Location } from '@angular/common';
-import { TranslateService } from '@ngx-translate/core';
-import { StoreService } from '../../shared/services/store.service';
-import { Meta, Title } from '@angular/platform-browser';
+import {ActivatedRoute, Router} from '@angular/router';
+import {Subject, take, takeUntil, timer} from 'rxjs';
+import {Location} from '@angular/common';
+import {TranslateService} from '@ngx-translate/core';
+import {StoreService} from '../../shared/services/store.service';
+import {Meta, Title} from '@angular/platform-browser';
 
 @Component({
   selector: 'app-home',
@@ -31,7 +31,8 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
     private store: StoreService,
     private titleService: Title,
     private metaService: Meta
-  ) {}
+  ) {
+  }
 
   ngOnInit(): void {
     this.checkToChangePage();
@@ -88,12 +89,14 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
       });
     });
 
-    return Promise.all(imagePromises).then(() => {});
+    return Promise.all(imagePromises).then(() => {
+    });
   }
 
   private checkPageLoaded(): Promise<void> {
     return Promise.all([this.checkImagesLoaded(), this.waitForPageLoad()]).then(
-      () => {}
+      () => {
+      }
     );
   }
 
@@ -113,7 +116,8 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
     });
 
     return Promise.all(imageLoadPromises)
-      .then(() => {})
+      .then(() => {
+      })
       .catch((error) => {
         console.error(error);
       });
@@ -130,12 +134,7 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   private setUpQueryParamsData() {
-    const queryParams = { state: 'florida' };
-    const urlTree = this.router.createUrlTree([], {
-      relativeTo: this.route,
-      queryParams: queryParams,
-      queryParamsHandling: 'merge',
-    });
+    const urlTree = this.router.createUrlTree([]);
     this.location.replaceState(this.router.serializeUrl(urlTree));
   }
 
@@ -153,7 +152,7 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
       if (data) {
         // Обновляем заголовок страницы
         this.titleService.setTitle(data.metaTitle);
-  
+
         // Удаляем старые мета-теги
         const tagNames = [
           'description',
@@ -170,32 +169,32 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
           this.metaService.removeTag(`name='${tagName}'`);
           this.metaService.removeTag(`property='${tagName}'`);
         });
-  
+
         // Добавляем мета-теги
         const metaTags = [
-          { name: 'description', content: data.description },
-          { property: 'og:title', content: data.ogTitle },
-          { property: 'og:description', content: data.ogDescription },
-          { property: 'og:image', content: data.ogImage },
-          { property: 'og:url', content: data.ogUrl },
-          { property: 'og:type', content: 'website' },
-          { name: 'twitter:card', content: 'summary_large_image' },
-          { name: 'twitter:title', content: data.ogTitle },
-          { name: 'twitter:description', content: data.ogDescription },
-          { name: 'twitter:image', content: data.ogImage }
+          {name: 'description', content: data.description},
+          {property: 'og:title', content: data.ogTitle},
+          {property: 'og:description', content: data.ogDescription},
+          {property: 'og:image', content: data.ogImage},
+          {property: 'og:url', content: data.ogUrl},
+          {property: 'og:type', content: 'website'},
+          {name: 'twitter:card', content: 'summary_large_image'},
+          {name: 'twitter:title', content: data.ogTitle},
+          {name: 'twitter:description', content: data.ogDescription},
+          {name: 'twitter:image', content: data.ogImage}
         ];
-  
+
         // Если index=false, добавляем meta robots: noindex
         if (data.index === false) {
-          metaTags.push({ name: 'robots', content: 'noindex' });
+          metaTags.push({name: 'robots', content: 'noindex'});
         }
-  
+
         // Применяем новые мета-теги
         this.metaService.addTags(metaTags);
       }
     });
   }
-  
+
 
   ngOnDestroy(): void {
     this.destroy$.next();

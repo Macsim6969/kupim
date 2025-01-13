@@ -13,7 +13,13 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
+    gap: 15px;
 
+    @media (max-width: 900px) {
+      flex-direction: column-reverse;
+      align-items: center;
+      gap: 25px;
+    }
     .left {
       display: flex;
       flex-direction: column;

@@ -22,8 +22,6 @@ export class AppComponent implements OnInit {
     private translate: TranslateService,
     private store: StoreService,
     private routePage: RoutePageService,
-    private titleService: Title,
-    private metaService: Meta
   ) { }
 
   ngOnInit(): void {
