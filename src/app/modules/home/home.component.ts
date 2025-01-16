@@ -29,15 +29,12 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
     private translate: TranslateService,
     private cd: ChangeDetectorRef,
     private store: StoreService,
-    private titleService: Title,
-    private metaService: Meta
   ) {
   }
 
   ngOnInit(): void {
     this.checkToChangePage();
     this.setUpQueryParamsData();
-    this.updatesMateTags();
   }
 
   ngAfterViewInit(): void {
@@ -147,53 +144,6 @@ export class HomeComponent implements OnInit, AfterViewInit, OnDestroy {
       });
   }
 
-  private updatesMateTags() {
-    this.translate.stream('dashboard').subscribe((data) => {
-      if (data) {
-        // Обновляем заголовок страницы
-        this.titleService.setTitle(data.metaTitle);
-
-        // Удаляем старые мета-теги
-        const tagNames = [
-          'description',
-          'og:title',
-          'og:description',
-          'og:image',
-          'og:url',
-          'twitter:title',
-          'twitter:description',
-          'twitter:image',
-          'robots' // Удаляем robots, чтобы избежать дублирования
-        ];
-        tagNames.forEach((tagName) => {
-          this.metaService.removeTag(`name='${tagName}'`);
-          this.metaService.removeTag(`property='${tagName}'`);
-        });
-
-        // Добавляем мета-теги
-        const metaTags = [
-          {name: 'description', content: data.description},
-          {property: 'og:title', content: data.ogTitle},
-          {property: 'og:description', content: data.ogDescription},
-          {property: 'og:image', content: data.ogImage},
-          {property: 'og:url', content: data.ogUrl},
-          {property: 'og:type', content: 'website'},
-          {name: 'twitter:card', content: 'summary_large_image'},
-          {name: 'twitter:title', content: data.ogTitle},
-          {name: 'twitter:description', content: data.ogDescription},
-          {name: 'twitter:image', content: data.ogImage}
-        ];
-
-        // Если index=false, добавляем meta robots: noindex
-        if (data.index === false) {
-          metaTags.push({name: 'robots', content: 'noindex'});
-        }
-
-        // Применяем новые мета-теги
-        this.metaService.addTags(metaTags);
-      }
-    });
-  }
 
 
   ngOnDestroy(): void {
