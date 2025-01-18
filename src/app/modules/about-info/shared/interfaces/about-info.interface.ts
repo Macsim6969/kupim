@@ -8,4 +8,5 @@ export interface AboutInfo {
 export interface AboutList {
   src: string
   title: string
+  alt: string;
 }

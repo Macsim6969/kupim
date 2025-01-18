@@ -1,12 +1,14 @@
 <section class="question">
   <div class="asq_container">
-    <h3 class="asq_inner_title">{{qustionsData?.title}}</h3>
+    <h4 class="asq_inner_title">{{qustionsData?.title}}</h4>
     <div class="asq_inner_dop_title">{{qustionsData?.descr}}</div>
     <div class="asq_bl" *ngFor="let list of qustionsData?.listAsq; index as i">
       <div class="asq_bnt"></div>
       <div class="dopp__inner">
         <div class="dopp____inner">
-          <button [ngClass]="{'active': isOpenTab[i]}" (click)="openTab(i)" type="button" class="dopp_collaps" [innerHTML]="list.title"></button>
+          <button [ngClass]="{'active': isOpenTab[i]}" (click)="openTab(i)" type="button" class="dopp_collaps">
+            <h3 [innerHTML]="list.title"></h3>
+          </button>
           <div #doppContent [style.maxHeight]="isOpenTab[i] ? getContentMaxHeight(i) : '0'" [ngClass]="{'active': isOpenTab[i]}" class="dopp_content" [innerHTML]="list.content"></div>
         </div>
       </div>

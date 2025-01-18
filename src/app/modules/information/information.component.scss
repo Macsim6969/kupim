@@ -61,11 +61,15 @@
       }
 
       .inner_local {
-        font-size: 18px;
         width: 285px;
-        color: white;
         margin: 0 0 50px 30px;
         text-align: center;
+
+        a{
+          font-size: 18px;
+          color: white;
+          text-decoration: none;
+        }
 
         @media (max-width: 576px) {
           text-align: left;

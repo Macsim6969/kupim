@@ -1,6 +1,6 @@
 import {Component, Inject, OnInit} from '@angular/core';
 import { sidebarService } from './shared/services/sidebar.service';
-import { Observable } from 'rxjs';
+import {filter, Observable} from 'rxjs';
 import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { StoreService } from './shared/services/store.service';
@@ -69,27 +69,43 @@ export class AppComponent implements OnInit {
           { name: 'twitter:title', content: data.ogTitle },
           { name: 'twitter:description', content: data.ogDescription },
           { name: 'twitter:image', content: data.ogImage },
-        ];
+        ].filter(Boolean);;
 
-        // Если index=false, добавляем meta robots: noindex
         if (data.index === false) {
           metaTags.push({ name: 'robots', content: 'noindex' });
         }
 
         // Применяем новые мета-теги
-        this.metaService.addTags(metaTags);
+        metaTags.forEach(tag => {
+          this.metaService.updateTag(tag);
+        });
 
+        this.updateCanonicalLink(data.ogUrl || location.href);
         // Добавляем JSON-LD
         this.addJsonLdScript(data);
       }
     });
   }
 
+  private updateCanonicalLink(canonicalUrl: string): void {
+    // Удаляем существующий canonical link
+    let link: HTMLLinkElement | null = this.document.head.querySelector("link[rel='canonical']");
+    if (link) {
+      this.document.head.removeChild(link);
+    }
+
+    // Добавляем новый canonical link
+    link = this.document.createElement('link');
+    link.setAttribute('rel', 'canonical');
+    link.setAttribute('href', canonicalUrl);
+    this.document.head.appendChild(link);
+  }
+
   private addJsonLdScript(data: any): void {
     const jsonLd = {
       "@context": "https://schema.org",
       "@type": "Product",
-      "name": "Used Electronics in Florida",
+      "name": data.ogTitle,
       "image": data.ogImage || "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4", // Замените на дефолтный URL, если данных нет
       "description": data.description || "Buy, sell, or trade items in Florida. Best deals and fast cash. Join today!", // Замените на дефолтное значение
       "brand": {
@@ -105,16 +121,20 @@ export class AppComponent implements OnInit {
       }
     };
 
-    // Удаляем старый JSON-LD, если он существует
+    this.replaceJsonLd(jsonLd);
+  }
+
+  private replaceJsonLd(jsonLd: object): void {
+    // Удаляем предыдущий JSON-LD
     const existingScript = this.document.head.querySelector('script[type="application/ld+json"]');
     if (existingScript) {
       this.document.head.removeChild(existingScript);
     }
 
-    // Создаем новый тег JSON-LD и добавляем в <head>
+    // Добавляем новый JSON-LD
     const script = this.document.createElement('script');
     script.type = 'application/ld+json';
-    script.text = JSON.stringify(jsonLd);
+    script.textContent = JSON.stringify(jsonLd);
     this.document.head.appendChild(script);
   }
 

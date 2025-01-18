@@ -1,13 +1,13 @@
 <div class="why">
   <div class="why_container">
-    <h3 class="why_log_h">
+    <h2 class="why_log_h">
       <span class="why_log">{{aboutTitle}}</span>
       <p class="why_undelog">{{aboutText}}</p>
-    </h3>
+    </h2>
     <div class="why_inner">
       <div class="why_innner_comm" *ngFor="let about of aboutInfoData">
-        <img class="comm_img1" [src]="about?.src" [alt]="about?.title">
-        <div class="comm_txt">{{about?.title}}</div>
+        <img class="comm_img1" [src]="about?.src" [alt]="about?.alt">
+        <div class="comm_txt" [innerHTML]="about?.title"></div>
       </div>
     </div>
   </div>

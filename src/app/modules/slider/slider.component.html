@@ -1,6 +1,3 @@
 <div class="slider">
-  <drag-scroll #dragg>
-    <img *ngFor="let slie of sliderData" drag-scroll-item src="{{slie.img}}" alt="{{slie.title}}" />
-  </drag-scroll>
-
+  <img [ngClass]="{'isMobileActive' : slide.isActiveMobile}" *ngFor="let slide of sliderData" routerLink="{{slide.link}}" src="{{slide.img}}" alt="{{slide.alt}}">
 </div>

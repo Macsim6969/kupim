@@ -5,13 +5,13 @@
         <div class="header_inner_navigation">
           <div class="icon_row">
             <a class="icon" href="https://wa.me/7275091449"><img class="navigation_network"
-                src="/assets/img/WhatsApp.webp" alt="WhatsApp"></a>
+                src="/assets/img/WhatsApp.webp" alt="Write to WhatsApp"></a>
             <a class="phone" href="tel: +17275091449"><img class="navigation_network"
                 src="/assets/img/global/Phone.webp" alt="Phone"></a>
             <a class="icon" href="https://t.me/buddy_cashFL"><img class="navigation_network" src="/assets/img/Telegram.webp"
-                alt="Telegram"></a>
+                alt="Write to Telegram"></a>
             <a class="icon" target="_blank" href="http://m.me/buddycash01"><img src="/assets/img/global/Facebook.webp"
-                alt="Messanger"></a>
+                alt="Write to Facebook Messenger"></a>
           </div>
 
           <div class="navigation_contact">
@@ -23,8 +23,8 @@
           </div>
         </div>
         <div class="header_menu {{(isSidebar$ | async) ? 'active' : ''}}" id="burger" (click)="openMenu()">
-          <img *ngIf="!(isSidebar$ | async)" class="menu_img" src="/assets/img/menu.svg" alt="Menu">
-          <img *ngIf="(isSidebar$ | async)" class="menu_img" src="/assets/img/close_menu.png" alt="Menu">
+          <img *ngIf="!(isSidebar$ | async)" class="menu_img" src="/assets/img/menu.svg" alt="Button Menu">
+          <img *ngIf="(isSidebar$ | async)" class="menu_img" src="/assets/img/close_menu.png" alt="Button Menu">
           <div class="menu_list">MENU</div>
         </div>
       </div>
@@ -37,7 +37,7 @@
       </div>
       <div class="header_home_title {{welcomeDataPage.class}}">
 
-        <img class="header_home {{welcomeDataPage.bgImage}}" [src]="welcomeDataPage.image" alt="{{welcomeDataPage.alt}}">
+        <img class="header_home {{welcomeDataPage.bgImage}}" [src]="welcomeDataPage.image" alt="{{welcomeDataPage.altImage}}">
 
         <div class="header_title">
 

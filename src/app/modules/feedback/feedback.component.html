@@ -10,16 +10,11 @@
                         <div class="inner_info">{{feedback.name}}</div>
                         <div class="inner_underinfo">{{feedback.prod}} </div>
                     </div>
-                    <img class="comment_staff_img" src="/assets/img/laptop/feedback/google-maps.svg" alt="Google Maps">
+                    <img class="comment_staff_img" src="/assets/img/laptop/feedback/google-maps.svg" alt="Icon Google Maps">
                 </div>
-                
+
                 <img class="review_stars" [src]="feedback.stars === 4 ? '/assets/img/laptop/feedback/Stars_4.png' : '/assets/img/laptop/feedback/Stars_5.svg'" alt="stars">
-                <div class="review_starss">{{feedback.feedbackMap}}</div>
             </div>
-        </div>
-        <div class="review_btn">
-            <a class="review_btn_inner" href="#">{{testimonialsData.content}}</a>
-            <a href=""><img class="review__btn_inner" src="/assets/img/laptop/feedback/arrow.png" alt=""></a>
         </div>
     </div>
 </div>

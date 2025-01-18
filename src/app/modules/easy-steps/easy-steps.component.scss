@@ -20,20 +20,21 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      
-      .about_log{
+
+      .about_log {
         font-size: 50px;
         font-weight: 700 !important;
         color: #535050;
         margin: 70px 0 30px 0px;
         display: flex;
         justify-content: center;
-  
+
         @media (max-width: 720px) {
           font-size: 42px;
           text-align: center;
         }
       }
+
       .about_undelog {
         font-weight: 400;
         font-size: 28px;
@@ -41,7 +42,7 @@
         margin: 0 0 115px 0px;
         display: flex;
         justify-content: center;
-  
+
         @media (max-width: 720px) {
           font-size: 24px;
           text-align: center;
@@ -209,40 +210,50 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  padding-bottom: 35px;
+  padding-bottom: 70px;
 
-  img{
+  img {
     height: 450px;
     object-fit: cover;
   }
 
-  .linear_location{
+  .linear_location {
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    &_title{
+    &_title {
       font-size: 2.4rem;
       font-weight: 600;
       color: white;
     }
 
-    &_city{
+    &_city {
       font-size: 1.5rem;
       font-weight: 400;
       color: white;
       margin-bottom: 30px;
     }
 
-    &_text{
+    &_text {
       font-size: 1.4rem;
       font-weight: 300;
       color: white;
     }
+
+    .text {
+      padding: 5px;
+      max-width: 1080px;
+      .strong{
+        font-weight: bold;
+      }
+    }
+
+
   }
 
   &.laptop {
-    background: linear-gradient(86deg, #b95988 0%, #b95988 36%, #202227 100%);
+    background: linear-gradient(86deg, #48ab87 0%, #48ab87 36%, #20242b 100%);
   }
 
   &.bike {
@@ -333,15 +344,15 @@
     background: linear-gradient(86deg, #659153 0%, #659153 36%, #20242b 100%);
   }
 
-  &.warehouse-facilities{
+  &.warehouse-facilities {
     background: linear-gradient(86deg, #55b5dd 0%, #55b5dd 36%, #20242b 100%);
   }
 
-  &.land-lots{
+  &.land-lots {
     background: linear-gradient(86deg, #92a660 0%, #92a660 36%, #20242b 100%);
   }
 
-  &.restaurant-cafe{
+  &.restaurant-cafe {
     background: linear-gradient(86deg, #dd769a 0%, #dd769a 36%, #20242b 100%);
   }
 
@@ -355,17 +366,17 @@
   }
 
   @media (max-width: 720px) {
-    img{
+    img {
       width: 90%;
       object-fit: cover;
       height: 220px;
     }
 
-    .linear_location{
+    .linear_location {
       width: 90%;
       align-items: center;
 
-      p{
+      p {
         text-align: center;
       }
     }

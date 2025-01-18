@@ -1,49 +1,27 @@
 .slider {
   width: 100%;
-  overflow: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
   margin-bottom: 50px;
 
-  ::ng-deep {
-    drag-scroll {
-      .drag-scroll-content {
-        display: flex !important;
-        align-items: stretch;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 100% !important;
-        height: 100% !important;
-        overflow: auto;
-        gap: 24px;
-
-        @media (max-width: 720px) {
-          gap: 12px;
-        }
-
-        img{
-          width: 220px;
-          height: 220px;
-
-          @media (max-width: 720px) {
-            width: 170px;
-            height: 170px;
-          }
-        }
-
-        &::-webkit-scrollbar {
-          height: 4px;
-        }
-      
-        &::-webkit-scrollbar-track {
-          height: 4px;
-          background-color: rgb(255, 255, 255);
-        }
-        
-        &::-webkit-scrollbar-thumb {
-          height: 4px;
-          background-color: gray;
-          border-radius: 6px;
-        }
+  img{
+    cursor: pointer;
+    width: 250px;
+    @media (max-width: 620px) {
+      display: none;
+    }
+    &.isMobileActive {
+      @media (max-width: 620px) {
+        width: 150px;
+        display: block;
       }
+    }
+
+    &:hover{
+      transform: scale(1.1);
     }
   }
 }

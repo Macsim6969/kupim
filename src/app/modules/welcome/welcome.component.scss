@@ -440,6 +440,7 @@
             @media (max-width: 620px) {
               font-size: 32px;
               color: white !important;
+              margin-bottom: 35px;
             }
           }
 
@@ -470,6 +471,21 @@
 
             @media (max-width: 720px) {
               font-size: 22px;
+            }
+
+            &.laptop_text{
+              font-size: 28px;
+              display: flex;
+              flex-direction: column;
+
+              @media (max-width: 576px) {
+                display: none;
+              }
+            }
+            ::ng-deep{
+              strong{
+                font-weight: 400 !important;
+              }
             }
           }
 

@@ -1,16 +1,16 @@
 <div class="about">
   <div class="abour_container" *ngIf="easyStepData">
-    <h3 class="about_log_h">
+    <h2 class="about_log_h">
       <span class="about_log">{{ easyStepData.title }}</span>
       <span class="about_undelog">{{ easyStepData.text }}</span>
-    </h3>
+    </h2>
 
     <div class="about_inner">
       <div class="about_inner_step1">
         <img
           class="step1_img1"
           src="/assets/img/laptop/evaluate.svg"
-          alt="{{ easyStepData.contentStep1?.stepText }}"
+          alt="Send us photos of your device"
         />
         <div class="step1_log">{{ easyStepData.contentStep1?.step }}</div>
         <div class="step1_underlog">
@@ -58,7 +58,7 @@
         <img
           class="step1_img2"
           src="/assets/img/laptop/map.svg"
-          alt="{{ easyStepData.contentStep2?.stepText }}"
+          alt="Schedule an inspection location"
         />
         <div class="step1_log">{{ easyStepData.contentStep2?.step }}</div>
         <div class="step1_underlog">
@@ -70,7 +70,7 @@
         <img
           class="step1_img3"
           src="/assets/img/laptop/deal.svg"
-          alt="{{ easyStepData.contentStep3?.stepText }}"
+          alt="Get your cash payment"
         />
         <div class="step1_log">{{ easyStepData.contentStep3?.step }}</div>
         <div class="step1_underlog">
@@ -87,8 +87,12 @@
     alt="Office Locations: Miami, Tampa, Orlando, Jacksonville."
   />
   <div class="linear_location">
-    <p class="linear_location_title">Office Locations:</p>
+    <p class="linear_location_title">Office Locations Buddy Cash</p>
     <p class="linear_location_city">Miami, Tampa, Orlando, Jacksonville.</p>
-    <p class="linear_location_text">Statewide pickup service available throughout Florida.</p>
+    <p class="linear_location_text">Statewide pickup service is available free of charge throughout Florida, including the following cities:</p>
+    <br>
+    <p class="linear_location_text text"><span class="strong">North Florida: </span>Jacksonville, Tallahassee, Gainesville, Pensacola, Panama City, Lake City, St. Augustine, Fernandina Beach, Live Oak, Milton, Fort Walton Beach, Niceville, Perry, Palatka, Starke.</p>
+    <p class="linear_location_text text"><span class="strong">Central Florida: </span>Orlando, Tampa, St. Petersburg, Clearwater, Lakeland, Ocala, Daytona Beach, Melbourne, Winter Haven, Spring Hill, Titusville, Plant City, Lady Lake, Zephyrhills, Winter Garden, Sarasota.</p>
+    <p class="linear_location_text text"><span class="strong">South Florida: </span>Miami, Fort Lauderdale, West Palm Beach, Naples, Fort Myers, Boca Raton, Pompano Beach, Hollywood, Coral Springs, Hialeah, Pembroke Pines, Boynton Beach, Delray Beach, Jupiter, Port St. Lucie.</p>
   </div>
 </div>

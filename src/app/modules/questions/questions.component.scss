@@ -111,23 +111,27 @@
           }
 
           &.active {
-            &::after {
-              transform: rotate(180deg);
-              transition: all 0.6s;
+            h3{
+              &::after {
+                transform: rotate(180deg);
+                transition: all 0.6s;
+              }
             }
           }
 
-          &::after {
-            content: "";
-            background-image: url('/assets/img/global/arrow.svg');
-            background-size: cover;
-            height: 23px;
-            width: 22px;
-            display: inline-block;
-            vertical-align: middle;
-            position: relative;
-            left: 5px;
-            bottom: 2px;
+          h3{
+            &::after {
+              content: "";
+              background-image: url('/assets/img/global/arrow.svg');
+              background-size: cover;
+              height: 23px;
+              width: 22px;
+              display: inline-block;
+              vertical-align: middle;
+              position: relative;
+              left: 5px;
+              bottom: 2px;
+            }
           }
 
           &:hover {
