@@ -19,23 +19,23 @@
     "content": [
       {
         "img": "/assets/img/gear/Exercise-machines.svg",
-        "route": "/exercise-machines"
+        "route": "/fl/exercise-machines"
       },
       {
         "img": "/assets/img/gear/Skis.svg",
-        "route": "/skis"
+        "route": "/fl/skis"
       },
       {
         "img": "/assets/img/gear/Snowboard.svg",
-        "route": "/snowboard"
+        "route": "/fl/snowboard"
       },
       {
         "img": "/assets/img/gear/Surfboard.svg",
-        "route": "/surfboard"
+        "route": "/fl/surfboard"
       },
       {
         "img": "/assets/img/main_page/Others.png",
-        "route": "/others"
+        "route": "/fl/others"
       }
     ]
   },

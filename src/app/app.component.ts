@@ -69,7 +69,7 @@ export class AppComponent implements OnInit {
           { name: 'twitter:title', content: data.ogTitle },
           { name: 'twitter:description', content: data.ogDescription },
           { name: 'twitter:image', content: data.ogImage },
-        ].filter(Boolean);;
+        ].filter(Boolean);
 
         if (data.index === false) {
           metaTags.push({ name: 'robots', content: 'noindex' });

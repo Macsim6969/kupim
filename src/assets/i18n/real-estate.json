@@ -19,35 +19,35 @@
     "content": [
       {
         "img": "/assets/img/real-estate/Apartment.svg",
-        "route": "/apartment"
+        "route": "/fl/apartment"
       },
       {
         "img": "/assets/img/real-estate/Garage.svg",
-        "route": "/garage"
+        "route": "/fl/garage"
       },
       {
         "img": "/assets/img/real-estate/House.svg",
-        "route": "/house"
+        "route": "/fl/house"
       },
       {
         "img": "/assets/img/real-estate/Land-lots.svg",
-        "route": "/land-lots"
+        "route": "/fl/land-lots"
       },
       {
         "img": "/assets/img/real-estate/Restaurant-Cafe.svg",
-        "route": "/restaurant-cafe"
+        "route": "/fl/restaurant-cafe"
       },
       {
         "img": "/assets/img/real-estate/Townhouse.svg",
-        "route": "/townhouse"
+        "route": "/fl/townhouse"
       },
       {
         "img": "/assets/img/real-estate/Warehouse-Facilities.svg",
-        "route": "/warehouse-facilities"
+        "route": "/fl/warehouse-facilities"
       },
       {
         "img": "/assets/img/main_page/Others.png",
-        "route": "/real-estate-others"
+        "route": "/fl/real-estate-others"
       }
     ]
   },

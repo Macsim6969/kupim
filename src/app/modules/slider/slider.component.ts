@@ -11,31 +11,31 @@ export class SliderComponent {
     {
       "img": "/assets/img/main_page/Electronics.png",
       "alt": "Sell my Electronics",
-      "link": "/electronics",
+      "link": "/fl/electronics",
       isActiveMobile: true
     },
     {
       "img": "/assets/img/transport/Car.png",
       "alt": "Sell my Car",
-      "link": "/car",
+      "link": "/fl/car",
       isActiveMobile: false
     },
     {
       "img": "/assets/img/transport/Choose_a_motorcycle.png",
       "alt": "Sell my Motorcycle",
-      "link": "/motorcycle",
+      "link": "/fl/motorcycle",
       isActiveMobile: false
     },
     {
       "img": "/assets/img/transport/Choose_a_bike.png",
       "alt": "Sell my Bike",
-      "link": "/bike",
+      "link": "/fl/bike",
       isActiveMobile: false
     },
     {
       "img": "/assets/img/See_all.webp",
       "alt": "See All",
-      "link": "/",
+      "link": "/fl",
       isActiveMobile: true
     },
   ]

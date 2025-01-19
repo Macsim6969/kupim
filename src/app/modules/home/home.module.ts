@@ -18,6 +18,11 @@ import { LoadingComponent } from '../../shared/components/loading/loading.compon
 
 const routes: Routes = [
   {
+    path: '',
+    redirectTo: '/fl',
+    pathMatch: 'full'
+  },
+  {
     path: 'fl', component: HomeComponent, children: [
       { path: 'transport', component: HomeComponent },
       { path: 'laptop', component: HomeComponent },
@@ -74,11 +79,6 @@ const routes: Routes = [
         ]
       }
     ]
-  },
-  {
-    path: '',
-    redirectTo: '/fl',
-    pathMatch: 'full'
   }
 ]
 

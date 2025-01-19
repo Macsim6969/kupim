@@ -21,127 +21,127 @@
     "bgImage": "main",
     "class": "main_text"
   },
-  "prodInfo": { 
+  "prodInfo": {
     "title": "Select the device",
     "text": "you want to sell",
     "content": [
       {
         "img": "/assets/img/electronics/Air_conditioner.svg",
-        "route": "/air-conditioner",
+        "route": "/fl/air-conditioner",
         "alt": "Air conditioner",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Building_tool.svg",
-        "route": "/building-tool",
+        "route": "/fl/building-tool",
         "alt": "Building tool",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Camera.svg",
-        "route": "/camera",
+        "route": "/fl/camera",
         "alt": "Camera",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Coffee_maker.svg",
-        "route": "/coffee-maker",
+        "route": "/fl/coffee-maker",
         "alt": "Coffee maker",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Computer.svg",
-        "route": "/computer",
+        "route": "/fl/computer",
         "alt": "Computer",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Drone.svg",
-        "route": "/drone",
+        "route": "/fl/drone",
         "alt": "Drone",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Fridge.svg",
-        "route": "/fridge",
+        "route": "/fl/fridge",
         "alt": "Fridge",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Gaming_consoles.svg",
-        "route": "/gaming-consoles",
+        "route": "/fl/gaming-consoles",
         "alt": "Gaming consoles",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Headphones.svg",
-        "route": "/headphones",
+        "route": "/fl/headphones",
         "alt": "Headphones",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Laptop.svg",
-        "route": "/laptop",
+        "route": "/fl/laptop",
         "alt": "Laptop",
         "isBlock": false
       },
       {
         "img": "/assets/img/electronics/Lawn_mower.svg",
-        "route": "/lawn-mower",
+        "route": "/fl/lawn-mower",
         "alt": "Lawn mower",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Lens.svg",
-        "route": "/lens",
+        "route": "/fl/lens",
         "alt": "Lens",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Phone.svg",
-        "route": "/phone",
+        "route": "/fl/phone",
         "alt": "Phone",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Smartwatch.svg",
-        "route": "/smartwatch",
+        "route": "/fl/smartwatch",
         "alt": "Smartwatch",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Tablets.svg",
-        "route": "/tablets",
+        "route": "/fl/tablets",
         "alt": "Tablets",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/TV.svg",
-        "route": "/tv",
+        "route": "/fl/tv",
         "alt": "TV",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Vacuum_cleaner.svg",
-        "route": "/cacuum-cleaner",
+        "route": "/fl/cacuum-cleaner",
         "alt": "Vacuum cleaner",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/VR_headsets.svg",
-        "route": "/vr-headsets",
+        "route": "/fl/vr-headsets",
         "alt": "VR headsets",
         "isBlock": true
       },
       {
         "img": "/assets/img/electronics/Washing_machine.svg",
-        "route": "/washing-machine",
+        "route": "/fl/washing-machine",
         "alt": "Washing machine",
         "isBlock": true
       },
       {
         "img": "/assets/img/main_page/Others.png",
-        "route": "/others",
+        "route": "/fl/others",
         "alt": "Others",
         "isBlock": true
       }

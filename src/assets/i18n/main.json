@@ -1,8 +1,8 @@
 {
   "key": [
     "prod",
-    "easy-step" 
-  ], 
+    "easy-step"
+  ],
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell used items",
@@ -28,43 +28,43 @@
     "content": [
       {
         "img": "/assets/img/main_page/Transport.png",
-        "route": "/transport",
+        "route": "/fl/transport",
         "alt": "Sell used Transport",
         "isBlock": false
       },
       {
         "img": "/assets/img/main_page/Furniture.png",
-        "route": "",
+        "route": "/fl",
         "alt": "Sell used Furniture",
         "isBlock": true
       },
       {
         "img": "/assets/img/main_page/Electronics.png",
-        "route": "/electronics",
+        "route": "/fl/electronics",
         "alt": "Sell used Electronics",
         "isBlock": false
       },
       {
         "img": "/assets/img/main_page/Real_estate.png",
-        "route": "/real-estate",
+        "route": "/fl/real-estate",
         "alt": "Sell used Real estate",
         "isBlock": false
       },
       {
         "img": "/assets/img/main_page/Estate.png",
-        "route": "",
+        "route": "/fl",
         "alt": "Sell used Estate",
         "isBlock": true
       },
       {
         "img": "/assets/img/main_page/Gear.png",
-        "route": "/gear",
+        "route": "/fl/gear",
         "alt": "Sell used Gear",
         "isBlock": true
       },
       {
         "img": "/assets/img/main_page/Others.png",
-        "route": "/others",
+        "route": "/fl/others",
         "alt": "Sell used Others",
         "isBlock": true
       }
@@ -138,7 +138,7 @@
         "name": "Emily R.",
         "prod": "(Sold the BMW 3 Series)",
         "stars": 5,
-        "feedbackMap": "Review from Google Maps" 
+        "feedbackMap": "Review from Google Maps"
       },
       {
         "content": "Needed to part ways with my dirt bike. These guys were okay, but the initial quote was a bit low. After some negotiation, we reached a fair price. The pickup was prompt, though. Solid service, just be ready to haggle a little.",

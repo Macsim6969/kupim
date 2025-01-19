@@ -1,91 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://buddy-cash.com/</loc>
+    <loc>https://buddy-cash.com/fl/</loc>
     <lastmod>2024-12-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://buddy-cash.com/transport</loc>
+    <loc>https://buddy-cash.com/fl/transport</loc>
     <lastmod>2024-12-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://buddy-cash.com/car</loc>
+    <loc>https://buddy-cash.com/fl/car</loc>
     <lastmod>2024-12-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://buddy-cash.com/bicycle</loc>
+    <loc>https://buddy-cash.com/fl/bicycle</loc>
     <lastmod>2024-12-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://buddy-cash.com/bike</loc>
+    <loc>https://buddy-cash.com/fl/bike</loc>
     <lastmod>2024-12-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://buddy-cash.com/kick_skooter</loc>
+    <loc>https://buddy-cash.com/fl/kick_skooter</loc>
     <lastmod>2024-12-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://buddy-cash.com/watercraft</loc>
+    <loc>https://buddy-cash.com/fl/watercraft</loc>
     <lastmod>2024-12-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://buddy-cash.com/tractor</loc>
+    <loc>https://buddy-cash.com/fl/tractor</loc>
     <lastmod>2024-12-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://buddy-cash.com/trailer</loc>
+    <loc>https://buddy-cash.com/fl/trailer</loc>
     <lastmod>2024-12-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://buddy-cash.com/airplane</loc>
+    <loc>https://buddy-cash.com/fl/airplane</loc>
     <lastmod>2024-12-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://buddy-cash.com/helicopter</loc>
+    <loc>https://buddy-cash.com/fl/helicopter</loc>
     <lastmod>2024-12-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://buddy-cash.com/wheelchair</loc>
+    <loc>https://buddy-cash.com/fl/wheelchair</loc>
     <lastmod>2024-12-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://buddy-cash.com/others</loc>
+    <loc>https://buddy-cash.com/fl/others</loc>
     <lastmod>2024-12-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://buddy-cash.com/electronics</loc>
+    <loc>https://buddy-cash.com/fl/electronics</loc>
     <lastmod>2024-12-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://buddy-cash.com/laptop</loc>
+    <loc>https://buddy-cash.com/fl/laptop</loc>
     <lastmod>2024-12-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -104,6 +104,18 @@
   </url>
   <url>
     <loc>https://buddy-cash.com/about-us</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://buddy-cash.com/review</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://buddy-cash.com/online-appraisal</loc>
     <lastmod>2024-12-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
