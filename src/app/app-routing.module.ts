@@ -57,9 +57,14 @@ const routes: Routes = [
       import('./modules/home/home.module').then((m) => m.HomeModule),
   },
   {
-    path: '',
+    path: 'fl',
     loadChildren: () =>
       import('./modules/home/home.module').then((m) => m.HomeModule),
+  },
+  {
+    path: '',
+    pathMatch: 'full',
+    redirectTo: '/fl',
   }
 ];
 

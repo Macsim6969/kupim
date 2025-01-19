@@ -17,13 +17,9 @@ import { ChoiceMarkCarModule } from '../choice-mark-car/choice-mark-car.module';
 import { LoadingComponent } from '../../shared/components/loading/loading.component';
 
 const routes: Routes = [
+
   {
-    path: '',
-    redirectTo: '/fl',
-    pathMatch: 'full'
-  },
-  {
-    path: 'fl', component: HomeComponent, children: [
+    path: '', component: HomeComponent, children: [
       { path: 'transport', component: HomeComponent },
       { path: 'laptop', component: HomeComponent },
       { path: 'bike', component: HomeComponent },

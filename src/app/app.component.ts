@@ -111,13 +111,6 @@ export class AppComponent implements OnInit {
       "brand": {
         "@type": "Brand",
         "name": "Buddy Cash"
-      },
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": data.priceCurrency || "USD",
-        "price": data.price || "10.00", // Замените на дефолтное значение
-        "itemCondition": "https://schema.org/UsedCondition",
-        "availability": "https://schema.org/InStock"
       }
     };
 
@@ -144,7 +137,6 @@ export class AppComponent implements OnInit {
       const url = event['routerEvent']?.url;
       if (url) {
         const language = this.routePage._routeLanguageMap[url.split('?')[0]];
-
         if (language) {
           this.translate.use(language);
           this.store._activePage = language;
