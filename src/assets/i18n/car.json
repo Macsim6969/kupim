@@ -16,14 +16,14 @@
     "ogTitle": "Sell my Сar - Cash offer near Miami, Orlando, Tampa, Jacksonville - Buddy Cash",
     "ogDescription": "Quick & Easy online appraisal | Instant cash for your car in Miami, Orlando, Tampa, Jacksonville and throughout Florida. Professional purchasing services with free pickup. Trade your vehicle today - Buddy Cash",
     "ogType": "website",
-    "ogUrl": "https://buddy-cash.com/car ",
+    "ogUrl": "https://buddy-cash.com/fl/car ",
     "ogImage": "/assets/img/car/Sell_my_car.png",
     "image": "/assets/img/car/car_main.png",
     "bgImage": "car",
     "class": "car_text"
   },
   "choiceProducts": {
-    "title": "Types of Car", 
+    "title": "Types of Car",
     "text": "We Purchase",
     "products": [
       {
