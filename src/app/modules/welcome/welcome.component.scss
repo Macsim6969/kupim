@@ -47,7 +47,7 @@
         }
 
         @media (max-width: 720px) {
-          padding: 0px 0 50px 0px;
+          padding: 0px 0 40px 0px;
           align-items: flex-start;
         }
 
@@ -405,7 +405,7 @@
           }
 
           @media (max-width: 792px) {
-            margin: 35px 0 0 0;
+            margin: 25px 0 0 0;
           }
 
           @media (max-width: 620px) {
@@ -440,7 +440,6 @@
             @media (max-width: 620px) {
               font-size: 32px;
               color: white !important;
-              margin-bottom: 35px;
             }
           }
 
@@ -477,9 +476,12 @@
               font-size: 28px;
               display: flex;
               flex-direction: column;
+              max-width: 95%;
 
-              @media (max-width: 576px) {
-                display: none;
+              @media (max-width: 620px) {
+                max-width: 90%;
+                font-size: 16px;
+                margin-bottom: 40px;
               }
             }
             ::ng-deep{
