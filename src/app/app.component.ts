@@ -75,17 +75,23 @@ export class AppComponent implements OnInit {
           metaTags.push({ name: 'robots', content: 'noindex' });
         }
 
-        // Применяем новые мета-теги
+        // Добавляем мета-теги с использованием addTag, чтобы они были выше в <head>
         metaTags.forEach(tag => {
-          this.metaService.updateTag(tag);
+          const selector = tag.name
+            ? `name="${tag.name}"`
+            : `property="${tag.property}"`;
+          this.metaService.addTag(tag, true);
         });
 
+        // Обновление канонической ссылки
         this.updateCanonicalLink(data.ogUrl || location.href);
+
         // Добавляем JSON-LD
-        this.addJsonLdScript(data);
+        // this.addJsonLdScript(data);
       }
     });
   }
+
 
   private updateCanonicalLink(canonicalUrl: string): void {
     // Удаляем существующий canonical link
@@ -101,70 +107,70 @@ export class AppComponent implements OnInit {
     this.document.head.appendChild(link);
   }
 
-  private addJsonLdScript(data: any): void {
-    const jsonLd = {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      "name": data.ogTitle,
-      "image": data.ogImage || "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4", // Замените на дефолтный URL, если данных нет
-      "description": data.description || "Buy, sell, or trade items in Florida. Best deals and fast cash. Join today!", // Замените на дефолтное значение
-      "brand": {
-        "@type": "Brand",
-        "name": "Buddy Cash"
-      },
-      "offers": {
-        "@type": "Offer",
-        "price": data.price || "0.00",
-        "priceCurrency": data.currency || "USD",
-        "availability": data.availability || "https://schema.org/InStock",
-        "url": data.url || "https://default.url/product"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": data.ratingValue || "4.5",
-        "reviewCount": data.reviewCount || "0"
-      },
-      "review": data.reviews || [
-        {
-          "@type": "Review",
-          "author": "Default User",
-          "datePublished": "2025-01-01",
-          "description": "This is a great product! Highly recommended.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": "Another User",
-          "datePublished": "2025-01-02",
-          "description": "Satisfactory performance and quick delivery.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4"
-          }
-        }
-      ]
-    };
-
-    this.replaceJsonLd(jsonLd);
-  }
-
-
-  private replaceJsonLd(jsonLd: object): void {
-    // Удаляем предыдущий JSON-LD
-    const existingScript = this.document.head.querySelector('script[type="application/ld+json"]');
-    if (existingScript) {
-      this.document.head.removeChild(existingScript);
-    }
-
-    // Добавляем новый JSON-LD
-    const script = this.document.createElement('script');
-    script.type = 'application/ld+json';
-    script.textContent = JSON.stringify(jsonLd);
-    this.document.head.appendChild(script);
-  }
+  // private addJsonLdScript(data: any): void {
+  //   const jsonLd = {
+  //     "@context": "https://schema.org",
+  //     "@type": "Product",
+  //     "name": data.ogTitle,
+  //     "image": data.ogImage || "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4", // Замените на дефолтный URL, если данных нет
+  //     "description": data.description || "Buy, sell, or trade items in Florida. Best deals and fast cash. Join today!", // Замените на дефолтное значение
+  //     "brand": {
+  //       "@type": "Brand",
+  //       "name": "Buddy Cash"
+  //     },
+  //     "offers": {
+  //       "@type": "Offer",
+  //       "price": data.price || "0.00",
+  //       "priceCurrency": data.currency || "USD",
+  //       "availability": data.availability || "https://schema.org/InStock",
+  //       "url": data.url || "https://default.url/product"
+  //     },
+  //     "aggregateRating": {
+  //       "@type": "AggregateRating",
+  //       "ratingValue": data.ratingValue || "4.5",
+  //       "reviewCount": data.reviewCount || "0"
+  //     },
+  //     "review": data.reviews || [
+  //       {
+  //         "@type": "Review",
+  //         "author": "Default User",
+  //         "datePublished": "2025-01-01",
+  //         "description": "This is a great product! Highly recommended.",
+  //         "reviewRating": {
+  //           "@type": "Rating",
+  //           "ratingValue": "5"
+  //         }
+  //       },
+  //       {
+  //         "@type": "Review",
+  //         "author": "Another User",
+  //         "datePublished": "2025-01-02",
+  //         "description": "Satisfactory performance and quick delivery.",
+  //         "reviewRating": {
+  //           "@type": "Rating",
+  //           "ratingValue": "4"
+  //         }
+  //       }
+  //     ]
+  //   };
+  //
+  //   this.replaceJsonLd(jsonLd);
+  // }
+  //
+  //
+  // private replaceJsonLd(jsonLd: object): void {
+  //   // Удаляем предыдущий JSON-LD
+  //   const existingScript = this.document.head.querySelector('script[type="application/ld+json"]');
+  //   if (existingScript) {
+  //     this.document.head.removeChild(existingScript);
+  //   }
+  //
+  //   // Добавляем новый JSON-LD
+  //   const script = this.document.createElement('script');
+  //   script.type = 'application/ld+json';
+  //   script.textContent = JSON.stringify(jsonLd);
+  //   this.document.head.appendChild(script);
+  // }
 
 
   private streamRoute() {
