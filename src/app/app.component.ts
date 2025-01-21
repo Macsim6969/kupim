@@ -111,11 +111,46 @@ export class AppComponent implements OnInit {
       "brand": {
         "@type": "Brand",
         "name": "Buddy Cash"
-      }
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": data.price || "0.00",
+        "priceCurrency": data.currency || "USD",
+        "availability": data.availability || "https://schema.org/InStock",
+        "url": data.url || "https://default.url/product"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": data.ratingValue || "4.5",
+        "reviewCount": data.reviewCount || "0"
+      },
+      "review": data.reviews || [
+        {
+          "@type": "Review",
+          "author": "Default User",
+          "datePublished": "2025-01-01",
+          "description": "This is a great product! Highly recommended.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": "Another User",
+          "datePublished": "2025-01-02",
+          "description": "Satisfactory performance and quick delivery.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4"
+          }
+        }
+      ]
     };
 
     this.replaceJsonLd(jsonLd);
   }
+
 
   private replaceJsonLd(jsonLd: object): void {
     // Удаляем предыдущий JSON-LD

@@ -155,7 +155,6 @@
           }
 
 
-
           .navigation_contact {
             padding: 15px;
             display: flex;
@@ -283,7 +282,7 @@
           padding: 0 0 0 10%;
         }
 
-        @media (max-width:720px) {
+        @media (max-width: 720px) {
           padding: 0 0 75px 8%;
         }
 
@@ -337,7 +336,7 @@
           &.mercedes,
           &.audi,
           &.bmw,
-          &.car{
+          &.car {
             height: auto;
           }
 
@@ -442,6 +441,12 @@
               font-size: 32px;
               color: white !important;
             }
+
+            &.laptop_text {
+              @media (max-width: 880px) {
+                font-size: 36px;
+              }
+            }
           }
 
           .header_title__inner1 {
@@ -473,11 +478,15 @@
               font-size: 22px;
             }
 
-            &.laptop_text{
+            &.laptop_text {
               font-size: 28px;
               display: flex;
               flex-direction: column;
               max-width: 80%;
+
+              @media (max-width: 870px) {
+                font-size: 20px;
+              }
 
               @media (max-width: 620px) {
                 max-width: 90%;
@@ -485,8 +494,9 @@
                 margin-bottom: 40px;
               }
             }
-            ::ng-deep{
-              strong{
+
+            ::ng-deep {
+              strong {
                 font-weight: 400 !important;
               }
             }
