@@ -14,6 +14,19 @@ export class AboutInfoComponent implements OnInit, OnDestroy {
   public aboutTitle: string;
   public aboutText: string;
 
+  public readonly icons : string[] = [
+    '/assets/img/laptop/about/car.webp',
+    '/assets/img/laptop/about/sack.webp',
+    '/assets/img/laptop/about/lock.webp',
+    '/assets/img/laptop/about/back.webp',
+    '/assets/img/laptop/about/time.webp',
+    '/assets/img/laptop/about/thumb-up.webp',
+    '/assets/img/laptop/about/flag.webp',
+    '/assets/img/laptop/about/bills.webp',
+    '/assets/img/laptop/about/chain.webp',
+
+  ]
+
   constructor(
     private translate: TranslateService
   ) { }

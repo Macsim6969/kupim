@@ -26,57 +26,57 @@
     "text": "you want to sell",
     "products": [
       {
-        "url": "/car",
+        "url": "fl/car",
         "img": "/assets/img/transport/Car.png",
         "title": "Sell my Car"
       },
       {
-        "url": "/motorcycle",
+        "url": "fl/motorcycle",
         "img": "/assets/img/transport/Choose_a_motorcycle.png",
         "title": "Sell my Motorcycle"
       },
       {
-        "url": "/bike",
+        "url": "fl/bike",
         "img": "/assets/img/transport/Choose_a_bike.png",
         "title": "Sell my Bike"
       },
       {
-        "url": "/scooter",
+        "url": "fl/scooter",
         "img": "/assets/img/transport/Scooter.png",
         "title": "Sell my Scooter"
       },
       {
-        "url": "/watercraft",
+        "url": "fl/watercraft",
         "img": "/assets/img/transport/Watercraft.png",
         "title": "Sell my Watercraft"
       },
       {
-        "url": "/tractor",
+        "url": "fl/tractor",
         "img": "/assets/img/transport/Tractor.png",
         "title": "Sell my Tractor"
       },
       {
-        "url": "/trailer",
+        "url": "fl/trailer",
         "img": "/assets/img/transport/Trailer.png",
         "title": "Sell my Trailer"
       },
       {
-        "url": "/airplane",
+        "url": "fl/airplane",
         "img": "/assets/img/transport/Airplane.png",
         "title": "Sell my Airplane"
       },
       {
-        "url": "/helicopter",
+        "url": "fl/helicopter",
         "img": "/assets/img/transport/Helicopter.png",
         "title": "Sell my Helicopter"
       },
       {
-        "url": "/wheelchair",
+        "url": "fl/wheelchair",
         "img": "/assets/img/transport/Wheelchair.png",
         "title": "Sell my Wheelchair"
       },
       {
-        "url": "/others",
+        "url": "fl/others",
         "img": "/assets/img/main_page/Others.png",
         "title": "Sell my Other"
       }

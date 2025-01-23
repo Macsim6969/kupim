@@ -3,56 +3,56 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'contacts',
+    path: 'fl/contacts',
     loadChildren: () =>
       import('./modules/contacts/contacts.module').then(
         (m) => m.ContactsModule
       ),
   },
   {
-    path: 'online-appraisal',
+    path: 'fl/online-appraisal',
     loadChildren: () =>
       import('./modules/online-appraisal/online-appraisal.module').then(
         (m) => m.OnlineAppraisalModule
       ),
   },
   {
-    path: 'team',
+    path: 'fl/team',
     loadChildren: () =>
       import('./modules/team/team.module').then((m) => m.TeamModule),
   },
   {
-    path: 'legal-information',
+    path: 'fl/legal-information',
     loadChildren: () =>
       import('./modules/page-in-work/page-in-work.module').then(
         (m) => m.PageInWorkModule
       ),
   },
   {
-    path: 'review',
+    path: 'fl/review',
     loadChildren: () =>
       import('./modules/review/review.module').then((m) => m.ReviewModule),
   },
   {
-    path: 'about-us',
+    path: 'fl/about-us',
     loadChildren: () =>
       import('./modules/page-in-work/page-in-work.module').then(
         (m) => m.PageInWorkModule
       ),
   },
   {
-    path: 'blog',
+    path: 'fl/blog',
     loadChildren: () =>
       import('./modules/blog/blog.module').then((m) => m.BlogModule),
   },
   // { path: 'others', loadChildren: () => import('./modules/page-in-work/page-in-work.module').then(m => m.PageInWorkModule) },
   {
-    path: 'others',
+    path: 'fl/others',
     loadChildren: () =>
       import('./modules/home/home.module').then((m) => m.HomeModule),
   },
   {
-    path: 'real-estate-others',
+    path: 'fl/real-estate-others',
     loadChildren: () =>
       import('./modules/home/home.module').then((m) => m.HomeModule),
   },

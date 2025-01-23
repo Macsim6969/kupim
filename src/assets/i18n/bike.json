@@ -6,51 +6,52 @@
   ],
   "dashboard": {
     "state": "State of Florida",
-    "title": "Sell my bike",
-    "location": "(States Florida)",
-    "footerDescription": "Cash for bike Florida",
+    "title": "Sell bike Florida",
+    "location": "<strong>Professional Bike Buyback Service: Miami, Tampa, Orlando, and Jacksonville.</strong> We Buy Bicycles Across Florida. Same-Day Cash for Used Bikes.",
+    "footerDescription": "",
     "index": true,
-    "metaTitle": "Sell my used bike - Cash for bicycle near me",
-    "description": "Professional bike purchasing services. Quick & Easy Online Appraisal - Cash Offer Today in Miami, Orlando, Tampa, Jacksonville. Trade in your old bike.",
-    "keywords": "Sell my bicycle, Sell my used bicycle, Buy used bicycle, Second-hand bicycle sales, Cash for bicycle, Cash for my used bicycle, Sell bike locally, Quick cash for bike, Sell bike online, Sell my bike fast, Sell old bike for cash",
-    "ogTitle": "Sell my used bike - Cash for bicycle near me - Buddy Cash",
-    "ogDescription": "Professional bike purchasing services. Quick & Easy Online Appraisal - Cash Offer Today in Miami, Orlando, Tampa, Jacksonville. Trade in your old bike - Buddy Cash",
+    "metaTitle": "Sell Bike Florida - Miami, Orlando, Tampa, Jacksonville",
+    "description": "Same-Day Sell and Buy Bicycle for Cash - Mountain (MTB), Road, Hybrid, Cruiser, BMX, Electric (E-Bike), Touring, Gravel bicycles. Cash for used bikes near you. Trade in your bike!",
+    "keywords": "Bike, sell my bike, sell my used bike, buy used bike, second-hand bike sales, cash for my used bike, cash for bike, sell bike locally, quick cash for bike, sell bike online, sell my bike fast, sell old bike for cash, Bicycle, sell my bicycle, sell my used bicycle, buy used bicycle, second-hand bicycle sales, cash for my used bicycle, cash for bicycle, sell bicycle locally, quick cash for bicycle, sell bicycle online, sell my bicycle fast, sell old bicycle for cash.",
+    "ogTitle": "Cash for My Used Bike - Buddy Cash ",
+    "ogDescription": "Professional bicycle buyback service. Cash for my bike the same day!",
     "ogType": "website",
     "ogUrl": "https://buddy-cash.com/fl/bicycle ",
-    "ogImage": "/assets/img/bike/Sell_your_bike.jpg",
-    "image": "/assets/img/bike/bike.png",
+    "ogImage": "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
+    "image": "/assets/img/bike/bike.webp",
     "bgImage": "bike",
-    "class": "bike_text"
+    "class": "bike_text",
+    "altImage": "Bike for selling in Florida"
   },
   "prodInfo": {
     "title": "Types of Bike",
     "text": "We Purchase",
     "content": [
       {
-        "img": "/assets/img/bike/electric.png",
-        "alt": "Sell used Electric"
+        "img": "/assets/img/bike/electric.webp",
+        "alt": "Sell bike electric"
       },
       {
-        "img": "/assets/img/bike/new.png",
-        "alt": "Sell used New"
+        "img": "/assets/img/bike/new.webp",
+        "alt": "Sell bike new"
       },
       {
-        "img": "/assets/img/bike/parts.png",
-        "alt": "Sell used Parts"
+        "img": "/assets/img/bike/parts.webp",
+        "alt": "Sell bike parts"
       },
       {
-        "img": "/assets/img/bike/under_repair.png",
-        "alt": "Sell used Under Repair"
+        "img": "/assets/img/bike/under_repair.webp",
+        "alt": "Sell bike under repair"
       },
       {
-        "img": "/assets/img/bike/whole.png",
-        "alt": "Sell used Whole"
+        "img": "/assets/img/bike/whole.webp",
+        "alt": "Sell bike Whole"
       }
     ]
   },
   "easySteps": {
-    "title": "Value your Bike:",
-    "text": "3 Simple Steps",
+    "title": "Same-Day Cash",
+    "text": "for used Bike",
     "style": "bike",
     "contentStep1": {
       "step": "Step 1",
@@ -67,44 +68,53 @@
     }
   },
   "aboutInfo": {
-    "title": "What Sets ",
-    "text": "Us Apart",
+    "title": "Should you sell",
+    "text": "your laptop to us?",
     "list": [
       {
-        "src": "/assets/img/laptop/about/car.svg",
-        "title": "We buy bike in any condition"
+        "src": "/assets/img/laptop/about/car.webp",
+        "title": "We buy bicycles in any condition — from pristine to damaged",
+        "alt": "condition of bicycle"
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
-        "title": "Same-day purchase"
+        "title": "Fast sale — <strong>Cash for your bike today</strong>",
+        "alt": "cash payment today"
       },
       {
         "src": "/assets/img/laptop/about/lock.svg",
-        "title": "Every sale is confidential"
+        "title": "Statewide service — <strong>Sell your bike </strong>anywhere in Florida",
+        "alt": "sell anywhere in florida"
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "Trade-in available (exchange for a new bicycle)"
+        "title": "Specialists in complex cases (credit issues, missing documentation)",
+        "alt": "specialists in complex cases"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
-        "title": "Appraisal time via messenger - 7-10 minutes"
+        "title": "Guaranteed data privacy",
+        "alt": "guaranteed data privacy"
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
-        "title": "We offer higher prices than our competitors"
+        "title": "Expert evaluation and thorough functionality check",
+        "alt": "evaluation and check"
       },
       {
         "src": "/assets/img/laptop/about/flag.svg",
-        "title": "Operating across all U.S. states"
+        "title": "All delivery costs are covered by us",
+        "alt": "free delivery covered"
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
-        "title": "Instant cash payout"
+        "title": "Fully legal and transparent <strong>trade-in your bike</strong> program",
+        "alt": "legal trade-in program"
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
-        "title": "We handle complex cases (collateral, loans, after accident)"
+        "title": "Easy process — No hassle, no stress",
+        "alt": "easy no hassle process"
       }
     ]
   },
@@ -136,34 +146,35 @@
     "content": "Open Google Maps"
   },
   "questions": {
-    "title": "Have Questions?",
-    "descr": "We're Happy to Help",
+    "title": "Have question?",
+    "descr": "We re Happy to help",
     "listAsq": [
       {
-        "title": "What types of bicycles do you buy?",
-        "content": "Our company is in the market for a diverse range of bicycles, such as mountain, road, hybrid, city, BMX, fat bike, cruiser, folding, triathlon, electric, cyclocross, touring, kids', tandem, and track bikes. We work with most well-known brands including Giant, Trek, Specialized, Cannondale, Scott, Merida, Santa Cruz, Bianchi, Kona, Cube, Orbea, GT Bicycles, Norco, Focus, Cervélo, and others. Condition and age are the primary factors we consider."
+        "title": "How to sell bike online?",
+        "content": "Our <strong>bicycle pawnshop</strong> has streamlined the online evaluation process to ensure maximum convenience for our clients. Simply reach out to us via your preferred messaging platform (WhatsApp, Facebook Messenger, Messages, Telegram) or social network (Instagram, Facebook), providing photos of your bicycle along with a brief description. Within minutes, you will receive a competitive offer and a clear, step-by-step plan for completing the sale. In most cases, the transaction is finalized either on the same day or the following day."
       },
       {
-        "title": "How does the bike evaluation process work?",
-        "content": "Our online valuation process is streamlined for your convenience. Simply contact us through any messaging platform (Telegram, WhatsApp, Facebook Messenger) or social network (Instagram, Facebook) and send us photos along with a brief description (specifications, details, modifications). Within 5-7 minutes, you'll receive a competitive offer and a step-by-step plan for a quick sale."
+        "title": "Where to sell a bike in florida?",
+        "content": "<strong>Get cash for your bicycle near you</strong>: Miami, Orlando, Tampa, Jacksonville, Fort Lauderdale, St. Petersburg, Tallahassee, Hialeah, Port St. Lucie, Cape Coral, Pembroke Pines, Hollywood, Miramar, Gainesville, Coral Springs, Clearwater, West Palm Beach, Lakeland, Palm Bay, Pompano Beach, Miami Gardens, Sarasota, Delray Beach, Boca Raton, Daytona Beach, Fort Myers, Ocala, Melbourne, Kissimmee, Bradenton.<br/>We operate across the entire state of Florida."
       },
       {
-        "title": "Do you buy damaged or malfunctioning bicycles?",
-        "content": "Yes, we are prepared to make an offer on bicycles in any condition."
+        "title": "Top websites to sell a bike",
+        "content": "In today's market, numerous <strong>bicycle-selling websites</strong>offer similar services: you list your bike and wait for a potential buyer. These platforms essentially function like Facebook Marketplace, eBay, or other online marketplaces. But where’s the uniqueness? Where’s the service?<br/>We set ourselves apart by eliminating the traditional marketplace complexities. Our <strong>bicycle purchase service in Florida</strong> offers a unique, customer-focused solution. Simply send a photo of your bicycle through your preferred messaging platform. Within 10 minutes, you'll receive a precise and competitive offer. Once you agree on the price, you can immediately schedule a specialist to visit your location and complete the transaction."
+      },
+      {
+        "title": "Can you come to my location to pick up the bicycle? What is the cost of this service?",
+        "content": "Absolutely. Our pickup service is provided free of charge. If you receive a satisfactory offer during the online evaluation, you can schedule an appointment for one of our specialists to visit your location. Our expert will inspect the bicycle’s condition and functionality, finalize the transaction, and issue payment in your preferred format."
       },
       {
         "title": "What documents are required to sell a bicycle?",
-        "content": "Documentation is not mandatory for the sale. We purchase bicycles both with and without papers. However, if you have documentation, we welcome its inclusion."
+        "content": "Documentation is not mandatory for the sale. We <strong>purchase bicycles</strong> both with and without papers. However, if you have documentation, we welcome its inclusion."
       },
       {
-        "title": "Do you provide bicycle transportation services?",
-        "content": "We offer three convenient transportation options: you can deliver the bicycle to our office yourself, we can send our employee to your location for evaluation and transportation, or you have the option to ship the bicycle by mail. All of these services are provided at no additional cost to you."
-      },
-      {
-        "title": "Do you operate throughout the entire United States?",
-        "content": "While our network doesn't currently cover the entire United States, we are interested in working with customers from various regions and are willing to arrange pickup or postal delivery of the bicycle if necessary. Please note that for more distant locations, the waiting time for our appraiser's arrival may increase by 1-2 days. We strive to provide quality service to every customer, regardless of location."
+        "title": "What types of bicycles do you buy?",
+        "content": "Our company is in the market for a diverse range of bicycles, such as mountain, road, hybrid, city, BMX, fat bike, cruiser, folding, triathlon, electric, cyclocross, touring, kids', tandem, and track bikes. We work with most well-known brands including Giant, Trek, Specialized, Cannondale, Scott, Merida, Santa Cruz, Bianchi, Kona, Cube, Orbea, GT Bicycles, Norco, Focus, Cervélo, and others. Condition and age are the primary factors we consider.N"
       }
     ],
+    "isSlider": true,
     "listBottom1": {
       "title": "",
       "text": ""
