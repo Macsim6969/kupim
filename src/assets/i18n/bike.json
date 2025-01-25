@@ -162,7 +162,7 @@
         "content": "In today's market, numerous <strong>bicycle-selling websites</strong>offer similar services: you list your bike and wait for a potential buyer. These platforms essentially function like Facebook Marketplace, eBay, or other online marketplaces. But where’s the uniqueness? Where’s the service?<br/>We set ourselves apart by eliminating the traditional marketplace complexities. Our <strong>bicycle purchase service in Florida</strong> offers a unique, customer-focused solution. Simply send a photo of your bicycle through your preferred messaging platform. Within 10 minutes, you'll receive a precise and competitive offer. Once you agree on the price, you can immediately schedule a specialist to visit your location and complete the transaction."
       },
       {
-        "title": "Can you come to my location to pick up the bicycle? What is the cost of this service?",
+        "title": "Can you come to my location to pick up the bicycle?<br/>What is the cost of this service?",
         "content": "Absolutely. Our pickup service is provided free of charge. If you receive a satisfactory offer during the online evaluation, you can schedule an appointment for one of our specialists to visit your location. Our expert will inspect the bicycle’s condition and functionality, finalize the transaction, and issue payment in your preferred format."
       },
       {
@@ -175,6 +175,38 @@
       }
     ],
     "isSlider": true,
+    "slidersData": [
+      {
+        "img": "/assets/img/main_page/Transport.png",
+        "link": "/fl/transport",
+        "alt": "Sell used Transport",
+        "isActiveMobile": true
+      },
+      {
+        "img": "/assets/img/transport/Car.png",
+        "alt": "Sell my Car",
+        "link": "/fl/car",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/transport/Choose_a_motorcycle.png",
+        "alt": "Sell my Motorcycle",
+        "link": "/fl/motorcycle",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/transport/Choose_a_bike.png",
+        "alt": "Sell my Bike",
+        "link": "/fl/bike",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/See_all.webp",
+        "alt": "See All",
+        "link": "/fl",
+        "isActiveMobile": true
+      }
+    ],
     "listBottom1": {
       "title": "",
       "text": ""
