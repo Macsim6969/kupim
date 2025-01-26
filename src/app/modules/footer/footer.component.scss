@@ -162,13 +162,19 @@
       }
 
       .loft_lof_contact_img {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
         @media (max-width: 620px) {
           display: none;
         }
 
         .loft_contact_img1,
         .loft_contact_img {
-          width: 75px;
+          width: 50px;
+          height: 100%;
+          object-fit: cover;
         }
       }
     }
