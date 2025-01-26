@@ -1,12 +1,11 @@
-.legal-information {
+.about-us {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-
+  gap: 15px;
   max-width: 1366px;
   margin: 100px auto;
 
-  a {
+  p {
     font-size: 20px;
   }
 }

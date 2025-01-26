@@ -36,16 +36,13 @@ const routes: Routes = [
   {
     path: 'fl/about-us',
     loadChildren: () =>
-      import('./modules/page-in-work/page-in-work.module').then(
-        (m) => m.PageInWorkModule
-      ),
+      import('./modules/about-us/about-us.module').then((m) => m.AboutUsModule),
   },
   {
     path: 'fl/blog',
     loadChildren: () =>
       import('./modules/blog/blog.module').then((m) => m.BlogModule),
   },
-  // { path: 'others', loadChildren: () => import('./modules/page-in-work/page-in-work.module').then(m => m.PageInWorkModule) },
   {
     path: 'fl/others',
     loadChildren: () =>
