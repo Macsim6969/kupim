@@ -4,7 +4,7 @@
     <div class="review" *ngFor="let review of reviewList">
       <div class="review_title">{{ review.message }}</div>
       <div class="review_name">{{ review.name }}</div>
-      <div class="review_email">{{ review.email }}</div>
+      <div class="review_email">(Sold the {{ review.email }})</div>
       <div class="stars">
         <div class="star" *ngFor="let star of review.counterArray"></div>
       </div>
