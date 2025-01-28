@@ -5,18 +5,27 @@
   ],
   "dashboard": {
     "state": "State of Florida",
-    "title": "Scroll down <span>to see what we buy</span>",
-    "location": "(State Florida)",
-    "index": false,
+    "title": "Sell TV Florida",
+    "location": "<strong>Professional TV Pawn Shop. Get cash for a used TV near me. We provide pickup service across all cities in Florida.</strong> Receive the best price for your TV same day! Buyback Service in Miami, Orlando, Tampa, Jacksonville, Fort Lauderdale",
+    "index": true,
     "footerDescription": "Cash for your trash Florida!",
-    "image": "/assets/img/electronics/electronics.svg",
-    "bgImage": "main",
-    "class": "main_text"
+    "metaTitle": "Sell TV Near Me - Miami, Orlando, Tampa, Jacksonville",
+    "description": "Trade in your old TV for cash today! Cash for used Television the Same-Day. Pawn shop near me. Professional buyback service with Free pickup in Florida",
+    "keywords": "TV, sell my TV, sell my used TV, buy used TV, second-hand TV sales, cash for my used TV, cash for TV, sell TV locally, quick cash for TV, sell TV online, sell my TV fast, sell old TV for cash",
+    "ogTitle": "Cash for My Used TV - Buddy Cash",
+    "ogDescription": "Trade in your old TV for cash today - Buddy Cash",
+    "ogType": "website",
+    "ogUrl": "https://buddy-cash.com/fl/tv",
+    "ogImage": "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
+    "image": "/assets/img/tv/TV.webp",
+    "bgImage": "tv",
+    "class": "tv_text",
+    "alt": "Sell TV Florida"
   },
   "easySteps": {
-    "title": "3 easy steps",
-    "text": "to appraise your tv online",
-    "style": "main",
+    "title": "How to Get",
+    "text": "Cash for Used TV Near Me?",
+    "style": "tv",
     "contentStep1": {
       "step": "Step 1",
       "stepText": "Shoot us a picture or the details on any messaging app",
@@ -32,44 +41,53 @@
     }
   },
   "aboutInfo": {
-    "title": "We buy back",
-    "text": "laptops in Florida",
+    "title": "Should you sell",
+    "text": "your Tv to us?",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
-        "title": "We’ll buy anything you’ve got."
+        "title": "We buy TV in any condition — from pristine to damaged",
+        "alt": "Buy any TV"
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
-        "title": "Same-Day Purchase"
+        "title": "Fast sale — <strong>Cash for your TV near you</strong>",
+        "alt": "Fast TV sale"
       },
       {
         "src": "/assets/img/laptop/about/lock.svg",
-        "title": "Every Sale is Confidential"
+        "title": "Statewide service — <strong>Sell your TV anywhere in Florida</strong>",
+        "alt": "Cash for TV"
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "Trade-In"
+        "title": "Specialists in complex cases — No paperwork, no problem",
+        "alt": "Sell TV Florida"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
-        "title": "Appraisal Time via Messenger - 7 Minutes"
+        "title": "Guaranteed data privacy — Your information stays secure",
+        "alt": "No paperwork"
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
-        "title": "We Offer Higher Prices Than Our Competitors"
+        "title": "Expert evaluation — Professional functionality check",
+        "alt": "Data privacy"
       },
       {
         "src": "/assets/img/laptop/about/flag.svg",
-        "title": "Operating Across All U.S. States"
+        "title": "<strong>Trade-in your TV for cash</strong> — Legal and transparent ",
+        "alt": "TV evaluation"
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
-        "title": "Instant Payment"
+        "title": "Easy process — No hassle, no stress",
+        "alt": "Trade-in TV"
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
-        "title": "We Handle Complex Cases (Collateral, Loans)"
+        "title": "We Handle Complex Cases (Collateral, Loans)",
+        "alt": "Easy process"
       }
     ]
   },
@@ -77,25 +95,22 @@
     "title": "Customer Reviews",
     "feedback": [
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
-        "stars": 5,
-        "feedbackMap": "Review from Google Maps"
+        "content": "Got in touch about my Samsung this morning, and they showed up at my Miami Beach condo the same day. Zero hassle, straight-up price, cash in hand. Exactly what you want when you're trying to upgrade your setup.",
+        "name": "Marcus D. ",
+        "prod": "Sold tSamsung TV",
+        "stars": 5
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
-        "stars": 4,
-        "feedbackMap": "Review from Google Maps"
+        "content": "These folks bought my TV when I was moving out. Good price overall, though I had to wait around a bit for them to show up. Communication could've been better, but hey, they got the job done and paid what they promised. Would probably use them again.",
+        "name": "Rachel K.",
+        "prod": "Sold Sber QLED 4K UHD",
+        "stars": 4
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
-        "stars": 5,
-        "feedbackMap": "Review from Google Maps"
+        "content": "Y'all made selling my TV super easy. Been trying to sell this thing for weeks on Facebook Marketplace with nothing but flakes. Called these guys and bam - done deal in a couple hours. Fair price too, considering the scratch on the stand.",
+        "name": "Brandon W.",
+        "prod": "Sold Philips 2K LED",
+        "stars": 5
       }
     ],
     "content": "Open Google Maps"
@@ -103,39 +118,73 @@
   "questions": {
     "title": "Have Questions?",
     "descr": "We're Happy to Help",
+    "isOpenAll": true,
     "listAsq": [
       {
-        "title": "What kind of cars do you buy?",
-        "content": "Absolutely any: whole, after the accident, not customs clearance, on tp. Mark, year release, mileage, condition do not matter. Redemptionaem credit cars, as well as cars with penalties. We work with legal entities and individuals, Redemption of car fleets."
+        "title": "How can I sell my TV online?",
+        "content": "<strong>Sell your TV</strong> with our service is quick and straightforward. We've streamlined our evaluation process to make it as simple as possible. Just send us photos of your TV and its model number through your preferred communication channel (Facebook Messenger, WhatsApp, iMessage, Telegram, Instagram, or email). Within 10 minutes, you'll receive a precise quote along with detailed instructions for the next steps."
       },
       {
-        "title": "Can I leave the car for you to sell?",
-        "content": "Yes. We will put your vehicle on consignment at our dealership."
+        "title": "Do you offer pickup service?",
+        "content": "Yes, we provide complimentary TV pickup service anywhere in Florida, typically on the same day you contact us. Alternatively, you can bring your TV to one of our convenient office locations in Miami, Orlando, Tampa, or Jacksonville. Both options are available to suit your preferences and schedule."
       },
       {
-        "title": "How long does the sale last?",
-        "content": "The sale of the car takes place in 2-3 hours."
+        "title": "How can I maximize my TV's value?",
+        "content": "Preparation is key to securing the best possible price for your TV. We recommend thoroughly cleaning the unit to remove dust and debris, performing a factory reset of the system, and including all available accessories such as remote controls, TV tuners, Wi-Fi adapters, and mounting brackets. Having the original documentation, receipt, and packaging will add extra value to your sale."
       },
       {
-        "title": "Do you buy only in Kiev?",
-        "content": "No, we redemption cars all over Ukraine. In most cases. Redemption in Ukraine occurs on the day of communication."
+        "title": "What types of TVs do you buy?",
+        "content": "We actively purchase a wide range of TV technologies including LED, OLED, QLED, LCD, 4K UHD, HDR, Smart TV, 3D, Curved, Plasma, Full HD, NanoCell, Edge-lit LED, Direct-lit LED, Mini LED, Wide Color Gamut, Dolby Vision, and Ambient Mode displays. We accept all major brands including Samsung, LG, Sony, Vizio, TCL, Hisense, Panasonic, Philips, Sharp, Insignia, Toshiba, Sceptre, Westinghouse, RCA, and Element."
       },
       {
-        "title": "I want to sell for as much as possible!",
-        "content": "To increase Redemption's price by 10%, wash the car, grab a a second set of tires and keys. In 90% of cases the valuation will be higher than other car Redemption."
+        "title": "When do I receive payment?",
+        "content": "After we confirm our online quote, our specialist will visit your location. If the TV's condition, accessories, and appearance match what you've described, the quoted price remains unchanged. Following a thorough inspection and functionality test, you'll receive immediate payment through your preferred method - bank check, cash, or direct bank transfer."
       },
       {
-        "title": "I'll sell the car for more!",
-        "content": "No problem! We just want to save you from wasting your time. Pre-sale preparation, photo shoots, registration on profile sites, pay for advertising. ads, answering phones and traveling to appointments at inconvenient times is the least of what you're gonna to deal with."
+        "title": "Which areas do you serve?",
+        "content": "We provide service throughout Florida, with extensive coverage across the state's major regions: <br/> North Florida: Jacksonville, Tallahassee, Gainesville, Pensacola, Panama City, Lake City, St. Augustine, Fernandina Beach, Live Oak, and Fort Walton Beach, as well as surrounding communities. <br/> Central Florida: Orlando, Tampa, St. Petersburg, Clearwater, Lakeland, Daytona Beach, Melbourne, Ocala, The Villages, and Winter Haven, plus neighboring areas. <br/> South Florida: Miami, Fort Lauderdale, West Palm Beach, Boca Raton, Hollywood, Pompano Beach, Coral Springs, Homestead, Naples, and Fort Myers, including all adjacent cities and suburbs."
+      }
+    ],
+    "isSlider": true,
+    "slidersData": [
+      {
+        "img": "/assets/img/electronics/Laptop.svg",
+        "link": "/fl/transport",
+        "alt": "Sell used Laptop",
+        "isActiveMobile": true
+      },
+      {
+        "img": "/assets/img/transport/Car.png",
+        "alt": "Sell my Car",
+        "link": "/fl/car",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/transport/Choose_a_motorcycle.png",
+        "alt": "Sell my Motorcycle",
+        "link": "/fl/motorcycle",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/transport/Choose_a_bike.png",
+        "alt": "Sell my Bike",
+        "link": "/fl/bike",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/See_all.webp",
+        "alt": "See All",
+        "link": "/fl",
+        "isActiveMobile": true
       }
     ],
     "listBottom1": {
-      "title": "Urgent Redemption of boats",
-      "text": "Over the course of the company's existence, we've redemptionized a large number of used  vehicles of various makes and models. We've learned to be smart about Redemption: the vehicles      are de-registered and all transactions are legally correct. <br/> We offer services on car buying in all districts of Kiev (Kiev region) and Ukraine. Those who do not want to spend time and effort to find a client, it is better to use the service 'autoRedemption'. Of course you will not get the maximum value for the car, but 90-95% of the market value, we guarantee you! value we guarantee you!<br/> Still, if you decide to sell a used car on your own, it is recommended to be patient. patience. Selling a car on your own can take months. And without an understanding of the market. it is difficult to set a price that will suit both you and the potential buyer. You'll end up wasting your time and effort for nothing."
+      "title": "",
+      "text": ""
     },
     "listBottom2": {
-      "title": "Boat buying in Kiev",
-      "text": "Everything is simple! Send us a photo of the vehicle in a convenient messenger (viber, telegram, instagram). Within 4-5 minutes appraiser Vladimir will write the cost of Redemption. Having come to an agreement, we will immediately go to the You! That you would not have traveled in vain, we will come to you ourselves, absolutely free, without any or claims if you refuse our services. We value the reputation and time of our customers!"
+      "title": "",
+      "text": ""
     }
   }
 }

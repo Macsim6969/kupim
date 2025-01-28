@@ -7,7 +7,7 @@
     "state": "State of Florida",
     "title": "Sell my <span>used electronics</span>",
     "location": "(State Florida)",
-    "index": false,
+    "index": true,
     "footerDescription": "Cash for your device Florida!",
     "metaTitle": "Sell my Electronics/Device - Miami, Orlando, Tampa, Jacksonville",
     "description": "Cash for my used electronics in Florida | Quick & Easy Online Appraisal | Professional device buyback service near me | Trade in your old electronics",
@@ -119,7 +119,7 @@
         "img": "/assets/img/electronics/TV.svg",
         "route": "/fl/tv",
         "alt": "TV",
-        "isBlock": true
+        "isBlock": false
       },
       {
         "img": "/assets/img/electronics/Vacuum_cleaner.svg",

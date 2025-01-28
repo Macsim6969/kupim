@@ -1,6 +1,7 @@
 export interface Questions {
   title: string
   descr: string
+  isOpenAll: boolean
   isSlider: boolean
   listAsq: listQuestions[]
   listBottom1: ListBottom
