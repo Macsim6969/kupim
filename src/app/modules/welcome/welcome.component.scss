@@ -380,6 +380,12 @@
             height: 300px;
           }
 
+          &.tv{
+            @media (max-width: 420px) {
+              margin-top: -30px;
+            }
+          }
+
           @media (max-width: 1250px) {
             width: 350px;
             height: auto;
