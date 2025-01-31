@@ -127,4 +127,47 @@ export class AppComponent implements OnInit {
     this.isOpenSidebar$ = this.sidebarService._isSidebarOpen$;
   }
 
+
+
+  private updateJsonLd(data: any) {
+    if (!data) return;
+
+    const jsonLdData = {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": data.ogUrl || "https://buddy-cash.com/fl",
+      "name": data.ogTitle || "Sell used items - Miami, Tampa, Orlando, Jacksonville, Fl - Buddy Cash",
+      "description": data.ogDescription || "Professional asset purchase services: Buy, sell, and trade vehicles, electronics, real estate, and furniture. Get money today. Free online valuation in 10 minutes.",
+      "image": data.ogImage || "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
+      "url": data.ogUrl || "https://buddy-cash.com/fl",
+      "sameAs": [
+        "http://m.me/buddycash01",
+        "https://t.me/buddy_cashFL",
+        "https://www.instagram.com/buddycash.fl?igsh=ajExazF2MjJkM3cz"
+      ],
+      "telephone": "+17275091449",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "55 NE 5th St",
+        "addressLocality": "St. Petersburg",
+        "addressRegion": "FL",
+        "postalCode": "33132",
+        "addressCountry": "US"
+      },
+      "openingHours": "Mo-Su 09:00 AM - 07:00 PM"
+    };
+
+    const existingScript = this.document.head.querySelector("script[type='application/ld+json']");
+    if (existingScript) {
+      this.document.head.removeChild(existingScript);
+    }
+
+    const script = this.document.createElement('script');
+    script.setAttribute('type', 'application/ld+json');
+    script.textContent = JSON.stringify(jsonLdData);
+
+    this.document.head.appendChild(script);
+  }
+
+
 }
