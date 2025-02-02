@@ -41,7 +41,7 @@
         "img": "/assets/img/electronics/Camera.svg",
         "route": "/fl/camera",
         "alt": "Camera",
-        "isBlock": true
+        "isBlock": false
       },
       {
         "img": "/assets/img/electronics/Coffee_maker.svg",

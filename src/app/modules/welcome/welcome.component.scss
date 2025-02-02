@@ -490,6 +490,17 @@
               font-size: 22px;
             }
 
+            &.camera_text{
+              font-size: 28px;
+              display: flex;
+              flex-direction: column;
+              max-width: 80%;
+              @media (max-width: 1020px) {
+                font-size: 20px;
+              }
+
+            }
+
             &.tv_text,
             &.bike_text,
             &.laptop_text {

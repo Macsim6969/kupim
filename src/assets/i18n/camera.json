@@ -5,18 +5,57 @@
   ],
   "dashboard": {
     "state": "State of Florida",
-    "title": "Scroll down <span>to see what we buy</span>",
-    "location": "(State Florida)",
-    "index": false,
-    "footerDescription": "Cash for your trash Florida!",
-    "image": "/assets/img/electronics/electronics.svg",
-    "bgImage": "main",
-    "class": "main_text"
+    "title": "Sell Сamera",
+    "location": "<strong>Professional Camera Pawn Shop. Trade-In for cash the following cameras: Canon, Nikon, Sony, Fujifilm, GoPro, DJI, Panasonic, Polaroid, Leica, and Ricoh. We provide pickup service across all cities in Florida. Buyback Service in Miami, Orlando, Tampa, Jacksonville, and Fort Lauderdale.</strong>",
+    "index": true,
+    "footerDescription": "",
+    "metaTitle": "Sell Camera – Trade-In for Cash Same Day",
+    "description": "Pawn shop with free pickup. Sell camera in Miami, Tampa, Orlando, and Jacksonville. Get cash for used DSLR, point-and-shoot, action, mirrorless, instant, compact cameras.",
+    "keywords": "Camera, sell my camera, sell my used camera, buy used camera, second-hand camera sales, cash for my used camera, cash for camera, sell camera locally, quick cash for camera, sell camera online, sell my camera fast, sell old camera for cash.",
+    "ogTitle": "Sell Camera Today - Buddy Cash",
+    "ogDescription": "Cash for used cameras. Professional pawn shop near me - Buddy Cash",
+    "ogType": "website",
+    "ogUrl": "https://buddy-cash.com/fl/ ",
+    "ogImage": "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
+    "image": "/assets/img/camera/camera_logo.webp",
+    "bgImage": "camera",
+    "class": "camera_text",
+    "altImage": "Sell laptop for cash – alt tag photo cam"
+  },
+  "prodInfo": {
+    "title": "Types of Cameras",
+    "text": "We Trade In for Cash",
+    "content": [
+      {
+        "img": "/assets/img/camera/Sell_action_camera.webp",
+        "alt": "Sell action camera"
+      },
+      {
+        "img": "/assets/img/camera/Sell_dslr_camera.webp",
+        "alt": "Sell dslr camera"
+      },
+      {
+        "img": "/assets/img/camera/Sell_instant_camera.webp",
+        "alt": "Sell instant camera"
+      },
+      {
+        "img": "/assets/img/camera/Sell_mirrorless_camera.webp",
+        "alt": "Sell morrorless camera"
+      },
+      {
+        "img": "/assets/img/camera/Sell_Point.webp",
+        "alt": "Sell point camera"
+      },
+      {
+        "img": "/assets/img/camera/Sell_video_camera.webp",
+        "alt": "Sell video camera"
+      }
+    ]
   },
   "easySteps": {
-    "title": "3 easy steps",
-    "text": "to appraise your camera online",
-    "style": "main",
+    "title": "Where to sell",
+    "text": "a camera near me?",
+    "style": "camera",
     "contentStep1": {
       "step": "Step 1",
       "stepText": "Shoot us a picture or the details on any messaging app",
@@ -32,44 +71,53 @@
     }
   },
   "aboutInfo": {
-    "title": "We buy back",
-    "text": "laptops in Florida",
+    "title": "Should you sell",
+    "text": "your camera to us?",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.webp",
-        "title": "We’ll buy anything you’ve got."
+        "title": "We buy cameras in any condition - from pristine to damaged",
+        "alt": "Condition Range"
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
-        "title": "Same-Day Purchase"
+        "title": "<strong>Same-day cash payment for your camera</strong>",
+        "alt": "Fast Payment"
       },
       {
         "src": "/assets/img/laptop/about/lock.svg",
-        "title": "Every Sale is Confidential"
+        "title": "A nationwide service - <strong>sell your camera anywhere in the USA</strong>",
+        "alt": "National Coverage"
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "Trade-In"
+        "title": "Specialists in complex cases (financed, water-damaged, or physically damaged cameras)",
+        "alt": "Problem Solving"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
-        "title": "Appraisal Time via Messenger - 7 Minutes"
+        "title": "A guaranteed data privacy",
+        "alt": "Privacy Shield"
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
-        "title": "We Offer Higher Prices Than Our Competitors"
+        "title": "An expert evaluation and comprehensive functionality check",
+        "alt": "Expert Check"
       },
       {
         "src": "/assets/img/laptop/about/flag.svg",
-        "title": "Operating Across All U.S. States"
+        "title": "All shipping costs are covered by us",
+        "alt": "Free Shipping"
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
-        "title": "Instant Payment"
+        "title": "<strong>A fully legal and transparent camera trade-in program</strong>",
+        "alt": "Legal Trade"
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
-        "title": "We Handle Complex Cases (Collateral, Loans)"
+        "title": "A simple process - no hassle, no stress",
+        "alt": "Easy Process"
       }
     ]
   },
@@ -77,25 +125,22 @@
     "title": "Customer Reviews",
     "feedback": [
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
-        "stars": 5,
-"feedbackMap": "Review from Google Maps"
+        "content": "Just googled sell camera near me and found these guys. Been trying to sell my Canon R6 II on FB Marketplace for weeks - nothing but flakes and lowballers. Called them up and boom - done deal in a couple hours. Fair price too, even with the small scratch on the lens housing. Loved that they came right to my place!",
+        "name": "Brandon W.",
+        "prod": "Sold Canon R6 II",
+        "stars": 5
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
-        "stars": 4,
-"feedbackMap": "Review from Google Maps"
+        "content": "Living in Miami, I needed to sell my Fuji quickly but wasn't having much luck. Price was decent but took them forever to show up - didn't make it until evening. Still, they paid exactly what they promised over the phone. At least they actually showed up unlike those Marketplace time-wasters. If you need to sell camera Miami area, they're reliable, just not the fastest.",
+        "name": "Maria K.",
+        "prod": "Sold Fujifilm X-T5",
+        "stars": 4
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
-        "stars": 5,
-"feedbackMap": "Review from Google Maps"
+        "content": "Was gonna hit up a pawnshop camera in Miami but stumbled on these guys instead - best decision ever! My Nikon was just collecting dust, figured I'd see what I could get. They actually offered way more than the pawnshop quoted me. Super convenient they came to my house, checked it out quickly, and paid cash on the spot. Way better than hauling it around town!",
+        "name": "Alex D.",
+        "prod": "Sold Nikon Z8",
+        "stars": 5
       }
     ],
     "content": "Open Google Maps"
@@ -105,37 +150,37 @@
     "descr": "We're Happy to Help",
     "listAsq": [
       {
-        "title": "What kind of cars do you buy?",
-        "content": "Absolutely any: whole, after the accident, not customs clearance, on tp. Mark, year release, mileage, condition do not matter. Redemptionaem credit cars, as well as cars with penalties. We work with legal entities and individuals, Redemption of car fleets."
+        "title": "Who buys cameras? Where can I sell a camera?",
+        "content": "Selling a camera can be a complex and time-consuming process. Attempting to sell independently on marketplaces often becomes a challenging ordeal - requiring equipment preparation, photography, writing descriptions, price negotiations, and meetings with strangers. The process of trying to <strong> sell camera near me </strong> through traditional channels can be overwhelming and potentially risky. <br/> We're here to eliminate these hassles. Our professional camera buying service offers <strong> cash for used camera </strong> equipment with a streamlined, efficient process. Simply get an instant online quote through our website today, and we can complete the purchase immediately. Our trusted team of camera buyers ensures a safe, secure, and straigH3  --  I'm located outside of Florida. Can I ship it by mail? <br/> Currently, we offer in-person pickup services exclusively in Florida, with <strong> Pawn Shop locations in Miami, Orlando, Tampa, and Jacksonville. </strong> <br/> For out-of-state customers, we provide a convenient shipping solution. We cover all shipping costs and insurance, and you'll receive payment via bank transfer (Zelle, CashApp, PayPal, or Venmo) the same day we receive your camera."
       },
       {
-        "title": "Can I leave the car for you to sell?",
-        "content": "Yes. We will put your vehicle on consignment at our dealership."
+        "title": "When can I get cash for my camera?",
+        "content": "Mail-in option: Payment is processed immediately upon receiving and inspecting your camera </br> Florida pickup service: <strong>Trade-in for cash same day after our specialist's evaluation</strong>"
       },
       {
-        "title": "How long does the sale last?",
-        "content": "The sale of the car takes place in 2-3 hours."
+        "title": "Do you accept additional equipment (lenses, tripods, lighting, and other items)?",
+        "content": "Yes, we purchase all photography equipment. You can increase your quote by including lenses and available accessories. Original packaging and purchase receipts will add extra value to your <strong> Sell Camera offer. </strong>"
       },
       {
-        "title": "Do you buy only in Kiev?",
-        "content": "No, we redemption cars all over Ukraine. In most cases. Redemption in Ukraine occurs on the day of communication."
+        "title": "How does the camera sale process work?",
+        "content": "The process is streamlined for your convenience to sell camera. Contact us through your preferred messenger (Facebook Messenger, WhatsApp, Instagram, Telegram, iMessage) with photos, model information, and included accessories. Within 10 minutes, you'll receive a firm quote. If you accept, our specialist will visit your location, evaluate the equipment, and provide payment via cash, check, or bank transfer. <br/> Note: The online quote remains unchanged during physical inspection if all conditions and defects were accurately described. In most cases, our specialist arrives the same day."
       },
       {
-        "title": "I want to sell for as much as possible!",
-        "content": "To increase Redemption's price by 10%, wash the car, grab a a second set of tires and keys. In 90% of cases the valuation will be higher than other car Redemption."
+        "title": "Do you offer a pickup service?",
+        "content": "Yes, we provide complimentary pickup service throughout Florida to sell camera, typically on the same day you contact us. Alternatively, you can bring your camera to any of our convenient locations in Miami, Orlando, Tampa, or Jacksonville. Both options are available to accommodate your preferences and schedule."
       },
       {
-        "title": "I'll sell the car for more!",
-        "content": "No problem! We just want to save you from wasting your time. Pre-sale preparation, photo shoots, registration on profile sites, pay for advertising. ads, answering phones and traveling to appointments at inconvenient times is the least of what you're gonna to deal with."
+        "title": "What types and brands of cameras do you accept?",
+        "content": "Whether you're selling your DSLR, point-and-shoot, action camera, mirrorless, instant, or compact camera, we're ready to make an offer. Our service covers all major brands including Canon, Nikon, Sony, Pentax, Olympus, Panasonic, Fujifilm, GoPro, DJI, Garmin, Polaroid, Leica, Kodak, and Ricoh."
       }
     ],
     "listBottom1": {
-      "title": "Urgent Redemption of boats",
-      "text": "Over the course of the company's existence, we've redemptionized a large number of used  vehicles of various makes and models. We've learned to be smart about Redemption: the vehicles      are de-registered and all transactions are legally correct. <br/> We offer services on car buying in all districts of Kiev (Kiev region) and Ukraine. Those who do not want to spend time and effort to find a client, it is better to use the service 'autoRedemption'. Of course you will not get the maximum value for the car, but 90-95% of the market value, we guarantee you! value we guarantee you!<br/> Still, if you decide to sell a used car on your own, it is recommended to be patient. patience. Selling a car on your own can take months. And without an understanding of the market. it is difficult to set a price that will suit both you and the potential buyer. You'll end up wasting your time and effort for nothing."
+      "title": "",
+      "text": ""
     },
     "listBottom2": {
-      "title": "Boat buying in Kiev",
-      "text": "Everything is simple! Send us a photo of the vehicle in a convenient messenger (viber, telegram, instagram). Within 4-5 minutes appraiser Vladimir will write the cost of Redemption. Having come to an agreement, we will immediately go to the You! That you would not have traveled in vain, we will come to you ourselves, absolutely free, without any or claims if you refuse our services. We value the reputation and time of our customers!"
+      "title": "",
+      "text": ""
     }
   }
 }
