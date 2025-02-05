@@ -15,7 +15,7 @@
     "ogDescription": "Cash for used electric Scooter. Professional pawn shop near me - Buddy Cash",
     "ogType": "website",
     "ogUrl": "https://buddy-cash.com/assets/img/scooter/Scooter.webp",
-    "ogImage": "/assets/img/main_page/Sell my scooter.jpg",
+    "ogImage": "https://buddy-cash.com/assets/img/scooter/Scooter.webp",
     "image": "/assets/img/scooter/Scooter.webp",
     "bgImage": "scooter",
     "class": "scooter_text",
