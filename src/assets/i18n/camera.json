@@ -148,10 +148,15 @@
   "questions": {
     "title": "Have Questions?",
     "descr": "We're Happy to Help",
+    "isOpenAll": true,
     "listAsq": [
       {
         "title": "Who buys cameras? Where can I sell a camera?",
-        "content": "Selling a camera can be a complex and time-consuming process. Attempting to sell independently on marketplaces often becomes a challenging ordeal - requiring equipment preparation, photography, writing descriptions, price negotiations, and meetings with strangers. The process of trying to <strong> sell camera near me </strong> through traditional channels can be overwhelming and potentially risky. <br/> We're here to eliminate these hassles. Our professional camera buying service offers <strong> cash for used camera </strong> equipment with a streamlined, efficient process. Simply get an instant online quote through our website today, and we can complete the purchase immediately. Our trusted team of camera buyers ensures a safe, secure, and straigH3  --  I'm located outside of Florida. Can I ship it by mail? <br/> Currently, we offer in-person pickup services exclusively in Florida, with <strong> Pawn Shop locations in Miami, Orlando, Tampa, and Jacksonville. </strong> <br/> For out-of-state customers, we provide a convenient shipping solution. We cover all shipping costs and insurance, and you'll receive payment via bank transfer (Zelle, CashApp, PayPal, or Venmo) the same day we receive your camera."
+        "content": "Selling a camera can be a complex and time-consuming process. Attempting to sell independently on marketplaces often becomes a challenging ordeal - requiring equipment preparation, photography, writing descriptions, price negotiations, and meetings with strangers. The process of trying to <strong> sell camera near me </strong> through traditional channels can be overwhelming and potentially risky. <br/> We're here to eliminate these hassles. Our professional camera buying service offers <strong> cash for used camera </strong> equipment with a streamlined, efficient process. Simply get an instant online quote through our website today, and we can complete the purchase immediately. Our trusted team of camera buyers ensures a safe, secure, and straig"
+      },
+      {
+        "title": "I'm located outside of Florida. Can I ship it by mail?",
+        "content": "Currently, we offer in-person pickup services exclusively in Florida, with <strong> Pawn Shop locations in Miami, Orlando, Tampa, and Jacksonville. </strong> <br/> For out-of-state customers, we provide a convenient shipping solution. We cover all shipping costs and insurance, and you'll receive payment via bank transfer (Zelle, CashApp, PayPal, or Venmo) the same day we receive your camera."
       },
       {
         "title": "When can I get cash for my camera?",

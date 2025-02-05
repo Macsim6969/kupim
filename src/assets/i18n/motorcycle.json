@@ -7,51 +7,52 @@
   ],
   "dashboard": {
     "state": "State of Florida",
-    "title": "Sell my motorcycle",
-    "location": "(State Florida)",
-    "footerDescription": "Cash for motorcycle Florida",
+    "title": "Sell Motorcycle Miami",
+    "location": "<strong>Receive same-day cash for your motorcycle! </strong> Our motorcycle purchasing service is available statewide across Florida. We offer trade-in options for cash on scooters, motorcycles, and bikes. Obtain a free online appraisal within 10 minutes.",
+    "footerDescription": "",
     "index": true,
-    "metaTitle": "Sell my used Motorcycle - Miami, Orlando, Tampa, Jacksonville",
-    "description": "Quick & easy online appraisal - Cash for my used motorcycle near me. Trade in your old ride. Professional service for buying back In Florida",
-    "keywords": "Sell my motorcycle, Sell my used motorcycle, Buy used motorcycle, Second-hand motorcycle sales, Cash for motorcycle, Cash for my used motorcycle, Sell your motorcycle, Quick cash for motorcycle, Sell motorcycle online, Sell my motorcycle fast, Sell old motorcycle for cash.",
-    "ogTitle": "Sell my used Motorcycle - Miami, Orlando, Tampa, Jacksonville - Buddy Cash",
-    "ogDescription": "Quick & easy online appraisal - Cash for my used motorcycle near me. Trade in your old ride. Professional service for buying back In Florida - Buddy Cash",
+    "metaTitle": "Sell Motorcycle in Miami – Trade-In for Cash Same Day",
+    "description": "Sell your motorcycle in Miami, Tampa, Orlando, and Jacksonville. Pawn shop with free pickup. Get same-day cash for your used motorcycle, scooter, or bike.",
+    "keywords": "Motorcycle, sell my motorcycle, sell my used motorcycle, buy used motorcycle, second-hand motorcycle sales, cash for my used motorcycle, cash for motorcycle, sell motorcycle locally, quick cash for motorcycle, sell motorcycle online, sell my motorcycle fast, sell old motorcycle for cash.",
+    "ogTitle": "Sell Motorcycle Today – Buddy Cash",
+    "ogDescription": "Cash for used motorcycles. Professional buyback service near you – Buddy Cash",
     "ogType": "website",
-    "ogUrl": "https://buddy-cash.com/fl/motorcycle",
+    "ogUrl": "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
     "ogImage": "/assets/img/motorbike/Sell_your_motorcycle.jpg",
     "image": "/assets/img/motorbike/motorbike.png",
     "bgImage": "laptop",
-    "class": "laptop_text"
+    "class": "laptop_text",
+    "altImage": "Sell Motorcycle in Miami"
   },
   "prodInfo": {
-    "title": "Types of Motorbikes",
-    "text": "We Purchase",
+    "title": "Types of Motorcycles",
+    "text": "We Trade In for Cash",
     "content": [
       {
         "img": "/assets/img/motorbike/after_an_accident.png",
-        "alt": "Sell used After an accident"
+        "alt": "Sell motorcycle after an accident"
       },
       {
         "img": "/assets/img/motorbike/Credit.png",
-        "alt": "Sell used Credit"
+        "alt": "Sell credit motorcycle"
       },
       {
         "img": "/assets/img/motorbike/motorcycle.png",
-        "alt": "Sell used Motorcycle"
+        "alt": "Sell new motorcycle"
       },
       {
         "img": "/assets/img/motorbike/Scooter.png",
-        "alt": "Sell used Scooter"
+        "alt": "Sell scooter"
       },
       {
         "img": "/assets/img/motorbike/Bike.png",
-        "alt": "Sell used Bike"
+        "alt": "Sell bike"
       }
     ]
   },
   "easySteps": {
-    "title": "Value your Motorcycle:",
-    "text": "3 Simple Steps",
+    "title": "How to Sell a",
+    "text": "Motorcycle in Miami?",
     "style": "laptop  ",
     "contentStep1": {
       "step": "Step 1",
@@ -100,44 +101,53 @@
     ]
   },
   "aboutInfo": {
-    "title": "What Sets",
-    "text": "Us Apart",
+    "title": "Should you sell",
+    "text": "your Motorcycle to us?",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
-        "title": "We buy motorcycle in any condition"
+        "title": "<strong>Buying Motorcycles in Any Condition:</strong> All types welcome.",
+        "alt": "Motorcycle Purchase"
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
-        "title": "Same-Day Purchase"
+        "title": "<strong>Cash on the Spot:</strong> Instant payment guaranteed.",
+        "alt": "Cash Payment"
       },
       {
         "src": "/assets/img/laptop/about/lock.svg",
-        "title": "Every Sale is Confidential"
+        "title": "<strong>Sell Motorcycle in Miami</strong>: Statewide Florida service.",
+        "alt": "Sell Motorcycles"
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "Trade-In available (exchange for a new motorcycle)"
+        "title": "<strong>Flexible Purchases:</strong> Credit issues, no documents, and salvage motorcycles accepted.",
+        "alt": "Instant Payment"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
-        "title": "Appraisal Time via messenger - 10 Minutes"
+        "title": "<strong>100% Confidential Transactions.</strong>",
+        "alt": "Motorcycle Trade-In"
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
-        "title": "We Offer Higher Prices Than Our Competitors"
+        "title": "<strong>Professional Technical Evaluation.</strong>",
+        "alt": "Free Pickup"
       },
       {
         "src": "/assets/img/laptop/about/flag.svg",
-        "title": "Operating Across All U.S. States"
+        "title": "<strong>Trade-In Motorcycle for Cash</strong>: Free pickup included.",
+        "alt": "Confidential Transaction"
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
-        "title": "Instant cash payout"
+        "title": "<strong>Pawn Your Motorcycle in Miami</strong>: Legal, transparent process.",
+        "alt": "Technical Evaluation"
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
-        "title": "We handle complex cases (collateral, loans, post-accident)"
+        "title": "<strong>Zero-Cost Online Assessment.</strong>",
+        "alt": "Pawn Motorcycle"
       }
     ]
   },
@@ -145,21 +155,21 @@
     "title": "Customer Reviews",
     "feedback": [
       {
-        "content": "Yo, these dudes in Florida hooked me up when I was selling my old Honda Dio. Cash in hand, no drama. The whole thing was chill AF. If you're looking to unload your ride without the hassle, hit 'em up!",
+        "content": "PawnShop Motorcycle made selling my Honda incredibly smooth. These guys in Florida were professional and straightforward - cash in hand with zero complications. If you want to sell a motorcycle in Miami without any headaches, they're definitely the team to call. Fast, reliable, and completely hassle-free transaction that left me totally satisfied.",
         "name": "Tyler K.",
         "prod": "(Sold the Honda Dio scooter)",
         "stars": 5,
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Selling my beloved Kawasaki Ninja was bittersweet, but these professionals made it painless. Their offer was competitive, and the process was efficient. Appreciated their knowledge of high-performance bikes. A pleasant experience overall.",
+        "content": "Dan from the motorcycle buying service was impressively quick. Just 2 hours after the online evaluation, he arrived at my home to purchase my Kawasaki. The price was slightly reduced due to a wheel damage, which seemed fair. While not perfect, the sell motorcycle near me experience was convenient and straightforward. Would recommend for those looking for a quick sale.",
         "name": "Samantha L.",
         "prod": "(Sold the Kawasaki Ninja)",
         "stars": 4,
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Needed to part ways with my dirt bike. These guys were okay, but the initial quote was a bit low. After some negotiation, we reached a fair price. The pickup was prompt, though. Solid service, just be ready to haggle a little.",
+        "content": "Selling my Yamaha with these guys in Miami was exceptional. Cash for my motorcycle was exactly what I hoped for - no negotiations needed, fair price, and super professional pickup. They understood dirt bikes and gave me a transparent, quick transaction. If you're looking to sell motorcycle in Miami, these folks are top-notch.",
         "name": "Alex M.",
         "prod": "(Sold the Yamaha YZ250F)",
         "stars": 5,
@@ -173,28 +183,28 @@
     "descr": "We're Happy to Help",
     "listAsq": [
       {
-        "title": "What types of motorcycles do you purchase?",
-        "content": "Our company is actively seeking to purchase a variety of motorcycle-related vehicles, including motorcycles, scooters, mopeds, dirt bikes, sport bikes, cruisers, touring bikes, choppers, trikes, and all other types of motorcycles. We accept all makes and models."
+        "title": "Where can I sell a motorcycle in Miami?",
+        "content": "When it comes to <strong>sell motorcycle in Miami</strong>, there are many online platforms to consider, such as eBay, Facebook Marketplace, and auction sites. However, selling a motorcycle on these platforms can be time-consuming and frustrating. From creating the listing to dealing with complicated buyers and waiting for payment, the process can quickly become a headache. <br/> That’s why we’re here to help. <strong>If you want to sell motorcycle quickly</strong>, with no hassle, we offer an easy solution. Our process is straightforward and allows you to sell your bike for a fair price today."
       },
       {
-        "title": "How do you value a motorcycle?",
-        "content": "Our online valuation process is streamlined for your convenience. Simply contact us through any messaging platform (Telegram, WhatsApp, Facebook Messenger) or social network (Instagram, Facebook) and send us photos along with a brief description (specifications, details, modifications). Within 5-7 minutes, you'll receive a competitive offer and a step-by-step plan for a quick sale."
+        "title": "Are there motorcycle pawn shops in Miami?",
+        "content": "<strong>Yes, there are several pawnshop motorcycle options in Miami</strong>, but not all specialize exclusively in motorcycles. At our pawnshop, we focus on providing the best prices and service for motorcycle owners. We are experts in valuing motorcycles of all types and models, and we’re confident our offer will meet your expectations. <br/> Contact us for a free, no-obligation appraisal of your motorcycle. Within just 10-15 minutes, our specialist will give you a price quote. Whether you choose to <strong>sell motorcycle in Miami</strong> or not, you can trust us to offer you a fair deal."
       },
       {
-        "title": "Can I sell a financed motorcycle?",
-        "content": "Yes, our company is interested in acquiring motorcycles that have been financed through credit or leasing arrangements. We are prepared to consider financed bikes at any stage of the loan repayment process and leased bikes both still under active lease agreements and those that have completed their lease terms."
+        "title": "How does the motorcycle selling process work?",
+        "content": "The process of selling your motorcycle is incredibly simple. To get started, just reach out to us via your preferred messaging platform (iMessage, Facebook Messenger, Telegram, WhatsApp, Instagram). Provide us with the model, mileage, and a few photos of your motorcycle. Within 15 minutes, one of our specialists will send you a fixed offer. <br/> Once you agree to the offer, we can schedule an appointment for an appraiser to come to your location. After a thorough inspection, you'll receive <strong>cash for motorcycle </strong> immediately in the form most convenient for you—cash, bank check, or bank transfer (Zelle, PayPal, or CashApp)."
       },
       {
-        "title": "Do you buy damaged motorcycles?",
-        "content": "Yes, we are prepared to make an offer on motorcycles in any condition."
+        "title": "How quickly will I get money for my motorcycle?",
+        "content": "We understand that when you're selling your motorcycle, time matters. Our goal is to ensure that you <strong>get cash for motorcycle the same day</strong>. After the specialist evaluates your bike, we’ll transfer the payment immediately—whether by cash, bank check, or bank transfer through Zelle, PayPal, or CashApp. No delays, no waiting."
       },
       {
-        "title": "Do you offer pickup services?",
-        "content": "We offer two options for vehicle transfer: you can either bring the motorcycle to our office, or we can dispatch an appraiser to your location. Both services are provided at no cost to you."
+        "title": "Do you offer motorcycle pickup service throughout Florida?",
+        "content": "Yes, we offer free motorcycle pickup service throughout the entire state of Florida. No matter where you are, we’ll come to you the same day. This service is completely free of charge, ensuring a smooth and easy process for you. If you’re in <strong>Miami</strong>, you’re also welcome to visit our office, where we’ll be happy to assist you in person."
       },
       {
-        "title": "Do you operate throughout the entire United States?",
-        "content": "While our network doesn't currently cover the entire United States, we are interested in working with customers from various regions and are willing to arrange pickup of the motorcycle if necessary. Please note that for more distant locations, the waiting time for our appraiser's arrival may increase by 1-2 days. We strive to provide quality service to every customer, regardless of location."
+        "title": "What types of motorcycles do you buy?",
+        "content": "We buy all kinds of motorcycles—sport bikes, cruisers, naked bikes, choppers, touring bikes, enduro bikes, cafe racers, scooters, dual-sport motorcycles, and bobbers. If you have something unique or rare, we would be happy to consider it. Whether you're looking to <strong>trade-In motorcycle for cash</strong> or sell a regular bike, we’re ready to make a fair offer."
       }
     ],
     "listBottom1": {

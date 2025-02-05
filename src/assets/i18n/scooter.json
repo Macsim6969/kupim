@@ -4,26 +4,26 @@
   ],
   "dashboard": {
     "state": "State of Florida",
-    "title": "Sell my scooter",
-    "location": "(State Florida)",
+    "title": "Sell Scooter",
+    "location": "<strong>Professional Electric Scooter Pawn Shop. Trade in your electric scooter for cash.</strong> We buy scooters from the following brands: Segway, Xiaomi, Razor, Boosted, Unagi, Glion, Dualtron, Inokim, Ninebot, Apollo. We offer complimentary pickup service across all cities in Florida, including Miami, Orlando, Tampa, Jacksonville, and Fort <strong>Lauderdale. Same-day buyback service—we'll come to you today with cash in hand!</strong>",
     "index": true,
-    "footerDescription": "Cash for electric scooter Florida",
-    "metaTitle": "Sell my electric scooter - Cash for e-scooter near me - Florida",
-    "description": "Professional scooter buyback services. Quick & Easy Online Appraisal - Get cash for your old e-scooter today in Miami, Orlando, Tampa, and Jacksonville.",
-    "keywords": "Sell my scooter, Sell my used scooter, Buy used scooter, Second-hand scooter sales, Cash for scooter, Cash for my used scooter, Sell scooter locally, Quick cash for scooter, Sell scooter online, Sell my scooter fast, Sell old scooter for cash",
-    "ogTitle": "Sell my electric scooter - Cash for e-scooter near me - Buddy Cash",
-    "ogDescription": "Professional scooter buyback services. Quick & Easy Online Appraisal - Get cash for your old e-scooter today in Miami, Orlando, Tampa, and Jacksonville - Buddy Cash",
+    "footerDescription": "",
+    "metaTitle": "Sell Electric Scooter – Trade-In for Cash Same Day",
+    "description": "Sell Electric Scooter in Miami, Tampa, Orlando, and Jacksonville. Pawn shop with free pickup. Same-day cash for your used scooter. Pawn shop in Florida.",
+    "keywords": "Electric scooter, sell my electric scooter, sell my used electric scooter, buy used electric scooter, second-hand electric scooter sales, cash for my used electric scooter, cash for electric scooter, sell electric scooter locally, quick cash for electric scooter, sell electric scooter online, sell my electric scooter fast, sell old electric scooter for cash",
+    "ogTitle": "Sell Scooter Today - Buddy Cash",
+    "ogDescription": "Cash for used electric Scooter. Professional pawn shop near me - Buddy Cash",
     "ogType": "website",
-    "ogUrl": "https://buddy-cash.com/fl/scooter ",
+    "ogUrl": "https://buddy-cash.com/assets/img/scooter/Scooter.webp",
     "ogImage": "/assets/img/main_page/Sell my scooter.jpg",
     "image": "/assets/img/scooter/Scooter.webp",
     "bgImage": "scooter",
     "class": "scooter_text",
-    "alt": "Sell used items"
+    "alt": "Sell laptop near me"
   },
   "easySteps": {
-    "title": "Value your Scooter:",
-    "text": "3 Simple Steps",
+    "title": "How to Sell",
+    "text": "Electric Scooter?",
     "style": "skooter",
     "contentStep1": {
       "step": "Step 1",
@@ -40,44 +40,53 @@
     }
   },
   "aboutInfo": {
-    "title": "What Sets",
-    "text": "Us Apart",
+    "title": "Should you sell",
+    "text": "your scooter to us?",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
-        "title": "We buy scooters in any condition"
+        "title": "We buy electric scooters in any condition - from pristine to damaged",
+        "alt": "Scooter Condition Flexibility"
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
-        "title": "Fast same-day purchase"
+        "title": "<strong>Same-day cash for your used electric scooter</strong>",
+        "alt": "Fast Cash Payment"
       },
       {
         "src": "/assets/img/laptop/about/lock.svg",
-        "title": "Every sale is 100% confidential"
+        "title": "Nationwide service - <strong>sell your electric scooter anywhere in the USA</strong>",
+        "alt": "Nationwide Scooter Service"
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "Trade-in options available—exchange for a new scooter"
+        "title": "Specialists in complex cases (financed, water-damaged, or physically damaged electric scooters)",
+        "alt": "Complex Cases Accepted"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
-        "title": "Quick appraisal via messenger — 10 minutes or less"
+        "title": "A guaranteed data privacy",
+        "alt": "Data Privacy Guaranteed"
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
-        "title": "We offer higher prices than competitors"
+        "title": "An expert evaluation and comprehensive functionality check",
+        "alt": "Expert Evaluation Process"
       },
       {
         "src": "/assets/img/laptop/about/flag.svg",
-        "title": "Operating in all U.S. states"
+        "title": "All shipping costs are covered by us",
+        "alt": "Free Shipping Included"
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
-        "title": "Instant cash payout"
+        "title": "A fully legal and transparent <strong>electric scooter trade-in program</strong>",
+        "alt": "Transparent Trade-in Program"
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
-        "title": "We handle complex cases: liens, loans, and post-accident"
+        "title": "A simple process - no hassle, no stress",
+        "alt": "Hassle-Free Selling"
       }
     ]
   },
@@ -85,23 +94,23 @@
     "title": "Customer Reviews",
     "feedback": [
       {
-        "content": "Sold my e-scooter to these folks, and it was a breeze! They offered a fair price and picked it up the same day. Super convenient for busy professionals like me. Thumbs up!",
-        "name": "Sarah M.",
+        "content": "When I needed to sell scooter, these guys made it incredibly easy. The evaluator Den was super professional - he checked my scooter quickly and was extremely courteous. Got a fair price without any complications. Smooth transaction from start to finish.",
+        "name": "Michael T.",
         "prod": "(Sold the Xiaomi Mi Electric Scooter)",
         "stars": 5,
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "These guys in Florida know their e-scooters. Got a decent offer for my old ride. The process was straightforward, but I wish they had more flexible pickup times. Still, a solid option if you're upgrading.",
-        "name": "Chris B.",
-        "prod": "(Sold the Segway Ninebot MAX)",
+        "content": "Great online service for sell scooter near me. Did an online evaluation first, and they were at my place within 3 hours to pick up the scooter. The process was efficient, though communication could be slightly better. Quick cash for my old ride.",
+        "name": "Jason R.",
+        "prod": "(Sold the Razor E Prime III)",
         "stars": 4,
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "Y'all, if you're in Tampa and wanna offload your e-scooter, hit these folks up! They gave me cash on the spot for my beat-up old scooter. No fuss, no muss. Just easy peasy lemon squeezy! ",
-        "name": "Zoe K.",
-        "prod": "(Sold the Gotrax GXL V2)",
+        "content": "Solid experience with sell scooter in Miami. No hassle, fair assessment, and quick payment. They know their electric scooters and made the selling process straightforward. Would definitely recommend to other Miami riders looking to sell scooter.",
+        "name": "Elena S.",
+        "prod": "(Sold the Segway Ninebot ES2)",
         "stars": 5,
         "feedbackMap": "Review from Google Maps"
       }
@@ -111,30 +120,64 @@
   "questions": {
     "title": "Have Questions?",
     "descr": "We're Happy to Help",
+    "isOpenAll": true,
     "listAsq": [
       {
-        "title": "How do you value scooters?",
-        "content": "Our online valuation process is streamlined for your convenience. Simply contact us through any messaging platform (Telegram, WhatsApp, Facebook Messenger) or social network (Instagram, Facebook) and send us photos along with a brief description (specifications, details, modifications). Within 5-7 minutes, you'll receive a competitive offer and a step-by-step plan for a quick sale."
+        "title": "Where sell electric scooter?",
+        "content": "Looking to sell scooter in today's digital marketplace? While numerous platforms like local pawn shop scooter options, Facebook Marketplace, OfferUp, and eBay offer opportunities to sell scooter near me, the process can be unexpectedly complex and time-consuming. <br/> When you want to sell electric scooter, consider the hidden challenges: meticulous preparation, professional photography, crafting compelling listings, managing negotiations, and arranging meetings with strangers—each step demands significant effort and strategic planning. <br/> Why invest hours in a potentially frustrating selling experience when you can trade in scooter for cash with minimal hassle? Our service is designed to provide cash for your scooter efficiently. Simply provide your scooter's model, and we'll generate an instant, accurate valuation. You'll receive cash for your scooter without the traditional private sale complexities."
       },
       {
-        "title": "Can I sell a damaged scooter?",
-        "content": "Yes, we are prepared to make an offer on scooters in any condition."
+        "title": "How does the electric scooter sales process work?",
+        "content": "Our pawn shop scooter evaluation process transforms how you sell electric scooter. Here's our streamlined approach to help you efficiently sell scooter:<br/> <ul><li>Submit multiple photographs and your scooter's specifications</li> <li>Receive a comprehensive valuation within 10 minutes</li> <li>Schedule a free, no-obligation home assessment</li> <li>Get immediate payment in your preferred method</li></ul> <br/> We've revolutionized the selling experience, making it simpler than ever to convert your electric scooter into cash."
       },
       {
-        "title": "What paperwork is needed?",
-        "content": "Documentation is not mandatory for the sale. We purchase scooters both with and without papers. However, if you have documentation, we welcome its inclusion."
+        "title": "How quickly will I get paid for my electric scooter?",
+        "content": "We offer two strategic payment options: <br/> Florida Residents: <br/> <ul><li>Same-day cash payment after professional evaluation</li><li>Multiple payment methods: Cash, bank check, digital transfers (Zelle, Cash App, PayPal, Venmo)</li></ul> </br> Out-of-State Customers: <br/> <ul><li>Full payment processed on the day of scooter receipt</li><li>Payment speed depends on shipping logistics</li></ul>"
       },
       {
-        "title": "Do you operate throughout the entire United States?",
-        "content": "While our network doesn't currently cover the entire United States, we are interested in working with customers from various regions. We're willing to arrange pickup or postal delivery of the scooter if necessary. Please note that for more distant locations, the waiting time for our appraiser's arrival may increase by 1-2 days. We strive to provide quality service to every customer, regardless of location."
+        "title": "Can you come to my location to pick up the scooter?",
+        "content": "We work across all cities in Florida, offering comprehensive pickup services throughout the entire state. Whether you're in a major metropolitan area or a smaller city, our service covers Miami, Orlando, Tampa, Jacksonville, Fort Lauderdale, St. Petersburg, Hialeah, Tallahassee, Port St. Lucie, Cape Coral, Pembroke Pines, Hollywood, Gainesville, Sarasota, Lakeland, Miramar, Coral Springs, Clearwater, Miami Beach, Bradenton - and every city in between."
       },
       {
-        "title": "Do you offer pickup services?",
-        "content": "We offer three convenient transportation options for your scooter. You can deliver it to our office yourself, we can send our employee to your location for evaluation and transportation, or you have the option to ship the scooter by mail. All of these services are provided at no additional cost to you."
+        "title": "Which brands and models do you buy?",
+        "content": "We purchase a wide range of electric scooter types including city scooters, off-road scooters, folding scooters, commuter scooters, performance scooters, long-range scooters, electric kick scooters, dual-motor scooters, heavy-duty scooters, and kids' electric scooters. Our brand list includes Segway, Xiaomi, Razor, Boosted, Unagi, Dualtron, Inokim, Ninebot, Apollo, and Glion."
       },
       {
-        "title": "How does the inspection process work?",
-        "content": "The final verification occurs during the appraiser's visit or upon receipt of the scooter. If you accurately disclosed all details during the initial assessment via messenger, the price typically remains unchanged upon inspection. Payment is processed immediately following this step."
+        "title": "I'm located outside of Florida. Can I ship it to you?",
+        "content": "Out-of-state customers can easily sell electric scooter through our convenient shipping solution. We manage all shipping and insurance logistics, ensuring you receive full payment the day your scooter arrives, processed via bank transfer."
+      }
+    ],
+    "isSlider": true,
+    "slidersData": [
+      {
+        "img": "/assets/img/main_page/Electronics.png",
+        "alt": "Sell my Electronics",
+        "link": "/fl/electronics",
+        "isActiveMobile": true
+      },
+      {
+        "img": "/assets/img/transport/Car.png",
+        "alt": "Sell my Car",
+        "link": "/fl/car",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/transport/Choose_a_motorcycle.png",
+        "alt": "Sell my Motorcycle",
+        "link": "/fl/motorcycle",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/transport/Choose_a_bike.png",
+        "alt": "Sell my Bike",
+        "link": "/fl/bike",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/See_all.webp",
+        "alt": "See All",
+        "link": "/fl",
+        "isActiveMobile": true
       }
     ],
     "listBottom1": {

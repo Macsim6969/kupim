@@ -399,8 +399,11 @@
             width: 245px;
           }
 
-          @media (max-height: 750px) {
-            height: 300px;
+
+          &.camera{
+            @media (max-width: 375px) {
+              width: 175px;
+            }
           }
         }
 
@@ -501,6 +504,7 @@
 
             }
 
+            &.scooter_text,
             &.tv_text,
             &.bike_text,
             &.laptop_text {

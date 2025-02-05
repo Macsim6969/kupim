@@ -1,6 +1,6 @@
 <section class="about" [ngClass]="{'hide': !needDocsData.listAsq}">
     <div class="about_document_inner"  *ngIf="needDocsData">
-        <div class="document_inner_article">{{needDocsData.title}}</div>
+        <h3 class="document_inner_article">{{needDocsData.title}}</h3>
         <div class="document_inner_article_info">
             <div class="article_info" *ngFor="let docs of needDocsData.docs">
                 <img class="info_img" [src]="docs.img" alt="">
