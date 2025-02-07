@@ -73,8 +73,9 @@
         flex-direction: row;
 
         justify-content: center;
-        margin: 0 0 25px 0px;
+        margin: 0 0 25px 0;
         width: 100%;
+        max-width: 780px;
       }
 
       .dopp__inner {
