@@ -48,7 +48,7 @@ export class WelcomeComponent implements OnInit, OnDestroy {
   }
 
   public useRoute(url) {
-    this.router.navigate([url], { queryParamsHandling: 'merge', relativeTo: this.route }).then();
+    this.router.navigate([url]).then();
   }
 
   public openMenu() {

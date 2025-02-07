@@ -3,58 +3,58 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'fl/contacts',
+    path: 'fl',
+    loadChildren: () =>
+      import('./modules/home/home.module').then((m) => m.HomeModule),
+  },
+  {
+    path: 'contacts',
     loadChildren: () =>
       import('./modules/contacts/contacts.module').then(
         (m) => m.ContactsModule
       ),
   },
   {
-    path: 'fl/online-appraisal',
+    path: 'online-appraisal',
     loadChildren: () =>
       import('./modules/online-appraisal/online-appraisal.module').then(
         (m) => m.OnlineAppraisalModule
       ),
   },
   {
-    path: 'fl/team',
+    path: 'team',
     loadChildren: () =>
       import('./modules/team/team.module').then((m) => m.TeamModule),
   },
   {
-    path: 'fl/legal-information',
+    path: 'legal-information',
     loadChildren: () =>
       import('./modules/page-in-work/page-in-work.module').then(
         (m) => m.PageInWorkModule
       ),
   },
   {
-    path: 'fl/review',
+    path: 'review',
     loadChildren: () =>
       import('./modules/review/review.module').then((m) => m.ReviewModule),
   },
   {
-    path: 'fl/about-us',
+    path: 'about-us',
     loadChildren: () =>
       import('./modules/about-us/about-us.module').then((m) => m.AboutUsModule),
   },
   {
-    path: 'fl/blog',
+    path: 'blog',
     loadChildren: () =>
       import('./modules/blog/blog.module').then((m) => m.BlogModule),
   },
   {
-    path: 'fl/others',
+    path: 'others',
     loadChildren: () =>
       import('./modules/home/home.module').then((m) => m.HomeModule),
   },
   {
     path: 'fl/real-estate-others',
-    loadChildren: () =>
-      import('./modules/home/home.module').then((m) => m.HomeModule),
-  },
-  {
-    path: 'fl',
     loadChildren: () =>
       import('./modules/home/home.module').then((m) => m.HomeModule),
   },

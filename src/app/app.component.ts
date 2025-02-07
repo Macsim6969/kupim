@@ -37,10 +37,8 @@ export class AppComponent implements OnInit {
   private updatesMateTags() {
     this.translate.stream('dashboard').subscribe((data) => {
       if (data) {
-        // Обновляем заголовок страницы
         this.titleService.setTitle(data.metaTitle);
 
-        // Удаляем старые мета-теги
         const tagNames = [
           'description',
           'og:title',
@@ -50,14 +48,13 @@ export class AppComponent implements OnInit {
           'twitter:title',
           'twitter:description',
           'twitter:image',
-          'robots' // Удаляем robots, чтобы избежать дублирования
+          'robots'
         ];
         tagNames.forEach((tagName) => {
           this.metaService.removeTag(`name='${tagName}'`);
           this.metaService.removeTag(`property='${tagName}'`);
         });
 
-        // Добавляем мета-теги
         const metaTags = [
           { name: 'description', content: data.description },
           { property: 'og:title', content: data.ogTitle },
@@ -75,15 +72,13 @@ export class AppComponent implements OnInit {
           metaTags.push({ name: 'robots', content: 'noindex' });
         }
 
-        // Добавляем мета-теги с использованием addTag, чтобы они были выше в <head>
-        metaTags.forEach(tag => {
+         metaTags.forEach(tag => {
           const selector = tag.name
             ? `name="${tag.name}"`
             : `property="${tag.property}"`;
           this.metaService.addTag(tag, true);
         });
 
-        // Обновление канонической ссылки
         this.updateCanonicalLink(data.ogUrl || location.href);
 
       }
@@ -115,7 +110,6 @@ export class AppComponent implements OnInit {
           this.translate.use(language);
           this.store._activePage = language;
         } else {
-          this.router.navigate(['/'], { queryParamsHandling: 'merge' }).then();
           this.translate.use('main');
           this.store._activePage = 'main';
         }
