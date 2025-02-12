@@ -5,7 +5,7 @@
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell Scooter",
-    "location": "<strong>Professional Electric Scooter Pawn Shop. Trade in your electric scooter for cash.</strong> We buy scooters from the following brands: Segway, Xiaomi, Razor, Boosted, Unagi, Glion, Dualtron, Inokim, Ninebot, Apollo. We offer complimentary pickup service across all cities in Florida, including Miami, Orlando, Tampa, Jacksonville, and Fort <strong>Lauderdale. Same-day buyback service—we'll come to you today with cash in hand!</strong>",
+    "location": "<strong>Professional Electric Scooter Pawn Shop. Trade in your electric scooter for cash.</strong> We buy scooters from the following brands: Segway, Xiaomi, Razor, Boosted, Unagi, Glion, Dualtron, Inokim, Ninebot, Apollo. <strong> Same-day buyback service—we'll come to you today with cash in hand!</strong>",
     "index": true,
     "footerDescription": "",
     "metaTitle": "Sell Electric Scooter – Trade-In for Cash Same Day",

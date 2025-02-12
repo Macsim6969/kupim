@@ -85,7 +85,19 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://buddy-cash.com/fl/camera</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://buddy-cash.com/fl/laptop</loc>
+    <lastmod>2024-12-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buddy-cash.com/fl/coffee-maker</loc>
     <lastmod>2024-12-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

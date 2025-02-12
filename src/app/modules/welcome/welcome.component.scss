@@ -47,7 +47,7 @@
         }
 
         @media (max-width: 720px) {
-          padding: 0px 0 40px 0px;
+          padding: 0;
           align-items: flex-start;
         }
 
@@ -107,7 +107,6 @@
             }
 
             @media (max-width: 720px) {
-              display: block;
               width: 68px;
               height: 68px;
               display: flex;
@@ -295,7 +294,7 @@
         @media (max-width: 620px) {
           grid-template-columns: 1fr;
           justify-items: center;
-          padding: 0;
+          padding: 0 0 15px 0;
           flex-direction: column-reverse;
         }
 
@@ -335,17 +334,6 @@
             }
           }
 
-          &.volkswagen,
-          &.porshe,
-          &.smart,
-          &.opel,
-          &.mercedes,
-          &.audi,
-          &.bmw,
-          &.car {
-            height: auto;
-          }
-
           &.helicopter {
             height: 250px;
           }
@@ -364,6 +352,8 @@
             }
           }
 
+
+          &.coffee,
           &.scooter {
             width: auto;
             height: 440px;
@@ -372,7 +362,8 @@
             background: transparent;
 
             @media (max-width: 972px) {
-              width: 275px;
+              width: 245px;
+              height: auto;
             }
           }
 
@@ -400,9 +391,11 @@
           }
 
 
+          &.coffee,
           &.camera{
-            @media (max-width: 375px) {
+            @media (max-width: 576px) {
               width: 175px;
+              height: auto;
             }
           }
         }
@@ -426,7 +419,7 @@
           @media (max-width: 620px) {
             max-width: 320px;
             align-items: center;
-            padding-bottom: 15px;
+            padding: 0 5px 15px;
           }
 
           .header_title_inner {
@@ -511,6 +504,7 @@
 
             }
 
+            &.coffee_text,
             &.motorcycle_text{
               font-size: 28px;
               display: flex;

@@ -151,7 +151,6 @@
 
         .dopp_content {
           margin: 10px 0 0 0;
-          padding: 0 18px;
           max-height: 0;
           font-size: 20px;
           overflow: hidden;
@@ -160,6 +159,10 @@
           width: 750px;
           transition: all 0.2s ease;
           padding: 0 0 0 30px;
+
+          ::ng-deep strong{
+            font-weight: 400;
+          }
 
           @media (max-width: 920px) {
             width: 90%;

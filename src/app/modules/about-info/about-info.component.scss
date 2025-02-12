@@ -31,7 +31,7 @@
         color: #535050;
         font-weight: 600;
         text-align: center;
-  
+
         @media (max-width: 720px) {
           font-size: 42px;
         }
@@ -46,7 +46,7 @@
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-  
+
         @media (max-width: 720px) {
           font-size: 24px;
           margin-bottom: 55px;
@@ -98,6 +98,10 @@
           font-size: 20px;
           color: black;
           font-weight: 400;
+
+          ::ng-deep strong{
+            font-weight: 400;
+          }
 
           @media (max-width: 1240px) {
             font-size: 20px;

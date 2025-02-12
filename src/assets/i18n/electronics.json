@@ -47,7 +47,7 @@
         "img": "/assets/img/electronics/Coffee_maker.svg",
         "route": "/fl/coffee-maker",
         "alt": "Coffee maker",
-        "isBlock": true
+        "isBlock": false
       },
       {
         "img": "/assets/img/electronics/Computer.svg",

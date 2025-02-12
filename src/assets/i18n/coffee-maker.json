@@ -6,17 +6,26 @@
   "dashboard": {
     "state": "State of Florida",
     "index": false,
-    "title": "Scroll down <span>to see what we buy</span>",
-    "location": "(State Florida)",
-    "footerDescription": "Cash for your trash Florida!",
-    "image": "/assets/img/electronics/electronics.svg",
-    "bgImage": "main",
-    "class": "main_text"
+    "title": "Sell Coffee Maker",
+    "location": "<strong>Cash for coffee machines on the same day.</strong> <strong>Professional pawnshop for coffee machines near you.</strong> We offer pick-up across the entire state of Florida. Available in four main offices: Miami, Tampa, Orlando, Jacksonville. We will come and purchase today!",
+    "footerDescription": "",
+    "metaTitle": "Sell Coffee Machine  – Trade-In Coffee Maker for Cash",
+    "description": "Sell coffee machine in Miami, Tampa, Orlando, and Jacksonville. Free online evaluation. Get same-day cash for your used coffee maker. Pawn shop with pickup.",
+    "keywords": "Coffee machine, sell my coffee maker, sell my used coffee machine, buy used coffee maker, second-hand coffee machine sales, cash for my used coffee maker, cash for coffee machine, sell coffee maker locally, quick cash for coffee machine, sell coffee machine online, sell my coffee maker fast, sell old coffee machine for cash.",
+    "ogTitle": "Sell Coffee Machine  - Buddy Cash",
+    "ogDescription": "Cash for used Coffee Machine. Professional pawn shop near me - Buddy Cash",
+    "ogType": "website",
+    "ogUrl": "https://buddy-cash.com/fl/ ",
+    "ogImage": "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
+    "image": "/assets/img/coffee/Coffee.webp",
+    "bgImage": "coffee",
+    "class": "coffee_text",
+    "alt": "Sell Coffee Machine"
   },
   "easySteps": {
-    "title": "3 easy steps",
-    "text": "to appraise your coffee-maker online",
-    "style": "main",
+    "title": "Sell Coffee Machine",
+    "text": "for Cash",
+    "style": "coffee",
     "contentStep1": {
       "step": "Step 1",
       "stepText": "Shoot us a picture or the details on any messaging app",
@@ -32,44 +41,44 @@
     }
   },
   "aboutInfo": {
-    "title": "We buy back",
-    "text": "laptops in Florida",
+    "title": "Sell used Coffee Maker",
+    "text": "Same-Day",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
-        "title": "We’ll buy anything you’ve got."
+        "title": "Instant online valuation - get your quote within minutes."
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
-        "title": "Same-Day Purchase"
+        "title": "Professional purchase of all coffee makers - from home units to commercial equipment."
       },
       {
         "src": "/assets/img/laptop/about/lock.svg",
-        "title": "Every Sale is Confidential"
+        "title": "We buy coffee makers in any condition - from brand new to pre-owned units."
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "Trade-In"
+        "title": "<strong>Sell your coffee machine</strong> anywhere in Florida with our convenient statewide coverage."
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
-        "title": "Appraisal Time via Messenger - 7 Minutes"
+        "title": "<strong>Get cash for your coffee machine same day</strong> - no waiting or delayed payments."
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
-        "title": "We Offer Higher Prices Than Our Competitors"
+        "title": "Professional equipment assessment - thorough technical inspection included."
       },
       {
         "src": "/assets/img/laptop/about/flag.svg",
-        "title": "Operating Across All U.S. States"
+        "title": "Complete warranty support - We handle all related documentation."
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
-        "title": "Instant Payment"
+        "title": "Specialized solutions - We buy machines with existing loans, non-working units, repaired, or defective models."
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
-        "title": "We Handle Complex Cases (Collateral, Loans)"
+        "title": "Secure transactions - full confidentiality guaranteed."
       }
     ]
   },
@@ -77,25 +86,22 @@
     "title": "Customer Reviews",
     "feedback": [
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
-        "stars": 5,
-        "feedbackMap": "Review from Google Maps"
+        "content": "I sold my Breville Barista Express when searching where to sell coffee maker in Miami. The representative came to my house, inspected the machine, and offered a fair price. The whole process took about 30 minutes and they helped with packing. Payment was processed quickly.",
+        "name": "Mike R.",
+        "prod": "Sold Breville Barista Express",
+        "stars": 5
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
-        "stars": 4,
-        "feedbackMap": "Review from Google Maps"
+        "content": "When I needed to sell coffee machine near me, I found this company. They picked up my DeLonghi Magnifica and the process was straightforward. Price was slightly lower than expected, but reasonable for a 3-year-old machine. They arrived 30 minutes late but communicated well about the delay.",
+        "name": "James L.",
+        "prod": "Sold DeLonghi Magnifica",
+        "stars": 4
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
-        "stars": 5,
-        "feedbackMap": "Review from Google Maps"
+        "content": "Found this company to sell coffee maker when moving apartments. They came to check my Jura E8, made an offer, and handled the pickup. Transaction was simple, payment came through same day. Saved me the hassle of dealing with online marketplaces.",
+        "name": "Linda M.",
+        "prod": "Sold Jura E8",
+        "stars": 5
       }
     ],
     "content": "Open Google Maps"
@@ -105,37 +111,70 @@
     "descr": "We're Happy to Help",
     "listAsq": [
       {
-        "title": "What kind of cars do you buy?",
-        "content": "Absolutely any: whole, after the accident, not customs clearance, on tp. Mark, year release, mileage, condition do not matter. Redemptionaem credit cars, as well as cars with penalties. We work with legal entities and individuals, Redemption of car fleets."
+        "title": "Who buys coffee makers?",
+        "content": "When you need to sell your coffee maker or coffee machine, there are several options in the US market. While Facebook Marketplace and eBay exist, these platforms make selling coffee machines time-consuming. Local pawnshops typically offer minimal value when you pawn a coffee maker or sell a coffee machine to them. <br/> We specialize in buying coffee makers and coffee machines at competitive prices. Unlike traditional pawnshops that undervalue coffee makers, we offer fair market rates. Sell your coffee maker to us today and get paid immediately with our streamlined process."
       },
       {
-        "title": "Can I leave the car for you to sell?",
-        "content": "Yes. We will put your vehicle on consignment at our dealership."
+        "title": "How do I sell my coffee maker?",
+        "content": "Our coffee machine buying process makes it easy to sell your coffee maker: <br/> <ul><li>Take several photos of your coffee machine</li><li>Send the photos and model details through your preferred messaging platform (Facebook Messenger, WhatsApp, iMessage, or Instagram)</li><li>Within 10-15 minutes, you'll receive our offer to buy your coffee maker</li><li>If you accept our price to purchase your coffee machine, we'll schedule a convenient meeting</li><li>After our specialist verifies your coffee maker's functionality, you'll receive immediate payment through your preferred method - cash, Zelle, PayPal, Cash App, or Venmo</li></ul>"
       },
       {
-        "title": "How long does the sale last?",
-        "content": "The sale of the car takes place in 2-3 hours."
+        "title": "Do you provide pickup service?",
+        "content": "Yes, when you sell your coffee maker to us, we offer same-day or next-day pickup throughout Florida. Unlike traditional pawnshops, we come to you - and our pickup service is completely free. Miami residents can also visit our office to sell their coffee machines directly."
       },
       {
-        "title": "Do you buy only in Kiev?",
-        "content": "No, we redemption cars all over Ukraine. In most cases. Redemption in Ukraine occurs on the day of communication."
+        "title": "How quickly will I receive payment?",
+        "content": "When you sell your coffee maker to us, payment is processed immediately after inspection. If no undisclosed defects are found in your coffee machine, you'll receive the full quoted amount. Unlike typical pawnshops that make you wait, we offer instant payment through cash, Zelle, Cash App, or PayPal when you sell your coffee maker to us."
       },
       {
-        "title": "I want to sell for as much as possible!",
-        "content": "To increase Redemption's price by 10%, wash the car, grab a a second set of tires and keys. In 90% of cases the valuation will be higher than other car Redemption."
+        "title": "I'm outside Florida - can I ship my coffee maker?",
+        "content": "Absolutely! You can still sell your coffee machine to us from any state. Simply send photos and model information of your coffee maker through messenger. Once you accept our offer, ship your coffee machine to us - we cover all shipping and insurance costs. Unlike local pawnshops that require in-person visits, we make it easy to sell your coffee maker from anywhere. Payment is processed the day we receive your coffee machine through Cash App, PayPal, Venmo, or Zelle."
       },
       {
-        "title": "I'll sell the car for more!",
-        "content": "No problem! We just want to save you from wasting your time. Pre-sale preparation, photo shoots, registration on profile sites, pay for advertising. ads, answering phones and traveling to appointments at inconvenient times is the least of what you're gonna to deal with."
+        "title": "What types and models of coffee makers do you purchase?",
+        "content": "Our coffee maker buying service accepts all major types including drip coffee makers, single-serve coffee machines, espresso machines, French presses, percolators, and cappuccino/latte makers. Unlike limited pawnshops, we buy all coffee maker brands. <br/> Sell your coffee machine from any of these popular brands: Keurig, Nespresso, Breville, Cuisinart, De'Longhi, Hamilton Beach, Ninja, Mr. Coffee, Krups, Black+Decker, Technivorm, Jura, Saeco, Melitta, KitchenAid, Capresso, Rancilio, La Marzocco, Philips, Gaggia, Bosch, and many others."
+      }
+    ],
+    "isSlider": true,
+    "slidersData": [
+      {
+        "img": "/assets/img/main_page/Electronics.png",
+        "alt": "Sell my Electronics",
+        "link": "/fl/electronics",
+        "isActiveMobile": true
+      },
+      {
+        "img": "/assets/img/transport/Car.png",
+        "alt": "Sell my Car",
+        "link": "/fl/car",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/transport/Choose_a_motorcycle.png",
+        "alt": "Sell my Motorcycle",
+        "link": "/fl/motorcycle",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/transport/Choose_a_bike.png",
+        "alt": "Sell my Bike",
+        "link": "/fl/bike",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/See_all.webp",
+        "alt": "See All",
+        "link": "/fl",
+        "isActiveMobile": true
       }
     ],
     "listBottom1": {
-      "title": "Urgent Redemption of boats",
-      "text": "Over the course of the company's existence, we've redemptionized a large number of used  vehicles of various makes and models. We've learned to be smart about Redemption: the vehicles      are de-registered and all transactions are legally correct. <br/> We offer services on car buying in all districts of Kiev (Kiev region) and Ukraine. Those who do not want to spend time and effort to find a client, it is better to use the service 'autoRedemption'. Of course you will not get the maximum value for the car, but 90-95% of the market value, we guarantee you! value we guarantee you!<br/> Still, if you decide to sell a used car on your own, it is recommended to be patient. patience. Selling a car on your own can take months. And without an understanding of the market. it is difficult to set a price that will suit both you and the potential buyer. You'll end up wasting your time and effort for nothing."
+      "title": "",
+      "text": ""
     },
     "listBottom2": {
-      "title": "Boat buying in Kiev",
-      "text": "Everything is simple! Send us a photo of the vehicle in a convenient messenger (viber, telegram, instagram). Within 4-5 minutes appraiser Vladimir will write the cost of Redemption. Having come to an agreement, we will immediately go to the You! That you would not have traveled in vain, we will come to you ourselves, absolutely free, without any or claims if you refuse our services. We value the reputation and time of our customers!"
+      "title": "",
+      "text": ""
     }
   }
 }
