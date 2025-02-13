@@ -390,11 +390,16 @@
             width: 245px;
           }
 
-
-          &.coffee,
           &.camera{
             @media (max-width: 576px) {
               width: 175px;
+              height: auto;
+            }
+          }
+
+          &.coffee{
+            @media (max-width: 576px) {
+              width: 150px;
               height: auto;
             }
           }

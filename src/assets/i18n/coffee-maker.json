@@ -1,7 +1,7 @@
 {
   "key": [
-    "prod",
-    "easy-step"
+    "easy-step",
+    "prod"
   ],
   "dashboard": {
     "state": "State of Florida",
@@ -46,39 +46,48 @@
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
-        "title": "Instant online valuation - get your quote within minutes."
+        "title": "Instant online valuation - get your quote within minutes.",
+        "alt": "Instant Valuation"
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
-        "title": "Professional purchase of all coffee makers - from home units to commercial equipment."
+        "title": "Professional purchase of all coffee makers - from home units to commercial equipment.",
+        "alt": "Professional Purchase"
       },
       {
         "src": "/assets/img/laptop/about/lock.svg",
-        "title": "We buy coffee makers in any condition - from brand new to pre-owned units."
+        "title": "We buy coffee makers in any condition - from brand new to pre-owned units.",
+        "alt": "Equipment Condition"
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "<strong>Sell your coffee machine</strong> anywhere in Florida with our convenient statewide coverage."
+        "title": "<strong>Sell your coffee machine</strong> anywhere in Florida with our convenient statewide coverage.",
+        "alt": "Florida Coverage"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
-        "title": "<strong>Get cash for your coffee machine same day</strong> - no waiting or delayed payments."
+        "title": "<strong>Get cash for your coffee machine same day</strong> - no waiting or delayed payments.",
+        "alt": "Same Day Cash"
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
-        "title": "Professional equipment assessment - thorough technical inspection included."
+        "title": "Professional equipment assessment - thorough technical inspection included.",
+        "alt": "Technical Inspection"
       },
       {
         "src": "/assets/img/laptop/about/flag.svg",
-        "title": "Complete warranty support - We handle all related documentation."
+        "title": "Complete warranty support - We handle all related documentation.",
+        "alt": "Warranty Support"
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
-        "title": "Specialized solutions - We buy machines with existing loans, non-working units, repaired, or defective models."
+        "title": "Specialized solutions - We buy machines with existing loans, non-working units, repaired, or defective models.",
+        "alt": "Specialized Solutions"
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
-        "title": "Secure transactions - full confidentiality guaranteed."
+        "title": "Secure transactions - full confidentiality guaranteed.",
+        "alt": "Secure Transactions"
       }
     ]
   },
@@ -138,21 +147,21 @@
     "isSlider": true,
     "slidersData": [
       {
-        "img": "/assets/img/main_page/Electronics.png",
-        "alt": "Sell my Electronics",
-        "link": "/fl/electronics",
+        "img": "/assets/img/electronics/Laptop.svg",
+        "alt": "Sell my Laptop",
+        "link": "/fl/laptop",
         "isActiveMobile": true
       },
       {
-        "img": "/assets/img/transport/Car.png",
-        "alt": "Sell my Car",
-        "link": "/fl/car",
+        "img": "/assets/img/electronics/TV.svg",
+        "alt": "Sell my TV",
+        "link": "/fl/tv",
         "isActiveMobile": false
       },
       {
-        "img": "/assets/img/transport/Choose_a_motorcycle.png",
-        "alt": "Sell my Motorcycle",
-        "link": "/fl/motorcycle",
+        "img": "/assets/img/electronics/Camera.svg",
+        "alt": "Sell my Camera",
+        "link": "/fl/camera",
         "isActiveMobile": false
       },
       {
