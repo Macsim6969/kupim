@@ -5,7 +5,7 @@
   ],
   "dashboard": {
     "state": "State of Florida",
-    "index": false,
+    "index": true,
     "title": "Sell Coffee Maker",
     "location": "<strong>Cash for coffee machines on the same day.</strong> <strong>Professional pawnshop for coffee machines near you.</strong> We offer pick-up across the entire state of Florida. Available in four main offices: Miami, Tampa, Orlando, Jacksonville. We will come and purchase today!",
     "footerDescription": "",
