@@ -5,74 +5,80 @@
   ],
   "dashboard": {
     "state": "State of Florida",
-    "title": "Sell used items",
+    "title": "Pawn Shop Miami",
     "location": "(State Florida)",
     "index": true,
     "footerDescription": "Cash for used item Florida",
-    "metaTitle": "Sell used items - Miami, Tampa, Orlando, Jacksonville, Fl",
-    "description": "Professional asset purchase services: Buy, sell, and trade vehicles, electronics, real estate, and furniture. Get money today. Free online valuation in 10 minutes.",
-    "keywords": "Sell used items Miami, Buddy cash, Buddy-cash",
-    "ogTitle": "Sell used items - Miami, Tampa, Orlando, Jacksonville, Fl - Buddy Cash",
-    "ogDescription": "Professional asset purchase services: Buy, sell, and trade vehicles, electronics, real estate, and furniture. Get money today. Free online valuation in 10 minutes.",
+    "metaTitle": "Pawn Shop Miami – Same-day cash for used items",
+    "description": "Pawn Shop in Miami with free pickup. Online product assessment on the site within a few minutes. Buddy Cash will pay in cash today.",
+    "keywords": "Pawn shop Miami, pawn shop in Miami, pawn shop near you, pawn shop buddy cash, buddy cash, buddy cash in Miami, sell my used items, sell used items, cash for my used items, sell used items in Miami",
+    "ogTitle": "Pawn Shop in Miami - Buddy Cash",
+    "ogDescription": "Cash for used items. Professional pawn shop near you - Buddy Cash",
     "ogType": "website",
     "ogUrl": "https://buddy-cash.com/fl/ ",
     "ogImage": "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
     "image": "/assets/img/main_page/main_logo.svg",
     "bgImage": "main",
     "class": "main_text",
-    "alt": "Sell used items"
+    "alt": "Pawn Shop in Miami"
   },
   "prodInfo": {
-    "title": "Select What You'd",
-    "text": "Like to Sell",
+    "title": "Same-day cash at Miami",
+    "text": "Pawn Shop",
     "content": [
       {
         "img": "/assets/img/main_page/Transport.png",
         "route": "/fl/transport",
-        "alt": "Sell used Transport",
+        "alt": "Sell transport",
         "isBlock": false
       },
       {
         "img": "/assets/img/main_page/Furniture.png",
         "route": "/fl",
-        "alt": "Sell used Furniture",
+        "alt": "Sell furniture",
         "isBlock": true
       },
       {
         "img": "/assets/img/main_page/Electronics.png",
         "route": "/fl/electronics",
-        "alt": "Sell used Electronics",
+        "alt": "Sell electronicks",
         "isBlock": false
       },
       {
         "img": "/assets/img/main_page/Real_estate.png",
         "route": "/fl/real-estate",
-        "alt": "Sell used Real estate",
+        "alt": "Junk removal service",
         "isBlock": false
       },
       {
         "img": "/assets/img/main_page/Estate.png",
         "route": "/fl",
-        "alt": "Sell used Estate",
+        "alt": "Sell real estate",
         "isBlock": true
       },
       {
         "img": "/assets/img/main_page/Gear.png",
         "route": "/fl/gear",
-        "alt": "Sell used Gear",
+        "alt": "Sell gear",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/main_page/gold.png",
+        "route": "/fl/gold",
+        "alt": "Sell Gold",
         "isBlock": true
       },
       {
         "img": "/assets/img/main_page/Others.png",
         "route": "/fl/others",
-        "alt": "Sell used Others",
+        "alt": "Sell others",
         "isBlock": true
       }
     ]
   },
   "easySteps": {
-    "title": "3 Simple Steps",
-    "text": "to appraise your online",
+    "title": "The evaluation process",
+    "text": "at Buddy Cash Pawnshop",
     "style": "main",
     "contentStep1": {
       "step": "Step 1",
@@ -89,44 +95,53 @@
     }
   },
   "aboutInfo": {
-    "title": "What Sets",
-    "text": "Us Apart",
+    "title": "Pawn Shop in Miami",
+    "text": " – Same Day Cash",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
-        "title": "We purchase all types of assets"
+        "title": "Instant online valuation - get your quote within minutes, hassle-free and professional.",
+        "alt": "Professional Valuation"
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
-        "title": "Same-day transaction guarantee"
+        "title": "<strong> Buddy Cash Pawn Shop</strong> is interested in purchasing items of any category - we consider all offers.",
+        "alt": "Universal Buyer"
       },
       {
         "src": "/assets/img/laptop/about/lock.svg",
-        "title": "Complete transaction privacy"
+        "title": "We buy merchandise, vehicles, and real estate in any condition - no item turned away.",
+        "alt": "Condition Uncritical"
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "Efficient trade-in process"
+        "title": "<strong>Sell your items anywhere in Florida</strong> with our convenient statewide coverage.",
+        "alt": "Florida Coverage"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
-        "title": "Online appraisal in 5-10 minutes"
+        "title": "<strong>Get cash for your items same day</strong> - no waiting or delayed payments.",
+        "alt": "Instant Payment"
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
-        "title": "Market-leading purchase rates"
+        "title": "Secure transactions - full confidentiality guaranteed.",
+        "alt": "Secure Transactions"
       },
       {
         "src": "/assets/img/laptop/about/flag.svg",
-        "title": "Service available in all U.S. states"
+        "title": "Specializing in challenging cases (loans, leases, damage, non-working items, as-is condition).",
+        "alt": "Problem Solver"
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
-        "title": "Instant payment transfer"
+        "title": "<strong>Buddy Cash Pawn Shop</strong> provides free pickup of your items.",
+        "alt": "Free Pickup"
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
-        "title": "Expert handling of complex assets & loans"
+        "title": "Expert valuation of all items - fair market prices by professional appraisers.",
+        "alt": "Expert Appraisal"
       }
     ]
   },
@@ -134,25 +149,22 @@
     "title": "Customer Reviews",
     "feedback": [
       {
-        "content": "Had a fender bender with my BMW 3 Series. These guys in Miami came through big time! Their offer was way better than I expected for a banged-up ride. The process was slick, and they handled all the paperwork. Couldn't be happier!",
-        "name": "Emily R.",
-        "prod": "(Sold the BMW 3 Series)",
-        "stars": 5,
-        "feedbackMap": "Review from Google Maps"
+        "content": "Googled Pawn Shop Miami near me and found these guys. Had to sell my Nikon D7500 while moving apartments. They came over same day, checked the camera, made an offer. Transaction was simple, payment came through right after paperwork. Better than dealing with online listings and strangers.",
+        "name": "Michael R.",
+        "prod": "(Sold Nikon D7500)",
+        "stars": 5
       },
       {
-        "content": "Needed to part ways with my dirt bike. These guys were okay, but the initial quote was a bit low. After some negotiation, we reached a fair price. The pickup was prompt, though. Solid service, just be ready to haggle a little.",
-        "name": "Alex M.",
-        "prod": "(Sold the Yamaha YZ250F)",
-        "stars": 4,
-        "feedbackMap": "Review from Google Maps"
+        "content": "Went to Pawn Shop Buddy Cash to sell my BMW 3 Series. Process was okay but their first offer was on the low side. Had to negotiate a bit to get to market value. Once we agreed on price, the paperwork and payment were quick. Not bad overall, just be ready to negotiate.",
+        "name": "James L.",
+        "prod": "(Sold BMW 3 Series)",
+        "stars": 4
       },
       {
-        "content": "Sold my old tractor attachment to these guys. They knew their stuff about farm equipment and gave a fair price. The pickup was prompt, and they were careful with the equipment. Solid service for farmers looking to upgrade.",
-        "name": "John D.",
-        "prod": "(Sold the John Deere Backhoe attachment)",
-        "stars": 5,
-        "feedbackMap": "Review from Google Maps"
+        "content": "Found this PawnShop in Miami when I needed quick cash for my ASUS ROG. They checked the laptop, made a fair offer, handled the data transfer. Money was in my account same day. Simple transaction, no complications.",
+        "name": "David W.",
+        "prod": "(Sold ASUS ROG Laptop)",
+        "stars": 5
       }
     ],
     "content": "Open Google Maps"
@@ -162,28 +174,61 @@
     "descr": "We're Happy to Help",
     "listAsq": [
       {
-        "title": "Do you offer free item pickup??",
-        "content": "Yes, we offer free item pickup. We can send our representative to your location for evaluation and transportation at no additional cost to you. Alternatively, if you prefer, you can deliver the item to our office yourself or ship it by mail, both options also free of charge."
+        "title": "Where Can I Sell Used Items?",
+        "content": "<strong>Selling used items can</strong> be time-consuming and frustrating. You might consider platforms like Facebook Marketplace, eBay, or Offer Up, but these require negotiating with strangers, waiting for responses, and arranging meetups—which isn’t always safe or efficient.<br/>Another option is selling to a <strong>pawn shop near you</strong>, but traditional pawn shops often offer much less than expected. <br/> At <strong>Buddy Cash Pawn Shop in Miami</strong>, we offer a smarter solution. You can sell your used items today at a competitive price without leaving your home. Our process is fully online—just send us a photo, and we’ll provide an offer. You decide whether to accept—no obligations, no wasted time. <br/> We know that <strong>pawn shops in Miami</strong> don’t always have the best reputation, which is why we focus on transparency and convenience. With Buddy Cash, you get the speed of a pawn shop and a fair price—without the hassle of online marketplaces."
       },
       {
-        "title": "Do you offer online valuation, or is an in-person inspection required?",
-        "content": "We offer online valuation, which doesn't require an in-person inspection. Our process is simple: contact us through any messaging platform or social network, send us photos and a brief description of your item, and we'll provide a competitive offer within 5-7 minutes. This online approach allows for quick and convenient valuation without the need for physical inspection in most cases."
+        "title": "Who Purchases Pre-Owned Goods?",
+        "content": "In Miami, there aren’t many companies willing to come and buy all your items at once. Most services that do offer pick-up are simply junk removal companies—they clear out your space for free but don’t pay you anything. <br/> Of course, you could sell your items individually through online marketplaces. But ask yourself—how much time will that take, and is it really worth the hassle? <br/> At <strong>Pawn Shop Buddy Cash</strong>, we make selling easy. We buy everything—from gold to diamonds, bicycles to yachts, phones to refrigerators, RVs to luxury villas. Our at-home appraisal service is completely free, so you don’t even have to leave your house."
       },
       {
-        "title": "Do you operate throughout the entire United States?",
-        "content": "No, we don't currently operate throughout the entire United States. However, we work with customers from many regions across the country. For areas outside our immediate network, we can arrange pickup or postal delivery of items. Keep in mind that for more distant locations, there might be a slight delay of 1-2 days in our response or appraisal process. Despite these limitations, we're committed to providing quality service to all customers, regardless of their location."
+        "title": "Do You Offer Item Pickup Services?",
+        "content": "Yes, <strong>Pawn Shop Buddy Cash</strong> provides professional item pickup services across Florida. Regardless of your location, our team can come to you the same day to assess and purchase your item on the spot."
       },
       {
-        "title": "How do you ensure data security and transaction privacy?",
-        "content": "We take data security and transaction confidentiality very seriously. All personal information and transaction details are kept strictly confidential and are never shared with third parties. We employ industry-standard encryption protocols to protect your data, and our staff undergoes regular training on privacy practices. Our privacy policy, which outlines our commitment to data protection, is available for review on our website."
+        "title": "How Is an Offline Appraisal Conducted?",
+        "content": "The offline appraisal process begins when you contact us through your preferred communication method (iMessage, WhatsApp, Facebook Messenger, or email) and send photos of your items along with model information. Within 10–15 minutes, you will receive an estimated value. If you find the price acceptable, an appraisal specialist can visit your home the same day for an in-person evaluation. Upon completing a detailed inspection, you will receive payment immediately.\nIt is essential to disclose any defects or damage upfront to ensure the physical inspection price matches the initial estimate. We have observed that this type of appraisal service is not commonly offered by pawnshops in Miami, making our service unique in the market."
       },
       {
-        "title": "What payment methods do you offer?",
-        "content": "We offer a variety of payment methods to accommodate your preferences: сash payment on-site, certified check, electronic bank transfer (ACH), wire transfer for larger transactions. All payment methods are secure and can be processed quickly to ensure you receive your funds as soon as possible after the transaction is complete."
+        "title": "What Is Buddy Cash Pawn Shop?",
+        "content": "Online Appraisals: We've eliminated the need to search for and travel to <strong>pawn shops</strong>. Save your time by getting an estimate within minutes online. There's no pressure or manipulation about your item's value, allowing you to make decisions with a clear mind. <br/> Fair Market Value: We understand that most people visit pawn shops due to financial needs. While local pawn shops may take advantage of this by offering minimal prices, we provide fair market value appraisals backed by data and research. <br/> Convenience Service: If you accept our online estimate, we will come to your location the same day with payment in hand."
       },
       {
-        "title": "How long does the process take from application to payment?",
-        "content": "We pride ourselves on our efficient process and same-day payment capability. Once we agree on a price, we can usually complete the transaction and provide payment within hours. However, please note that the timeline may extend slightly if you're located far from our nearest office or if the item for sale requires special handling or evaluation. In such cases, it might take an additional 1-2 business days to finalize the process. Rest assured, we always strive to complete transactions as quickly as possible while maintaining our high standards of service."
+        "title": "When Will I Receive Payment?",
+        "content": "At <strong>Pawn Shop Buddy Cash</strong>, payment is issued immediately after our specialist verifies the item's functionality and condition during the in-person inspection. We offer multiple payment options, including cash, bank transfer, Zelle, Cash App, Venmo, and PayPal. <br/> If you choose to ship your items in <Strong>   Buddy Cash<Strong>   , payment will be released on the same day we receive your package. We cover all shipping and insurance costs to ensure a smooth and secure transaction. "
+      }
+    ],
+    "isSlider": true,
+    "slidersData": [
+      {
+        "img": "/assets/img/main_page/Electronics.png",
+        "alt": "Sell my Electronics",
+        "link": "/fl/electronics",
+        "isActiveMobile": true
+      },
+      {
+        "img": "/assets/img/transport/Car.png",
+        "alt": "Sell my Car",
+        "link": "/fl/car",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/transport/Choose_a_motorcycle.png",
+        "alt": "Sell my Motorcycle",
+        "link": "/fl/motorcycle",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/transport/Choose_a_bike.png",
+        "alt": "Sell my Bike",
+        "link": "/fl/bike",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/See_all.webp",
+        "alt": "See All",
+        "link": "/fl",
+        "isActiveMobile": true
       }
     ],
     "listBottom1": {
