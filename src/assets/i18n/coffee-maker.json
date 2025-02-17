@@ -20,7 +20,7 @@
     "image": "/assets/img/coffee/Coffee.webp",
     "bgImage": "coffee",
     "class": "coffee_text",
-    "alt": "Sell Coffee Machine"
+    "altImage": "Sell Coffee Machine"
   },
   "easySteps": {
     "title": "Sell Coffee Machine",

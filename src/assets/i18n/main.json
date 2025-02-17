@@ -6,9 +6,9 @@
   "dashboard": {
     "state": "State of Florida",
     "title": "Pawn Shop Miami",
-    "location": "(State Florida)",
+    "location": "<strong>Buddy Cash Pawn Shop operates throughout Florida. We offer free same-day pickup of items. Use our online appraisal tool on our website to sell your used items. Our Miami pawn shop is open every day.</strong>",
     "index": true,
-    "footerDescription": "Cash for used item Florida",
+    "footerDescription": "",
     "metaTitle": "Pawn Shop Miami – Same-day cash for used items",
     "description": "Pawn Shop in Miami with free pickup. Online product assessment on the site within a few minutes. Buddy Cash will pay in cash today.",
     "keywords": "Pawn shop Miami, pawn shop in Miami, pawn shop near you, pawn shop buddy cash, buddy cash, buddy cash in Miami, sell my used items, sell used items, cash for my used items, sell used items in Miami",
@@ -23,8 +23,8 @@
     "alt": "Pawn Shop in Miami"
   },
   "prodInfo": {
-    "title": "Same-day cash at Miami",
-    "text": "Pawn Shop",
+    "title": "Discover the value of your items",
+    "text": "at our Miami Pawn Shop",
     "content": [
       {
         "img": "/assets/img/main_page/Transport.png",
@@ -51,9 +51,9 @@
         "isBlock": false
       },
       {
-        "img": "/assets/img/main_page/Estate.png",
+        "img": "/assets/img/main_page/Junk_removal_service.png",
         "route": "/fl",
-        "alt": "Sell real estate",
+        "alt": "Sell Junk removal service",
         "isBlock": true
       },
       {
@@ -172,6 +172,7 @@
   "questions": {
     "title": "Have Questions?",
     "descr": "We're Happy to Help",
+    "isOpenAll": true,
     "listAsq": [
       {
         "title": "Where Can I Sell Used Items?",
