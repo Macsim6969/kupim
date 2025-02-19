@@ -80,7 +80,7 @@ export class AppComponent implements OnInit {
         });
 
         this.updateCanonicalLink(data.ogUrl || location.href);
-
+        this.updateJsonLd(data);
       }
     });
   }
