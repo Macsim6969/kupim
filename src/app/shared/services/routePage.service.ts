@@ -6,7 +6,7 @@ import { Injectable } from "@angular/core";
 export class RoutePageService {
 
   private routeLanguageMap = {
-    '/': 'main',
+    '/fl': 'main',
     '/fl/airplane': 'airplane',
     '/fl/helicopter': 'helicopter',
     '/fl/wheelchair': 'wheelchair',
