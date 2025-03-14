@@ -95,8 +95,8 @@
     }
   },
   "aboutInfo": {
-    "title": "Pawn Shop in Miami",
-    "text": " – Same Day Cash",
+    "title": "Competitive",
+    "text": " Advantages of Our Services",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
@@ -170,8 +170,8 @@
     "content": "Open Google Maps"
   },
   "questions": {
-    "title": "Competitive Advantages ",
-    "descr": "of Our Services",
+    "title": "Have Questions?",
+    "descr": "We're Happy to Help",
     "isOpenAll": true,
     "listAsq": [
       {
