@@ -129,11 +129,11 @@ export class AppComponent implements OnInit {
     const jsonLdData = {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "@id": data.ogUrl || "https://buddy-cash.com/fl",
+      "@id": data.ogUrl || "https://buddy-cash.com/",
       "name": data.ogTitle || "Sell used items - Miami, Tampa, Orlando, Jacksonville, Fl - Buddy Cash",
       "description": data.ogDescription || "Professional asset purchase services: Buy, sell, and trade vehicles, electronics, real estate, and furniture. Get money today. Free online valuation in 10 minutes.",
       "image": data.ogImage || "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
-      "url": data.ogUrl || "https://buddy-cash.com/fl",
+      "url": data.ogUrl || "https://buddy-cash.com",
       "sameAs": [
         "http://m.me/buddycash01",
         "https://t.me/buddy_cashFL",

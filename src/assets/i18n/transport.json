@@ -26,12 +26,12 @@
     "text": "you want to sell",
     "products": [
       {
-        "url": "fl/car",
+        "url": "/fl/car",
         "img": "/assets/img/transport/Car.png",
         "title": "Sell my Car"
       },
       {
-        "url": "fl/motorcycle",
+        "url": "/fl/motorcycle",
         "img": "/assets/img/transport/Choose_a_motorcycle.png",
         "title": "Sell my Motorcycle"
       },

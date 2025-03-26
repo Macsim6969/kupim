@@ -9,8 +9,7 @@ RewriteRule ^ https://buddy-cash.com%{REQUEST_URI} [L,R=301]
 # Исключаем определённые пути из редиректа на index.html (например, API и статические страницы)
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_URI} !^(?:/fl|/api|/sitemap\.xml|/robots\.txt)(/|$)
-RewriteRule ^ /index.html [L]
+RewriteCond %{REQUEST_URI} !^(?:/api|/sitemap\.xml|/robots\.txt)(/|$)
 
 # Настраиваем страницу 404 (опционально)
 ErrorDocument 404 /index.html

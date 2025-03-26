@@ -1,3 +1,3 @@
 User-agent: *
-Host: https://buddy-cash.com/fl
+Host: https://buddy-cash.com/
 Sitemap: https://buddy-cash.com/sitemap.xml
