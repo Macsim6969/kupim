@@ -4,71 +4,89 @@
   ],
   "dashboard": {
     "state": "State of Florida",
-    "title": "Sell my <span>House</span>",
-    "location": "(State Florida)",
+    "title": "Sell House in Florida",
+    "location": "<strong>We offer professional house buying services to help you sell quickly, without realtors, commissions, or fees. Receive a cash offer for your home in any condition. Our main goal is to make the sale fast and at a fair market price, with full support from start to finish.</strong>",
     "index": false,
-    "footerDescription": "Cash for your House Florida!",
+    "footerDescription": "",
+    "metaTitle": "Sell House for Cash in Florida – We Buy Fast and in Any Condition",
+    "description": "Receive a cash offer for your house on the same day. Avoid fees, commissions, and repairs. We purchase homes throughout Florida, including Miami, Boca Raton, Tampa, and Orlando.",
+    "keywords": "Sell my house, sell my used house, buy used house, second-hand house sales, cash for my used house, cash for house, sell house locally, quick cash for house, sell house online, sell my house fast, sell old house for cash, sell house without repairs, sell house without commissions, sell house without fees",
+    "ogTitle": "Sell House in Florida – Miami, Boca Raton, Tampa, and Orlando",
+    "ogDescription": "Take advantage of our online house valuation tool available on our website. The process takes less than 5 minutes, and you will receive a no-obligation offer.",
+    "ogType": "website",
+    "ogUrl": "https://buddy-cash.com/fl/real-estate",
+    "ogImage": "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
     "image": "/assets/img/real-estate/House_main.svg",
     "bgImage": "real-estate",
-    "class": "real-estate_text"
+    "class": "real-estate_text",
+    "alt": "Sell House Fast in Florida – alt tag"
   },
   "easySteps": {
-    "title": "3 easy steps",
-    "text": "to get an online townhouse valuation:",
+    "title": "3 Easy Steps",
+    "text": "to Sell Your Home Fast",
     "style": "real-estate",
     "contentStep1": {
       "step": "Step 1",
-      "stepText": "Submit townhouse photos, key specifications, and additional information (if available) via your preferred messaging app.",
+      "stepText": "Provide the house coordinates. To ensure a more accurate online valuation, please include photographs. Within 10 minutes, we will send a price range we can offer. Our price proposal carries no binding obligations.",
       "contact": "SEND"
     },
     "contentStep2": {
       "step": "Step 2",
-      "stepText": "If the price is suitable, schedule a free appraiser inspection."
+      "stepText": "Upon your agreement, we will execute a written contract and proceed with closing the transaction. Depending on the specifics, the process takes between 7 to 21 days."
     },
     "contentStep3": {
       "step": "Step 3",
-      "stepText": "Receive an instant payout in the form that's convenient for you."
+      "stepText": "Receive payment via cash, certified check, or bank transfer on the same day. No fees, no additional charges."
     }
   },
   "aboutInfo": {
-    "title": "Why We're Your Top",
+    "title": "Sell Your Home Fast in Florida",
     "text": "Choice in Real Estate",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
-        "title": "We buy houses in any condition"
+        "title": "Florida-Wide Coverage — <strong>Sell your house anywhere in the Sunshine State</strong> with our guaranteed service",
+        "alt": "Home Selling"
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
-        "title": "Fast closing on all deals."
+        "title": "Specialized in Challenging Situations — Expert assistance with divorce settlements, foreclosure prevention, financial distress, mortgage default, troublesome tenants, code violation resolution, bankruptcy protection, and estate transitions",
+        "alt": "Legal Expertise"
       },
       {
         "src": "/assets/img/laptop/about/lock.svg",
-        "title": "We purchase houses with outstanding utility bills"
+        "title": "Immediate Financial Relief — Access up to $10,000 cash advance before closing to meet your urgent needs",
+        "alt": "Cash Advance"
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "We specialize in complex cases (e.g., houses in foreclosure)"
+        "title": "All-Condition House Purchases — We acquire homes with pest issues, deferred maintenance, water damage, or structural concerns without hesitation",
+        "alt": "Distressed Properties"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
-        "title": "We buy houses in need of major renovations"
+        "title": "Rapid Closing Process — (Get competitive cash offers for your home) with our streamlined local service",
+        "alt": "Quick Sale"
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
-        "title": "We resolve issues with property liens"
+        "title": "True As-Is Sales — Skip the hassle of cleaning, decluttering, staging, photography, and repair work completely",
+        "alt": "No Repairs"
       },
       {
         "src": "/assets/img/laptop/about/flag.svg",
-        "title": "Expert handling of inheritance and title complications"
+        "title": "Ironclad Privacy Protection — Your personal and financial information remains 100% confidential and secure",
+        "alt": "Data Security"
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
-        "title": "We cover all closing costs and fees"
+        "title": "Zero Out-of-Pocket Expenses — Eliminate realtor commissions, closing costs, and all associated fees completely",
+        "alt": "Zero Fees"
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
-        "title": "We ensure fully legal and compliant transactions)"
+        "title": "Complimentary Strategic Consultation — Receive expert guidance and support, including DIY selling assistance if preferred",
+        "alt": "Free Consultation"
       }
     ]
   },
@@ -76,25 +94,22 @@
     "title": "Customer Reviews",
     "feedback": [
       {
-        "content": "When I needed to sell my house fast, these guys came through big time. They made a fair cash offer and closed in just 10 days. No hassle, no repairs needed. If you're in a pinch in Tampa, give 'em a call!",
-        "name": "Mark S.",
-        "prod": "Sold House",
-        "stars": 5,
-        "feedbackMap": "Review from Google Maps"
+        "content": "<strong>Needed to sell house Boca Raton fast</strong>. These guys made it simple. No headaches, no waiting. Got a fair price and closed in a week. Exactly what I needed when trying to relocate quickly.",
+        "name": "Mike T.",
+        "prod": "Sold house in Boca Raton",
+        "stars": 5
       },
       {
-        "content": "Selling my childhood home was emotional, but this team made it painless. They were professional, respectful, and got me a great price. The process was smooth from start to finish. Highly recommend!",
-        "name": "Linda G.",
-        "prod": "Sold House",
-        "stars": 4,
-        "feedbackMap": "Review from Google Maps"
+        "content": "<strong>Wanted a cash offer for my home</strong> without drama. They weren't the highest bidder, but quick and straightforward. Saved me time and hassle compared to traditional selling.",
+        "name": "Sandra R.",
+        "prod": "Sold house in Fort Lauderdale",
+        "stars": 4
       },
       {
-        "content": "I was skeptical about 'we buy houses' companies, but these folks changed my mind. They were transparent about their offer and didn't pressure me. Closed on my timeline. Solid experience overall.",
-        "name": "Tony R.",
-        "prod": "Sold House",
-        "stars": 5,
-        "feedbackMap": "Review from Google Maps"
+        "content": "My neighbor recommended (how to sell a house in Florida) with these guys. Totally worth it. Professional, fast, no extra fees. Got my money and moved on with my life without stress.",
+        "name": "Linda W.",
+        "prod": "Sold house in Palm Beach",
+        "stars": 5
       }
     ],
     "content": "Open Google Maps"
@@ -104,28 +119,28 @@
     "descr": "We're Happy to Help",
     "listAsq": [
       {
-        "title": "Do you purchase houses that require repairs?",
-        "content": "We specialize in acquiring houses in any condition. Whether your property needs minor touch-ups or major renovations, we're prepared to make an offer. Our service eliminates the need for you to invest in repairs or improvements before selling."
+        "title": "How is the online evaluation process conducted for my home?",
+        "content": "<strong>We understand that many homeowners are curious about the value of their property, even if they aren’t actively looking to sell a house in Florida</strong>. To help satisfy your curiosity, we’ve developed a free online home evaluation tool. You’ll receive a complimentary consultation along with an estimated price range <strong>with 90-95% accuracy</strong>. We’re happy to discuss the price with you, as it helps both you and us become better informed. Rest assured, we provide only real, fact-based assessments—no gimmicks. <br/> There’s absolutely no obligation or pressure with our online evaluation. It’s a streamlined, hassle-free process designed with your convenience in mind. <br/> Here’s how it works: <br/> <ul><li>1.\tChoose your preferred messaging platform (WhatsApp, Gmail, Messenger, Facebook Messenger, or Telegram) and send us your property address.</li> <li>2.\tTo ensure a more accurate evaluation, we’ll ask for some photos of your home.</li> <li>3.\tWithin 10-20 minutes, one of our specialists will reach out with a few additional questions and provide you with an estimated price range for your property, along with an offer for a potential purchase.</li> <li>4.\tIf we reach an agreement, our real estate appraisal expert will visit your property for an in-depth inspection.</li> <li>5.\tIf there are no further questions after the inspection, we can proceed to finalize the contract.</li></ul> <br/> This process is optimized to be fast, transparent, and stress-free, ensuring you get a reliable valuation with no pressure. <strong>If you’re considering selling a home fast in Florida, this is the easiest way to get started.</strong>"
       },
       {
-        "title": "How do you calculate your offer?",
-        "content": "Our offers are based on a comprehensive analysis of local real estate market trends and your property's specific characteristics. For a preliminary estimate, you can utilize our online valuation tool. Simply provide photos, key specifications, and any additional relevant information. We'll respond promptly with a competitive cash offer tailored to your property."
+        "title": "What is the timeframe for receiving a preliminary offer on my house?",
+        "content": "The fastest way to get an approximate valuation of your home is by using our online evaluation tool. The process typically takes around 10-20 minutes. While this estimate won’t be 100% precise, it will be very close to the actual value. <br/> For a firm offer, we recommend scheduling a visit from our expert for a property inspection, along with a manager, on the same day. <strong>They will provide you with a specific cash offer for your house) that we are ready to make today.</strong>"
       },
       {
-        "title": "Can you assist with houses facing foreclosure?",
-        "content": "Absolutely. We specialize in rapid transactions that can often halt the foreclosure process. Our cash purchase option provides a quick resolution, potentially saving your credit score and offering a fresh start."
+        "title": "Are there any hidden fees or commissions associated with selling my home?",
+        "content": "No, we cover all costs. There are no commissions, fees, closing costs, or repair expenses. We handle everything, so you don’t have to worry about a thing. Our goal is to provide you with a seamless, hassle-free experience and exceptional service."
       },
       {
-        "title": "Do you buy properties with existing tenants?",
-        "content": "Yes, we regularly purchase houses with tenants in residence. We respect existing lease agreements and ensure a smooth transition of ownership, prioritizing both landlord and tenant interests throughout the process."
+        "title": "Is it necessary to complete repairs, cleaning, or furniture removal before selling my house?",
+        "content": "We purchase homes in their current condition—no repairs needed. If you prefer to complete repairs to increase your home's value, that’s entirely up to you, but it’s not required. We are happy to buy your property as-is, even without any renovations. <br/> You don’t need to worry about cleaning, removing trash, or taking out furniture. We handle all of that at no cost to you. If you have modern furniture, we can even purchase it separately. <br/> <strong>When considering a home sale in Florida, we make the process hassle-free, ensuring you receive a fair and fast offer with no extra work on your part.</strong>"
       },
       {
-        "title": "What are the post-sale occupancy options?",
-        "content": "We pride ourselves on flexibility. Whether you need a quick closing or require additional time to relocate, we can tailor our timeline to your specific needs. Our goal is to make your transition as seamless as possible."
+        "title": "How quickly can we complete the transaction and when will I receive payment?",
+        "content": "Once the contract is signed, you’ll receive an advance payment of up to $10,000 immediately. The full transaction can be completed within 5 to 20 days, depending on your urgency. On the closing day, the remaining balance will be transferred directly to your bank account. We ensure a seamless and fast process, allowing you to receive your funds quickly."
       },
       {
-        "title": "In which areas do you operate?",
-        "content": "Our house buying service extends across all 50 states. We have extensive experience in urban, suburban, and rural markets throughout the United States, ensuring we can assist you regardless of your property's location."
+        "title": "On average, how long does the entire house-selling process take?",
+        "content": "While it’s difficult to provide an exact timeline without discussing the details of each case, the fastest transaction we’ve completed was in just 3 days. On average, the process typically takes between 7 to 14 days. Each situation is unique, and some factors may influence the timeline. We work with you to ensure a smooth and efficient process from start to finish. <br/> <strong>If you're looking to sell your house for cash in Florida</strong>, we prioritize speed and transparency, so you can close quickly and get your payment without unnecessary delays."
       }
     ],
     "listBottom1": {
