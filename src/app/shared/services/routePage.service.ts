@@ -62,6 +62,7 @@ export class RoutePageService {
     '/fl/apartment': 'apartment',
     '/fl/garage': 'garage',
     '/fl/house': 'house',
+    '/fl/house/largo': 'house_largo',
     '/fl/land-lots': 'land-lots',
     '/fl/restaurant-cafe': 'restaurant-cafe',
     '/fl/townhouse': 'townhouse',

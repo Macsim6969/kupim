@@ -1,6 +1,7 @@
 {
   "key": [
-    "easy-step"
+    "easy-step",
+    "house"
   ],
   "dashboard": {
     "state": "State of Florida",
@@ -14,20 +15,20 @@
     "ogTitle": "Sell House in Florida – Miami, Boca Raton, Tampa, and Orlando",
     "ogDescription": "Take advantage of our online house valuation tool available on our website. The process takes less than 5 minutes, and you will receive a no-obligation offer.",
     "ogType": "website",
-    "ogUrl": "https://buddy-cash.com/fl/real-estate",
+    "ogUrl": "https://buddy-cash.com/fl/house",
     "ogImage": "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
     "image": "/assets/img/real-estate/House_main.svg",
     "bgImage": "real-estate",
     "class": "real-estate_text",
-    "alt": "Sell House Fast in Florida – alt tag"
+    "alt": "Sell House Fast in Florida"
   },
   "easySteps": {
     "title": "3 Easy Steps",
-    "text": "to Sell Your Home Fast",
+    "text": "to Sell Your Home Fast <br/> Sell your house anywhere in the Sunshine State with our guaranteed service",
     "style": "real-estate",
     "contentStep1": {
       "step": "Step 1",
-      "stepText": "Provide the house coordinates. To ensure a more accurate online valuation, please include photographs. Within 10 minutes, we will send a price range we can offer. Our price proposal carries no binding obligations.",
+      "stepText": "Expert help with divorce settlements, foreclosure prevention, financial distress, mortgage default, tenant issues, code violations, bankruptcy protection, and estate transitions.",
       "contact": "SEND"
     },
     "contentStep2": {
@@ -37,11 +38,16 @@
     "contentStep3": {
       "step": "Step 3",
       "stepText": "Receive payment via cash, certified check, or bank transfer on the same day. No fees, no additional charges."
+    },
+    "location": {
+      "title": "Get a cash offer for your home",
+      "location_city": "Office Location Buddy Cash: - <a href=\"https://g.co/kgs/Fe6hJFj\" target=\"_blank\">Open Google Map</a>",
+      "description": "With strategic offices located in Miami, Tampa, Orlando, and Jacksonville, our company provides comprehensive service throughout Florida. We offer complimentary on-site home appraisal consultations across all four metropolitan areas and their surrounding communities, including such cities:"
     }
   },
   "aboutInfo": {
-    "title": "Sell Your Home Fast in Florida",
-    "text": "Choice in Real Estate",
+    "title": "Sell Your Home",
+    "text": "Fast in Florida",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
@@ -117,6 +123,7 @@
   "questions": {
     "title": "Have Questions?",
     "descr": "We're Happy to Help",
+    "isOpenAll": true,
     "listAsq": [
       {
         "title": "How is the online evaluation process conducted for my home?",

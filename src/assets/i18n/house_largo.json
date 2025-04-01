@@ -1,0 +1,166 @@
+{
+  "key": [
+    "easy-step",
+    "house"
+  ],
+  "dashboard": {
+    "state": "State of Florida",
+    "title": "Sell House in Largo",
+    "location": "<strong>Our mission is to provide first-class service when selling your home in Largo. We guarantee a process free from pressure and manipulation. Use our online evaluation today and receive a cash offer right now.</strong>",
+    "index": false,
+    "footerDescription": "",
+    "metaTitle": "Sell House in Largo – Cash for your home Same Day",
+    "description": "Sell your house fast in Largo with no fees, no commissions, and no repairs. Get a free online evaluation and a same-day cash offer. A simple home sale near you.",
+    "keywords": "Sell my house in Largo, sell my used house in Largo, buy used house in Largo, second-hand house sales in Largo, cash for my used house in Largo, cash for house in Largo, sell house locally in Largo, quick cash for house in Largo, sell house online in Largo, sell my house fast in Largo, sell old house for cash in Largo, sell house without repairs in Largo, sell house without commissions in Largo, sell house without fees in Largo",
+    "ogTitle": "Sell House Fast in Largo, FL",
+    "ogDescription": "Sell your house fast in Largo—no fees, no commissions, no repairs. Get a free online evaluation and same-day cash offer. Easy home sale near you.",
+    "ogType": "website",
+    "ogUrl": "https://buddy-cash.com/fl/house/largo",
+    "ogImage": "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
+    "image": "/assets/img/real-estate/house_in_Largo.webp",
+    "bgImage": "real-estate",
+    "class": "real-estate_text",
+    "alt": "Sell House Fast in Largo"
+  },
+  "easySteps": {
+    "title": "3 Easy Steps",
+    "text": "to Sell Your Home Fast in Largo <br/> Our online evaluation comes with no obligations or pressure. It’s free, and the decision to sell is entirely up to you",
+    "style": "real-estate",
+    "contentStep1": {
+      "step": "Step 1",
+      "stepText": "Provide the house coordinates. To ensure a more accurate online valuation, please include photographs. Within 10 minutes, we will send a price range we can offer. Our price proposal carries no binding obligations.",
+      "contact": "SEND"
+    },
+    "contentStep2": {
+      "step": "Step 2",
+      "stepText": "Upon your agreement, we will execute a written contract and proceed with closing the transaction. Depending on the specifics, the process takes between 3 to 21 days."
+    },
+    "contentStep3": {
+      "step": "Step 3",
+      "stepText": "Receive payment via cash, certified check, or bank transfer on the same day. No fees, no additional charges."
+    },
+    "location": {
+      "title": "Cash Home Sale Near You",
+      "location_city": "Office Location Buddy Cash: - <a href=\"https://g.co/kgs/Fe6hJFj\" target=\"_blank\">Open Google Map</a>",
+      "description": "Our company has offices in Miami, Tampa, Orlando, and Jacksonville, providing comprehensive service across Florida. We offer complimentary on-site home appraisal consultations in these metropolitan areas and their surrounding communities, including:"
+    }
+  },
+  "aboutInfo": {
+    "title": "Sell Your House",
+    "text": "for cash in Largo",
+    "list": [
+      {
+        "src": "/assets/img/laptop/about/car.svg",
+        "title": "<strong>Sell Your Home Anywhere in Largo</strong> – We buy houses across the city with a guaranteed, hassle-free process.",
+        "alt": "Sell home Largo"
+      },
+      {
+        "src": "/assets/img/laptop/about/sack.svg",
+        "title": "<strong>Solutions for Any Situation</strong> – Get expert help with divorce, foreclosure, financial trouble, mortgage default, bad tenants, code violations, bankruptcy, and estate sales.",
+        "alt": "Home sale help"
+      },
+      {
+        "src": "/assets/img/laptop/about/lock.svg",
+        "title": "<strong>Fast Cash Relief</strong> – Receive up to $10,000 in advance before closing to cover urgent expenses.",
+        "alt": "Fast cash offer"
+      },
+      {
+        "src": "/assets/img/laptop/about/bank.svg",
+        "title": "<strong>We Buy Homes in Any Condition</strong> – No problem if your house has pests, water damage, structural issues, or neglected maintenance.",
+        "alt": "Buy homes as-is"
+      },
+      {
+        "src": "/assets/img/laptop/about/time.svg",
+        "title": "<strong>Quick and Easy Closing</strong> – Get a competitive cash offer and close fast with our efficient local service.",
+        "alt": "Quick home closing"
+      },
+      {
+        "src": "/assets/img/laptop/about/thumbs-up.svg",
+        "title": "<strong>Sell As-Is, No Effort Needed</strong> – No cleaning, staging, or repairs—just a simple sale.",
+        "alt": "Sell house easy"
+      },
+      {
+        "src": "/assets/img/laptop/about/flag.svg",
+        "title": "<strong>Full Privacy Protection</strong> – Your personal and financial details stay 100% secure.",
+        "alt": "Secure home sale"
+      },
+      {
+        "src": "/assets/img/laptop/about/bills.svg",
+        "title": "<strong>No Hidden Costs</strong> – Pay zero commissions, closing fees, or extra charges.",
+        "alt": "No commission sale"
+      },
+      {
+        "src": "/assets/img/laptop/about/chain.svg",
+        "title": "<strong>Free Expert Consultation</strong> – Get professional advice, including DIY selling options if preferred.",
+        "alt": "Free home consultation"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Customer Reviews",
+    "feedback": [
+      {
+        "content": "I needed to sell my house in Largo fast, and these guys made it easy. No waiting, no hassle—just a fair offer and a quick closing in one week. Exactly what I was looking for.",
+        "name": "Jason M.",
+        "prod": "Sold house in Largo",
+        "stars": 5
+      },
+      {
+        "content": "I was looking for cash for my home and wanted a simple process. They weren’t the highest offer, but they were upfront and handled everything quickly. A few small details could’ve been better, but overall, it was a smooth experience.",
+        "name": "Emily R.",
+        "prod": "Sold house in Largo",
+        "stars": 4
+      },
+      {
+        "content": "I searched for how to sell a house fast near me and found this company. The process was straightforward—no hidden fees, no delays. I got a fair price and was able to move on without stress. Definitely a great experience.",
+        "name": "Daniel W.",
+        "prod": "Sold house in Pinellas Park",
+        "stars": 5
+      }
+    ],
+    "content": "Open Google Maps"
+  },
+  "questions": {
+    "title": "Have Questions?",
+    "descr": "We're Happy to Help",
+    "isOpenAll": true,
+    "listAsq": [
+      {
+        "title": "How do I get my property evaluated online in Largo?",
+        "content": "<strong>Whether you're ready to sell house in Largo or just curious about your property's value, our free digital assessment tool provides a no-pressure evaluation with remarkable accuracy.</strong> Our Largo-specific process works like this: <br/> <ul><li>Message us your Largo property address through WhatsApp, Gmail, or Telegram</li> <li>Share recent photos of your property for a more precise assessment</li> <li>Within 15 minutes, our Largo specialist will contact you with questions and provide a value estimate plus potential purchase offer</li> <li><strong>If you're interested in a sell house fast solution, we'll schedule an in-person inspection</strong></li> <li>After a successful property review, we can move forward with paperwork</li></ul>"
+      },
+      {
+        "title": "How quickly can I receive an initial offer on my Largo property?",
+        "content": "<strong>For Largo homeowners seeking a home sale estimate</strong>, our online evaluation typically delivers results in 15 minutes or less. This preliminary assessment closely reflects current Largo market values. For a firm cash offer, we recommend scheduling our Largo-based appraiser to visit your property, often same-day, who will present a specific purchase proposal tailored to your unique Largo home."
+      },
+      {
+        "title": "Will I need to pay any fees when selling my home in Largo, Florida?",
+        "content": "<strong>When you choose to sell Home in Largo with us, we eliminate all seller expenses.</strong> Largo homeowners pay zero commissions, fees, closing costs, or repair charges. Our Largo-focused team handles these costs completely, ensuring Largo residents experience a truly worry-free transaction from initial contact through final closing."
+      },
+      {
+        "title": "Do I need to make repairs to my Largo house before selling?",
+        "content": "(Looking to sell house near me in Largo without the hassle of renovations?) We purchase Largo properties in their current condition—no repairs needed. While some Largo homeowners choose to make improvements, it's completely optional. Don't worry about cleaning, junk removal, or furniture disposal—our Largo team handles everything at no cost to you. For quality furniture pieces in your Largo home, we may even offer to purchase them separately."
+      },
+      {
+        "title": "What's the timeline for completing a Largo home sale and receiving payment?",
+        "content": "<strong>For Largo residents choosing to sell house fast</strong>, we provide an immediate advance payment up to $10,000 upon contract signing. The complete transaction typically finalizes within 5-15 days, based on your preferences. On closing day, we transfer the remaining balance directly to your account, ensuring Largo homeowners receive their funds quickly without complications."
+      },
+      {
+        "title": "How long does the entire selling process usually take in Largo?",
+        "content": "<strong>While each Largo property is unique, our fastest Largo home sale completed in just 4 days.</strong> Most Largo transactions finalize within 7-12 days. Various factors specific to the Largo real estate market may affect timing, but our dedicated Largo specialists work closely with you throughout the process. We prioritize efficiency and transparency so Largo homeowners can close quickly and move forward with confidence."
+      },
+      {
+        "title": "Which zip codes do you consider for property purchases in Largo?",
+        "content": "We buy properties throughout all Largo and neighboring areas. Our sell house in Largo service covers these zip codes: <br/> <ul><li>33770 - Central Largo</li> <li>33771 - North Largo</li> <li>33773 - East Largo</li> <li>33774 - Largo/Belleair area</li> <li>33778 - Southwest Largo</li> <li>•33779 - West Largo</li> <li>33756 - Clearwater/Largo border</li> <li>33755 - North Clearwater</li> <li>33764 - East Largo/Pinellas Park</li> <li>33772 - Seminole/South Largo</li></ul> <br/> <strong>If you're looking to sell house near me in any of these areas, we offer competitive cash offers with our fast home sale solutions.</strong>"
+      }
+    ],
+    "listBottom1": {
+      "title": "",
+      "text": ""
+    },
+    "listBottom2": {
+      "title": "",
+      "text": ""
+    }
+  }
+}

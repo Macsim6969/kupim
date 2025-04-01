@@ -59,6 +59,7 @@ const routes: Routes = [
       { path: 'fl/apartment', component: HomeComponent },
       { path: 'fl/garage', component: HomeComponent },
       { path: 'fl/house', component: HomeComponent },
+      { path: 'fl/house/largo', component: HomeComponent },
       { path: 'fl/land-lots', component: HomeComponent },
       { path: 'fl/restaurant-cafe', component: HomeComponent },
       { path: 'fl/townhouse', component: HomeComponent },
