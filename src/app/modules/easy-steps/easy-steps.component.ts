@@ -2,6 +2,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { Subject, takeUntil } from 'rxjs';
 import { EasySteps } from './shared/interfaces/easy-steps.interface';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-easy-steps',
@@ -11,12 +12,16 @@ import { EasySteps } from './shared/interfaces/easy-steps.interface';
 export class EasyStepsComponent implements OnInit, OnDestroy {
   private destroy$: Subject<void> = new Subject<void>();
   public easyStepData: EasySteps;
+  public currentUrl: string;
   constructor(
-    private translate: TranslateService
+    private translate: TranslateService,
+    private router: Router
   ) { }
 
   ngOnInit(): void {
     this.streamDataEasyStepsFromJson();
+    this.currentUrl = this.router.url;
+    console.log(this.currentUrl);
   }
 
   private streamDataEasyStepsFromJson() {

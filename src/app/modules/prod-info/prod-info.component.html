@@ -1,9 +1,9 @@
 <section [ngClass]="{ hide: prodInfo === 'prodInfo' }">
   <div class="prod_info">
-    <strong class="prod_info_h">
+    <h2 class="prod_info_h">
       <span class="info_title">{{ prodInfo["title"] }}</span>
       <span class="info_undelog">{{ prodInfo["text"] }}</span>
-    </strong>
+    </h2>
     <div class="prod_info_content" *ngIf="!isLoading && content; else loading">
       <button
         class="btn"

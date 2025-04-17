@@ -6,13 +6,13 @@
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell laptop Florida",
-    "location": "<strong>Professional laptop buyback service in Jacksonville, Miami, Tampa, and Orlando.</strong> Pawn shop with statewide coverage across Florida. We come to your location.",
+    "location": "Professional Laptops Pawn Shop. <strong>Get cash for your used laptop near you</strong>. Take advantage of our online appraisal service and instantly receive a same-day payment proposal. We offer free pickup in Miami, Hialeah, Fort Lauderdale, and Hollywood.",
     "index": true,
     "footerDescription": "",
-    "metaTitle": "Sell used Laptop - Miami, Orlando, Tampa, Jacksonville, FL",
-    "description": "Same-Day Sell and Buy Laptop for Cash - Acer, Alienware, Apple, Asus, Dell, Hp, Lenovo, Msi, Razer. Professional laptop buyback service. Quick & Easy Online Appraisal! Pawn Shop. Trade in!",
+    "metaTitle": "Sell Laptop Near Me – Miami, Hialeah, Miramar, Hollywood, Fort Lauderdale",
+    "description": "Get Same-Day Cash for Your Used Laptop! Professional buyback service specializing in laptops. Trade in your old laptop for cash today. Free pickup anywhere in Florida!",
     "keywords": "Laptop, sell my laptop, sell my used laptop, buy used laptop, second-hand laptop sales, cash for my used laptop, cash for laptop, sell laptop locally, quick cash for laptop, sell laptop online, sell my laptop fast, sell old laptop for cash",
-    "ogTitle": "Sell used Laptop for cash",
+    "ogTitle": "Sell Laptop Near Me – Miami, Hialeah, Miramar, Hollywood, Fort Lauderdale",
     "ogDescription": "Professional laptop buyback service. Cash for my laptop the same day!",
     "ogType": "website",
     "ogUrl": "https://buddy-cash.com/fl/laptop",
@@ -23,8 +23,8 @@
     "altImage": "Cash for used laptop"
   },
   "prodInfo": {
-    "title": "Types of Laptops",
-    "text": "We Purchase",
+    "title": "Laptops We Accept in Miami,",
+    "text": "Hollywood, Hialeah, and Fort Lauderdale",
     "content": [
       {
         "img": "/assets/img/laptop/After_repair.png",
@@ -49,8 +49,8 @@
     ]
   },
   "easySteps": {
-    "title": "Same-Day Cash ",
-    "text": "for Used Laptops",
+    "title": "How to Get Cash",
+    "text": "for Used Laptop Near Me?",
     "style": "laptop",
     "contentStep1": {
       "step": "Step 1",
@@ -64,56 +64,61 @@
     "contentStep3": {
       "step": "Step 3",
       "stepText": "Receive immediate payment through your preferred method: cash, digital transfer, or check"
+    },
+    "location": {
+      "title": "Where to Sell a Laptop Quickly?",
+      "location_city": "Pawnshop in Miami: - <a href=\"https://g.co/kgs/Fe6hJFj\" target=\"_blank\">Open Google Map</a>",
+      "description": "<strong>Selling a Laptop and Getting Cash in Miami, Fort Lauderdale, Hialeah, or Hollywood typically takes 1 to 2 hours on average.<br/><br/>For clients located in other cities across Florida, approximate evaluator arrival times are as follows:<br/><br/> 1. North Florida – Approximate evaluator arrival time: 6–8 hours\nJacksonville, Tallahassee, Gainesville, Pensacola, Panama City, Lake City, St. Augustine, and nearby areas. <br/><br/> 2. Central Florida – Approximate evaluator arrival time: 4–6 hours\nOrlando, Tampa, St. Petersburg, Clearwater, Lakeland, Daytona Beach, Ocala, The Villages, and surrounding communities. <br/><br/> 3. South Florida – Approximate evaluator arrival time: 2–4 hours\nWest Palm Beach, Hollywood, Boca Raton, Coral Springs, Pembroke Pines, Miramar, Miami Gardens, Homestead, Aventura, and adjacent regions</strong>"
     }
   },
   "aboutInfo": {
-    "title": "Why Choose Us",
-    "text": "for a Quick Laptop Sale?",
+    "title": "Should You Sell",
+    "text": "your Laptop to Us?",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
         "title": "We purchase laptops in any condition - from mint to damaged",
-        "alt": "laptop condition scale"
+        "alt": "Any condition"
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
-        "title": "Fast and efficient transactions - <strong>cash for your laptop locally</strong>",
-        "alt": "cash payment icon"
+        "title": "Fast and efficient transactions - cash for your laptop locally",
+        "alt": "Fast cash"
       },
       {
         "src": "/assets/img/laptop/about/lock.svg",
-        "title": "Statewide service - <strong>sell your laptop anywhere in Florida</strong>",
-        "alt": "florida state map"
+        "title": "Statewide service - sell your laptop in Miami, Hollywood, Hialeah, and Fort Lauderdale",
+        "alt": "Multiple locations"
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
         "title": "Specialists in challenging cases (water damage, factory defects, non-functional units)",
-        "alt": "repair tools"
+        "alt": "Damage specialists"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
         "title": "Guaranteed confidentiality for all transactions",
-        "alt": "privacy shield"
+        "alt": "Confidential transactions"
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
         "title": "We handle warranty-related concerns",
-        "alt": "warranty badge"
+        "alt": "Warranty support"
       },
       {
         "src": "/assets/img/laptop/about/flag.svg",
         "title": "Expert evaluation and thorough functionality checks",
-        "alt": "diagnostic checklist"
+        "alt": "Expert evaluation"
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
         "title": "All shipping costs covered by us",
-        "alt": "delivery truck"
+        "alt": "Free shipping"
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
         "title": "Fully legal and transparent laptop trade-in program",
-        "alt": "legal document"
+        "alt": "Legal program"
       }
     ]
   },
@@ -121,21 +126,21 @@
     "title": "Customer Reviews",
     "feedback": [
       {
-        "content": "I was skeptical about selling my laptop online, but this service exceeded my expectations. The process was quick, and I got a fair price for my old MacBook Pro. They even helped me recycle my laptop for money by offering a bonus for the charger and original box. Highly recommended for anyone looking to sell a laptop fast!",
+        "content": "I was skeptical about selling my laptop online, but this service exceeded my expectations. The process was quick, and I got a fair price for my old MacBook Pro. They even offered a bonus for including the charger and original box. When I needed to sell my laptop in Fort Lauderdale, their team met me the same day and handled everything professionally. Highly recommended!",
         "name": "Sarah K.",
         "prod": "(Sold 2019 MacBook Pro)",
         "stars": 5,
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "As a gamer, I was worried about getting a good deal for my high-end setup. These guys really know their stuff when it comes to gaming laptops. They offered me top dollar for my Lenovo, and the whole process was smooth. If you're wondering where to sell a laptop for the best price, look no further.",
+        "content": "As a gamer, I was worried about getting a good deal for my high-end setup. These guys really know their stuff when it comes to gaming laptops. They offered me top dollar for my Lenovo Legion, and I got cash for my laptop in Hialeah the same day I contacted them. If you're looking for the best price, look no further.",
         "name": "Mike R.",
         "prod": "(Sold Lenovo Legion 5)",
         "stars": 4,
         "feedbackMap": "Review from Google Maps"
       },
       {
-        "content": "I had an old ASUS that I thought was worthless due to some damage. Turns out, there are companies that buy laptops near me even in less-than-perfect condition. They gave me a fair price and handled the data removal professionally. Great option if you're looking to sell a damaged laptop near you.",
+        "content": "I had an old ASUS that I thought was worthless due to some damage. Turns out, there are places to sell laptops in Miami even when they're in less-than-perfect condition. They gave me a fair price and handled the data removal professionally. Great option if you're looking to sell a damaged laptop near you.",
         "name": "Chris T.",
         "prod": "(Sold ASUS ROG Strix)",
         "stars": 5,
@@ -149,28 +154,28 @@
     "descr": "We're Happy to Help",
     "listAsq": [
       {
-        "title": "What happens to my personal data when I <strong>sell my laptop near me</strong>",
-        "content": "When you <strong>sell your device</strong> to us, we implement a thorough data wiping process at no extra cost. This ensures all your personal information is securely erased, even if the device is non-functional or sold for parts. Your laptop is restored to factory settings, guaranteeing your privacy and data security."
-      },
-      {
         "title": "How can I maximize the value of my laptop?",
-        "content": "To get the best offer when you <strong>sell your gaming laptop</strong>, make sure to include all original accessories, such as chargers, cables, and manuals, along with the original packaging and documentation. Clean your device and ensure it’s in good working condition. Even if you're looking to <strong>sell a laptop for parts</strong>, keeping it in the best possible shape, including fixing minor cosmetic issues, can increase its value."
+        "content": "To get the best offer when you sell your laptop, make sure to include all original accessories, such as chargers, cables, and manuals, along with the original packaging and documentation. Clean your device thoroughly and ensure it's in good working condition. Even if you're selling a laptop for parts, keeping it in the best possible shape, including fixing minor cosmetic issues, can significantly increase its value."
       },
       {
         "title": "What laptop brands and models do you accept?",
-        "content": "We accept laptops from all major brands, including ACER, ALIENWARE, APPLE, ASUS, DELL, GIGABYTE, GOOGLE, HP, LENOVO, MSI, MICROSOFT, RAZER, SAGER, and SAMSUNG. Whether it’s a Chromebook, a high-performance gaming laptop, or anything in between, we're interested in purchasing your device. Contact us for specific model inquiries or to learn more about our laptop exchange program."
+        "content": "We accept laptops from all major brands, including ACER, ALIENWARE, APPLE, ASUS, DELL, GIGABYTE, GOOGLE, HP, LENOVO, MSI, MICROSOFT, RAZER, SAGER, and SAMSUNG. Whether it's a Chromebook, a high-performance gaming laptop, or anything in between, we're interested in purchasing your device. Contact us for specific model inquiries or to learn more about our laptop exchange program."
       },
       {
         "title": "Who covers the postal services if I decide to send you a device?",
-        "content": "We assume full responsibility for all postal services, including delivery and electronics insurance. You can rest assured that your item will be securely handled and received promptly upon arrival, making it easy and secure to (sell laptops online)."
+        "content": "We assume full responsibility for all postal services, including delivery and electronics insurance. You can rest assured that your item will be securely handled and received promptly upon arrival, making it easy and secure to sell your laptop online."
       },
       {
-        "title": "How to sell my laptop fast in Florida?",
-        "content": "We've streamlined the process to make it as simple as possible. Send us photos of your laptop via Instagram, Telegram, WhatsApp, Facebook Messenger, or your preferred messaging platform. Once received, we’ll provide you with a precise quote immediately.<br/>(Places to sell laptops in Florida) include Jacksonville, Miami, Tampa, Orlando, St. Petersburg, Hialeah, Tallahassee, Fort Lauderdale, Port St. Lucie, Cape Coral, Pembroke Pines, Gainesville, Coral Springs, Miramar, Lakeland, Clearwater, Palm Bay, Pompano Beach, West Palm Beach, Davie, and Sarasota. We offer various secure payment methods, such as cash, PayPal, Venmo, Cash App, Google Pay, Zelle, checks, and bank transfers."
+        "title": "How can I sell my laptop fast near me?",
+        "content": "We've streamlined the process to make it as simple as possible. Send us photos of your laptop via Instagram, Telegram, WhatsApp, Facebook Messenger, or your preferred messaging platform. Once received, we'll provide you with an immediate and accurate quote. If you accept our offer, we'll promptly come to your location with payment in hand. Our professional service ensures a smooth and convenient transaction."
       },
       {
-        "title": "Where can I sell my laptop in Florida?",
-        "content": "While researching <strong>Top websites to sell old laptops in the FL</strong>, you’ll notice that many platforms are time-consuming and lack guarantees of sale. Options like Facebook Marketplace, eBay, or OfferUp may appear convenient but often lead to prolonged negotiations and potential security risks. Similarly, <strong>Local stores that buy laptops in Florida</strong>, <strong>Laptop trade-in</strong> services, or <strong>Electronics pawn shops near me</strong> might offer below-market values.<br/> Our <strong>Professional Laptop Buyback service</strong> combines maximum convenience, competitive pricing, and fast, secure transactions to provide the best experience for sellers."
+        "title": "Where can I sell my laptop in Miami, Hollywood, Hialeah, and Fort Lauderdale?",
+        "content": "We purchase laptops throughout Florida with a free pickup service. In most cases, the sale can be completed on the same day. Currently, we have offices in Miami and Hallandale for your convenience."
+      },
+      {
+        "title": "Why sell to us instead of other platforms?",
+        "content": "It's no secret that you can sell your laptop on Facebook Marketplace, OfferUp, or eBay. But ask yourself: Is it worth creating a detailed listing on eBay only to pay enormous commission fees? Do you want to meet strangers from Facebook Marketplace? Are you prepared for the lowball offers on OfferUp? Our goal is to eliminate these complications. We provide immediate assessment and come to you with cash in hand. Rest assured, you'll never experience any pressure tactics when selling to us!"
       }
     ],
     "isSlider": true,
@@ -182,21 +187,21 @@
         "isActiveMobile": true
       },
       {
-        "img": "/assets/img/transport/Car.png",
+        "img": "/assets/img/electronics/Camera.svg",
         "alt": "Sell my Car",
-        "link": "/fl/car",
+        "link": "/fl/camera",
         "isActiveMobile": false
       },
       {
-        "img": "/assets/img/transport/Choose_a_motorcycle.png",
+        "img": "/assets/img/electronics/TV.svg",
         "alt": "Sell my Motorcycle",
-        "link": "/fl/motorcycle",
+        "link": "/fl/tv",
         "isActiveMobile": false
       },
       {
-        "img": "/assets/img/transport/Choose_a_bike.png",
+        "img": "/assets/img/electronics/Coffee_maker.svg",
         "alt": "Sell my Bike",
-        "link": "/fl/bike",
+        "link": "/fl/coffee-maker",
         "isActiveMobile": false
       },
       {

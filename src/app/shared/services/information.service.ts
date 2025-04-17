@@ -10,7 +10,7 @@ export interface DataInforamtion {
 @Injectable()
 export class InformationService {
   private dataInform: DataInforamtion = {
-    address: '25 NE 5th St, Miami, FL 33132, United States',
+    address: '244 Three Islands Boulevard, Hallandale Beach, FL 33009',
     dayWork: [
       {
         title: 'Monday - 09:00 AM - 07:00 PM',
