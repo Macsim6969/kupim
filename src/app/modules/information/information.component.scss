@@ -62,8 +62,12 @@
 
       .inner_local {
         width: 285px;
-        margin: 0 0 50px 30px;
+        margin: 0 0 35px 30px;
         text-align: center;
+
+        &.two{
+          margin: 0 0 50px 0;
+        }
 
         a{
           font-size: 18px;
