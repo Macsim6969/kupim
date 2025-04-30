@@ -35,7 +35,7 @@
         "img": "/assets/img/electronics/Building_tool.svg",
         "route": "/fl/building-tool",
         "alt": "Building tool",
-        "isBlock": true
+        "isBlock": false
       },
       {
         "img": "/assets/img/electronics/Camera.svg",

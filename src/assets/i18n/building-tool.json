@@ -5,30 +5,108 @@
   ],
   "dashboard": {
     "state": "State of Florida",
-    "title": "Scroll down <span>to see what we buy</span>",
-    "location": "(State Florida)",
-    "index": false,
-    "footerDescription": "Cash for your trash Florida!",
+    "title": "Sell Tools Florida",
+    "location": "Professional buyout and liquidation services for tools and equipment. Get a free online quote and same-day cash with free pickup across Florida, including Miami, Hialeah, Fort Lauderdale, Boca Raton, and West Palm Beach.",
+    "index": true,
+    "footerDescription": "",
+    "metaTitle": "Title - Sell Tools for Cash Near You - Miami, Hialeah, Fort Lauderdale, Boca Raton",
+    "description": "Cash for Used Tools and Equipment Same Day. Professional buyout and liquidation services in Miami, Tampa, and Orlando.",
+    "keywords": "Sell my tools, Sell my used tools, Buy used tools, Second-hand tool sales, Cash for tools, Cash for my used tools, Sell tools locally, Quick cash for tools, Sell tools online, Sell my tools fast, Sell old tools for cash",
+    "ogTitle": "Title - Sell Tools for Cash Near You - Miami, Hialeah, Fort Lauderdale, Boca Raton",
+    "ogDescription": "Cash for Used Tools and Equipment Same Day – Buddy Cash",
+    "ogType": "website",
+    "ogUrl": "https://buddy-cash.com/fl/laptop",
+    "ogImage": "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
     "image": "/assets/img/electronics/electronics.svg",
-    "bgImage": "main",
-    "class": "main_text"
+    "bgImage": "laptop",
+    "class": "laptop_text",
+    "altImage": "Sell tools and equipment"
+  },
+  "prodInfo": {
+    "title": "Brands We Accept for Tools",
+    "text": "and Equipment in Florida",
+    "content": [
+      {
+        "img": "/assets/img/building-tools/Sell tools and equipment.webp",
+        "alt": "Sell other brands' tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Bosch.webp",
+        "alt": "Sell Bosch tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Craftsman.webp",
+        "alt": "Sell Craftsman tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools DeWalt.webp",
+        "alt": "Sell DeWalt tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Hart.webp",
+        "alt": "Sell Hart tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Hilti.webp",
+        "alt": "Sell Hilti tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Ingersoll Rand.webp",
+        "alt": "Sell Ingersoll Rand tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Klein.webp",
+        "alt": "Sell Klein tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Kobalt.webp",
+        "alt": "Sell Kobalt tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Makita.webp",
+        "alt": "Sell Makita tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Metabo HPT.webp",
+        "alt": "Sell Metabo HPT tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Milwaukee.webp",
+        "alt": "Sell Milwaukee tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Ridgid.webp",
+        "alt": "Sell Ridgid tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Ryobi.webp",
+        "alt": "Sell Ryobi tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Snap-on.webp",
+        "alt": "Sell Snap-on tools"
+      }
+    ]
   },
   "easySteps": {
-    "title": "3 easy steps",
-    "text": "to appraise your building-tool online",
+    "title": "How Can I Get Cash",
+    "text": "for Used Tools?",
     "style": "main",
     "contentStep1": {
       "step": "Step 1",
-      "stepText": "Shoot us a picture or the details on any messaging app",
+      "stepText": "Send a photo of your tools or equipment via any messaging app. We'll provide an estimate within 10 minutes.",
       "contact": "SEND"
     },
     "contentStep2": {
       "step": "Step 2",
-      "stepText": "Schedule an in-office sales appointment or request an appraiser to visit your home"
+      "stepText": "Schedule an appointment at our office, or request a home visit from our appraiser."
     },
     "contentStep3": {
       "step": "Step 3",
-      "stepText": "Receive an instant payout in the form that's convenient for you"
+      "stepText": "Get paid instantly in the form that works best for you: Cash, bank transfer, or check—your choice."
+    },
+    "location": {
+      "alt": "Cash for tools in Florida"
     }
   },
   "aboutInfo": {

@@ -18,4 +18,5 @@ export interface LocationLinear{
   title: string;
   location_city: string;
   description: string;
+  alt: string;
 }
