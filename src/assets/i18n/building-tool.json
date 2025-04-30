@@ -106,48 +106,60 @@
       "stepText": "Get paid instantly in the form that works best for you: Cash, bank transfer, or check—your choice."
     },
     "location": {
-      "alt": "Cash for tools in Florida"
+      "alt": "Cash for tools in Florida",
+      "title": "Sell Tools & Equipment Near Me",
+      "location_city": "Buyout Service in Hallandale Beach: - <a href=\"https://g.co/kgs/Fe6hJFj\" target=\"_blank\">Open Google Map</a>",
+      "description": "<strong>We offer professional buyout services with free equipment pickup from any location in Florida—no need for you to leave your home. In Miami, Fort Lauderdale, Hialeah, and Hollywood, you can sell your tools and receive cash on the spot within 1–2 hours.<br/><br/>For clients in other areas of Florida, our appraisers arrive within:<br/><br/> South Florida (2–4 hours): West Palm Beach, Hollywood, Boca Raton, Coral Springs, Pembroke Pines, Miramar, Miami Gardens, Homestead, Aventura, and surrounding regions. <br/><br/> Central Florida (4–6 hours): Orlando, Tampa, St. Petersburg, Clearwater, Lakeland, Daytona Beach, Ocala, The Villages, and surrounding communities. <br/><br/> North Florida (6–8 hours): Jacksonville, Tallahassee, Gainesville, Pensacola, Panama City, Lake City, St. Augustine, and nearby areas.</strong>"
     }
   },
   "aboutInfo": {
-    "title": "We buy back",
-    "text": "laptops in Florida",
+    "title": "Should You Sell",
+    "text": "Your Tools to Us?",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
-        "title": "We’ll buy anything you’ve got."
+        "title": "We purchase tools and equipment in any condition — from brand new to heavily used.",
+        "alt": "Any Condition Tools"
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
-        "title": "Same-Day Purchase"
+        "title": "Service available throughout all of Florida — from Key West to Jacksonville.",
+        "alt": "Florida-Wide Service"
       },
       {
         "src": "/assets/img/laptop/about/lock.svg",
-        "title": "Every Sale is Confidential"
+        "title": "All shipping costs are covered by us, even from out-of-state locations.",
+        "alt": "Free Shipping"
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
-        "title": "Trade-In"
+        "title": "We handle challenging cases — tools on financing, broken equipment, missing parts, or damaged items.",
+        "alt": "Complex Cases"
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
-        "title": "Appraisal Time via Messenger - 7 Minutes"
+        "title": "Every transaction is completely confidential.",
+        "alt": "Fully Confidential"
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
-        "title": "We Offer Higher Prices Than Our Competitors"
+        "title": "Free expert appraisal and comprehensive functionality testing provided.",
+        "alt": "Expert Appraisal"
       },
       {
         "src": "/assets/img/laptop/about/flag.svg",
-        "title": "Operating Across All U.S. States"
+        "title": "We cover all transportation fees, regardless of your location in the country.",
+        "alt": "Shipping Covered"
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
-        "title": "Instant Payment"
+        "title": "Same-day tool-to-cash exchange guaranteed.",
+        "alt": "Same-Day Payout"
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
-        "title": "We Handle Complex Cases (Collateral, Loans)"
+        "title": "No pressure, no manipulation — the final decision always remains with you.",
+        "alt": "No Pressure Sales"
       }
     ]
   },
@@ -155,25 +167,22 @@
     "title": "Customer Reviews",
     "feedback": [
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
-        "stars": 5,
-        "feedbackMap": "Review from Google Maps"
+        "content": "Sold my full Milwaukee tool set in Boca Raton. They came the same day, gave me a fair price, and paid in cash. Super smooth experience.",
+        "name": "Mike R.",
+        "prod": "Sold Milwaukee Tool Set",
+        "stars": 5
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
-        "stars": 4,
-        "feedbackMap": "Review from Google Maps"
+        "content": "Didn’t get quite what I hoped for my DeWalt drill, but it was still better than anything I was offered on Facebook Marketplace. Fast pickup and easy process.",
+        "name": "Alex T.",
+        "prod": "Sold DeWalt Drill",
+        "stars": 4
       },
       {
-        "content": "Happy with the buyout and transportation purchase! Asked for an adequate price for my old bike and was offered a new one at a very attractive price. I will keep in touch!",
-        "name": "Андрей",
-        "prod": "Sold the Gt Zaskar bike",
-        "stars": 5,
-        "feedbackMap": "Review from Google Maps"
+        "content": "I needed to sell my Honda generator in Tampa quickly. They showed up fast, checked everything, and I got paid right away. Really professional team.",
+        "name": "Daniel S.",
+        "prod": "Sold Honda Generator",
+        "stars": 5
       }
     ],
     "content": "Open Google Maps"
@@ -181,39 +190,40 @@
   "questions": {
     "title": "Have Questions?",
     "descr": "We're Happy to Help",
+    "isOpenAll": true,
     "listAsq": [
       {
-        "title": "What kind of cars do you buy?",
-        "content": "Absolutely any: whole, after the accident, not customs clearance, on tp. Mark, year release, mileage, condition do not matter. Redemptionaem credit cars, as well as cars with penalties. We work with legal entities and individuals, Redemption of car fleets."
+        "title": "How can I sell my used tools for cash today?",
+        "content": "Selling your tools today is incredibly simple! Just message us through your preferred platform and attach photos of your tools or equipment. Our appraiser will immediately provide you with our cash for tools offer. The decision is then entirely yours! If you agree, we'll come to your location right away. If you prefer to visit our store instead, we'd be delighted to see you in person!"
       },
       {
-        "title": "Can I leave the car for you to sell?",
-        "content": "Yes. We will put your vehicle on consignment at our dealership."
+        "title": "Who buys tools and equipment near me?",
+        "content": "Buddy Cash is Florida's premier tool buying service. We're prepared to offer competitive prices for virtually anything you have at home. We specialize in purchasing construction tools and equipment of all kinds. Our experts understand the nuances and value of each type of tool, ensuring you get the best deal when you sell tools in Florida."
       },
       {
-        "title": "How long does the sale last?",
-        "content": "The sale of the car takes place in 2-3 hours."
+        "title": "What types of tools do you accept?",
+        "content": "We consider purchasing all types of tools including: cordless power tools, power tool batteries and chargers, complete power tool sets, heavy-duty and wired power tools, air tools and compressors, hand tools, electrician's tools, automotive tools, welding equipment, and saws. Whatever tools you have, we're interested in making you an offer when you want to sell tools and equipment."
       },
       {
-        "title": "Do you buy only in Kiev?",
-        "content": "No, we redemption cars all over Ukraine. In most cases. Redemption in Ukraine occurs on the day of communication."
+        "title": "How can I get my tools appraised online?",
+        "content": "We value every client's time, which is why we've created a convenient online appraisal process that eliminates the need to visit our office. Simply send photos of your tools through your preferred messaging platform (Facebook Messenger, Instagram, WhatsApp, SMS, or email). Within just 10 minutes, we'll respond with our purchase offer. If you accept, you can immediately schedule our specialist to come to your home to complete the sale and provide cash for tools and equipment."
       },
       {
-        "title": "I want to sell for as much as possible!",
-        "content": "To increase Redemption's price by 10%, wash the car, grab a a second set of tires and keys. In 90% of cases the valuation will be higher than other car Redemption."
+        "title": "How quickly will I receive payment?",
+        "content": "After our expert tests your tools to verify functionality, we immediately shake hands and pay you in cash. We also offer payment options including bank transfers or checks for your convenience. When you sell tools and equipment to us, you get paid the same day!"
       },
       {
-        "title": "I'll sell the car for more!",
-        "content": "No problem! We just want to save you from wasting your time. Pre-sale preparation, photo shoots, registration on profile sites, pay for advertising. ads, answering phones and traveling to appointments at inconvenient times is the least of what you're gonna to deal with."
+        "title": "Tool Buyers in Florida",
+        "content": "There are many tool buyers available online today, including: <br/> <ul><li>Local pawn shops (significantly undervalue your tools, selling for practically nothing)</li> <li>Facebook Marketplace (one of the better options, but requires considerable time for listing and dealing with strangers)</li> <li>Offer apps (90% of users are resellers looking for extremely low prices)</li> <li>eBay (high commission fees and frequent buyer returns)</li> </ul> <br/><br/> The choice is yours! While we may not always offer the absolute highest price when you want cash for tools, we provide premium service and the fastest selling experience possible for those looking to sell tools in Florida."
       }
     ],
     "listBottom1": {
-      "title": "Urgent Redemption of boats",
-      "text": "Over the course of the company's existence, we've redemptionized a large number of used  vehicles of various makes and models. We've learned to be smart about Redemption: the vehicles      are de-registered and all transactions are legally correct. <br/> We offer services on car buying in all districts of Kiev (Kiev region) and Ukraine. Those who do not want to spend time and effort to find a client, it is better to use the service 'autoRedemption'. Of course you will not get the maximum value for the car, but 90-95% of the market value, we guarantee you! value we guarantee you!<br/> Still, if you decide to sell a used car on your own, it is recommended to be patient. patience. Selling a car on your own can take months. And without an understanding of the market. it is difficult to set a price that will suit both you and the potential buyer. You'll end up wasting your time and effort for nothing."
+      "title": "",
+      "text": ""
     },
     "listBottom2": {
-      "title": "Boat buying in Kiev",
-      "text": "Everything is simple! Send us a photo of the vehicle in a convenient messenger (viber, telegram, instagram). Within 4-5 minutes appraiser Vladimir will write the cost of Redemption. Having come to an agreement, we will immediately go to the You! That you would not have traveled in vain, we will come to you ourselves, absolutely free, without any or claims if you refuse our services. We value the reputation and time of our customers!"
+      "title": "",
+      "text": ""
     }
   }
 }
