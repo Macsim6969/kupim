@@ -403,6 +403,18 @@
               height: auto;
             }
           }
+
+          &.building{
+            width: 500px;
+
+            @media (max-width: 792px) {
+              width: 275px;
+            }
+
+            @media (max-width: 375px) {
+              width: 245px;
+            }
+          }
         }
 
         .header_title {
@@ -565,7 +577,7 @@
               @media (max-width: 620px) {
                 max-width: 90%;
                 font-size: 16px;
-                margin-bottom: 25px;
+                margin-bottom: 15px;
               }
             }
 

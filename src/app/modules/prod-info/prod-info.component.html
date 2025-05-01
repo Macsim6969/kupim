@@ -4,7 +4,7 @@
       <span class="info_title">{{ prodInfo["title"] }}</span>
       <span class="info_undelog">{{ prodInfo["text"] }}</span>
     </h2>
-    <div class="prod_info_content" *ngIf="!isLoading && content; else loading">
+    <div class="prod_info_content {{prodInfo['class']}}" *ngIf="!isLoading && content; else loading">
       <button
         class="btn"
         [ngClass]="{ hide_anim: !isPageRoute.includes(activePage) }"

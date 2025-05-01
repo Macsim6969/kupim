@@ -41,7 +41,7 @@ export class RoutePageService {
     '/fl/surfboard': 'surfboard',
     '/fl/electronics': 'electronics',
     '/fl/air-conditioner': 'air-conditioner',
-    '/fl/building-tool': 'building-tool',
+    '/fl/building-tools': 'building-tools',
     '/fl/cacuum-cleaner': 'cacuum-cleaner',
     '/fl/camera': 'camera',
     '/fl/coffee-maker': 'coffee-maker',

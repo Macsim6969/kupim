@@ -33,7 +33,7 @@
       },
       {
         "img": "/assets/img/electronics/Building_tool.svg",
-        "route": "/fl/building-tool",
+        "route": "/fl/building-tools",
         "alt": "Building tool",
         "isBlock": false
       },

@@ -38,7 +38,7 @@ const routes: Routes = [
       { path: 'fl/surfboard', component: HomeComponent },
       { path: 'fl/electronics', component: HomeComponent },
       { path: 'fl/air-conditioner', component: HomeComponent },
-      { path: 'fl/building-tool', component: HomeComponent },
+      { path: 'fl/building-tools', component: HomeComponent },
       { path: 'fl/cacuum-cleaner', component: HomeComponent },
       { path: 'fl/camera', component: HomeComponent },
       { path: 'fl/coffee-maker', component: HomeComponent },

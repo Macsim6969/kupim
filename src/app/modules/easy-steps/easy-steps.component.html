@@ -97,7 +97,7 @@
 <div class="linear {{ easyStepData.style }}">
   <img
     src="/assets/img/easy-steps/Map_Florida.webp"
-    alt="{{ easyStepData.location.alt || 'Office Locations' }}"
+    alt="{{ easyStepData?.location?.alt || 'Office Locations' }}"
   />
  @if(!easyStepData.location){
    <div class="linear_location">
@@ -115,11 +115,10 @@
      <strong class="linear_location_city" [innerHTML]="easyStepData.location.location_city"></strong>
      <br>
      <p class="linear_location_text text" [innerHTML]="easyStepData.location.description"></p>
-     @if(currentUrl !== '/fl/laptop'){
-       <p class="linear_location_text text">North Florida: Jacksonville, Tallahassee, Gainesville, Pensacola, Panama City, Lake City, St. Augustine, Fernandina Beach, Live Oak, Milton, Fort Walton Beach, Niceville, Perry, Palatka, Starke.</p>
-       <p class="linear_location_text text">Central Florida: Orlando, Tampa, St. Petersburg, <a routerLink="/fl/house/largo">Largo</a>, Clearwater, Lakeland, Ocala, Daytona Beach, Melbourne, Winter Haven, Spring Hill, Titusville, Plant City, Lady Lake, Zephyrhills, Winter Garden, Sarasota.</p>
-       <p class="linear_location_text text">South Florida: Miami, Fort Lauderdale, West Palm Beach, Naples, Fort Myers, Boca Raton, Pompano Beach, Hollywood, Coral Springs, Hialeah, Pembroke Pines, Boynton Beach, Delray Beach, Jupiter, Port St. Lucie.</p>
-     }
+
+     <p *ngIf="currentUrl !== '/fl/laptop' && currentUrl !== '/fl/building-tools'" class="linear_location_text text">North Florida: Jacksonville, Tallahassee, Gainesville, Pensacola, Panama City, Lake City, St. Augustine, Fernandina Beach, Live Oak, Milton, Fort Walton Beach, Niceville, Perry, Palatka, Starke.</p>
+     <p *ngIf="currentUrl !== '/fl/laptop' && currentUrl !== '/fl/building-tools'" class="linear_location_text text">Central Florida: Orlando, Tampa, St. Petersburg, <a routerLink="/fl/house/largo">Largo</a>, Clearwater, Lakeland, Ocala, Daytona Beach, Melbourne, Winter Haven, Spring Hill, Titusville, Plant City, Lady Lake, Zephyrhills, Winter Garden, Sarasota.</p>
+     <p *ngIf="currentUrl !== '/fl/laptop' && currentUrl !== '/fl/building-tools'" class="linear_location_text text">South Florida: Miami, Fort Lauderdale, West Palm Beach, Naples, Fort Myers, Boca Raton, Pompano Beach, Hollywood, Coral Springs, Hialeah, Pembroke Pines, Boynton Beach, Delray Beach, Jupiter, Port St. Lucie.</p>
    </div>
  }
 </div>

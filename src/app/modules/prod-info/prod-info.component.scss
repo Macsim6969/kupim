@@ -57,6 +57,17 @@
     flex-wrap: wrap;
     padding-top: 110px;
 
+    &.buildings{
+      .btn{
+        .car_find_img{
+          @media (max-width: 576px) {
+            width: 125px !important;
+          }
+
+        }
+      }
+    }
+
 
     @media (max-width: 860px) {
       justify-content: center;
