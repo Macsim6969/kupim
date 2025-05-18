@@ -405,7 +405,15 @@
           }
 
           &.building{
-            width: 500px;
+            width: 600px;
+
+            @media (max-width: 1420px) {
+              width: 400px;
+            }
+
+            @media (max-width: 972px) {
+              width: 300px;
+            }
 
             @media (max-width: 792px) {
               width: 275px;
