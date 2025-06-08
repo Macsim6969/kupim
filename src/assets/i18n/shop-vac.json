@@ -1,0 +1,255 @@
+{
+  "key": [
+    "prod",
+    "easy-step"
+  ],
+  "dashboard": {
+    "state": "State of Florida",
+    "title": "Sell Shop Vac, Wet-Dry Vacuum",
+    "location": "Professional buyout service for Shop Vac and Wet-Dry Vacuum. We operate across all Florida cities with free pickup — no need to leave your home, we’ll come to you with cash.",
+    "index": true,
+    "footerDescription": "",
+    "metaTitle": "Sell Shop Vac Near You – Miami, Hialeah, Fort Lauderdale, Boca Raton",
+    "description": "Same-day cash for used Shop Vacuum and Wet-Dry Vacuum in Florida. Professional buyout and liquidation services in Orlando, Tampa, Jacksonville, Naples, and West Palm.",
+    "keywords": "Sell my shop vac, Sell shop vacuum, Sell wet-dry vacuum, Sell my used shop vacuum, Sell used wet-dry vacuum, Cash for shop vac, Cash for wet-dry vacuum, Sell vacuum locally, Quick cash for vacuums, Sell shop vac online, Sell vacuum fast, Sell old shop vac for cash",
+    "ogTitle": "Sell Shop Vacuum and Wet-Dry Vacuum – Buddy Cash",
+    "ogDescription": "Same-day cash for used Shop Vacuum and Wet-Dry Vacuum in Florida – Buddy Cash.",
+    "ogType": "website",
+    "ogUrl": "https://buddy-cash.com/fl/building-tools/drill",
+    "ogImage": "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
+    "image": "/assets/img/building-tools/Sell Shop Vacuum.webp",
+    "bgImage": "building",
+    "class": "laptop_text",
+    "altImage": "Sell Shop Vac, Wet-Dry Vacuum"
+  },
+  "prodInfo": {
+    "class": "buildings",
+    "title": "Shop Vac, Wet-Dry Vacuum — Accepted Brands in All Florida Cities",
+    "text": "and Equipment in Florida",
+    "content": [
+      {
+        "img": "/assets/img/building-tools/Tools Bosch.webp",
+        "alt": "Sell Bosch tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Craftsman.webp",
+        "alt": "Sell Craftsman tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools DeWalt.webp",
+        "alt": "Sell DeWalt tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Hart.webp",
+        "alt": "Sell Hart tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Hilti.webp",
+        "alt": "Sell Hilti tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Ingersoll Rand.webp",
+        "alt": "Sell Ingersoll Rand tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Klein.webp",
+        "alt": "Sell Klein tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Kobalt.webp",
+        "alt": "Sell Kobalt tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Makita.webp",
+        "alt": "Sell Makita tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Metabo HPT.webp",
+        "alt": "Sell Metabo HPT tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Milwaukee.webp",
+        "alt": "Sell Milwaukee tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Ridgid.webp",
+        "alt": "Sell Ridgid tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Ryobi.webp",
+        "alt": "Sell Ryobi tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Snap-on.webp",
+        "alt": "Sell Snap-on tools"
+      }
+    ]
+  },
+  "easySteps": {
+    "title": "How to Get Cash",
+    "text": "for Your Shop Vac?",
+    "style": "main",
+    "contentStep1": {
+      "step": "Step 1",
+      "stepText": "Send us a photo of your Shop Vac or Wet-Dry Vacuum through any messaging app. You’ll receive a quote in under 10 minutes.",
+      "contact": "SEND"
+    },
+    "contentStep2": {
+      "step": "Step 2",
+      "stepText": "Schedule an appointment at our office, or request a home visit from our appraiser."
+    },
+    "contentStep3": {
+      "step": "Step 3",
+      "stepText": "Get paid instantly in the form that works best for you: Cash, bank transfer, or check—your choice."
+    },
+    "location": {
+      "alt": "Cash for tools in Florida",
+      "title": "Sell Shop Vac Near Me",
+      "location_city": "Buyout Service in Hallandale Beach: - <a href=\"https://g.co/kgs/Fe6hJFj\" target=\"_blank\">Open Google Map</a>",
+      "description": "<strong>We offer professional buyout services with free equipment pickup from any location in Florida—no need for you to leave your home. In Miami, Fort Lauderdale, Hialeah, and Hollywood, you can sell your tools and receive cash on the spot within 1–2 hours.<br/><br/>For clients in other areas of Florida, our appraisers arrive within:<br/><br/> South Florida (2–4 hours): West Palm Beach, Hollywood, Boca Raton, Coral Springs, Pembroke Pines, Miramar, Miami Gardens, Homestead, Aventura, and surrounding regions. <br/><br/> Central Florida (4–6 hours): Orlando, Tampa, St. Petersburg, Clearwater, Lakeland, Daytona Beach, Ocala, The Villages, and surrounding communities. <br/><br/> North Florida (6–8 hours): Jacksonville, Tallahassee, Gainesville, Pensacola, Panama City, Lake City, St. Augustine, and nearby areas.</strong>"
+    }
+  },
+  "aboutInfo": {
+    "title": "Should You Sell",
+    "text": "Your Shop Vac to Us?",
+    "list": [
+      {
+        "src": "/assets/img/laptop/about/car.svg",
+        "title": "Pickup service provided statewide — from Jacksonville down to Key West.",
+        "alt": "Statewide Service"
+      },
+      {
+        "src": "/assets/img/laptop/about/sack.svg",
+        "title": "Shop vacuums and wet-dry vacs are accepted in any state, from barely used to well-worn units.",
+        "alt": "Worn Equipment"
+      },
+      {
+        "src": "/assets/img/laptop/about/lock.svg",
+        "title": "We cover all delivery expenses for your shop vac, including out-of-state shipping.",
+        "alt": "Free Delivery"
+      },
+      {
+        "src": "/assets/img/laptop/about/bank.svg",
+        "title": "Receive same-day cash payment for your shop vac.",
+        "alt": "Vac Payment"
+      },
+      {
+        "src": "/assets/img/laptop/about/time.svg",
+        "title": "Broken, incomplete, or financed? We still consider your tools.",
+        "alt": "Incomplete Gear"
+      },
+      {
+        "src": "/assets/img/laptop/about/thumbs-up.svg",
+        "title": "Receive a no-obligation appraisal entirely remotely.",
+        "alt": "Remote Appraisal"
+      },
+      {
+        "src": "/assets/img/laptop/about/flag.svg",
+        "title": "Your personal information and sale details remain private.",
+        "alt": "Data Privacy"
+      },
+      {
+        "src": "/assets/img/laptop/about/bills.svg",
+        "title": "We pay more than your neighborhood pawn store.",
+        "alt": "Higher Price"
+      },
+      {
+        "src": "/assets/img/laptop/about/chain.svg",
+        "title": "You're in control — we provide the offer, you make the call.",
+        "alt": "Your Decision"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Customer Reviews",
+    "feedback": [
+      {
+        "content": "I needed to sell my old Shop Vac and didn’t wanna mess with online listings. Sent a photo, got a quote in 10 minutes, and someone showed up same day in Miami. Took the vac, handed me cash, and that was that.",
+        "name": "Ashley T.",
+        "prod": "Sold: RIDGID Shop Vac",
+        "stars": 5
+      },
+      {
+        "content": "Dropped off my Shop Vacuum near me last week. Price was decent, but the guy arrived later than expected. Still, the process was quick and I didn’t have to deal with lowballers.",
+        "name": "Jason R.",
+        "prod": "Sold: Craftsman Shop Vacuum",
+        "stars": 4
+      },
+      {
+        "content": "Sold my Wet-Dry Vacuum in Tallahassee. They were friendly, showed up right on time, and had cash ready which made everything super smooth.",
+        "name": "Olivia M.",
+        "prod": "Sold: Shop-Vac Wet-Dry Vacuum",
+        "stars": 5
+      }
+    ],
+    "content": "Open Google Maps"
+  },
+  "questions": {
+    "title": "Have Questions?",
+    "descr": "We're Happy to Help",
+    "isOpenAll": true,
+    "listAsq": [
+      {
+        "title": "What kinds of shop vacuums do you purchase in Florida?",
+        "content": "We buy all types of residential and commercial wet-dry vacuums, including compact shop vacs, heavy-duty units, cordless wet/dry vacuums, portable models, stainless steel vacs, and industrial-grade vacs. <br/> We accept all major brands such as: RIDGID, DeWalt, Shop-Vac, Vacmaster, Craftsman, Milwaukee, Ryobi, Stanley, Kobalt, Makita, and Armor All."
+      },
+      {
+        "title": "How do I sell my used shop vac?",
+        "content": "Selling your shop vac is quick and hassle-free. Just send us photos of the unit through any messenger app — WhatsApp, iMessage, Facebook, or SMS — along with a short note about its condition. Our team will respond with a cash offer in less than 10 minutes. Once confirmed, we’ll send someone to your location for same-day pickup and payment. If you’d rather come in, you’re always welcome to visit our local office."
+      },
+      {
+        "title": "Who buys used shop vacs for cash?",
+        "content": "There are several options available to sell your vacuum, but not all are convenient or safe: <br/> <ul><li><strong>Facebook Marketplace:</strong> You’ll often wait days for replies and meet with strangers.</li> <li><strong>OfferUp:</strong> Most inquiries come from flippers offering very low prices.</li> <li><strong>eBay:</strong> Decent exposure, but high fees and shipping risks.</li> <li><strong>Pawn shops:</strong> Fast transactions, but typically the lowest payouts.</li></ul><br/> With us, you avoid all the hassle — no listings, no strangers, and no delays. We offer a reliable, fast, and secure way to turn your shop vac into cash."
+      },
+      {
+        "title": "When do I get paid for my shop vac?",
+        "content": "We issue payment immediately after confirming the vacuum is in working order. You can choose to receive your money in <strong>cash</strong>, <strong>check</strong>, or via <strong>bank transfer</strong> — whichever works best for you."
+      },
+      {
+        "title": "Can I include hoses, filters, or other tools with my shop vac?",
+        "content": "Yes — and including accessories like hoses, extension wands, filters, or attachments may increase the value of your offer. <br/> We recommend wiping off any visible dust or debris and organizing the full setup before pickup to get the best quote possible."
+      }
+    ],
+    "isSlider": true,
+    "slidersData": [
+      {
+        "img": "/assets/img/electronics/Laptop.svg",
+        "alt": "Sell my Laptop",
+        "link": "/fl/laptop",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/electronics/TV.svg",
+        "alt": "Sell my TV",
+        "link": "/fl/tv",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/electronics/Camera.svg",
+        "alt": "Sell my Camera",
+        "link": "/fl/camera",
+        "isActiveMobile": true
+      },
+      {
+        "img": "/assets/img/transport/Choose_a_bike.png",
+        "alt": "Sell my Bike",
+        "link": "/fl/bike",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/See_all.webp",
+        "alt": "See All",
+        "link": "/fl",
+        "isActiveMobile": true
+      }
+    ],
+    "listBottom1": {
+      "title": "",
+      "text": ""
+    },
+    "listBottom2": {
+      "title": "",
+      "text": ""
+    }
+  }
+}

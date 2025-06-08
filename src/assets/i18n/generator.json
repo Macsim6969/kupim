@@ -1,0 +1,255 @@
+{
+  "key": [
+    "prod",
+    "easy-step"
+  ],
+  "dashboard": {
+    "state": "State of Florida",
+    "title": "Sell Generator Florida",
+    "location": "Generator evaluation and purchase with on-site payment. Just request a quote — we’ll handle the rest.",
+    "index": true,
+    "footerDescription": "",
+    "metaTitle": "Sell Generator Near You – Miami, Hialeah, Fort Lauderdale, Boca Raton",
+    "description": "Same-day cash for a used Generator in Florida. We buy inverter, gas, and dual-fuel models with fast pickup in Tampa, Jacksonville, Orlando, Naples, and West Palm.",
+    "keywords": "Sell generator, Sell used generator, Cash for generator, Inverter generator, Gas generator buyer, Sell generator locally, Generator pickup Florida, Quick cash for generator, Generator buyout service",
+    "ogTitle": "Sell Generator – Buddy Cash",
+    "ogDescription": "Same-day cash for your used Generator in Florida – Buddy Cash.",
+    "ogType": "website",
+    "ogUrl": "https://buddy-cash.com/fl/building-tools/generator",
+    "ogImage": "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
+    "image": "/assets/img/building-tools/Sell Generator.webp",
+    "bgImage": "building",
+    "class": "laptop_text",
+    "altImage": "Sell Generator"
+  },
+  "prodInfo": {
+    "class": "buildings",
+    "title": "Generator — Brands We Purchase Across Florida",
+    "text": "and Equipment in Florida",
+    "content": [
+      {
+        "img": "/assets/img/building-tools/Tools Bosch.webp",
+        "alt": "Sell Bosch tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Craftsman.webp",
+        "alt": "Sell Craftsman tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools DeWalt.webp",
+        "alt": "Sell DeWalt tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Hart.webp",
+        "alt": "Sell Hart tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Hilti.webp",
+        "alt": "Sell Hilti tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Ingersoll Rand.webp",
+        "alt": "Sell Ingersoll Rand tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Klein.webp",
+        "alt": "Sell Klein tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Kobalt.webp",
+        "alt": "Sell Kobalt tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Makita.webp",
+        "alt": "Sell Makita tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Metabo HPT.webp",
+        "alt": "Sell Metabo HPT tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Milwaukee.webp",
+        "alt": "Sell Milwaukee tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Ridgid.webp",
+        "alt": "Sell Ridgid tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Ryobi.webp",
+        "alt": "Sell Ryobi tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Snap-on.webp",
+        "alt": "Sell Snap-on tools"
+      }
+    ]
+  },
+  "easySteps": {
+    "title": "How to Get Cash",
+    "text": "for Your Generator?",
+    "style": "main",
+    "contentStep1": {
+      "step": "Step 1",
+      "stepText": "Send us a photo of your Generator or Power Station through any messaging app. You’ll receive a quote in under 10 minutes.",
+      "contact": "SEND"
+    },
+    "contentStep2": {
+      "step": "Step 2",
+      "stepText": "Schedule an appointment at our office, or request a home visit from our appraiser."
+    },
+    "contentStep3": {
+      "step": "Step 3",
+      "stepText": "Get paid instantly in the form that works best for you: Cash, bank transfer, or check—your choice."
+    },
+    "location": {
+      "alt": "Cash for tools in Florida",
+      "title": "Sell Generator Near Me",
+      "location_city": "Buyout Service in Hallandale Beach: - <a href=\"https://g.co/kgs/Fe6hJFj\" target=\"_blank\">Open Google Map</a>",
+      "description": "<strong>We offer professional buyout services with free equipment pickup from any location in Florida—no need for you to leave your home. In Miami, Fort Lauderdale, Hialeah, and Hollywood, you can sell your tools and receive cash on the spot within 1–2 hours.<br/><br/>For clients in other areas of Florida, our appraisers arrive within:<br/><br/> South Florida (2–4 hours): West Palm Beach, Hollywood, Boca Raton, Coral Springs, Pembroke Pines, Miramar, Miami Gardens, Homestead, Aventura, and surrounding regions. <br/><br/> Central Florida (4–6 hours): Orlando, Tampa, St. Petersburg, Clearwater, Lakeland, Daytona Beach, Ocala, The Villages, and surrounding communities. <br/><br/> North Florida (6–8 hours): Jacksonville, Tallahassee, Gainesville, Pensacola, Panama City, Lake City, St. Augustine, and nearby areas.</strong>"
+    }
+  },
+  "aboutInfo": {
+    "title": "Should You Sell",
+    "text": "Your Generator to Us?",
+    "list": [
+      {
+        "src": "/assets/img/laptop/about/car.svg",
+        "title": "Pickup available anywhere in Florida — big cities or small towns.",
+        "alt": "Statewide Availability"
+      },
+      {
+        "src": "/assets/img/laptop/about/sack.svg",
+        "title": "We purchase portable generators and power stations in all operational states — used, unused, or somewhere in between.",
+        "alt": "Any Generator"
+      },
+      {
+        "src": "/assets/img/laptop/about/lock.svg",
+        "title": "Generator shipping is completely on us — in-state or beyond.",
+        "alt": "Generator Shipping"
+      },
+      {
+        "src": "/assets/img/laptop/about/bank.svg",
+        "title": "Get paid in full the same day for your generator.",
+        "alt": "Generator Money"
+      },
+      {
+        "src": "/assets/img/laptop/about/time.svg",
+        "title": "Tools with wear, missing pieces, or active financing are still eligible.",
+        "alt": "Wear Or Debt"
+      },
+      {
+        "src": "/assets/img/laptop/about/thumbs-up.svg",
+        "title": "Fast and free online evaluations from anywhere.",
+        "alt": "Fast Pricing"
+      },
+      {
+        "src": "/assets/img/laptop/about/flag.svg",
+        "title": "We respect your privacy throughout the entire process.",
+        "alt": "Privacy Promise"
+      },
+      {
+        "src": "/assets/img/laptop/about/bills.svg",
+        "title": "Higher valuation than what you'd get at nearby pawn stores.",
+        "alt": "Premium Offer"
+      },
+      {
+        "src": "/assets/img/laptop/about/chain.svg",
+        "title": "Your tool, your price, your decision — no strings attached.",
+        "alt": "No Strings"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Customer Reviews",
+    "feedback": [
+      {
+        "content": "Had a used Generac generator I didn’t need anymore. Sent over a quick photo and sold it the same day in Hollywood.",
+        "name": "Ashley T.",
+        "prod": "Sold: Generac Generator",
+        "stars": 5
+      },
+      {
+        "content": "Used their service to sell the generator I had in my garage. They were a little late picking it up, but everything else went smoothly.",
+        "name": "Dylan C.",
+        "prod": "Sold: Champion Generator",
+        "stars": 4
+      },
+      {
+        "content": "Got cash for a generator near Dania Beach. No delays, no negotiating — they just pulled up and paid what they quoted.",
+        "name": "Jacob C.",
+        "prod": "Sold: Westinghouse Generator",
+        "stars": 5
+      }
+    ],
+    "content": "Open Google Maps"
+  },
+  "questions": {
+    "title": "Have Questions?",
+    "descr": "We're Happy to Help",
+    "isOpenAll": true,
+    "listAsq": [
+      {
+        "title": "What types and brands of generators do you buy in Florida?",
+        "content": "We purchase portable, inverter, dual-fuel, gas-powered, and standby generators — whether used for home backup, job sites, or RVs. Brands we frequently buy include Honda, Westinghouse, Generac, Champion, DuroMax, Craftsman, Ryobi, Firman, and Pulsar."
+      },
+      {
+        "title": "How do I sell my used generator to you?",
+        "content": "Just send us photos of the generator, along with basic info like condition and model. Our team will respond within 10 minutes with a cash offer. If you accept, we’ll arrange pickup the same day and pay you upon arrival."
+      },
+      {
+        "title": "Who buys generators for cash in Florida?",
+        "content": "Selling online or to a pawn shop can be slow and unpredictable. We offer a reliable alternative — no listings, no fees, and no waiting. You get a fast quote, free pickup, and payment on your terms."
+      },
+      {
+        "title": "When will I receive payment for my generator?",
+        "content": "After a quick functional check on-site, we issue payment immediately. Choose the method that suits you best — cash, check, or electronic transfer."
+      },
+      {
+        "title": "Can I sell a generator that hasn’t been started in a while?",
+        "content": "Yes — we can still make you an offer, even if the generator hasn't been used recently. Let us know the condition honestly, and if possible, clean off surface dust or debris before we arrive to help maximize your offer."
+      }
+    ],
+    "isSlider": true,
+    "slidersData": [
+      {
+        "img": "/assets/img/electronics/Laptop.svg",
+        "alt": "Sell my Laptop",
+        "link": "/fl/laptop",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/electronics/TV.svg",
+        "alt": "Sell my TV",
+        "link": "/fl/tv",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/electronics/Camera.svg",
+        "alt": "Sell my Camera",
+        "link": "/fl/camera",
+        "isActiveMobile": true
+      },
+      {
+        "img": "/assets/img/transport/Choose_a_bike.png",
+        "alt": "Sell my Bike",
+        "link": "/fl/bike",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/See_all.webp",
+        "alt": "See All",
+        "link": "/fl",
+        "isActiveMobile": true
+      }
+    ],
+    "listBottom1": {
+      "title": "",
+      "text": ""
+    },
+    "listBottom2": {
+      "title": "",
+      "text": ""
+    }
+  }
+}

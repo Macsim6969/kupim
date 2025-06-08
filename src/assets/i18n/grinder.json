@@ -1,0 +1,255 @@
+{
+  "key": [
+    "prod",
+    "easy-step"
+  ],
+  "dashboard": {
+    "state": "State of Florida",
+    "title": "Sell Angle Grinder, Sander",
+    "location": "Reciprocating, Circular, Miter, and Jig Saw buyout made easy. Online quote and free pickup with no need to leave your home.",
+    "index": true,
+    "footerDescription": "",
+    "metaTitle": "Sell Grinder Near You – Miami, Hialeah, Fort Lauderdale, Boca Raton, Orlando",
+    "description": "Same-day cash for used Grinder and Sander in Florida. Professional buyout and pickup service in Orlando, Tampa, Jacksonville, Naples, and West Palm.",
+    "keywords": "Sell grinder, Sell used grinder, Sell angle grinder, Cash for grinder, Sell grinder locally, Grinder pickup Florida, Grinder buyer Miami, Sell sander, Sell grinder online, Quick cash for grinder",
+    "ogTitle": "Sell Grinder and Sander – Buddy Cash",
+    "ogDescription": "Same-day cash for your used Grinder or Sander in Florida – Buddy Cash.",
+    "ogType": "website",
+    "ogUrl": "https://buddy-cash.com/fl/building-tools/grinder",
+    "ogImage": "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
+    "image": "/assets/img/building-tools/Sell Angle Grinder.webp",
+    "bgImage": "building",
+    "class": "laptop_text",
+    "altImage": "Sell Angle Grinder, Sander"
+  },
+  "prodInfo": {
+    "class": "buildings",
+    "title": "Angle Grinder, Sander — Brands We're Buying Statewide",
+    "text": "and Equipment in Florida",
+    "content": [
+      {
+        "img": "/assets/img/building-tools/Tools Bosch.webp",
+        "alt": "Sell Bosch tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Craftsman.webp",
+        "alt": "Sell Craftsman tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools DeWalt.webp",
+        "alt": "Sell DeWalt tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Hart.webp",
+        "alt": "Sell Hart tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Hilti.webp",
+        "alt": "Sell Hilti tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Ingersoll Rand.webp",
+        "alt": "Sell Ingersoll Rand tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Klein.webp",
+        "alt": "Sell Klein tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Kobalt.webp",
+        "alt": "Sell Kobalt tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Makita.webp",
+        "alt": "Sell Makita tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Metabo HPT.webp",
+        "alt": "Sell Metabo HPT tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Milwaukee.webp",
+        "alt": "Sell Milwaukee tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Ridgid.webp",
+        "alt": "Sell Ridgid tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Ryobi.webp",
+        "alt": "Sell Ryobi tools"
+      },
+      {
+        "img": "/assets/img/building-tools/Tools Snap-on.webp",
+        "alt": "Sell Snap-on tools"
+      }
+    ]
+  },
+  "easySteps": {
+    "title": "How to Get Cash",
+    "text": "for Your Grinder?",
+    "style": "main",
+    "contentStep1": {
+      "step": "Step 1",
+      "stepText": "Send us a photo of your Angle Grinder or Sander through any messaging app. You’ll receive a quote in under 10 minutes.",
+      "contact": "SEND"
+    },
+    "contentStep2": {
+      "step": "Step 2",
+      "stepText": "Schedule an appointment at our office, or request a home visit from our appraiser."
+    },
+    "contentStep3": {
+      "step": "Step 3",
+      "stepText": "Get paid instantly in the form that works best for you: Cash, bank transfer, or check—your choice."
+    },
+    "location": {
+      "alt": "Cash for tools in Florida",
+      "title": "Sell Grinder Near Me",
+      "location_city": "Buyout Service in Hallandale Beach: - <a href=\"https://g.co/kgs/Fe6hJFj\" target=\"_blank\">Open Google Map</a>",
+      "description": "<strong>We offer professional buyout services with free equipment pickup from any location in Florida—no need for you to leave your home. In Miami, Fort Lauderdale, Hialeah, and Hollywood, you can sell your tools and receive cash on the spot within 1–2 hours.<br/><br/>For clients in other areas of Florida, our appraisers arrive within:<br/><br/> South Florida (2–4 hours): West Palm Beach, Hollywood, Boca Raton, Coral Springs, Pembroke Pines, Miramar, Miami Gardens, Homestead, Aventura, and surrounding regions. <br/><br/> Central Florida (4–6 hours): Orlando, Tampa, St. Petersburg, Clearwater, Lakeland, Daytona Beach, Ocala, The Villages, and surrounding communities. <br/><br/> North Florida (6–8 hours): Jacksonville, Tallahassee, Gainesville, Pensacola, Panama City, Lake City, St. Augustine, and nearby areas.</strong>"
+    }
+  },
+  "aboutInfo": {
+    "title": "Should You Sell",
+    "text": "Your Grinder to Us?",
+    "list": [
+      {
+        "src": "/assets/img/laptop/about/car.svg",
+        "title": "Free tool collection across Florida — no matter your location.",
+        "alt": "Tool Collection"
+      },
+      {
+        "src": "/assets/img/laptop/about/sack.svg",
+        "title": "We purchase angle grinders and sanders regardless of age or wear, fully functional or showing signs of use.",
+        "alt": "Jobsite Wear"
+      },
+      {
+        "src": "/assets/img/laptop/about/lock.svg",
+        "title": "Shipping your grinder is free — no matter where you're located.",
+        "alt": "Grinder Shipping"
+      },
+      {
+        "src": "/assets/img/laptop/about/bank.svg",
+        "title": "Get paid in cash today for your grinder.",
+        "alt": "Grinder Cash"
+      },
+      {
+        "src": "/assets/img/laptop/about/time.svg",
+        "title": "Tools with damage, missing parts, or payment plans are welcome.",
+        "alt": "Broken Tools"
+      },
+      {
+        "src": "/assets/img/laptop/about/thumbs-up.svg",
+        "title": "Instant valuation available online from the comfort of your home.",
+        "alt": "Digital Valuation"
+      },
+      {
+        "src": "/assets/img/laptop/about/flag.svg",
+        "title": "We treat every deal with full discretion and privacy.",
+        "alt": "Secure Process"
+      },
+      {
+        "src": "/assets/img/laptop/about/bills.svg",
+        "title": "Expect better payouts than typical pawn shops can offer.",
+        "alt": "More Cash"
+      },
+      {
+        "src": "/assets/img/laptop/about/chain.svg",
+        "title": "We never push — your decision, your timing.",
+        "alt": "No Push"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Customer Reviews",
+    "feedback": [
+      {
+        "content": "Had an older Makita angle grinder I barely used anymore. Sent a message, got a response in under 10 minutes, and they picked it up later that afternoon in Fort Lauderdale.",
+        "name": "Hailey S.",
+        "prod": "Sold: Makita Angle Grinder",
+        "stars": 5
+      },
+      {
+        "content": "I used their site to sell my used sander near me. They made an offer quickly and stuck to it, but showed up later than expected. Still better than dealing with online buyers.",
+        "name": "Madison L.",
+        "prod": "Sold: DeWalt Sander",
+        "stars": 4
+      },
+      {
+        "content": "Got cash for my sander in Boca Raton. Didn’t even think they’d take it since it had some wear, but they didn’t blink — quick pickup and instant payout.",
+        "name": "Logan V.",
+        "prod": "Sold: Bosch Sander",
+        "stars": 5
+      }
+    ],
+    "content": "Open Google Maps"
+  },
+  "questions": {
+    "title": "Have Questions?",
+    "descr": "We're Happy to Help",
+    "isOpenAll": true,
+    "listAsq": [
+      {
+        "title": "What types and brands of grinders and sanders do you buy in Florida?",
+        "content": "We accept all common types of electric and cordless models: angle grinders, die grinders, bench grinders, belt sanders, orbital sanders, detail sanders, and multi-function tools. Top brands we frequently purchase include DeWalt, Milwaukee, Makita, Bosch, RIDGID, Ryobi, Metabo HPT, Craftsman, Porter-Cable, and Hilti.\n"
+      },
+      {
+        "title": "How can I sell my used grinder or sander?",
+        "content": "Just message us photos of your tool through any app — WhatsApp, iMessage, or Facebook Messenger. Within minutes, our team will review and send you a cash offer. <br/> If it works for you, we’ll arrange free pickup and pay you the same day — no delays or hidden steps."
+      },
+      {
+        "title": "Who buys used grinders and sanders for cash?",
+        "content": "You could try platforms like eBay, OfferUp, or pawn shops, but these often involve fees, delays, or lowball offers. <br/> We offer fast, fair cash deals without the waiting or back-and-forth."
+      },
+      {
+        "title": "When will I be paid for my grinder or sander?",
+        "content": "Payment is issued right after a brief on-site check. Choose between cash, check, or direct bank transfer — all processed on the same day."
+      },
+      {
+        "title": "Can I include cutting wheels, sanding pads, or accessories?",
+        "content": "Yes — additional accessories are welcome and can increase your final quote. <br/> We recommend brushing off dust and organizing your tools before pickup to get the best offer."
+      }
+    ],
+    "isSlider": true,
+    "slidersData": [
+      {
+        "img": "/assets/img/electronics/Laptop.svg",
+        "alt": "Sell my Laptop",
+        "link": "/fl/laptop",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/electronics/TV.svg",
+        "alt": "Sell my TV",
+        "link": "/fl/tv",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/electronics/Camera.svg",
+        "alt": "Sell my Camera",
+        "link": "/fl/camera",
+        "isActiveMobile": true
+      },
+      {
+        "img": "/assets/img/transport/Choose_a_bike.png",
+        "alt": "Sell my Bike",
+        "link": "/fl/bike",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/See_all.webp",
+        "alt": "See All",
+        "link": "/fl",
+        "isActiveMobile": true
+      }
+    ],
+    "listBottom1": {
+      "title": "",
+      "text": ""
+    },
+    "listBottom2": {
+      "title": "",
+      "text": ""
+    }
+  }
+}

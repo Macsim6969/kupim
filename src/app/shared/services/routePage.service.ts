@@ -42,6 +42,15 @@ export class RoutePageService {
     '/fl/electronics': 'electronics',
     '/fl/air-conditioner': 'air-conditioner',
     '/fl/building-tools': 'building-tools',
+
+    '/fl/building-tools/drill': 'drill',
+    '/fl/building-tools/shop-vac': 'shop-vac',
+    '/fl/building-tools/grinder': 'grinder',
+    '/fl/building-tools/nail-gun': 'nail-gun',
+    '/fl/building-tools/saw': 'saw',
+    '/fl/building-tools/air-compressor': 'ir-compressor',
+    '/fl/building-tools/generator': 'generator',
+
     '/fl/cacuum-cleaner': 'cacuum-cleaner',
     '/fl/camera': 'camera',
     '/fl/coffee-maker': 'coffee-maker',
