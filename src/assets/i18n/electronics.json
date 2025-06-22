@@ -38,6 +38,48 @@
         "isBlock": false
       },
       {
+        "img": "/assets/img/electronics/Drill.webp",
+        "route": "/fl/building-tools/drill",
+        "alt": "Drill",
+        "isBlock": false
+      },
+      {
+        "img": "/assets/img/electronics/Shop_Wacuum.webp",
+        "route": "/fl/building-tools/shop-vac",
+        "alt": "Building tool",
+        "isBlock": false
+      },
+      {
+        "img": "/assets/img/electronics/Angle_Grinder.webp",
+        "route": "/fl/building-tools/grinder",
+        "alt": "Building tool",
+        "isBlock": false
+      },
+      {
+        "img": "/assets/img/electronics/Nail_Gun.webp",
+        "route": "/fl/building-tools/nail-gun",
+        "alt": "Building tool",
+        "isBlock": false
+      },
+      {
+        "img": "/assets/img/electronics/Saw.webp",
+        "route": "/fl/building-tools/saw",
+        "alt": "Building tool",
+        "isBlock": false
+      },
+      {
+        "img": "/assets/img/electronics/Air_Compressor.webp",
+        "route": "/fl/building-tools/air-compressor",
+        "alt": "Building tool",
+        "isBlock": false
+      },
+      {
+        "img": "/assets/img/electronics/Generator.webp",
+        "route": "/fl/building-tools/generator",
+        "alt": "Building tool",
+        "isBlock": false
+      },
+      {
         "img": "/assets/img/electronics/Camera.svg",
         "route": "/fl/camera",
         "alt": "Camera",

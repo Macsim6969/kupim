@@ -213,27 +213,27 @@
     "isSlider": true,
     "slidersData": [
       {
-        "img": "/assets/img/electronics/Laptop.svg",
-        "alt": "Sell my Laptop",
-        "link": "/fl/laptop",
+        "img": "/assets/img/electronics/Drill.webp",
+        "alt": "Sell my Drill",
+        "link": "/fl/building-tools/drill",
         "isActiveMobile": false
       },
       {
-        "img": "/assets/img/electronics/TV.svg",
-        "alt": "Sell my TV",
-        "link": "/fl/tv",
+        "img": "/assets/img/electronics/Air_Compressor.webp",
+        "alt": "Sell my Air Compressor",
+        "link": "/fl/building-tools/air-compressor",
         "isActiveMobile": false
       },
       {
-        "img": "/assets/img/electronics/Camera.svg",
-        "alt": "Sell my Camera",
-        "link": "/fl/camera",
+        "img": "/assets/img/electronics/Nail_Gun.webp",
+        "alt": "Sell my Nail Gun",
+        "link": "/fl/building-tools/nail-gun",
         "isActiveMobile": true
       },
       {
-        "img": "/assets/img/transport/Choose_a_bike.png",
-        "alt": "Sell my Bike",
-        "link": "/fl/bike",
+        "img": "/assets/img/electronics/Saw.webp",
+        "alt": "Sell my Saw",
+        "link": "/fl/building-tools/saw",
         "isActiveMobile": false
       },
       {
