@@ -48,7 +48,7 @@ export class RoutePageService {
     '/fl/building-tools/grinder': 'grinder',
     '/fl/building-tools/nail-gun': 'nail-gun',
     '/fl/building-tools/saw': 'saw',
-    '/fl/building-tools/air-compressor': 'ir-compressor',
+    '/fl/building-tools/air-compressor': 'air-compressor',
     '/fl/building-tools/generator': 'generator',
 
     '/fl/cacuum-cleaner': 'cacuum-cleaner',
