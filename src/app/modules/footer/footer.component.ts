@@ -1,24 +1,29 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnDestroy, OnInit} from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { take, timer } from 'rxjs';
+import {Subject, take, takeUntil, timer} from 'rxjs';
 import { StoreService } from '../../shared/services/store.service';
+import {Welcome} from "../welcome/shared/interfaces/welcome.interface";
+import {TranslateService} from "@ngx-translate/core";
 
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.scss'
 })
-export class FooterComponent implements OnInit {
+export class FooterComponent implements OnInit, OnDestroy {
+  private destroy$: Subject<void> = new Subject<void>();
+  public welcomeDataPage: Welcome;
   public state: string;
   public date: number = new Date().getFullYear();
   constructor(
     private route: ActivatedRoute,
-    private rotuer: Router,
-    private store: StoreService
+    private router: Router,
+    private translate: TranslateService
   ) { }
 
   ngOnInit(): void {
     this.getQueryData();
+    this.streamDashboardDataFromJson();
   }
 
   private getQueryData() {
@@ -26,7 +31,7 @@ export class FooterComponent implements OnInit {
   }
 
   public openPage(url: string) {
-    this.rotuer.navigate([url], { queryParamsHandling: 'merge' }).then(() => {
+    this.router.navigate([url], { queryParamsHandling: 'merge' }).then(() => {
       // timer(500).pipe(take(1)).subscribe(() => {
       //   window.scrollTo({
       //     top: this.store._OldScrollY,
@@ -36,8 +41,27 @@ export class FooterComponent implements OnInit {
     });
   }
 
+  public changeCountryPage(data: string): void {
+    if(data === 'Florida'){
+      this.router.navigate(['fl/house']);
+    } else {
+      this.router.navigate(['fl/sell-my-house-in-Naples'])
+    }
+  }
+
   private capitalizeFirstLetter(value: string): string {
     if (!value) return value;
     return value.charAt(0).toUpperCase() + value.slice(1);
+  }
+
+  private streamDashboardDataFromJson() {
+    this.translate.stream('dashboard').pipe(takeUntil(this.destroy$)).subscribe((data: Welcome) => {
+      this.welcomeDataPage = data;
+    })
+  }
+
+  ngOnDestroy() {
+    this.destroy$.next();
+    this.destroy$.complete();
   }
 }

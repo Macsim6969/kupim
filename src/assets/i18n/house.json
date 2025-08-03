@@ -20,7 +20,9 @@
     "image": "/assets/img/real-estate/House_main.svg",
     "bgImage": "real-estate",
     "class": "real-estate_text",
-    "alt": "Sell House Fast in Florida"
+    "alt": "Sell House Fast in Florida",
+    "isChangedCountry": true,
+    "state_index": "Florida"
   },
   "easySteps": {
     "title": "3 Easy Steps",

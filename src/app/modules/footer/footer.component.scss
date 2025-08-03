@@ -93,6 +93,21 @@
             -ms-flex-pack: end;
             justify-content: flex-end;
           }
+
+          mat-form-field{
+            height: 42px;
+            ::ng-deep{
+              .mat-mdc-text-field-wrapper{
+                border: none;
+                background: transparent;
+                padding: 0;
+              }
+
+              .mat-mdc-form-field-subscript-wrapper{
+                display: none;
+              }
+            }
+          }
         }
       }
     }

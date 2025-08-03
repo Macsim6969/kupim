@@ -284,6 +284,49 @@
 
   }
 
+  .about_form{
+    margin: auto;
+    form{
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      padding: 45px;
+      border-radius: 40px;
+      background: rgba(255, 255, 255, 0.1);
+      .about_form_block{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+
+        label{
+          font-size: 20px;
+          color: #fdfdfd;
+        }
+
+        input{
+          font-size: 20px;
+          background: #b5c0bf;
+          padding: 10px 15px;
+          outline: none;
+          border: none;
+          color: #575757;
+          border-radius: 14px;
+        }
+
+      }
+      button{
+        cursor: pointer;
+        background: #dc920c;
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 14px;
+        font-size: 20px;
+        padding: 10px 15px;
+      }
+    }
+  }
+
   &.laptop {
     background: linear-gradient(86deg, #48ab87 0%, #48ab87 36%, #20242b 100%);
   }

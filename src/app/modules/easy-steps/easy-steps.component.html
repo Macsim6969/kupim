@@ -116,9 +116,29 @@
      <br>
      <p class="linear_location_text text" [innerHTML]="easyStepData.location.description"></p>
 
-     <p *ngIf="currentUrl !== '/fl/laptop' && currentUrl !== '/fl/building-tools'" class="linear_location_text text">North Florida: Jacksonville, Tallahassee, Gainesville, Pensacola, Panama City, Lake City, St. Augustine, Fernandina Beach, Live Oak, Milton, Fort Walton Beach, Niceville, Perry, Palatka, Starke.</p>
-     <p *ngIf="currentUrl !== '/fl/laptop' && currentUrl !== '/fl/building-tools'" class="linear_location_text text">Central Florida: Orlando, Tampa, St. Petersburg, <a routerLink="/fl/house/largo">Largo</a>, Clearwater, Lakeland, Ocala, Daytona Beach, Melbourne, Winter Haven, Spring Hill, Titusville, Plant City, Lady Lake, Zephyrhills, Winter Garden, Sarasota.</p>
-     <p *ngIf="currentUrl !== '/fl/laptop' && currentUrl !== '/fl/building-tools'" class="linear_location_text text">South Florida: Miami, Fort Lauderdale, West Palm Beach, Naples, Fort Myers, Boca Raton, Pompano Beach, Hollywood, Coral Springs, Hialeah, Pembroke Pines, Boynton Beach, Delray Beach, Jupiter, Port St. Lucie.</p>
+     <p *ngIf="currentUrl !== '/fl/laptop' && currentUrl !== '/fl/building-tools' && currentUrl !== '/fl/sell-my-house-in-Naples'" class="linear_location_text text">North Florida: Jacksonville, Tallahassee, Gainesville, Pensacola, Panama City, Lake City, St. Augustine, Fernandina Beach, Live Oak, Milton, Fort Walton Beach, Niceville, Perry, Palatka, Starke.</p>
+     <p *ngIf="currentUrl !== '/fl/laptop' && currentUrl !== '/fl/building-tools' && currentUrl !== '/fl/sell-my-house-in-Naples'" class="linear_location_text text">Central Florida: Orlando, Tampa, St. Petersburg, <a routerLink="/fl/house/largo">Largo</a>, Clearwater, Lakeland, Ocala, Daytona Beach, Melbourne, Winter Haven, Spring Hill, Titusville, Plant City, Lady Lake, Zephyrhills, Winter Garden, Sarasota.</p>
+     <p *ngIf="currentUrl !== '/fl/laptop' && currentUrl !== '/fl/building-tools' && currentUrl !== '/fl/sell-my-house-in-Naples'" class="linear_location_text text">South Florida: Miami, Fort Lauderdale, West Palm Beach, Naples, Fort Myers, Boca Raton, Pompano Beach, Hollywood, Coral Springs, Hialeah, Pembroke Pines, Boynton Beach, Delray Beach, Jupiter, Port St. Lucie.</p>
    </div>
  }
+
+  @if(currentUrl === '/fl/sell-my-house-in-Naples'){
+    <div class="about_form">
+      <form [formGroup]="form">
+        <div class="about_form_block">
+          <label>Property address</label>
+          <input type="text" placeholder="Enter Your Address" />
+        </div>
+        <div class="about_form_block">
+          <label>Phone</label>
+          <input type="text" placeholder="Enter Your Phone" />
+        </div>
+        <div class="about_form_block">
+          <label>Property email</label>
+          <input type="text" placeholder="Enter Your Email" />
+        </div>
+        <button type="submit">Get Cash Offer!</button>
+      </form>
+    </div>
+  }
 </div>

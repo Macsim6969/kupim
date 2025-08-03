@@ -71,6 +71,7 @@ export class RoutePageService {
     '/fl/apartment': 'apartment',
     '/fl/garage': 'garage',
     '/fl/house': 'house',
+    '/fl/sell-my-house-in-Naples': 'house-naples',
     '/fl/house/largo': 'house_largo',
     '/fl/land-lots': 'land-lots',
     '/fl/restaurant-cafe': 'restaurant-cafe',

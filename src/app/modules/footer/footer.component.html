@@ -29,7 +29,18 @@
 
         <div class="foot_dop_inner">
           <div><a href="tel:+1 727 732 9785" class="inner_contact_phone">+1 727 732 9785</a></div>
-          <div class="foot_fop_local">State of {{state ? state : 'Florida'}}</div>
+
+          @if(!welcomeDataPage.isChangedCountry){
+            <div class="foot_fop_local">State of {{state ? state : 'Florida'}}</div>
+          } @else {
+            <mat-form-field>
+              <mat-select [value]="welcomeDataPage.state_index" (valueChange)="changeCountryPage($event)">
+                <mat-option value="Florida">State of Florida</mat-option>
+                <mat-option value="Naples">State of Naples</mat-option>
+              </mat-select>
+
+            </mat-form-field>
+          }
         </div>
       </div>
     </div>
