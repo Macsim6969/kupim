@@ -1,20 +1,15 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
-import { Subject, takeUntil } from 'rxjs';
-import { EasySteps } from './shared/interfaces/easy-steps.interface';
-import {Router} from "@angular/router";
+import { Component } from '@angular/core';
 import {FormControl, FormGroup, Validators} from "@angular/forms";
-import emailjs from "@emailjs/browser";
+import {HttpClient} from "@angular/common/http";
+import emailjs from '@emailjs/browser';
 
 @Component({
-  selector: 'app-easy-steps',
-  templateUrl: './easy-steps.component.html',
-  styleUrl: './easy-steps.component.scss'
+  selector: 'app-free-house',
+  templateUrl: './free-house.component.html',
+  styleUrl: './free-house.component.scss'
 })
-export class EasyStepsComponent implements OnInit, OnDestroy {
-  private destroy$: Subject<void> = new Subject<void>();
-  public easyStepData: EasySteps;
-  public currentUrl: string;
+export class FreeHouseComponent {
+
   public form: FormGroup = new FormGroup({
     address: new FormControl('', [Validators.required, Validators.minLength(5)]),
     phone: new FormControl('', [
@@ -65,26 +60,5 @@ export class EasyStepsComponent implements OnInit, OnDestroy {
   public get email() {
     return this.form.get('email');
   }
-
-  constructor(
-    private translate: TranslateService,
-    private router: Router
-  ) { }
-
-  ngOnInit(): void {
-    this.streamDataEasyStepsFromJson();
-    this.currentUrl = this.router.url;
-  }
-
-  private streamDataEasyStepsFromJson() {
-    this.translate.stream('easySteps').pipe(takeUntil(this.destroy$))
-      .subscribe((data: EasySteps) => {
-        this.easyStepData = data;
-      })
-  }
-
-  ngOnDestroy(): void {
-    this.destroy$.next();
-    this.destroy$.complete();
-  }
 }
+

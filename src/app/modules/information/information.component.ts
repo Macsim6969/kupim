@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataInforamtion, InformationService } from '../../shared/services/information.service';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-information',
@@ -8,9 +9,11 @@ import { DataInforamtion, InformationService } from '../../shared/services/infor
 })
 export class InformationComponent implements OnInit {
   public infoData: DataInforamtion
+  public currentUrl = this.router.url;
 
   constructor(
-    private informationService: InformationService
+    private informationService: InformationService,
+    private router: Router
   ) { }
 
   ngOnInit(): void {

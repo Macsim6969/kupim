@@ -15,6 +15,7 @@ import { NeedDocsModule } from '../need-docs/need-docs.module';
 import { ChoiceProductsModule } from '../choice-products/choice-products.module';
 import { ChoiceMarkCarModule } from '../choice-mark-car/choice-mark-car.module';
 import { LoadingComponent } from '../../shared/components/loading/loading.component';
+import {FreeHouseModule} from "../free-house/free-house.module";
 
 const routes: Routes = [
 
@@ -105,7 +106,8 @@ const routes: Routes = [
     FeedbackModule,
     QuestionsModule,
     FooterModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
+    FreeHouseModule
   ]
 })
 export class HomeModule { }

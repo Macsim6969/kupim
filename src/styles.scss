@@ -26,7 +26,9 @@ $kupim-theme: mat.define-theme((color: (theme-type: light,
 
 :root {
   transition: all 0.5s;
+
 }
+
 
 *,
 h1,
@@ -55,7 +57,7 @@ body {
     width: 6px;
     background-color: rgb(255, 255, 255);
   }
-  
+
   &::-webkit-scrollbar-thumb {
     width: 6px;
     background-color: gray;
@@ -66,6 +68,16 @@ body {
 body {
   margin: 0;
   font-family: "GothamPro", sans-serif;
+
+   .cdk-overlay-container{
+      div.mat-mdc-select-panel{
+        background-color: rgba(0, 0, 0, 0.20) !important;
+        mat-option{
+          color: white;
+        }
+      }
+    }
+
 }
 
 ::ng-deep {

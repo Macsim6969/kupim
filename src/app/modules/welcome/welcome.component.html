@@ -5,13 +5,13 @@
         <div class="header_inner_navigation">
           <div class="icon_row">
             <a class="icon" href="https://wa.me/7275091449"><img class="navigation_network"
-                src="/assets/img/WhatsApp.webp" alt="Write to WhatsApp"></a>
+                src="/assets/img/WhatsApp.webp" ></a>
             <a class="phone" href="tel: +17275091449"><img class="navigation_network"
-                src="/assets/img/global/Phone.webp" alt="Phone"></a>
+                src="/assets/img/global/Phone.webp" ></a>
             <a class="icon" href="https://wa.me/17275091449"><img class="navigation_network" src="/assets/img/base_icon/IMessage.webp"
-                alt="Write to IMessanger"></a>
+                ></a>
             <a class="icon" target="_blank" href="http://m.me/buddycash01"><img src="/assets/img/global/Facebook.webp"
-                alt="Write to Facebook Messenger"></a>
+                ></a>
           </div>
 
           <div class="navigation_contact">
@@ -24,7 +24,9 @@
               <mat-form-field>
                 <mat-select [value]="welcomeDataPage.state_index" (valueChange)="changeCountryPage($event)">
                   <mat-option value="Florida">State of Florida</mat-option>
-                  <mat-option value="Naples">State of Naples</mat-option>
+                  <mat-option value="Naples">Naples, FL</mat-option>
+                  <mat-option disabled value="Naples">Cape Coral, FL</mat-option>
+                  <mat-option disabled value="Naples">Boca Raton, FL</mat-option>
                 </mat-select>
 
               </mat-form-field>
@@ -34,8 +36,8 @@
           </div>
         </div>
         <div class="header_menu {{(isSidebar$ | async) ? 'active' : ''}}" id="burger" (click)="openMenu()">
-          <img *ngIf="!(isSidebar$ | async)" class="menu_img" src="/assets/img/Menu.webp" alt="Button Menu">
-          <img *ngIf="(isSidebar$ | async)" class="menu_img" src="/assets/img/close_menu.png" alt="Button Menu">
+          <img *ngIf="!(isSidebar$ | async)" class="menu_img" src="/assets/img/Menu.webp" >
+          <img *ngIf="(isSidebar$ | async)" class="menu_img" src="/assets/img/close_menu.png" >
           <div class="menu_list">MENU</div>
         </div>
       </div>
@@ -56,7 +58,7 @@
           <span class="header_title_inner2 {{welcomeDataPage.class}}" [innerHTML]="welcomeDataPage.location"></span>
 
           <div class="gif {{welcomeDataPage.class}}">
-            <img src="/assets/img/global/slide.gif" alt="Slide">
+            <img src="/assets/img/global/slide.gif" >
           </div>
         </div>
       </div>

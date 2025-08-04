@@ -6,7 +6,7 @@
     </h2>
     <div class="why_inner">
       <div class="why_innner_comm" *ngFor="let about of aboutInfoData; index as i ">
-        <img class="comm_img1" [src]="icons[i]" [alt]="about?.alt">
+        <img class="comm_img1" [src]="icons[i]">
         <div class="comm_txt" [innerHTML]="about?.title"></div>
       </div>
     </div>

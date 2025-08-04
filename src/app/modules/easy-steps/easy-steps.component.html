@@ -10,7 +10,6 @@
         <img
           class="step1_img1"
           src="/assets/img/laptop/evaluate.webp"
-          alt="Send us photos of your device"
         />
         <div class="step1_log">{{ easyStepData.contentStep1?.step }}</div>
         <div class="step1_underlog">
@@ -21,7 +20,6 @@
             <img
               class="inner_img"
               src="/assets/img/base_icon/facebook-messenger-base.webp"
-              alt="Messenger Facebook Messenge"
             />
             <div class="inner_title">
               {{ easyStepData.contentStep1?.contact }}
@@ -33,7 +31,6 @@
             <img
               class="inner_img"
               src="/assets/img/base_icon/telegram-base.webp"
-              alt="Messenger Telegram"
             />
             <div class="inner_title">
               {{ easyStepData.contentStep1?.contact }}
@@ -45,7 +42,6 @@
             <img
               class="inner_img"
               src="/assets/img/base_icon/whatsapp-base.webp"
-              alt="Messenger Whatsapp"
             />
             <div class="inner_title">
               {{ easyStepData.contentStep1?.contact }}
@@ -54,13 +50,13 @@
         </a>
         <a class="block__innner" target="_blank" href="mailto:buddycash.fl@gmail.com">
           <nav class="block_inner">
-            <img class="inner_img" src="/assets/img/online-appraisal/mail.webp" alt="Messenger Mail">
+            <img class="inner_img" src="/assets/img/online-appraisal/mail.webp" >
             <div class="inner_title">SEND</div>
           </nav>
         </a>
         <a class="block__innner"href="https://wa.me/17275091449">
           <nav class="block_inner">
-            <img class="inner_img" src="/assets/img/base_icon/IMessage.webp" alt="IMessanger">
+            <img class="inner_img" src="/assets/img/base_icon/IMessage.webp" >
             <div class="inner_title">SEND</div>
           </nav>
         </a>
@@ -70,7 +66,6 @@
         <img
           class="step1_img2"
           src="/assets/img/laptop/map.webp"
-          alt="Schedule an inspection location"
         />
         <div class="step1_log">{{ easyStepData.contentStep2?.step }}</div>
         <div class="step1_underlog">
@@ -82,7 +77,6 @@
         <img
           class="step1_img3"
           src="/assets/img/laptop/deal.webp"
-          alt="Get your cash payment"
         />
         <div class="step1_log">{{ easyStepData.contentStep3?.step }}</div>
         <div class="step1_underlog">
@@ -95,10 +89,12 @@
 
 
 <div class="linear {{ easyStepData.style }}">
-  <img
-    src="/assets/img/easy-steps/Map_Florida.webp"
-    alt="{{ easyStepData?.location?.alt || 'Office Locations' }}"
-  />
+  @if(currentUrl !== '/fl/sell-my-house-in-Naples'){
+    <img
+      src="/assets/img/easy-steps/Map_Florida.webp"
+    />
+  }
+
  @if(!easyStepData.location){
    <div class="linear_location">
      <h4 class="linear_location_title">Office Locations Buddy Cash:</h4>
@@ -120,25 +116,55 @@
      <p *ngIf="currentUrl !== '/fl/laptop' && currentUrl !== '/fl/building-tools' && currentUrl !== '/fl/sell-my-house-in-Naples'" class="linear_location_text text">Central Florida: Orlando, Tampa, St. Petersburg, <a routerLink="/fl/house/largo">Largo</a>, Clearwater, Lakeland, Ocala, Daytona Beach, Melbourne, Winter Haven, Spring Hill, Titusville, Plant City, Lady Lake, Zephyrhills, Winter Garden, Sarasota.</p>
      <p *ngIf="currentUrl !== '/fl/laptop' && currentUrl !== '/fl/building-tools' && currentUrl !== '/fl/sell-my-house-in-Naples'" class="linear_location_text text">South Florida: Miami, Fort Lauderdale, West Palm Beach, Naples, Fort Myers, Boca Raton, Pompano Beach, Hollywood, Coral Springs, Hialeah, Pembroke Pines, Boynton Beach, Delray Beach, Jupiter, Port St. Lucie.</p>
    </div>
+
+   @if(currentUrl === '/fl/sell-my-house-in-Naples'){
+     <form [formGroup]="form" (ngSubmit)="sendMessage()">
+       <div class="about_form_block">
+         <label>Property address</label>
+         <input
+           type="text"
+           formControlName="address"
+           placeholder="Enter Your Address"
+           [class.invalid]="address?.invalid && address?.touched"
+         />
+         <div class="error" *ngIf="address?.errors && address?.touched">
+           <small *ngIf="address?.errors['required']">Address is required.</small>
+           <small *ngIf="address?.errors['minlength']">Minimum 5 characters.</small>
+         </div>
+       </div>
+
+       <div class="about_form_block">
+         <label>Phone</label>
+         <input
+           type="number"
+           formControlName="phone"
+           placeholder="Enter Your Phone"
+           [class.invalid]="phone?.invalid && phone?.touched"
+         />
+         <div class="error" *ngIf="phone?.errors && phone?.touched">
+           <small *ngIf="phone?.errors['required']">Phone is required.</small>
+           <small *ngIf="phone?.errors['pattern']">Only numbers, min 9 digits.</small>
+         </div>
+       </div>
+
+       <div class="about_form_block">
+         <label>Property email</label>
+         <input
+           type="email"
+           formControlName="email"
+           placeholder="Enter Your Email"
+           [class.invalid]="email?.invalid && email?.touched"
+         />
+         <div class="error" *ngIf="email?.errors && email?.touched">
+           <small *ngIf="email?.errors['required']">Email is required.</small>
+           <small *ngIf="email?.errors['email']">Invalid email format.</small>
+         </div>
+       </div>
+
+       <button type="submit" [disabled]="form.invalid">Get Cash Offer!</button>
+     </form>
+   }
+
  }
 
-  @if(currentUrl === '/fl/sell-my-house-in-Naples'){
-    <div class="about_form">
-      <form [formGroup]="form">
-        <div class="about_form_block">
-          <label>Property address</label>
-          <input type="text" placeholder="Enter Your Address" />
-        </div>
-        <div class="about_form_block">
-          <label>Phone</label>
-          <input type="text" placeholder="Enter Your Phone" />
-        </div>
-        <div class="about_form_block">
-          <label>Property email</label>
-          <input type="text" placeholder="Enter Your Email" />
-        </div>
-        <button type="submit">Get Cash Offer!</button>
-      </form>
-    </div>
-  }
 </div>

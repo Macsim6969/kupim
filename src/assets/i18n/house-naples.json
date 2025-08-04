@@ -1,7 +1,8 @@
 {
   "key": [
     "easy-step",
-    "house"
+    "house",
+    "free-dop-block"
   ],
   "dashboard": {
     "state": "State of Florida",
@@ -18,16 +19,16 @@
     "ogUrl": "https://buddy-cash.com/fl/sell-my-house-in-Naples",
     "ogImage": "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
     "image": "/assets/img/real-estate/House_main.svg",
-    "bgImage": "real-estate",
+    "bgImage": "house-naples",
     "class": "real-estate_text",
-    "alt": "Can I Sell My House Before Foreclosure in Naples",
+    "alt": "Can I Sell My Naples Home Before Foreclosure?",
     "isChangedCountry": true,
     "state_index": "Naples"
   },
   "easySteps": {
     "title": "How Do I Sell My House Fast In Naples?",
     "text": "At our company, professionalism is at the core of everything we do. That’s why we’ve designed a straightforward home-selling process — with no agents, no commissions, no repairs, and no hidden fees. Most importantly, you stay in full control throughout the transaction. If you’re at risk of foreclosure, we’re here to help you avoid it and transition with confidence and peace of mind.",
-    "style": "real-estate",
+    "style": "house-naples",
     "contentStep1": {
       "step": "Step 1",
       "stepText": "Reach out in the way that works best for you — call, text, or fill out the quick form below. We’re here to make the first step easy.",
@@ -54,47 +55,47 @@
       {
         "src": "/assets/img/laptop/about/car.svg",
         "title": "We buy houses before, during, or even after foreclosure — including at the auction stage. If you're looking for <strong>cash for your home before foreclosure</strong>, we can help you act quickly and avoid the worst-case outcome.",
-        "alt": "Home Selling"
+        "alt": ""
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
         "title": "No matter the situation — tax liens, probate, divorce, code violations, or inherited property — we provide real solutions when others walk away.",
-        "alt": "Legal Expertise"
+        "alt": ""
       },
       {
         "src": "/assets/img/laptop/about/lock.svg",
         "title": "You’ll get a clear, no-pressure cash offer. No lowballing — just honest numbers and a transparent process from start to finish.",
-        "alt": "Cash Advance"
+        "alt": ""
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
         "title": "No agents, no commissions, no listings. Sell directly to us — no showings, no repairs, no delays.",
-        "alt": "Distressed Properties"
+        "alt": ""
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
         "title": "We often cover probate fees, moving costs, and other logistics to make the sale as smooth and stress-free as possible.",
-        "alt": "Quick Sale"
+        "alt": ""
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
         "title": "Need more time after closing? You can stay in your home rent-free for a short period while you prepare for what’s next.",
-        "alt": "No Repairs"
+        "alt": ""
       },
       {
         "src": "/assets/img/laptop/about/flag.svg",
         "title": "We can close in as little as one day, or on your timeline — no bank approvals, no financing delays.",
-        "alt": "Data Security"
+        "alt": ""
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
         "title": "Our legal team ensures every transaction is fully protected and compliant — no surprises, no hidden clauses.",
-        "alt": "Zero Fees"
+        "alt": ""
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
         "title": "Even if we don’t buy your home, we’ll still help you find the best path forward — at no cost and with your interests first.",
-        "alt": "Free Consultation"
+        "alt": ""
       }
     ]
   },
@@ -110,7 +111,7 @@
       {
         "content": "I needed cash for my house in Naples fast. They bought it with my missed payments and handled the process smoothly. The only thing <br/>—I wish the updates came a bit faster. Still, I got my cash and avoided foreclosure.",
         "name": "Michael D.",
-        "prod": "Sold townhouse house in Bonita Springs, FL",
+        "prod": "Sold house in Bonita Springs, FL",
         "stars": 4
       },
       {
@@ -128,31 +129,31 @@
     "isOpenAll": true,
     "listAsq": [
       {
-        "title": "Can I Still Sell My Home in Naples During Foreclosure?",
+        "title": "Can I still sell my home in Naples during foreclosure?",
         "content": "<strong>Yes, you can absolutely sell your house in Naples during the foreclosure process — right up until the auction date. Many homeowners in Naples don’t realize they still have time. If you act quickly, you can get cash for your house in Naples, avoid the foreclosure hitting your credit, and walk away with control of the situation. We specialize in helping sellers close fast, even when time is limited.</strong>"
       },
       {
-        "title": "How Long Does the Foreclosure Process Take in Florida?",
+        "title": "How long does the foreclosure process take in Florida?",
         "content": "Foreclosure in Florida is a legal process that typically lasts 8 to 12 months, giving you a valuable window to sell my home in Naples before the court finalizes the sale. The process begins when your lender files a lawsuit (lis pendens), but actual sale dates are usually months away. That time can be used to sell your property for cash, avoid a court judgment, and start fresh."
       },
       {
-        "title": "What Are the Right Steps to Sell My Home in Naples Before Foreclosure?",
+        "title": "What are the right steps to sell my home in Naples before foreclosure?",
         "content": "The best first step is to request a no-obligation cash offer. Our team provides a fair offer based on local market conditions, often within minutes. Once you accept, we’ll handle the paperwork and coordinate a smooth closing — sometimes in just 24–72 hours. If you're thinking, “how do I sell my home in Naples before losing it?” — the answer is: act early and sell directly to a trusted local buyer."
       },
       {
-        "title": "Is It Possible to Stop a Foreclosure Once It's in Motion?",
+        "title": "Is it possible to stop a foreclosure once it's in motion?",
         "content": "Yes. You can still stop foreclosure even after the court process has started. Selling your home quickly for cash is one of the fastest ways to resolve the debt and avoid auction. We help homeowners in foreclosure every day by making fast offers and handling the details — so you can stop worrying and move forward. If you're in Naples, cash for house offers are often your cleanest exit."
       },
       {
-        "title": "What If I Can’t Sell Before the Foreclosure Deadline?",
+        "title": "What if I can’t sell before the foreclosure deadline?",
         "content": "If the auction date is approaching fast, your options become more limited — but you may still have a chance. Some homeowners can delay foreclosure through bankruptcy or legal filings, but these are stressful and uncertain. Your best move is to start the sale process now. We buy properties up to the last moment and often help sellers avoid foreclosure with a fast cash for house in Naples closing."
       },
       {
-        "title": "Should I Consider a Short Sale If I Owe More Than My Home’s Value?",
+        "title": "Should I consider a short sale if I owe more than my home’s value?",
         "content": "If your mortgage balance is higher than your home's value, a short sale might be your best option. With lender approval, we can help negotiate a fair sale and handle the complex paperwork. Many homeowners choose this route to sell my home in Naples without owing the bank after the sale. It’s not just about selling — it’s about protecting your future."
       },
       {
-        "title": "Will I Be Responsible for Any Debt After Selling My Home in Naples Before Foreclosure?",
+        "title": "Will I be responsible for any debt after selling my home in Naples before foreclosure?",
         "content": "That depends on the sale amount and what you owe. If the home sells for enough to pay off the loan, you’re typically free of further responsibility. Even in a short sale, we work directly with your lender to request a debt forgiveness (waiver of deficiency). Our goal is to help you sell your Naples home, get cash for house, and move forward without leftover mortgage debt dragging you down."
       }
     ],

@@ -1,0 +1,63 @@
+<div class="free-house">
+  <div class="free-house-left">
+    <h2 class="free-house-left-title">Free House Valuations in Naples</h2>
+    <p class="free-house-left-text text">Before you sign with a high-commission realtor or accept a lowball investor offer, take 5 minutes to get a free, no-obligation cash offer from us. You may discover your property’s real value — and avoid second-guessing your decision later.</p>
+    <p class="free-house-left-text text">We buy homes as-is. No repairs, no cleaning, no showings. You pay nothing in agent fees or closing costs. Usually, one quick walkthrough is all it takes — and we can close on your timeline, sometimes in under 24 hours.</p>
+
+    <p class="free-house-left-text text">You’ll hear from us once with your offer. No spam, no pressure, and your info stays private.</p>
+
+    <p class="free-house-left-text text">Selling a home often comes during big life changes — foreclosure, relocation, inheritance, or the unexpected. We don’t just throw out a number and disappear. When needed, we help with cleanup, moving costs, and relocation assistance — including temporary housing so you have room to breathe.</p>
+
+    <p class="free-house-left-text text">And if you need advice later — on buying your next place or just getting a fair home value — we’re here. Real support, no games.</p>
+  </div>
+  <div class="free-house-right">
+    <form [formGroup]="form" (ngSubmit)="sendMessage()">
+      <div class="about_form_block">
+        <label>Property address</label>
+        <input
+          type="text"
+          formControlName="address"
+          placeholder="Enter Your Address"
+          [class.invalid]="address?.invalid && address?.touched"
+        />
+        <div class="error" *ngIf="address?.errors && address?.touched">
+          <small *ngIf="address?.errors['required']">Address is required.</small>
+          <small *ngIf="address?.errors['minlength']">Minimum 5 characters.</small>
+        </div>
+      </div>
+
+      <div class="about_form_block">
+        <label>Phone</label>
+        <input
+          type="number"
+          formControlName="phone"
+          placeholder="Enter Your Phone"
+          [class.invalid]="phone?.invalid && phone?.touched"
+        />
+        <div class="error" *ngIf="phone?.errors && phone?.touched">
+          <small *ngIf="phone?.errors['required']">Phone is required.</small>
+          <small *ngIf="phone?.errors['pattern']">Only numbers, min 9 digits.</small>
+        </div>
+      </div>
+
+      <div class="about_form_block">
+        <label>Property email</label>
+        <input
+          type="email"
+          formControlName="email"
+          placeholder="Enter Your Email"
+          [class.invalid]="email?.invalid && email?.touched"
+        />
+        <div class="error" *ngIf="email?.errors && email?.touched">
+          <small *ngIf="email?.errors['required']">Email is required.</small>
+          <small *ngIf="email?.errors['email']">Invalid email format.</small>
+        </div>
+      </div>
+
+      <button type="submit" [disabled]="form.invalid">Get Cash Offer!</button>
+    </form>
+
+
+  </div>
+
+</div>

@@ -183,6 +183,10 @@
             mat-form-field{
               height: 42px;
               ::ng-deep{
+
+                .mat-mdc-select-value-text{
+                  color: white;
+                }
                 .mat-mdc-text-field-wrapper{
                   border: none;
                   background: transparent;
@@ -194,7 +198,6 @@
                 }
               }
             }
-
           }
         }
 
