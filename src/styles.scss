@@ -69,11 +69,16 @@ body {
   margin: 0;
   font-family: "GothamPro", sans-serif;
 
+  .mat-mdc-select-value{
+    font-family: "GothamPro", sans-serif;
+    font-size: 20px;
+  }
    .cdk-overlay-container{
       div.mat-mdc-select-panel{
         background-color: rgba(0, 0, 0, 0.20) !important;
         mat-option{
           color: white;
+          font-family: "GothamPro", sans-serif;
         }
       }
     }

@@ -1,7 +1,9 @@
-import { Component } from '@angular/core';
+import {Component, inject} from '@angular/core';
 import {FormControl, FormGroup, Validators} from "@angular/forms";
 import {HttpClient} from "@angular/common/http";
 import emailjs from '@emailjs/browser';
+import {MatSnackBar} from "@angular/material/snack-bar";
+import {ConfirmAlertComponent} from "../../shared/components/confirm-alert/confirm-alert.component";
 
 @Component({
   selector: 'app-free-house',
@@ -9,6 +11,9 @@ import emailjs from '@emailjs/browser';
   styleUrl: './free-house.component.scss'
 })
 export class FreeHouseComponent {
+  private _snackBar = inject(MatSnackBar);
+
+  durationInSeconds = 5;
 
   public form: FormGroup = new FormGroup({
     address: new FormControl('', [Validators.required, Validators.minLength(5)]),
@@ -40,6 +45,9 @@ export class FreeHouseComponent {
       )
       .then(
         () => {
+          this._snackBar.openFromComponent(ConfirmAlertComponent, {
+            duration: this.durationInSeconds * 1000,
+          });
           this.form.reset();
         },
         (error) => {

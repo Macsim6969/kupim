@@ -1,20 +1,22 @@
 <div class="review">
-    <div class="review_cont">
-        <h4 class="review_titile">{{testimonialsData.title}}</h4>
-        <div class="review_inner">
-            <div class="inner_comment" *ngFor="let feedback of testimonialsData.feedback">
-                <div class="comment_title" [innerHTML]="feedback.content"></div>
-                <div class="comment_staff">
+  <div class="review_cont">
+    <h4 class="review_titile">{{ testimonialsData.title }}</h4>
+    <img class="header_google_reviews" src="./assets/img/Google-Reviews.webp">
+    <div class="review_inner">
+      <div class="inner_comment" *ngFor="let feedback of testimonialsData.feedback">
+        <div class="comment_title" [innerHTML]="feedback.content"></div>
+        <div class="comment_staff">
 
-                    <div class="staff_inner">
-                        <div class="inner_info">{{feedback.name}}</div>
-                        <div class="inner_underinfo" [innerHTML]="feedback.prod"></div>
-                    </div>
-                    <img class="comment_staff_img" src="/assets/img/laptop/feedback/google-maps.svg" >
-                </div>
-
-                <img class="review_stars" [src]="feedback.stars === 4 ? '/assets/img/laptop/feedback/stars_4.webp' : '/assets/img/laptop/feedback/stars_5.webp'" >
-            </div>
+          <div class="staff_inner">
+            <div class="inner_info">{{ feedback.name }}</div>
+            <div class="inner_underinfo" [innerHTML]="feedback.prod"></div>
+          </div>
+          <img class="comment_staff_img" src="/assets/img/laptop/feedback/google-maps.svg">
         </div>
+
+        <img class="review_stars"
+             [src]="feedback.stars === 4 ? '/assets/img/laptop/feedback/stars_4.webp' : '/assets/img/laptop/feedback/stars_5.webp'">
+      </div>
     </div>
+  </div>
 </div>

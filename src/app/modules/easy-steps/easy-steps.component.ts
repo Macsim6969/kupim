@@ -1,10 +1,12 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import {Component, inject, OnDestroy, OnInit} from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { Subject, takeUntil } from 'rxjs';
 import { EasySteps } from './shared/interfaces/easy-steps.interface';
 import {Router} from "@angular/router";
 import {FormControl, FormGroup, Validators} from "@angular/forms";
 import emailjs from "@emailjs/browser";
+import {MatSnackBar} from "@angular/material/snack-bar";
+import {ConfirmAlertComponent} from "../../shared/components/confirm-alert/confirm-alert.component";
 
 @Component({
   selector: 'app-easy-steps',
@@ -12,6 +14,10 @@ import emailjs from "@emailjs/browser";
   styleUrl: './easy-steps.component.scss'
 })
 export class EasyStepsComponent implements OnInit, OnDestroy {
+  private _snackBar = inject(MatSnackBar);
+
+  durationInSeconds = 5;
+
   private destroy$: Subject<void> = new Subject<void>();
   public easyStepData: EasySteps;
   public currentUrl: string;
@@ -45,6 +51,9 @@ export class EasyStepsComponent implements OnInit, OnDestroy {
       )
       .then(
         () => {
+          this._snackBar.openFromComponent(ConfirmAlertComponent, {
+            duration: this.durationInSeconds * 1000,
+          });
           this.form.reset();
         },
         (error) => {

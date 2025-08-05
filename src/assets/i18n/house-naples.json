@@ -1,5 +1,6 @@
 {
   "key": [
+    "prod",
     "easy-step",
     "house",
     "free-dop-block"
@@ -18,12 +19,58 @@
     "ogType": "website",
     "ogUrl": "https://buddy-cash.com/fl/sell-my-house-in-Naples",
     "ogImage": "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
-    "image": "/assets/img/real-estate/House_main.svg",
+    "image": "/assets/img/real-estate/House-Naples.webp",
     "bgImage": "house-naples",
     "class": "real-estate_text",
     "alt": "Can I Sell My Naples Home Before Foreclosure?",
     "isChangedCountry": true,
     "state_index": "Naples"
+  },
+  "prodInfo": {
+    "title": "Property Types We Purchase in Naples and the Surrounding Areas",
+    "text": "Whatever your reason for selling — whether you're facing foreclosure, dealing with costly repairs, or simply need to sell quickly — we’re here to offer a fair cash price and make the process simple, respectful, and hassle-free.",
+    "content": [
+      {
+        "img": "/assets/img/real-estate/Apartment.svg",
+        "route": "/fl/apartment",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/real-estate/Garage.svg",
+        "route": "/fl/garage",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/real-estate/House.svg",
+        "route": "/fl/house",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/real-estate/Land-lots.svg",
+        "route": "/fl/land-lots",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/real-estate/Restaurant-Cafe.svg",
+        "route": "/fl/restaurant-cafe",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/real-estate/Townhouse.svg",
+        "route": "/fl/townhouse",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/real-estate/Warehouse-Facilities.svg",
+        "route": "/fl/warehouse-facilities",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/main_page/Others.png",
+        "route": "/fl/real-estate-others",
+        "isBlock": true
+      }
+    ]
   },
   "easySteps": {
     "title": "How Do I Sell My House Fast In Naples?",
@@ -45,7 +92,7 @@
     "location": {
       "title": "Receive a Free and Confidential",
       "location_city": "Cash Offer in Minutes",
-      "description": "We purchase homes throughout Naples and surrounding areas. Below is a list of cities and ZIP codes we are actively buying in: <br/><br/> Areas of Interest: <br/><br/> Marco Island, Golden Gate, Golden Gate Estates, Lely Resort, Naples Manor, Vineyards, Island Walk, Ave Maria, Verona Walk, Fiddler’s Creek, Winding Cypress, Pelican Bay, Naples Park, Ochopee, Copeland <br/><br/> ZIP Codes We Serve: <br/><br/> 34101, 34102, 34103, 34104, 34105, 34106, 34107, 34108, 34109, 34110, 34112, 34113, 34114, 34115, 34116, 34117, 34118, 34119, 34120, 34137, 34140, 34141, 34142, 34145 <br/><br/> We also consider properties throughout the entire state of Florida."
+      "description": "Before you sign with a high-commission realtor or accept a lowball investor offer, take 5 minutes to get a free, no-obligation cash offer from us. You may discover your property’s real value — and avoid second-guessing your decision later. <br/><br/> We buy homes as-is. No repairs, no cleaning, no showings. You pay nothing in agent fees or closing costs. Usually, one quick walkthrough is all it takes — and we can close on your timeline, sometimes in under 24 hours. <br/><br/> You’ll hear from us once with your offer. No spam, no pressure, and your info stays private. <br/><br/> Selling a home often comes during big life changes — foreclosure, relocation, inheritance, or the unexpected. We don’t just throw out a number and disappear. When needed, we help with cleanup, moving costs, and relocation assistance — including temporary housing so you have room to breathe. <br/><br/> And if you need advice later — on buying your next place or just getting a fair home value — we’re here. Real support, no games."
     }
   },
   "aboutInfo": {
@@ -155,6 +202,39 @@
       {
         "title": "Will I be responsible for any debt after selling my home in Naples before foreclosure?",
         "content": "That depends on the sale amount and what you owe. If the home sells for enough to pay off the loan, you’re typically free of further responsibility. Even in a short sale, we work directly with your lender to request a debt forgiveness (waiver of deficiency). Our goal is to help you sell your Naples home, get cash for house, and move forward without leftover mortgage debt dragging you down."
+      }
+    ],
+    "isSlider": true,
+    "slidersData": [
+      {
+        "img": "/assets/img/main_page/Electronics.png",
+        "alt": "Sell my Electronics",
+        "link": "/fl/electronics",
+        "isActiveMobile": true
+      },
+      {
+        "img": "/assets/img/electronics/Camera.svg",
+        "alt": "Sell my Car",
+        "link": "/fl/camera",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/electronics/TV.svg",
+        "alt": "Sell my Motorcycle",
+        "link": "/fl/tv",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/electronics/Coffee_maker.svg",
+        "alt": "Sell my Bike",
+        "link": "/fl/coffee-maker",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/See_all.webp",
+        "alt": "See All",
+        "link": "/fl",
+        "isActiveMobile": true
       }
     ],
     "listBottom1": {

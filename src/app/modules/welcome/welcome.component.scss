@@ -443,6 +443,23 @@
           }
         }
 
+        &_img{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .header_google_reviews{
+          height: 80px;
+          padding: 5px 70px;
+          border-radius: 35px;
+          background: rgba(255, 255, 255, 0.1);
+
+          @media (max-width: 768px) {
+            height: 40px;
+            margin-top: 15px;
+          }
+        }
+
         .header_title {
           margin: -25px 0 0 0;
           display: flex;

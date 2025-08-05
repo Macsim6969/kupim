@@ -1,13 +1,14 @@
-:host{
-  .free-house{
+:host {
+  .free-house {
     padding: 60px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     gap: 60px;
     background: linear-gradient(86deg, #298275 0%, #298275 36%, #20242b 100%);
 
-    &-left{
+    &-left {
       display: flex;
       flex-direction: column;
       gap: 20px;
@@ -44,58 +45,71 @@
       }
 
     }
-    &-right{
-        margin: auto 50px auto 0;
-        form{
+
+    &-right {
+      margin: auto 50px auto 0;
+
+      @media (max-width: 768px) {
+        margin: 0;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding: 65px;
+        border-radius: 40px;
+        background: rgba(255, 255, 255, 0.1);
+
+        @media (max-width: 768px) {
+          padding: 25px;
+          width: 250px;
+        }
+
+        .about_form_block {
           display: flex;
           flex-direction: column;
-          gap: 25px;
-          padding: 65px;
-          border-radius: 40px;
-          background: rgba(255, 255, 255, 0.1);
-          .about_form_block{
-            display: flex;
-            flex-direction: column;
-            gap: 4px;
+          gap: 4px;
 
-            label{
-              font-size: 24px;
-              color: #fdfdfd;
-            }
-
-            input{
-              font-size: 24px;
-              background: #b5c0bf;
-              padding: 15px 20px;
-              outline: none;
-              border: none;
-              color: #575757;
-              border-radius: 14px;
-            }
-
+          label {
+            font-size: 22px;
+            color: #fdfdfd;
           }
-          button{
-            cursor: pointer;
-            background: #dc920c;
-            color: white;
+
+          input {
+            font-size: 22px;
+            background: #b5c0bf;
+            padding: 15px 20px;
             outline: none;
             border: none;
+            color: #575757;
             border-radius: 14px;
-            font-size: 24px;
-            padding: 15px 20px;
-          }
-
-          input.invalid {
-            border: 1px solid red;
-          }
-
-          .error {
-            color: red;
-            margin-top: 4px;
-            font-size: 18px;
           }
 
         }
+
+        button {
+          cursor: pointer;
+          background: #dc920c;
+          color: white;
+          outline: none;
+          border: none;
+          border-radius: 14px;
+          font-size: 22px;
+          padding: 15px 20px;
+        }
+
+        input.invalid {
+          border: 1px solid red;
+        }
+
+        .error {
+          color: red;
+          margin-top: 4px;
+          font-size: 18px;
+        }
+
+      }
 
     }
   }
