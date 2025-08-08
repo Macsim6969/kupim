@@ -1,0 +1,245 @@
+{
+  "key": [
+    "easy-step",
+    "prod",
+    "free-dop-block"
+  ],
+  "dashboard": {
+    "state": "State of Florida",
+    "title": "Sell Laptop in Orlando",
+    "location": "Use our free online laptop valuation tool to learn your device’s market price instantly. In just a few minutes, you’ll receive a fair quote with no pressure or obligations. We pay in cash and arrange a free pickup from your home at a time that works for you.",
+    "index": true,
+    "footerDescription": "",
+    "metaTitle": "Sell Your Laptop for Cash in Orlando",
+    "description": "Sell your used laptop in Orlando for cash. Get a free online quote and schedule same-day pickup right from your home.",
+    "keywords": "sell my laptop in Orlando, cash laptop buyers Orlando, sell broken laptop Orlando, get cash for used laptop Orlando, same day laptop pickup Orlando, laptop trade-in near me Orlando, who buys laptops in Orlando, fast laptop sale Orlando, laptop buyback service Orlando, sell gaming laptop for cash Orlando, Orlando laptop recycling and resale, sell old laptop for money Orlando, Orlando laptop selling service, best place to sell laptop in Orlando, laptop resale quote Orlando, how to sell laptop near Orlando, used laptop buyers Orlando, no hassle laptop sale Orlando, laptop pickup service Orlando, sell laptop as-is Orlando, laptop selling process Orlando, Apple MacBook buyers in Orlando, secure laptop sale Orlando, fast cash for laptops Orlando, laptop resale without shipping Orlando ",
+    "ogTitle": "Sell Your Laptop for Cash in Orlando",
+    "ogDescription": "Sell your used laptop in Orlando for cash. Get a free online quote and schedule same-day pickup right from your home.",
+    "ogType": "website",
+    "ogUrl": "https://buddy-cash.com/fl/sell-my-laptop-in-orlando",
+    "ogImage": "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
+    "image": "/assets/img/laptop/Sell Laptop in Orlando.webp",
+    "bgImage": "laptop",
+    "class": "laptop_text",
+    "altImage": "sell my old laptop in Orlando",
+    "isChangedCountry": true,
+    "state_index": "Orlando",
+    "arrayStates": [
+      {
+        "name": "State of Florida",
+        "value": "Florida",
+        "disabled": false,
+        "link": "/fl/laptop"
+      },{
+        "name": "Orlando FL",
+        "value": "Orlando",
+        "disabled": false,
+        "link": "/fl/sell-my-laptop-in-orlando"
+      },
+      {
+        "name": "St. Petersburg Fl",
+        "value": "St. Petersburg",
+        "disabled": false,
+        "link": "/fl/sell-my-laptop-in-st-petersburg"
+      }
+
+    ]
+  },
+  "prodInfo": {
+    "title": "Same-Day Cash for Used Laptops",
+    "text": "Laptops in any condition are accepted — brand new, gently used, damaged, non working, or even under repair. Every device receives a fair cash offer with a fast, hassle free selling process.",
+    "content": [
+      {
+        "img": "/assets/img/laptop/After_repair.png",
+        "alt": "Sell after repair laptop"
+      },
+      {
+        "img": "/assets/img/laptop/New.png",
+        "alt": "Sell new laptop"
+      },
+      {
+        "img": "/assets/img/laptop/Old.png",
+        "alt": "Sell old laptop"
+      },
+      {
+        "img": "/assets/img/laptop/Purchased.png",
+        "alt": "Sell purchased laptop"
+      },
+      {
+        "img": "/assets/img/laptop/Under_repair.png",
+        "alt": "Sell under repair laptop"
+      }
+    ]
+  },
+  "easySteps": {
+    "title": "How Do I Sell My Laptop Fast In Orlando?",
+    "text": "Here’s how our process works to quickly value your laptop online and get cash the same day:",
+    "style": "laptop",
+    "contentStep1": {
+      "step": "Step 1",
+      "stepText": "Send photos and your laptop model through any convenient messaging app.",
+      "contact": "SEND"
+    },
+    "contentStep2": {
+      "step": "Step 2",
+      "stepText": "Schedule an on‑site or in‑office evaluation at a time that works for you."
+    },
+    "contentStep3": {
+      "step": "Step 3",
+      "stepText": "Receive instant payment — cash, bank transfer, or check."
+    },
+    "location": {
+      "url": "/assets/img/easy-steps/Cash for Laptop Orlando.webp",
+      "alt": "Where to Sell Laptop in Orlando?",
+      "title": "Where to Sell My Laptop in Orlando?",
+      "location_city": "Our laptop buying service covers Orlando and the surrounding areas. Below is a list of cities and ZIP codes where we are actively purchasing:",
+      "description": "<strong>Cities:<br/>Sanford, Kissimmee, Deltona, Poinciana, Saint Cloud, Pine Hills, Horizon West, Lake Mary, Longwood, Maitland, Oviedo, Windermere, Winter Park, Mount Dora, Apopka <br/><br/> ZIP Codes We Serve:<br/>32703, 32707, 32712, 32746, 32750, 32751, 32757, 32765, 32771, 32773, 32779, 32792, 32808, 32817, 34741, 34743, 34744, 34746, 34769, 34771</strong>"
+    }
+  },
+  "aboutInfo": {
+    "title": "Best place to sell",
+    "text": "a used laptop online",
+    "list": [
+      {
+        "src": "/assets/img/laptop/about/car.svg",
+        "title": "<strong>Same Day Pickup</strong> – Our team can collect your laptop from your location the very same day.",
+        "alt": "Any condition"
+      },
+      {
+        "src": "/assets/img/laptop/about/sack.svg",
+        "title": "<strong>Instant Payment</strong> – Get paid immediately via cash or bank transfer after inspection.",
+        "alt": "Fast cash"
+      },
+      {
+        "src": "/assets/img/laptop/about/lock.svg",
+        "title": "<strong>Statewide Service</strong> – We operate across Florida, providing convenient laptop buying wherever you are.",
+        "alt": "Multiple locations"
+      },
+      {
+        "src": "/assets/img/laptop/about/bank.svg",
+        "title": "<strong>Quick Online Valuation</strong> – Receive an accurate laptop appraisal online in just a few minutes.",
+        "alt": "Damage specialists"
+      },
+      {
+        "src": "/assets/img/laptop/about/time.svg",
+        "title": "<strong>Confidential Transactions</strong> – Every sale is handled discreetly with full client confidentiality.",
+        "alt": "Confidential transactions"
+      },
+      {
+        "src": "/assets/img/laptop/about/thumbs-up.svg",
+        "title": "<strong>Free Pickup and Handling</strong> – All logistics are fully covered, with complimentary service in Orlando and nearby areas.",
+        "alt": "Warranty support"
+      },
+      {
+        "src": "/assets/img/laptop/about/flag.svg",
+        "title": "<strong>All Conditions Accepted</strong> – We purchase laptops from brand new to non functional units.",
+        "alt": "Expert evaluation"
+      },
+      {
+        "src": "/assets/img/laptop/about/bills.svg",
+        "title": "<strong>Certified Data Wipe</strong> – All personal data is securely erased from devices and linked accounts.",
+        "alt": "Free shipping"
+      },
+      {
+        "src": "/assets/img/laptop/about/chain.svg",
+        "title": "<strong>Specialized Expertise</strong> – We handle complex cases including water damage, factory defects, and missing components.",
+        "alt": "Legal program"
+      }
+    ]
+  },
+  "information": {
+    "location": "120 W Grant St, Orlando, FL 32806"
+  },
+  "testimonials": {
+    "title": "Client Reviews from Google Maps",
+    "feedback": [
+      {
+        "content": "I wasn't sure about selling my laptop locally, but this St. Petersburg service was amazing. The process was incredibly fast, and I received a great price for my old Dell XPS. They even gave me extra for keeping the original charger and packaging. When I needed to get cash for my laptop in Clearwater, their team came out the same day and handled everything professionally. Perfect experience from start to finish!",
+        "name": "Jessica M.",
+        "prod": "(Sold Dell XPS 13)",
+        "stars": 5
+      },
+      {
+        "content": "As a college student, I was concerned about getting ripped off selling my gaming laptop. These guys really understand tech and gave me a cash for my MSI laptop. I got cash in Largo the same day I contacted them. If you're looking for honest laptop buyers in the Tampa Bay area, look no further.",
+        "name": "David L.",
+        "prod": "(Sold MSI Gaming Laptop)",
+        "stars": 4
+      },
+      {
+        "content": "I had an old MacBook that I thought was basically junk due to water damage. Turns out, there are reliable places to get cash for laptops in St. Pete even when they're damaged. They gave me a fair price and completely wiped all my personal data. Great option if you're looking to trade in a broken laptop in Pinellas County.",
+        "name": "Amanda R.",
+        "prod": "(Sold MacBook Air)",
+        "stars": 5
+      }
+    ],
+    "content": "Open Google Maps"
+  },
+  "questions": {
+    "title": "Have Questions?",
+    "descr": "We're Happy to Help",
+    "isOpenAll": true,
+    "listAsq": [
+      {
+        "title": "What should you do before selling your laptop?",
+        "content": "Before our team arrives in St. Petersburg, make backup copies of all important files and log out of all accounts. We offer professional data deletion, but it is recommended to delete personal files first. Keep the charger and all original accessories - they increase the value of your laptop."
+      },
+      {
+        "title": "Do you pay cash for damaged laptops?",
+        "content": "Yes, we buy non-working laptops all over St. Petersburg. Cracked screens, water damage or non-bootable laptops - we estimate their value for parts and offer honest offers taking into account the current market situation."
+      },
+      {
+        "title": "How does the laptop buying process work?",
+        "content": "Simply send us photos of your device via SMS or messenger — we’ll promptly provide a preliminary offer. If you agree, we’ll schedule a convenient time for pickup. The quoted price will remain the same at the time of inspection, unless any undisclosed issues are found that were not visible during the initial evaluation. Payment will be made in the form that’s most convenient for you — Zelle, cash, or check."
+      },
+      {
+        "title": "Do you offer a laptop collection service in?",
+        "content": "Of course. We offer free laptop pickup throughout St. Petersburg, Clearwater, and the surrounding Pinellas County. Whether you're downtown, at the beach, or in the suburbs, we'll come to you at no extra charge."
+      }
+    ],
+    "isSlider": true,
+    "slidersData": [
+      {
+        "img": "/assets/img/main_page/Electronics.png",
+        "alt": "Sell my Electronics",
+        "link": "/fl/electronics",
+        "isActiveMobile": true
+      },
+      {
+        "img": "/assets/img/electronics/Camera.svg",
+        "alt": "Sell my Car",
+        "link": "/fl/camera",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/electronics/TV.svg",
+        "alt": "Sell my Motorcycle",
+        "link": "/fl/tv",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/electronics/Coffee_maker.svg",
+        "alt": "Sell my Bike",
+        "link": "/fl/coffee-maker",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/See_all.webp",
+        "alt": "See All",
+        "link": "/fl",
+        "isActiveMobile": true
+      }
+    ],
+    "listBottom1": {
+      "title": "",
+      "text": ""
+    },
+    "listBottom2": {
+      "title": "",
+      "text": ""
+    }
+  },
+  "free-house": {
+    "title": "We Buy Laptops at Fair Prices",
+    "text": "Need to sell your laptop but don't want to deal with unclear buyers and endless haggling. We solve this problem for you.<br/><br/> Valuation based on current market prices, payment immediately after inspection, no commissions or additional fees. We buy laptops of any brands. <br/><br/> Show us the laptop, we quote a price, we agree, we take it and pay. <br/><br/> We work with different tech: gaming laptops, business models, MacBooks, old but reliable machines. Any condition accepted.<br/><br/> We come at convenient times anywhere in the city. Contact us and get money for your laptop."
+  }
+}

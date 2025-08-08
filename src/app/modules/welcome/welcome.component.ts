@@ -57,13 +57,13 @@ export class WelcomeComponent implements OnInit, OnDestroy {
     document.body.style.overflow =  this.isOpenPopup  ? 'hidden' : '';
   }
 
-  public changeCountryPage(data: string): void {
-    if(data === 'Florida'){
-      this.router.navigate(['fl/house']);
-    } else {
-      this.router.navigate(['fl/sell-my-house-in-Naples'])
+  public changeCountryPage(value: string): void {
+    const selected = this.welcomeDataPage.arrayStates.find(s => s.value === value);
+    if (selected) {
+      this.router.navigate([selected.link]);
     }
   }
+
 
   ngOnDestroy(): void {
     this.destroy$.next();

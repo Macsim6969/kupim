@@ -22,7 +22,33 @@
     "class": "real-estate_text",
     "alt": "Sell House Fast in Florida",
     "isChangedCountry": true,
-    "state_index": "Florida"
+    "state_index": "Florida",
+    "arrayStates": [
+      {
+        "name": "State of Florida",
+        "value": "Florida",
+        "disabled": false,
+        "link": "/fl/house"
+      },{
+        "name": "Naples, FL",
+        "value": "Naples",
+        "disabled": false,
+        "link": "/fl/sell-my-house-in-Naples"
+      },
+      {
+        "name": "Cape Coral, FL",
+        "value": "Cape Coral",
+        "disabled": true,
+        "link": "/fl/house"
+      },
+      {
+        "name": "Boca Raton, FL",
+        "value": "Boca Raton",
+        "disabled": true,
+        "link": "/fl/house"
+      }
+
+    ]
   },
   "easySteps": {
     "title": "3 Easy Steps",

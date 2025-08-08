@@ -1,19 +1,25 @@
-import {Component, inject} from '@angular/core';
+import {Component, inject, OnInit} from '@angular/core';
 import {FormControl, FormGroup, Validators} from "@angular/forms";
 import {HttpClient} from "@angular/common/http";
 import emailjs from '@emailjs/browser';
 import {MatSnackBar} from "@angular/material/snack-bar";
 import {ConfirmAlertComponent} from "../../shared/components/confirm-alert/confirm-alert.component";
+import {Subject, takeUntil} from "rxjs";
+import {EasySteps} from "../easy-steps/shared/interfaces/easy-steps.interface";
+import {TranslateService} from "@ngx-translate/core";
 
 @Component({
   selector: 'app-free-house',
   templateUrl: './free-house.component.html',
   styleUrl: './free-house.component.scss'
 })
-export class FreeHouseComponent {
+export class FreeHouseComponent implements OnInit {
+  private destroy$: Subject<void> = new Subject<void>();
+
   private _snackBar = inject(MatSnackBar);
 
   durationInSeconds = 5;
+  public freeHouse: any;
 
   public form: FormGroup = new FormGroup({
     address: new FormControl('', [Validators.required, Validators.minLength(5)]),
@@ -26,6 +32,15 @@ export class FreeHouseComponent {
       Validators.email
     ])
   });
+
+  constructor(
+    private translate: TranslateService
+  ) {
+  }
+
+  ngOnInit() {
+   this.streamFreeHouseFromJson();
+  }
 
   public sendMessage(): void {
     if (this.form.invalid) return;
@@ -67,6 +82,13 @@ export class FreeHouseComponent {
 
   public get email() {
     return this.form.get('email');
+  }
+
+  private streamFreeHouseFromJson() {
+    this.translate.stream('free-house').pipe(takeUntil(this.destroy$))
+      .subscribe((data: any) => {
+        this.freeHouse = data;
+      })
   }
 }
 

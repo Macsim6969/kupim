@@ -24,7 +24,33 @@
     "class": "real-estate_text",
     "alt": "Can I Sell My Naples Home Before Foreclosure?",
     "isChangedCountry": true,
-    "state_index": "Naples"
+    "state_index": "Naples",
+    "arrayStates": [
+      {
+        "name": "State of Florida",
+        "value": "Florida",
+        "disabled": false,
+        "link": "/fl/house"
+      },{
+        "name": "Naples, FL",
+        "value": "Naples",
+        "disabled": false,
+        "link": "/fl/sell-my-house-in-Naples"
+      },
+      {
+        "name": "Cape Coral, FL",
+        "value": "Cape Coral",
+        "disabled": true,
+        "link": "/fl/house"
+      },
+      {
+        "name": "Boca Raton, FL",
+        "value": "Boca Raton",
+        "disabled": true,
+        "link": "/fl/house"
+      }
+
+    ]
   },
   "prodInfo": {
     "title": "Property Types We Purchase in Naples and the Surrounding Areas",
@@ -245,5 +271,9 @@
       "title": "",
       "text": ""
     }
+  },
+  "free-house": {
+    "title": "Free House Valuations in Naples",
+    "text": "We purchase homes throughout Naples and surrounding areas. Below is a list of cities and ZIP codes we are actively buying in: <br/><br/> Areas of Interest: <br/><br/>Marco Island, Golden Gate, Golden Gate Estates, Lely Resort, Naples Manor, Vineyards, Island Walk, Ave Maria, Verona Walk, Fiddler’s Creek, Winding Cypress, Pelican Bay, Naples Park, Ochopee, Copeland  <br/><br/> ZIP Codes We Serve:  <br/><br/> 34101, 34102, 34103, 34104, 34105, 34106, 34107, 34108, 34109, 34110, 34112, 34113, 34114, 34115, 34116, 34117, 34118, 34119, 34120, 34137, 34140, 34141, 34142, 34145 <br/><br/> We also consider properties throughout the entire state of Florida."
   }
 }

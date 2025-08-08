@@ -41,11 +41,10 @@ export class FooterComponent implements OnInit, OnDestroy {
     });
   }
 
-  public changeCountryPage(data: string): void {
-    if(data === 'Florida'){
-      this.router.navigate(['fl/house']);
-    } else {
-      this.router.navigate(['fl/sell-my-house-in-Naples'])
+  public changeCountryPage(value: string): void {
+    const selected = this.welcomeDataPage.arrayStates.find(s => s.value === value);
+    if (selected) {
+      this.router.navigate([selected.link]);
     }
   }
 

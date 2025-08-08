@@ -20,7 +20,29 @@
     "image": "/assets/img/laptop/laptop.webp",
     "bgImage": "laptop",
     "class": "laptop_text",
-    "altImage": "Cash for used laptop"
+    "altImage": "Cash for used laptop",
+    "isChangedCountry": true,
+    "state_index": "Florida",
+    "arrayStates": [
+      {
+        "name": "State of Florida",
+        "value": "Florida",
+        "disabled": false,
+        "link": "/fl/laptop"
+      },{
+        "name": "Orlando FL ",
+        "value": "Orlando",
+        "disabled": false,
+        "link": "/fl/sell-my-laptop-in-orlando"
+      },
+      {
+        "name": "St. Petersburg Fl",
+        "value": "St. Petersburg",
+        "disabled": false,
+        "link": "/fl/sell-my-laptop-in-st-petersburg"
+      }
+
+    ]
   },
   "prodInfo": {
     "title": "Laptops We Accept in Miami,",
@@ -66,6 +88,7 @@
       "stepText": "Receive immediate payment through your preferred method: cash, digital transfer, or check"
     },
     "location": {
+      "url": "/assets/img/easy-steps/Map_Florida.webp",
       "title": "Where to Sell a Laptop Quickly?",
       "location_city": "Pawnshop in Miami: - <a href=\"https://g.co/kgs/Fe6hJFj\" target=\"_blank\">Open Google Map</a>",
       "description": "<strong>Selling a Laptop and Getting Cash in Miami, Fort Lauderdale, Hialeah, or Hollywood typically takes 1 to 2 hours on average.<br/><br/>For clients located in other cities across Florida, approximate evaluator arrival times are as follows:<br/><br/> 1. North Florida – Approximate evaluator arrival time: 6–8 hours\nJacksonville, Tallahassee, Gainesville, Pensacola, Panama City, Lake City, St. Augustine, and nearby areas. <br/><br/> 2. Central Florida – Approximate evaluator arrival time: 4–6 hours\nOrlando, Tampa, St. Petersburg, Clearwater, Lakeland, Daytona Beach, Ocala, The Villages, and surrounding communities. <br/><br/> 3. South Florida – Approximate evaluator arrival time: 2–4 hours\nWest Palm Beach, Hollywood, Boca Raton, Coral Springs, Pembroke Pines, Miramar, Miami Gardens, Homestead, Aventura, and adjacent regions</strong>"

@@ -13,6 +13,8 @@ export class RoutePageService {
     '/fl/transport': 'transport',
     '/fl/motorcycle': 'motorcycle',
     '/fl/laptop': 'laptop',
+    '/fl/sell-my-laptop-in-orlando': 'laptop-orlando',
+    '/fl/sell-my-laptop-in-st-petersburg': 'laptop-st-petersburg',
     '/contacts': 'contacts',
     '/team': 'team',
     '/fl/bike': 'bike',

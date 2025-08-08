@@ -91,7 +91,7 @@
 <div class="linear {{ easyStepData.style }}">
   @if(currentUrl !== '/fl/sell-my-house-in-Naples'){
     <img
-      src="/assets/img/easy-steps/Map_Florida.webp"
+      [src]="easyStepData.location.url || '/assets/img/easy-steps/Map_Florida.webp'" [alt]="easyStepData.location.alt || null"
     />
   }
 

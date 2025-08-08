@@ -1,12 +1,7 @@
 <div class="free-house">
   <div class="free-house-left">
-    <h2 class="free-house-left-title">Free House Valuations in Naples</h2>
-    <p class="free-house-left-text text">We purchase homes throughout Naples and surrounding areas. Below is a list of cities and ZIP codes we are actively buying in:</p>
-    <p class="free-house-left-text text">Areas of Interest:</p>
-    <p class="free-house-left-text text">Marco Island, Golden Gate, Golden Gate Estates, Lely Resort, Naples Manor, Vineyards, Island Walk, Ave Maria, Verona Walk, Fiddler’s Creek, Winding Cypress, Pelican Bay, Naples Park, Ochopee, Copeland</p>
-    <p class="free-house-left-text text">ZIP Codes We Serve:</p>
-    <p class="free-house-left-text text">34101, 34102, 34103, 34104, 34105, 34106, 34107, 34108, 34109, 34110, 34112, 34113, 34114, 34115, 34116, 34117, 34118, 34119, 34120, 34137, 34140, 34141, 34142, 34145</p>
-    <p class="free-house-left-text text">We also consider properties throughout the entire state of Florida.</p>
+    <h2 class="free-house-left-title" [innerHTML]="freeHouse.title"></h2>
+    <p class="free-house-left-text text" [innerHTML]="freeHouse.text"></p>
   </div>
   <div class="free-house-right">
     <form [formGroup]="form" (ngSubmit)="sendMessage()">

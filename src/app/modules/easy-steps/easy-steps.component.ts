@@ -19,7 +19,7 @@ export class EasyStepsComponent implements OnInit, OnDestroy {
   durationInSeconds = 5;
 
   private destroy$: Subject<void> = new Subject<void>();
-  public easyStepData: EasySteps;
+  public easyStepData: EasySteps | any;
   public currentUrl: string;
   public form: FormGroup = new FormGroup({
     address: new FormControl('', [Validators.required, Validators.minLength(5)]),

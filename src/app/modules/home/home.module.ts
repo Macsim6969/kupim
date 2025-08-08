@@ -23,6 +23,8 @@ const routes: Routes = [
     path: '', component: HomeComponent, children: [
       { path: 'fl/transport', component: HomeComponent },
       { path: 'fl/laptop', component: HomeComponent },
+      { path: 'fl/sell-my-laptop-in-orlando', component: HomeComponent },
+      { path: 'fl/sell-my-laptop-in-st-petersburg', component: HomeComponent },
       { path: 'fl/bike', component: HomeComponent },
       { path: 'fl/airplane', component: HomeComponent },
       { path: 'fl/helicopter', component: HomeComponent },

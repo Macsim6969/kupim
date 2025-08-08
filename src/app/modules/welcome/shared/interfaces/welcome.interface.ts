@@ -17,4 +17,7 @@ export interface Welcome {
   altImage: string;
   isChangedCountry?: boolean;
   state_index?: string;
+  arrayStates?: [
+    {name: string, value: string, disabled: boolean, link: string},
+  ]
 }
