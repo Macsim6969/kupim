@@ -36,7 +36,7 @@ export class InformationService {
         title: 'Sunday - 09:00 AM - 07:00 PM',
       },
     ],
-    telNumber: '+1 727 509 14 49',
+    telNumber: '+1 727 732 9785',
     email: 'Email: namegmail.com',
   };
 
