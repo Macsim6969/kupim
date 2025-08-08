@@ -7,7 +7,7 @@
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell laptop in St. Petersburg",
-    "location": "Discover your laptop’s market value in just minutes with our complimentary online evaluation. Simply provide the model and its condition to receive an accurate, obligation‑free quote. Should you choose to sell, our team will arrive at your location, collect the device, and issue immediate cash payment—eliminating the need for store visits or delayed transfers. Our local team provides instant quotes and same-day pickup service throughout the area.",
+    "location": "Discover your laptop’s market value in minutes with our free online evaluation. Provide the model and condition for an accurate, obligation-free quote. If you sell, we’ll pick it up and pay cash on the spot—no store visits or delays. Same-day service available across the area.",
     "index": true,
     "footerDescription": "",
     "metaTitle": "Sell Your Laptop for Cash in St. Petersburg, FL",
@@ -19,7 +19,7 @@
     "ogUrl": "https://buddy-cash.com/fl/sell-my-laptop-in-st-petersburg",
     "ogImage": "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
     "image": "/assets/img/laptop/Sell Laptop St Petersburg.webp",
-    "bgImage": "laptop",
+    "bgImage": "laptop_petersburg",
     "class": "laptop_text",
     "altImage": "Sell my laptop in St. Petersburg",
     "isChangedCountry": true,
