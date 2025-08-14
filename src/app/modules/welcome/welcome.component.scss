@@ -107,8 +107,8 @@
             }
 
             @media (max-width: 720px) {
-              width: 68px;
-              height: 68px;
+              width: 55px;
+              height: 55px;
               display: flex;
               align-items: center;
               justify-content: center;
@@ -131,11 +131,6 @@
               @media (max-width: 920px) {
                 transform: none;
               }
-            }
-
-            @media (max-width: 720px) {
-              width: 68px;
-              height: 68px;
             }
 
             @media (max-width: 620px) {
@@ -512,7 +507,7 @@
 
             &.laptop_text {
               @media (max-width: 880px) {
-                font-size: 36px;
+                font-size: 30px;
               }
             }
 

@@ -29,19 +29,31 @@
         "value": "Florida",
         "disabled": false,
         "link": "/fl/laptop"
-      },{
-        "name": "Orlando FL ",
+      },
+      {
+        "name": "Orlando FL",
         "value": "Orlando",
         "disabled": false,
         "link": "/fl/sell-my-laptop-in-orlando"
       },
       {
+        "name": "Jacksonville FL",
+        "value": "Jacksonville",
+        "disabled": false,
+        "link": "/fl/sell-my-laptop-in-jacksonville"
+      },
+      {
         "name": "St. Petersburg Fl",
-        "value": "St. Petersburg",
+        "value": "Petersburg",
         "disabled": false,
         "link": "/fl/sell-my-laptop-in-st-petersburg"
+      },
+      {
+        "name": "Miami FL",
+        "value": "Miami",
+        "disabled": false,
+        "link": "/fl/sell-my-laptop-in-miami"
       }
-
     ]
   },
   "prodInfo": {

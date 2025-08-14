@@ -1,0 +1,253 @@
+{
+  "key": [
+    "easy-step",
+    "prod",
+    "free-dop-block"
+  ],
+  "dashboard": {
+    "state": "State of Florida",
+    "title": "Sell Laptop in Miami",
+    "location": "Get same-day cash for your used laptop. Simply provide your laptop’s model, and we’ll give you a free online valuation — no obligations, no pressure. We’ll handle pickup right from your home and complete the purchase on the spot.",
+    "index": true,
+    "footerDescription": "",
+    "metaTitle": "Sell Your Laptop for Cash in Miami, FL",
+    "description": "Laptop Buyers in Miami. Sell my laptop the same day near me. Get a free online valuation of your laptop right here on our website.",
+    "keywords": "sell my laptop in Miami, cash laptop buyers Miami, sell broken laptop Miami, get cash for used laptop Miami, same day laptop pickup Miami, laptop trade-in near me Miami, who buys laptops in Miami, fast laptop sale Miami, laptop buyback service Miami, sell gaming laptop for cash Miami, Miami laptop recycling and resale, sell old laptop for money Miami, Miami laptop selling service, best place to sell laptop in Miami, laptop resale quote Miami, how to sell laptop near Miami, used laptop buyers Miami, no hassle laptop sale Miami, laptop pickup service Miami, sell laptop as-is Miami, laptop selling process Miami, Apple MacBook buyers in Miami, secure laptop sale Miami, fast cash for laptops Miami, laptop resale without shipping Miami",
+    "ogTitle": "Sell Your Laptop for Cash in Miami, FL",
+    "ogDescription": "Laptop Buyers in Miami. Sell my laptop the same day near me. Get a free online valuation of your laptop right here on our website.",
+    "ogType": "website",
+    "ogUrl": "https://buddy-cash.com/fl/sell-my-laptop-in-miami",
+    "ogImage": "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
+    "image": "/assets/img/laptop/Laptop Miami.webp",
+    "bgImage": "laptop_miami",
+    "class": "laptop_text",
+    "altImage": "Sell my laptop for cash",
+    "isChangedCountry": true,
+    "state_index": "Miami",
+    "arrayStates": [
+      {
+        "name": "State of Florida",
+        "value": "Florida",
+        "disabled": false,
+        "link": "/fl/laptop"
+      },
+      {
+        "name": "Orlando FL",
+        "value": "Orlando",
+        "disabled": false,
+        "link": "/fl/sell-my-laptop-in-orlando"
+      },
+      {
+        "name": "Jacksonville FL",
+        "value": "Jacksonville",
+        "disabled": false,
+        "link": "/fl/sell-my-laptop-in-jacksonville"
+      },
+      {
+        "name": "St. Petersburg Fl",
+        "value": "Petersburg",
+        "disabled": false,
+        "link": "/fl/sell-my-laptop-in-st-petersburg"
+      },
+      {
+        "name": "Miami FL",
+        "value": "Miami",
+        "disabled": false,
+        "link": "/fl/sell-my-laptop-in-miami"
+      }
+    ]
+  },
+  "prodInfo": {
+    "title": "Where can I sell a broken laptop in Miami?",
+    "text": "No matter the condition of your laptop — scratched, non-functional, water-damaged, or even brand-new — we review each case individually and will always make you a cash offer. Below, you’ll find three simple steps to get your laptop valued in just a few minutes.",
+    "content": [
+      {
+        "img": "/assets/img/laptop/After_repair.png",
+        "alt": "Sell after repair laptop"
+      },
+      {
+        "img": "/assets/img/laptop/New.png",
+        "alt": "Sell new laptop"
+      },
+      {
+        "img": "/assets/img/laptop/Old.png",
+        "alt": "Sell old laptop"
+      },
+      {
+        "img": "/assets/img/laptop/Purchased.png",
+        "alt": "Sell purchased laptop"
+      },
+      {
+        "img": "/assets/img/laptop/Under_repair.png",
+        "alt": "Sell under repair laptop"
+      }
+    ]
+  },
+  "easySteps": {
+    "title": "How to Sell Your Laptop Quickly in Miami?",
+    "text": "To save you the hassle of visiting pawn shops or spending time listing your device on marketplaces, we’ve created a simple online valuation process. Once you send us photos of your laptop, we’ll provide you with a cash offer. You can be confident that the price will remain the same when we meet in person.",
+    "style": "laptop",
+    "contentStep1": {
+      "step": "Step 1",
+      "stepText": "Send photos and your laptop model through any convenient messaging app.",
+      "contact": "SEND"
+    },
+    "contentStep2": {
+      "step": "Step 2",
+      "stepText": "Schedule an on‑site or in‑office evaluation at a time that works for you."
+    },
+    "contentStep3": {
+      "step": "Step 3",
+      "stepText": "Receive instant payment — cash, bank transfer, or check."
+    },
+    "location": {
+      "url": "/assets/img/easy-steps/Cash for Laptop Miami.webp",
+      "alt": "Laptop Buyers Near Miami",
+      "title": "Laptop Buyers Near Miami",
+      "location_city": "",
+      "description": "<strong>We provide professional, same-day laptop buying services throughout the Greater Miami area. If you’re located in one of the cities listed below, our technician can meet you at your home or business and complete the transaction on the spot with immediate cash payment. Average arrival time is approximately 2–3 hours from your confirmed appointment. <br/><br/>Service Areas:<br/>Miami, Miami Beach, Hialeah, Hialeah Gardens, Miami Lakes, Doral, Coral Gables, North Miami, North Miami Beach, Aventura, Sunny Isles Beach, Key Biscayne, Miami Shores, Surfside, Hallandale Beach, Hollywood, Dania Beach, Fort Lauderdale| <br/><br/> ZIP Codes Covered:<br/>33125, 33126, 33127, 33130, 33132, 33133, 33134, 33135, 33136, 33137, 33142, 33145, 33147, 33150, 33139, 33140, 33141, 33010, 33012, 33013, 33014, 33016, 33018, 33122, 33172, 33178, 33146, 33161, 33162, 33167, 33168, 33181, 33160, 33180, 33149, 33138, 33154, 33009, 33019, 33020, 33021, 33024, 33004, 33301, 33304, 33305, 33308, 33309, 33311, 33312, 33315, 33316</strong>"
+    }
+  },
+  "aboutInfo": {
+    "title": "Best Place to Sell",
+    "text": "Laptop Near Me",
+    "list": [
+      {
+        "src": "/assets/img/laptop/about/car.svg",
+        "title": "Instant cash offers – Get paid immediately after our team evaluates your laptop.",
+        "alt": "Any condition"
+      },
+      {
+        "src": "/assets/img/laptop/about/sack.svg",
+        "title": "Complete Miami-Dade coverage – We travel to every neighborhood, from Brickell to Homestead.",
+        "alt": "Fast cash"
+      },
+      {
+        "src": "/assets/img/laptop/about/lock.svg",
+        "title": "Total privacy guaranteed – Your personal information and transaction details remain completely confidential.",
+        "alt": "Multiple locations"
+      },
+      {
+        "src": "/assets/img/laptop/about/bank.svg",
+        "title": "Multiple payment options – Choose cash, Zelle, Venmo, or direct deposit on the spot.",
+        "alt": "Damage specialists"
+      },
+      {
+        "src": "/assets/img/laptop/about/time.svg",
+        "title": "Zero travel costs – Free pickup service throughout the area, no hidden charges.",
+        "alt": "Confidential transactions"
+      },
+      {
+        "src": "/assets/img/laptop/about/thumbs-up.svg",
+        "title": "Quick online estimates – Upload photos and receive your preliminary quote within 30 minutes.",
+        "alt": "Warranty support"
+      },
+      {
+        "src": "/assets/img/laptop/about/flag.svg",
+        "title": "Professional data removal – Complete hard drive wiping and account deactivation included with every purchase.",
+        "alt": "Expert evaluation"
+      },
+      {
+        "src": "/assets/img/laptop/about/bills.svg",
+        "title": "All laptop conditions accepted – Working perfectly, broken screen, or completely dead – we buy everything.",
+        "alt": "Free shipping"
+      },
+      {
+        "src": "/assets/img/laptop/about/chain.svg",
+        "title": "Damage specialists – Water damage, cracked cases, missing keys, or hardware failures don't reduce our interest in your device.",
+        "alt": "Legal program"
+      }
+    ]
+  },
+  "information": {
+    "location": "25 NE 5th St, Miami, FL 33132, United States"
+  },
+  "testimonials": {
+    "title": "Client Reviews from Google Maps",
+    "feedback": [
+      {
+        "content": "Was really happy with how everything went selling my laptop in Miami. The tech showed up about 40 minutes late, but they made it right by adding an extra $50 to the offer. That kind of customer service is rare these days.",
+        "name": "Alex P.",
+        "prod": "(Sold Laptop Msi Katana)",
+        "stars": 5
+      },
+      {
+        "content": "Overall a solid experience selling my laptop near me. They came out the same day just a few hours after I reached out. The only downside was they knocked a little off the price because the charger cable was loose, but I guess that’s fair.",
+        "name": "Maria G.",
+        "prod": "(Sold Laptop Lenovo Legion)",
+        "stars": 4
+      },
+      {
+        "content": "Got cash for my used laptop in Miami and couldn’t be happier. The offer here was way better than what people were giving me on Facebook Marketplace. Quick and easy process.",
+        "name": "John D.",
+        "prod": "(Sold Laptop MacBook Pro M3 14-inch)",
+        "stars": 5
+      }
+    ],
+    "content": "Open Google Maps"
+  },
+  "questions": {
+    "title": "Have Questions?",
+    "descr": "We're Happy to Help",
+    "isOpenAll": true,
+    "listAsq": [
+      {
+        "title": "Is my personal information safe?",
+        "content": "Yeah, we completely wipe everything before reselling or scrapping. Your photos, emails, passwords - all gone for good. We use professional data deletion tools, not just the regular delete button. Your privacy is safe with us."
+      },
+      {
+        "title": "How can I get more money for my laptop?",
+        "content": "Keep the original charger and box if you have them - that's an easy $20-50 extra. Clean it up before we come, wipe down the screen and keyboard. If you have the receipt or warranty info, bring that too. Gaming laptops and MacBooks in good shape always get top dollar."
+      },
+      {
+        "title": "How quickly can you get to me?",
+        "content": "Usually same day, sometimes within a couple hours if you're close. We're always driving around Miami anyway, so if you're ready to sell and we're nearby, we can swing by pretty quick. Just depends where you are and what our schedule looks like that day."
+      }
+    ],
+    "isSlider": true,
+    "slidersData": [
+      {
+        "img": "/assets/img/main_page/Electronics.png",
+        "alt": "Sell my Electronics",
+        "link": "/fl/electronics",
+        "isActiveMobile": true
+      },
+      {
+        "img": "/assets/img/electronics/Camera.svg",
+        "alt": "Sell my Car",
+        "link": "/fl/camera",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/electronics/TV.svg",
+        "alt": "Sell my Motorcycle",
+        "link": "/fl/tv",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/electronics/Coffee_maker.svg",
+        "alt": "Sell my Bike",
+        "link": "/fl/coffee-maker",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/See_all.webp",
+        "alt": "See All",
+        "link": "/fl",
+        "isActiveMobile": true
+      }
+    ],
+    "listBottom1": {
+      "title": "",
+      "text": ""
+    },
+    "listBottom2": {
+      "title": "",
+      "text": ""
+    }
+  },
+  "free-house": {
+    "title": "Cash for used laptop Same Day",
+    "text": "Before taking your laptop to a pawn shop or spending weeks trying to sell it on marketplaces like Facebook, OfferUp, or eBay, take five minutes to get our offer — it may save you from regretting a low sale price in the future.<br/><br/> You can be assured that we will provide you with a clear, no-obligation cash offer for your laptop, with no spam, follow-up pressure, or unwanted calls afterward. <br/><br/> All information you share with us is kept strictly confidential and will never be disclosed to third parties."
+  }
+}
