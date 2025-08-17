@@ -54,6 +54,12 @@
         "value": "Miami",
         "disabled": false,
         "link": "/fl/sell-my-laptop-in-miami"
+      },
+      {
+        "name": "St. Sarasota",
+        "value": "Sarasota",
+        "disabled": false,
+        "link": "/fl/sell-my-house-in-Sarasota"
       }
     ]
   },
