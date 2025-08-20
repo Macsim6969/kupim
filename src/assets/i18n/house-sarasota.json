@@ -1,12 +1,14 @@
 {
   "key": [
+    "prod",
     "easy-step",
-    "prod"
+    "house",
+    "free-dop-block"
   ],
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell Your House Before Foreclosure in Sarasota",
-    "location": "Foreclosure is a stressful situation, but not a death sentence. You have options, even if the process has already started. Selling your home can be a solution that helps you avoid long-term financial consequences and maintain control over the situation. The key is to act quickly and seek professional help.",
+    "location": "Foreclosure is stressful, but not a death sentence. You still have options, even if the process has begun. Selling your home can help you avoid long-term financial damage and keep control of your future. The key is to act quickly and get professional help before it’s too late.",
     "index": true,
     "footerDescription": "",
     "metaTitle": "Sell My House Before Foreclosure in Sarasota",
@@ -17,10 +19,10 @@
     "ogType": "website",
     "ogUrl": "https://buddy-cash.com/fl/sell-my-house-in-Sarasota",
     "ogImage": "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
-    "image": "/assets/img/laptop/laptop.webp",
-    "bgImage": "laptop",
-    "class": "laptop_text",
-    "altImage": "Sell house before foreclosure in Sarasota",
+    "image": "/assets/img/real-estate/House-Naples.webp",
+    "bgImage": "house-naples",
+    "class": "real-estate_text",
+    "alt": "Sell house before foreclosure in Sarasota",
     "isChangedCountry": true,
     "state_index": "Sarasota",
     "arrayStates": [
@@ -28,37 +30,30 @@
         "name": "State of Florida",
         "value": "Florida",
         "disabled": false,
-        "link": "/fl/laptop"
-      },
-      {
-        "name": "Orlando FL",
-        "value": "Orlando",
+        "link": "/fl/house"
+      },{
+        "name": "Naples, FL",
+        "value": "Naples",
         "disabled": false,
-        "link": "/fl/sell-my-laptop-in-orlando"
-      },
-      {
-        "name": "Jacksonville FL",
-        "value": "Jacksonville",
-        "disabled": false,
-        "link": "/fl/sell-my-laptop-in-jacksonville"
-      },
-      {
-        "name": "St. Petersburg Fl",
-        "value": "Petersburg",
-        "disabled": false,
-        "link": "/fl/sell-my-laptop-in-st-petersburg"
-      },
-      {
-        "name": "Miami FL",
-        "value": "Miami",
-        "disabled": false,
-        "link": "/fl/sell-my-laptop-in-miami"
+        "link": "/fl/sell-my-house-in-Naples"
       },
       {
         "name": "St. Sarasota",
         "value": "Sarasota",
         "disabled": false,
         "link": "/fl/sell-my-house-in-Sarasota"
+      },
+      {
+        "name": "St. Cape Coral",
+        "value": "Cape Coral",
+        "disabled": false,
+        "link": "/fl/sell-my-house-in-Cape-Coral"
+      },
+      {
+        "name": "Boca Raton, FL",
+        "value": "Boca Raton",
+        "disabled": true,
+        "link": "/fl/house"
       }
     ]
   },
@@ -67,34 +62,51 @@
     "text": "We work with any type of property, regardless of its condition or your situation. Whether you're relocating, going through a divorce, can't keep up with payments, or inherited unwanted property — get an honest cash offer today. Fast, transparent, and without unnecessary formalities.",
     "content": [
       {
-        "img": "/assets/img/laptop/After_repair.png",
-        "alt": "Sell after repair laptop"
+        "img": "/assets/img/real-estate/Apartment.svg",
+        "route": "/fl/apartment",
+        "isBlock": true
       },
       {
-        "img": "/assets/img/laptop/New.png",
-        "alt": "Sell new laptop"
+        "img": "/assets/img/real-estate/Garage.svg",
+        "route": "/fl/garage",
+        "isBlock": true
       },
       {
-        "img": "/assets/img/laptop/Old.png",
-        "alt": "Sell old laptop"
+        "img": "/assets/img/real-estate/House.svg",
+        "route": "/fl/house",
+        "isBlock": true
       },
       {
-        "img": "/assets/img/laptop/Purchased.png",
-        "alt": "Sell purchased laptop"
+        "img": "/assets/img/real-estate/Land-lots.svg",
+        "route": "/fl/land-lots",
+        "isBlock": true
       },
       {
-        "img": "/assets/img/laptop/Under_repair.png",
-        "alt": "Sell under repair laptop"
+        "img": "/assets/img/real-estate/Restaurant-Cafe.svg",
+        "route": "/fl/restaurant-cafe",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/real-estate/Townhouse.svg",
+        "route": "/fl/townhouse",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/real-estate/Warehouse-Facilities.svg",
+        "route": "/fl/warehouse-facilities",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/main_page/Others.png",
+        "route": "/fl/real-estate-others",
+        "isBlock": true
       }
     ]
-  },
-  "information": {
-    "location": "2268 Gulf Gate Dr, Sarasota, FL 34231"
   },
   "easySteps": {
     "title": "Quick Home Sale Process in Sarasota",
     "text": "We've simplified the property selling process to the maximum. No intermediaries, commissions, or long waits for buyers. Get an honest evaluation and cash in hand in the shortest time possible. Our approach is based on transparency and mutual respect.",
-    "style": "laptop",
+    "style": "house-naples",
     "contentStep1": {
       "step": "Step 1",
       "stepText": "Submit your request any convenient way — by phone, messenger, or through the website form. It only takes a couple of minutes.",
@@ -109,62 +121,64 @@
       "stepText": "We'll arrange a quick inspection with an expert. After confirming the details, you'll receive cash — often as soon as the next day."
     },
     "location": {
-      "url": "/assets/img/easy-steps/Map_Florida.webp",
       "title": "Get Your Property Cash Evaluation — Fast and No Obligations",
       "location_city": "",
       "description": "Selling real estate through agents can drag on for months with unpredictable results. We offer an alternative path — direct cash purchase with guaranteed results. Get an honest offer from professionals in just minutes. No hidden commissions, no surprises. <br/><br/> We work with any type of property — from apartments to commercial buildings. Condition doesn't matter. We free you from the hassle of repairs, paperwork, and finding buyers. <br/><br/> One call — and the process begins. Quick evaluation, transparent terms, cash in hand within days.All information is strictly confidential. We work honestly, without pressure or pushy sales tactics.Facing financial difficulties, divorce, or need to relocate urgently. We'll help not only with the sale but also with organizational matters. <br/><br/> Always ready to consult on real estate matters, even if the deal doesn't go through."
     }
   },
   "aboutInfo": {
-    "title": "Why Choose Us When",
-    "text": "Facing Foreclosure",
+    "title": "Why Choose Us",
+    "text": "When Facing Foreclosure",
     "list": [
       {
         "src": "/assets/img/laptop/about/car.svg",
         "title": "We work with properties at any stage of the foreclosure process — from initial notices to final stages. If time is critical, we'll help you act as quickly as possible while preserving your dignity.",
-        "alt": "Any condition"
+        "alt": ""
       },
       {
         "src": "/assets/img/laptop/about/sack.svg",
         "title": "Direct deals without intermediaries. We eliminate agents, commissions, and lengthy listing procedures. No showings to potential buyers, expensive repairs, or endless waiting.",
-        "alt": "Fast cash"
+        "alt": ""
       },
       {
         "src": "/assets/img/laptop/about/lock.svg",
         "title": "Flexible closing timelines — from one day to your preferred timeframe. Our own funds allow us to avoid banking procedures and associated risks.",
-        "alt": "Multiple locations"
+        "alt": ""
       },
       {
         "src": "/assets/img/laptop/about/bank.svg",
         "title": "We solve complex situations — tax debts, divorce proceedings, document issues, or disputed inheritance. We offer solutions where others refuse to help.",
-        "alt": "Damage specialists"
+        "alt": ""
       },
       {
         "src": "/assets/img/laptop/about/time.svg",
         "title": "Additional support includes covering probate costs, organizing relocation, and other related services for your convenience.",
-        "alt": "Confidential transactions"
+        "alt": ""
       },
       {
         "src": "/assets/img/laptop/about/thumbs-up.svg",
         "title": "Legal support at every stage guarantees the safety and legality of each transaction. Complete transparency without unpleasant surprises.",
-        "alt": "Warranty support"
+        "alt": ""
       },
       {
         "src": "/assets/img/laptop/about/flag.svg",
         "title": "Honest evaluation without attempts to lowball. Get a fair offer with detailed explanation of all terms.",
-        "alt": "Expert evaluation"
+        "alt": ""
       },
       {
         "src": "/assets/img/laptop/about/bills.svg",
         "title": "Option to stay in your home after closing for an agreed period at no additional cost, giving you time to organize your move peacefully.",
-        "alt": "Free shipping"
+        "alt": ""
       },
       {
         "src": "/assets/img/laptop/about/chain.svg",
         "title": "Consultation support even if you decline our services. We'll help you find the optimal solution in your best interests.",
-        "alt": "Legal program"
+        "alt": ""
       }
     ]
+  },
+  "information": {
+    "location": "2268 Gulf Gate Dr, Sarasota, FL 34231"
   },
   "testimonials": {
     "title": "Client Reviews from Google Maps",
@@ -172,23 +186,20 @@
       {
         "content": "I faced financial difficulties and needed to sell my house urgently. The company offered a fair price and closed the deal in two weeks. The process went smoothly, without unnecessary questions and paperwork. Very satisfied with the result.",
         "name": "Jessica R.",
-        "prod": "(Sold house in Sarasota, Florida)",
-        "stars": 5,
-        "feedbackMap": "Review from Google Maps"
+        "prod": "Sold house in Sarasota, Florida",
+        "stars": 5
       },
       {
         "content": "I needed to get money for real estate quickly after a divorce. The guys work professionally, gave a fair evaluation and fulfilled all promises. The only downside — I would have liked a bit more responsiveness in communication. Overall, I recommend.",
         "name": "Michael D.",
-        "prod": "(Sold house in Bradenton, Florida)",
-        "stars": 4,
-        "feedbackMap": "Review from Google Maps"
+        "prod": "Sold house in Bradenton, Florida",
+        "stars": 4
       },
       {
         "content": "I inherited a house that needed serious repairs. I didn't want to spend time and money fixing it up. These specialists bought it as-is, processed everything quickly and correctly. Excellent service, thank you for the help.",
         "name": "Sarah W.",
-        "prod": "(Sold house in Venice, Florida)",
-        "stars": 5,
-        "feedbackMap": "Review from Google Maps"
+        "prod": "Sold house in Venice, Florida",
+        "stars": 5
       }
     ],
     "content": "Open Google Maps"
@@ -223,8 +234,8 @@
         "content": "If the mortgage balance exceeds the market value, a short sale may be the right solution. We negotiate with lenders to approve the terms and handle all paperwork. This allows you to avoid remaining debt obligations after the sale."
       },
       {
-        "title": "Get a Free Home Valuation in Sarasota",
-        "content": "Thinking about selling your property in Sarasota? We actively buy houses across Sarasota County and nearby communities. Below you’ll find the main neighborhoods and ZIP codes we cover. <br/><br/> Popular Areas We Buy In: <br/> Sarasota, Siesta Key, Longboat Key, Lido Key, St. Armands, Gulf Gate Estates, Bee Ridge, Lakewood Ranch, Palmer Ranch, Southgate, Fruitville, Osprey, Nokomis, Venice, North Port, Englewood. <br/><br/> ZIP Codes Covered:<br/> 34231, 34232, 34233, 34234, 34235, 34236, 34237, 34238, 34239, 34240, 34241, 34242, 34243, 34285, 34292, 34293, 34275, 34229, 34223, 34287, 34288, 34289, 34224. <br/><br/> We also consider properties throughout all of Florida, regardless of condition or situation."
+        "title": "Will I still owe money after selling my home?",
+        "content": "If the loan is fully paid off from the sale proceeds, you are released from all obligations. In the case of a short sale, we work with the bank to forgive the remaining balance. Our goal is a complete financial resolution without leftover debt."
       }
     ],
     "isSlider": true,
@@ -268,5 +279,9 @@
       "title": "",
       "text": ""
     }
+  },
+  "free-house": {
+    "title": "Get a Free Home Valuation in Sarasota",
+    "text": "Thinking about selling your property in Sarasota? We actively buy houses across Sarasota County and nearby communities. Below you’ll find the main neighborhoods and ZIP codes we cover. <br/><br/> <b>Popular Areas We Buy In:</b> <br/> Sarasota, Siesta Key, Longboat Key, Lido Key, St. Armands, Gulf Gate Estates, Bee Ridge, Lakewood Ranch, Palmer Ranch, Southgate, Fruitville, Osprey, Nokomis, Venice, North Port, Englewood. <br/><br/> <b>ZIP Codes Covered:</b> <br/> 34231, 34232, 34233, 34234, 34235, 34236, 34237, 34238, 34239, 34240, 34241, 34242, 34243, 34285, 34292, 34293, 34275, 34229, 34223, 34287, 34288, 34289, 34224. <br/><br/>We also consider properties throughout all of Florida, regardless of condition or situation."
   }
 }

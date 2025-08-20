@@ -36,10 +36,16 @@
         "link": "/fl/sell-my-house-in-Naples"
       },
       {
-        "name": "Cape Coral, FL",
+        "name": "St. Sarasota",
+        "value": "Sarasota",
+        "disabled": false,
+        "link": "/fl/sell-my-house-in-Sarasota"
+      },
+      {
+        "name": "St. Cape Coral",
         "value": "Cape Coral",
-        "disabled": true,
-        "link": "/fl/house"
+        "disabled": false,
+        "link": "/fl/sell-my-house-in-Cape-Coral"
       },
       {
         "name": "Boca Raton, FL",
@@ -47,7 +53,6 @@
         "disabled": true,
         "link": "/fl/house"
       }
-
     ]
   },
   "easySteps": {

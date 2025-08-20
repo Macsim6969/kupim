@@ -1,0 +1,287 @@
+{
+  "key": [
+    "prod",
+    "easy-step",
+    "house",
+    "free-dop-block"
+  ],
+  "dashboard": {
+    "state": "State of Florida",
+    "title": "Sell Your House Before Foreclosure in Cape Coral",
+    "location": "Foreclosure doesn't have to ruin your financial future. We specialize in fast sales that protect your credit and put cash in your pocket. Our team works directly with lenders to stop the foreclosure process and can close in as little as 10 days. Don't let foreclosure destroy your credit score and future opportunities. Call today for your free consultation and cash offer.",
+    "index": true,
+    "footerDescription": "",
+    "metaTitle": "Sell My House Before Foreclosure in Сape Coral",
+    "description": "Stop foreclosure in Cape Coral. Cash home buyers in Cape Coral. Get a free online property evaluation for houses, apartments, townhomes, and land.",
+    "keywords": "sell my house before foreclosure Cape Coral FL, cash home buyers Cape Coral Florida, avoid foreclosure in Cape Coral FL, sell house fast Cape Coral FL, get cash for house Cape Coral Florida, foreclosure help Cape Coral FL, we buy houses Cape Coral FL, how to stop foreclosure in Florida, sell home for cash before foreclosure, Cape Coral foreclosure solutions, how to sell my house quickly before foreclosure in Cape Coral, best way to avoid foreclosure in Florida, cash offer for home in Cape Coral FL, can I sell my house during foreclosure in Florida, real estate investor buys houses in Cape Coral, no agent home sale Cape Coral, fast home closing Florida, sell distressed property Cape Coral, protect my credit foreclosure, foreclosure process Florida seller, sell your house as-is Cape Coral",
+    "ogTitle": "Sell My House Before Foreclosure in Сape Coral",
+    "ogDescription": "Stop foreclosure in Cape Coral. Cash home buyers in Cape Coral. Get a free online property evaluation for houses, apartments, townhomes, and land.",
+    "ogType": "website",
+    "ogUrl": "https://buddy-cash.com/fl/sell-my-house-in-Cape-Coral",
+    "ogImage": "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
+    "image": "/assets/img/real-estate/House-Naples.webp",
+    "bgImage": "house-naples",
+    "class": "real-estate_text",
+    "alt": "Sell house before foreclosure in Cape Coral",
+    "isChangedCountry": true,
+    "state_index": "Cape Coral",
+    "arrayStates": [
+      {
+        "name": "State of Florida",
+        "value": "Florida",
+        "disabled": false,
+        "link": "/fl/house"
+      },{
+        "name": "Naples, FL",
+        "value": "Naples",
+        "disabled": false,
+        "link": "/fl/sell-my-house-in-Naples"
+      },
+      {
+        "name": "St. Sarasota",
+        "value": "Sarasota",
+        "disabled": false,
+        "link": "/fl/sell-my-house-in-Sarasota"
+      },
+      {
+        "name": "St. Cape Coral",
+        "value": "Cape Coral",
+        "disabled": false,
+        "link": "/fl/sell-my-house-in-Cape-Coral"
+      },
+      {
+        "name": "Boca Raton, FL",
+        "value": "Boca Raton",
+        "disabled": true,
+        "link": "/fl/house"
+      }
+    ]
+  },
+  "prodInfo": {
+    "title": "Cape Coral Real Estate",
+    "text": "We buy all types of properties throughout Cape Coral in any condition. Houses, condos, townhomes, and vacant land — we make fair cash offers for them all. Our process is simple: get your cash offer within 24 hours, choose your closing date, and walk away with money in hand. No repairs, no realtor commissions, no lengthy waiting periods. <br/> Ready to sell? Get your free cash offer today — fast, fair, and completely hassle-free.",
+    "content": [
+      {
+        "img": "/assets/img/real-estate/Apartment.svg",
+        "route": "/fl/apartment",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/real-estate/Garage.svg",
+        "route": "/fl/garage",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/real-estate/House.svg",
+        "route": "/fl/house",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/real-estate/Land-lots.svg",
+        "route": "/fl/land-lots",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/real-estate/Restaurant-Cafe.svg",
+        "route": "/fl/restaurant-cafe",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/real-estate/Townhouse.svg",
+        "route": "/fl/townhouse",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/real-estate/Warehouse-Facilities.svg",
+        "route": "/fl/warehouse-facilities",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/main_page/Others.png",
+        "route": "/fl/real-estate-others",
+        "isBlock": true
+      }
+    ]
+  },
+  "easySteps": {
+    "title": "Stop Foreclosure in Cape Coral ",
+    "text": "We've simplified property selling to the maximum. No intermediaries, commissions, or waiting for buyers. Get honest evaluation and cash in hand fast, based on transparency and mutual respect.",
+    "style": "house-naples",
+    "contentStep1": {
+      "step": "Step 1",
+      "stepText": "Submit your request by phone, messenger, or website form. Takes just 2 minutes.",
+      "contact": "SEND"
+    },
+    "contentStep2": {
+      "step": "Step 2",
+      "stepText": "Get your property's real value within 30 minutes from our specialist."
+    },
+    "contentStep3": {
+      "step": "Step 3",
+      "stepText": "Quick expert inspection, confirm details, receive cash — often next day."
+    },
+    "location": {
+      "title": "Free Property Evaluation",
+      "location_city": "",
+      "description": "Skip months of uncertainty with traditional real estate sales. We buy any property directly with guaranteed closing in days, not months. <br/><br/> Our process is simple: one call gets you an honest offer within minutes. Close within days with no hidden fees, no commissions, no surprises. All information remains strictly confidential, and we work professionally without pressure. <br/><br/> We handle all paperwork and provide free real estate consultation even if you don't sell to us."
+    }
+  },
+  "aboutInfo": {
+    "title": "Why Choose Us",
+    "text": "When Facing Foreclosure",
+    "list": [
+      {
+        "src": "/assets/img/laptop/about/car.svg",
+        "title": "Any Foreclosure Stage We work at any stage — from initial notices to final steps. Quick action while preserving your dignity.",
+        "alt": ""
+      },
+      {
+        "src": "/assets/img/laptop/about/sack.svg",
+        "title": "No Intermediaries Direct deals without agents, commissions, or lengthy procedures. No showings, repairs, or waiting.",
+        "alt": ""
+      },
+      {
+        "src": "/assets/img/laptop/about/lock.svg",
+        "title": "Legal Protection Legal support guarantees safe, transparent transactions at every stage.",
+        "alt": ""
+      },
+      {
+        "src": "/assets/img/laptop/about/bank.svg",
+        "title": "Complex Situations We solve tax debts, divorce issues, document problems, disputed inheritance.",
+        "alt": ""
+      },
+      {
+        "src": "/assets/img/laptop/about/time.svg",
+        "title": "Additional Support Cover probate costs, organize relocation, provide related services.",
+        "alt": ""
+      },
+      {
+        "src": "/assets/img/laptop/about/thumbs-up.svg",
+        "title": "Flexible Timeline Close in one day or your preferred timeframe using our own funds.",
+        "alt": ""
+      },
+      {
+        "src": "/assets/img/laptop/about/flag.svg",
+        "title": "Fair Evaluation Honest offers without lowballing. Fair prices with clear terms explained.",
+        "alt": ""
+      },
+      {
+        "src": "/assets/img/laptop/about/bills.svg",
+        "title": "Stay After Closing Remain in your home after sale for agreed period at no cost.",
+        "alt": ""
+      },
+      {
+        "src": "/assets/img/laptop/about/chain.svg",
+        "title": "Free Consultation We help find solutions even if you don't sell to us",
+        "alt": ""
+      }
+    ]
+  },
+  "information": {
+    "location": "1631 Del Prado Blvd S Unit 400, Cape Coral, FL 33990"
+  },
+  "testimonials": {
+    "title": "Client Reviews from Google Maps",
+    "feedback": [
+      {
+        "content": "I was behind on mortgage payments and facing foreclosure on my Cape Coral home. These guys stepped in fast, gave me a fair cash offer within 24 hours, and closed in just 10 days. They handled everything professionally and saved my credit score. Can't thank them enough!",
+        "name": "Maria L.",
+        "prod": "Sold house in Cape Coral, Florida",
+        "stars": 5
+      },
+      {
+        "content": "After my husband passed away, I couldn't afford the upkeep on our Fort Myers property. The team was compassionate and gave me a great price, though I wish they had responded a bit faster to my calls. Overall, very satisfied with the outcome and would recommend them.",
+        "name": "Robert K.",
+        "prod": "Sold house in Fort Myers, Florida",
+        "stars": 4
+      },
+      {
+        "content": "I needed to relocate for work and couldn't wait months for a traditional sale. These professionals bought my Lehigh Acres home in one week, paid all closing costs, and even let me stay an extra few days rent-free to finish packing. Outstanding service from start to finish!",
+        "name": "Jennifer T.",
+        "prod": "Sold house in Lehigh Acres, Florida",
+        "stars": 5
+      }
+    ],
+    "content": "Open Google Maps"
+  },
+  "questions": {
+    "title": "Have Questions?",
+    "descr": "We're Happy to Help",
+    "isOpenAll": true,
+    "listAsq": [
+      {
+        "title": "How quickly can I get my cash offer in Cape Coral?",
+        "content": "We provide cash offers within 24-48 hours of your initial contact. Our team conducts a preliminary assessment over the phone or online, then schedules a brief property visit if needed. Most homeowners receive their offer the same day we visit the property."
+      },
+      {
+        "title": "Do you charge any fees or commissions for buying my house?",
+        "content": "No, we don't charge any fees, commissions, or hidden costs. Unlike traditional real estate sales with 6% agent commissions, closing costs, and repair expenses, we handle everything at no cost to you. The cash offer you receive is exactly what you'll get."
+      },
+      {
+        "title": "What happens if my house has serious problems or code violations?",
+        "content": "We buy houses in any condition - structural damage, mold, electrical issues, plumbing problems, or code violations don't affect our ability to purchase. We factor the property's condition into our fair offer, so you don't need to worry about repairs or bringing anything up to code."
+      },
+      {
+        "title": "Can you help if I'm already in foreclosure proceedings?",
+        "content": "Yes, we specialize in stopping foreclosure at any stage. Even if you've received final notices or auction dates are set, we can often halt the process by purchasing your home quickly. Time is critical, so contact us immediately for the best outcome."
+      },
+      {
+        "title": "What documents do I need to sell my house to you?",
+        "content": "We handle most paperwork, but you'll need basic ownership documents like your deed, mortgage information, and valid ID. If you're missing documents or have title issues, our team can help resolve these problems as part of the purchase process."
+      },
+      {
+        "title": "Will selling to you affect my credit score?",
+        "content": "Selling your house to us can actually help protect your credit score by avoiding foreclosure, which severely damages credit for years. A direct sale appears as a normal property transaction and won't negatively impact your credit rating."
+      },
+      {
+        "title": "Can family members or co-owners be involved in the sale?",
+        "content": "Yes, we work with multiple owners, family members, and inherited properties. All owners must agree to the sale, and we'll coordinate with everyone involved to ensure smooth processing and proper documentation for all parties."
+      }
+    ],
+    "isSlider": true,
+    "slidersData": [
+      {
+        "img": "/assets/img/main_page/Electronics.png",
+        "alt": "Sell my Electronics",
+        "link": "/fl/electronics",
+        "isActiveMobile": true
+      },
+      {
+        "img": "/assets/img/electronics/Camera.svg",
+        "alt": "Sell my Car",
+        "link": "/fl/camera",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/electronics/TV.svg",
+        "alt": "Sell my Motorcycle",
+        "link": "/fl/tv",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/electronics/Coffee_maker.svg",
+        "alt": "Sell my Bike",
+        "link": "/fl/coffee-maker",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/See_all.webp",
+        "alt": "See All",
+        "link": "/fl",
+        "isActiveMobile": true
+      }
+    ],
+    "listBottom1": {
+      "title": "",
+      "text": ""
+    },
+    "listBottom2": {
+      "title": "",
+      "text": ""
+    }
+  },
+  "free-house": {
+    "title": "Avoid Foreclosure Cape Coral - Sell House Quick",
+    "text": "Thinking about selling your property in Cape Coral? We actively buy houses across Lee County and nearby communities. Below you’ll find the main neighborhoods, nearby towns, and ZIP codes we cover. <br/><br/> <b>Popular Areas We Buy In:</b> Cape Coral, Fort Myers, North Fort Myers, Pine Island, Matlacha, Fort Myers Beach, Sanibel, Lehigh Acres, Estero, Bonita Springs, Bokeelia, St. James City, Alva. <br/><br/> <b>Neighborhoods in Cape Coral:</b> Pelican, Trafalgar, Cape Harbour, Yacht Club, Burnt Store, Hancock, Jacaranda, Pine Island Road Corridor, Surfside, Santa Barbara, Gator Circle. <br/><br/> <b>ZIP Codes Covered:</b> 33904, 33909, 33914, 33990, 33991, 33993, 33903, 33908, 33936, 33917, 33919, 33966, 33971, 33972."
+  }
+}

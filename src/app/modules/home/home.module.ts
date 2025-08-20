@@ -28,6 +28,7 @@ const routes: Routes = [
       { path: 'fl/sell-my-laptop-in-miami', component: HomeComponent },
       { path: 'fl/sell-my-laptop-in-jacksonville', component: HomeComponent },
       { path: 'fl/sell-my-house-in-Sarasota', component: HomeComponent },
+      { path: 'fl/sell-my-house-in-Cape-Coral', component: HomeComponent },
       { path: 'fl/bike', component: HomeComponent },
       { path: 'fl/airplane', component: HomeComponent },
       { path: 'fl/helicopter', component: HomeComponent },

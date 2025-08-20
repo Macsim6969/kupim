@@ -8,7 +8,7 @@
   "dashboard": {
     "state": "State of Florida",
     "title": "Sell My House Before Foreclosure in Naples",
-    "location": "Facing foreclosure can feel like the ground is crumbling beneath you. The fear of losing your home, damaging your credit, and starting over is overwhelming — but here’s the truth: you still have time to act. Even if the foreclosure process has already begun,\nyou can still sell your house and walk away with dignity\n— and possibly even cash in hand. The key is not to wait.",
+    "location": "Facing foreclosure can feel like the ground is collapsing beneath you. The fear of losing your home, hurting your credit, and starting over is overwhelming — but you still have time to act. Even if the process has started, you can sell your house, protect your credit, and walk away with dignity.",
     "index": true,
     "footerDescription": "",
     "metaTitle": "Sell My House Before Foreclosure in Naples for Cash",
@@ -38,10 +38,16 @@
         "link": "/fl/sell-my-house-in-Naples"
       },
       {
-        "name": "Cape Coral, FL",
+        "name": "St. Sarasota",
+        "value": "Sarasota",
+        "disabled": false,
+        "link": "/fl/sell-my-house-in-Sarasota"
+      },
+      {
+        "name": "St. Cape Coral",
         "value": "Cape Coral",
-        "disabled": true,
-        "link": "/fl/house"
+        "disabled": false,
+        "link": "/fl/sell-my-house-in-Cape-Coral"
       },
       {
         "name": "Boca Raton, FL",
