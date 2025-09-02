@@ -19,6 +19,8 @@ export class RoutePageService {
     '/fl/sell-my-laptop-in-jacksonville': 'laptop-jacksonville',
     '/fl/sell-my-house-in-Sarasota': 'house-sarasota',
     '/fl/sell-my-house-in-Cape-Coral': 'house-Cape-Coral',
+    '/fl/sell-my-house-in-clearwater': 'house-clearwater',
+    '/fl/sell-my-house-in-bradenton': 'house-bradenton',
     '/contacts': 'contacts',
     '/team': 'team',
     '/fl/bike': 'bike',

@@ -1,0 +1,292 @@
+{
+  "key": [
+    "prod",
+    "easy-step",
+    "house",
+    "free-dop-block"
+  ],
+  "dashboard": {
+    "state": "State of Florida",
+    "title": "Home Buyers Before Foreclosure in Clearwater",
+    "location": "Homeowners in Clearwater often have more foreclosure options than they realize. Acting early gives the most flexibility—we help explore solutions that protect credit and preserve equity before things get complicated.",
+    "index": true,
+    "footerDescription": "",
+    "metaTitle": "Home Buyers Near Me – Sell My House Fast in Clearwater",
+    "description": "We buy houses in the Clearwater area. Sell my house before foreclosure in Clearwater. Cash offer for inherited property in Clearwater, FL.",
+    "keywords": "sell my house before foreclosure Clearwater FL, cash home buyers Clearwater Florida, avoid foreclosure in Clearwater FL, sell house fast Clearwater FL, get cash for house Clearwater Florida, foreclosure help Clearwater FL, we buy houses Clearwater FL, how to stop foreclosure in Florida, sell home for cash before foreclosure Clearwater, Clearwater foreclosure solutions, how to sell my house quickly before foreclosure in Clearwater, best way to avoid foreclosure in Florida, cash offer for home in Clearwater FL, can I sell my house during foreclosure in Florida, real estate investor buys houses in Clearwater, no agent home sale Clearwater, fast home closing Florida, sell distressed property Clearwater, protect my credit foreclosure, foreclosure process Florida seller, sell your house as-is Clearwater",
+    "ogTitle": "Home Buyers Near Me – Sell My House Fast in Clearwater",
+    "ogDescription": "We buy houses in the Clearwater area. Sell my house before foreclosure in Clearwater. Cash offer for inherited property in Clearwater, FL.",
+    "ogType": "website",
+    "ogUrl": "https://buddy-cash.com/fl/sell-my-house-in-clearwater",
+    "ogImage": "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
+    "image": "/assets/img/real-estate/House-Naples.webp",
+    "bgImage": "house-naples",
+    "class": "real-estate_text",
+    "alt": "Home Buyers in Clearwater",
+    "isChangedCountry": true,
+    "state_index": "Clearwater",
+    "arrayStates": [
+      {
+        "name": "State of Florida",
+        "value": "Florida",
+        "disabled": false,
+        "link": "/fl/house"
+      },{
+        "name": "Naples, FL",
+        "value": "Naples",
+        "disabled": false,
+        "link": "/fl/sell-my-house-in-Naples"
+      },
+      {
+        "name": "St. Sarasota",
+        "value": "Sarasota",
+        "disabled": false,
+        "link": "/fl/sell-my-house-in-Sarasota"
+      },
+      {
+        "name": "St. Cape Coral",
+        "value": "Cape Coral",
+        "disabled": false,
+        "link": "/fl/sell-my-house-in-Cape-Coral"
+      },
+      {
+        "name": "Boca Raton, FL",
+        "value": "Boca Raton",
+        "disabled": true,
+        "link": "/fl/house"
+      },
+      {
+        "name": "Bradenton, FL",
+        "value": "Bradenton ",
+        "disabled": false,
+        "link": "/fl/sell-my-house-in-bradenton"
+      },
+      {
+        "name": "Clearwater, FL",
+        "value": "Clearwater",
+        "disabled": false,
+        "link": "/fl/sell-my-house-in-clearwater"
+      }
+
+    ]
+  },
+  "prodInfo": {
+    "title": "Who Buys Houses in Pre-Foreclosure?",
+    "text": "Sometimes property owners in Clearwater need alternatives to conventional selling methods, especially when facing foreclosure.  <br/><br/> The Important Thing to Know: You can still sell your house right up until the auction date. Even if you've received notices or court papers, you still have time to act and protect your credit. <br/><br/> We assess your property quickly, provide a cash offer, and complete the sale within 7-14 days. This speed matters when auction dates approach. No preparations, no extended timelines, no improvement requirements. Clean transaction that can stop the foreclosure process.",
+    "content": [
+      {
+        "img": "/assets/img/real-estate/Apartment.svg",
+        "route": "/fl/apartment",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/real-estate/Garage.svg",
+        "route": "/fl/garage",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/real-estate/House.svg",
+        "route": "/fl/house",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/real-estate/Land-lots.svg",
+        "route": "/fl/land-lots",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/real-estate/Restaurant-Cafe.svg",
+        "route": "/fl/restaurant-cafe",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/real-estate/Townhouse.svg",
+        "route": "/fl/townhouse",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/real-estate/Warehouse-Facilities.svg",
+        "route": "/fl/warehouse-facilities",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/main_page/Others.png",
+        "route": "/fl/real-estate-others",
+        "isBlock": true
+      }
+    ]
+  },
+  "easySteps": {
+    "title": "How Can I Sell My House Fast in Clearwater?",
+    "text": "Real estate sales in Clearwater simplified completely. No agents, commissions, or waiting periods for prospective purchasers. Get honest evaluation and instant cash through transparent, professional service.",
+    "style": "house-naples",
+    "contentStep1": {
+      "step": "Step 1",
+      "stepText": "Reach out by phone, text, or website form. Takes just 2 minutes of your day.",
+      "contact": "SEND"
+    },
+    "contentStep2": {
+      "step": "Step 2",
+      "stepText": "Learn your Clearwater property's true market value within 30 minutes from our expert."
+    },
+    "contentStep3": {
+      "step": "Step 3",
+      "stepText": "Quick professional assessment, confirm details, receive funds — usually next business day."
+    },
+    "location": {
+      "title": "Spend just a few minutes and receive your online home valuation — no spam, no calls, no hassle.",
+      "location_city": "",
+      "description": "Skip the delays and complexities common with traditional property sales in Clearwater. We acquire homes directly, guaranteeing rapid closure within days instead of months. This speed becomes crucial when facing foreclosure deadlines or needing to stop the auction process. <br/><br/> Our method is simple: one brief call provides honest assessment instantly. Complete your sale fast without hidden fees, realtor commissions, or surprise expenses. Even if you've received foreclosure notices, we can often close before your auction date and help protect your credit score. <br/><br/> Full confidentiality maintained throughout the process, upholding professional service without pushy sales tactics. We handle all paperwork and provide free Clearwater real estate consultation whether you choose to sell with us or not."
+    }
+  },
+  "aboutInfo": {
+    "title": "Best Cash Home",
+    "text": "Buyers in Clearwater",
+    "list": [
+      {
+        "src": "/assets/img/laptop/about/car.svg",
+        "title": "Any Foreclosure Stage Solutions. We acquire properties at every phase of foreclosure — from initial notices through auction day. Quick response preserves your financial standing and personal dignity.",
+        "alt": ""
+      },
+      {
+        "src": "/assets/img/laptop/about/sack.svg",
+        "title": "Direct Purchase Process  Eliminate realtor fees, staging requirements, property showings, repair demands, and waiting periods. Simplified approach throughout.",
+        "alt": ""
+      },
+      {
+        "src": "/assets/img/laptop/about/lock.svg",
+        "title": "Immediate Closing Capability. Complete transactions within 24 hours or according to your timeline — no lending institution approvals or financing complications.",
+        "alt": ""
+      },
+      {
+        "src": "/assets/img/laptop/about/bank.svg",
+        "title": "Complicated Situation Management. Resolve tax debt issues, estate matters, divorce proceedings, building code problems, or inheritance disputes — we deliver results when competitors retreat.",
+        "alt": ""
+      },
+      {
+        "src": "/assets/img/laptop/about/time.svg",
+        "title": "Attorney Protection Services. Our legal professionals guarantee complete transaction security and regulatory compliance — zero unexpected terms or concealed conditions.",
+        "alt": ""
+      },
+      {
+        "src": "/assets/img/laptop/about/thumbs-up.svg",
+        "title": "Honest Evaluation Methods. Straightforward, pressure-free cash proposals with truthful assessments — complete transparency throughout entire process.",
+        "alt": ""
+      },
+      {
+        "src": "/assets/img/laptop/about/flag.svg",
+        "title": "Post-Sale Living Options. Require additional time after completion? Remain in your residence cost-free for mutually agreed duration while organizing your transition.",
+        "alt": ""
+      },
+      {
+        "src": "/assets/img/laptop/about/bills.svg",
+        "title": "Full-Service Support. Handle relocation expenses and additional coordination to ensure your sale proceeds smoothly without stress.",
+        "alt": ""
+      },
+      {
+        "src": "/assets/img/laptop/about/chain.svg",
+        "title": "Free Advisory Services. Whether or not we acquire your property, we'll assist you in discovering optimal solutions — without charge and prioritizing your welfare.",
+        "alt": ""
+      }
+    ]
+  },
+  "information": {
+    "location": "1472A Gulf to Bay Blvd, Clearwater, FL 33755"
+  },
+  "testimonials": {
+    "title": "Client Reviews from Google Maps",
+    "feedback": [
+      {
+        "content": "Job relocation required me to sell my Clearwater property fast. This team provided an honest cash offer within hours of contact and completed everything in 6 days. Zero hassles, zero pressure - exactly what I needed during a stressful move!",
+        "name": "Jessica L.",
+        "prod": "Sold house in Clearwater, Florida",
+        "stars": 5
+      },
+      {
+        "content": "Unexpected medical bills forced a quick sale of my St. Pete home. These professionals moved at lightning speed - initial call to cash in hand was just 4 days. They handled every detail and made an overwhelming situation manageable. Outstanding service!",
+        "name": "Robert K.",
+        "prod": "Sold house in St. Petersburg, Florida",
+        "stars": 4
+      },
+      {
+        "content": "Received foreclosure notice on my Largo property due to job loss last year. The company managed everything from a distance and completed all paperwork smoothly. Wish communication was slightly more frequent, but they ultimately aved my credit and resolved the entire mess.",
+        "name": "Linda T.",
+        "prod": "Sold house in Largo, Florida",
+        "stars": 5
+      }
+    ],
+    "content": "Open Google Maps"
+  },
+  "questions": {
+    "title": "Have Questions?",
+    "descr": "We're Happy to Help",
+    "isOpenAll": true,
+    "listAsq": [
+      {
+        "title": "Who purchases homes in Clearwater and neighboring regions?",
+        "content": "We are regional property investors focusing on direct acquisitions across Clearwater, St. Petersburg, Largo, and surrounding areas. Our skilled team has assisted homeowners with real estate challenges for years, delivering rapid cash alternatives when conventional selling methods aren't suitable."
+      },
+      {
+        "title": "Can I sell my house before foreclosure in Clearwater?",
+        "content": "Absolutely! Pre-foreclosure sales often represent the optimal strategy for protecting your credit and financial stability. We focus on pre-foreclosure acquisitions throughout Clearwater and usually complete transactions within 7-14 days, even after you've received official notifications. Earlier contact provides more opportunities to completely avoid foreclosure."
+      },
+      {
+        "title": "What happens if my house goes to auction?",
+        "content": "Once your property reaches auction stage, you lose control over the sale price and timing. The winning bid often falls below market value, and you're still responsible for any remaining mortgage balance after the sale. Your credit will show a foreclosure record for 7 years, making future home purchases much more difficult and expensive."
+      },
+      {
+        "title": "Do I need to prepare my home before selling to you (remove furniture, etc.)?",
+        "content": "No preparation needed whatsoever. We buy homes exactly as they are - furniture, personal belongings, appliances, and all contents can remain. You don't need to clean, stage, repair, or remove anything. We handle all cleanup and removal after closing, making your sale completely hassle-free."
+      },
+      {
+        "title": "What do you require from me to sell my house?",
+        "content": "Very minimal documentation is needed. We only ask for a quick walkthrough of the property, plus basic ownership papers like your deed or title, mortgage information if applicable, and valid identification. If you’re missing any documents or have title complications, our team can help resolve these issues as part of the purchase process."
+      }
+    ],
+    "isSlider": true,
+    "slidersData": [
+      {
+        "img": "/assets/img/main_page/Electronics.png",
+        "alt": "Sell my Electronics",
+        "link": "/fl/electronics",
+        "isActiveMobile": true
+      },
+      {
+        "img": "/assets/img/electronics/Camera.svg",
+        "alt": "Sell my Car",
+        "link": "/fl/camera",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/electronics/TV.svg",
+        "alt": "Sell my Motorcycle",
+        "link": "/fl/tv",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/electronics/Coffee_maker.svg",
+        "alt": "Sell my Bike",
+        "link": "/fl/coffee-maker",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/See_all.webp",
+        "alt": "See All",
+        "link": "/fl",
+        "isActiveMobile": true
+      }
+    ],
+    "listBottom1": {
+      "title": "",
+      "text": ""
+    },
+    "listBottom2": {
+      "title": "",
+      "text": ""
+    }
+  },
+  "free-house": {
+    "title": "Free online home valuation on our website — no obligations",
+    "text": "If you’re thinking about selling your home in Clearwater, we make the process simple. Our team buys houses directly throughout Pinellas County and nearby communities. Explore the neighborhoods, towns, and ZIP codes we actively serve. <br/><br/> Areas We Purchase Homes In: Clearwater, Largo, Dunedin, Safety Harbor, Palm Harbor, Belleair, Belleair Bluffs, Indian Rocks Beach, Clearwater Beach, Oldsmar, Seminole. <br/><br/>Clearwater Neighborhoods We Cover: Countryside, Island Estates, Sand Key, Clearwater Beach, Greenbriar, Morningside/Meadows, Del Oro Groves, Coachman Ridge, Oak Forest, Spring Lake. <br/><br/> ZIP Codes We Work With: 33755, 33756, 33759, 33761, 33763, 33764, 33765, 33767, 33770, 33771, 33772, 33773, 33774, 33776, 33777, 33778, 34683, 34684, 34685."
+  }
+}

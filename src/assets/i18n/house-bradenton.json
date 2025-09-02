@@ -1,0 +1,292 @@
+{
+  "key": [
+    "prod",
+    "easy-step",
+    "house",
+    "free-dop-block"
+  ],
+  "dashboard": {
+    "state": "State of Florida",
+    "title": "Can I Stop Foreclosure in Bradenton?",
+    "location": "Facing foreclosure can feel overwhelming, but it’s not the end. If your home is in pre-foreclosure, you still have time and options. We’ll help you protect your credit and the equity you’ve built by making the right moves now.",
+    "index": true,
+    "footerDescription": "",
+    "metaTitle": "Stop Foreclosure in Bradenton – Sell House Fast Near me",
+    "description": "Sell my house before foreclosure near me. Discover your home’s true value online, free and with no strings attached. Get a same-day cash offer for homes in pre-foreclosure.",
+    "keywords": "sell my house before foreclosure Bradenton FL, cash home buyers Bradenton Florida, avoid foreclosure in Bradenton FL, sell house fast Bradenton FL, get cash for house Bradenton Florida, foreclosure help Bradenton FL, we buy houses Bradenton FL, how to stop foreclosure in Florida, sell home for cash before foreclosure Bradenton, Bradenton foreclosure solutions, how to sell my house quickly before foreclosure in Bradenton, best way to avoid foreclosure in Florida, cash offer for home in Bradenton FL, can I sell my house during foreclosure in Florida, real estate investor buys houses in Bradenton, no agent home sale Bradenton, fast home closing Florida, sell distressed property Bradenton, protect my credit foreclosure, foreclosure process Florida seller, sell your house as-is Bradenton",
+    "ogTitle": "Stop Foreclosure in Bradenton – Sell House Fast Near me",
+    "ogDescription": "Sell my house before foreclosure near me. Discover your home’s true value online, free and with no strings attached. Get a same-day cash offer for homes in pre-foreclosure.",
+    "ogType": "website",
+    "ogUrl": "https://buddy-cash.com/fl/sell-my-house-in-bradenton",
+    "ogImage": "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
+    "image": "/assets/img/real-estate/House-Naples.webp",
+    "bgImage": "house-naples",
+    "class": "real-estate_text",
+    "alt": "Stop foreclosure in Bradenton",
+    "isChangedCountry": true,
+    "state_index": "Bradenton",
+    "arrayStates": [
+      {
+        "name": "State of Florida",
+        "value": "Florida",
+        "disabled": false,
+        "link": "/fl/house"
+      },{
+        "name": "Naples, FL",
+        "value": "Naples",
+        "disabled": false,
+        "link": "/fl/sell-my-house-in-Naples"
+      },
+      {
+        "name": "St. Sarasota",
+        "value": "Sarasota",
+        "disabled": false,
+        "link": "/fl/sell-my-house-in-Sarasota"
+      },
+      {
+        "name": "St. Cape Coral",
+        "value": "Cape Coral",
+        "disabled": false,
+        "link": "/fl/sell-my-house-in-Cape-Coral"
+      },
+      {
+        "name": "Boca Raton, FL",
+        "value": "Boca Raton",
+        "disabled": true,
+        "link": "/fl/house"
+      },
+      {
+        "name": "Bradenton, FL",
+        "value": "Bradenton",
+        "disabled": false,
+        "link": "/fl/sell-my-house-in-bradenton"
+      },
+      {
+        "name": "Clearwater, FL",
+        "value": "Clearwater",
+        "disabled": false,
+        "link": "/fl/sell-my-house-in-clearwater"
+      }
+
+    ]
+  },
+  "prodInfo": {
+    "title": "Sell house before foreclosure near me",
+    "text": "The standard real estate process works great for many people, but not every situation.  We buy houses and land in Bradenton when owners need a different solution. It's not for everyone, but it works well for certain situations. Here's what we do: visit your property, make you a cash offer based on current market value, and if you like it, we close when it's convenient for you. That's it. <br/> No open houses, no months of uncertainty, no repair lists. Just a straightforward business transaction if our offer makes sense for your situation. <br/> Curious? Give us a call to discuss your property and see what we might offer.",
+    "content": [
+      {
+        "img": "/assets/img/real-estate/Apartment.svg",
+        "route": "/fl/apartment",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/real-estate/Garage.svg",
+        "route": "/fl/garage",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/real-estate/House.svg",
+        "route": "/fl/house",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/real-estate/Land-lots.svg",
+        "route": "/fl/land-lots",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/real-estate/Restaurant-Cafe.svg",
+        "route": "/fl/restaurant-cafe",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/real-estate/Townhouse.svg",
+        "route": "/fl/townhouse",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/real-estate/Warehouse-Facilities.svg",
+        "route": "/fl/warehouse-facilities",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/main_page/Others.png",
+        "route": "/fl/real-estate-others",
+        "isBlock": true
+      }
+    ]
+  },
+  "easySteps": {
+    "title": "How Can I Sell My House Fast?",
+    "text": "Bradenton made effortless. Zero middlemen, fees, delays waiting for potential buyers. Receive transparent assessment and immediate cash payment through honest, respectful business practices.",
+    "style": "house-naples",
+    "contentStep1": {
+      "step": "Step 1",
+      "stepText": "Contact us via call, message, or online application. Requires only 2 minutes of your time.",
+      "contact": "SEND"
+    },
+    "contentStep2": {
+      "step": "Step 2",
+      "stepText": "Discover your Bradenton real estate's actual market worth within 30 minutes from our professional."
+    },
+    "contentStep3": {
+      "step": "Step 3",
+      "stepText": "Rapid professional review, verify information, collect payment — typically next business day."
+    },
+    "location": {
+      "title": "Free Home Valuation in Bradenton",
+      "location_city": "",
+      "description": "Avoid lengthy waits and complications typical of conventional home selling in Bradenton. We purchase properties directly, ensuring swift completion in days rather than extended periods. <br/> <br/> Our approach is straightforward: single phone conversation delivers fair valuation immediately. Finalize transaction quickly without concealed costs, agent percentages, or unexpected charges. Complete discretion guaranteed throughout entire procedure, maintaining professional standards without aggressive tactics. <br/><br/> We manage documentation and offer complimentary Bradenton housing market guidance regardless of your final decision."
+    }
+  },
+  "aboutInfo": {
+    "title": "Home Buyers in Bradenton",
+    "text": "Why Choose Us?",
+    "list": [
+      {
+        "src": "/assets/img/laptop/about/car.svg",
+        "title": "Pre-Foreclosure Solutions We purchase properties before, during, and after foreclosure proceedings — including auction stage. Swift action protects your credit and dignity.",
+        "alt": ""
+      },
+      {
+        "src": "/assets/img/laptop/about/sack.svg",
+        "title": "Zero Agent Involvement Direct transactions eliminate commissions, listings, showings, repairs, and delays. Streamlined process from start to finish.",
+        "alt": ""
+      },
+      {
+        "src": "/assets/img/laptop/about/lock.svg",
+        "title": "Rapid Closing Timeline Close in as little as one day or on your schedule — no bank approvals, no financing delays.",
+        "alt": ""
+      },
+      {
+        "src": "/assets/img/laptop/about/bank.svg",
+        "title": "Complex Issue Resolution Handle tax liens, probate, divorce, code violations, or inherited property disputes — we provide solutions when others walk away.",
+        "alt": ""
+      },
+      {
+        "src": "/assets/img/laptop/about/time.svg",
+        "title": "Legal Team Support Our attorneys ensure every transaction is fully protected and compliant — no surprises, no hidden clauses.",
+        "alt": ""
+      },
+      {
+        "src": "/assets/img/laptop/about/thumbs-up.svg",
+        "title": "Transparent Process Clear, no-pressure cash offers with honest evaluations — transparent process from start to finish.",
+        "alt": ""
+      },
+      {
+        "src": "/assets/img/laptop/about/flag.svg",
+        "title": "Flexible Arrangements Need more time after closing? Stay in your home rent-free for agreed period while you prepare for next steps.",
+        "alt": ""
+      },
+      {
+        "src": "/assets/img/laptop/about/bills.svg",
+        "title": "Comprehensive Service Cover moving costs and other logistics to make the sale as smooth and stress-free as possible.",
+        "alt": ""
+      },
+      {
+        "src": "/assets/img/laptop/about/chain.svg",
+        "title": "No-Obligation Consultation Even if we don't purchase your home, we'll help you find the best path forward — at no cost and with your interests first",
+        "alt": ""
+      }
+    ]
+  },
+  "information": {
+    "location": "4405 14th St W, Bradenton, FL 34207"
+  },
+  "testimonials": {
+    "title": "Client Reviews from Google Maps",
+    "feedback": [
+      {
+        "content": "Divorce forced me to sell my Bradenton home quickly. The company offered a fair cash price just one day after my call and closed the deal within a week. Professional approach with no pressure tactics. Highly recommend to anyone who values their time!",
+        "name": "Anna M.",
+        "prod": "Sold house in Bradenton, Florida",
+        "stars": 5
+      },
+      {
+        "content": "Financial difficulties forced me to sell my Palmetto house urgently. The team worked incredibly fast - from first call to receiving payment took only 5 days. They covered all closing expenses and even helped with relocation. True professionals!",
+        "name": "Michael S.",
+        "prod": "Sold house in Palmetto, Florida",
+        "stars": 4
+      },
+      {
+        "content": "Inherited property in Sarasota and was facing foreclosure due to unpaid taxes I wasn't aware of. These guys handled everything remotely and processed all documents efficiently. Only wish there were slightly more timeline options, but overall everything went smoothly and saved me from legal complications.",
+        "name": "David R.",
+        "prod": "Sold house in Sarasota, Florida",
+        "stars": 5
+      }
+    ],
+    "content": "Open Google Maps"
+  },
+  "questions": {
+    "title": "Have Questions?",
+    "descr": "We're Happy to Help",
+    "isOpenAll": true,
+    "listAsq": [
+      {
+        "title": "Who buys houses in Bradenton and surrounding areas?",
+        "content": "We are local real estate investors specializing in direct property purchases throughout Bradenton, Sarasota, Palmetto, and nearby communities. Our experienced team has been helping homeowners solve property challenges for years, providing fast cash solutions when traditional sales aren't practical."
+      },
+      {
+        "title": "Can I sell my house before foreclosure in Bradenton?",
+        "content": "Yes, absolutely! Selling before foreclosure is often the best solution to protect your credit and financial future. We specialize in pre-foreclosure purchases throughout Bradenton and can typically close within 7-14 days, even if you've already received notices. The earlier you contact us in the process, the more options we have to help you avoid foreclosure entirely."
+      },
+      {
+        "title": "Can multiple owners or relatives participate in the transaction?",
+        "content": "Certainly - we accommodate multiple owners, relatives, and estate properties. All owners must approve the transaction, and we'll coordinate with everyone to guarantee seamless processing and correct documentation for all participants."
+      },
+      {
+        "title": "How does selling to you impact my credit rating?",
+        "content": "Selling directly to us typically protects your credit rating by preventing foreclosure, which damages credit for extended periods. Direct sales appear as standard property transfers without negative credit consequences."
+      },
+      {
+        "title": "What if my property has major damage or permit issues?",
+        "content": "We purchase properties regardless of condition - foundation problems, water damage, electrical concerns, plumbing failures, or permit violations won't prevent our purchase. We calculate property condition into our fair proposal, eliminating repair worries for you."
+      }
+    ],
+    "isSlider": true,
+    "slidersData": [
+      {
+        "img": "/assets/img/main_page/Electronics.png",
+        "alt": "Sell my Electronics",
+        "link": "/fl/electronics",
+        "isActiveMobile": true
+      },
+      {
+        "img": "/assets/img/electronics/Camera.svg",
+        "alt": "Sell my Car",
+        "link": "/fl/camera",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/electronics/TV.svg",
+        "alt": "Sell my Motorcycle",
+        "link": "/fl/tv",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/electronics/Coffee_maker.svg",
+        "alt": "Sell my Bike",
+        "link": "/fl/coffee-maker",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/See_all.webp",
+        "alt": "See All",
+        "link": "/fl",
+        "isActiveMobile": true
+      }
+    ],
+    "listBottom1": {
+      "title": "",
+      "text": ""
+    },
+    "listBottom2": {
+      "title": "",
+      "text": ""
+    }
+  },
+  "free-house": {
+    "title": "Get your free instant home estimate online, with zero commitment.",
+    "text": "Looking to sell your home in Bradenton? We buy houses directly in Manatee County and nearby areas. Explore the neighborhoods, towns, and ZIP codes we actively serve. <br/><br/> Areas We Purchase Homes In: Bradenton, Palmetto, Ellenton, Lakewood Ranch, Parrish, Cortez, Holmes Beach, Anna Maria Island, Longboat Key, West Bradenton, East Bradenton. <br/><br/>Bradenton Neighborhoods We Cover: Bayshore Gardens, Palma Sola, West Samoset, Whitfield, Braden River, Heritage Harbour, Mill Creek, River Isles, Greyhawk Landing, Peridia, Downtown Bradenton."
+  }
+}

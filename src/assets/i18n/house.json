@@ -52,7 +52,20 @@
         "value": "Boca Raton",
         "disabled": true,
         "link": "/fl/house"
+      },
+      {
+        "name": "Bradenton, FL",
+        "value": "Bradenton ",
+        "disabled": false,
+        "link": "/fl/sell-my-house-in-bradenton"
+      },
+      {
+        "name": "Clearwater, FL",
+        "value": "Clearwater",
+        "disabled": false,
+        "link": "/fl/sell-my-house-in-clearwater"
       }
+
     ]
   },
   "easySteps": {
