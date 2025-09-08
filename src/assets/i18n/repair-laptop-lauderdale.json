@@ -1,13 +1,12 @@
 {
   "key": [
     "easy-step",
-    "prod",
     "free-dop-block"
   ],
   "dashboard": {
-    "state": "State of Florida",
+    "state": "Fort Lauderdale",
     "title": "Laptop Repair in Fort Lauderdale",
-    "location": "30-Minute Diagnostics – fast initial check to identify the issue. <br/> No Fix, No Charge – you only pay if we solve the problem. <br/> Upfront Flat Rates – clear, fixed pricing with no surprises. <br/> Cost Approved First – we confirm the repair estimate before starting. <br/> Free Laptop Pickup – we can collect your device at no extra cost.",
+    "location": "30-Minute Diagnostics – fast initial check to identify the issue. <br/> -No Fix, No Charge – you only pay if we solve the problem. <br/> -Upfront Flat Rates – clear, fixed pricing with no surprises. <br/> -Cost Approved First – we confirm the repair estimate before starting. <br/> -Free Laptop Pickup – we can collect your device at no extra cost.",
     "index": true,
     "footerDescription": "",
     "metaTitle": "Repair Laptop in Fort Lauderdale Near Me",
@@ -22,32 +21,6 @@
     "bgImage": "laptop_miami",
     "class": "laptop_text",
     "altImage": "sell my old laptop in Jacksonville"
-  },
-  "prodInfo": {
-    "title": "Laptops We Accept in Miami,",
-    "text": "Hollywood, Hialeah, and Fort Lauderdale",
-    "content": [
-      {
-        "img": "/assets/img/laptop/After_repair.png",
-        "alt": "Sell after repair laptop"
-      },
-      {
-        "img": "/assets/img/laptop/New.png",
-        "alt": "Sell new laptop"
-      },
-      {
-        "img": "/assets/img/laptop/Old.png",
-        "alt": "Sell old laptop"
-      },
-      {
-        "img": "/assets/img/laptop/Purchased.png",
-        "alt": "Sell purchased laptop"
-      },
-      {
-        "img": "/assets/img/laptop/Under_repair.png",
-        "alt": "Sell under repair laptop"
-      }
-    ]
   },
   "easySteps": {
     "title": "3 Simple Steps for an Online Laptop Repair Estimate",
@@ -222,6 +195,6 @@
   },
   "free-house": {
     "title": "Schedule your laptop repair consultation today",
-    "text": "Before taking your laptop to a pawn shop or spending weeks trying to sell it on marketplaces like Facebook, OfferUp, or eBay, take five minutes to get our offer — it may save you from regretting a low sale price in the future.<br/><br/> You can be assured that we will provide you with a clear, no-obligation cash offer for your laptop, with no spam, follow-up pressure, or unwanted calls afterward. <br/><br/> All information you share with us is kept strictly confidential and will never be disclosed to third parties."
+    "text": "We’ll walk you through the smartest options — whether it’s repair, upgrade, or replacement. During the consultation, our team explains common issues, estimated costs, and realistic timelines, so you don’t waste time or money. <br/> No jargon, no pressure — just clear advice tailored to your device and budget, helping you make the best decision with confidence."
   }
 }

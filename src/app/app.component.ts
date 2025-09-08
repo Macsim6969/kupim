@@ -33,9 +33,6 @@ export class AppComponent implements OnInit {
     this.setObservableData();
     this.streamRoute();
     this.updatesMateTags();
-
-    alert(window.innerWidth);
-    alert(window.innerHeight);
   }
 
   private updatesMateTags() {
