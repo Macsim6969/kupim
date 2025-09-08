@@ -1,11 +1,11 @@
 import {Component, Inject, OnInit} from '@angular/core';
-import { sidebarService } from './shared/services/sidebar.service';
+import {sidebarService} from './shared/services/sidebar.service';
 import {filter, Observable} from 'rxjs';
-import { Router } from '@angular/router';
-import { TranslateService } from '@ngx-translate/core';
-import { StoreService } from './shared/services/store.service';
-import { RoutePageService } from './shared/services/routePage.service';
-import { Meta, Title } from '@angular/platform-browser';
+import {Router} from '@angular/router';
+import {TranslateService} from '@ngx-translate/core';
+import {StoreService} from './shared/services/store.service';
+import {RoutePageService} from './shared/services/routePage.service';
+import {Meta, Title} from '@angular/platform-browser';
 import {DOCUMENT} from "@angular/common";
 
 @Component({
@@ -26,15 +26,16 @@ export class AppComponent implements OnInit {
     @Inject(DOCUMENT) private document: Document,
     private titleService: Title,
     private metaService: Meta
-  ) { }
+  ) {
+  }
 
   ngOnInit(): void {
     this.setObservableData();
     this.streamRoute();
     this.updatesMateTags();
 
-    console.log(screen.width, screen.height);
-    console.log(window.innerWidth, window.innerHeight);
+    alert(window.innerWidth);
+    alert(window.innerHeight);
   }
 
   private updatesMateTags() {
@@ -59,23 +60,23 @@ export class AppComponent implements OnInit {
         });
 
         const metaTags = [
-          { name: 'description', content: data.description },
-          { property: 'og:title', content: data.ogTitle },
-          { property: 'og:description', content: data.ogDescription },
-          { property: 'og:image', content: data.ogImage },
-          { property: 'og:url', content: data.ogUrl },
-          { property: 'og:type', content: 'website' },
-          { name: 'twitter:card', content: 'summary_large_image' },
-          { name: 'twitter:title', content: data.ogTitle },
-          { name: 'twitter:description', content: data.ogDescription },
-          { name: 'twitter:image', content: data.ogImage },
+          {name: 'description', content: data.description},
+          {property: 'og:title', content: data.ogTitle},
+          {property: 'og:description', content: data.ogDescription},
+          {property: 'og:image', content: data.ogImage},
+          {property: 'og:url', content: data.ogUrl},
+          {property: 'og:type', content: 'website'},
+          {name: 'twitter:card', content: 'summary_large_image'},
+          {name: 'twitter:title', content: data.ogTitle},
+          {name: 'twitter:description', content: data.ogDescription},
+          {name: 'twitter:image', content: data.ogImage},
         ].filter(Boolean);
 
         if (data.index === false) {
-          metaTags.push({ name: 'robots', content: 'noindex' });
+          metaTags.push({name: 'robots', content: 'noindex'});
         }
 
-         metaTags.forEach(tag => {
+        metaTags.forEach(tag => {
           const selector = tag.name
             ? `name="${tag.name}"`
             : `property="${tag.property}"`;
@@ -123,7 +124,6 @@ export class AppComponent implements OnInit {
   private setObservableData() {
     this.isOpenSidebar$ = this.sidebarService._isSidebarOpen$;
   }
-
 
 
   private updateJsonLd(data: any) {
