@@ -20,6 +20,7 @@ export class RoutePageService {
     '/fl/sell-my-house-in-Sarasota': 'house-sarasota',
     '/fl/sell-my-house-in-Cape-Coral': 'house-Cape-Coral',
     '/fl/sell-my-house-in-clearwater': 'house-clearwater',
+    '/fl/repair-laptop-in-fort-lauderdale': 'repair-laptop-lauderdale',
     '/fl/sell-my-house-in-bradenton': 'house-bradenton',
     '/contacts': 'contacts',
     '/team': 'team',

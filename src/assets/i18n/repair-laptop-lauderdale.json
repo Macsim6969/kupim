@@ -1,0 +1,227 @@
+{
+  "key": [
+    "easy-step",
+    "prod",
+    "free-dop-block"
+  ],
+  "dashboard": {
+    "state": "State of Florida",
+    "title": "Laptop Repair in Fort Lauderdale",
+    "location": "30-Minute Diagnostics – fast initial check to identify the issue. <br/> No Fix, No Charge – you only pay if we solve the problem. <br/> Upfront Flat Rates – clear, fixed pricing with no surprises. <br/> Cost Approved First – we confirm the repair estimate before starting. <br/> Free Laptop Pickup – we can collect your device at no extra cost.",
+    "index": true,
+    "footerDescription": "",
+    "metaTitle": "Repair Laptop in Fort Lauderdale Near Me",
+    "description": "Quickly laptop repair in Fort Lauderdale. Laptop screen repair, battery replacement, keyboard repair, cooling service, dust cleaning, thermal paste replacement",
+    "keywords": "laptop repair Fort Lauderdale, computer repair Fort Lauderdale, MacBook repair Fort Lauderdale, laptop screen repair Fort Lauderdale, laptop battery replacement Fort Lauderdale, keyboard repair Fort Lauderdale, virus removal Fort Lauderdale, same day laptop repair Fort Lauderdale",
+    "ogTitle": "Repair Laptop in Fort Lauderdale Near Me",
+    "ogDescription": "Quickly laptop repair in Fort Lauderdale. Laptop screen repair, battery replacement, keyboard repair, cooling service, dust cleaning, thermal paste replacement",
+    "ogType": "website",
+    "ogUrl": "https://buddy-cash.com/fl/repair-laptop-in-fort-lauderdale",
+    "ogImage": "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
+    "image": "/assets/img/laptop/Laptop Jacksonville.webp",
+    "bgImage": "laptop_miami",
+    "class": "laptop_text",
+    "altImage": "sell my old laptop in Jacksonville"
+  },
+  "prodInfo": {
+    "title": "Laptops We Accept in Miami,",
+    "text": "Hollywood, Hialeah, and Fort Lauderdale",
+    "content": [
+      {
+        "img": "/assets/img/laptop/After_repair.png",
+        "alt": "Sell after repair laptop"
+      },
+      {
+        "img": "/assets/img/laptop/New.png",
+        "alt": "Sell new laptop"
+      },
+      {
+        "img": "/assets/img/laptop/Old.png",
+        "alt": "Sell old laptop"
+      },
+      {
+        "img": "/assets/img/laptop/Purchased.png",
+        "alt": "Sell purchased laptop"
+      },
+      {
+        "img": "/assets/img/laptop/Under_repair.png",
+        "alt": "Sell under repair laptop"
+      }
+    ]
+  },
+  "easySteps": {
+    "title": "3 Simple Steps for an Online Laptop Repair Estimate",
+    "text": "Save time by requesting an online repair estimate instead of making an unnecessary trip. In some cases, repairs may not be cost-effective — and selling the laptop for parts or upgrading might make more sense. Either way, you’ll get a fair, pressure-free assessment with no spam or sales tricks.",
+    "style": "laptop",
+    "contentStep1": {
+      "step": "Step 1",
+      "stepText": "Send us your laptop model and a short description of the issue via your preferred messenger to receive a quick online quote.",
+      "contact": "SEND"
+    },
+    "contentStep2": {
+      "step": "Step 2",
+      "stepText": "Book an appointment at our office or schedule a technician to visit your home."
+    },
+    "contentStep3": {
+      "step": "Step 3",
+      "stepText": "Enjoy your fully repaired laptop, backed by our service warranty. Most repairs are completed the same day."
+    },
+    "location": {
+      "url": "/assets/img/easy-steps/Cash for Laptop Jacksonville.webp",
+      "alt": "Where to Sell Laptop in Jacksonville?",
+      "title": "Same-day laptop repair",
+      "location_city": "",
+      "description": "<strong>Our laptop repair process is carried out in four main steps: <ul><li><b>Initial Diagnostics.</b> Comprehensive testing with modern equipment to pinpoint the problem and outline a precise repair plan.</li> <li><b>Expert Consultation.</b> We explain all possible repair solutions, provide a cost estimate, and confirm the expected turnaround time. </li> <li><b>Professional Repair.</b> Repairs are performed with original parts and specialized tools, followed by fine-tuning and thorough system testing.</li> <li><b>Warranty Support.</b> Enjoy peace of mind with a 30-day warranty that covers free corrections and continuous customer support after service.</li></ul></strong>"
+    }
+  },
+  "aboutInfo": {
+    "title": "We Fix Every",
+    "text": "Laptop Issue",
+    "list": [
+      {
+        "src": "/assets/img/laptop/about/car.svg",
+        "title": "Battery Replacement – laptop drains quickly, won’t hold charge, or won’t power on without AC adapter.",
+        "alt": "Any condition"
+      },
+      {
+        "src": "/assets/img/laptop/about/sack.svg",
+        "title": "Cooling System Cleaning – overheating, loud fan noise, or random shutdowns.",
+        "alt": "Fast cash"
+      },
+      {
+        "src": "/assets/img/laptop/about/lock.svg",
+        "title": "Thermal Paste Replacement – prevents overheating, performance drops, and CPU/GPU throttling.",
+        "alt": "Multiple locations"
+      },
+      {
+        "src": "/assets/img/laptop/about/bank.svg",
+        "title": "Keyboard Repair/Replacement – stuck or unresponsive keys, liquid damage.",
+        "alt": "Damage specialists"
+      },
+      {
+        "src": "/assets/img/laptop/about/time.svg",
+        "title": "Screen Replacement – cracked display, dead pixels, flickering, or no image.",
+        "alt": "Confidential transactions"
+      },
+      {
+        "src": "/assets/img/laptop/about/thumbs-up.svg",
+        "title": "SSD/HDD Upgrade or Replacement – install a faster SSD, replace a failing drive, transfer data.",
+        "alt": "Warranty support"
+      },
+      {
+        "src": "/assets/img/laptop/about/flag.svg",
+        "title": "RAM Upgrade/Replacement – boost speed, fix memory errors, improve multitasking.",
+        "alt": "Expert evaluation"
+      },
+      {
+        "src": "/assets/img/laptop/about/bills.svg",
+        "title": "Virus & Malware Removal – slow performance, pop-ups, unwanted ads, security risks.",
+        "alt": "Free shipping"
+      },
+      {
+        "src": "/assets/img/laptop/about/chain.svg",
+        "title": "Windows Reinstallation & Drivers – fix crashes, system errors, or get a fresh start.",
+        "alt": "Legal program"
+      }
+    ]
+  },
+  "information": {
+    "location": "419 SE 2nd St, Fort Lauderdale, FL 33301"
+  },
+  "testimonials": {
+    "title": "Client Reviews from Google Maps",
+    "feedback": [
+      {
+        "content": "I needed urgent help and found this place for laptop repair in Fort Lauderdale. They diagnosed the issue in less than 30 minutes and replaced my battery the same day. Honest pricing and very professional service — highly recommend!",
+        "name": "James K.",
+        "prod": "(Repair Laptop Acer)",
+        "stars": 5
+      },
+      {
+        "content": "Overall a positive experience with laptop repair near me. They fixed my screen quickly, but the pickup team arrived a little later than scheduled. Still, the quality of work was excellent and my laptop looks brand new again.",
+        "name": "Emily S.",
+        "prod": "(Repair Laptop HP)",
+        "stars": 4
+      },
+      {
+        "content": "Brought my device in for a laptop dust cleaning and thermal paste replacement. The difference is night and day — no more overheating or loud fan noise. Very glad I went here, my laptop feels faster and cooler now.",
+        "name": "Daniel P.",
+        "prod": "(Repair Laptop Dell)",
+        "stars": 5
+      }
+    ],
+    "content": "Open Google Maps"
+  },
+  "questions": {
+    "title": "Have Questions?",
+    "descr": "We're Happy to Help",
+    "isOpenAll": true,
+    "listAsq": [
+      {
+        "title": "How much does laptop repair cost in Fort Lauderdale?",
+        "content": "Most common laptop repairs in Fort Lauderdale range from $75 to $250 depending on the issue. Screen replacements and battery changes are usually on the lower end, while motherboard repairs may cost more. We always provide a free upfront estimate before starting."
+      },
+      {
+        "title": "Where can I get same-day laptop repair in Fort Lauderdale?",
+        "content": "Our service center offers same-day laptop repair for most issues, including screen replacement, keyboard repair, and virus removal. In many cases, we also provide free pickup and delivery within Fort Lauderdale."
+      },
+      {
+        "title": "Can you repair a laptop that won’t turn on?",
+        "content": "Yes. A laptop that won’t power on could have issues with the battery, charging port, or internal components. Our technicians perform a full 30-minute diagnostic to quickly identify the cause and recommend the best solution."
+      },
+      {
+        "title": "Do you fix MacBook laptops in Fort Lauderdale?",
+        "content": "Absolutely. We specialize in MacBook repair, including screen replacement, battery swaps, keyboard repairs, and logic board diagnostics. We handle both older and the latest MacBook models."
+      },
+      {
+        "title": "Who does laptop cleaning in Fort Lauderdale?",
+        "content": "We provide professional laptop cleaning in Fort Lauderdale, including dust removal, cooling system service, and thermal paste replacement. This helps prevent overheating, reduces fan noise, and extends your laptop’s lifespan."
+      }
+    ],
+    "isSlider": true,
+    "slidersData": [
+      {
+        "img": "/assets/img/main_page/Electronics.png",
+        "alt": "Sell my Electronics",
+        "link": "/fl/electronics",
+        "isActiveMobile": true
+      },
+      {
+        "img": "/assets/img/electronics/Camera.svg",
+        "alt": "Sell my Car",
+        "link": "/fl/camera",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/electronics/TV.svg",
+        "alt": "Sell my Motorcycle",
+        "link": "/fl/tv",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/electronics/Coffee_maker.svg",
+        "alt": "Sell my Bike",
+        "link": "/fl/coffee-maker",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/See_all.webp",
+        "alt": "See All",
+        "link": "/fl",
+        "isActiveMobile": true
+      }
+    ],
+    "listBottom1": {
+      "title": "",
+      "text": ""
+    },
+    "listBottom2": {
+      "title": "",
+      "text": ""
+    }
+  },
+  "free-house": {
+    "title": "Schedule your laptop repair consultation today",
+    "text": "Before taking your laptop to a pawn shop or spending weeks trying to sell it on marketplaces like Facebook, OfferUp, or eBay, take five minutes to get our offer — it may save you from regretting a low sale price in the future.<br/><br/> You can be assured that we will provide you with a clear, no-obligation cash offer for your laptop, with no spam, follow-up pressure, or unwanted calls afterward. <br/><br/> All information you share with us is kept strictly confidential and will never be disclosed to third parties."
+  }
+}

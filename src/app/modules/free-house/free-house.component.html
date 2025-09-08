@@ -10,7 +10,6 @@
         <input
           type="text"
           formControlName="address"
-          placeholder="Enter Your Address"
           [class.invalid]="address?.invalid && address?.touched"
         />
         <div class="error" *ngIf="address?.errors && address?.touched">
@@ -33,7 +32,7 @@
       </div>
 
       <div class="about_form_block">
-        <label>Property email</label>
+        <label>Email</label>
         <input
           type="email"
           formControlName="email"
