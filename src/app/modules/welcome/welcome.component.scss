@@ -4,18 +4,17 @@
   .header {
     height: -webkit-fill-available;
     // padding: 75px 0 90px 0;
-    padding: 4.955% 0 6% 0;
+    padding: 7.5vmin 0 9vmin 0;
 
     @media (max-width: 620px) {
       padding: 0;
     }
 
     .header___container {
-      max-width: 1720px;
-      width: 100%;
+      width: 90%;
       margin: 0 auto;
-      box-shadow: 0px 0px 80px 1px #221414;
-      height: calc(89vh - 72px);
+      box-shadow: 0 0 80px 1px #221414;
+      height: calc(89vh - 7.2vmin);
       display: flex;
       flex-direction: column;
       position: relative;
@@ -36,7 +35,7 @@
       }
 
       .header_inner {
-        padding: 30px 30px 25px 20px;
+        padding: 3vmin 3vmin 2.5vmin 2vmin;
 
         display: flex;
         flex-direction: row;
@@ -107,8 +106,8 @@
             }
 
             @media (max-width: 720px) {
-              width: 55px;
-              height: 55px;
+              width: 5.5vmin;
+              height: 5.5vmin;
               display: flex;
               align-items: center;
               justify-content: center;
@@ -122,8 +121,8 @@
           }
 
           .icon {
-            width: 55px;
-            height: 55px;
+            width: 5.5vmin;
+            height: 5.5vmin;
 
             &:hover {
               transform: scale(1.07);
@@ -145,7 +144,7 @@
           }
 
           .navigation_network {
-            width: 85px;
+            width: 8.5vmin;
           }
 
 
@@ -160,7 +159,7 @@
             }
 
             .contact_inner {
-              font-size: 24px;
+              font-size: 2.4vmin;
               color: white;
               text-decoration: none;
 
@@ -170,13 +169,13 @@
             }
 
             .contact_inner_city {
-              font-size: 20px;
+              font-size: 2vmin;
               color: white;
               cursor: pointer;
             }
 
             mat-form-field{
-              height: 42px;
+              height: 4.2vmin;
               ::ng-deep{
 
                 .mat-mdc-select-value-text{
@@ -214,7 +213,7 @@
             border-top-left-radius: 20px;
             border-bottom-left-radius: 20px;
             border-right: none;
-            margin: 25px 0 0 0;
+            margin: 2.5vmin 0 0 0;
           }
 
           &:hover {
@@ -227,18 +226,18 @@
 
           .menu_img {
             cursor: pointer;
-            width: 23px;
+            width: 2.3vmin;
             padding-right: 15px;
 
             @media (max-width: 720px) {
 
-              width: 33px;
+              width: 3.3vmin;
               padding: 10px 25px;
             }
           }
 
           .menu_list {
-            font-size: 17px;
+            font-size: 1.7vmin;
             color: white;
             cursor: pointer;
 
@@ -250,7 +249,7 @@
       }
 
       .header_link {
-        padding: 0px 30px 0 30px;
+        padding: 0 3vmin 0 3vmin;
 
         display: flex;
         align-items: center;
@@ -270,8 +269,8 @@
           .nav_main_inner {
             text-decoration: none;
             color: white;
-            font-size: 17px;
-            margin-left: 35px;
+            font-size: 1.7vmin;
+            margin-left: 3.5vmin;
             cursor: pointer;
             padding: 5px 0;
 
@@ -292,7 +291,7 @@
 
         &.bike_text{
           @media (max-width: 620px) {
-            margin: 0 0 30px 0;
+            margin: 0 0 3vmin 0;
           }
         }
 
@@ -301,19 +300,19 @@
         }
 
         @media (max-width: 720px) {
-          padding: 0 0 75px 8%;
+          padding: 0 0 7.5vmin 8%;
         }
 
         @media (max-width: 620px) {
           grid-template-columns: 1fr;
           justify-items: center;
-          padding: 0 0 15px 0;
+          padding: 0 0 1.5vmin 0;
           flex-direction: column-reverse;
         }
 
         .header_home {
           width: auto;
-          height: 440px;
+          height: 44vmin;
           object-fit: contain;
           background: transparent;
 
@@ -322,7 +321,7 @@
           }
 
           &.transport {
-            height: 350px;
+            height: 35vmin;
 
             @media (max-width: 1250px) {
               height: auto;
@@ -330,12 +329,12 @@
           }
 
           &.boat {
-            height: 375px;
+            height: 37.5vmin;
             object-fit: contain;
           }
 
           &.laptop {
-            height: 400px;
+            height: 40vmin;
             object-fit: contain;
 
             @media (max-width: 1250px) {
@@ -343,21 +342,21 @@
             }
 
             @media (max-width: 420px) {
-              margin-top: -30px;
+              margin-top: -3vmin;
             }
           }
 
           &.helicopter {
-            height: 250px;
+            height: 25vmin;
           }
 
           &.wheelchair {
-            height: 440px;
+            height: 44vmin;
             margin: auto;
           }
 
           &.airplane {
-            height: 275px;
+            height: 27.5vmin;
             margin: auto;
 
             @media (max-width: 1250px) {
@@ -369,71 +368,71 @@
           &.coffee,
           &.scooter {
             width: auto;
-            height: 440px;
+            height: 44vmin;
             margin: auto;
             object-fit: contain;
             background: transparent;
 
             @media (max-width: 972px) {
-              width: 245px;
+              width: 24.5vmin;
               height: auto;
             }
           }
 
           &.trailer {
-            height: 300px;
+            height: 30vmin;
           }
 
           &.tv{
             @media (max-width: 420px) {
-              margin-top: -30px;
+              margin-top: -3vmin;
             }
           }
 
           @media (max-width: 1250px) {
-            width: 350px;
+            width: 35vmin;
             height: auto;
           }
 
           @media (max-width: 792px) {
-            width: 275px;
+            width: 27.5vmin;
           }
 
           @media (max-width: 375px) {
-            width: 245px;
+            width: 24.5vmin;
           }
 
           &.camera{
             @media (max-width: 576px) {
-              width: 175px;
+              width: 17.5vmin;
               height: auto;
             }
           }
 
           &.coffee{
             @media (max-width: 576px) {
-              width: 150px;
+              width: 15vmin;
               height: auto;
             }
           }
 
           &.building{
-            width: 600px;
+            width: 60vmin;
 
             @media (max-width: 1420px) {
-              width: 400px;
+              width: 40vmin;
             }
 
             @media (max-width: 972px) {
-              width: 300px;
+              width: 30vmin;
             }
 
             @media (max-width: 792px) {
-              width: 275px;
+              width: 27.5vmin;
             }
 
             @media (max-width: 375px) {
-              width: 245px;
+              width: 24.5vmin;
             }
           }
         }
@@ -444,23 +443,23 @@
           align-items: center;
         }
         .header_google_reviews{
-          height: 80px;
-          padding: 5px 70px;
+          height: 8vmin;
+          padding: 5px 7vmin;
           border-radius: 35px;
           background: rgba(255, 255, 255, 0.1);
 
           @media (max-width: 768px) {
-            height: 40px;
-            margin-top: 15px;
+            height: 4vmin;
+            margin-top: 1.5vmin;
           }
         }
 
         .header_title {
-          margin: -25px 0 0 0;
+          margin: -2.5vmin 0 0 0;
           display: flex;
           flex-direction: column;
           align-items: center;
-          max-width: 750px;
+          max-width: 75vmin;
           position: relative;
 
           @media (max-width: 1250px) {
@@ -480,7 +479,7 @@
           .header_title_inner {
 
             margin: 0 0 15px 0;
-            font-size: 61px;
+            font-size: 6.1vmin;
             font-weight: 700;
             text-align: center;
             display: flex;
@@ -488,33 +487,33 @@
             color: white;
 
             ::ng-deep span {
-              font-size: 61px;
+              font-size: 6.1vmin;
               font-weight: 700;
 
               @media (max-width: 620px) {
-                font-size: 22px;
+                font-size: 2.2vmin;
               }
             }
 
             @media (max-width: 720px) {
-              font-size: 42px;
+              font-size: 4.2vmin;
             }
 
             @media (max-width: 620px) {
-              font-size: 24px;
+              font-size: 2.4vmin;
               color: white !important;
             }
 
             &.laptop_text {
               @media (max-width: 880px) {
-                font-size: 30px;
+                font-size: 3vmin;
               }
             }
 
             &.scooter_text,
             &.motorcycle_text{
               @media (max-width: 1124px) {
-                font-size: 30px;
+                font-size: 3vmin;
               }
             }
           }
@@ -524,13 +523,13 @@
             display: flex;
 
             justify-content: center;
-            font-size: 61px;
-            margin-left: 0px;
+            font-size: 6.1vmin;
+            margin-left: 0;
             font-weight: bolder;
             color: white;
 
             @media (max-width: 720px) {
-              font-size: 42px;
+              font-size: 4.2vmin;
             }
           }
 
@@ -538,63 +537,63 @@
             display: flex;
 
             justify-content: flex-end;
-            margin: 0 0 10px 0px;
-            font-size: 61px;
+            margin: 0 0 10px 0;
+            font-size: 6.1vmin;
             font-weight: 400;
             color: white;
             text-align: center;
 
             @media (max-width: 720px) {
-              font-size: 22px;
+              font-size: 2.2vmin;
             }
 
             &.camera_text{
-              font-size: 28px;
+              font-size: 2.8vmin;
               display: flex;
               flex-direction: column;
               max-width: 80%;
               @media (max-width: 1020px) {
-                font-size: 20px;
+                font-size: 2vmin;
               }
 
             }
 
             &.coffee_text,
             &.motorcycle_text{
-              font-size: 28px;
+              font-size: 2.8vmin;
               display: flex;
               flex-direction: column;
               max-width: 80%;
 
               @media (max-width: 1124px) {
-                font-size: 18px;
+                font-size: 1.8vmin;
               }
 
               @media (max-width: 620px) {
                 max-width: 90%;
-                font-size: 16px;
-                margin-bottom: 25px;
+                font-size: 1.6vmin;
+                margin-bottom: 2.5vmin;
               }
             }
 
             &.scooter_text{
-              font-size: 28px;
+              font-size: 2.8vmin;
               display: flex;
               flex-direction: column;
               max-width: 80%;
 
               @media (max-width: 1620px) {
-                font-size: 24px;
+                font-size: 2.4vmin;
               }
 
               @media (max-width: 1620px) {
-                font-size: 18px;
+                font-size: 1.8vmin;
               }
 
               @media (max-width: 620px) {
                 max-width: 90%;
-                font-size: 16px;
-                margin-bottom: 25px;
+                font-size: 1.6vmin;
+                margin-bottom: 2.5vmin;
               }
             }
 
@@ -603,19 +602,19 @@
             &.tv_text,
             &.bike_text,
             &.laptop_text {
-              font-size: 28px;
+              font-size: 2.8vmin;
               display: flex;
               flex-direction: column;
               max-width: 80%;
 
               @media (max-width: 870px) {
-                font-size: 20px;
+                font-size: 2vmin;
               }
 
               @media (max-width: 620px) {
                 max-width: 90%;
-                font-size: 16px;
-                margin-bottom: 15px;
+                font-size: 1.6vmin;
+                margin-bottom: 1.5vmin;
               }
             }
 
@@ -631,10 +630,10 @@
           .gif {
             width: auto;
             position: absolute;
-            bottom: -70px;
+            bottom: -7vmin;
 
             @media (max-width: 1250px) {
-              bottom: -90px;
+              bottom: -9vmin;
             }
 
             @media (max-width: 1250px) {
@@ -642,11 +641,11 @@
             }
 
             img {
-              width: 38px;
+              width: 3.8vmin;
               object-fit: cover;
 
               @media (max-width: 920px) {
-                width: 26px;
+                width: 2.6vmin;
               }
 
             }
@@ -658,7 +657,7 @@
       .header_loft {
         display: flex;
         flex-direction: column;
-        padding: 40px 0 30px 60px;
+        padding: 4vmin 0 3vmin 6vmin;
 
         @media (max-width: 720px) {
           display: none;
@@ -666,20 +665,20 @@
 
         .loft_inner {
           color: white;
-          font-size: 36px;
+          font-size: 3.6vmin;
           font-weight: 100;
-          max-width: 600px;
+          max-width: 60vmin;
 
           @media (max-width: 972px) {
-            font-size: 26px;
-            max-width: 220px;
+            font-size: 2.6vmin;
+            max-width: 22vmin;
           }
         }
 
 
         .loft_inner_dop_log {
           font-weight: 100;
-          font-size: 72px;
+          font-size: 7.2vmin;
           color: white;
           font-style: normal;
         }
