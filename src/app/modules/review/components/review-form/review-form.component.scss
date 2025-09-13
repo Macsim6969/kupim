@@ -1,8 +1,8 @@
 .review_form {
   display: flex;
   flex-direction: column;
-  max-width: 1200px;
-  margin: 100px auto;
+  max-width: 120vmin;
+  margin: 10vmin auto;
 
   @media (max-width: 1250px) {
     width: 90%;
@@ -13,31 +13,31 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
-    gap: 15px;
+    gap: 1.5vmin;
 
     @media (max-width: 900px) {
       flex-direction: column-reverse;
       align-items: center;
-      gap: 25px;
+      gap: 2.5vmin;
     }
     .left {
       display: flex;
       flex-direction: column;
-      gap: 25px;
-      max-width: 450px;
+      gap: 2.5vmin;
+      max-width: 45vmin;
       width: 100%;
 
       .left_form {
         display: flex;
         flex-direction: column;
-        gap: 7px;
+        gap: 0.7vmin;
         width: 100%;
 
         textarea {
-          padding: 15px;
-          border-radius: 14px;
-          font-size: 1.6rem;
-          height: 250px;
+          padding: 1.5vmin;
+          border-radius: 1.4vmin;
+          font-size: 1.6vmin;
+          height: 25vmin;
           color: #535050;
           background-color: #F5F6FA;
           border: 0;
@@ -48,15 +48,15 @@
         input {
           border: 0;
           border-bottom: 1px solid #535050;
-          padding: 12px;
-          font-size: 1.4rem;
+          padding: 1.2vmin;
+          font-size: 1.4vmin;
           color: #535050;
           outline: none;
         }
 
         button {
-          margin-top: 15px;
-          font-size: 2rem;
+          margin-top: 1.5vmin;
+          font-size: 2vmin;
           text-align: center;
           color: #535050;
           font-weight: 400;
@@ -66,13 +66,13 @@
           display: flex;
           flex-direction: row;
           align-items: center;
-          gap: 5px;
+          gap: 0.5vmin;
 
           .star {
             position: relative;
             display: block;
-            width: 40px;
-            height: 40px;
+            width: 4vmin;
+            height: 4vmin;
             background-color: transparent;
             clip-path: polygon(50% 0%,
                 61% 35%,
@@ -104,7 +104,7 @@
         }
 
         p{
-          font-size: 1.6rem;
+          font-size: 1.6vmin;
           transition: all 0.5s ease;
           text-align: center;
           color: #535050;
@@ -117,17 +117,17 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      max-width: 450px;
-      gap: 75px;
+      max-width: 45vmin;
+      gap: 7.5vmin;
 
       p {
-        font-size: 1.6rem;
+        font-size: 1.6vmin;
         text-align: center;
         color: #535050;
       }
 
       img {
-        width: 250px;
+        width: 25vmin;
       }
     }
   }

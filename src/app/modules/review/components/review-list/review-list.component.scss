@@ -3,17 +3,17 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  max-width: 1480px;
-  margin: 100px auto;
+  max-width: 148vmin;
+  margin: 10vmin auto;
 
   @media (max-width: 1250px) {
     width: 90%;
   }
 
   .review_list_title {
-    font-size: 50px;
+    font-size: 5vmin;
     color: #535050;
-    margin-bottom: 50px;
+    margin-bottom: 5vmin;
   }
 
   .list {
@@ -23,48 +23,48 @@
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-    gap: 25px;
+    gap: 2.5vmin;
 
     @media (max-width: 900px) {
       justify-content: center;
-      gap: 15px;
+      gap: 1.5vmin;
     }
 
     .review {
       display: flex;
       flex-direction: column;
-      max-width: 450px;
+      max-width: 45vmin;
       width: 100%;
 
       .review_title {
         background-color: #f4f5f8;
-        border-radius: 20px;
-        padding: 25px;
-        font-size: 21px;
+        border-radius: 2vmin;
+        padding: 2.5vmin;
+        font-size: 2.1vmin;
         line-height: 1.5;
         color: #000;
-        margin-bottom: 10px;
-        max-width: 400px;
+        margin-bottom: 1vmin;
+        max-width: 40vmin;
 
         &::after {
           content: "";
           display: block;
-          height: 40px;
+          height: 4vmin;
           position: relative;
-          bottom: 38px;
+          bottom: 3.8vmin;
           background: -webkit-gradient(linear, left bottom, left top, from(#f4f5f8), to(rgba(255, 255, 255, .01)));
           background: linear-gradient(to top, #f4f5f8, #ffffff03);
         }
       }
 
       .review_name {
-        margin: 10px 0 5px;
-        font-size: 22px;
+        margin: 1vmin 0 0.5vmin;
+        font-size: 2.2vmin;
         font-weight: 500;
       }
 
       .review_email {
-        font-size: 18px;
+        font-size: 1.8vmin;
         color: #535050;
       }
 
@@ -72,13 +72,13 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 5px;
+        gap: 0.5vmin;
 
         .star {
           position: relative;
           display: block;
-          width: 40px;
-          height: 40px;
+          width: 4vmin;
+          height: 4vmin;
           background-color: transparent;
           clip-path: polygon(50% 0%,
             61% 35%,

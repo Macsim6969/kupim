@@ -2,14 +2,14 @@
   background-color: white;
 
   .review_cont {
-    max-width: 1480px;
+    max-width: 148vmin;
     width: 100%;
     margin: 0 auto;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px;
+    gap: 4vmin;
 
     @media (max-width: 1640px) {
       width: 90%;
@@ -20,11 +20,11 @@
     }
 
     .review_titile {
-      font-size: 50px;
+      font-size: 5vmin;
       color: #535050;
       font-weight: 600;
-      margin-bottom: 41px;
-      padding: 135px 0 0 0px;
+      margin-bottom: 4.1vmin;
+      padding: 13.5vmin 0 0 0;
       text-align: center;
 
       @media (max-width: 720px) {
@@ -38,36 +38,36 @@
       flex-direction: row;
 
       justify-content: space-between;
-      gap: 45px;
+      gap: 4.5vmin;
 
       @media (max-width: 920px) {
         flex-direction: column;
         align-items: center;
-        gap: 70px;
+        gap: 7vmin;
       }
     }
 
     .inner_comment {
       .comment_title {
         background-color: #f4f5f8;
-        border-radius: 20px;
-        padding: 25px 25px;
-        font-size: 21px;
+        border-radius: 2vmin;
+        padding: 2.5vmin 2.5vmin;
+        font-size: 2.1vmin;
         line-height: 1.5;
         color: black;
-        margin-bottom: 10px;
-        max-width: 400px;
+        margin-bottom: 1vmin;
+        max-width: 40vmin;
 
         @media (max-width: 620px) {
-          font-size: 18px;
+          font-size: 1.8vmin;
         }
 
         &::after {
           content: "";
           display: block;
-          height: 40px;
+          height: 4vmin;
           position: relative;
-          bottom: 38px;
+          bottom: 3.8vmin;
           background: -webkit-gradient(linear, left bottom, left top, from(#f4f5f8), to(rgba(255, 255, 255, 0.01)));
           background: linear-gradient(to top, #f4f5f8, rgba(255, 255, 255, 0.01));
         }
@@ -83,15 +83,15 @@
         flex-direction: row;
 
         .comment_staff_img {
-          margin: 5px 0 0 35px;
-          width: 40px;
+          margin: 0.5vmin 0 0 3.5vmin;
+          width: 4vmin;
         }
       }
 
       .staff_inner {
         .inner_info {
-          margin: 10px 0 5px 0;
-          font-size: 22px;
+          margin: 1vmin 0 0.5vmin 0;
+          font-size: 2.2vmin;
           font-weight: 500;
         }
 
@@ -102,12 +102,12 @@
       }
 
       .review_stars {
-        height: 28px;
+        height: 2.8vmin;
         object-fit: cover;
       }
 
       .review_starss {
-        font-size: 18px;
+        font-size: 1.8vmin;
         color: #535050;
       }
     }
@@ -117,7 +117,7 @@
       align-items: center;
       flex-direction: row;
       justify-content: flex-end;
-      margin: 100px 0 0 0;
+      margin: 10vmin 0 0 0;
 
       &:hover {
         .review_btn_inner {
@@ -127,34 +127,34 @@
 
       .review_btn_inner {
         text-decoration: none;
-        font-size: 22px;
+        font-size: 2.2vmin;
         width: 17%;
         color: #535050;
         font-weight: bold;
 
         @media (max-width: 720px) {
           width: 100%;
-          font-size: 20px;
+          font-size: 2vmin;
         }
       }
 
       a{
         img{
-          width: 22px;
+          width: 2.2vmin;
         }
       }
     }
 
     .header_google_reviews{
       margin: 0 auto;
-      height: 80px;
-      padding: 5px 70px;
-      border-radius: 35px;
+      height: 8vmin;
+      padding: 0.5vmin 7vmin;
+      border-radius: 3.5vmin;
       background: rgba(255, 255, 255, 0.1);
 
       @media (max-width: 768px) {
-        height: 40px;
-        margin: 15px 0;
+        height: 4vmin;
+        margin: 1.5vmin 0;
       }
     }
   }

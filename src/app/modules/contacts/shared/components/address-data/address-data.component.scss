@@ -1,9 +1,9 @@
 .firm {
   height: auto;
-  padding-top: 100px;
+  padding-top: 10vmin;
 
   .firm_container {
-    max-width: 1680px;
+    max-width: 168vmin;
     width: 100%;
     margin: 0 auto;
 
@@ -12,11 +12,11 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     position: relative;
-    padding: 0 0 70px 0;
+    padding: 0 0 7vmin 0;
 
     @media (max-width: 1700px) {
       width: 90%;
-      gap: 15px;
+      gap: 1.5vmin;
     }
 
     .cont_left {
@@ -29,62 +29,62 @@
       flex-direction: column;
 
       .left_local {
-        font-size: 20px;
-        padding-bottom: 25px;
+        font-size: 2vmin;
+        padding-bottom: 2.5vmin;
       }
 
       .left_work_time {
-        font-size: 20px;
+        font-size: 2vmin;
         color: #605f6e;
-        padding-bottom: 10px;
+        padding-bottom: 1vmin;
       }
 
       .left_time {
-        font-size: 20px;
-        padding-bottom: 8px;
-        padding-left: 15px;
+        font-size: 2vmin;
+        padding-bottom: 0.8vmin;
+        padding-left: 1.5vmin;
       }
 
       .left_contact {
-        padding-top: 15px;
-        font-size: 20px;
+        padding-top: 1.5vmin;
+        font-size: 2vmin;
         color: #605f6e;
-        padding-bottom: 10px;
+        padding-bottom: 1vmin;
       }
 
       .left_number {
-        font-size: 20px;
-        padding-bottom: 8px;
-        padding-left: 12px;
+        font-size: 2vmin;
+        padding-bottom: 0.8vmin;
+        padding-left: 1.2vmin;
         font-weight: 400;
       }
 
 
 
       .ima_inner {
-        font-size: 20px;
-        padding-bottom: 8px;
-        padding-left: 12px;
+        font-size: 2vmin;
+        padding-bottom: 0.8vmin;
+        padding-left: 1.2vmin;
         font-weight: 400;
       }
 
       .block__innner {
         text-decoration: none;
-        width: 200px;
+        width: 20vmin;
         display: block;
-        margin: 25px 0 10px 0px;
+        margin: 2.5vmin 0 1vmin 0;
 
         .block_inner {
-          max-width: 200px;
+          max-width: 20vmin;
           margin: 0 0 -8px 0;
-          height: 55px;
-          padding: 0 10px;
+          height: 5.5vmin;
+          padding: 0 1vmin;
           display: flex;
           flex-direction: row;
           align-items: center;
-          gap: 30px;
-          border-radius: 15px;
-          box-shadow: 0 0 12px 5px #cfcfcf;
+          gap: 3vmin;
+          border-radius: 1.5vmin;
+          box-shadow: 0 0 1.2vmin 5px #cfcfcf;
           overflow: hidden;
 
           &:hover {
@@ -98,14 +98,14 @@
           }
 
           .inner_img {
-            width: 45px;
+            width: 4.5vmin;
             object-fit: cover;
           }
 
 
 
           .inner_title {
-            font-size: 16px;
+            font-size: 1.6vmin;
             color: #535050;
             font-weight: 500;
           }
@@ -117,7 +117,7 @@
     .cont_right {
       @media (max-width: 920px) {
         iframe {
-          max-width: 320px;
+          max-width: 32vmin;
         }
       }
 

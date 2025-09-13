@@ -1,8 +1,8 @@
 .about {
-  margin-top: 100px;
+  margin-top: 10vmin;
 
   .abour_container {
-    max-width: 1500px;
+    max-width: 150vmin;
     width: 100%;
     margin: 0 auto;
     display: -webkit-box;
@@ -24,41 +24,41 @@
       justify-content: center;
 
       .about_log {
-        font-size: 50px;
+        font-size: 5vmin;
         font-weight: 700 !important;
         color: #535050;
-        margin: 70px 0 30px 0;
+        margin: 7vmin 0 3vmin 0;
         display: flex;
         justify-content: center;
         text-align: center;
 
         @media (max-width: 720px) {
-          font-size: 42px;
+          font-size: 4.2vmin;
           text-align: center;
-          margin: 0 0 30px 0;
+          margin: 0 0 3vmin 0;
         }
       }
 
       .about_undelog {
         font-weight: 400;
-        font-size: 28px;
+        font-size: 2.8vmin;
         color: #535050;
-        margin: 0 0 115px 0px;
+        margin: 0 0 11.5vmin 0;
         display: flex;
         justify-content: center;
         white-space: normal;
         text-align: center;
 
         @media (max-width: 720px) {
-          font-size: 24px;
+          font-size: 2.4vmin;
           text-align: center;
-          margin: 0 0 25px 0;
+          margin: 0 0 2.5vmin 0;
         }
       }
     }
 
     .about_inner {
-      margin: 0 0 150px 0px;
+      margin: 0 0 15vmin 0;
 
       display: flex;
       flex-direction: row;
@@ -83,44 +83,44 @@
         align-items: center;
 
         .step1_img {
-          width: 275px;
+          width: 27.5vmin;
         }
 
         .step1_img1 {
-          width: 220px;
-          margin: 10px 0 18px 0;
+          width: 22vmin;
+          margin: 1vmin 0 1.8vmin 0;
         }
 
         .step1_img2 {
-          width: 245px;
-          height: 242px;
+          width: 24.5vmin;
+          height: 24.2vmin;
         }
 
         .step1_img3 {
-          width: 245px;
-          height: 245px;
+          width: 24.5vmin;
+          height: 24.5vmin;
         }
 
         .step1_log {
           font-weight: 500;
-          font-size: 30px;
-          margin: 15px 0 8px 0px;
+          font-size: 3vmin;
+          margin: 1.5vmin 0 0.8vmin 0;
           color: #535050;
         }
 
         .step1_underlog {
-          width: 368px;
-          margin: 0 0 0 0px;
-          font-size: 26px;
+          width: 36.8vmin;
+          margin: 0 0 0 0;
+          font-size: 2.6vmin;
           text-align: center;
 
           @media (max-width: 1320px) {
-            font-size: 22px;
-            width: 260px;
+            font-size: 2.2vmin;
+            width: 26vmin;
           }
 
           @media (max-width: 920px) {
-            width: 320px;
+            width: 32vmin;
           }
 
           @media (max-width: 375px) {
@@ -131,22 +131,22 @@
 
         .block__innner {
           text-decoration: none;
-          width: 200px;
+          width: 20vmin;
           display: block;
-          margin: 25px 0 0 0px;
+          margin: 2.5vmin 0 0 0;
 
           .block_inner {
-            max-width: 200px;
+            max-width: 20vmin;
             margin: 0 0 -8px 0;
-            height: 55px;
-            padding: 0 10px;
+            height: 5.5vmin;
+            padding: 0 1vmin;
             display: flex;
 
             flex-direction: row;
             align-items: center;
-            gap: 30px;
-            border-radius: 15px;
-            box-shadow: 0 0 12px 5px #cfcfcf;
+            gap: 3vmin;
+            border-radius: 1.5vmin;
+            box-shadow: 0 0 1.2vmin 0.5vmin #cfcfcf;
             overflow: hidden;
 
             &:hover {
@@ -160,20 +160,18 @@
             }
 
             .inner_img {
-              width: 45px;
+              width: 4.5vmin;
               object-fit: cover;
             }
 
             .block_inner {
-
-
               .inner_img {
-                width: 45px;
+                width: 4.5vmin;
                 object-fit: cover;
               }
 
               .inner_title {
-                font-size: 16px;
+                font-size: 1.6vmin;
                 color: #535050;
                 font-weight: 500;
               }
@@ -182,30 +180,30 @@
         }
 
         .step1_inderimg {
-          width: 240px;
+          width: 24vmin;
           position: absolute;
-          top: 2340px;
-          left: 147px;
+          top: 234vmin;
+          left: 14.7vmin;
         }
 
         .step2_inderimg {
-          width: 240px;
-          margin: 0px 0 10px 25px;
+          width: 24vmin;
+          margin: 0 0 1vmin 2.5vmin;
         }
       }
 
       .about_inner_brd {
         border-top: 2px solid #c6c5c5;
-        width: 121px;
-        margin: 135px 0 0 0;
+        width: 12.1vmin;
+        margin: 13.5vmin 0 0 0;
 
         @media (max-width: 920px) {
           display: flex;
           border-top: 0;
           width: 0;
           border-left: 2px solid #c6c5c5;
-          height: 121px;
-          margin: 35px 0 0 0;
+          height: 12.1vmin;
+          margin: 3.5vmin 0 0 0;
 
         }
       }
@@ -220,14 +218,14 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-around;
-  padding-bottom: 90px;
+  padding-bottom: 9vmin;
 
   form{
     margin: auto 0;
   }
 
   img {
-    height: 450px;
+    height: 45vmin;
     object-fit: cover;
   }
 
@@ -235,27 +233,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 35px;
+    padding-top: 3.5vmin;
 
-    max-width: 780px;
+    max-width: 78vmin;
     width: 100%;
 
     &_title {
-      font-size: 2.4rem;
+      font-size: 2.4vmin;
       font-weight: 600;
       color: white;
-      padding-bottom: 10px;
+      padding-bottom: 1vmin;
       text-align: center;
     }
 
     &_city {
-      font-size: 2.4rem;
+      font-size: 2.4vmin;
       font-weight: 400;
       color: white;
-      margin-bottom: 15px;
+      margin-bottom: 1.5vmin;
       width: 100%;
       text-align: left;
-      max-width: 620px;
+      max-width: 62vmin;
 
       @media (max-width: 720px) {
         text-align: center;
@@ -268,8 +266,8 @@
 
     //asdasd
     &_text {
-      width: 600px;
-      font-size: 1.4rem;
+      width: 60vmin;
+      font-size: 1.4vmin;
       font-weight: 300;
       color: white;
       margin: 0 0 0 auto;
@@ -284,8 +282,8 @@
     }
 
     .text {
-      padding: 5px;
-      max-width: 950px;
+      padding: 0.5vmin;
+      max-width: 95vmin;
 
       @media (max-width: 768px) {
         max-width: fit-content;
@@ -306,34 +304,34 @@
   form {
     display: flex;
     flex-direction: column;
-    gap: 25px;
-    padding: 65px;
-    border-radius: 40px;
+    gap: 2.5vmin;
+    padding: 6.5vmin;
+    border-radius: 4vmin;
     background: rgba(255, 255, 255, 0.1);
 
     @media (max-width: 768px) {
-      padding: 25px;
-      width: 250px;
+      padding: 2.5vmin;
+      width: 25vmin;
     }
 
     .about_form_block {
       display: flex;
       flex-direction: column;
-      gap: 4px;
+      gap: 0.4vmin;
 
       label {
-        font-size: 22px;
+        font-size: 2.2vmin;
         color: #fdfdfd;
       }
 
       input {
-        font-size: 22px;
+        font-size: 2.2vmin;
         background: #b5c0bf;
-        padding: 15px 20px;
+        padding: 1.5vmin 2vmin;
         outline: none;
         border: none;
         color: #575757;
-        border-radius: 14px;
+        border-radius: 1.4vmin;
       }
 
     }
@@ -344,9 +342,9 @@
       color: white;
       outline: none;
       border: none;
-      border-radius: 14px;
-      font-size: 22px;
-      padding: 15px 20px;
+      border-radius: 1.4vmin;
+      font-size: 2.2vmin;
+      padding: 1.5vmin 2vmin;
     }
 
     input.invalid {
@@ -355,8 +353,8 @@
 
     .error {
       color: red;
-      margin-top: 4px;
-      font-size: 18px;
+      margin-top: 0.4vmin;
+      font-size: 1.8vmin;
     }
 
   }
@@ -479,7 +477,7 @@
 
   @media (max-width: 1280px) {
     flex-direction: column;
-    gap: 10px;
+    gap: 1vmin;
     align-items: center;
   }
 
@@ -488,7 +486,7 @@
       width: 90%;
       object-fit: cover;
       height: auto;
-      margin-bottom: 15px;
+      margin-bottom: 1.5vmin;
     }
 
     .linear_location {

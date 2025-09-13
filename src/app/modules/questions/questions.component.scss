@@ -5,7 +5,7 @@
 
   .asq_container {
     margin: 0 auto;
-    max-width: 1550px;
+    max-width: 155vmin;
     width: 100%;
 
     @media (max-width: 1570px) {
@@ -20,13 +20,13 @@
       display: flex;
       justify-content: center;
       color: #535050;
-      font-size: 50px;
+      font-size: 5vmin;
       font-weight: 600;
-      margin: 150px auto 20px 0;
+      margin: 15vmin auto 2vmin 0;
       text-align: center;
 
       @media (max-width: 720px) {
-        font-size: 42px;
+        font-size: 4.2vmin;
       }
     }
 
@@ -38,11 +38,11 @@
       -ms-flex-pack: center;
       justify-content: center;
       color: #646464;
-      font-size: 26px;
-      margin: 0 auto 75px 0px;
+      font-size: 2.6vmin;
+      margin: 0 auto 7.5vmin 0;
 
       @media (max-width: 720px) {
-        font-size: 24px;
+        font-size: 2.4vmin;
       }
     }
 
@@ -55,10 +55,10 @@
       align-items: center;
 
       .asq_bnt {
-        border-top: 1px solid #e1e1e1;
-        max-width: 900px;
+        border-top: 0.1vmin solid #e1e1e1;
+        max-width: 90vmin;
         width: 100%;
-        margin: 0 0 50px 0px;
+        margin: 0 0 5vmin 0;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -73,9 +73,9 @@
         flex-direction: row;
 
         justify-content: center;
-        margin: 0 0 25px 0;
+        margin: 0 0 2.5vmin 0;
         width: 100%;
-        max-width: 780px;
+        max-width: 78vmin;
       }
 
       .dopp__inner {
@@ -85,7 +85,7 @@
         flex-direction: row;
 
         justify-content: center;
-        margin: 0 0 25px 0px;
+        margin: 0 0 2.5vmin 0;
         width: 100%;
 
         .dopp____inner {
@@ -96,13 +96,13 @@
         }
 
         .dopp_collaps {
-          font-size: 20px;
+          font-size: 2vmin;
           color: black;
           font-weight: bolder;
           cursor: pointer;
-          border: 0px;
+          border: 0;
           outline: none;
-          margin: 0 0 20px 0;
+          margin: 0 0 2vmin 0;
           background-color: white;
 
           h3{
@@ -110,7 +110,7 @@
           }
 
           @media (max-width: 720px) {
-            font-size: 18px;
+            font-size: 1.8vmin;
             text-align: left;
           }
 
@@ -128,13 +128,13 @@
               content: "";
               background-image: url('/assets/img/global/arrow.svg');
               background-size: cover;
-              height: 23px;
-              width: 22px;
+              height: 2.3vmin;
+              width: 2.2vmin;
               display: inline-block;
               vertical-align: middle;
               position: relative;
-              left: 5px;
-              bottom: 2px;
+              left: 0.5vmin;
+              bottom: 0.2vmin;
             }
           }
 
@@ -144,21 +144,21 @@
             cursor: pointer;
 
             @media (max-width: 720px) {
-              font-size: 18px;
+              font-size: 1.8vmin;
             }
           }
         }
 
         .dopp_content {
-          margin: 10px 0 0 0;
+          margin: 1vmin 0 0 0;
           max-height: 0;
-          font-size: 20px;
+          font-size: 2vmin;
           overflow: hidden;
           transition: max-height 0.2s ease-in-out;
           color: #2b2b2b;
-          width: 750px;
+          width: 75vmin;
           transition: all 0.2s ease;
-          padding: 0 0 0 30px;
+          padding: 0 0 0 3vmin;
 
           ::ng-deep strong{
             font-weight: 400;
@@ -166,7 +166,7 @@
 
           @media (max-width: 920px) {
             width: 90%;
-            padding: 0 0 0 10px;
+            padding: 0 0 0 1vmin;
           }
 
           &.active {
@@ -177,32 +177,32 @@
 
 
         .list_btn {
-          width: 25px;
+          width: 2.5vmin;
           cursor: pointer;
         }
 
         .list_btn1 {
-          width: 25px;
+          width: 2.5vmin;
           cursor: pointer;
           position: absolute;
-          right: 533px;
+          right: 53.3vmin;
           display: none;
         }
       }
     }
 
     .last_info_h {
-      font-size: 20px;
-      margin: 15px 0px;
+      font-size: 2vmin;
+      margin: 1.5vmin 0;
       font-weight: bold;
     }
 
     .last_info {
-      font-size: 20px;
-      margin: 15px 0px;
+      font-size: 2vmin;
+      margin: 1.5vmin 0;
 
       @media (max-width: 720px) {
-        font-size: 18px;
+        font-size: 1.8vmin;
       }
     }
   }

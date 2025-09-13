@@ -5,18 +5,18 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  gap: 15px;
-  margin-bottom: 50px;
+  gap: 1.5vmin;
+  margin-bottom: 5vmin;
 
   img{
     cursor: pointer;
-    width: 250px;
+    width: 25vmin;
     @media (max-width: 620px) {
       display: none;
     }
     &.isMobileActive {
       @media (max-width: 620px) {
-        width: 150px;
+        width: 15vmin;
         display: block;
       }
     }

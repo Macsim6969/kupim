@@ -1,10 +1,10 @@
 .information {
   height: auto;
   background-color: #281332;
-  padding-bottom: 100px;
+  padding-bottom: 10vmin;
 
   .information_cont {
-    max-width: 960px;
+    max-width: 96vmin;
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -18,12 +18,12 @@
 
   .information_log {
     color: white;
-    font-size: 26px;
-    margin: 80px 0 80px 0;
+    font-size: 2.6vmin;
+    margin: 8vmin 0;
   }
 
   .brd {
-    max-width: 960px;
+    max-width: 96vmin;
     width: 100%;
     border-top: 1px solid white;
 
@@ -55,26 +55,26 @@
 
       .left_log {
         color: white;
-        font-size: 22px;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        font-size: 2.2vmin;
+        margin-top: 3vmin;
+        margin-bottom: 3vmin;
       }
 
       .inner_local {
-        width: 285px;
-        margin: 0 0 35px 30px;
+        width: 28.5vmin;
+        margin: 0 0 3.5vmin 3vmin;
         text-align: center;
 
         &.two{
-          margin: 0 0 50px 0;
+          margin: 0 0 5vmin 0;
 
           @media (max-width: 768px) {
-            margin: 0 0 35px 30px !important;
+            margin: 0 0 3.5vmin 3vmin !important;
           }
         }
 
         a{
-          font-size: 18px;
+          font-size: 1.8vmin;
           color: white;
           text-decoration: none;
         }
@@ -87,26 +87,26 @@
           content: "";
           background-image: url('/assets/img/global/Geometrics.svg');
           background-size: cover;
-          height: 23px;
-          width: 18px;
+          height: 2.3vmin;
+          width: 1.8vmin;
           display: inline-block;
           vertical-align: middle;
           position: relative;
-          right: 30px;
-          bottom: 4px;
+          right: 3vmin;
+          bottom: 0.4vmin;
         }
       }
 
       .inner_day_work_log {
-        font-size: 18px;
+        font-size: 1.8vmin;
         color: #605f6e;
-        margin: 0 0 15px 0;
+        margin: 0 0 1.5vmin 0;
       }
 
       .inner_day_work {
         color: white;
-        font-size: 18px;
-        margin: 0 0 15px 25px;
+        font-size: 1.8vmin;
+        margin: 0 0 1.5vmin 2.5vmin;
       }
 
 
@@ -131,39 +131,39 @@
       }
 
       .right_mn {
-        font-size: 19px;
-        margin: 30px 0 20px 0;
+        font-size: 1.9vmin;
+        margin: 3vmin 0 2vmin 0;
         color: #524a5f;
       }
 
       .right_name {
-        font-size: 19px;
+        font-size: 1.9vmin;
         color: white;
-        margin: 0 0 20px 0;
+        margin: 0 0 2vmin 0;
       }
 
       .right_direct {
-        font-size: 19px;
-        margin: 0 0 20px 0;
+        font-size: 1.9vmin;
+        margin: 0 0 2vmin 0;
         color: #524a5f;
       }
 
       .right_direct_tel {
-        margin: 12px 0 30px 10px;
-        font-size: 20px;
+        margin: 1.2vmin 0 3vmin 1vmin;
+        font-size: 2vmin;
         color: white;
 
         &::before {
           content: "";
           background-image: url('/assets/img/global/Phone.svg');
           background-size: cover;
-          height: 30px;
-          width: 29px;
+          height: 3vmin;
+          width: 2.9vmin;
           display: inline-block;
           vertical-align: middle;
           position: relative;
-          right: 10px;
-          bottom: 2px;
+          right: 1vmin;
+          bottom: 0.2vmin;
         }
 
         a{
@@ -174,26 +174,25 @@
 
       .block__innner {
         text-decoration: none;
-        width: 200px;
-        display: block;
-        margin: 15px 0 0 0px;
+        width: 20vmin;
+        margin: 1.5vmin 0 0 0;
         border: 1px solid white;
-        border-radius: 15px;
-        padding: 0 10px;
+        border-radius: 1.5vmin;
+        padding: 0 1vmin;
         display: flex;
         flex-direction: row;
         align-items: center;
 
         .block_inner {
-          max-width: 130px;
-          margin: 0 0 0px 0;
-          height: 55px;
+          max-width: 13vmin;
+          margin: 0 0 0 0;
+          height: 5.5vmin;
           display: flex;
           flex-direction: row;
           align-items: center;
           justify-content: space-between;
-          border-radius: 15px;
-          gap: 30px;
+          border-radius: 1.5vmin;
+          gap: 3vmin;
 
           &:hover {
             .inner_title {
@@ -206,15 +205,15 @@
           }
 
           .inner_img {
-            width: 45px;
-            margin: 0px 13px 0 2px;
+            width: 4.5vmin;
+            margin: 0 1.3vmin 0 0.2vmin;
           }
 
           .inner_title {
-            font-size: 16px;
+            font-size: 1.6vmin;
             color: #ffffff;
             font-weight: 500;
-            padding: 17px 0px;
+            padding: 1.7vmin 0;
           }
         }
       }

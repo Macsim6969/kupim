@@ -1,6 +1,6 @@
 .about {
   .abour_container {
-    max-width: 1500px;
+    max-width: 150vmin;
     width: 100%;
     margin: 0 auto;
     display: -webkit-box;
@@ -20,38 +20,38 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      
+
       .about_log{
-        font-size: 50px;
+        font-size: 5vmin;
         font-weight: 700 !important;
         color: #535050;
-        margin: 70px 0 30px 0px;
+        margin: 7vmin 0 3vmin 0;
         display: flex;
         justify-content: center;
-  
+
         @media (max-width: 720px) {
-          font-size: 42px;
+          font-size: 4.2vmin;
           text-align: center;
         }
       }
       .about_undelog {
         font-weight: 400;
-        font-size: 28px;
+        font-size: 2.8vmin;
         color: #535050;
-        margin: 0 0 115px 0px;
+        margin: 0 0 11.5vmin 0;
         display: flex;
         justify-content: center;
-  
+
         @media (max-width: 720px) {
-          font-size: 24px;
+          font-size: 2.4vmin;
           text-align: center;
-          margin: 0 0 55px 0;
+          margin: 0 0 5.5vmin 0;
         }
       }
     }
 
     .about_inner {
-      margin: 0 0 150px 0px;
+      margin: 0 0 15vmin 0;
 
       display: flex;
       flex-direction: row;
@@ -76,66 +76,66 @@
         align-items: center;
 
         .step1_img {
-          width: 275px;
+          width: 27.5vmin;
         }
 
         .step1_img1 {
-          width: 220px;
-          margin: 10px 0 18px 0;
+          width: 22vmin;
+          margin: 1vmin 0 1.8vmin 0;
         }
 
         .step1_img2 {
-          width: 245px;
-          height: 242px;
+          width: 24.5vmin;
+          height: 24.2vmin;
         }
 
         .step1_img3 {
-          width: 245px;
-          height: 245px;
+          width: 24.5vmin;
+          height: 24.5vmin;
         }
 
         .step1_log {
           font-weight: 500;
-          font-size: 30px;
-          margin: 15px 0 8px 0px;
+          font-size: 3vmin;
+          margin: 1.5vmin 0 0.8vmin 0;
           color: #535050;
         }
 
         .step1_underlog {
-          width: 368px;
-          margin: 0 0 0 0px;
-          font-size: 26px;
+          width: 36.8vmin;
+          margin: 0;
+          font-size: 2.6vmin;
           text-align: center;
 
           @media (max-width: 1320px) {
-            font-size: 22px;
-            width: 260px;
+            font-size: 2.2vmin;
+            width: 26vmin;
           }
 
           @media (max-width: 920px) {
-            width: 320px;
+            width: 32vmin;
           }
 
         }
 
         .block__innner {
           text-decoration: none;
-          width: 200px;
+          width: 20vmin;
           display: block;
-          margin: 25px 0 0 0px;
+          margin: 2.5vmin 0 0 0;
 
           .block_inner {
-            max-width: 200px;
-            margin: 0 0 -8px 0;
-            height: 55px;
-            padding: 0 10px;
+            max-width: 20vmin;
+            margin: 0 0 -0.8vmin 0;
+            height: 5.5vmin;
+            padding: 0 1vmin;
             display: flex;
 
             flex-direction: row;
             align-items: center;
-            gap: 30px;
-            border-radius: 15px;
-            box-shadow: 0 0 12px 5px #cfcfcf;
+            gap: 3vmin;
+            border-radius: 1.5vmin;
+            box-shadow: 0 0 1.2vmin 0.5vmin #cfcfcf;
             overflow: hidden;
 
             &:hover {
@@ -149,20 +149,20 @@
             }
 
             .inner_img {
-              width: 45px;
+              width: 4.5vmin;
               object-fit: cover;
             }
 
             .block_inner {
 
-              
+
               .inner_img {
-                width: 45px;
+                width: 4.5vmin;
                 object-fit: cover;
               }
 
               .inner_title {
-                font-size: 16px;
+                font-size: 1.6vmin;
                 color: #535050;
                 font-weight: 500;
               }
@@ -171,30 +171,30 @@
         }
 
         .step1_inderimg {
-          width: 240px;
+          width: 24vmin;
           position: absolute;
-          top: 2340px;
-          left: 147px;
+          top: 234vmin;
+          left: 14.7vmin;
         }
 
         .step2_inderimg {
-          width: 240px;
-          margin: 0px 0 10px 25px;
+          width: 24vmin;
+          margin: 0 0 1vmin 2.5vmin;
         }
       }
 
       .about_inner_brd {
         border-top: 2px solid #c6c5c5;
-        width: 121px;
-        margin: 135px 0 0 0;
+        width: 12.1vmin;
+        margin: 13.5vmin 0 0 0;
 
         @media (max-width: 920px) {
           display: flex;
           border-top: 0;
           width: 0;
           border-left: 2px solid #c6c5c5;
-          height: 121px;
-          margin: 35px 0 0 0;
+          height: 12.1vmin;
+          margin: 3.5vmin 0 0 0;
 
         }
       }
@@ -204,7 +204,7 @@
 
 .linear {
   width: 100%;
-  height: 136px;
+  height: 13.6vmin;
 
   &.laptop {
     background: linear-gradient(86deg, #b95988 0%, #b95988 36%, #202227 100%);
@@ -315,7 +315,7 @@
   }
 
   @media (max-width: 720px) {
-    height: 72px;
+    height: 7.2vmin;
   }
 
 }

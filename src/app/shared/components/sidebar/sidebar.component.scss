@@ -10,21 +10,21 @@
 }
 
 .popup {
-  padding: 22px 35px;
+  padding: 2.2vmin 3.5vmin;
   z-index: 10;
   overflow-x: hidden;
-  border-radius: 45px;
+  border-radius: 4.5vmin;
   transition: all 1s ease-in;
   animation: animator 0.5s;
 
   .popup_header {
     display: flex;
     justify-content: flex-end;
-    margin: 30px 0 -13px 0;
-    padding: 0 30px;
+    margin: 3vmin 0 -1.3vmin 0;
+    padding: 0 3vmin;
 
     .headerr__inner {
-      font-size: 25px;
+      font-size: 2.5vmin;
       text-decoration: none;
       color: white;
     }
@@ -34,17 +34,17 @@
     }
 
     .close {
-      margin-top: -15px;
+      margin-top: -1.5vmin;
       cursor: pointer;
-      width: 26px;
+      width: 2.6vmin;
     }
   }
 
   .popup_body {
-    padding: 2px 0;
+    padding: 0.2vmin 0;
     display: flex;
     align-items: center;
-    gap: 13px;
+    gap: 1.3vmin;
     flex-direction: column;
 
     .bd {
@@ -52,8 +52,8 @@
       cursor: pointer;
 
       .body__inner {
-        margin: 0 20px 0 30px;
-        font-size: 25px;
+        margin: 0 2vmin 0 3vmin;
+        font-size: 2.5vmin;
         text-decoration: none;
         color: white;
       }
@@ -61,11 +61,11 @@
   }
 
   .popup_footer {
-    margin: 30px 0;
-    padding: 2px 16px;
+    margin: 3vmin 0;
+    padding: 0.2vmin 1.6vmin;
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 1.5vmin;
 
     .block__innner {
       text-decoration: none;
@@ -89,7 +89,7 @@
         justify-content: space-between;
 
         .inner_img {
-          width: 48px;
+          width: 4.8vmin;
 
         }
 

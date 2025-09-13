@@ -1,6 +1,6 @@
 .choice_trans {
   .choice_trans_cont {
-    max-width: 1500px;
+    max-width: 150vmin;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -15,13 +15,13 @@
       display: flex;
 
       justify-content: center;
-      font-size: 50px;
+      font-size: 5vmin;
       font-weight: 700;
       color: #535050;
-      margin: 151px 0 30px 0px;
+      margin: 15vmin 0 30px 0;
 
       @media (max-width: 768px) {
-        font-size: 42px;
+        font-size: 4.2vmin;
         text-align: center;
       }
     }
@@ -31,9 +31,9 @@
       display: flex;
 
       justify-content: center;
-      font-size: 30px;
+      font-size: 3vmin;
       color: #535050;
-      margin: 0 0 110px 0px;
+      margin: 0 0 11vmin 0;
       text-align: center;
     }
 
@@ -67,11 +67,11 @@
       }
 
       .transport_inner_view {
-        width: 300px;
+        width: 30vmin;
         height: auto;
 
         @media (max-width: 720px) {
-          width: 220px;
+          width: 22vmin;
         }
       }
     }

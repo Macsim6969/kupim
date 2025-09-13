@@ -1,6 +1,6 @@
 .prod_info {
-  padding: 80px 0 100px 0;
-  max-width: 1440px;
+  padding: 8vmin 0 10vmin 0;
+  max-width: 144vmin;
   width: 100%;
   margin: 0 auto;
 
@@ -9,7 +9,7 @@
   }
 
   @media (max-width: 720px) {
-    padding: 60px 0 30px 0;
+    padding: 6vmin 0 3vmin 0;
   }
 
   .prod_info_h {
@@ -19,30 +19,30 @@
     justify-content: center;
 
     .info_title {
-      font-size: 50px;
+      font-size: 5vmin;
       font-weight: bolder;
       color: #535050;
-      margin: 70px 0 30px 0px;
+      margin: 7vmin 0 3vmin 0;
       text-align: center;
       display: flex;
       justify-content: center;
 
       @media (max-width: 720px) {
-        font-size: 42px;
+        font-size: 4.2vmin;
       }
     }
 
 
 
     .info_undelog {
-      font-size: 28px;
+      font-size: 2.8vmin;
       color: #535050;
       font-weight: normal;
       display: flex;
       justify-content: center;
 
       @media (max-width: 720px) {
-        font-size: 24px;
+        font-size: 2.4vmin;
         text-align: center;
       }
     }
@@ -55,13 +55,13 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding-top: 110px;
+    padding-top: 11vmin;
 
     &.buildings{
       .btn{
         .car_find_img{
           @media (max-width: 576px) {
-            width: 125px !important;
+            width: 12.5vmin !important;
           }
 
         }
@@ -71,12 +71,12 @@
 
     @media (max-width: 860px) {
       justify-content: center;
-      column-gap: 50px;
-      row-gap: 25px;
+      column-gap: 5vmin;
+      row-gap: 2.5vmin;
     }
 
     @media (max-width: 720px) {
-      padding-top: 60px;
+      padding-top: 6vmin;
     }
 
     @media (max-width: 620px) {
@@ -102,12 +102,12 @@
     }
 
     .car_find_img {
-      width: 280px;
+      width: 28vmin;
       height: auto;
       object-fit: cover;
 
       @media (max-width: 720px) {
-        width: 220px;
+        width: 22vmin;
       }
     }
   }

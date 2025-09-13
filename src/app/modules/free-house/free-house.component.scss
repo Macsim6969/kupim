@@ -1,28 +1,28 @@
 :host {
   .free-house {
-    padding: 60px;
+    padding: 6vmin;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 60px;
+    gap: 6vmin;
     background: linear-gradient(86deg, #298275 0%, #298275 36%, #20242b 100%);
 
     &-left {
       display: flex;
       flex-direction: column;
-      gap: 20px;
+      gap: 2vmin;
 
       &-title {
-        font-size: 2.4rem;
+        font-size: 2.4vmin;
         font-weight: 600;
         color: white;
-        padding-bottom: 10px;
+        padding-bottom: 1vmin;
         text-align: center;
       }
 
       &-text {
-        font-size: 1.4rem;
+        font-size: 1.4vmin;
         font-weight: 300;
         color: white;
 
@@ -36,8 +36,8 @@
       }
 
       .text {
-        padding: 5px;
-        max-width: 950px;
+        padding: 0.5vmin;
+        max-width: 95vmin;
 
         .strong {
           font-weight: bold;
@@ -47,7 +47,7 @@
     }
 
     &-right {
-      margin: auto 50px auto 0;
+      margin: auto 5vmin auto 0;
 
       @media (max-width: 768px) {
         margin: 0;
@@ -56,34 +56,33 @@
       form {
         display: flex;
         flex-direction: column;
-        gap: 25px;
-        padding: 65px;
-        border-radius: 40px;
+        gap: 2.5vmin;
+        padding: 6.5vmin;
+        border-radius: 4vmin;
         background: rgba(255, 255, 255, 0.1);
 
         @media (max-width: 768px) {
-          padding: 25px;
-          width: 250px;
+          padding: 2.5vmin;
+          width: 25vmin;
         }
 
         .about_form_block {
           display: flex;
           flex-direction: column;
-          gap: 4px;
-
+          gap: 0.4vmin;
           label {
-            font-size: 22px;
+            font-size: 2.2vmin;
             color: #fdfdfd;
           }
 
           input {
-            font-size: 22px;
+            font-size: 2.2vmin;
             background: #b5c0bf;
-            padding: 15px 20px;
+            padding: 1.5vmin 2vmin;
             outline: none;
             border: none;
             color: #575757;
-            border-radius: 14px;
+            border-radius: 1.4vmin;
           }
 
         }
@@ -94,9 +93,9 @@
           color: white;
           outline: none;
           border: none;
-          border-radius: 14px;
-          font-size: 22px;
-          padding: 15px 20px;
+          border-radius: 1.4vmin;
+          font-size: 2.2vmin;
+          padding: 1.5vmin 2vmin;
         }
 
         input.invalid {
@@ -105,8 +104,8 @@
 
         .error {
           color: red;
-          margin-top: 4px;
-          font-size: 18px;
+          margin-top: 0.4vmin;
+          font-size: 1.8vmin;
         }
 
       }

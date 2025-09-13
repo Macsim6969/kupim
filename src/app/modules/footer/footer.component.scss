@@ -5,7 +5,7 @@
   background-color: #f4f5f8;
 
   .footer_container {
-    max-width: 1366px;
+    max-width: 136.6vmin;
     margin: 0 auto;
     width: 100%;
     display: -webkit-box;
@@ -21,7 +21,7 @@
     }
 
     .footer_inner {
-      padding: 40px 0 0 0;
+      padding: 4vmin 0 0 0;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -32,9 +32,9 @@
       }
 
       .footer_inner_title {
-        font-size: 36px;
+        font-size: 3.6vmin;
         font-weight: 600;
-        padding: 10px 0 0 0;
+        padding: 1vmin 0 0 0;
 
         @media (max-width: 720px) {
           display: none;
@@ -46,24 +46,24 @@
         justify-content: space-between;
         flex-direction: row;
         align-items: center;
-        gap: 15px;
+        gap: 1.5vmin;
 
         .dop_inner {
           display: flex;
           align-items: center;
-          gap: 10px;
+          gap: 1vmin;
 
           .dop_inner_img {
-            width: 50px;
+            width: 5vmin;
           }
 
           .dop{
-            width: 47px;
+            width: 4.7vmin;
           }
         }
 
         .foot_dop_inner {
-          padding: 20px 0 0 0;
+          padding: 2vmin 0 0 0;
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
@@ -77,15 +77,15 @@
           }
 
           .inner_contact_phone {
-            font-size: 24px;
+            font-size: 2.4vmin;
             text-decoration: none;
             color: black;
           }
 
           .foot_fop_local {
-            font-size: 20px;
+            font-size: 2vmin;
             color: black;
-            padding-bottom: 30px;
+            padding-bottom: 3vmin;
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
@@ -96,7 +96,7 @@
 
           mat-form-field{
             //test
-            height: 42px;
+            height: 4.2vmin;
             ::ng-deep{
               .mat-mdc-text-field-wrapper{
                 border: none;
@@ -116,35 +116,35 @@
 
 
     .footer_btn {
-      margin-bottom: 45px;
-      max-width: 1366px;
+      margin-bottom: 4.5vmin;
+      max-width: 136.6vmin;
       border-top: 1px solid #e2e1e1;
     }
 
     .footer_loft {
-      margin: 0 auto 15px 0;
+      margin: 0 auto 1.5vmin 0;
       @media (max-width: 620px) {
-        margin: 0 auto 15px auto;
+        margin: 0 auto 1.5vmin auto;
       }
 
       @media (max-width: 420px) {
-        margin: 0 0 15px 0;
+        margin: 0 0 1.5vmin 0;
       }
 
       .loft_inner {
         flex-direction: row;
         display: flex;
         justify-content: space-between;
-        gap: 35px;
+        gap: 3.5vmin;
 
         @media (max-width: 1240px) {
-          gap: 15px;
+          gap: 1.5vmin;
           flex-wrap: wrap;
           justify-content: flex-start;
         }
 
         @media (max-width: 620px) {
-          gap: 15px;
+          gap: 1.5vmin;
           display: grid;
           grid-template-columns: repeat(2, 1fr);
           justify-content: flex-start;
@@ -156,7 +156,7 @@
         }
 
         .footer_loft_inner {
-          font-size: 17px;
+          font-size: 1.7vmin;
           text-decoration: none;
           color: black;
           text-transform: uppercase;
@@ -176,27 +176,27 @@
       -webkit-box-pack: justify;
       -ms-flex-pack: justify;
       justify-content: space-between;
-      padding-top: 35px;
-      margin-bottom: 30px;
+      padding-top: 3.5vmin;
+      margin-bottom: 3vmin;
 
       .footer_last_title {
-        padding: 35px 0 0 0;
+        padding: 3.5vmin 0 0 0;
         color: #5a5a5a;
-        font-size: 18px;
+        font-size: 1.8vmin;
       }
 
       .loft_lof_contact_img {
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 15px;
+        gap: 1.5vmin;
         @media (max-width: 620px) {
           display: none;
         }
 
         .loft_contact_img1,
         .loft_contact_img {
-          width: 50px;
+          width: 5vmin;
           height: 100%;
           object-fit: cover;
         }
