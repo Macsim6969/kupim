@@ -1,0 +1,263 @@
+{
+  "key": [
+    "easy-step",
+    "prod",
+    "free-dop-block"
+  ],
+  "dashboard": {
+    "state": "State of Florida",
+    "title": "Sell Laptop in Atlanta",
+    "location": "Get instant cash for your used laptop today. Share your laptop’s model, and we’ll provide an instant online quote — no commitment, no hassle. We’ll pick it up directly from your home and finalize the transaction on the spot.",
+    "index": true,
+    "footerDescription": "",
+    "metaTitle": "Sell used Laptop in Atlanta, GA",
+    "description": "Sell your used or broken laptop in Atlanta and receive same-day payment. Request a quick online quote and enjoy fast pickup right from your home.",
+    "keywords": "sell my laptop in Miami, cash laptop buyers Miami, sell broken laptop Miami, get cash for used laptop Miami, same day laptop pickup Miami, laptop trade-in near me Miami, who buys laptops in Miami, fast laptop sale Miami, laptop buyback service Miami, sell gaming laptop for cash Miami, Miami laptop recycling and resale, sell old laptop for money Miami, Miami laptop selling service, best place to sell laptop in Miami, laptop resale quote Miami, how to sell laptop near Miami, used laptop buyers Miami, no hassle laptop sale Miami, laptop pickup service Miami, sell laptop as-is Miami, laptop selling process Miami, Apple MacBook buyers in Miami, secure laptop sale Miami, fast cash for laptops Miami, laptop resale without shipping Miami",
+    "ogTitle": "Sell Your Laptop for Cash in Atlanta, GA",
+    "ogDescription": "Professional laptop buyback service in Atlanta. Get a cash offer for your laptop the same day — working or broken.",
+    "ogType": "website",
+    "ogUrl": "https://buddy-cash.com/ga/sell-my-laptop-in-atlanta",
+    "ogImage": "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
+    "image": "/assets/img/laptop/Laptop Miami.webp",
+    "bgImage": "laptop_miami",
+    "class": "laptop_text",
+    "altImage": "Sell old laptop in Atlanta",
+    "isChangedCountry": true,
+    "state_index": "Miami",
+    "arrayStates": [
+      {
+        "name": "State of Florida",
+        "value": "Florida",
+        "disabled": false,
+        "link": "/fl/laptop"
+      },
+      {
+        "name": "Atlanta GA",
+        "value": "GA",
+        "disabled": false,
+        "link": "/ga/sell-my-laptop-in-atlanta"
+      },
+      {
+        "name": "Orlando FL",
+        "value": "Orlando",
+        "disabled": false,
+        "link": "/fl/sell-my-laptop-in-orlando"
+      },
+      {
+        "name": "Jacksonville FL",
+        "value": "Jacksonville",
+        "disabled": false,
+        "link": "/fl/sell-my-laptop-in-jacksonville"
+      },
+      {
+        "name": "St. Petersburg Fl",
+        "value": "Petersburg",
+        "disabled": false,
+        "link": "/fl/sell-my-laptop-in-st-petersburg"
+      },
+      {
+        "name": "Miami FL",
+        "value": "Miami",
+        "disabled": false,
+        "link": "/fl/sell-my-laptop-in-miami"
+      }
+    ]
+  },
+  "prodInfo": {
+    "title": "Who Buys Old Laptops in Atlanta?",
+    "text": "Whether your laptop is old, recently repaired, brand-new, or completely broken — we’ll review it carefully and make you a fair cash offer. Our Atlanta team handles every case individually, from minor issues to full water damage. Below are a few common laptop conditions we accept every day:",
+    "content": [
+      {
+        "img": "/assets/img/laptop/After_repair.png",
+        "alt": "Sell after repair laptop"
+      },
+      {
+        "img": "/assets/img/laptop/New.png",
+        "alt": "Sell new laptop"
+      },
+      {
+        "img": "/assets/img/laptop/Old.png",
+        "alt": "Sell old laptop"
+      },
+      {
+        "img": "/assets/img/laptop/Purchased.png",
+        "alt": "Sell purchased laptop"
+      },
+      {
+        "img": "/assets/img/laptop/Under_repair.png",
+        "alt": "Sell under repair laptop"
+      }
+    ]
+  },
+  "easySteps": {
+    "title": "How to Sell Your Laptop Fast in Atlanta",
+    "text": "Skip the hassle of visiting pawn shops or wasting time on marketplace listings — our Atlanta team made the process simple and transparent. Just send us a few photos of your laptop, and we’ll give you an instant cash offer. The price we quote online is the same you’ll receive when we meet in person.",
+    "style": "laptop",
+    "contentStep1": {
+      "step": "Step 1",
+      "stepText": "Send pictures and your laptop model via any convenient messaging app.",
+      "contact": "SEND"
+    },
+    "contentStep2": {
+      "step": "Step 2",
+      "stepText": "Schedule an on-site visit or quick drop-off appointment at a time that fits your schedule."
+    },
+    "contentStep3": {
+      "step": "Step 3",
+      "stepText": "Get paid instantly — in cash, via Zelle, bank transfer, or check."
+    },
+    "location": {
+      "url": "/assets/img/easy-steps/Cash for Laptop Miami.webp",
+      "alt": "Laptop Buyers Near Atlanta",
+      "title": "Laptop Buyers Near Atlanta",
+      "location_city": "",
+      "description": "We provide professional, same-day laptop buying services throughout the Greater Atlanta area. If you’re located in one of the nearby cities listed below, our technician can meet you at your home or business and complete the deal on the spot with instant cash payment. Average arrival time is about 2–3 hours from your confirmed appointment. <br> Service Areas: <br/> Atlanta, Marietta, Sandy Springs, Decatur, Roswell, Smyrna, Alpharetta, Brookhaven, and Norcross. <br/>ZIP Codes Covered: <br/>30303, 30305, 30306, 30307, 30308, 30309, 30310, 30311, 30312, 30318, 30324, 30327, 30328, 30338, 30339, 30340, 30341, 30342, 30345, 30349, 30030, 30032, 30033, 30060, 30062, 30067, 30068. "
+    }
+  },
+  "aboutInfo": {
+    "title": "Best Place to Sell",
+    "text": "Your Laptop in Atlanta",
+    "list": [
+      {
+        "src": "/assets/img/laptop/about/car.svg",
+        "title": "Instant cash offers – Get paid immediately after our team evaluates your laptop.",
+        "alt": "Any condition"
+      },
+      {
+        "src": "/assets/img/laptop/about/sack.svg",
+        "title": "Free pickup anywhere in the Atlanta area – We travel to surrounding neighborhoods, from Marietta to Decatur.",
+        "alt": "Fast cash"
+      },
+      {
+        "src": "/assets/img/laptop/about/lock.svg",
+        "title": "Total privacy guaranteed – Your personal information and transaction details stay completely confidential.",
+        "alt": "Multiple locations"
+      },
+      {
+        "src": "/assets/img/laptop/about/bank.svg",
+        "title": "Multiple payment options – Choose cash, Zelle, Venmo, or instant bank transfer.",
+        "alt": "Damage specialists"
+      },
+      {
+        "src": "/assets/img/laptop/about/time.svg",
+        "title": "Zero travel costs – Pickup is always free, with no hidden fees or service charges.",
+        "alt": "Confidential transactions"
+      },
+      {
+        "src": "/assets/img/laptop/about/thumbs-up.svg",
+        "title": "All laptop conditions accepted – Working, broken, or completely dead — we buy them all.",
+        "alt": "Warranty support"
+      },
+      {
+        "src": "/assets/img/laptop/about/flag.svg",
+        "title": "Professional data removal – Complete hard drive wiping and account deactivation included with every purchase.",
+        "alt": "Expert evaluation"
+      },
+      {
+        "src": "/assets/img/laptop/about/bills.svg",
+        "title": "Fast online quotes – Send photos and receive your preliminary offer within 30 minutes.",
+        "alt": "Free shipping"
+      },
+      {
+        "src": "/assets/img/laptop/about/chain.svg",
+        "title": "Damage specialists – Water-damaged, cracked, missing parts, or hardware failures — we’ll still make you a fair offer.",
+        "alt": "Legal program"
+      }
+    ]
+  },
+  "information": {
+    "location": "235 Peachtree St NE, Suite 400, Atlanta, GA 30303"
+  },
+  "testimonials": {
+    "title": "Client Reviews from Google Maps",
+    "feedback": [
+      {
+        "content": "Super easy and fast! I contacted them in the morning, and they met me downtown Atlanta the same afternoon. Got paid exactly what they quoted online — no surprises. Highly recommend if you want cash the same day.",
+        "name": "Emily R.",
+        "prod": "(Sold Laptop Dell XPS 15)",
+        "stars": 5
+      },
+      {
+        "content": "They came a bit later than expected, but everything else went great. The tech was friendly and explained the whole process clearly. I got a fair offer for my gaming laptop even with a cracked screen. Would definitely use again.",
+        "name": "Marcus T.",
+        "prod": "(Sold Laptop HP Omen 16)",
+        "stars": 4
+      },
+      {
+        "content": "I was a bit skeptical at first, but the process was 100% legit. Quick quote, polite tech, and payment via Zelle on the spot. Honestly the easiest sale I’ve done in Atlanta.",
+        "name": "Sofia L.",
+        "prod": "(Sold Laptop MacBook Air M2)",
+        "stars": 5
+      }
+    ],
+    "content": "Open Google Maps"
+  },
+  "questions": {
+    "title": "Have Questions?",
+    "descr": "We're Happy to Help",
+    "isOpenAll": true,
+    "listAsq": [
+      {
+        "title": "Who buys broken laptops in Atlanta?",
+        "content": "We specialize in buying all kinds of laptops across the Greater Atlanta area — including non-working, damaged, or water-exposed devices. Whether your screen is cracked, the battery doesn’t hold charge, or the laptop doesn’t power on at all, we’ll evaluate it for parts and make you a fair cash offer the same day."
+      },
+      {
+        "title": "Do I need to delete my personal data before selling?",
+        "content": "Not necessarily. Our technicians perform a full drive format and professional data removal before completing every purchase. However, if you prefer, you can back up your files or sign out of your accounts first — just to keep your own peace of mind."
+      },
+      {
+        "title": "What do I need to sell my laptop?",
+        "content": "You’ll just need your laptop and a valid ID. Having the charger and original box may increase the offer slightly. We buy most major brands including Apple, Dell, HP, Lenovo, Asus, Acer, and MSI."
+      },
+      {
+        "title": "How does the laptop selling process work?",
+        "content": "Simply send us a few photos of your laptop to get an instant quote. If you accept the offer, one of our technicians will come directly to your location — home, office, or public place — and complete the purchase the same day. You’ll get paid immediately by cash, Zelle, or bank transfer."
+      }
+    ],
+    "isSlider": true,
+    "slidersData": [
+      {
+        "img": "/assets/img/main_page/Electronics.png",
+        "alt": "Sell my Electronics",
+        "link": "/fl/electronics",
+        "isActiveMobile": true
+      },
+      {
+        "img": "/assets/img/electronics/Camera.svg",
+        "alt": "Sell my Car",
+        "link": "/fl/camera",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/electronics/TV.svg",
+        "alt": "Sell my Motorcycle",
+        "link": "/fl/tv",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/electronics/Coffee_maker.svg",
+        "alt": "Sell my Bike",
+        "link": "/fl/coffee-maker",
+        "isActiveMobile": false
+      },
+      {
+        "img": "/assets/img/See_all.webp",
+        "alt": "See All",
+        "link": "/fl",
+        "isActiveMobile": true
+      }
+    ],
+    "listBottom1": {
+      "title": "",
+      "text": ""
+    },
+    "listBottom2": {
+      "title": "",
+      "text": ""
+    }
+  },
+  "free-house": {
+    "title": "Cash for Used Laptops — Same Day in Atlanta",
+    "text": "Before taking your laptop to a pawn shop or spending weeks trying to sell it on Facebook, OfferUp, or eBay, take five minutes to get our offer — it could save you from accepting a low price later. <br/><br/> You can be confident we’ll provide a clear, no-obligation cash offer for your laptop — no spam, no pressure, no unwanted follow-up calls. <br/><br/> All information you share with us is kept strictly confidential and will never be disclosed to third parties."
+  }
+}

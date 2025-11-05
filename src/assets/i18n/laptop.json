@@ -31,6 +31,12 @@
         "link": "/fl/laptop"
       },
       {
+        "name": "Atlanta GA",
+        "value": "GA",
+        "disabled": false,
+        "link": "/ga/sell-my-laptop-in-atlanta"
+      },
+      {
         "name": "Orlando FL",
         "value": "Orlando",
         "disabled": false,
