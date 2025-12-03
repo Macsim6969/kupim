@@ -39,6 +39,11 @@ const routes: Routes = [
       import('./modules/review/review.module').then((m) => m.ReviewModule),
   },
   {
+    path: 'quote',
+    loadChildren: () =>
+      import('./modules/about-us/about-us.module').then((m) => m.AboutUsModule),
+  },
+  {
     path: 'about-us',
     loadChildren: () =>
       import('./modules/about-us/about-us.module').then((m) => m.AboutUsModule),

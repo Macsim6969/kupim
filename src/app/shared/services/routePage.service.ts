@@ -42,6 +42,7 @@ export class RoutePageService {
     '/review': 'review',
     '/online-appraisal': 'online-appraisal',
     '/about-us': 'about-us',
+    '/quote': 'about-us',
     '/blog': 'blog',
     '/others': 'others',
     '/fl/gear': 'gear',
