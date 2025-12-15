@@ -6,6 +6,7 @@ export interface EasySteps {
   contentStep2: Steps
   contentStep3: Steps,
   location: LocationLinear
+  isLinear: boolean
 }
 
 export interface Steps {

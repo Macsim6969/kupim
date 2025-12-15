@@ -1,0 +1,28 @@
+<section class="quote">
+  <div class="blur"></div>
+  <div class="quote_header">
+    <div class="quote_header_back-to-home"><p>Back to home</p></div>
+      <div class="quote_header_menu {{(isSidebar$ | async) ? 'active' : ''}}" id="burger" (click)="openMenu()">
+        <img *ngIf="!(isSidebar$ | async)" class="menu_img" src="/assets/img/Menu.webp">
+        <img *ngIf="(isSidebar$ | async)" class="menu_img" src="/assets/img/close_menu.png">
+        <div class="menu_list">MENU</div>
+      </div>
+    </div>
+    <div class="quote_center">
+      <p>We Buy Your Used Items For Cash</p>
+    </div>
+  <div class="quote_footer">
+    <p class="quote_footer_title">Get Your Free Quote Now</p>
+    <p class="quote_footer_txt">(5-10 min response)</p>
+    <div class="icon_row">
+      <a class="phone" href="tel: +17275091449"><img class="navigation_network"
+                                                     src="/assets/img/global/Phone.webp" ></a>
+      <a class="icon" href="sms:+17275091449"><img class="navigation_network" src="/assets/img/base_icon/IMessage.webp"
+      ></a>
+      <a class="icon" href="https://wa.me/7275091449"><img class="navigation_network"
+                                                           src="/assets/img/WhatsApp.webp" ></a>
+      <a class="icon" target="_blank" href="mailto:buddycash.fl@gmail.com"><img src="/assets/img/EmailApp.webp"
+      ></a>
+    </div>
+  </div>
+</section>

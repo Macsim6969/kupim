@@ -261,25 +261,6 @@
           display: none;
         }
 
-        .header_nav_main {
-          display: flex;
-
-          flex-direction: row;
-          justify-content: space-between;
-
-          .nav_main_inner {
-            text-decoration: none;
-            color: white;
-            font-size: 17px;
-            margin-left: 35px;
-            cursor: pointer;
-            padding: 5px 0;
-
-            &:hover {
-              border-bottom: 1px solid white;
-            }
-          }
-        }
       }
 
       .header_home_title {

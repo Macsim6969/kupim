@@ -1,0 +1,118 @@
+{
+  "dashboard": {
+    "state": "State of Florida",
+    "title": "Pawn Shop Miami",
+    "location": "<strong>Buddy Cash offers a fresh approach to pawn shop services and item sales with instant online estimates and free home visits. We operate across all of Florida, promptly evaluating and purchasing your items same-day regardless of your location.</strong>",
+    "index": true,
+    "footerDescription": "",
+    "metaTitle": "Pawn Shop Miami – Same-day cash for used items",
+    "description": "Pawn shop Miami, pawn shop, pawn shop near you, pawn shop buddy cash, buddy cash, buddy cash, sell my used items, sell used items, cash for my used items, sell used items",
+    "keywords": "Pawn shop Miami, pawn shop in Miami, pawn shop near you, pawn shop buddy cash, buddy cash, buddy cash in Miami, sell my used items, sell used items, cash for my used items, sell used items in Miami",
+    "ogTitle": "Buddy Cash – Used Item Buyback Service in Florida",
+    "ogDescription": "Fast 5–10 minute evaluation and same-day payment for your used items. Send photos, schedule a visit, and get paid instantly",
+    "ogType": "website",
+    "ogUrl": "https://buddy-cash.com/",
+    "ogImage": "https://firebasestorage.googleapis.com/v0/b/lcii-cd674.appspot.com/o/images%2FSell_used_item.png?alt=media&token=5d2aeacd-b8d3-4e9c-92a5-3a389041d7d4",
+    "image": "/assets/img/main_page/main_logo.svg",
+    "bgImage": "main",
+    "class": "main_text",
+    "alt": "Pawn Shop in Miami"
+  },
+  "prodInfo": {
+    "title": "Select Your",
+    "text": "Item Category",
+    "content": [
+      {
+        "img": "/assets/img/main_page/Transport.png",
+        "route": "/fl/transport",
+        "alt": "Sell transport",
+        "isBlock": false
+      },
+      {
+        "img": "/assets/img/main_page/Furniture.png",
+        "route": "/fl",
+        "alt": "Sell furniture",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/main_page/Electronics.png",
+        "route": "/fl/electronics",
+        "alt": "Sell electronicks",
+        "isBlock": false
+      },
+      {
+        "img": "/assets/img/main_page/Real_estate.png",
+        "route": "/fl/real-estate",
+        "alt": "Junk removal service",
+        "isBlock": false
+      },
+      {
+        "img": "/assets/img/main_page/Junk_removal_service.png",
+        "route": "/fl",
+        "alt": "Sell Junk removal service",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/main_page/Gear.png",
+        "route": "/fl/gear",
+        "alt": "Sell gear",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/main_page/gold.png",
+        "route": "/fl/gold",
+        "alt": "Sell Gold",
+        "isBlock": true
+      },
+      {
+        "img": "/assets/img/main_page/Others.png",
+        "route": "/fl/others",
+        "alt": "Sell others",
+        "isBlock": true
+      }
+    ]
+  },
+  "easySteps": {
+    "title": "How It Works?",
+    "text": "3 Simple Steps to Get Cash",
+    "style": "main",
+    "contentStep1": {
+      "step": "Step 1",
+      "stepText": "Submit photos and model information via your preferred messaging method (5-10 min evaluation)",
+      "contact": "SEND"
+    },
+    "contentStep2": {
+      "step": "Step 2",
+      "stepText": "Schedule a purchase appointment at your home or visit our office"
+    },
+    "contentStep3": {
+      "step": "Step 3",
+      "stepText": "Receive same-day payment via Zelle or cash"
+    },
+    "isLinear": true
+  },
+  "questions": {
+    "title": "Have Questions?",
+    "descr": "We're Happy to Help",
+    "isOpenAll": true,
+    "listAsq": [
+      {
+        "title": "What if I don't like your offer?",
+        "content": "Our service is designed for evaluation only - there's absolutely no obligation to sell. If our price doesn't meet your expectations, that's completely understandable. We guarantee no spam, no pressure, and no sales tactics. Our role is simply to provide a fair quote, and the decision remains entirely yours. We're also open to negotiation if you'd like to discuss the price. "
+      },
+      {
+        "title": "How quickly can you arrive?",
+        "content": "In most cases, we provide same-day service. Occasionally, appointments may be scheduled for the next day depending on time of day, holidays, or if specialized transportation is required for larger items. We'll confirm your appointment time when you contact us."
+      },
+      {
+        "title": "What condition does my item need to be in?",
+        "content": "To be honest, damaged items rarely hold significant value. However, we are interested in high-value items that can be repaired or used for parts. This includes cameras, laptops, scooters, and vehicles - we're happy to discuss the specifics with you and evaluate whether we can make an offer."
+      },
+      {
+        "title": "Is this safe and secure?",
+        "content": "Our mission is to make selling simple and straightforward. We help you sell without the hassle of posting on marketplace platforms, managing messages, arranging meetings, or handling shipping. After your online evaluation, rest assured your information will never be shared with third parties, and you'll never receive spam or promotional emails from us."
+      }
+    ],
+    "isSlider": false
+  }
+}
