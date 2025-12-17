@@ -1,7 +1,7 @@
 <section class="quote">
   <div class="blur"></div>
   <div class="quote_header">
-    <div class="quote_header_back-to-home"><p>Back to home</p></div>
+    <button class="quote_header_back-to-home" [routerLink]="['/']"><p>Back to home</p></button>
       <div class="quote_header_menu {{(isSidebar$ | async) ? 'active' : ''}}" id="burger" (click)="openMenu()">
         <img *ngIf="!(isSidebar$ | async)" class="menu_img" src="/assets/img/Menu.webp">
         <img *ngIf="(isSidebar$ | async)" class="menu_img" src="/assets/img/close_menu.png">
@@ -26,3 +26,7 @@
     </div>
   </div>
 </section>
+
+<div class="review">
+  <img src="./assets/img/Google-Reviews.webp" class="header_google_reviews">
+</div>
